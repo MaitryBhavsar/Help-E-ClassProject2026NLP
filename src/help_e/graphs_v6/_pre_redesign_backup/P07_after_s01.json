@@ -1,0 +1,165 @@
+{
+  "profile_id": "P07",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "cautious",
+      "traditional",
+      "risk-averse"
+    ],
+    "core_values": [
+      "family legacy",
+      "tradition",
+      "responsible growth"
+    ],
+    "core_beliefs": [],
+    "support_system": "sister, family",
+    "hobbies_interests": [],
+    "communication_style": "emotional, expressive",
+    "relevant_history": "family business, investor deadline",
+    "general_behavioral_traits": [
+      "overthinker",
+      "emotionally reactive"
+    ]
+  },
+  "problems": {
+    "conflicts_with_partner": {
+      "problem_name": "conflicts_with_partner",
+      "first_mentioned": [
+        1,
+        4
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees the conflict as highly pressing due to the deadline",
+              "concise_explanation": "deadline next week amplifies the conflict's urgency",
+              "supporting_utterance_span": "investor deadline next week",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees the conflict as highly severe due to the deadline and potential consequences",
+              "concise_explanation": "user is 'exhausted and scared'",
+              "supporting_utterance_span": "I\u2019m exhausted and scared that we\u2019ll miss the investor deadline or end up with a failed expansion",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "sister's push for rapid expansion is a trigger for the conflict",
+              "concise_explanation": "sister's expansion plans are a source of tension",
+              "supporting_utterance_span": "my sister keeps pushing for rapid expansion",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "sister's focus on numbers and push for rapid expansion triggers the conflict",
+              "concise_explanation": "sister 'only focuses on the numbers'",
+              "supporting_utterance_span": "Every time I bring up the risks, she only focuses on the numbers",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        4
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees the deadline and sister's opposition as barriers to resolving the conflict",
+              "concise_explanation": "deadline and sister's pushback hinder the user's ability to address concerns",
+              "supporting_utterance_span": "every conversation feels like a dead end",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees the deadline and potential consequences as significant barriers to resolving the issue",
+              "concise_explanation": "user is 'scared that we\u2019ll miss the investor deadline or end up with a failed expansion'",
+              "supporting_utterance_span": "I\u2019m exhausted and scared that we\u2019ll miss the investor deadline or end up with a failed expansion",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "conflicts_with_partner",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I'm stuck between preserving our family legacy and the pressure to keep the business competitive"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I just feel like I'm shouting into a wall. Every time I bring up the risks, she only focuses on the numbers and wants to move fast. I\u2019m exhausted and scared that we\u2019ll miss the investor deadline or end up with a failed expansion"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "causal",
+          "connection_explanation": "the conflict with the sister triggers the work stress, which in turn creates barriers to resolving the conflict",
+          "supporting_utterance_span": "I'm stuck between preserving our family legacy and the pressure to keep the business competitive",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "causal",
+          "connection_explanation": "the conflict with the sister triggers the work stress, which in turn creates barriers to resolving the issue",
+          "supporting_utterance_span": "Every time I bring up the risks, she only focuses on the numbers and wants to move fast. I\u2019m exhausted and scared that we\u2019ll miss the investor deadline or end up with a failed expansion",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 1.0
+    }
+  ]
+}

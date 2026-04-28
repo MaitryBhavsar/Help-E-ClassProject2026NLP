@@ -1,0 +1,2434 @@
+{
+  "session_id": 4,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-critical, perfectionistic, procrastinator",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm failing at being the provider"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "I feel like I'm stuck in a loop of procrastination and exhaustion"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, avoidant, procrastinator, perfectionistic",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep thinking I should cut down on screen time or start a routine, but I just can't seem to get a handle on it"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "I feel like I'm stuck in a loop of procrastination and exhaustion"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "Mortgage is overdue and I can't focus on interviews because the baby keeps waking up every two hours. I feel like I'm failing at being the provider, but I don't know how to get back on track. Maybe I should cut down on screen time and start a routine, but I'm stuck on what to do next."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The mortgage being overdue and the baby's sleep disruptions must be really weighing on you, making it hard to focus on interviews and feeling like you're failing as a provider. It sounds like even small steps, like cutting down on screen time or starting a routine, feel huge right now. Have you considered what tiny, manageable step you could take today to start moving forward, even if it's just opening one job listing or dedicating a few minutes to your resume?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Honestly, I feel like I'm failing, with the mortgage overdue and the baby waking every two hours. I keep thinking I should cut down on screen time or start a routine, but I just can't seem to get a handle on it. Maybe if I just did one job listing, but I don't know if that will help."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The mortgage being overdue and the baby's sleep disruptions must be really weighing on you. You're feeling like you're failing as a provider, and it's hard to see a way forward right now. Even small steps, like cutting down on screen time or starting a routine, feel huge. But you're considering taking a tiny step, like opening one job listing, which is a start. What do you think might happen if you just took that one small step, and then stopped to assess how you feel before deciding what to do next?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I just opened a job listing, but the baby keeps waking every two hours and I still can't focus on anything.  It feels like a small win that might not even make a dent in the mortgage or the job search.  Maybe I should just keep scrolling instead of trying to get anything done."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You've taken a step by opening a job listing, and that's something, even if it feels like a small win right now. The baby's sleep schedule is still unpredictable, and that's making it tough to focus on anything, including your job search. It's understandable that you're questioning the value of taking small steps when everything feels so overwhelming. Yeah, it's hard to see how these tiny actions will add up to make a dent in the mortgage or the job search, but maybe that's not the point right now. Maybe the point is just to keep moving, even if it's just a tiny bit, and see what happens next."
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I opened the job listing, but I still feel like I'm stuck in a loop\u2014no progress, no sleep, no relief. The mortgage is still overdue and the baby keeps waking up every two hours, so even a tiny step feels pointless. Maybe I should just keep scrolling instead of forcing myself to do anything."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You've been trying to take small steps, like opening that job listing, but it's hard to see how it's making a difference when the mortgage is still overdue and the baby's waking up every two hours. It's like you're running on a treadmill and not getting anywhere. I can understand why even tiny steps feel pointless right now. Yeah, it's tough to keep going when everything feels so overwhelming. Maybe we can explore what's making it hard for you to focus on your job search, beyond just the baby's sleep schedule."
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I keep scrolling and feeling stuck; the baby won't sleep, so I keep missing interviews. It feels like I'm failing as a provider, and I'm just stuck in a loop.\n"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling really stuck right now, like you're not making any progress, and that's weighing heavily on you. It's like everything is piling up - the mortgage, the baby's sleep schedule, and your job search - and you're just trying to keep your head above water. It sounds like even the small steps you've been trying to take, like opening job listings, feel pointless when the baby's not sleeping and you're missing interviews. Yeah, it's tough to see a way forward when everything feels so overwhelming. What's the hardest part of this loop for you - is it the lack of sleep, the pressure of providing, or something else entirely?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I think the hardest part is the lack of sleep; it drains me and I can't focus on the job search or even think about the mortgage. I feel like I'm stuck in a loop of procrastination and exhaustion. The whole situation just feels overwhelming and I don't know what to do next."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The lack of sleep is really draining you, and it's no wonder you're feeling stuck in this loop of procrastination and exhaustion. It's like everything is piling up - the baby's sleep schedule, the mortgage, and your job search - and you're just trying to keep your head above water. Yeah, it's tough to focus on anything when you're running on empty. Maybe we can explore what tiny, manageable steps you could take to start addressing the sleep issue, even if it's just a small adjustment to your daily routine."
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "Honestly, a 10\u2011minute wind\u2011down routine feels absurd when the baby crashes every two hours and I still miss interviews. I think the job search is just another distraction that doesn't solve the mortgage problem. Maybe I need to figure out if a sleep schedule change is realistic before I tackle the next interview."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The idea of a 10-minute wind-down routine does feel absurd when the baby is waking every two hours and you're already feeling overwhelmed. It's like you're being pulled in too many directions and can't catch a break. I can understand why you're questioning the job search and wondering if a sleep schedule change is more pressing. Maybe we can explore what a sleep schedule change would even look like for you, and whether it's something that could help alleviate some of the stress you're feeling."
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "Honestly, a 10\u2011minute wind\u2011down feels impossible when the baby\u2019s waking every two hours and I still can\u2019t get any sleep. I\u2019m not sure a schedule would help, and the mortgage is overdue so I\u2019m stuck worrying about money. Maybe the job search is the only thing that could bring in cash soon, but I keep falling into procrastination because I feel like a failure."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The idea of a 10-minute wind-down routine does feel absurd when the baby is waking every two hours and you're already feeling overwhelmed. It's like you're being pulled in too many directions and can't catch a break. I can understand why you're questioning your ability to get anything done, especially when you're feeling like a failure. Yeah, it's tough to see a way forward when everything feels so overwhelming. Maybe we can explore how your feelings of failure are impacting your motivation to tackle the job search - is it the fear of not being good enough, or something else entirely?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I guess the failure thing is mostly about not being good enough to land a decent job right now\u2014yet I still have the experience. The baby\u2019s two\u2011hour wakeups keep pulling me back into procrastination, and I can\u2019t even get a full night\u2019s rest. I\u2019m not sure if this cycle is solvable or just a new phase of life I\u2019m still adjusting to."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The baby's wakeups are really disrupting your life, and it's no wonder you're feeling like you're not good enough to land a decent job right now. It's tough to see yourself as capable when you're running on empty and feeling pulled back into procrastination. I can understand why you'd feel that way, especially with the added pressure of the mortgage and job search. It might be helpful to explore what small, manageable steps you could take to start addressing the sleep issue, even if it's just a tiny adjustment to your daily routine."
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "Honestly, I don't know if a 10\u2011minute routine will change anything when the baby keeps waking up every couple of hours. I keep falling back into procrastination because I feel like a failure and the mortgage pressure is just too much to ignore."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "It's really tough to see a way forward when you're feeling like a failure and the mortgage pressure is mounting. The baby's wakeups are disrupting your life, and it's no wonder you're struggling to focus on anything. I can understand why you'd feel like a 10-minute routine wouldn't make a difference when you're being pulled back into procrastination every couple of hours. Maybe we can explore how your sleep problems are impacting your daily life, and see if there are any small adjustments you could make to start feeling more in control."
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 4,
+      "turn_id": 1,
+      "user_message": "Mortgage is overdue and I can't focus on interviews because the baby keeps waking up every two hours. I feel like I'm failing at being the provider, but I don't know how to get back on track. Maybe I should cut down on screen time and start a routine, but I'm stuck on what to do next.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now, given their intent to express emotion. The strategies that fit this moment are support and facilitate, as they're in the preparation stage for financial stress. The evidence that stands out is the user feeling overwhelmed by the pressure of securing a new role with the mortgage due and their struggle to think about how to move forward, alongside the added stress of their wife returning to work and the baby's unpredictable sleep schedule. The entry point for my response should be acknowledging the weight of their current situation, specifically the feeling of being stuck and the fear of not finding a good fit before the mortgage deadline.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "feeling overwhelmed by the pressure of securing a new role with the mortgage due"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "struggling to balance baby duties with job hunting"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "baby's sleep is getting better, which may be a positive development"
+          }
+        ],
+        "final_response": "The mortgage being overdue and the baby's sleep disruptions must be really weighing on you, making it hard to focus on interviews and feeling like you're failing as a provider. It sounds like even small steps, like cutting down on screen time or starting a routine, feel huge right now. Have you considered what tiny, manageable step you could take today to start moving forward, even if it's just opening one job listing or dedicating a few minutes to your resume?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "work_stress",
+          "sleep_problems",
+          "caregiver_stress",
+          "conflicts_with_partner",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 2,
+      "user_message": "Honestly, I feel like I'm failing, with the mortgage overdue and the baby waking every two hours. I keep thinking I should cut down on screen time or start a routine, but I just can't seem to get a handle on it. Maybe if I just did one job listing, but I don't know if that will help.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle right now, given their intent to express emotion. The strategies that fit this moment are support and facilitate, which will help the user feel understood and encouraged to take small steps. The evidence shows that the user is feeling overwhelmed by the pressure of securing a new role, and is struggling to think about how to move forward, with the mortgage overdue and the baby's unpredictable sleep schedule making it hard to focus. The user's consideration of taking a small step, like opening one job listing, is a positive development that I can acknowledge and build on. My entry will be to reflect the user's feelings of failure and overwhelm, and then facilitate their thinking about what tiny, manageable steps they could take to start moving forward.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "feeling overwhelmed by the pressure of securing a new role"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "baby's unpredictable sleep schedule making it hard to focus"
+          },
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "feeling like failing as a provider"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "considering taking a small step, like opening one job listing"
+          }
+        ],
+        "final_response": "The mortgage being overdue and the baby's sleep disruptions must be really weighing on you. You're feeling like you're failing as a provider, and it's hard to see a way forward right now. Even small steps, like cutting down on screen time or starting a routine, feel huge. But you're considering taking a tiny step, like opening one job listing, which is a start. What do you think might happen if you just took that one small step, and then stopped to assess how you feel before deciding what to do next?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "sleep_problems",
+          "caregiver_stress",
+          "conflicts_with_partner",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 3,
+      "user_message": "I just opened a job listing, but the baby keeps waking every two hours and I still can't focus on anything.  It feels like a small win that might not even make a dent in the mortgage or the job search.  Maybe I should just keep scrolling instead of trying to get anything done.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and I can see that you're feeling overwhelmed by the pressure of securing a new role with the mortgage due next week. Given your intent to express emotion, I'll start by reflecting on the struggles you're facing. The candidate strategies that seem most fitting are support and facilitate, as they align with your current preparation stage. I've taken into account your recent attempts to take small steps, like opening a job listing, and how the baby's unpredictable sleep schedule is making it hard to focus. My entry point will be to acknowledge the uncertainty and frustration you're feeling about the effectiveness of these small steps.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "user is struggling to balance baby duties with job hunting and is procrastinating on updating their resume"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "user feels like they're failing with the mortgage overdue and the baby waking every two hours"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "user is self-critical and perfectionistic"
+          }
+        ],
+        "final_response": "You've taken a step by opening a job listing, and that's something, even if it feels like a small win right now. The baby's sleep schedule is still unpredictable, and that's making it tough to focus on anything, including your job search. It's understandable that you're questioning the value of taking small steps when everything feels so overwhelming. Yeah, it's hard to see how these tiny actions will add up to make a dent in the mortgage or the job search, but maybe that's not the point right now. Maybe the point is just to keep moving, even if it's just a tiny bit, and see what happens next."
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "sleep_problems",
+          "caregiver_stress",
+          "conflicts_with_partner",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 4,
+      "user_message": "I opened the job listing, but I still feel like I'm stuck in a loop\u2014no progress, no sleep, no relief. The mortgage is still overdue and the baby keeps waking up every two hours, so even a tiny step feels pointless. Maybe I should just keep scrolling instead of forcing myself to do anything.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and I can see that you're feeling really stuck and overwhelmed with the mortgage overdue and the baby's sleep disruptions. Given your intent to express emotion, I'll prioritize empathy and reflection. The strategies that seem fitting are support and facilitate, as they align with your current preparation stage for addressing work stress. I've taken note of your recent attempts to take small steps, like opening a job listing, and how you're questioning the value of these efforts. My entry point will be to acknowledge the frustration and sense of pointlessness you're experiencing.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "feeling stuck in a loop with no progress"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "opened a job listing but still feels like no progress"
+          }
+        ],
+        "final_response": "You've been trying to take small steps, like opening that job listing, but it's hard to see how it's making a difference when the mortgage is still overdue and the baby's waking up every two hours. It's like you're running on a treadmill and not getting anywhere. I can understand why even tiny steps feel pointless right now. Yeah, it's tough to keep going when everything feels so overwhelming. Maybe we can explore what's making it hard for you to focus on your job search, beyond just the baby's sleep schedule."
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "sleep_problems",
+          "caregiver_stress",
+          "conflicts_with_partner",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 5,
+      "user_message": "I keep scrolling and feeling stuck; the baby won't sleep, so I keep missing interviews. It feels like I'm failing as a provider, and I'm just stuck in a loop.\n",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle right now, so I'll start by reflecting their feelings of being stuck and failing as a provider. Given their intent to express emotion, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is overwhelmed by their responsibilities, sleep deprivation, and fear of not having a strong resume, which is exacerbating their feelings of being stuck. My entry will be to acknowledge the user's sense of being stuck in a loop and their feelings of failure as a provider, and then I'll use the facilitate strategy to help them explore their thoughts and feelings further.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "feeling stuck in a loop and failing as a provider"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "self-critical and perfectionistic"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "feeling stuck and like failing as a provider"
+          }
+        ],
+        "final_response": "You're feeling really stuck right now, like you're not making any progress, and that's weighing heavily on you. It's like everything is piling up - the mortgage, the baby's sleep schedule, and your job search - and you're just trying to keep your head above water. It sounds like even the small steps you've been trying to take, like opening job listings, feel pointless when the baby's not sleeping and you're missing interviews. Yeah, it's tough to see a way forward when everything feels so overwhelming. What's the hardest part of this loop for you - is it the lack of sleep, the pressure of providing, or something else entirely?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "sleep_problems",
+          "caregiver_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 6,
+      "user_message": "I think the hardest part is the lack of sleep; it drains me and I can't focus on the job search or even think about the mortgage. I feel like I'm stuck in a loop of procrastination and exhaustion. The whole situation just feels overwhelming and I don't know what to do next.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "sleep_problems",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now, given their intent to express emotion. The strategies that fit this moment are support and facilitate, given the user's contemplation stage with sleep problems. The evidence that stands out is the user's mention of being stuck in a loop of procrastination and exhaustion, which suggests that acknowledging this sense of being overwhelmed is crucial. My entry point will be to reflect on the overwhelming nature of their situation, specifically highlighting the lack of sleep as a significant factor.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "lack of sleep"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "stuck in a loop of procrastination and exhaustion"
+          }
+        ],
+        "final_response": "The lack of sleep is really draining you, and it's no wonder you're feeling stuck in this loop of procrastination and exhaustion. It's like everything is piling up - the baby's sleep schedule, the mortgage, and your job search - and you're just trying to keep your head above water. Yeah, it's tough to focus on anything when you're running on empty. Maybe we can explore what tiny, manageable steps you could take to start addressing the sleep issue, even if it's just a small adjustment to your daily routine."
+      },
+      "trace": {
+        "main_problem": "sleep_problems",
+        "current_problems": [
+          "sleep_problems",
+          "work_stress",
+          "caregiver_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 7,
+      "user_message": "Honestly, a 10\u2011minute wind\u2011down routine feels absurd when the baby crashes every two hours and I still miss interviews. I think the job search is just another distraction that doesn't solve the mortgage problem. Maybe I need to figure out if a sleep schedule change is realistic before I tackle the next interview.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "sleep_problems",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "sleep_problems",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this new dad as he navigates the overwhelming challenges of sleep deprivation, job searching, and caring for his baby. Given his express_emotion intent, I'll start by acknowledging the emotional weight of his situation. The candidate strategies of support and facilitate are appropriate for his preparation stage, and I'll use these to help him explore his feelings and concerns. The evidence from his recent turns shows that he's feeling stuck and unsure about how to move forward, and that the lack of sleep is exacerbating his stress and making it hard to focus on his job search. I'll use this evidence to inform my response and help him feel seen and understood. My entry point will be to acknowledge the absurdity of a 10-minute wind-down routine when the baby is waking every two hours, and to explore his concerns about the job search and sleep schedule change.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "lack of sleep is exacerbating stress and making it hard to focus on job search"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "considering a sleep schedule change as a potential solution"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "lack of sleep is the hardest part of the loop"
+          }
+        ],
+        "final_response": "The idea of a 10-minute wind-down routine does feel absurd when the baby is waking every two hours and you're already feeling overwhelmed. It's like you're being pulled in too many directions and can't catch a break. I can understand why you're questioning the job search and wondering if a sleep schedule change is more pressing. Maybe we can explore what a sleep schedule change would even look like for you, and whether it's something that could help alleviate some of the stress you're feeling."
+      },
+      "trace": {
+        "main_problem": "sleep_problems",
+        "current_problems": [
+          "sleep_problems",
+          "work_stress",
+          "financial_stress",
+          "caregiver_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 8,
+      "user_message": "Honestly, a 10\u2011minute wind\u2011down feels impossible when the baby\u2019s waking every two hours and I still can\u2019t get any sleep. I\u2019m not sure a schedule would help, and the mortgage is overdue so I\u2019m stuck worrying about money. Maybe the job search is the only thing that could bring in cash soon, but I keep falling into procrastination because I feel like a failure.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "sleep_problems",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "sleep_problems",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "sleep_problems",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle right now. Given their intent to express emotion, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is feeling overwhelmed by the lack of sleep, the baby's unpredictable schedule, and the pressure of providing for their family. A key piece of evidence is their mention of feeling like a failure, which suggests that their self-critical nature is exacerbating their emotional pain. My entry point will be to acknowledge the absurdity of a 10-minute wind-down routine in their current situation, and then explore how their feelings of failure are impacting their motivation to tackle the job search.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "10-minute wind-down routine feels absurd"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "feeling like a failure"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "self-critical"
+          }
+        ],
+        "final_response": "The idea of a 10-minute wind-down routine does feel absurd when the baby is waking every two hours and you're already feeling overwhelmed. It's like you're being pulled in too many directions and can't catch a break. I can understand why you're questioning your ability to get anything done, especially when you're feeling like a failure. Yeah, it's tough to see a way forward when everything feels so overwhelming. Maybe we can explore how your feelings of failure are impacting your motivation to tackle the job search - is it the fear of not being good enough, or something else entirely?"
+      },
+      "trace": {
+        "main_problem": "sleep_problems",
+        "current_problems": [
+          "sleep_problems",
+          "work_stress",
+          "caregiver_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 9,
+      "user_message": "I guess the failure thing is mostly about not being good enough to land a decent job right now\u2014yet I still have the experience. The baby\u2019s two\u2011hour wakeups keep pulling me back into procrastination, and I can\u2019t even get a full night\u2019s rest. I\u2019m not sure if this cycle is solvable or just a new phase of life I\u2019m still adjusting to.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "sleep_problems",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "sleep_problems",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "sleep_problems",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing emotions about feeling like a failure due to not being good enough to land a decent job, despite having experience. Given your preparation stage for addressing sleep problems, I think using the 'support' strategy could help you feel less alone. The evidence that stands out to me is how the baby's two-hour wakeups are pulling you back into procrastination, and you're unsure if this cycle is solvable. My entry point will be to acknowledge the emotional weight of feeling like a failure and the exhaustion from lack of sleep.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "baby's two-hour wakeups pulling user back into procrastination"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "user feeling like a failure due to not being good enough to land a decent job"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "self-critical and perfectionistic"
+          }
+        ],
+        "final_response": "The baby's wakeups are really disrupting your life, and it's no wonder you're feeling like you're not good enough to land a decent job right now. It's tough to see yourself as capable when you're running on empty and feeling pulled back into procrastination. I can understand why you'd feel that way, especially with the added pressure of the mortgage and job search. It might be helpful to explore what small, manageable steps you could take to start addressing the sleep issue, even if it's just a tiny adjustment to your daily routine."
+      },
+      "trace": {
+        "main_problem": "sleep_problems",
+        "current_problems": [
+          "work_stress",
+          "sleep_problems",
+          "caregiver_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 10,
+      "user_message": "Honestly, I don't know if a 10\u2011minute routine will change anything when the baby keeps waking up every couple of hours. I keep falling back into procrastination because I feel like a failure and the mortgage pressure is just too much to ignore.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "sleep_problems",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "sleep_problems",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "sleep_problems",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now. Given their intent to express emotion, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is struggling with sleep problems, feeling like a failure, and experiencing mortgage pressure, which is exacerbating their procrastination. The user's recent turns have highlighted their feelings of being stuck and unsure about how to move forward. My entry point will be to acknowledge the user's feelings of frustration and hopelessness, and then explore how their sleep problems are impacting their daily life.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "User is having trouble sleeping due to the baby keeping them up, making it hard to focus on anything."
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "The baby's two-hour wakeups keep pulling me back into procrastination, and I'm not sure if this cycle is solvable or just a new phase of life I'm still adjusting to."
+          }
+        ],
+        "final_response": "It's really tough to see a way forward when you're feeling like a failure and the mortgage pressure is mounting. The baby's wakeups are disrupting your life, and it's no wonder you're struggling to focus on anything. I can understand why you'd feel like a 10-minute routine wouldn't make a difference when you're being pulled back into procrastination every couple of hours. Maybe we can explore how your sleep problems are impacting your daily life, and see if there are any small adjustments you could make to start feeling more in control."
+      },
+      "trace": {
+        "main_problem": "sleep_problems",
+        "current_problems": [
+          "sleep_problems",
+          "work_stress",
+          "caregiver_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

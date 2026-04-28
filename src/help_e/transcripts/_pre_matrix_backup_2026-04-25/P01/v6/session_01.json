@@ -1,0 +1,3100 @@
+{
+  "session_id": 1,
+  "session_summary": "The user primarily discussed body image concerns, health anxiety, and low self-esteem, triggered by a comment about their weight and an upcoming thyroid check-up and portfolio review. They moved from being absent in the contemplation, preparation stages of these issues to now being in contemplation for body image concerns and preparation for health anxiety and low self-esteem. The user expressed intent to practice self-affirmations, seek supportive feedback, and use breathing and grounding techniques to manage anxiety, with an open thread being their desire to feel more confident and in control, particularly in relation to their portfolio review and how their body image affects their self-perception.",
+  "stage_transitions": [
+    {
+      "problem": "body_image_concerns",
+      "from": "(absent)",
+      "to": "contemplation"
+    },
+    {
+      "problem": "health_anxiety",
+      "from": "(absent)",
+      "to": "preparation"
+    },
+    {
+      "problem": "low_self_esteem",
+      "from": "(absent)",
+      "to": "preparation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-critical, anxious",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel so exposed, especially with the portfolio review next week looming. I'm worried people will think I'm not the same person I used to be."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I'm worried that my work will be judged through the lens of my weight instead of my talent, and that just makes the portfolio review feel even more intimidating."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I think the breathing will help, but I'm not sure it'll keep my mind from drifting to my body."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "confidence, self-worth",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I'm worried people will think I'm not the same person I used to be."
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I think I need to remind myself that my work speaks louder than any comment, maybe get a few supportive friends to preview my portfolio before the review, and practice some self\u2011affirmations."
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "supportive friends",
+      "evidence_citations": [
+        {
+          "turn_id": 3,
+          "excerpt": "maybe get a few supportive friends to preview my portfolio before the review"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "art",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "portfolio review"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I want to stay focused on my art"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, reflective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel so exposed, especially with the portfolio review next week looming. I'm worried people will think I'm not the same person I used to be."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I think the most important thing for me right now is to practice a quick breathing and grounding routine before the panel, so I can stay calm and keep my mind focused on the work instead of my body."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "thyroid issues",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I just got the reminder about my thyroid check\u2011up"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I also want to find a way to talk to my doctor about how my thyroid is affecting me so I can feel more in control."
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "anxious, self-doubting, proactive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel so exposed, especially with the portfolio review next week looming. I'm worried people will think I'm not the same person I used to be."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I'm worried that my work will be judged through the lens of my weight instead of my talent, and that just makes the portfolio review feel even more intimidating."
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I think I need to remind myself that my work speaks louder than any comment, maybe get a few supportive friends to preview my portfolio before the review, and practice some self\u2011affirmations."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I think the most important thing for me right now is to practice a quick breathing and grounding routine before the panel, so I can stay calm and keep my mind focused on the work instead of my body."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I just got the reminder about my thyroid check\u2011up and at lunch someone made a comment about my weight. I feel so exposed, especially with the portfolio review next week looming. I'm worried people will think I'm not the same person I used to be."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It sounds like you're feeling really exposed and worried about what others might think, especially with the portfolio review and thyroid check-up coming up. That can be a really tough and vulnerable spot to be in. Would you like to talk more about what's been going through your mind since you got that reminder and heard that comment about your weight?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Yes, I guess. The comment at lunch still lingers in my mind, and I feel like everyone is staring at me now. I'm worried that my work will be judged through the lens of my weight instead of my talent, and that just makes the portfolio review feel even more intimidating."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "It sounds like the comment at lunch really stuck with you, and now you're worried that everyone is judging you based on your weight, not your talent. That can be a really painful and vulnerable feeling. What do you think would need to happen for you to feel more confident in your abilities, and less worried about what others think?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I think I need to remind myself that my work speaks louder than any comment, maybe get a few supportive friends to preview my portfolio before the review, and practice some self\u2011affirmations. I also want to find a way to talk to my doctor about how my thyroid is affecting me so I can feel more in control."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "It sounds like you're taking some really positive steps to boost your confidence and feel more in control, like practicing self-affirmations and seeking supportive feedback. What do you think would be the most important thing for you to focus on right now to help you feel more confident and prepared for your portfolio review?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I think the most important thing for me right now is to practice a quick breathing and grounding routine before the panel, so I can stay calm and keep my mind focused on the work instead of my body. A few minutes of slow breathing will help me feel more present and less exposed when I have to present my portfolio."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "It sounds like you're taking proactive steps to manage your anxiety and body image concerns, such as practicing breathing and grounding techniques. You've also mentioned wanting to remind yourself that your work speaks louder than any comment. How do you think these strategies will help you feel more confident and prepared for your portfolio review?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I think the breathing will help, but I'm not sure it'll keep my mind from drifting to my body. I want to stay focused on my art, but the anxiety is still there."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "It sounds like you're still feeling anxious about your body image, and you're worried that it will distract you from your art. What do you think would help you feel more confident and focused on your portfolio review, and less worried about what others think of your body?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I just got the reminder about my thyroid check\u2011up and at lunch someone made a comment about my weight. I feel so exposed, especially with the portfolio review next week looming. I'm worried people will think I'm not the same person I used to be.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of exposure and worry without asking for advice.",
+          "supporting_utterance_span": "I feel so exposed"
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "comment about weight triggered self-consciousness",
+            "supporting_utterance_span": "someone made a comment about my weight"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "upcoming thyroid check-up causing worry",
+            "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "fear of being perceived differently by others",
+            "supporting_utterance_span": "I'm worried people will think I'm not the same person I used to be"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "comment about weight seems to be the primary trigger for the user's current emotional state",
+          "supporting_utterance_span": "someone made a comment about my weight"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "comments from others trigger body image concerns",
+            "concise_explanation": "comment about weight triggered self-consciousness",
+            "supporting_utterance_span": "someone made a comment about my weight",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "upcoming medical check-ups trigger health anxiety",
+            "concise_explanation": "thyroid check-up reminder caused worry",
+            "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user perceives their self-esteem as severely impacted by others' opinions",
+            "concise_explanation": "fear of being perceived differently by others",
+            "supporting_utterance_span": "I'm worried people will think I'm not the same person I used to be",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "body_image_concerns",
+            "problem_2": "health_anxiety",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up and at lunch someone made a comment about my weight"
+          },
+          {
+            "problem_1": "body_image_concerns",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I feel so exposed, especially with the portfolio review next week looming"
+          },
+          {
+            "problem_1": "health_anxiety",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I'm worried people will think I'm not the same person I used to be"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "body_image_concerns",
+            "attribute_1": "triggers",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "perceived_severity",
+            "relation_type": "causal",
+            "connection_explanation": "the trigger for body image concerns (comment about weight) exacerbates the perceived severity of low self-esteem",
+            "supporting_utterance_span": "someone made a comment about my weight. I'm worried people will think I'm not the same person I used to be",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User perceives their self-esteem as severely impacted by others' opinions, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their self-esteem as severely impacted by others' opinions"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged the impact of others' opinions on their self-esteem, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their self-esteem as severely impacted by others' opinions"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in the user's awareness or willingness to address body image concerns.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: comments from others trigger body image concerns"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in the user's awareness or willingness to address health anxiety.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: upcoming medical check-ups trigger health anxiety"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I just got the reminder about my thyroid check\u2011up and at lunch someone made a comment about my weight. I feel so exposed, especially with the portfolio review next week looming. I'm worried people will think I'm not the same person I used to be.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "comments from others trigger body image concerns",
+                  "concise_explanation": "comment about weight triggered self-consciousness",
+                  "supporting_utterance_span": "someone made a comment about my weight",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user perceives their self-esteem as severely impacted by others' opinions",
+                    "concise_explanation": "fear of being perceived differently by others",
+                    "supporting_utterance_span": "I'm worried people will think I'm not the same person I used to be",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the trigger for body image concerns (comment about weight) exacerbates the perceived severity of low self-esteem",
+                "supporting_utterance_span": "someone made a comment about my weight. I'm worried people will think I'm not the same person I used to be",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          },
+          {
+            "problem_name": "health_anxiety",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "upcoming medical check-ups trigger health anxiety",
+                    "concise_explanation": "thyroid check-up reminder caused worry",
+                    "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.4,
+            "cooccurrence_count": 1,
+            "connection_evidence": []
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "main_problem": "body_image_concerns"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be body_image_concerns. Their current TTM stage appears to be precontemplation. Because of this, the response should use T1 Reflection and T12 Normalize/Reframe. This technique is appropriate because the user is expressing feelings of exposure and worry about others' opinions, and normalizing these feelings can help them feel less isolated. It should be applied by reflecting the user's emotions and concerns, using evidence such as the trigger of comments from others and the perceived severity of the impact on their self-esteem. The user also shows high perceived_severity and is venting about recent events, including an upcoming medical check-up and a comment about their weight. Because of this, the response should use T1 Reflection to acknowledge their feelings and concerns. The user intent in this turn is to vent, so the response should acknowledge their emotions and concerns before guiding the turn. Relevant connected problems suggest a causal relationship between the triggers of body_image_concerns and the perceived_severity of low_self_esteem, which should be used to inform the reflection and normalization of the user's feelings. Overall, the response should try to improve emotional regulation and awareness, while avoiding giving unsolicited advice or pivoting to the related problems of low_self_esteem or health_anxiety.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of exposure and worry, then use T12 Normalize/Reframe to help them see their concerns in a broader context. I'll skip explicit mention of the related problems this turn, focusing on the user's immediate emotions and concerns.",
+        "final_response": "It sounds like you're feeling really exposed and worried about what others might think, especially with the portfolio review and thyroid check-up coming up. That can be a really tough and vulnerable spot to be in. Would you like to talk more about what's been going through your mind since you got that reminder and heard that comment about your weight?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "health_anxiety",
+          "low_self_esteem"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User perceives their self-esteem as severely impacted by others' opinions, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their self-esteem as severely impacted by others' opinions"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged the impact of others' opinions on their self-esteem, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their self-esteem as severely impacted by others' opinions"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in the user's awareness or willingness to address body image concerns.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: comments from others trigger body image concerns"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in the user's awareness or willingness to address health anxiety.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: upcoming medical check-ups trigger health anxiety"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "Yes, I guess. The comment at lunch still lingers in my mind, and I feel like everyone is staring at me now. I'm worried that my work will be judged through the lens of my weight instead of my talent, and that just makes the portfolio review feel even more intimidating.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "medium",
+          "explanation": "User is considering talking more about their concerns and how they might impact their portfolio review.",
+          "supporting_utterance_span": "Yes, I guess. The comment at lunch still lingers in my mind"
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "comment about weight and feeling exposed",
+            "supporting_utterance_span": "someone made a comment about my weight"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "fear of being judged based on weight instead of talent",
+            "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "upcoming thyroid check-up",
+            "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "the comment about weight is the central concern in this turn",
+          "supporting_utterance_span": "someone made a comment about my weight"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "comment about weight triggers body image concerns",
+            "concise_explanation": "comment at lunch still lingers",
+            "supporting_utterance_span": "someone made a comment about my weight",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "fear of being judged based on weight is a barrier to self-esteem",
+            "concise_explanation": "worried about being judged on weight instead of talent",
+            "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "attribute_name": "cues_to_action",
+            "attribute_type": "level",
+            "inferred_information": "upcoming thyroid check-up is a cue to action for health anxiety",
+            "concise_explanation": "reminder about thyroid check-up",
+            "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "body_image_concerns",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "someone made a comment about my weight. I'm worried that my work will be judged through the lens of my weight instead of my talent"
+          },
+          {
+            "problem_1": "body_image_concerns",
+            "problem_2": "health_anxiety",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up and at lunch someone made a comment about my weight"
+          },
+          {
+            "problem_1": "low_self_esteem",
+            "problem_2": "health_anxiety",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up and I'm worried that my work will be judged through the lens of my weight instead of my talent"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "body_image_concerns",
+            "attribute_1": "triggers",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "causal",
+            "connection_explanation": "the comment about weight triggers body image concerns, which in turn contributes to the fear of being judged based on weight instead of talent",
+            "supporting_utterance_span": "someone made a comment about my weight. I'm worried that my work will be judged through the lens of my weight instead of my talent",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now identifies a specific barrier to self-esteem, which is the fear of being judged based on weight.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "fear of being judged based on weight is a barrier to self-esteem"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "attribute_name": "cues_to_action",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User mentions an upcoming thyroid check-up as a cue to action, indicating some awareness of actions that could be taken.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "upcoming thyroid check-up is a cue to action for health anxiety"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests the user is considering change or acknowledging the problem beyond triggers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "comments from others trigger body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "comment about weight triggers body image concerns"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge barriers to self-esteem, indicating ongoing contemplation of the issue.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their self-esteem as severely impacted by others' opinions"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "fear of being judged based on weight is a barrier to self-esteem"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User identifies an upcoming medical check-up as a cue to action, suggesting some consideration of the problem and potential actions.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming medical check-ups trigger health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "upcoming thyroid check-up is a cue to action for health anxiety"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "Yes, I guess. The comment at lunch still lingers in my mind, and I feel like everyone is staring at me now. I'm worried that my work will be judged through the lens of my weight instead of my talent, and that just makes the portfolio review feel even more intimidating.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I just got the reminder about my thyroid check\u2011up and at lunch someone made a comment about my weight. I feel so exposed, especially with the portfolio review next week looming. I'm worried people will think I'm not the same person I used to be."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really exposed and worried about what others might think, especially with the portfolio review and thyroid check-up coming up. That can be a really tough and vulnerable spot to be in. Would you like to talk more about what's been going through your mind since you got that reminder and heard that comment about your weight?"
+          }
+        ],
+        "last_system_message": "It sounds like you're feeling really exposed and worried about what others might think, especially with the portfolio review and thyroid check-up coming up. That can be a really tough and vulnerable spot to be in. Would you like to talk more about what's been going through your mind since you got that reminder and heard that comment about your weight?",
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            2
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "comments from others trigger body image concerns",
+                  "concise_explanation": "comment about weight triggered self-consciousness",
+                  "supporting_utterance_span": "someone made a comment about my weight",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "comment about weight triggers body image concerns",
+                  "concise_explanation": "comment at lunch still lingers",
+                  "supporting_utterance_span": "someone made a comment about my weight",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user perceives their self-esteem as severely impacted by others' opinions",
+                    "concise_explanation": "fear of being perceived differently by others",
+                    "supporting_utterance_span": "I'm worried people will think I'm not the same person I used to be",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "fear of being judged based on weight is a barrier to self-esteem",
+                    "concise_explanation": "worried about being judged on weight instead of talent",
+                    "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the trigger for body image concerns (comment about weight) exacerbates the perceived severity of low self-esteem",
+                "supporting_utterance_span": "someone made a comment about my weight. I'm worried people will think I'm not the same person I used to be",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the comment about weight triggers body image concerns, which in turn contributes to the fear of being judged based on weight instead of talent",
+                "supporting_utterance_span": "someone made a comment about my weight. I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          },
+          {
+            "problem_name": "health_anxiety",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {
+              "cues_to_action": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "upcoming thyroid check-up is a cue to action for health anxiety",
+                    "concise_explanation": "reminder about thyroid check-up",
+                    "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "upcoming medical check-ups trigger health anxiety",
+                    "concise_explanation": "thyroid check-up reminder caused worry",
+                    "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.4,
+            "cooccurrence_count": 2,
+            "connection_evidence": []
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "main_problem": "body_image_concerns"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be body_image_concerns. Their current TTM stage appears to be precontemplation. Because of this, the response should use T1 Reflection and T12 Normalize/Reframe. This technique is appropriate because the user is in the precontemplation stage and needs to acknowledge their feelings and concerns. It should be applied by reflecting the user's emotions and thoughts, using evidence such as the triggers for body_image_concerns (comments from others) and the perceived_severity of low_self_esteem (high). The user also shows high perceived_barriers (fear of being judged based on weight) and low self_efficacy (implied by the fear of being judged). Because of this, the response should use T8 Change Talk. This technique should be applied by exploring the user's motivations and reasons for change, using evidence such as the user's concerns about being judged based on weight instead of talent. The user intent in this turn is to explore options. Because of this, the response should use T4 Open Question. Apply it by FIRST acknowledging the user's immediate intent, THEN guiding the user to explore their concerns and motivations. Relevant connected problems suggest a causal relationship between body_image_concerns and low_self_esteem, where the triggers for body_image_concerns exacerbate the perceived severity of low_self_esteem. This evidence should be used by surfacing it in a reflection, to help the user understand the connection between their body image concerns and self-esteem. Overall, the response should try to improve awareness and emotional regulation, while avoiding giving unsolicited advice or pivoting to the secondary problem.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's emotions and concerns, then use T4 Open Question to explore their motivations and reasons for change. I'll surface the connection between body_image_concerns and low_self_esteem, but avoid pivoting to the secondary problem. I'll drop the health_anxiety problem for now, as it's not directly relevant to the user's current concerns.",
+        "final_response": "It sounds like the comment at lunch really stuck with you, and now you're worried that everyone is judging you based on your weight, not your talent. That can be a really painful and vulnerable feeling. What do you think would need to happen for you to feel more confident in your abilities, and less worried about what others think?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "low_self_esteem",
+          "health_anxiety"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "attribute_name": "cues_to_action"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now identifies a specific barrier to self-esteem, which is the fear of being judged based on weight.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "fear of being judged based on weight is a barrier to self-esteem"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "attribute_name": "cues_to_action",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User mentions an upcoming thyroid check-up as a cue to action, indicating some awareness of actions that could be taken.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "upcoming thyroid check-up is a cue to action for health anxiety"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests the user is considering change or acknowledging the problem beyond triggers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "comments from others trigger body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "comment about weight triggers body image concerns"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge barriers to self-esteem, indicating ongoing contemplation of the issue.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their self-esteem as severely impacted by others' opinions"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "fear of being judged based on weight is a barrier to self-esteem"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User identifies an upcoming medical check-up as a cue to action, suggesting some consideration of the problem and potential actions.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming medical check-ups trigger health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "upcoming thyroid check-up is a cue to action for health anxiety"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I think I need to remind myself that my work speaks louder than any comment, maybe get a few supportive friends to preview my portfolio before the review, and practice some self\u2011affirmations. I also want to find a way to talk to my doctor about how my thyroid is affecting me so I can feel more in control.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User is considering strategies to address their concerns and feel more confident",
+          "supporting_utterance_span": "I think I need to remind myself that my work speaks louder than any comment, maybe get a few supportive friends to preview my portfolio before the review, and practice some self\u2011affirmations"
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "user is worried about being judged based on weight",
+            "supporting_utterance_span": "I feel like everyone is staring at me now"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "user is concerned about thyroid condition and its impact",
+            "supporting_utterance_span": "I want to find a way to talk to my doctor about how my thyroid is affecting me"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "user is seeking validation and confidence boost",
+            "supporting_utterance_span": "I think I need to remind myself that my work speaks louder than any comment"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "user's concerns about being judged based on weight are central to their current anxiety",
+          "supporting_utterance_span": "I feel like everyone is staring at me now"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "coping_strategies",
+            "attribute_type": "non_level",
+            "inferred_information": "user plans to practice self-affirmations and seek supportive feedback",
+            "concise_explanation": "user mentions self-affirmations and seeking feedback",
+            "supporting_utterance_span": "practice some self\u2011affirmations",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "attribute_name": "cues_to_action",
+            "attribute_type": "level",
+            "inferred_information": "user is motivated to take action and talk to their doctor",
+            "concise_explanation": "user expresses desire to discuss thyroid condition with doctor",
+            "supporting_utterance_span": "I want to find a way to talk to my doctor about how my thyroid is affecting me",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "motivation",
+            "attribute_type": "level",
+            "inferred_information": "user is seeking to boost confidence and self-worth",
+            "concise_explanation": "user wants to remind themselves of their strengths",
+            "supporting_utterance_span": "I think I need to remind myself that my work speaks louder than any comment",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "body_image_concerns",
+            "problem_2": "health_anxiety",
+            "concise_explanation": "both problems are discussed in relation to user's anxiety and self-perception",
+            "supporting_utterance_span": "I feel like everyone is staring at me now... I want to find a way to talk to my doctor about how my thyroid is affecting me"
+          },
+          {
+            "problem_1": "body_image_concerns",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "user's body image concerns are linked to their self-esteem and confidence",
+            "supporting_utterance_span": "I feel like everyone is staring at me now... I think I need to remind myself that my work speaks louder than any comment"
+          },
+          {
+            "problem_1": "health_anxiety",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "user's health anxiety is connected to their self-worth and confidence",
+            "supporting_utterance_span": "I want to find a way to talk to my doctor about how my thyroid is affecting me... I think I need to remind myself that my work speaks louder than any comment"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "body_image_concerns",
+            "attribute_1": "coping_strategies",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "motivation",
+            "relation_type": "reinforcing",
+            "connection_explanation": "user's coping strategies for body image concerns are linked to their motivation to boost self-esteem",
+            "supporting_utterance_span": "practice some self\u2011affirmations... I think I need to remind myself that my work speaks louder than any comment",
+            "confidence": "medium"
+          },
+          {
+            "problem_1": "health_anxiety",
+            "attribute_1": "cues_to_action",
+            "problem_2": "body_image_concerns",
+            "attribute_2": "triggers",
+            "relation_type": "causal",
+            "connection_explanation": "user's health anxiety is triggering their body image concerns",
+            "supporting_utterance_span": "I want to find a way to talk to my doctor about how my thyroid is affecting me... I feel like everyone is staring at me now",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "health_anxiety",
+            "attribute_name": "cues_to_action",
+            "old_level": "medium",
+            "new_level": "high",
+            "reasoning": "User is now motivated to take action and talk to their doctor, indicating a higher level of cues to action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "upcoming thyroid check-up is a cue to action for health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is motivated to take action and talk to their doctor"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "motivation",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User is seeking to boost confidence and self-worth, indicating a high level of motivation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is seeking to boost confidence and self-worth"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in stage, and the user is still not acknowledging the problem or considering change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: comments from others trigger body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: comment about weight triggers body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "coping_strategies: user plans to practice self-affirmations and seek supportive feedback"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User is motivated to take action and talk to their doctor, indicating a move from contemplation to preparation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: upcoming medical check-ups trigger health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "cues_to_action: upcoming thyroid check-up is a cue to action for health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "cues_to_action: user is motivated to take action and talk to their doctor"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User is seeking to boost confidence and self-worth, indicating a move from contemplation to preparation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user perceives their self-esteem as severely impacted by others' opinions"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: fear of being judged based on weight is a barrier to self-esteem"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "motivation: user is seeking to boost confidence and self-worth"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I think I need to remind myself that my work speaks louder than any comment, maybe get a few supportive friends to preview my portfolio before the review, and practice some self\u2011affirmations. I also want to find a way to talk to my doctor about how my thyroid is affecting me so I can feel more in control.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I just got the reminder about my thyroid check\u2011up and at lunch someone made a comment about my weight. I feel so exposed, especially with the portfolio review next week looming. I'm worried people will think I'm not the same person I used to be."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really exposed and worried about what others might think, especially with the portfolio review and thyroid check-up coming up. That can be a really tough and vulnerable spot to be in. Would you like to talk more about what's been going through your mind since you got that reminder and heard that comment about your weight?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "Yes, I guess. The comment at lunch still lingers in my mind, and I feel like everyone is staring at me now. I'm worried that my work will be judged through the lens of my weight instead of my talent, and that just makes the portfolio review feel even more intimidating."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the comment at lunch really stuck with you, and now you're worried that everyone is judging you based on your weight, not your talent. That can be a really painful and vulnerable feeling. What do you think would need to happen for you to feel more confident in your abilities, and less worried about what others think?"
+          }
+        ],
+        "last_system_message": "It sounds like the comment at lunch really stuck with you, and now you're worried that everyone is judging you based on your weight, not your talent. That can be a really painful and vulnerable feeling. What do you think would need to happen for you to feel more confident in your abilities, and less worried about what others think?",
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "comments from others trigger body image concerns",
+                  "concise_explanation": "comment about weight triggered self-consciousness",
+                  "supporting_utterance_span": "someone made a comment about my weight",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "comment about weight triggers body image concerns",
+                  "concise_explanation": "comment at lunch still lingers",
+                  "supporting_utterance_span": "someone made a comment about my weight",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user plans to practice self-affirmations and seek supportive feedback",
+                  "concise_explanation": "user mentions self-affirmations and seeking feedback",
+                  "supporting_utterance_span": "practice some self\u2011affirmations",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "preparation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user perceives their self-esteem as severely impacted by others' opinions",
+                    "concise_explanation": "fear of being perceived differently by others",
+                    "supporting_utterance_span": "I'm worried people will think I'm not the same person I used to be",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "fear of being judged based on weight is a barrier to self-esteem",
+                    "concise_explanation": "worried about being judged on weight instead of talent",
+                    "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "motivation": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user is seeking to boost confidence and self-worth",
+                    "concise_explanation": "user wants to remind themselves of their strengths",
+                    "supporting_utterance_span": "I think I need to remind myself that my work speaks louder than any comment",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the trigger for body image concerns (comment about weight) exacerbates the perceived severity of low self-esteem",
+                "supporting_utterance_span": "someone made a comment about my weight. I'm worried people will think I'm not the same person I used to be",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the comment about weight triggers body image concerns, which in turn contributes to the fear of being judged based on weight instead of talent",
+                "supporting_utterance_span": "someone made a comment about my weight. I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "coping_strategies",
+                "attribute_2": "motivation",
+                "explanation": "user's coping strategies for body image concerns are linked to their motivation to boost self-esteem",
+                "supporting_utterance_span": "practice some self\u2011affirmations... I think I need to remind myself that my work speaks louder than any comment",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          },
+          {
+            "problem_name": "health_anxiety",
+            "current_ttm_stage": "preparation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "cues_to_action": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "upcoming thyroid check-up is a cue to action for health anxiety",
+                    "concise_explanation": "reminder about thyroid check-up",
+                    "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user is motivated to take action and talk to their doctor",
+                    "concise_explanation": "user expresses desire to discuss thyroid condition with doctor",
+                    "supporting_utterance_span": "I want to find a way to talk to my doctor about how my thyroid is affecting me",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "upcoming medical check-ups trigger health anxiety",
+                    "concise_explanation": "thyroid check-up reminder caused worry",
+                    "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.6906933585414224,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "cues_to_action",
+                "attribute_2": "triggers",
+                "explanation": "user's health anxiety is triggering their body image concerns",
+                "supporting_utterance_span": "I want to find a way to talk to my doctor about how my thyroid is affecting me... I feel like everyone is staring at me now",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "main_problem": "body_image_concerns"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be body_image_concerns, and their current TTM stage is precontemplation. Because of this, the response should use T1 Reflection and T12 Normalize/Reframe. This technique is appropriate because the user is struggling with negative self-talk and perceived judgment from others, and reframing their thoughts can help them gain a more balanced perspective. It should be applied by reflecting the user's concerns and then offering a reframe, using evidence such as the user's statement that 'my work speaks louder than any comment'. The user also shows high motivation to boost their self-esteem, as evidenced by their desire to practice self-affirmations and seek supportive feedback. Because of this, the response should use T8 Change Talk, which should be applied by exploring the user's reasons for wanting to make a change, such as feeling more confident and in control. The user intent in this turn is to explore options, and the response should use T4 Open Question to help the user elaborate on their ideas. Relevant connected problems suggest that the user's health anxiety is triggering their body image concerns, and this evidence should be used by acknowledging the user's desire to talk to their doctor and feel more in control. Overall, the response should try to improve the user's self-efficacy and motivation, while avoiding giving unsolicited advice or overwhelming the user with too many options.",
+        "response_reasoning": "I'll use T1 Reflection to acknowledge the user's feelings and concerns, and then use T8 Change Talk to explore their reasons for wanting to make a change. I'll also use T4 Open Question to help the user elaborate on their ideas, and will drop the connection to health anxiety for now to avoid overwhelming the user. I'll honor the user's intent to explore options by asking an open question that invites them to share more about their thoughts and feelings.",
+        "final_response": "It sounds like you're taking some really positive steps to boost your confidence and feel more in control, like practicing self-affirmations and seeking supportive feedback. What do you think would be the most important thing for you to focus on right now to help you feel more confident and prepared for your portfolio review?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "health_anxiety",
+          "low_self_esteem"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "health_anxiety",
+            "attribute_name": "cues_to_action"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "motivation"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "health_anxiety",
+            "attribute_name": "cues_to_action",
+            "old_level": "medium",
+            "new_level": "high",
+            "reasoning": "User is now motivated to take action and talk to their doctor, indicating a higher level of cues to action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "upcoming thyroid check-up is a cue to action for health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is motivated to take action and talk to their doctor"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "motivation",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User is seeking to boost confidence and self-worth, indicating a high level of motivation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is seeking to boost confidence and self-worth"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in stage, and the user is still not acknowledging the problem or considering change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: comments from others trigger body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: comment about weight triggers body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "coping_strategies: user plans to practice self-affirmations and seek supportive feedback"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User is motivated to take action and talk to their doctor, indicating a move from contemplation to preparation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: upcoming medical check-ups trigger health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "cues_to_action: upcoming thyroid check-up is a cue to action for health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "cues_to_action: user is motivated to take action and talk to their doctor"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User is seeking to boost confidence and self-worth, indicating a move from contemplation to preparation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user perceives their self-esteem as severely impacted by others' opinions"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: fear of being judged based on weight is a barrier to self-esteem"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "motivation: user is seeking to boost confidence and self-worth"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I think the most important thing for me right now is to practice a quick breathing and grounding routine before the panel, so I can stay calm and keep my mind focused on the work instead of my body. A few minutes of slow breathing will help me feel more present and less exposed when I have to present my portfolio.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User is considering a specific strategy to manage their anxiety during the portfolio review",
+          "supporting_utterance_span": "practice a quick breathing and grounding routine before the panel"
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "user is worried about being judged based on their weight",
+            "supporting_utterance_span": "I feel so exposed, especially with the portfolio review next week looming"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "user is concerned about their thyroid condition and its impact on their life",
+            "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "user is worried that their work will be judged through the lens of their weight instead of their talent",
+            "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "user's concern about being judged based on their weight is the central issue in this turn",
+          "supporting_utterance_span": "I feel so exposed, especially with the portfolio review next week looming"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "coping_strategies",
+            "attribute_type": "non_level",
+            "inferred_information": "user plans to practice breathing and grounding techniques to manage anxiety",
+            "concise_explanation": "breathing and grounding routine to stay calm",
+            "supporting_utterance_span": "practice a quick breathing and grounding routine before the panel",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "comment about weight and upcoming portfolio review trigger anxiety",
+            "concise_explanation": "comment about weight and portfolio review trigger exposure feelings",
+            "supporting_utterance_span": "I feel so exposed, especially with the portfolio review next week looming",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user perceives their weight as a barrier to being judged on their talent",
+            "concise_explanation": "weight is perceived as a barrier to talent recognition",
+            "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "body_image_concerns",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems are discussed in the context of the portfolio review",
+            "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent"
+          },
+          {
+            "problem_1": "body_image_concerns",
+            "problem_2": "health_anxiety",
+            "concise_explanation": "both problems are related to the user's physical health and self-perception",
+            "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up and at lunch someone made a comment about my weight"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "body_image_concerns",
+            "attribute_1": "triggers",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "causal",
+            "connection_explanation": "the comment about weight triggers anxiety and reinforces the perception of weight as a barrier to talent recognition",
+            "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "The user continues to perceive their weight as a significant barrier to self-esteem, with the most recent entry reinforcing this perception.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "fear of being judged based on weight is a barrier to self-esteem"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user perceives their weight as a barrier to being judged on their talent"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no evidence to suggest the user has moved beyond precontemplation, as they have not acknowledged the problem or expressed a desire to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: comments from others trigger body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: comment about weight triggers body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "coping_strategies: user plans to practice self-affirmations and seek supportive feedback"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "triggers: comment about weight and upcoming portfolio review trigger anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "coping_strategies: user plans to practice breathing and grounding techniques to manage anxiety"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "The user remains in the preparation stage, as they are motivated to take action and have cues to action, but there is no evidence of recent concrete steps taken.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: upcoming medical check-ups trigger health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "cues_to_action: upcoming thyroid check-up is a cue to action for health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "cues_to_action: user is motivated to take action and talk to their doctor"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "The user remains in the preparation stage, as they are seeking to boost confidence and self-worth, and have not expressed a desire to move forward with concrete actions.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user perceives their self-esteem as severely impacted by others' opinions"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: fear of being judged based on weight is a barrier to self-esteem"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "motivation: user is seeking to boost confidence and self-worth"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_barriers: user perceives their weight as a barrier to being judged on their talent"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I think the most important thing for me right now is to practice a quick breathing and grounding routine before the panel, so I can stay calm and keep my mind focused on the work instead of my body. A few minutes of slow breathing will help me feel more present and less exposed when I have to present my portfolio.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I just got the reminder about my thyroid check\u2011up and at lunch someone made a comment about my weight. I feel so exposed, especially with the portfolio review next week looming. I'm worried people will think I'm not the same person I used to be."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really exposed and worried about what others might think, especially with the portfolio review and thyroid check-up coming up. That can be a really tough and vulnerable spot to be in. Would you like to talk more about what's been going through your mind since you got that reminder and heard that comment about your weight?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "Yes, I guess. The comment at lunch still lingers in my mind, and I feel like everyone is staring at me now. I'm worried that my work will be judged through the lens of my weight instead of my talent, and that just makes the portfolio review feel even more intimidating."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the comment at lunch really stuck with you, and now you're worried that everyone is judging you based on your weight, not your talent. That can be a really painful and vulnerable feeling. What do you think would need to happen for you to feel more confident in your abilities, and less worried about what others think?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I think I need to remind myself that my work speaks louder than any comment, maybe get a few supportive friends to preview my portfolio before the review, and practice some self\u2011affirmations. I also want to find a way to talk to my doctor about how my thyroid is affecting me so I can feel more in control."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like you're taking some really positive steps to boost your confidence and feel more in control, like practicing self-affirmations and seeking supportive feedback. What do you think would be the most important thing for you to focus on right now to help you feel more confident and prepared for your portfolio review?"
+          }
+        ],
+        "last_system_message": "It sounds like you're taking some really positive steps to boost your confidence and feel more in control, like practicing self-affirmations and seeking supportive feedback. What do you think would be the most important thing for you to focus on right now to help you feel more confident and prepared for your portfolio review?",
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            4
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "comments from others trigger body image concerns",
+                  "concise_explanation": "comment about weight triggered self-consciousness",
+                  "supporting_utterance_span": "someone made a comment about my weight",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "comment about weight triggers body image concerns",
+                  "concise_explanation": "comment at lunch still lingers",
+                  "supporting_utterance_span": "someone made a comment about my weight",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "comment about weight and upcoming portfolio review trigger anxiety",
+                  "concise_explanation": "comment about weight and portfolio review trigger exposure feelings",
+                  "supporting_utterance_span": "I feel so exposed, especially with the portfolio review next week looming",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user plans to practice self-affirmations and seek supportive feedback",
+                  "concise_explanation": "user mentions self-affirmations and seeking feedback",
+                  "supporting_utterance_span": "practice some self\u2011affirmations",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user plans to practice breathing and grounding techniques to manage anxiety",
+                  "concise_explanation": "breathing and grounding routine to stay calm",
+                  "supporting_utterance_span": "practice a quick breathing and grounding routine before the panel",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "preparation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user perceives their self-esteem as severely impacted by others' opinions",
+                    "concise_explanation": "fear of being perceived differently by others",
+                    "supporting_utterance_span": "I'm worried people will think I'm not the same person I used to be",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "fear of being judged based on weight is a barrier to self-esteem",
+                    "concise_explanation": "worried about being judged on weight instead of talent",
+                    "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user perceives their weight as a barrier to being judged on their talent",
+                    "concise_explanation": "weight is perceived as a barrier to talent recognition",
+                    "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "motivation": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user is seeking to boost confidence and self-worth",
+                    "concise_explanation": "user wants to remind themselves of their strengths",
+                    "supporting_utterance_span": "I think I need to remind myself that my work speaks louder than any comment",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the comment about weight triggers body image concerns, which in turn contributes to the fear of being judged based on weight instead of talent",
+                "supporting_utterance_span": "someone made a comment about my weight. I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "coping_strategies",
+                "attribute_2": "motivation",
+                "explanation": "user's coping strategies for body image concerns are linked to their motivation to boost self-esteem",
+                "supporting_utterance_span": "practice some self\u2011affirmations... I think I need to remind myself that my work speaks louder than any comment",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the comment about weight triggers anxiety and reinforces the perception of weight as a barrier to talent recognition",
+                "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 4
+              }
+            ]
+          },
+          {
+            "problem_name": "health_anxiety",
+            "current_ttm_stage": "preparation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "cues_to_action": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "upcoming thyroid check-up is a cue to action for health anxiety",
+                    "concise_explanation": "reminder about thyroid check-up",
+                    "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user is motivated to take action and talk to their doctor",
+                    "concise_explanation": "user expresses desire to discuss thyroid condition with doctor",
+                    "supporting_utterance_span": "I want to find a way to talk to my doctor about how my thyroid is affecting me",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "upcoming medical check-ups trigger health anxiety",
+                    "concise_explanation": "thyroid check-up reminder caused worry",
+                    "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.6317075691001037,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "cues_to_action",
+                "attribute_2": "triggers",
+                "explanation": "user's health anxiety is triggering their body image concerns",
+                "supporting_utterance_span": "I want to find a way to talk to my doctor about how my thyroid is affecting me... I feel like everyone is staring at me now",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "main_problem": "body_image_concerns"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be body_image_concerns. Their current TTM stage appears to be precontemplation. Because of this, the response should use T1 Reflection and T12 Normalize/Reframe. This technique is appropriate because the user is still in the early stages of acknowledging their body image concerns and needs help reframing their thoughts. It should be applied by reflecting the user's feelings and concerns, using evidence such as their triggers (comments from others, weight-related comments) and coping strategies (self-affirmations, breathing and grounding techniques). The user also shows high perceived_severity and perceived_barriers, which suggests that they are deeply concerned about their body image and feel that their weight is a significant obstacle. Because of this, the response should use T8 Change Talk to help the user explore their motivations for change. The user intent in this turn is to explore options for managing their anxiety and body image concerns. Because of this, the response should use T4 Open Question to help the user elaborate on their plans and feelings. Relevant connected problems suggest a causal relationship between body_image_concerns and low_self_esteem, as well as a reinforcing relationship between coping_strategies and motivation. This evidence should be used by reflecting the user's progress and motivations, and exploring how their coping strategies can help them build confidence and self-esteem. Overall, the response should try to improve the user's self-efficacy and motivation, while avoiding giving unsolicited advice or overwhelming the user with too much information.",
+        "response_reasoning": "I'll use T1 Reflection to acknowledge the user's feelings and concerns, and T4 Open Question to help them elaborate on their plans and feelings. I'll surface the user's coping strategies (breathing and grounding techniques) and their motivation to practice self-affirmations. I'll drop the connection to health_anxiety for now, as it may overwhelm the user. I'll honor the user's intent to explore options by reflecting their plans and asking an open question to guide the conversation.",
+        "final_response": "It sounds like you're taking proactive steps to manage your anxiety and body image concerns, such as practicing breathing and grounding techniques. You've also mentioned wanting to remind yourself that your work speaks louder than any comment. How do you think these strategies will help you feel more confident and prepared for your portfolio review?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "health_anxiety",
+          "low_self_esteem"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "The user continues to perceive their weight as a significant barrier to self-esteem, with the most recent entry reinforcing this perception.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "fear of being judged based on weight is a barrier to self-esteem"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user perceives their weight as a barrier to being judged on their talent"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no evidence to suggest the user has moved beyond precontemplation, as they have not acknowledged the problem or expressed a desire to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: comments from others trigger body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: comment about weight triggers body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "coping_strategies: user plans to practice self-affirmations and seek supportive feedback"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "triggers: comment about weight and upcoming portfolio review trigger anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "coping_strategies: user plans to practice breathing and grounding techniques to manage anxiety"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "The user remains in the preparation stage, as they are motivated to take action and have cues to action, but there is no evidence of recent concrete steps taken.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: upcoming medical check-ups trigger health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "cues_to_action: upcoming thyroid check-up is a cue to action for health anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "cues_to_action: user is motivated to take action and talk to their doctor"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "The user remains in the preparation stage, as they are seeking to boost confidence and self-worth, and have not expressed a desire to move forward with concrete actions.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user perceives their self-esteem as severely impacted by others' opinions"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: fear of being judged based on weight is a barrier to self-esteem"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "motivation: user is seeking to boost confidence and self-worth"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_barriers: user perceives their weight as a barrier to being judged on their talent"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 2,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I think the breathing will help, but I'm not sure it'll keep my mind from drifting to my body. I want to stay focused on my art, but the anxiety is still there.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "medium",
+          "explanation": "User is evaluating the effectiveness of their planned strategy (breathing routine) for managing anxiety during the portfolio review.",
+          "supporting_utterance_span": "I think the breathing will help, but I'm not sure it'll keep my mind from drifting to my body."
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "user's anxiety about their body during the portfolio review",
+            "supporting_utterance_span": "my mind from drifting to my body"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "user's self-doubt and fear of being judged",
+            "supporting_utterance_span": "anxiety is still there"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "user's body image concerns are the primary focus of their anxiety",
+          "supporting_utterance_span": "my mind from drifting to my body"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user perceives their body image concerns as a significant source of anxiety",
+            "concise_explanation": "anxiety about body during portfolio review",
+            "supporting_utterance_span": "I want to stay focused on my art, but the anxiety is still there",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "coping_strategies",
+            "attribute_type": "non_level",
+            "inferred_information": "user plans to use breathing routine to manage anxiety",
+            "concise_explanation": "breathing routine to stay focused",
+            "supporting_utterance_span": "I think the breathing will help",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "body_image_concerns",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "my mind from drifting to my body. I want to stay focused on my art, but the anxiety is still there"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "body_image_concerns",
+            "attribute_1": "perceived_severity",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "perceived_severity",
+            "relation_type": "reinforcing",
+            "connection_explanation": "user's body image concerns and low self-esteem reinforce each other, exacerbating their anxiety",
+            "supporting_utterance_span": "my mind from drifting to my body. I want to stay focused on my art, but the anxiety is still there",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now perceives their body image concerns as a significant source of anxiety, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user perceives body image concerns as a significant source of anxiety"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User has started to acknowledge their body image concerns as a significant source of anxiety and is planning coping strategies, such as self-affirmations, seeking supportive feedback, and practicing breathing and grounding techniques, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user plans to practice self-affirmations and seek supportive feedback"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user plans to practice breathing and grounding techniques to manage anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user perceives body image concerns as a significant source of anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user plans to use breathing routine to manage anxiety"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "There is no new evidence to suggest a change in the user's stage for low self-esteem. The user is still seeking to boost confidence and self-worth, and perceives their weight as a barrier to being judged on their talent, indicating a continued preparation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is seeking to boost confidence and self-worth"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user perceives their weight as a barrier to being judged on their talent"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I think the breathing will help, but I'm not sure it'll keep my mind from drifting to my body. I want to stay focused on my art, but the anxiety is still there.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I just got the reminder about my thyroid check\u2011up and at lunch someone made a comment about my weight. I feel so exposed, especially with the portfolio review next week looming. I'm worried people will think I'm not the same person I used to be."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really exposed and worried about what others might think, especially with the portfolio review and thyroid check-up coming up. That can be a really tough and vulnerable spot to be in. Would you like to talk more about what's been going through your mind since you got that reminder and heard that comment about your weight?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "Yes, I guess. The comment at lunch still lingers in my mind, and I feel like everyone is staring at me now. I'm worried that my work will be judged through the lens of my weight instead of my talent, and that just makes the portfolio review feel even more intimidating."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the comment at lunch really stuck with you, and now you're worried that everyone is judging you based on your weight, not your talent. That can be a really painful and vulnerable feeling. What do you think would need to happen for you to feel more confident in your abilities, and less worried about what others think?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I think I need to remind myself that my work speaks louder than any comment, maybe get a few supportive friends to preview my portfolio before the review, and practice some self\u2011affirmations. I also want to find a way to talk to my doctor about how my thyroid is affecting me so I can feel more in control."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like you're taking some really positive steps to boost your confidence and feel more in control, like practicing self-affirmations and seeking supportive feedback. What do you think would be the most important thing for you to focus on right now to help you feel more confident and prepared for your portfolio review?"
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "I think the most important thing for me right now is to practice a quick breathing and grounding routine before the panel, so I can stay calm and keep my mind focused on the work instead of my body. A few minutes of slow breathing will help me feel more present and less exposed when I have to present my portfolio."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "It sounds like you're taking proactive steps to manage your anxiety and body image concerns, such as practicing breathing and grounding techniques. You've also mentioned wanting to remind yourself that your work speaks louder than any comment. How do you think these strategies will help you feel more confident and prepared for your portfolio review?"
+          }
+        ],
+        "last_system_message": "It sounds like you're taking proactive steps to manage your anxiety and body image concerns, such as practicing breathing and grounding techniques. You've also mentioned wanting to remind yourself that your work speaks louder than any comment. How do you think these strategies will help you feel more confident and prepared for your portfolio review?",
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user perceives their body image concerns as a significant source of anxiety",
+                  "concise_explanation": "anxiety about body during portfolio review",
+                  "supporting_utterance_span": "I want to stay focused on my art, but the anxiety is still there",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "comments from others trigger body image concerns",
+                  "concise_explanation": "comment about weight triggered self-consciousness",
+                  "supporting_utterance_span": "someone made a comment about my weight",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "comment about weight triggers body image concerns",
+                  "concise_explanation": "comment at lunch still lingers",
+                  "supporting_utterance_span": "someone made a comment about my weight",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "comment about weight and upcoming portfolio review trigger anxiety",
+                  "concise_explanation": "comment about weight and portfolio review trigger exposure feelings",
+                  "supporting_utterance_span": "I feel so exposed, especially with the portfolio review next week looming",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user plans to practice self-affirmations and seek supportive feedback",
+                  "concise_explanation": "user mentions self-affirmations and seeking feedback",
+                  "supporting_utterance_span": "practice some self\u2011affirmations",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user plans to practice breathing and grounding techniques to manage anxiety",
+                  "concise_explanation": "breathing and grounding routine to stay calm",
+                  "supporting_utterance_span": "practice a quick breathing and grounding routine before the panel",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user plans to use breathing routine to manage anxiety",
+                  "concise_explanation": "breathing routine to stay focused",
+                  "supporting_utterance_span": "I think the breathing will help",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "preparation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user perceives their self-esteem as severely impacted by others' opinions",
+                    "concise_explanation": "fear of being perceived differently by others",
+                    "supporting_utterance_span": "I'm worried people will think I'm not the same person I used to be",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "fear of being judged based on weight is a barrier to self-esteem",
+                    "concise_explanation": "worried about being judged on weight instead of talent",
+                    "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user perceives their weight as a barrier to being judged on their talent",
+                    "concise_explanation": "weight is perceived as a barrier to talent recognition",
+                    "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "motivation": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user is seeking to boost confidence and self-worth",
+                    "concise_explanation": "user wants to remind themselves of their strengths",
+                    "supporting_utterance_span": "I think I need to remind myself that my work speaks louder than any comment",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 5,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "coping_strategies",
+                "attribute_2": "motivation",
+                "explanation": "user's coping strategies for body image concerns are linked to their motivation to boost self-esteem",
+                "supporting_utterance_span": "practice some self\u2011affirmations... I think I need to remind myself that my work speaks louder than any comment",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the comment about weight triggers anxiety and reinforces the perception of weight as a barrier to talent recognition",
+                "supporting_utterance_span": "I'm worried that my work will be judged through the lens of my weight instead of my talent",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 4
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_severity",
+                "explanation": "user's body image concerns and low self-esteem reinforce each other, exacerbating their anxiety",
+                "supporting_utterance_span": "my mind from drifting to my body. I want to stay focused on my art, but the anxiety is still there",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          },
+          {
+            "problem_name": "health_anxiety",
+            "current_ttm_stage": "preparation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "cues_to_action": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "upcoming thyroid check-up is a cue to action for health anxiety",
+                    "concise_explanation": "reminder about thyroid check-up",
+                    "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user is motivated to take action and talk to their doctor",
+                    "concise_explanation": "user expresses desire to discuss thyroid condition with doctor",
+                    "supporting_utterance_span": "I want to find a way to talk to my doctor about how my thyroid is affecting me",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "upcoming medical check-ups trigger health anxiety",
+                    "concise_explanation": "thyroid check-up reminder caused worry",
+                    "supporting_utterance_span": "I just got the reminder about my thyroid check\u2011up",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.5597120072598566,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "cues_to_action",
+                "attribute_2": "triggers",
+                "explanation": "user's health anxiety is triggering their body image concerns",
+                "supporting_utterance_span": "I want to find a way to talk to my doctor about how my thyroid is affecting me... I feel like everyone is staring at me now",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          }
+        ],
+        "main_problem": "body_image_concerns"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be body_image_concerns. Their current TTM stage appears to be contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging their anxiety and body image concerns, and is exploring ways to manage them. It should be applied by reflecting the user's feelings and concerns, using evidence such as their perceived_severity of body image concerns and their coping strategies, such as practicing self-affirmations and seeking supportive feedback. The user also shows high perceived_severity and low self_efficacy, which suggests that they need support and encouragement to build their confidence. Because of this, the response should use T5 Ask Permission to explore options for building confidence and self-efficacy. The user intent in this turn is to explore options, which suggests that they are open to suggestions and guidance. Because of this, the response should use T4 Open Question to explore the user's thoughts and feelings about their body image concerns and how they can manage them. Relevant connected problems suggest that the user's body image concerns are linked to their low self-esteem and health anxiety, which should be acknowledged and explored in the response. Overall, the response should try to improve the user's self-efficacy and motivation, while avoiding giving unsolicited advice or overwhelming the user with too many options.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's anxiety and body image concerns, then use T8 Change Talk to explore their motivations and goals. I'll skip the connection to low self-esteem and health anxiety this turn, and instead focus on the user's immediate concerns and feelings. I'll use T5 Ask Permission to explore options for building confidence and self-efficacy, and T4 Open Question to gather more information about the user's thoughts and feelings.",
+        "final_response": "It sounds like you're still feeling anxious about your body image, and you're worried that it will distract you from your art. What do you think would help you feel more confident and focused on your portfolio review, and less worried about what others think of your body?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "low_self_esteem"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now perceives their body image concerns as a significant source of anxiety, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user perceives body image concerns as a significant source of anxiety"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User has started to acknowledge their body image concerns as a significant source of anxiety and is planning coping strategies, such as self-affirmations, seeking supportive feedback, and practicing breathing and grounding techniques, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user plans to practice self-affirmations and seek supportive feedback"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user plans to practice breathing and grounding techniques to manage anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user perceives body image concerns as a significant source of anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user plans to use breathing routine to manage anxiety"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "There is no new evidence to suggest a change in the user's stage for low self-esteem. The user is still seeking to boost confidence and self-worth, and perceives their weight as a barrier to being judged on their talent, indicating a continued preparation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is seeking to boost confidence and self-worth"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user perceives their weight as a barrier to being judged on their talent"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    }
+  ]
+}

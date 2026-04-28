@@ -1,0 +1,53 @@
+profile_id: P30
+source_emocare_id: null
+source_emocare_type: debt problems
+seed_situation_paragraph: I incurred a large amount of credit card debt while caring for my
+  elderly parents, who required expensive medical treatments not fully covered by insurance.
+  Despite working a full-time job and freelancing on the side, I’m barely managing minimum
+  payments each month. Recently, unexpected home repairs further strained my finances, leaving
+  me anxious about meeting basic living expenses
+primary_problem: financial_stress
+session_arc:
+- 'session 1: establish financial_stress; surface attributes (severity, barriers)'
+- 'session 2: explore coping / past_attempts; first TTM move if natural'
+- 'session 3: introduce a second problem if arc allows; progress on primary'
+- 'session 4: deeper work on primary; secondary contextualized'
+persona_draft:
+  personality_traits:
+  - responsible
+  - family-oriented
+  - identity around being the one who handles things
+  - perpetually accruing fatigue
+  communication_style:
+  - practical
+  - concrete with numbers
+  - shorter when stressed
+  - minimizes own struggle
+  - longer when explaining the math of it all
+  relevant_history: Took on large credit card debt during her parents' expensive medical care.
+    Works full-time as an accountant plus freelance side work. Recent unanticipated home repairs
+    further strained her finances.
+  _raw_seeker_profile: 'Sarah   Age: 34   Gender: Female   Career: Accountant   Location:
+    Cincinnati, OH   Profile: Responsible and family-oriented, overwhelmed by financial stress
+    from mounting debt while balancing caregiving duties and multiple jobs to support her
+    household.'
+  demographics:
+    age_range: '34'
+    gender: female
+    occupation: Accountant
+    education: college
+    life_stage: established adulthood
+    location: Cincinnati, OH
+  core_beliefs:
+  - I'm the only one who can hold this together
+  - owing money is something to be ashamed of
+  - if I can budget my way out, I haven't really failed
+  hobbies_interests:
+  - budgeting and personal-finance reading (likes Bogleheads-style content, dislikes flashy
+    fintech apps)
+  - cooking large-batch meals
+  - weekend matinee movies — solo
+initial_graph: null
+blurb: I incurred a large amount of credit card debt while caring for my elderly parents,
+  who required expensive medical treatments not fully covered by insurance. Despite working
+  a full-

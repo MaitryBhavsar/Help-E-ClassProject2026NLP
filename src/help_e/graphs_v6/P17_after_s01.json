@@ -1,0 +1,404 @@
+{
+  "profile_id": "P17",
+  "persona": {
+    "demographics": "age_range: 35",
+    "personality_traits": [
+      "perfectionistic",
+      "self-critical"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": null,
+    "hobbies_interests": [
+      "sustainable design"
+    ],
+    "communication_style": "emotional, reflective",
+    "relevant_history": "recent breakup",
+    "general_behavioral_traits": [
+      "overthinker",
+      "ruminative"
+    ]
+  },
+  "problems": {
+    "perfectionism": {
+      "problem_name": "perfectionism",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees their perfectionism as a significant obstacle",
+              "concise_explanation": "exhausting and prevents starting",
+              "supporting_utterance_span": "I keep overthinking every move, and it's exhausting",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user's perfectionism is a barrier to moving on from the breakup",
+              "concise_explanation": "need to have everything perfect before moving on",
+              "supporting_utterance_span": "I feel like I need to have everything perfect before I can even think about moving on",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user's perfectionism is a barrier to moving on from the breakup and considering a career change",
+              "concise_explanation": "user feels the need to have everything perfect before moving on",
+              "supporting_utterance_span": "It\u2019s hard to even think about a new career when I\u2019m stuck in that loop",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user's need for perfection is a barrier to moving on",
+              "concise_explanation": "user's perfectionism makes it harder to move on",
+              "supporting_utterance_span": "my need for everything to be perfect makes it even harder",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "breakup_aftermath": {
+      "problem_name": "breakup_aftermath",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user experiences the breakup as highly distressing and overwhelming",
+              "concise_explanation": "breakup described as 'still so raw'",
+              "supporting_utterance_span": "it's still so raw",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "the breakup is a trigger for feeling lost",
+              "concise_explanation": "feeling lost since the breakup",
+              "supporting_utterance_span": "Since the breakup I feel lost",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "the breakup itself is a trigger for the user's emotional distress",
+              "concise_explanation": "user wants to talk about the breakup, implying it's a trigger",
+              "supporting_utterance_span": "I think I need to talk about the breakup first",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "replaying the last night of the relationship is a trigger for the user's emotional pain",
+              "concise_explanation": "user is stuck in that same place",
+              "supporting_utterance_span": "I keep replaying the last night we talked",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "replaying the last night is a trigger for the user's emotional distress",
+              "concise_explanation": "user is stuck in the loop of replaying the last night",
+              "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "replaying the last night is a trigger for the user's distress",
+              "concise_explanation": "user is stuck in the loop of replaying the last night",
+              "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "career_uncertainty": {
+      "problem_name": "career_uncertainty",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user perceives their age as a barrier to career change",
+              "concise_explanation": "terrified of not being good enough at 35",
+              "supporting_utterance_span": "I'm terrified I won't be good enough if I try to move into sustainable design at 35",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user perceives their current emotional state as a barrier to considering a career shift",
+              "concise_explanation": "user says they can't think about a career shift due to the breakup",
+              "supporting_utterance_span": "I don't know if I can even think about a career shift right now",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user's current emotional state is a barrier to exploring career options",
+              "concise_explanation": "can't think about a career shift right now",
+              "supporting_utterance_span": "I don\u2019t know if I can even think about a career shift right now",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_susceptibility": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is susceptible to feeling uncertain about their career due to the breakup and perfectionism",
+              "concise_explanation": "user is unsure about starting fresh in sustainable design",
+              "supporting_utterance_span": "I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design",
+              "confidence": "medium"
+            }
+          ]
+        },
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is unsure about their career path and feels stuck",
+              "concise_explanation": "user is having trouble thinking about a new career",
+              "supporting_utterance_span": "It's hard to even think about a new career when I'm stuck in that loop",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "breakup_aftermath",
+      "problem_2": "perfectionism",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I keep overthinking every move, and it's exhausting. Since the breakup I feel lost"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I keep replaying the last night we talked... I feel like I need to have everything perfect before I can even think about moving on"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up. It\u2019s hard to even think about a new career when I\u2019m stuck in that loop"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up, and my need for everything to be perfect makes it even harder"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "causal",
+          "connection_explanation": "the user's rumination about the breakup triggers their perfectionism, which in turn creates a barrier to moving on",
+          "supporting_utterance_span": "I keep replaying the last night we talked... I feel like I need to have everything perfect before I can even think about moving on",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "causal",
+          "connection_explanation": "the user's replaying of the last night triggers their perfectionism, which in turn creates a barrier to moving on",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up. It\u2019s hard to even think about a new career when I\u2019m stuck in that loop",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the user's need to replay the last night reinforces their perfectionism, making it harder to move on",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up, and my need for everything to be perfect makes it even harder",
+          "confidence": "high"
+        }
+      ],
+      "weight": 0.9601044580537015
+    },
+    {
+      "problem_1": "career_uncertainty",
+      "problem_2": "perfectionism",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I feel like I need to have everything perfect before I can even think about moving on... I don\u2019t know if I can even think about a career shift right now"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "It\u2019s hard to even think about a new career when I\u2019m stuck in that loop. I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "my need for everything to be perfect makes it even harder, and it's hard to even think about a new career when I'm stuck in that loop"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "causal",
+          "connection_explanation": "user's perfectionism contributes to their perception of barriers in career change",
+          "supporting_utterance_span": "my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "perceived_susceptibility",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the user's perfectionism reinforces their uncertainty about their career",
+          "supporting_utterance_span": "It\u2019s hard to even think about a new career when I\u2019m stuck in that loop. I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 0.7822394148859462
+    },
+    {
+      "problem_1": "breakup_aftermath",
+      "problem_2": "career_uncertainty",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "Since the breakup I feel lost. I'm terrified I won't be good enough if I try to move into sustainable design at 35"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems are mentioned in the same turn, with the breakup affecting the user's ability to consider a career shift",
+          "supporting_utterance_span": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I keep replaying the last night we talked... I don\u2019t know if I can even think about a career shift right now"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up. I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up, and it's hard to even think about a new career when I'm stuck in that loop"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "causal",
+          "connection_explanation": "the emotional distress from the breakup (trigger) contributes to the user's perception of barriers to considering a career shift",
+          "supporting_utterance_span": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_severity",
+          "relation_type": "causal",
+          "connection_explanation": "the user's distress about the breakup is causing them to feel uncertain about their career path",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up, and it's hard to even think about a new career when I'm stuck in that loop",
+          "confidence": "high"
+        }
+      ],
+      "weight": 0.8798046834070192
+    }
+  ]
+}

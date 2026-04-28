@@ -1,0 +1,1848 @@
+{
+  "session_id": 2,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "being perfect, avoiding judgment",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I wish I could figure out what to do next before I feel completely out of the loop"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I keep thinking I'm not good enough, and if I start the project, people will see how messed up I am"
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I must be perfect to be worthy, others will judge me if I'm not perfect",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I keep thinking I'm not good enough, and if I start the project, people will see how messed up I am"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I'm still scared they'll see how messy it is"
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "friends, manager",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "my friends are moving forward while I'm stuck"
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "maybe just a quick note to my manager for clarification would help"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "yoga",
+      "evidence_citations": [
+        {
+          "turn_id": 4,
+          "excerpt": "the last time I took a risk was when I tried a new yoga class"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I keep putting the project off and feel like I'm falling behind everyone else, but I don't know how to start. It seems like my friends are moving forward while I'm stuck, and I just can't shake this anxious feeling. I wish I could figure out what to do next before I feel completely out of the loop."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're feeling really stuck on this project, and it's like everyone around you is moving forward while you're still trying to figure out where to start. That can be a really overwhelming and anxious place to be. It sounds like the fear of not doing it perfectly is holding you back. Can you tell me more about what's going through your mind when you think about starting the project?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I'm not sure if I should say this, but I keep thinking I'm not good enough, and if I start the project, people will see how messed up I am. I also worry that this project is a sign of my career direction."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "It takes a lot of courage to admit that you're worried about not being good enough and that people might see your flaws. I can sense how much anxiety you're carrying about this project, and it's understandable given the pressure you put on yourself to be perfect. Your fear that this project might be a sign of your career direction is also a heavy burden. Can you tell me more about what you think would happen if you didn't meet your own expectations with this project?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "Honestly, if I don't meet my expectations, I think I'll feel like a failure and that my friends will see me as incompetent. That would just make me even more anxious and stuck, and I worry the project will be a sign that I'm not on the right career path."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're really scared that if you don't meet your own expectations, you'll feel like a failure, and that fear is holding you back from starting the project. It's like you're carrying this weight of needing to be perfect, and it's making it hard for you to take that first step. Yeah, it makes sense that you'd worry about what others might think, but it sounds like the biggest critic you're facing is yourself. Can you think of a time when you've taken a risk and it's worked out, even if it wasn't perfect?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I guess the last time I took a risk was when I tried a new yoga class, but I still felt like I was on autopilot. It didn't feel like a big win, just a small step that made me anxious. And I'm not sure if this project will even show me the right direction."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You took a risk by trying that new yoga class, and even though it didn't feel like a big win, it was still a step forward. It's interesting that you mention feeling like you were on autopilot - it sounds like your anxiety was still present, even in a new and potentially exciting situation. That takes a lot of courage to acknowledge. How do you think you can apply that same courage to this project, even if it feels like a small step?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I think I might try breaking the project into tiny steps, but I'm still scared they'll see how messy it is. I keep feeling like I'm falling behind everyone else."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're considering breaking the project into smaller steps, which is a great way to make it feel less overwhelming. It's understandable that you're still worried about what others might think, but it sounds like you're taking a step towards taking control of your project. What's the smallest step you could take right now to move forward, even if it feels a little messy?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I think the smallest step would be to jot down a quick outline, but the idea that it will look messy makes me anxious. I worry that if I show it, my friends will think I'm not pulling my weight, and that might mean I'm not on the right career path."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're really hesitant to start that outline because you're worried it'll look messy and that your friends will judge you for it. It's like you're feeling this huge pressure to have everything figured out before you even begin, and that's a lot to carry. Yeah, it makes sense that you'd be anxious about what others might think, but it sounds like the biggest obstacle right now is your own fear of not being perfect. Can you think of a way to make that first step feel a little less daunting, maybe by reminding yourself that it's okay if it's not perfect?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I think I could start by writing a quick outline just for myself, not sharing it yet. But I'm still scared they'll think I'm not pulling my weight, and I worry it might show how stuck I am. I also wonder if this actually matters for my career. Maybe I can do it quietly, but the anxiety keeps me on the sidelines."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "You're taking a really brave step by considering a private outline, just for yourself. That shows you're trying to find a way to move forward despite your fears. It's understandable that you're worried about what others might think, but it sounds like you're recognizing the importance of taking that first step, even if it's just for your eyes. What do you think would be the most comforting thing to remind yourself of as you start this outline, to help you feel more at ease with the process?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "Honestly, I'm not sure what to remind myself of. Maybe just that it's okay to be messy, but the anxiety still feels heavy."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "It's really tough to shake off that feeling of anxiety, especially when you're trying to remind yourself that it's okay to be messy. Yeah, it's like you're trying to give yourself permission to not be perfect, but that voice of self-criticism is still loud. I can see how you're trying to reassure yourself, and that takes a lot of courage. What if you tried to focus on the fact that you're taking small steps, like making that private outline, and that it's a process that doesn't have to be perfect from the start?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I\u2019m still stuck because I keep thinking if I do this, my friends will see I\u2019m stuck, especially after hearing about her pregnancy. It feels like I\u2019m falling behind and I\u2019m scared to show my work. Maybe it\u2019s just me being anxious about everyone else moving forward."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're feeling really stuck right now, and it's like the fear of being seen as imperfect is holding you back. Hearing about your friend's pregnancy has made you feel like you're falling behind, and that's a really tough feeling to navigate. It takes a lot of courage to admit when we're feeling stuck, and I want to acknowledge that it's okay to not have everything figured out. What's one thing you could do to take a small step forward, even if it feels scary or imperfect?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I could try jotting a tiny outline for myself, but I'm still scared they'll see how messy it is and think I'm stuck. Maybe just a quick note to my manager for clarification would help, but the fear of judgment keeps me on the sidelines."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're still feeling really anxious about being judged, and that's making it hard for you to take even a small step like jotting down an outline. It's like that fear of being seen as imperfect is holding you back. Yeah, it's tough to shake off that feeling, but maybe taking a tiny step, like writing a quick note to your manager for clarification, could help you feel a little more in control. What do you think is the smallest thing you could do right now to move forward, even if it feels a little scary?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 2,
+      "turn_id": 1,
+      "user_message": "I keep putting the project off and feel like I'm falling behind everyone else, but I don't know how to start. It seems like my friends are moving forward while I'm stuck, and I just can't shake this anxious feeling. I wish I could figure out what to do next before I feel completely out of the loop.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the anxiety and self-doubt you're feeling about this project. Given your intent to express emotion, I'll use a combination of support and complex reflection to help you process your feelings. The evidence that stands out to me is your perfectionistic personality trait and the core belief that you must be perfect to be worthy, which might be contributing to your anxiety about not knowing where to start. My entry point will be to acknowledge the overwhelm and uncertainty you're experiencing, and then gently explore what might be underlying your hesitation to begin the project.",
+        "evidence_used": [
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I must be perfect to be worthy"
+          }
+        ],
+        "final_response": "You're feeling really stuck on this project, and it's like everyone around you is moving forward while you're still trying to figure out where to start. That can be a really overwhelming and anxious place to be. It sounds like the fear of not doing it perfectly is holding you back. Can you tell me more about what's going through your mind when you think about starting the project?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 2,
+      "user_message": "I'm not sure if I should say this, but I keep thinking I'm not good enough, and if I start the project, people will see how messed up I am. I also worry that this project is a sign of my career direction.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the emotions you're expressing right now. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to open up. The evidence shows that you're struggling with feelings of inadequacy and fear of being judged, which is rooted in your core belief that you must be perfect to be worthy. My entry point will be to acknowledge the vulnerability it takes to share these fears, specifically the fear of not meeting expectations and the anxiety about your career direction.",
+        "evidence_used": [
+          {
+            "source": "persona.core_beliefs",
+            "content": "I must be perfect to be worthy"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "fear of not doing it perfectly"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "not good enough, people will see how messed up I am"
+          }
+        ],
+        "final_response": "It takes a lot of courage to admit that you're worried about not being good enough and that people might see your flaws. I can sense how much anxiety you're carrying about this project, and it's understandable given the pressure you put on yourself to be perfect. Your fear that this project might be a sign of your career direction is also a heavy burden. Can you tell me more about what you think would happen if you didn't meet your own expectations with this project?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 3,
+      "user_message": "Honestly, if I don't meet my expectations, I think I'll feel like a failure and that my friends will see me as incompetent. That would just make me even more anxious and stuck, and I worry the project will be a sign that I'm not on the right career path.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person right now, and they need me to acknowledge their emotional pain. Given their intent to express emotion, I'll use the support strategy to create a safe space. The evidence shows they're struggling with feelings of inadequacy and fear of not meeting expectations. Their recent turns indicate a deep-seated fear of being seen as imperfect. My entry will be to acknowledge this fear and the anxiety it's causing.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "fear of not being good enough"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I must be perfect to be worthy"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "anxious feeling about being stuck"
+          }
+        ],
+        "final_response": "You're really scared that if you don't meet your own expectations, you'll feel like a failure, and that fear is holding you back from starting the project. It's like you're carrying this weight of needing to be perfect, and it's making it hard for you to take that first step. Yeah, it makes sense that you'd worry about what others might think, but it sounds like the biggest critic you're facing is yourself. Can you think of a time when you've taken a risk and it's worked out, even if it wasn't perfect?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 4,
+      "user_message": "I guess the last time I took a risk was when I tried a new yoga class, but I still felt like I was on autopilot. It didn't feel like a big win, just a small step that made me anxious. And I'm not sure if this project will even show me the right direction.",
+      "inference": {
+        "user_intent": {
+          "intent": "report_action",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "report_action",
+        "intent_entry_style": "Affirm the specific effort; respond to the content of the report.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their anxiety and self-doubt, and they need me to acknowledge their efforts and concerns. Given their report of taking a risk with a new yoga class, I'll use the support strategy to affirm their specific effort. The evidence shows they're struggling with feelings of inadequacy and anxiety, so I'll use that to inform my response. My entry point will be to acknowledge the anxiety they felt even after taking a risk, and how that relates to their current project concerns.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "anxious feeling"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "not good enough"
+          }
+        ],
+        "final_response": "You took a risk by trying that new yoga class, and even though it didn't feel like a big win, it was still a step forward. It's interesting that you mention feeling like you were on autopilot - it sounds like your anxiety was still present, even in a new and potentially exciting situation. That takes a lot of courage to acknowledge. How do you think you can apply that same courage to this project, even if it feels like a small step?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "report_action",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 5,
+      "user_message": "I think I might try breaking the project into tiny steps, but I'm still scared they'll see how messy it is. I keep feeling like I'm falling behind everyone else.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help you navigate your feelings about this project, and it seems like you're struggling with the fear of not being perfect and the anxiety of being judged. Given your intent to express emotion, I'll focus on providing a supportive space for you to explore your thoughts. The candidate strategies of support and complex reflection seem fitting for this moment. I've noticed that you've mentioned feeling like you're falling behind everyone else, and that you're scared of being judged, which suggests that you're carrying a heavy burden of self-doubt. Your idea of breaking the project into tiny steps is a great start, and I'd like to help you build on that.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.(none)",
+            "content": "feeling like falling behind everyone else"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic, self-critical, anxious"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "trying to break the project into tiny steps"
+          }
+        ],
+        "final_response": "You're considering breaking the project into smaller steps, which is a great way to make it feel less overwhelming. It's understandable that you're still worried about what others might think, but it sounds like you're taking a step towards taking control of your project. What's the smallest step you could take right now to move forward, even if it feels a little messy?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 6,
+      "user_message": "I think the smallest step would be to jot down a quick outline, but the idea that it will look messy makes me anxious. I worry that if I show it, my friends will think I'm not pulling my weight, and that might mean I'm not on the right career path.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of anxiety about starting this project, so my role is to acknowledge that emotion first. Given your intent to express emotion and the fact that we're still in the early stages of discussing this project, I think the strategies of support and complex reflection are most appropriate. The evidence that stands out to me is your fear of not meeting expectations and your worry about what others might think, which suggests that you're putting a lot of pressure on yourself. My entry point will be to acknowledge the anxiety you're feeling about creating a potentially messy outline and how that fear is tied to your broader concerns about your career path.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "smallest step would be to jot down a quick outline, but the idea that it will look messy makes me anxious"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I must be perfect to be worthy"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "fear of not meeting expectations"
+          }
+        ],
+        "final_response": "You're really hesitant to start that outline because you're worried it'll look messy and that your friends will judge you for it. It's like you're feeling this huge pressure to have everything figured out before you even begin, and that's a lot to carry. Yeah, it makes sense that you'd be anxious about what others might think, but it sounds like the biggest obstacle right now is your own fear of not being perfect. Can you think of a way to make that first step feel a little less daunting, maybe by reminding yourself that it's okay if it's not perfect?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 7,
+      "user_message": "I think I could start by writing a quick outline just for myself, not sharing it yet. But I'm still scared they'll think I'm not pulling my weight, and I worry it might show how stuck I am. I also wonder if this actually matters for my career. Maybe I can do it quietly, but the anxiety keeps me on the sidelines.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of anxiety about starting this project, fearing it'll show your flaws and that others will judge you. The strategies that seem most fitting right now are support and complex_reflection, given your emotional state and the need to explore your feelings without judgment. From what you've shared, it's clear that your fear of not being perfect and your worry about what others might think are major barriers. Your idea to start with a private outline is a good first step, acknowledging your need for control and privacy in this initial phase. My response will aim to acknowledge these feelings and encourage your small steps towards action.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "fear of not being perfect"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I must be perfect to be worthy"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "worry about what others might think"
+          }
+        ],
+        "final_response": "You're taking a really brave step by considering a private outline, just for yourself. That shows you're trying to find a way to move forward despite your fears. It's understandable that you're worried about what others might think, but it sounds like you're recognizing the importance of taking that first step, even if it's just for your eyes. What do you think would be the most comforting thing to remind yourself of as you start this outline, to help you feel more at ease with the process?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 8,
+      "user_message": "Honestly, I'm not sure what to remind myself of. Maybe just that it's okay to be messy, but the anxiety still feels heavy.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user is expressing their emotions, so I'll prioritize empathy and reflection. Given the user's perfectionistic and self-critical personality traits, I'll use the support strategy to acknowledge their feelings. The evidence shows that the user is struggling with anxiety and fear of not being perfect, so I'll use that to inform my response. The user's statement about being okay with being messy is a good starting point, and I'll use that to reflect their progress. My entry point will be to acknowledge the user's anxiety and their attempt to reassure themselves.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "it's okay to be messy"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic, self-critical, anxious"
+          }
+        ],
+        "final_response": "It's really tough to shake off that feeling of anxiety, especially when you're trying to remind yourself that it's okay to be messy. Yeah, it's like you're trying to give yourself permission to not be perfect, but that voice of self-criticism is still loud. I can see how you're trying to reassure yourself, and that takes a lot of courage. What if you tried to focus on the fact that you're taking small steps, like making that private outline, and that it's a process that doesn't have to be perfect from the start?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 9,
+      "user_message": "I\u2019m still stuck because I keep thinking if I do this, my friends will see I\u2019m stuck, especially after hearing about her pregnancy. It feels like I\u2019m falling behind and I\u2019m scared to show my work. Maybe it\u2019s just me being anxious about everyone else moving forward.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions and concerns about feeling stuck and anxious, and they need me to acknowledge their fears without judgment. The strategies that might be helpful in this situation are support and complex reflection, as they can help the user process their emotions and gain a deeper understanding of their thoughts and feelings. The evidence that stands out to me is the user's consistent fear of being judged and found inadequate, as well as their tendency to overthink and be emotionally reactive. The user's recent turns have shown a pattern of self-criticism and anxiety, and it's clear that they're struggling to give themselves permission to be imperfect. My entry point will be to acknowledge the user's fear of being seen as stuck and their anxiety about others moving forward, and to help them explore ways to reframe their thinking and build confidence in their abilities.",
+        "evidence_used": [
+          {
+            "source": "persona.core_beliefs",
+            "content": "I must be perfect to be worthy"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "I'm still stuck because I keep thinking if I do this, my friends will see I'm stuck"
+          }
+        ],
+        "final_response": "You're feeling really stuck right now, and it's like the fear of being seen as imperfect is holding you back. Hearing about your friend's pregnancy has made you feel like you're falling behind, and that's a really tough feeling to navigate. It takes a lot of courage to admit when we're feeling stuck, and I want to acknowledge that it's okay to not have everything figured out. What's one thing you could do to take a small step forward, even if it feels scary or imperfect?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "reframe"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 10,
+      "user_message": "I could try jotting a tiny outline for myself, but I'm still scared they'll see how messy it is and think I'm stuck. Maybe just a quick note to my manager for clarification would help, but the fear of judgment keeps me on the sidelines.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "reframe"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions and concerns about their project and fear of judgment. Given their intent to express emotion, I'll use the support strategy to acknowledge their feelings. The evidence shows they're struggling with perfectionism and anxiety, which is holding them back from taking action. They've mentioned the idea of jotting down a tiny outline for themselves, but are still scared of being judged. My entry point will be to acknowledge their fear and anxiety, and help them see that taking small steps can be a way to move forward.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.none",
+            "content": "fear of judgment"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic, self-critical, anxious"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "feeling stuck and scared to show work"
+          }
+        ],
+        "final_response": "You're still feeling really anxious about being judged, and that's making it hard for you to take even a small step like jotting down an outline. It's like that fear of being seen as imperfect is holding you back. Yeah, it's tough to shake off that feeling, but maybe taking a tiny step, like writing a quick note to your manager for clarification, could help you feel a little more in control. What do you think is the smallest thing you could do right now to move forward, even if it feels a little scary?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "profile_id": "P07",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user described feeling caught between preserving family legacy and the pressure to expand the business rapidly. They expressed fear of financial risk and frustration that their sister focuses on numbers, with an investor deadline looming. The user acknowledged the risk but remains uncertain about how to reconcile the visions, and considered framing their concerns as risks to influence her perspective. No clear shift toward action was noted."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "financial_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Acknowledges financial risk and investor deadline, but feels stuck and not yet planning action."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "explore_option"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The weight of the family legacy is a heavy thing to carry, especially when it feels like the business's future is hanging in the balance \u2014 and a deadline next week doesn't help. It sounds like you're really struggling to reconcile your vision with your sister's, and that's a tough spot to be in."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "The feeling of shouting into a wall is a really isolating one, especially when it's about something as important as your family's legacy and the future of the business. It's like the pressure to preserve tradition and drive growth is pulling you in two different directions, and it's exhausting to try to navigate that on your own."
+              }
+            ],
+            "reasoning": "The assistant named specific emotions (exhaustion, isolation) and acknowledged the difficulty of the situation, staying with the feelings for a few turns.",
+            "score": 4
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The weight of the family legacy is a heavy thing to carry, especially when it feels like the business's future is hanging in the balance \u2014 and a deadline next week doesn't help. It sounds like you're really struggling to reconcile your vision with your sister's, and that's a tough spot to be in."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "The old ways are a part of your identity and your family's history, and it's exhausting to feel like you're shouldering that responsibility alone."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "The feeling of shouting into a wall is overwhelming, and it's like every conversation with your sister is a reminder that you're not being heard. The pressure of the investor deadline and the fear of a failed expansion are weighing heavily on you, and it's exhausting to feel like you're shouldering that responsibility alone."
+              }
+            ],
+            "reasoning": "The assistant consistently referenced the family legacy, the sister\u2019s push for expansion, the investor deadline, and the user\u2019s fear of risk, showing a clear grasp of the user\u2019s context across turns.",
+            "score": 5
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Whatever you want to say next, I'm listening."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "The feeling of shouting into a wall is overwhelming, and it's like every conversation with your sister is a reminder that you're not being heard. The pressure of the investor deadline and the fear of a failed expansion are weighing heavily on you, and it's exhausting to feel like you're shouldering that responsibility alone."
+              }
+            ],
+            "reasoning": "The assistant offered no concrete suggestions, strategies, or next\u2011step questions; it merely repeated empathy, resulting in minimal forward movement.",
+            "score": 1
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Whatever you want to say next, I'm listening."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "The feeling of shouting into a wall is overwhelming, and it's like every conversation with your sister is a reminder that you're not being heard."
+              }
+            ],
+            "reasoning": "The assistant explicitly invited the user to continue without pushing any agenda, respecting the user\u2019s right to decide how to proceed.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "The feeling of shouting into a wall is a really isolating one, especially when it's about something as important as your family's legacy and the future of the business."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "Whatever you want to say next, I'm listening."
+              }
+            ],
+            "reasoning": "The assistant never criticized the user\u2019s perspective or choices, creating a safe space for disclosure.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Whatever you want to say next, I'm listening."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "The feeling of shouting into a wall is overwhelming, and it's like every conversation with your sister is a reminder that you're not being heard."
+              }
+            ],
+            "reasoning": "The assistant\u2019s open invitation and lack of pressure suggest the user would likely want to keep talking, though the lack of concrete help may temper enthusiasm.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

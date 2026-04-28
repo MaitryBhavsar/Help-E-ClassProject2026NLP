@@ -1,0 +1,2190 @@
+{
+  "session_id": 2,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "friend from thrift store, possibly fragile, and no other mentioned support",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The friend from the thrift store is being silent"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "The friend from the thrift store just won't text back"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I\u2019m also stuck on whether I should text the thrift store friend again; her silence feels like a personal rejection"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": "baking",
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": "emotional, reflective",
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "lost job at bakery, struggling with rent, received eviction notice",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I just got the eviction notice"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I don't have the cash to pay a deposit"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, self-critical, anxious",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I\u2019m just stuck in this loop of worry and guilt"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I\u2019m also stuck on whether I should text the thrift store friend again; her silence feels like a personal rejection"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "I guess the most important thing is to show I'm reliable, not desperate"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "I\u2019m terrified I\u2019ll have to move out and end up sleeping on the couch\u2014no backup plan, no extra cash"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I just got the eviction notice and it feels like the whole world is collapsing. The friend from the thrift store is being silent, and my stomach keeps hurting like nothing else matters. I can\u2019t focus on anything else right now. I\u2019m just stuck in this loop of worry and guilt."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The eviction notice must be really scary, and it's no wonder you're feeling overwhelmed. Your stomach hurting and inability to focus are clear signs of how much stress you're under. It sounds like everything else, even your concerns about your friend and body image, are taking a backseat to this urgent financial worry. Can you tell me more about what's going through your mind right now, and how you're coping with this feeling of being stuck?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I don't even know where to start with the notice\u2014my rent's due and I don't have the cash. The friend from the thrift store just won't text back, and that stomach ache keeps nagging me. I feel like I'm stuck in a loop and can't get out."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The eviction notice and the rent due date must be weighing heavily on you, making it hard to think about anything else. It's like everything is piling up, and you're not sure where to start. Your friend's silence is also adding to your emotional pain, and that stomach ache is a constant reminder of your stress. Can you think of one small step you could take today to start addressing the eviction notice, even if it feels like a tiny move forward?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I guess the first thing is to call the landlord and see if there's any wiggle room, but I don't have the cash to pay a deposit. I also keep thinking about that friend from the thrift store\u2014I don't know if I should reach out again. The stomach keeps hurting, probably because I'm so stressed."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "Calling the landlord to see if there's any flexibility with the rent due date is a great first step, and it's understandable that you're worried about not having the cash for a deposit. It's also clear that the situation with your friend from the thrift store is still on your mind, and you're unsure about reaching out again. Given your urgent financial situation, have you considered what you could say to the landlord to negotiate a possible payment plan or temporary reduction?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I\u2019m not sure how to even start that call \u2013 I don\u2019t want to sound desperate, and my stomach keeps making me feel like I\u2019m going to faint. I\u2019m also stuck on whether I should text the thrift store friend again; her silence feels like a personal rejection. I guess I need to figure out a way to get a payment plan without a deposit, but I\u2019m terrified that I\u2019ll just get pushed out."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The thought of making that call to the landlord is really daunting for you, and it's understandable that you're worried about coming across as desperate. It's also clear that your friend's silence is weighing heavily on you, feeling like a personal rejection. Your stomach's been hurting, and that's a physical sign of just how stressed you are right now. Can you think of what you might say to the landlord that would feel authentic and not desperate, maybe something that acknowledges your situation and shows you're willing to work out a payment plan?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I could try saying something like, \"I know I owe rent, but I can't pay it all now; can we set up a payment plan over the next month?\" I still don't know if that sounds desperate, and the friend from the thrift shop is just adding to the weight, plus my stomach's still hurting like nothing else matters."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're taking a big step by thinking about how to talk to your landlord, and it's great that you're considering a payment plan. Proposing a specific timeline, like a month, shows you're thinking ahead. What do you think is the most important thing to get across to your landlord in that conversation?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I guess the most important thing is to show I'm reliable, not desperate. The rent is the biggest worry, and my stomach keeps burning so I can't even focus. I also keep thinking about the friend who hasn't replied, and that just adds to the anxiety."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're really worried about coming across as reliable, not desperate, when you talk to your landlord, and that's understandable given the pressure you're under. It's like you're trying to convey that you're in control of the situation, even when everything feels overwhelming. Your stomach's been hurting, and that's a physical sign of just how stressed you are right now. It's also clear that your friend's silence is still weighing on you, adding to your anxiety. Can you think of a way to phrase your proposal to the landlord that feels authentic and confident, something that shows you're taking responsibility for your rent?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I could try saying, \"I know I owe rent and I\u2019m committed to paying it in installments; I\u2019ve been hit hard with bills, can we work out a plan?\" But I\u2019m still scared the landlord will think I\u2019m just slacking. And every time I feel the stomach ache, I\u2019m terrified it\u2019s something serious."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "You've put a lot of thought into what you want to say to your landlord, and it's great that you're considering a payment plan that shows you're committed to paying your rent. I can see why you're scared that your landlord might think you're just slacking, but it's clear that you're taking this situation seriously and trying to find a solution. Your proposal to pay in installments over the next month is a responsible one, and it might help to reassure your landlord that you're not trying to avoid paying your rent. What do you think is the worst-case scenario if your landlord says no to your proposal, and how might you prepare for that?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "If he says no, I\u2019m terrified I\u2019ll have to move out and end up sleeping on the couch\u2014no backup plan, no extra cash. My stomach keeps nagging me, and I keep thinking the friend from the thrift store is just ignoring me, like I\u2019m losing everyone I can count on. I\u2019m stuck worrying about all of this and don\u2019t know how to break the cycle."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The thought of having to move out and sleep on the couch with no safety net is terrifying, and it's understandable that this fear is overwhelming you right now. It's like everything is piling up - the stress of dealing with your landlord, the worry about your friend's silence, and the physical discomfort of your stomach ache. It feels like you're losing control and that's a really scary place to be. Can you think of any small steps you could take right now to start feeling a bit more in control of your situation?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I could start by drafting a quick email to the landlord instead of calling, just to get the word out, but the stomach still hurts whenever I think about it.  I\u2019m also debating whether to text the thrift\u2011store friend again, feeling like I might be pushing her away.  Maybe a small step is just sitting down with a cup of tea and writing the message, even if I don\u2019t send it right away."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "It's really tough to think about reaching out to your landlord, especially when you're feeling desperate and your stomach is hurting. Drafting a quick email instead of calling might be a good way to start, even if it's just to get your thoughts down on paper. You're also weighing the pros and cons of texting your friend from the thrift store again, which is adding to your anxiety. Maybe taking a small step like sitting down with a cup of tea and writing out your message could help you feel a bit more in control. What do you think is the most important thing to get across to your landlord in that email, and how might you phrase it to show you're committed to finding a solution?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I\u2019d probably say something like, \u2018I know I owe rent and I\u2019m fully committed to paying it over the next month, but I\u2019m stuck right now and need a bit of time.\u2019 The stomach still keeps nagging me, and I\u2019m not sure if I should text the thrift\u2011store friend again or just leave it alone. On top of that, the whole thing feels like a looming financial cliff and I\u2019m scared I\u2019ll lose my place."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're really scared about losing your place and the thought of having to move out is terrifying, especially with no backup plan or extra cash. It's like everything is piling up - the stress of dealing with your landlord, the worry about your friend's silence, and the physical discomfort of your stomach ache. Drafting a quick email to your landlord instead of calling might be a good way to start, even if it's just to get your thoughts down on paper. What do you think is the most important thing to get across to your landlord in that email, and how might you phrase it to show you're committed to finding a solution?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 2,
+      "turn_id": 1,
+      "user_message": "I just got the eviction notice and it feels like the whole world is collapsing. The friend from the thrift store is being silent, and my stomach keeps hurting like nothing else matters. I can\u2019t focus on anything else right now. I\u2019m just stuck in this loop of worry and guilt.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelming emotions you're experiencing. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to process your feelings. The evidence shows that you're struggling with financial stress, conflicts with friends, and body image concerns, but the eviction notice has escalated your financial stress and sense of overwhelm. You're feeling stuck in a loop of worry and guilt, and it's affecting your ability to focus on anything else. My entry point will be to acknowledge the urgency of your financial situation and the emotional distress it's causing.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "eviction notice and financial stress"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "friend's silence and emotional distress"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "emotional and reflective"
+          }
+        ],
+        "final_response": "The eviction notice must be really scary, and it's no wonder you're feeling overwhelmed. Your stomach hurting and inability to focus are clear signs of how much stress you're under. It sounds like everything else, even your concerns about your friend and body image, are taking a backseat to this urgent financial worry. Can you tell me more about what's going through your mind right now, and how you're coping with this feeling of being stuck?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_friends",
+          "financial_stress",
+          "body_image_concerns"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 2,
+      "user_message": "I don't even know where to start with the notice\u2014my rent's due and I don't have the cash. The friend from the thrift store just won't text back, and that stomach ache keeps nagging me. I feel like I'm stuck in a loop and can't get out.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now, given their intent to express emotion. The strategies that fit this moment are support and facilitate, which can help the user process their feelings and move forward. The evidence that stands out is the user's sense of overwhelm and urgency about their financial situation, particularly the eviction notice and the due rent, which is taking precedence over other concerns. The user's emotional pain and feeling of being stuck are evident in their message, and I need to acknowledge that first. My entry point will be to reflect the user's desperation and sense of being overwhelmed, and then facilitate their thinking about where to start with the eviction notice.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "eviction notice and due rent"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "friend's silence and user's emotional distress"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "feeling stuck and overwhelmed"
+          }
+        ],
+        "final_response": "The eviction notice and the rent due date must be weighing heavily on you, making it hard to think about anything else. It's like everything is piling up, and you're not sure where to start. Your friend's silence is also adding to your emotional pain, and that stomach ache is a constant reminder of your stress. Can you think of one small step you could take today to start addressing the eviction notice, even if it feels like a tiny move forward?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_friends",
+          "financial_stress",
+          "body_image_concerns"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 3,
+      "user_message": "I guess the first thing is to call the landlord and see if there's any wiggle room, but I don't have the cash to pay a deposit. I also keep thinking about that friend from the thrift store\u2014I don't know if I should reach out again. The stomach keeps hurting, probably because I'm so stressed.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_information",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "seek_information",
+        "intent_entry_style": "Elicit what they know \u2192 provide one piece \u2192 elicit reaction.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs information about their financial stress, so I'll provide a piece of information and elicit their reaction. The candidate strategies advise_with_permission, closed_question, and structure are suitable for the preparation stage. The evidence shows the user is overwhelmed by the eviction notice and financial stress, but is considering calling the landlord and reaching out to their friend. The user's desire to take action despite financial constraints and their sense of urgency about paying rent are key points to acknowledge. I'll start by acknowledging the user's situation and then provide a suggestion to help them move forward.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "user is considering calling the landlord to see if there's any wiggle room"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "user is unsure if the friend will still want to hang out again"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "emotional, reflective"
+          }
+        ],
+        "final_response": "Calling the landlord to see if there's any flexibility with the rent due date is a great first step, and it's understandable that you're worried about not having the cash for a deposit. It's also clear that the situation with your friend from the thrift store is still on your mind, and you're unsure about reaching out again. Given your urgent financial situation, have you considered what you could say to the landlord to negotiate a possible payment plan or temporary reduction?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_friends",
+          "financial_stress",
+          "body_image_concerns"
+        ],
+        "user_intent": "seek_information",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 4,
+      "user_message": "I\u2019m not sure how to even start that call \u2013 I don\u2019t want to sound desperate, and my stomach keeps making me feel like I\u2019m going to faint. I\u2019m also stuck on whether I should text the thrift store friend again; her silence feels like a personal rejection. I guess I need to figure out a way to get a payment plan without a deposit, but I\u2019m terrified that I\u2019ll just get pushed out.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission",
+            "closed_question",
+            "structure"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now, given their intent to express emotion. The strategies that fit this moment are support and facilitate, which will help the user feel understood and explore their thoughts. The evidence shows that the user is overwhelmed by their financial stress, particularly the eviction notice, and is also worried about their friend's silence, which feels like a personal rejection. The user's stomach issues and fear of sounding desperate on the call to the landlord indicate a high level of anxiety. My entry will be to acknowledge this anxiety and the sense of being overwhelmed, and then facilitate their thinking about how to approach the call to the landlord.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "eviction notice and rent due date"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "friend's silence feels like a personal rejection"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "stomach keeps hurting, probably because I'm so stressed"
+          }
+        ],
+        "final_response": "The thought of making that call to the landlord is really daunting for you, and it's understandable that you're worried about coming across as desperate. It's also clear that your friend's silence is weighing heavily on you, feeling like a personal rejection. Your stomach's been hurting, and that's a physical sign of just how stressed you are right now. Can you think of what you might say to the landlord that would feel authentic and not desperate, maybe something that acknowledges your situation and shows you're willing to work out a payment plan?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_friends",
+          "financial_stress",
+          "body_image_concerns"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 5,
+      "user_message": "I could try saying something like, \"I know I owe rent, but I can't pay it all now; can we set up a payment plan over the next month?\" I still don't know if that sounds desperate, and the friend from the thrift shop is just adding to the weight, plus my stomach's still hurting like nothing else matters.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_validation",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "seek_validation",
+        "intent_entry_style": "Normalize their reaction; affirm specifically.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission",
+            "closed_question",
+            "structure"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this really tough financial situation, and it sounds like you're taking a crucial step by considering how to approach your landlord. Given your intent to seek validation, I want to acknowledge the effort you're putting into thinking about what to say to your landlord, like proposing a payment plan over the next month. The fact that you're planning to suggest a specific timeline shows you're thinking ahead and trying to find a solution. Your concern about sounding desperate is understandable, but it's great that you're thinking about how to communicate your needs clearly. I'll use a combination of support and facilitate strategies to help you explore this further.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User is planning to propose a payment plan over the next month"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "User is worried about sounding desperate when talking to the landlord"
+          }
+        ],
+        "final_response": "You're taking a big step by thinking about how to talk to your landlord, and it's great that you're considering a payment plan. Proposing a specific timeline, like a month, shows you're thinking ahead. What do you think is the most important thing to get across to your landlord in that conversation?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "conflicts_with_friends",
+          "body_image_concerns"
+        ],
+        "user_intent": "seek_validation",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 6,
+      "user_message": "I guess the most important thing is to show I'm reliable, not desperate. The rent is the biggest worry, and my stomach keeps burning so I can't even focus. I also keep thinking about the friend who hasn't replied, and that just adds to the anxiety.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help the user navigate their financial stress and emotional worries. Given the user's intent to express emotion, I'll start by acknowledging their feelings and concerns. The candidate strategies of support and facilitate are suitable for the user's current preparation stage. The evidence from the user's previous messages shows that they're overwhelmed by the eviction notice, struggling to pay rent, and worried about their friend's silence. The user's proposal of a payment plan over the next month indicates a desire to take action and find a solution. My entry point will be to reflect the user's desire to appear reliable and not desperate to their landlord, while also acknowledging their anxiety and stress.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User proposes a payment plan over the next month"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "User wants to show they're reliable, not desperate"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "Friend's silence is adding to the user's anxiety"
+          }
+        ],
+        "final_response": "You're really worried about coming across as reliable, not desperate, when you talk to your landlord, and that's understandable given the pressure you're under. It's like you're trying to convey that you're in control of the situation, even when everything feels overwhelming. Your stomach's been hurting, and that's a physical sign of just how stressed you are right now. It's also clear that your friend's silence is still weighing on you, adding to your anxiety. Can you think of a way to phrase your proposal to the landlord that feels authentic and confident, something that shows you're taking responsibility for your rent?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "conflicts_with_friends",
+          "body_image_concerns"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 7,
+      "user_message": "I could try saying, \"I know I owe rent and I\u2019m committed to paying it in installments; I\u2019ve been hit hard with bills, can we work out a plan?\" But I\u2019m still scared the landlord will think I\u2019m just slacking. And every time I feel the stomach ache, I\u2019m terrified it\u2019s something serious.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_validation",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "seek_validation",
+        "intent_entry_style": "Normalize their reaction; affirm specifically.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this tough financial situation, and it seems like you're looking for validation on your approach to talking to your landlord. Given your intent to seek validation, I think the best strategies to use are support and facilitate, which will help you feel heard and understood. The evidence I'm using is your proposal to the landlord, where you've thoughtfully considered how to phrase your request for a payment plan, showing that you're taking responsibility for your rent. My entry point will be to acknowledge your fear of being seen as slacking, and affirm the specific effort you've put into crafting a proposal that shows your commitment to paying your rent.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User has proposed a payment plan to the landlord, showing commitment to paying rent"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "User is scared the landlord will think they're just slacking"
+          }
+        ],
+        "final_response": "You've put a lot of thought into what you want to say to your landlord, and it's great that you're considering a payment plan that shows you're committed to paying your rent. I can see why you're scared that your landlord might think you're just slacking, but it's clear that you're taking this situation seriously and trying to find a solution. Your proposal to pay in installments over the next month is a responsible one, and it might help to reassure your landlord that you're not trying to avoid paying your rent. What do you think is the worst-case scenario if your landlord says no to your proposal, and how might you prepare for that?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "conflicts_with_friends",
+          "body_image_concerns"
+        ],
+        "user_intent": "seek_validation",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 8,
+      "user_message": "If he says no, I\u2019m terrified I\u2019ll have to move out and end up sleeping on the couch\u2014no backup plan, no extra cash. My stomach keeps nagging me, and I keep thinking the friend from the thrift store is just ignoring me, like I\u2019m losing everyone I can count on. I\u2019m stuck worrying about all of this and don\u2019t know how to break the cycle.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to reflect your emotions right now, especially with the weight of financial stress and the fear of losing your home. Given your preparation stage for tackling financial stress, I think strategies like support and facilitate are crucial, as they allow you to express your feelings and concerns without feeling judged. The evidence shows that you're deeply worried about your landlord's potential reaction to your proposal for a payment plan, and this fear is compounded by your physical symptoms like the stomach ache and your emotional distress over your friend's silence. My entry point will be to acknowledge the terror you feel about the possibility of having to move out and the cycle of worry that's consuming you.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User has received an eviction notice and is planning to call the landlord to negotiate a payment plan without a deposit"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "User is worried about the friend from the thrift shop, who is being silent, and feels like they're losing their circle"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "User expressed terror about having to move out and end up sleeping on the couch with no backup plan or extra cash"
+          }
+        ],
+        "final_response": "The thought of having to move out and sleep on the couch with no safety net is terrifying, and it's understandable that this fear is overwhelming you right now. It's like everything is piling up - the stress of dealing with your landlord, the worry about your friend's silence, and the physical discomfort of your stomach ache. It feels like you're losing control and that's a really scary place to be. Can you think of any small steps you could take right now to start feeling a bit more in control of your situation?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "conflicts_with_friends",
+          "body_image_concerns"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 9,
+      "user_message": "I could start by drafting a quick email to the landlord instead of calling, just to get the word out, but the stomach still hurts whenever I think about it.  I\u2019m also debating whether to text the thrift\u2011store friend again, feeling like I might be pushing her away.  Maybe a small step is just sitting down with a cup of tea and writing the message, even if I don\u2019t send it right away.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help you navigate this tough spot, and I can see that you're feeling overwhelmed by the eviction notice and the stress of dealing with your landlord. Given your intent to make a deliberate decision, I think it's essential to reflect on both sides of your ambivalence before making a move. The strategies that might be helpful in this situation are advise_with_permission, closed_question, and structure, as they can help drive preparation towards action. From the evidence, I can see that you're considering drafting a quick email to the landlord and are worried about coming across as desperate. You're also struggling with the physical discomfort of your stomach ache and the emotional distress of your friend's silence. My entry point will be to acknowledge the difficulty of your situation and the small step you're considering taking.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User is considering drafting a quick email to the landlord instead of calling"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "User is debating whether to text the thrift-store friend again"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "User's stomach hurts whenever they think about their problems"
+          }
+        ],
+        "final_response": "It's really tough to think about reaching out to your landlord, especially when you're feeling desperate and your stomach is hurting. Drafting a quick email instead of calling might be a good way to start, even if it's just to get your thoughts down on paper. You're also weighing the pros and cons of texting your friend from the thrift store again, which is adding to your anxiety. Maybe taking a small step like sitting down with a cup of tea and writing out your message could help you feel a bit more in control. What do you think is the most important thing to get across to your landlord in that email, and how might you phrase it to show you're committed to finding a solution?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_friends",
+          "financial_stress",
+          "body_image_concerns"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 10,
+      "user_message": "I\u2019d probably say something like, \u2018I know I owe rent and I\u2019m fully committed to paying it over the next month, but I\u2019m stuck right now and need a bit of time.\u2019 The stomach still keeps nagging me, and I\u2019m not sure if I should text the thrift\u2011store friend again or just leave it alone. On top of that, the whole thing feels like a looming financial cliff and I\u2019m scared I\u2019ll lose my place.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission",
+            "closed_question",
+            "structure"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to reflect your emotions right now, so I'll prioritize empathy and acknowledgment. Given your preparation stage for addressing financial stress, I'll consider strategies like support, facilitate, advise_with_permission, closed_question, and structure. Your recent messages show you're overwhelmed by the eviction notice, struggling to pay rent, and worried about your friend's silence, which is all contributing to your stomach issues and feelings of desperation. You've proposed a payment plan to your landlord and are thinking of drafting an email to negotiate, which is a concrete step towards taking control of your situation. My entry point will be to acknowledge the weight of your financial stress and the anxiety it's causing, including the fear of losing your place and the physical discomfort of your stomach ache.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User has received an eviction notice and is planning to negotiate a payment plan with the landlord"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "User is worried about the friend from the thrift shop, who is being silent, and feels like they're losing their circle"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "User's stomach has been hurting, which may be related to stress and anxiety"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "User is debating whether to text the thrift-store friend again, feeling like they might be pushing her away"
+          }
+        ],
+        "final_response": "You're really scared about losing your place and the thought of having to move out is terrifying, especially with no backup plan or extra cash. It's like everything is piling up - the stress of dealing with your landlord, the worry about your friend's silence, and the physical discomfort of your stomach ache. Drafting a quick email to your landlord instead of calling might be a good way to start, even if it's just to get your thoughts down on paper. What do you think is the most important thing to get across to your landlord in that email, and how might you phrase it to show you're committed to finding a solution?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_friends",
+          "financial_stress",
+          "body_image_concerns"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

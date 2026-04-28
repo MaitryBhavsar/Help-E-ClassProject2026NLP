@@ -1,0 +1,156 @@
+{
+  "profile_id": "P21",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "self-critical",
+      "anxious"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": "friend",
+    "hobbies_interests": [],
+    "communication_style": "emotional, guarded",
+    "relevant_history": null,
+    "general_behavioral_traits": [
+      "overthinker",
+      "emotionally reactive",
+      "avoidant"
+    ]
+  },
+  "problems": {
+    "body_image_concerns": {
+      "problem_name": "body_image_concerns",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "preparation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user is significantly distressed by their ear appearance",
+              "concise_explanation": "user can't stop staring and feels like everyone's looking",
+              "supporting_utterance_span": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees their ear appearance as a significant issue",
+              "concise_explanation": "user is 'stuck in this loop' of worrying about their ears",
+              "supporting_utterance_span": "I feel like I\u2019m stuck in this loop of staring at my ears",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees their ear concerns as a significant issue affecting their daily life",
+              "concise_explanation": "user feels 'stuck' and anxious about their ears",
+              "supporting_utterance_span": "I feel like I'm stuck in this loop",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees their body image concerns as significant and impactful on their daily life",
+              "concise_explanation": "user's anxiety and self-consciousness about their ears",
+              "supporting_utterance_span": "I keep staring at my ears in the mirror",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees their ear shape as a significant flaw",
+              "concise_explanation": "user describes it as a 'flaw'",
+              "supporting_utterance_span": "I just keep thinking everyone will notice my ears and that it's a flaw",
+              "confidence": "high"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user is motivated to break the cycle of negative thoughts and feel more confident",
+              "concise_explanation": "user is seeking advice and wants to 'break this cycle'",
+              "supporting_utterance_span": "Is there any way to break this cycle?",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels unable to stop thinking about their ears, indicating a high perceived barrier to change",
+              "concise_explanation": "user states 'I don't know how to stop thinking about it'",
+              "supporting_utterance_span": "I don't know how to stop thinking about it",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "friend's comment triggered the concern",
+              "concise_explanation": "friend's comment about ears sticking out",
+              "supporting_utterance_span": "After my friend said they stick out",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "friend's comment and upcoming presentation trigger user's concerns",
+              "concise_explanation": "friend's comment and presentation tomorrow mentioned as triggers",
+              "supporting_utterance_span": "After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "friend's comment and upcoming presentation trigger user's anxiety about their ears",
+              "concise_explanation": "friend's comment and presentation mentioned as sources of anxiety",
+              "supporting_utterance_span": "After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "a comment from a friend triggered the user's body image concerns",
+              "concise_explanation": "friend's comment about their ears",
+              "supporting_utterance_span": "After my friend said they stick out",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "social interactions, especially the presentation, trigger the user's body image concerns",
+              "concise_explanation": "presentation mentioned as a trigger in previous turns",
+              "supporting_utterance_span": null,
+              "confidence": "medium"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": []
+}

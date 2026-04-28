@@ -1,0 +1,2598 @@
+{
+  "session_id": 4,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "perfectionistic, responsible, anxious, self-critical, uncertain",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I find myself uncertain about my role in the business moving forward"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I worry that my focus on her agenda might jeopardize the legacy we both care about"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I remain uneasy about the direction the company is taking"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": "family, legacy, tradition",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I worry that my focus on her agenda might jeopardize the legacy we both care about"
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I am trying to maintain a strict schedule that, rather than offering relief, seems to add another burden. I am uncertain how to move forward without further compromising either the legacy or my personal well\u2011being"
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": "I must prioritize my family's needs over my own, I must maintain a flawless image, I must preserve family unity",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I worry that my focus on her agenda might jeopardize the legacy we both care about"
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I am uncertain how to move forward without further compromising either the legacy or my personal well\u2011being"
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": "mother",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I am constantly concerned about my mother's health and my ability to manage both her care and the demands of the business"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "reflective, anxious, analytical, self-critical, uncertain",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I find myself uncertain about my role in the business moving forward"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I find myself at a crossroads where any small step feels like another commitment that could overwhelm me further"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I remain uneasy about the direction the company is taking"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": "family business, caregiving for mother",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I am constantly concerned about my mother's health and my ability to manage both her care and the demands of the business"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, people-pleaser, self-critical, perfectionist, analytical, risk-averse, uncertain",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I find myself uncertain about my role in the business moving forward"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I worry that my focus on her agenda might jeopardize the legacy we both care about"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I remain uneasy about the direction the company is taking"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "The recent relocation decision has placed a heavier burden on me, and I find myself uncertain about my role in the business moving forward. The friction with my sister over the modernization plan has left me feeling uneasy, though I try to keep the peace. Additionally, I am constantly concerned about my mother's health and my ability to manage both her care and the demands of the business."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The relocation decision has clearly added a lot to your plate, and it's understandable that you're feeling uncertain about your role in the business. Managing your mother's care on top of the business demands is a significant challenge. It sounds like the friction with your sister over the modernization plan hasn't helped, and you're trying to keep the peace while navigating all these responsibilities. Can you tell me more about what's been the hardest part of balancing your mother's care with the business needs?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Balancing the new location and my mother's unpredictable health is the most exhausting part; I find myself constantly second\u2011guessing my decisions about the business and my role within it. The tension with my sister over the modernization plans feels like a personal betrayal, and I worry that my focus on her agenda might jeopardize the legacy we both care about. I also fear that my mother's condition could worsen, and I don't know if I can handle both responsibilities. All this makes me feel as though I'm stepping into a role I never prepared for."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "You're shouldering a lot of responsibility right now, between the new location and your mother's unpredictable health. It's no wonder you're feeling exhausted and uncertain about your decisions. The fear of betraying your mother's expectations and jeopardizing the legacy is a heavy burden to carry. Can you think of any small steps you could take to start feeling more grounded in your role and more confident in your ability to manage these responsibilities?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "Thank you for the suggestion; however, I find myself at a crossroads where any small step feels like another commitment that could overwhelm me further. The relocation has already fixed my schedule, and I am unsure how to balance my mother's care with the demands of the business. I am reluctant to add any new tasks, but I do feel the need to find a way to maintain some stability."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're feeling really overwhelmed with all the changes and responsibilities right now, and it's understandable that adding anything new feels like it could tip the scales. The relocation, your mother's health, and the business demands are all big commitments, and it's exhausting trying to balance them. It sounds like you're looking for a way to find some stability in all this, but you're not sure where to start or how to make it work without taking on too much. Yeah, it's a really tough spot to be in, and it's okay to feel uncertain about how to move forward."
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I appreciate your understanding, but I still feel as if I'm walking into an arena with no clear exit. The decision to relocate has left me doubting my place in the company, and the friction with my sister over the modernization plan feels like a betrayal of our shared heritage. My mother's health continues to loom, and I worry that I may not be able to meet both her needs and the demands of the new location. I am uncertain what steps to take without adding more burden."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You're feeling really uncertain about your place in the company right now, and it's like the relocation decision has thrown everything up in the air. The fear of not meeting your mother's needs or the business demands is a heavy weight to carry, and it's understandable that you're hesitant to take any steps without feeling more secure. It sounds like the friction with your sister over the modernization plan has added to your sense of betrayal and uncertainty about the future. Can you think of any small aspects of your role or the business that you feel more confident about, even in the midst of all this uncertainty?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I suppose the relocation has indeed shifted some expectations, and while I can see how the new site might offer opportunities, I remain uneasy about the direction the company is taking. My mother's condition continues to weigh on my thoughts, and I find myself questioning whether I can maintain both her care and the responsibilities at the shop. Perhaps I should outline a few responsibilities I feel more comfortable handling, but I am not certain how to proceed."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling uncertain about how to manage your responsibilities, especially with the relocation and your mother's health weighing on your mind. It's understandable that you're hesitant to take on more, given the fear of overwhelm. One potential step could be to outline a few key responsibilities that you feel more comfortable handling, and then see how you can delegate or adjust other tasks to make things more manageable. Would you like to explore what those responsibilities might look like, and how you could start to make some adjustments to find more stability?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I appreciate the idea, but outlining responsibilities feels like another commitment amid this chaos. The relocation has already fixed my schedule, and I worry that any new task will only add to the burden I already carry. I remain uncertain about my future role in the company and the way my sister's choices might undermine the legacy we cherish. At the same time, my mother's health keeps me anxious about whether I can meet both her needs and the business demands."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The weight of responsibility, especially with the relocation and your mother's health, is really bearing down on you right now. It's no wonder you're feeling uncertain about your future role in the company and how your sister's choices might impact the legacy. You're already shouldering a lot, and the thought of adding anything new feels like it could be too much. Can you tell me more about what's feeling most overwhelming for you in this moment, and how you're taking care of yourself amidst all this chaos?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "It seems the greatest weight is the uncertainty about my future role in the company, compounded by the relocation and my sister's direction; I also worry constantly about my mother's health. I keep a rigorous schedule and limit my commitments, but I'm not sure that truly eases the anxiety. I am trying to maintain the family legacy while navigating these changes."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The uncertainty about your future role in the company, combined with the relocation and your sister's direction, is a heavy burden to carry. It's understandable that you're feeling anxious about meeting your mother's needs and the business demands, especially given your commitment to preserving the family legacy. You've been trying to maintain a rigorous schedule and limit your commitments, but it's clear that this isn't fully easing your anxiety. Can you think of any small ways you might start to feel more grounded in your role, even if it's just taking a few moments each day to reflect on what you're grateful for or what you're looking forward to?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I have considered brief moments of gratitude, but the idea feels trivial against the weight of the decisions I must make; my focus remains on the uncertainty of my role and the ongoing tension with my sister over the modernization plan."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The uncertainty about your role and the tension with your sister are really weighing on you, making it hard to find moments of gratitude right now. You're trying to navigate a lot of complex emotions and responsibilities, and it's understandable that the idea of gratitude feels trivial compared to the weight of your decisions. Your focus on the uncertainty of your role and the ongoing tension with your sister is a heavy burden to carry. Can you tell me more about what's feeling most overwhelming for you in this moment, and how you're taking care of yourself amidst all this chaos?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "The most overwhelming aspect remains the uncertainty surrounding my future role within the company, compounded by the friction with my sister over the modernization plan. My mother's condition continues to loom large, and I find myself constantly worrying about whether I can meet both her needs and the business demands. I maintain a strict schedule in an attempt to impose order, but it offers limited relief and often feels like an additional obligation."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The uncertainty about your future role in the company is really weighing on you, and it's understandable that you're feeling overwhelmed. The friction with your sister over the modernization plan and the concern for your mother's health are adding to that weight. It sounds like your strict schedule is an attempt to impose some order on all this chaos, but it's not bringing the relief you hope for. Can you tell me more about what's feeling most overwhelming for you in this moment, and how you're taking care of yourself amidst all this uncertainty?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I find myself in a state where the uncertainty about my future role in the company, the tension with my sister over the modernization plan, and my mother's health all converge, leaving me feeling as if I am walking a tightrope with no clear footing. Each of these matters feels like a weight that keeps me from finding any respite, and I am trying to maintain a strict schedule that, rather than offering relief, seems to add another burden. I am uncertain how to move forward without further compromising either the legacy or my personal well\u2011being."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're carrying a lot of weight right now, trying to balance the uncertainty of your future role in the company, the tension with your sister, and your mother's health. It's like you're walking a tightrope with no clear footing, and even your strict schedule feels like an added burden. I can see why you'd feel that way, given how much you value your family's legacy and tradition. Can you think of any small ways you might start to feel more grounded in your role, even if it's just taking a few moments each day to reflect on what you're looking forward to?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 4,
+      "turn_id": 1,
+      "user_message": "The recent relocation decision has placed a heavier burden on me, and I find myself uncertain about my role in the business moving forward. The friction with my sister over the modernization plan has left me feeling uneasy, though I try to keep the peace. Additionally, I am constantly concerned about my mother's health and my ability to manage both her care and the demands of the business.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the weight of the relocation decision on your role in the business and your concerns about managing your mother's care. The strategies that seem most fitting are support and facilitate, given your current stage of preparation. Evidence from our conversation suggests that the fear of betraying the family legacy and the pressure to maintain a perfect image are significant barriers for you. Your emphasis on preserving family unity amidst the relocation and your mother's hospitalization is a crucial aspect to acknowledge. My entry point will be to reflect on the specific challenges you're facing with the relocation decision and its impact on your role in the business.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of betraying the family legacy"
+          },
+          {
+            "source": "problem_summary.perfectionism",
+            "content": "pressure to maintain a perfect image"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "preserving family unity"
+          }
+        ],
+        "final_response": "The relocation decision has clearly added a lot to your plate, and it's understandable that you're feeling uncertain about your role in the business. Managing your mother's care on top of the business demands is a significant challenge. It sounds like the friction with your sister over the modernization plan hasn't helped, and you're trying to keep the peace while navigating all these responsibilities. Can you tell me more about what's been the hardest part of balancing your mother's care with the business needs?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "conflicts_with_friends",
+          "perfectionism",
+          "caregiver_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 2,
+      "user_message": "Balancing the new location and my mother's unpredictable health is the most exhausting part; I find myself constantly second\u2011guessing my decisions about the business and my role within it. The tension with my sister over the modernization plans feels like a personal betrayal, and I worry that my focus on her agenda might jeopardize the legacy we both care about. I also fear that my mother's condition could worsen, and I don't know if I can handle both responsibilities. All this makes me feel as though I'm stepping into a role I never prepared for.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this user, and they need me to acknowledge their emotional struggle right now. Given their intent to express emotion, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is hesitant to make decisions that might affect the business's legacy and is fearful of betraying their mother's expectations. They're also struggling with the exhaustion of balancing the new location and their mother's unpredictable health. My entry point will be to acknowledge the specific challenge they're facing with their mother's health and the business demands.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "hesitant to make decisions that might affect the business's legacy"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fearful of betraying their mother's expectations"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "exhaustion of balancing the new location and their mother's unpredictable health"
+          }
+        ],
+        "final_response": "You're shouldering a lot of responsibility right now, between the new location and your mother's unpredictable health. It's no wonder you're feeling exhausted and uncertain about your decisions. The fear of betraying your mother's expectations and jeopardizing the legacy is a heavy burden to carry. Can you think of any small steps you could take to start feeling more grounded in your role and more confident in your ability to manage these responsibilities?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "conflicts_with_friends",
+          "caregiver_stress",
+          "perfectionism"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 3,
+      "user_message": "Thank you for the suggestion; however, I find myself at a crossroads where any small step feels like another commitment that could overwhelm me further. The relocation has already fixed my schedule, and I am unsure how to balance my mother's care with the demands of the business. I am reluctant to add any new tasks, but I do feel the need to find a way to maintain some stability.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelming situation you're in, with the relocation, your mother's health, and the business demands all piling up. Given your express_emotion intent, I'll use the support strategy to create a safe space for you to explore your feelings. The evidence shows that you're hesitant to add new tasks due to fear of overwhelm, but you recognize the need for stability, which suggests that finding a balance is key. My entry will reflect the exhaustion and uncertainty you're feeling, and how that's impacting your ability to make decisions about the business and your role in it.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "hesitant to add new tasks due to fear of overwhelm"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "recognizes the need for stability"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "balancing the new location and mother's unpredictable health is exhausting"
+          }
+        ],
+        "final_response": "You're feeling really overwhelmed with all the changes and responsibilities right now, and it's understandable that adding anything new feels like it could tip the scales. The relocation, your mother's health, and the business demands are all big commitments, and it's exhausting trying to balance them. It sounds like you're looking for a way to find some stability in all this, but you're not sure where to start or how to make it work without taking on too much. Yeah, it's a really tough spot to be in, and it's okay to feel uncertain about how to move forward."
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism",
+          "conflicts_with_friends",
+          "caregiver_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 4,
+      "user_message": "I appreciate your understanding, but I still feel as if I'm walking into an arena with no clear exit. The decision to relocate has left me doubting my place in the company, and the friction with my sister over the modernization plan feels like a betrayal of our shared heritage. My mother's health continues to loom, and I worry that I may not be able to meet both her needs and the demands of the new location. I am uncertain what steps to take without adding more burden.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle right now. Given their intent to express emotion and the preparation stage of their conflict with parents, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is hesitant to make decisions due to fear of betraying their mother's expectations and jeopardizing the legacy, which is rooted in their perfectionism and need to preserve family unity. My entry will be to acknowledge the overwhelming feeling of uncertainty and the fear of not meeting expectations. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of betraying the legacy or failing to secure the business's future"
+          },
+          {
+            "source": "problem_summary.perfectionism",
+            "content": "insistence on perfection driven by fear of bringing shame upon their mother and the family"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "feeling overwhelmed with all the changes and responsibilities"
+          }
+        ],
+        "final_response": "You're feeling really uncertain about your place in the company right now, and it's like the relocation decision has thrown everything up in the air. The fear of not meeting your mother's needs or the business demands is a heavy weight to carry, and it's understandable that you're hesitant to take any steps without feeling more secure. It sounds like the friction with your sister over the modernization plan has added to your sense of betrayal and uncertainty about the future. Can you think of any small aspects of your role or the business that you feel more confident about, even in the midst of all this uncertainty?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "conflicts_with_friends",
+          "caregiver_stress",
+          "perfectionism"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 5,
+      "user_message": "I suppose the relocation has indeed shifted some expectations, and while I can see how the new site might offer opportunities, I remain uneasy about the direction the company is taking. My mother's condition continues to weigh on my thoughts, and I find myself questioning whether I can maintain both her care and the responsibilities at the shop. Perhaps I should outline a few responsibilities I feel more comfortable handling, but I am not certain how to proceed.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_information",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "seek_information",
+        "intent_entry_style": "Elicit what they know \u2192 provide one piece \u2192 elicit reaction.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're seeking information about how to navigate the challenges with your parents and the family business. Given your preparation stage, I think it's essential to use the advise_with_permission strategy to help you explore ways to manage your responsibilities. The evidence suggests that you're hesitant to add new tasks due to fear of overwhelm, but you recognize the need to find stability. Your recent turns have shown that you're struggling to balance your mother's care with the business demands, and you're unsure how to proceed. My entry point will be to acknowledge your uncertainty and explore ways to outline responsibilities that you feel more comfortable handling.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "hesitant to add new tasks due to fear of overwhelm"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "uncertain what steps to take without adding more burden"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family, legacy, tradition"
+          }
+        ],
+        "final_response": "You're feeling uncertain about how to manage your responsibilities, especially with the relocation and your mother's health weighing on your mind. It's understandable that you're hesitant to take on more, given the fear of overwhelm. One potential step could be to outline a few key responsibilities that you feel more comfortable handling, and then see how you can delegate or adjust other tasks to make things more manageable. Would you like to explore what those responsibilities might look like, and how you could start to make some adjustments to find more stability?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism",
+          "conflicts_with_friends",
+          "caregiver_stress"
+        ],
+        "user_intent": "seek_information",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 6,
+      "user_message": "I appreciate the idea, but outlining responsibilities feels like another commitment amid this chaos. The relocation has already fixed my schedule, and I worry that any new task will only add to the burden I already carry. I remain uncertain about my future role in the company and the way my sister's choices might undermine the legacy we cherish. At the same time, my mother's health keeps me anxious about whether I can meet both her needs and the business demands.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelming uncertainty you're facing with your role in the company and your mother's health. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to explore your feelings. The evidence shows that you're hesitant to take on new tasks due to fear of overwhelm, and you're uncertain about your future role in the company. My entry point will be to acknowledge the chaos you're feeling and the weight of responsibility on your shoulders, especially with the relocation and your mother's health.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "User feels caught between their mother's needs and the demands of the family business"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "User is considering a phased strategy to modernize the business while maintaining the current site"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family, legacy, tradition"
+          }
+        ],
+        "final_response": "The weight of responsibility, especially with the relocation and your mother's health, is really bearing down on you right now. It's no wonder you're feeling uncertain about your future role in the company and how your sister's choices might impact the legacy. You're already shouldering a lot, and the thought of adding anything new feels like it could be too much. Can you tell me more about what's feeling most overwhelming for you in this moment, and how you're taking care of yourself amidst all this chaos?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism",
+          "conflicts_with_friends",
+          "caregiver_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 7,
+      "user_message": "It seems the greatest weight is the uncertainty about my future role in the company, compounded by the relocation and my sister's direction; I also worry constantly about my mother's health. I keep a rigorous schedule and limit my commitments, but I'm not sure that truly eases the anxiety. I am trying to maintain the family legacy while navigating these changes.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the weight of uncertainty about your future role in the company, especially with the relocation and your sister's direction. Given your intent to express emotion, I'll focus on empathetic strategies like support and facilitate. The evidence shows that you're struggling with the pressure to maintain a flawless image and the fear of not meeting your mother's needs or the business demands. To start, I'll acknowledge the exhaustion and uncertainty you're feeling, and then explore ways to help you find stability without adding to your burden.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "uncertainty about future role in the company"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of not meeting mother's needs or business demands"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family and legacy"
+          }
+        ],
+        "final_response": "The uncertainty about your future role in the company, combined with the relocation and your sister's direction, is a heavy burden to carry. It's understandable that you're feeling anxious about meeting your mother's needs and the business demands, especially given your commitment to preserving the family legacy. You've been trying to maintain a rigorous schedule and limit your commitments, but it's clear that this isn't fully easing your anxiety. Can you think of any small ways you might start to feel more grounded in your role, even if it's just taking a few moments each day to reflect on what you're grateful for or what you're looking forward to?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism",
+          "conflicts_with_friends",
+          "caregiver_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 8,
+      "user_message": "I have considered brief moments of gratitude, but the idea feels trivial against the weight of the decisions I must make; my focus remains on the uncertainty of my role and the ongoing tension with my sister over the modernization plan.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion about the uncertainty of your role and the tension with your sister, so my priority is to acknowledge that. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to explore your feelings. The evidence shows that you're feeling overwhelmed by the weight of decisions and the pressure to maintain the family legacy, which is a significant concern for you. My entry point will be to acknowledge the difficulty of finding gratitude amidst the uncertainty and tension you're experiencing.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "uncertainty about future role in the company"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "tension with sister over modernization plan"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family legacy"
+          }
+        ],
+        "final_response": "The uncertainty about your role and the tension with your sister are really weighing on you, making it hard to find moments of gratitude right now. You're trying to navigate a lot of complex emotions and responsibilities, and it's understandable that the idea of gratitude feels trivial compared to the weight of your decisions. Your focus on the uncertainty of your role and the ongoing tension with your sister is a heavy burden to carry. Can you tell me more about what's feeling most overwhelming for you in this moment, and how you're taking care of yourself amidst all this chaos?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism",
+          "conflicts_with_friends",
+          "caregiver_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 9,
+      "user_message": "The most overwhelming aspect remains the uncertainty surrounding my future role within the company, compounded by the friction with my sister over the modernization plan. My mother's condition continues to loom large, and I find myself constantly worrying about whether I can meet both her needs and the business demands. I maintain a strict schedule in an attempt to impose order, but it offers limited relief and often feels like an additional obligation.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the uncertainty and pressure you're feeling right now. Given your intent to express emotion, I'll prioritize empathy and reflection. I'll use the support strategy to create a safe space for you to explore your feelings. The evidence shows that you're struggling with the weight of responsibility, the friction with your sister, and the concern for your mother's health, so I'll acknowledge those specific challenges. My entry point will be to reflect on the uncertainty surrounding your future role in the company and how it's affecting you.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "uncertainty surrounding future role in the company"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "friction with sister over modernization plan"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "concern for mother's health"
+          }
+        ],
+        "final_response": "The uncertainty about your future role in the company is really weighing on you, and it's understandable that you're feeling overwhelmed. The friction with your sister over the modernization plan and the concern for your mother's health are adding to that weight. It sounds like your strict schedule is an attempt to impose some order on all this chaos, but it's not bringing the relief you hope for. Can you tell me more about what's feeling most overwhelming for you in this moment, and how you're taking care of yourself amidst all this uncertainty?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism",
+          "conflicts_with_friends",
+          "caregiver_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 10,
+      "user_message": "I find myself in a state where the uncertainty about my future role in the company, the tension with my sister over the modernization plan, and my mother's health all converge, leaving me feeling as if I am walking a tightrope with no clear footing. Each of these matters feels like a weight that keeps me from finding any respite, and I am trying to maintain a strict schedule that, rather than offering relief, seems to add another burden. I am uncertain how to move forward without further compromising either the legacy or my personal well\u2011being.",
+      "inference": {
+        "user_intent": {
+          "intent": "small_talk",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "small_talk",
+        "intent_entry_style": "Stay light; warm acknowledgment.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're looking for a light, warm acknowledgment right now. Given your current stage of preparation, I think a strategy that acknowledges your efforts and supports your autonomy would be helpful. The evidence suggests that you're feeling overwhelmed by the uncertainty of your future role in the company, the tension with your sister, and your mother's health. You've been trying to maintain a strict schedule to impose order, but it's not bringing the relief you hope for. My entry point will be to acknowledge the weight of these responsibilities and the difficulty of finding a clear path forward.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "uncertainty about future role in the company"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "tension with sister over modernization plan"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "mother's health"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family, legacy, tradition"
+          }
+        ],
+        "final_response": "You're carrying a lot of weight right now, trying to balance the uncertainty of your future role in the company, the tension with your sister, and your mother's health. It's like you're walking a tightrope with no clear footing, and even your strict schedule feels like an added burden. I can see why you'd feel that way, given how much you value your family's legacy and tradition. Can you think of any small ways you might start to feel more grounded in your role, even if it's just taking a few moments each day to reflect on what you're looking forward to?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism",
+          "conflicts_with_friends",
+          "caregiver_stress"
+        ],
+        "user_intent": "small_talk",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

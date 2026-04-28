@@ -1,0 +1,1856 @@
+{
+  "session_id": 3,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "cautious, anxious, responsible, perfectionistic",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I keep finding new things to tweak and end up not finishing it."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I'm terrified of letting the family down; if I don't land a job, I feel like I'm failing them."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I'm still uneasy about sending a resume that feels unfinished"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "self-worth is tied to ability to provide for family",
+      "evidence_citations": [
+        {
+          "turn_id": 4,
+          "excerpt": "I'm terrified of letting the family down; if I don't land a job, I feel like I'm failing them."
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "The fear that I won\u2019t land anything fast keeps me in this loop of delay"
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "procrastinator, overthinker, perfectionist, anxious, self-critical",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep pushing that decision off"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I keep finding new things to tweak and end up not finishing it"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I'm terrified of letting the family down; if I don't land a job, I feel like I'm failing them"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I'm stuck on whether to apply for that remote role I saw last week. The mortgage deadline is looming and I keep pushing that decision off. I need to figure out a plan before the house payment."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "With the mortgage deadline looming, it's understandable that you're feeling stuck on whether to apply for that remote role. Taking the first step can be daunting, but it might help to break down the application process into smaller tasks. Why not start by updating your resume this week, and then you can build from there? This way, you'll be making progress without feeling overwhelmed by the entire application process at once."
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I did start updating my resume, but I keep finding new things to tweak and end up not finishing it. I feel like I'm stuck in a loop of waiting for the perfect version before I can actually apply."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "You're getting caught up in making your resume perfect, and it's stopping you from finishing it. I can see how that would be frustrating, especially with the mortgage deadline looming. What's the one thing that's holding you back from considering your resume 'good enough' to apply for the remote role?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I keep looping on tweaks because I can't accept the resume as 'good enough'; every time I think it's done, I spot something else to improve. That delay is exhausting, especially with the mortgage due and my spouse back at work next week. I don't want to risk sending a subpar resume, but the endless edits are making me feel stuck."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "It's really tough to stop tweaking when you feel like your resume's not quite there, especially with a big deadline like the mortgage payment looming. You're feeling exhausted from all the edits, and it's understandable that you don't want to risk sending a subpar resume. Can you tell me more about what's driving your need for perfection in this - is it the fear of not getting the job, or something else?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I think it's because I'm terrified of letting the family down; if I don't land a job, I feel like I'm failing them. That fear keeps me tweaking the resume until I'm exhausted. I know technically I could just send it, but the anxiety keeps me stuck."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The fear of not being able to provide for your family is really weighing on you, and it's making it hard for you to feel okay with sending in a resume that's not perfect. It's like that fear is holding you back from taking the next step, even though you know you need to move forward. Yeah, it's tough to separate your self-worth from your ability to get a job, but it sounds like that's what's happening here. Can you think of a time when you've had to make a decision without knowing the outcome, and how you handled that uncertainty?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I keep thinking back to the time we had to decide whether to pivot the product before any revenue; we just went with the first idea and it worked out. Now I\u2019m stuck putting off applying for any jobs, caught in the same loop. The mortgage deadline and my spouse coming back to work are adding a lot of pressure.\n"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "I can see how the pressure of the mortgage deadline and your spouse going back to work is really weighing on you, especially with the added fear of not being able to provide for your family. It's like that fear is holding you back from taking the next step, even though you know you need to move forward. You've had experiences in the past where you've made decisions without knowing the outcome, like with the product pivot, and it worked out. Yeah, it's tough to separate your self-worth from your ability to get a job, but it sounds like that's what's happening here. How do you think you could apply some of that same decision-making mindset to your current job search?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I could set a 30\u2011minute sprint to just hit send, but the mortgage is due next week and I\u2019m still stuck putting off the application.  The fear that I won\u2019t land anything fast keeps me in this loop of delay.  If I treat it like a sprint, maybe I\u2019ll get somewhere before the house payment hits."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're feeling stuck in this loop of delay, and the fear of not landing a job quickly is really weighing on you. It's like that fear is holding you back from taking the next step, even though you know you need to move forward. Setting a 30-minute sprint to just hit send could be a great way to break through this, and it might help to remind yourself that it's okay to take things one step at a time. What do you think would happen if you did take that first step and hit send, even if it's not perfect?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I could try the 30\u2011minute sprint, but I'm still uneasy about sending a resume that feels unfinished, and the mortgage deadline is looming. If I send it now, I might still have to tweak it later, which feels like more work."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "I can see that you're still feeling really uneasy about sending in your resume, even with the idea of a 30-minute sprint to just hit send. It's like the fear of it not being perfect is holding you back, and the looming mortgage deadline is adding to that pressure. Yeah, it's tough to separate your self-worth from your ability to get a job, but it sounds like that's what's happening here. What if you were to send in your resume as-is, and then use any feedback you get as a way to refine it for the next application? Sometimes, taking that first step can help build momentum and make the next steps feel less daunting."
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I know sending it as\u2011is is a good idea, but I keep worrying about the mortgage coming up and my spouse coming back to work. The idea of just pushing it out feels like I'm not moving forward at all. Maybe if I could just get it out the door, the rest will feel a little less overwhelming."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "You're feeling really stuck right now, and the pressure of the mortgage deadline and your spouse going back to work is weighing heavily on you. It sounds like sending in your resume as-is feels like a big risk, but at the same time, you're worried that not taking action will leave you feeling overwhelmed. Maybe taking that first step and getting the resume out the door could help you feel like you're moving forward, even if it's not perfect. What's the smallest step you could take today to start feeling like you're making progress on your job search?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I think the smallest thing I can do today is set a 15\u2011minute timer, open the resume, and just hit send on the version I have now\u2014no more tweaking.  That way I\u2019ll at least have a concrete action toward a new job, even if it\u2019s not perfect.  The idea of actually sending it feels like a small win against the anxiety of the mortgage deadline and the upcoming return to work for my spouse."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "That's a huge step, hitting send on your resume, even if it's not perfect. It's like you're taking a small win against the anxiety that's been holding you back. Yeah, it's still scary, but you're moving forward, and that's something to build on. What do you think will happen after you take this first step, and how will you use that momentum to keep going?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "If I send it, I expect a response in a week or two and can set up a quick 30\u2011minute follow\u2011up call. I\u2019ll block out the first two hours tomorrow for networking calls so I\u2019m not stuck waiting for something else. The idea is to keep the momentum and not slip back into the loop of tweaking. I\u2019ll treat each interview as a data point to decide my next move."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You've made some great progress in the last little while, and it's awesome that you're thinking about how to keep that momentum going. Blocking out time for networking calls tomorrow is a great idea, and treating each interview as a way to gather more information can help you feel more in control. What do you think is the most important thing for you to focus on during those networking calls, and how can you use them to build on the progress you've made so far?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 3,
+      "turn_id": 1,
+      "user_message": "I'm stuck on whether to apply for that remote role I saw last week. The mortgage deadline is looming and I keep pushing that decision off. I need to figure out a plan before the house payment.",
+      "inference": {
+        "user_intent": {
+          "intent": "request_plan",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "request_plan",
+        "intent_entry_style": "Propose ONE small step matched to TTM stage. Don't deflect with a question.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person, and they need a plan to move forward with a job application. Given their cautious and anxious personality, I'll propose a small, manageable step. The evidence suggests they're feeling overwhelmed by the looming mortgage deadline and the pressure of making a decision. To help them feel more in control, I can suggest breaking down the application process into smaller tasks. My entry point will be to acknowledge the stress of the deadline and the importance of taking action.",
+        "evidence_used": [
+          {
+            "source": "persona.relevant_history",
+            "content": "recently became unemployed"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "security"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "mortgage deadline is looming"
+          }
+        ],
+        "final_response": "With the mortgage deadline looming, it's understandable that you're feeling stuck on whether to apply for that remote role. Taking the first step can be daunting, but it might help to break down the application process into smaller tasks. Why not start by updating your resume this week, and then you can build from there? This way, you'll be making progress without feeling overwhelmed by the entire application process at once."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "request_plan",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 2,
+      "user_message": "I did start updating my resume, but I keep finding new things to tweak and end up not finishing it. I feel like I'm stuck in a loop of waiting for the perfect version before I can actually apply.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": []
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need help breaking through your current frustration with your resume. Given your intent to express emotion, I'll use complex_reflection to acknowledge your feelings and facilitate to help you move forward. I've noticed that you've been struggling with perfectionism, as evident from your recent turn where you mentioned tweaking your resume and not finishing it. Your anxiety about the mortgage deadline and the pressure to find a job is understandable, especially with a baby to care for. My first sentence will acknowledge the specific challenge you're facing with your resume, and then I'll facilitate a discussion to help you find a way to overcome this hurdle.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "stuck in a loop of waiting for the perfect version"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionist"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "anxious about the mortgage deadline"
+          }
+        ],
+        "final_response": "You're getting caught up in making your resume perfect, and it's stopping you from finishing it. I can see how that would be frustrating, especially with the mortgage deadline looming. What's the one thing that's holding you back from considering your resume 'good enough' to apply for the remote role?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 3,
+      "user_message": "I keep looping on tweaks because I can't accept the resume as 'good enough'; every time I think it's done, I spot something else to improve. That delay is exhausting, especially with the mortgage due and my spouse back at work next week. I don't want to risk sending a subpar resume, but the endless edits are making me feel stuck.",
+      "inference": {
+        "user_intent": {
+          "intent": "resistance",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "resistance",
+        "intent_entry_style": "Roll with it \u2014 reflect resistance without arguing; emphasize autonomy.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": []
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person, and they need me to acknowledge their resistance to moving forward with their resume without arguing or pushing them. Given their cautious and perfectionist nature, I'll use the support strategy to empathize with their concerns. The evidence shows they're struggling with accepting their resume as 'good enough' due to fear of sending a subpar application. My entry point will be to acknowledge the exhaustion and frustration they're feeling from the endless edits, and then explore their concerns about the resume. I'll use the recent turn where they mentioned being stuck in a loop of waiting for the perfect version to inform my response.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "stuck in a loop of waiting for the perfect version"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "responsibility"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "can't accept the resume as 'good enough'"
+          }
+        ],
+        "final_response": "It's really tough to stop tweaking when you feel like your resume's not quite there, especially with a big deadline like the mortgage payment looming. You're feeling exhausted from all the edits, and it's understandable that you don't want to risk sending a subpar resume. Can you tell me more about what's driving your need for perfection in this - is it the fear of not getting the job, or something else?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "resistance",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 4,
+      "user_message": "I think it's because I'm terrified of letting the family down; if I don't land a job, I feel like I'm failing them. That fear keeps me tweaking the resume until I'm exhausted. I know technically I could just send it, but the anxiety keeps me stuck.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle right now. Given their intent to express emotion, I'll use the complex_reflection strategy to help them explore their feelings. The evidence shows that the user is anxious about letting their family down, which is driving their need for perfection in their resume. This fear is rooted in their core values of family and responsibility. My entry will be to acknowledge this fear and how it's impacting their ability to finish their resume.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "terrified of letting the family down"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family, responsibility"
+          }
+        ],
+        "final_response": "The fear of not being able to provide for your family is really weighing on you, and it's making it hard for you to feel okay with sending in a resume that's not perfect. It's like that fear is holding you back from taking the next step, even though you know you need to move forward. Yeah, it's tough to separate your self-worth from your ability to get a job, but it sounds like that's what's happening here. Can you think of a time when you've had to make a decision without knowing the outcome, and how you handled that uncertainty?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 5,
+      "user_message": "I keep thinking back to the time we had to decide whether to pivot the product before any revenue; we just went with the first idea and it worked out. Now I\u2019m stuck putting off applying for any jobs, caught in the same loop. The mortgage deadline and my spouse coming back to work are adding a lot of pressure.\n",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to reflect your emotions back to you right now. Given your express_emotion intent, I'll use the complex_reflection strategy to help you explore your feelings. I've noticed that you're drawing a connection between a past experience of making a decision without knowing the outcome and your current job application anxiety. You've mentioned that the fear of not being able to provide for your family is a significant factor in your hesitation. My entry point will be to acknowledge the pressure you're feeling from the mortgage deadline and your spouse's return to work, and how that's impacting your ability to move forward with job applications.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "fear of not being able to provide for your family"
+          },
+          {
+            "source": "recent_turn.t4.assistant",
+            "content": "separate your self-worth from your ability to get a job"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "open, anxious, seeking guidance"
+          }
+        ],
+        "final_response": "I can see how the pressure of the mortgage deadline and your spouse going back to work is really weighing on you, especially with the added fear of not being able to provide for your family. It's like that fear is holding you back from taking the next step, even though you know you need to move forward. You've had experiences in the past where you've made decisions without knowing the outcome, like with the product pivot, and it worked out. Yeah, it's tough to separate your self-worth from your ability to get a job, but it sounds like that's what's happening here. How do you think you could apply some of that same decision-making mindset to your current job search?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 6,
+      "user_message": "I could set a 30\u2011minute sprint to just hit send, but the mortgage is due next week and I\u2019m still stuck putting off the application.  The fear that I won\u2019t land anything fast keeps me in this loop of delay.  If I treat it like a sprint, maybe I\u2019ll get somewhere before the house payment hits.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this challenging time, and it seems like the fear of not landing a job quickly is really holding you back. Given your intent to express emotion, I want to acknowledge the anxiety and pressure you're feeling with the mortgage deadline looming. The candidate strategies of support and complex_reflection seem most appropriate, as they allow me to empathize with your situation and help you explore your thoughts and feelings. I've taken into account your recent turns, where you've shared your struggles with perfectionism and the fear of letting your family down, and I want to help you find a way to break through this loop of delay.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "fear of not landing a job quickly"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family, security, responsibility"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "fear of letting the family down"
+          }
+        ],
+        "final_response": "You're feeling stuck in this loop of delay, and the fear of not landing a job quickly is really weighing on you. It's like that fear is holding you back from taking the next step, even though you know you need to move forward. Setting a 30-minute sprint to just hit send could be a great way to break through this, and it might help to remind yourself that it's okay to take things one step at a time. What do you think would happen if you did take that first step and hit send, even if it's not perfect?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 7,
+      "user_message": "I could try the 30\u2011minute sprint, but I'm still uneasy about sending a resume that feels unfinished, and the mortgage deadline is looming. If I send it now, I might still have to tweak it later, which feels like more work.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this challenging time, and it seems like you're feeling stuck between the need to send in your resume and the fear of it not being perfect. The candidate strategies that seem most relevant right now are support and complex_reflection, as you're expressing a lot of anxiety and uncertainty about your resume and the job search process. I've noticed that you've been struggling with perfectionism and the fear of not being able to provide for your family, which is making it hard for you to take the next step. Your recent message suggests that you're still feeling uneasy about sending in your resume, even with the idea of a 30-minute sprint to just hit send. I'm going to start by acknowledging the uncertainty and fear that you're feeling, and then explore ways to help you move forward.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "feeling stuck in this loop of delay"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family, security, responsibility"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "perfectionism and fear of not being able to provide for family"
+          }
+        ],
+        "final_response": "I can see that you're still feeling really uneasy about sending in your resume, even with the idea of a 30-minute sprint to just hit send. It's like the fear of it not being perfect is holding you back, and the looming mortgage deadline is adding to that pressure. Yeah, it's tough to separate your self-worth from your ability to get a job, but it sounds like that's what's happening here. What if you were to send in your resume as-is, and then use any feedback you get as a way to refine it for the next application? Sometimes, taking that first step can help build momentum and make the next steps feel less daunting."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 8,
+      "user_message": "I know sending it as\u2011is is a good idea, but I keep worrying about the mortgage coming up and my spouse coming back to work. The idea of just pushing it out feels like I'm not moving forward at all. Maybe if I could just get it out the door, the rest will feel a little less overwhelming.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge your fears and worries about not being able to provide for your family. The strategies that seem most fitting right now are support and complex reflection, given your express_emotion intent and the fact that we're still exploring your concerns without a clear main problem. Evidence from our recent conversation suggests that you're feeling overwhelmed by the pressure of the mortgage deadline and your spouse's return to work, and that you're worried about not being able to move forward if you send in your resume as-is. Your mention of maybe feeling less overwhelmed if you could just get the resume out the door suggests that taking that first step could be a crucial move for you.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "maybe if I could just get it out the door, the rest will feel a little less overwhelming"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family, security, responsibility"
+          }
+        ],
+        "final_response": "You're feeling really stuck right now, and the pressure of the mortgage deadline and your spouse going back to work is weighing heavily on you. It sounds like sending in your resume as-is feels like a big risk, but at the same time, you're worried that not taking action will leave you feeling overwhelmed. Maybe taking that first step and getting the resume out the door could help you feel like you're moving forward, even if it's not perfect. What's the smallest step you could take today to start feeling like you're making progress on your job search?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 9,
+      "user_message": "I think the smallest thing I can do today is set a 15\u2011minute timer, open the resume, and just hit send on the version I have now\u2014no more tweaking.  That way I\u2019ll at least have a concrete action toward a new job, even if it\u2019s not perfect.  The idea of actually sending it feels like a small win against the anxiety of the mortgage deadline and the upcoming return to work for my spouse.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their anxiety about job searching and meeting financial responsibilities, and right now they need help taking that first step. The strategies that seem most fitting are support and facilitate, as they've expressed a desire to take action but are struggling with fear and perfectionism. The evidence that stands out to me is their recent statement about setting a 15-minute timer to hit send on their resume, which suggests they're ready to take a concrete step towards their goal. My entry point will be to acknowledge the significance of this small win and how it can help build momentum, while also recognizing the anxiety that's still present.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "setting a 15-minute timer to hit send on the resume"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family and security"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "uneasy about sending a resume that feels unfinished"
+          }
+        ],
+        "final_response": "That's a huge step, hitting send on your resume, even if it's not perfect. It's like you're taking a small win against the anxiety that's been holding you back. Yeah, it's still scary, but you're moving forward, and that's something to build on. What do you think will happen after you take this first step, and how will you use that momentum to keep going?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 10,
+      "user_message": "If I send it, I expect a response in a week or two and can set up a quick 30\u2011minute follow\u2011up call. I\u2019ll block out the first two hours tomorrow for networking calls so I\u2019m not stuck waiting for something else. The idea is to keep the momentum and not slip back into the loop of tweaking. I\u2019ll treat each interview as a data point to decide my next move.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you take this big step of sending out your resume and making progress on your job search. Given your intent to express emotion and take action, I'll use strategies like support and facilitate to help you build momentum. I've taken note of your recent turns, where you've been struggling with the pressure of the mortgage deadline and your spouse going back to work, and how you've been using the idea of a 30-minute sprint to push through your anxiety. Your plan to block out time for networking calls and treat each interview as a data point shows that you're thinking ahead and trying to stay proactive. My entry point will be to acknowledge the progress you've made so far and the anxiety you're still facing, and then help you explore ways to keep moving forward.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "setting a 15-minute timer and hitting send on the resume"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "open and seeking guidance"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "blocking out time for networking calls and treating each interview as a data point"
+          }
+        ],
+        "final_response": "You've made some great progress in the last little while, and it's awesome that you're thinking about how to keep that momentum going. Blocking out time for networking calls tomorrow is a great idea, and treating each interview as a way to gather more information can help you feel more in control. What do you think is the most important thing for you to focus on during those networking calls, and how can you use them to build on the progress you've made so far?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,2166 @@
+{
+  "session_id": 1,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "anxious, overwhelmed, avoidant",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "Trying to keep my finances in order feels like trying to simmer a pot that keeps boiling over"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I'm scared that it won't make a dent"
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I'm not convinced that will change anything"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "coding, side projects",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the work I do is half-done, and I haven't slept in days, and the work pile is still there, and I couldn't focus on my side projects"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "The exhaustion from this keeps me from sleeping and from focusing on my code"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, metaphorical",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "Trying to keep my finances in order feels like trying to simmer a pot that keeps boiling over"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "it feels like trying to season a stew that keeps boiling over"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "procrastinator, perfectionist, emotionally reactive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep putting off tasks, thinking I can catch up later"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I'm scared that it won't make a dent"
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I'm not convinced that will change anything"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "Trying to keep my finances in order feels like trying to simmer a pot that keeps boiling over\u2014every bill I pay just adds another ingredient that makes the broth too salty. When I get home, I can't even fall asleep, and the exhaustion makes it impossible to focus on work or my side projects. I keep putting off tasks, thinking I can catch up later, but the pile just grows."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The image of that pot boiling over really stands out - it sounds like every bill you pay adds a new layer of stress. You're not just dealing with finances, but also struggling to fall asleep and put off tasks, which is a lot to handle. Can you tell me more about what's going through your mind when you think about tackling your finances?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "When I think about tackling my finances, it feels like trying to season a stew that keeps boiling over\u2014each bill adds a new ingredient that throws off the balance. I keep putting the calculations on the back burner, hoping they\u2019ll settle themselves, but they just pile up. The exhaustion from this keeps me from sleeping and from focusing on my code. It\u2019s all just a big simmer that I don\u2019t know how to control."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The way you describe your finances, like a stew that's hard to season, really highlights how overwhelming it feels - every new bill throws off the balance. It's like you're trying to simmer down this pot, but it just keeps boiling over. I can see how this would affect your sleep and focus, making it even harder to tackle your finances or work on your code. Yeah, it's a lot to handle, and it sounds like you're feeling really stuck right now."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I keep going back to the bill list and it feels like a never-ending loop. My sleep is gone, and the work I do is half-done. I don't know how to break this cycle."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're feeling like you're stuck in this never-ending loop of bills, and it's taking a toll on your sleep and work. It's like you're trying to keep up with this cycle, but it's hard to break free. Your sleep is suffering, and your work is piling up, which is only adding to the stress. I can see how this would feel overwhelming, and it's understandable that you're struggling to find a way out. What's one thing that you think might help you start to break this cycle, even if it's just a small step?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "Maybe I can set a 10\u2011minute timer to sort one bill before bed, but I'm scared that it won't make a dent. The idea of a quick fix feels like adding a pinch of salt to a stew that's already too salty. If I don't get a bit of progress, the exhaustion will just keep rolling over."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You're scared that setting a 10-minute timer to sort one bill before bed won't make a dent, and that's understandable - it's a small step, and it's hard to see how it could make a difference in the grand scheme of things. But at the same time, not taking any action at all is only adding to your exhaustion and stress. Would you be willing to try this small step, just to see how it feels, and then we can build from there?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I suppose I could set that 10\u2011minute timer, but I'm not sure if a quick stir will actually change the broth. My mind feels like a cold pan\u2014everything's stuck, and I haven't slept in days. The work pile is still there, and I can't focus on my side projects. Maybe I can try, but I'm not convinced it will help."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling really stuck right now, and it's like everything is frozen in place - your mind feels like a cold pan, and you haven't slept in days. It's understandable that you're unsure if setting a 10-minute timer to sort one bill before bed will make a difference, but it's a start, and sometimes that's all we need. Yeah, it's a small step, but it might just be the stir you need to get things moving again. What do you think might happen if you take this small step, even if it's just for 10 minutes?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I don't know if a 10\u2011minute stir will change anything, but the bills keep me up and the work piles up like a pot that never boils. I feel like I'm stuck, and the exhaustion just makes it hard to even think about fixing the finances. Maybe I could try the timer, but I'm not convinced it will help."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're feeling really stuck right now, and it's like everything is frozen in place - the bills are piling up, and the exhaustion is making it hard to even think about fixing the finances. It's understandable that you're unsure if setting a 10-minute timer to sort one bill before bed will make a difference, but it's a start, and sometimes that's all we need. What's the smallest thing you could do in those 10 minutes that might give you a sense of control over your finances?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "Maybe I can just list the bills on a sheet and put a checkmark next to each one, but I'm not convinced that will change anything. The more I think about it, the more I feel like I'm just adding to the pile. Still, I guess I could try it and see if it helps me sleep a little better."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "You're considering listing your bills on a sheet and putting a checkmark next to each one, but you're not convinced it'll make a difference. That's understandable, given how overwhelming your finances feel right now. At the same time, taking small steps like this might help you feel more in control, and that could have a positive impact on your sleep. Would you be willing to try this approach, just to see how it feels, and then we can build from there?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I could try listing the bills, but my mind feels like a cold pan from all the sleep I\u2019ve lost, and the work pile is still there. I keep putting it off, so I'm not sure it's worth the effort. Still, I guess I could give it a shot to see if a quick check makes any difference."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "You're feeling really overwhelmed right now, and it's like everything is piling up on you - the bills, the work, the exhaustion. It's understandable that you're unsure if listing your bills will make a difference, but it's a start, and sometimes that's all we need. Yeah, it's a small step, but it might just be the thing that helps you feel more in control, and that could have a positive impact on your sleep and focus. What do you think is the smallest thing you could do to make this task feel less daunting, and maybe even help you get a bit of progress on your finances?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I could set a five\u2011minute timer to just jot down the due dates, but I still feel like I'm just stirring a pot that never boils over. Even if it doesn't change the rest of the pile, I\u2019m not sure it\u2019ll make a dent in how exhausted I feel at night. Maybe that\u2019s the smallest thing I can do to get a sliver of control before I collapse into another loop of procrastination."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're feeling like setting a five-minute timer to jot down due dates might not make a dent in your exhaustion, but at the same time, it could be a small step towards feeling more in control of your finances. It's understandable that you're hesitant, given how overwhelming everything feels right now. What do you think is the worst that could happen if you take this small step, and what's the best that could come out of it?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I think the worst is that I still get no sleep and the work piles up even more, like a pot that never boils. The best could be that I feel a sliver of control over the bills, even if it\u2019s just a list of due dates. It\u2019s a small stir, but maybe that\u2019s enough to keep the broth from boiling over for a bit."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're thinking that even if listing your bills and jotting down due dates doesn't change everything, it might give you a sliver of control over your finances, and that's something. At the same time, you're worried that it might not make a difference in your exhaustion or work pile. Can you imagine what it would be like to have that sliver of control, even if it's just a small sense of accomplishment? Maybe that's enough to keep you moving forward, and we can build from there."
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "Trying to keep my finances in order feels like trying to simmer a pot that keeps boiling over\u2014every bill I pay just adds another ingredient that makes the broth too salty. When I get home, I can't even fall asleep, and the exhaustion makes it impossible to focus on work or my side projects. I keep putting off tasks, thinking I can catch up later, but the pile just grows.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to reflect their emotions right now. Given their contemplation stage with financial stress, I'll use the evoke strategy to help them explore their ambivalence. The evidence shows they're feeling overwhelmed by bills and expenses, using a potent metaphor of a pot boiling over. My entry will acknowledge the specific feeling of being overwhelmed by the constant addition of expenses, like the pot boiling over. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "feeling overwhelmed by bills and expenses, using a metaphor of a pot boiling over"
+          }
+        ],
+        "final_response": "The image of that pot boiling over really stands out - it sounds like every bill you pay adds a new layer of stress. You're not just dealing with finances, but also struggling to fall asleep and put off tasks, which is a lot to handle. Can you tell me more about what's going through your mind when you think about tackling your finances?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "When I think about tackling my finances, it feels like trying to season a stew that keeps boiling over\u2014each bill adds a new ingredient that throws off the balance. I keep putting the calculations on the back burner, hoping they\u2019ll settle themselves, but they just pile up. The exhaustion from this keeps me from sleeping and from focusing on my code. It\u2019s all just a big simmer that I don\u2019t know how to control.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle with financial stress right now. Given their contemplation stage and express_emotion intent, I'll use the evoke strategy to help them explore their ambivalence. The evidence shows they're feeling overwhelmed by bills and expenses, using metaphors like a pot boiling over and a stew that's hard to season, indicating a sense of loss of control. My entry will acknowledge this sense of being overwhelmed and the exhaustion that's affecting their sleep and focus.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "feeling overwhelmed by bills and expenses"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "trouble falling asleep due to stress and exhaustion"
+          }
+        ],
+        "final_response": "The way you describe your finances, like a stew that's hard to season, really highlights how overwhelming it feels - every new bill throws off the balance. It's like you're trying to simmer down this pot, but it just keeps boiling over. I can see how this would affect your sleep and focus, making it even harder to tackle your finances or work on your code. Yeah, it's a lot to handle, and it sounds like you're feeling really stuck right now."
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I keep going back to the bill list and it feels like a never-ending loop. My sleep is gone, and the work I do is half-done. I don't know how to break this cycle.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a friend to help this person navigate their financial stress, and right now, they need me to acknowledge the overwhelming emotions they're feeling. The strategies that might help are evoke, complex_reflection, or inform_with_permission, given their contemplation stage. The evidence that stands out is their description of finances as a never-ending loop and their struggle with sleep and procrastination. My entry point will be to reflect on the feeling of being stuck in this loop, and how it's affecting their daily life, including sleep and work.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "never-ending loop of bills"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "sleep is gone"
+          },
+          {
+            "source": "problem_summary.procrastination",
+            "content": "work is half-done"
+          }
+        ],
+        "final_response": "You're feeling like you're stuck in this never-ending loop of bills, and it's taking a toll on your sleep and work. It's like you're trying to keep up with this cycle, but it's hard to break free. Your sleep is suffering, and your work is piling up, which is only adding to the stress. I can see how this would feel overwhelming, and it's understandable that you're struggling to find a way out. What's one thing that you think might help you start to break this cycle, even if it's just a small step?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "Maybe I can set a 10\u2011minute timer to sort one bill before bed, but I'm scared that it won't make a dent. The idea of a quick fix feels like adding a pinch of salt to a stew that's already too salty. If I don't get a bit of progress, the exhaustion will just keep rolling over.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "evoke",
+            "complex_reflection",
+            "inform_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to reflect both sides of their ambivalence about taking action on their financial stress. Given their preparation stage, I'll use the advise_with_permission strategy to help them consider a small step forward. The evidence shows that the user is feeling overwhelmed by their finances and is struggling to break the cycle of bills, with their sleep and work suffering as a result. They're considering setting a 10-minute timer to sort one bill before bed, but are scared it won't make a dent. My entry will acknowledge this fear and the potential benefits of taking a small step.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "feeling overwhelmed by bills and expenses"
+          },
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "considering setting a 10-minute timer to sort one bill before bed"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "sleep is currently gone, and they are feeling the effects of this on their daily life"
+          }
+        ],
+        "final_response": "You're scared that setting a 10-minute timer to sort one bill before bed won't make a dent, and that's understandable - it's a small step, and it's hard to see how it could make a difference in the grand scheme of things. But at the same time, not taking any action at all is only adding to your exhaustion and stress. Would you be willing to try this small step, just to see how it feels, and then we can build from there?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I suppose I could set that 10\u2011minute timer, but I'm not sure if a quick stir will actually change the broth. My mind feels like a cold pan\u2014everything's stuck, and I haven't slept in days. The work pile is still there, and I can't focus on my side projects. Maybe I can try, but I'm not convinced it will help.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "evoke",
+            "complex_reflection",
+            "inform_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now, so I'll reflect their feelings first. Given their intent to express emotion and their current preparation stage for financial stress, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is feeling overwhelmed by their finances, sleep deprivation, and procrastination, so I'll acknowledge the complexity of their situation. The user's willingness to try setting a 10-minute timer to sort one bill before bed, despite being unsure if it will help, indicates a slight shift towards taking action. My entry will be to acknowledge the user's feelings of being stuck and unsure if a small step will make a difference.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "feeling overwhelmed by bills and expenses"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "haven't slept in days"
+          },
+          {
+            "source": "problem_summary.procrastination",
+            "content": "work pile is still there"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "willing to try setting a 10-minute timer to sort one bill before bed"
+          }
+        ],
+        "final_response": "You're feeling really stuck right now, and it's like everything is frozen in place - your mind feels like a cold pan, and you haven't slept in days. It's understandable that you're unsure if setting a 10-minute timer to sort one bill before bed will make a difference, but it's a start, and sometimes that's all we need. Yeah, it's a small step, but it might just be the stir you need to get things moving again. What do you think might happen if you take this small step, even if it's just for 10 minutes?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 6,
+      "user_message": "I don't know if a 10\u2011minute stir will change anything, but the bills keep me up and the work piles up like a pot that never boils. I feel like I'm stuck, and the exhaustion just makes it hard to even think about fixing the finances. Maybe I could try the timer, but I'm not convinced it will help.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle with financial stress right now. Given their intent to express emotion and the preparation stage they're in, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is feeling overwhelmed by bills and expenses, and the exhaustion is affecting their ability to focus on work and other tasks. They're considering setting a 10-minute timer to sort one bill before bed, but are scared it won't make a dent. My entry will be to acknowledge the user's feelings of being stuck and unsure if the 10-minute timer will make a difference, and then I'll facilitate their thinking to help them move forward.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "feeling overwhelmed by bills and expenses"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "exhaustion affecting ability to focus on work and other tasks"
+          },
+          {
+            "source": "problem_summary.procrastination",
+            "content": "considering setting a 10-minute timer to sort one bill before bed"
+          }
+        ],
+        "final_response": "You're feeling really stuck right now, and it's like everything is frozen in place - the bills are piling up, and the exhaustion is making it hard to even think about fixing the finances. It's understandable that you're unsure if setting a 10-minute timer to sort one bill before bed will make a difference, but it's a start, and sometimes that's all we need. What's the smallest thing you could do in those 10 minutes that might give you a sense of control over your finances?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 7,
+      "user_message": "Maybe I can just list the bills on a sheet and put a checkmark next to each one, but I'm not convinced that will change anything. The more I think about it, the more I feel like I'm just adding to the pile. Still, I guess I could try it and see if it helps me sleep a little better.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to reflect both sides of their ambivalence about taking small steps to manage their finances. The strategies that might help are advise_with_permission, closed_question, and structure, which can drive preparation towards action. The evidence shows that the user is willing to try small steps like listing bills on a sheet, but is unsure if it will help. The user's sleep problems and procrastination are also relevant, as they are interconnected with the financial stress. My entry point will be to acknowledge the user's uncertainty and willingness to try small steps, while also exploring the potential benefits of taking action.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "user is willing to try small steps like listing bills on a sheet"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "user's sleep is affected by financial stress"
+          },
+          {
+            "source": "problem_summary.procrastination",
+            "content": "user is putting off tasks due to lack of motivation or focus"
+          }
+        ],
+        "final_response": "You're considering listing your bills on a sheet and putting a checkmark next to each one, but you're not convinced it'll make a difference. That's understandable, given how overwhelming your finances feel right now. At the same time, taking small steps like this might help you feel more in control, and that could have a positive impact on your sleep. Would you be willing to try this approach, just to see how it feels, and then we can build from there?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 8,
+      "user_message": "I could try listing the bills, but my mind feels like a cold pan from all the sleep I\u2019ve lost, and the work pile is still there. I keep putting it off, so I'm not sure it's worth the effort. Still, I guess I could give it a shot to see if a quick check makes any difference.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission",
+            "closed_question",
+            "structure"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the overwhelm you're feeling right now. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to share your feelings. The evidence shows that you're struggling with financial stress, sleep problems, and procrastination, and you're considering small steps like listing bills to regain control. Your willingness to try this approach despite your doubts is a significant step, and I'll use this to inform my response. My entry point will be to acknowledge the exhaustion and stress you're feeling, and how it's affecting your ability to focus on your finances and work.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "feeling overwhelmed by bills and expenses"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "mind feels like a cold pan from all the sleep I\u2019ve lost"
+          },
+          {
+            "source": "problem_summary.procrastination",
+            "content": "putting off tasks, including financial calculations and work on their code"
+          }
+        ],
+        "final_response": "You're feeling really overwhelmed right now, and it's like everything is piling up on you - the bills, the work, the exhaustion. It's understandable that you're unsure if listing your bills will make a difference, but it's a start, and sometimes that's all we need. Yeah, it's a small step, but it might just be the thing that helps you feel more in control, and that could have a positive impact on your sleep and focus. What do you think is the smallest thing you could do to make this task feel less daunting, and maybe even help you get a bit of progress on your finances?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 9,
+      "user_message": "I could set a five\u2011minute timer to just jot down the due dates, but I still feel like I'm just stirring a pot that never boils over. Even if it doesn't change the rest of the pile, I\u2019m not sure it\u2019ll make a dent in how exhausted I feel at night. Maybe that\u2019s the smallest thing I can do to get a sliver of control before I collapse into another loop of procrastination.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission",
+            "closed_question",
+            "structure"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help this person navigate their financial stress, and right now, they're feeling ambivalent about taking small steps towards managing their finances. Given their intent to deliberate on the decision, I'll use the facilitate strategy to help them weigh the pros and cons. The evidence shows that they're considering setting a five-minute timer to jot down due dates, which is a small step towards action. I'll acknowledge their hesitation and the feeling of being overwhelmed, while also highlighting the potential benefit of taking this small step. My entry point will be to reflect their ambivalence and explore the potential outcomes of taking this small step.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "considering setting a five-minute timer to jot down due dates"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "feeling overwhelmed and unsure if listing bills will make a difference"
+          }
+        ],
+        "final_response": "You're feeling like setting a five-minute timer to jot down due dates might not make a dent in your exhaustion, but at the same time, it could be a small step towards feeling more in control of your finances. It's understandable that you're hesitant, given how overwhelming everything feels right now. What do you think is the worst that could happen if you take this small step, and what's the best that could come out of it?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 10,
+      "user_message": "I think the worst is that I still get no sleep and the work piles up even more, like a pot that never boils. The best could be that I feel a sliver of control over the bills, even if it\u2019s just a list of due dates. It\u2019s a small stir, but maybe that\u2019s enough to keep the broth from boiling over for a bit.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and I sense that you're feeling really ambivalent about taking small steps to manage your finances, weighing the potential benefits and drawbacks. Given your intent to deliberate on this decision, I think using the `facilitate` strategy could help you explore both sides of your ambivalence. Looking at the evidence, I see that you've been considering listing bills and jotting down due dates, which could give you a sense of control over your finances. My entry point will be to acknowledge the potential outcomes you've mentioned, including the possibility of feeling more in control, and then help you facilitate a decision that works for you.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "considering small steps like setting a timer to sort bills, listing bills on a sheet, and jotting down due dates"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "worst that could happen is that I still get no sleep and the work piles up even more, best could be that I feel a sliver of control over the bills"
+          }
+        ],
+        "final_response": "You're thinking that even if listing your bills and jotting down due dates doesn't change everything, it might give you a sliver of control over your finances, and that's something. At the same time, you're worried that it might not make a difference in your exhaustion or work pile. Can you imagine what it would be like to have that sliver of control, even if it's just a small sense of accomplishment? Maybe that's enough to keep you moving forward, and we can build from there."
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

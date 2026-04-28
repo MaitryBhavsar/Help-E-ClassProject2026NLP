@@ -1,0 +1,276 @@
+{
+  "profile_id": "P06",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "overwhelmed",
+      "emotional"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": null,
+    "hobbies_interests": [],
+    "communication_style": "emotional, expressive",
+    "relevant_history": "recent loss of a friend",
+    "general_behavioral_traits": [
+      "overthinker",
+      "emotionally reactive"
+    ]
+  },
+  "problems": {
+    "academic_pressure": {
+      "problem_name": "academic_pressure",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees their academic workload as overwhelming",
+              "concise_explanation": "exhaustion and racing mind mentioned",
+              "supporting_utterance_span": "I'm exhausted, and my mind keeps racing between exams",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels overwhelmed by academic workload",
+              "concise_explanation": "feeling of drowning",
+              "supporting_utterance_span": "I feel like I'm drowning in this",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees academic workload as extremely overwhelming",
+              "concise_explanation": "feeling of drowning, can't think about studying",
+              "supporting_utterance_span": "I feel like I'm drowning, and I cant even think about studying",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees the academic workload as overwhelming",
+              "concise_explanation": "endless notes, lecture was a blur",
+              "supporting_utterance_span": "endless notes, The lecture was a blur",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels overwhelmed by the academic workload",
+              "concise_explanation": "feels inseparable from grief",
+              "supporting_utterance_span": "the stack of notes feel inseparable",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user's exhaustion is a significant barrier to studying",
+              "concise_explanation": "too exhausted to study",
+              "supporting_utterance_span": "too exhausted to even think about studying",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "accumulating notes and unclear lecture content are driving the stress escalation",
+              "concise_explanation": "notes are piling up, lecture was a blur",
+              "supporting_utterance_span": "The lecture was a blur, the notes are piling up",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "grief is a trigger that prevents focus on studying",
+              "concise_explanation": "grief that won't leave my head",
+              "supporting_utterance_span": "grief that won't leave my head",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "grief is triggering or exacerbating academic pressure",
+              "concise_explanation": "grief and notes are intertwined",
+              "supporting_utterance_span": "the grief and the stack of notes feel inseparable",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "grief_of_loved_one": {
+      "problem_name": "grief_of_loved_one",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "loss of a friend is a trigger for feelings of grief and disorientation",
+              "concise_explanation": "loss of a friend mentioned as a source of emotional pain",
+              "supporting_utterance_span": "how lost I feel after losing my friend",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "loss of friend contributes to user's emotional state",
+              "concise_explanation": "loss of friend mentioned as part of user's emotional struggle",
+              "supporting_utterance_span": "lost my friend",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "thoughts of the friend are a recurring trigger",
+              "concise_explanation": "thought of friend keeps looping in head",
+              "supporting_utterance_span": "the thought of my friend keeps looping in my head",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "academic pressure is a trigger that exacerbates grief",
+              "concise_explanation": "stuck between the endless notes and the grief",
+              "supporting_utterance_span": "stuck between the endless notes and the grief",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "academic workload is triggering or exacerbating grief",
+              "concise_explanation": "grief and notes are intertwined",
+              "supporting_utterance_span": "the grief and the stack of notes feel inseparable",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "academic_pressure",
+      "problem_2": "grief_of_loved_one",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "my mind keeps racing between exams and grief"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems mentioned together as contributing to user's emotional state",
+          "supporting_utterance_span": "I know I should talk about it, but I'm just too exhausted to even think about studying right now. I feel like I'm drowning in this."
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The lecture was a blur, the notes are piling up, and the thought of my friend keeps looping in my head"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "stuck between the endless notes and the grief that won't leave my head"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are discussed as intertwined",
+          "supporting_utterance_span": "the grief and the stack of notes feel inseparable"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the user's grief seems to be exacerbating their academic stress, and vice versa",
+          "supporting_utterance_span": "my mind keeps racing between exams and grief",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's grief exacerbates their perception of academic pressure",
+          "supporting_utterance_span": "lost my friend... too exhausted to even think about studying",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "thoughts of the friend are exacerbating the academic stress",
+          "supporting_utterance_span": "The lecture was a blur, the notes are piling up, and the thought of my friend keeps looping in my head. I feel like I'm drowning, and I cant even think about studying",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "grief triggers academic pressure, and academic pressure triggers grief, creating a reinforcing cycle.",
+          "supporting_utterance_span": "stuck between the endless notes and the grief that won't leave my head",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "the academic workload and grief are triggering or exacerbating each other",
+          "supporting_utterance_span": "the grief and the stack of notes feel inseparable",
+          "confidence": "high"
+        }
+      ],
+      "weight": 1.0
+    }
+  ]
+}

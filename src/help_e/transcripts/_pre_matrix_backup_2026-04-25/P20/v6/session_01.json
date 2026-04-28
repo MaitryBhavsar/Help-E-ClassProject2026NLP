@@ -1,0 +1,2609 @@
+{
+  "session_id": 1,
+  "session_summary": "The user primarily discussed conflicts with their parents after coming out as non-binary and feeling dismissed, as well as academic pressure from an upcoming sociology term paper. They moved into the contemplation stage for both issues, acknowledging the need to process their emotions and find ways to manage their time. The user expressed a desire for their parents to listen and acknowledge their gender identity, and they intend to take time to process their emotions before focusing on the term paper, with an open thread to revisit how they balance these challenges in the next session.",
+  "stage_transitions": [
+    {
+      "problem": "academic_pressure",
+      "from": "(absent)",
+      "to": "contemplation"
+    },
+    {
+      "problem": "conflicts_with_parents",
+      "from": "(absent)",
+      "to": "contemplation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "update",
+      "new_value": "non-binary",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I told them I\u2019m non\u2011binary"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "acknowledge my gender identity"
+        }
+      ]
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "acceptance, understanding",
+      "evidence_citations": [
+        {
+          "turn_id": 4,
+          "excerpt": "I just want them to hear me and understand that this is who I am"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "If they could acknowledge my gender identity, even just a nod, that would mean a lot"
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "parents",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I just had a heated dinner with my parents"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "Dad said, 'You don't need to be that way'"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "sociology",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I have a sociology term paper due next week"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "keep my term paper on track"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, expressive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I\u2019m feeling drained and hurt"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I just want them to listen and say 'I hear you'"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "coming out as non-binary",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I told them I\u2019m non\u2011binary"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "Dad said, 'You don't need to be that way'"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me.  I\u2019m feeling drained and hurt, but I also have a sociology term paper due next week.  I\u2019m not sure how to balance all of this right now."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper. That can be a lot to handle. Would you like to talk more about what's been going on with your parents and how you're feeling about it?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I feel stuck between the argument at home and the looming deadline. I want to figure out a way to process my feelings and still get my paper done. Any suggestions on how to juggle both?"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "You're feeling stuck between the argument at home and the looming deadline, and it's affecting your ability to focus on your term paper. Would it be helpful to explore some ways to process your feelings and manage your time, or would you rather talk more about what's been going on with your parents first?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I think I need to talk about what happened at dinner first, because it still feels so raw and I don\u2019t feel heard. Once we\u2019ve unpacked that, maybe we can look at how to keep my term paper on track."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "It sounds like the dinner incident with your parents is still feeling really raw and emotional for you, and you don't feel like you've been heard. Would it be helpful to explore what happened at dinner and how you're feeling about it, before we think about how to keep your term paper on track?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "It was so painful when Dad said, \"You don't need to be that way,\" and I felt completely dismissed. I just want them to hear me and understand that this is who I am."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "It sounds like your dad's comment really cut deep and made you feel like you're not being heard or understood. That can be a really painful and invalidating experience. What do you think you need from your parents right now in order to feel seen and accepted?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I just want them to listen and say 'I hear you' instead of dismissing me. If they could acknowledge my gender identity, even just a nod, that would mean a lot. I also need a little space to process this before I can focus on the paper."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "It sounds like you're feeling deeply hurt and dismissed by your parents' reaction, and you just want them to listen and acknowledge your gender identity. That can be a really painful and isolating experience. Would it be helpful to take a little time to process your emotions before thinking about your term paper, or is there something else that's feeling more pressing for you right now?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me.  I\u2019m feeling drained and hurt, but I also have a sociology term paper due next week.  I\u2019m not sure how to balance all of this right now.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of hurt and drainage after a heated conversation with their parents.",
+          "supporting_utterance_span": "I\u2019m feeling drained and hurt"
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "heated dinner conversation about non-binary identity",
+            "supporting_utterance_span": "heated dinner with my parents after I told them I\u2019m non\u2011binary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "sociology term paper due next week",
+            "supporting_utterance_span": "sociology term paper due next week"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "the emotional impact of the dinner conversation appears to be the primary concern",
+          "supporting_utterance_span": "I\u2019m feeling drained and hurt"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "coming out as non-binary triggered the conflict",
+            "concise_explanation": "parents' reaction to non-binary identity",
+            "supporting_utterance_span": "after I told them I\u2019m non\u2011binary",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user is unsure about balancing the term paper with their emotional state",
+            "concise_explanation": "term paper due soon and user is feeling drained",
+            "supporting_utterance_span": "I\u2019m not sure how to balance all of this right now",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "conflicts_with_parents",
+            "problem_2": "academic_pressure",
+            "concise_explanation": "both problems mentioned in the same turn",
+            "supporting_utterance_span": "heated dinner with my parents... and I also have a sociology term paper due next week"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "conflicts_with_parents",
+            "attribute_1": "triggers",
+            "problem_2": "academic_pressure",
+            "attribute_2": "perceived_severity",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the emotional distress from the conflict with parents may exacerbate the perceived severity of the academic pressure.",
+            "supporting_utterance_span": "I\u2019m feeling drained and hurt... and I also have a sociology term paper due next week",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User expressed uncertainty about balancing the term paper with their emotional state, indicating some level of concern but not extreme distress.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is unsure about balancing the term paper with their emotional state"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged the challenge of balancing academic work with their emotional state, showing initial awareness of the problem.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is unsure about balancing the term paper with their emotional state"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence was provided for this problem, so the stage remains unchanged.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me.  I\u2019m feeling drained and hurt, but I also have a sociology term paper due next week.  I\u2019m not sure how to balance all of this right now.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "coming out as non-binary triggered the conflict",
+                  "concise_explanation": "parents' reaction to non-binary identity",
+                  "supporting_utterance_span": "after I told them I\u2019m non\u2011binary",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "academic_pressure",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user is unsure about balancing the term paper with their emotional state",
+                    "concise_explanation": "term paper due soon and user is feeling drained",
+                    "supporting_utterance_span": "I\u2019m not sure how to balance all of this right now",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the emotional distress from the conflict with parents may exacerbate the perceived severity of the academic pressure.",
+                "supporting_utterance_span": "I\u2019m feeling drained and hurt... and I also have a sociology term paper due next week",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "main_problem": "conflicts_with_parents"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be conflicts_with_parents, and they are currently in the precontemplation stage. Because of this, the response should use T1 Reflection to acknowledge their feelings and situation. This technique is appropriate because it allows the user to express their emotions and thoughts without feeling judged or pressured. It should be applied by reflecting the user's content, using evidence such as their statement about feeling 'drained and hurt' after the heated dinner with their parents. The user also mentions having a sociology term paper due next week, which suggests a connection to the related problem of academic_pressure. Because of this, the response should also consider the reinforcing connection between the triggers of conflicts_with_parents and the perceived_severity of academic_pressure. The user intent in this turn is to vent, so the response should prioritize acknowledging their emotions and concerns. Relevant connected problems suggest a reinforcing relationship between the triggers of conflicts_with_parents and the perceived_severity of academic_pressure, which should be used to inform the reflection. Overall, the response should try to improve the user's emotional regulation and awareness of their situation, while avoiding giving unsolicited advice or pivoting too quickly to the related problem of academic_pressure.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings and situation, focusing on their emotional state and the conflict with their parents. I'll acknowledge their concern about the sociology term paper, but avoid pivoting to the related problem of academic_pressure in this turn. I'll drop any explicit mention of the connection between the two problems, as it may overwhelm the user. By reflecting the user's content and emotions, I'll honor their intent to vent and create a safe space for them to express themselves.",
+        "final_response": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper. That can be a lot to handle. Would you like to talk more about what's been going on with your parents and how you're feeling about it?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User expressed uncertainty about balancing the term paper with their emotional state, indicating some level of concern but not extreme distress.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is unsure about balancing the term paper with their emotional state"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged the challenge of balancing academic work with their emotional state, showing initial awareness of the problem.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is unsure about balancing the term paper with their emotional state"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence was provided for this problem, so the stage remains unchanged.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "I feel stuck between the argument at home and the looming deadline. I want to figure out a way to process my feelings and still get my paper done. Any suggestions on how to juggle both?",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_advice",
+          "confidence": "high",
+          "explanation": "User is asking for suggestions on how to manage their situation.",
+          "supporting_utterance_span": "Any suggestions on how to juggle both?"
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "recent argument at home",
+            "supporting_utterance_span": "the argument at home"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "looming deadline for term paper",
+            "supporting_utterance_span": "the looming deadline"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "user's emotional state is more prominently affected by the recent argument",
+          "supporting_utterance_span": "I feel stuck between the argument at home"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user feels strongly affected by the argument",
+            "concise_explanation": "feeling 'stuck' and 'drained'",
+            "supporting_utterance_span": "I feel stuck between the argument at home and I\u2019m feeling drained",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user sees the argument as a barrier to focusing on the term paper",
+            "concise_explanation": "argument at home is affecting ability to work on paper",
+            "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "the argument at home is triggered by the user's non-binary identity",
+            "concise_explanation": "parents dismissed the user's identity",
+            "supporting_utterance_span": "I told them I\u2019m non\u2011binary, and they dismissed me",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "conflicts_with_parents",
+            "problem_2": "academic_pressure",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "conflicts_with_parents",
+            "attribute_1": "triggers",
+            "problem_2": "academic_pressure",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "causal",
+            "connection_explanation": "the argument at home is causing the user to feel overwhelmed and affecting their ability to focus on the term paper",
+            "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now feels strongly affected by the argument, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels strongly affected by the argument"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User identifies the argument as a barrier to focusing on the term paper, suggesting a medium level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the argument as a barrier to focusing on the term paper"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the conflict and its triggers, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: coming out as non-binary triggered the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_severity: user feels strongly affected by the argument"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: the argument at home is triggered by the user's non-binary identity"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to weigh the challenges of balancing the term paper with their emotional state and identifies barriers, but does not indicate a change in stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user is unsure about balancing the term paper with their emotional state"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user sees the argument as a barrier to focusing on the term paper"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I feel stuck between the argument at home and the looming deadline. I want to figure out a way to process my feelings and still get my paper done. Any suggestions on how to juggle both?",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me.  I\u2019m feeling drained and hurt, but I also have a sociology term paper due next week.  I\u2019m not sure how to balance all of this right now."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper. That can be a lot to handle. Would you like to talk more about what's been going on with your parents and how you're feeling about it?"
+          }
+        ],
+        "last_system_message": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper. That can be a lot to handle. Would you like to talk more about what's been going on with your parents and how you're feeling about it?",
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            2
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user feels strongly affected by the argument",
+                  "concise_explanation": "feeling 'stuck' and 'drained'",
+                  "supporting_utterance_span": "I feel stuck between the argument at home and I\u2019m feeling drained",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "coming out as non-binary triggered the conflict",
+                  "concise_explanation": "parents' reaction to non-binary identity",
+                  "supporting_utterance_span": "after I told them I\u2019m non\u2011binary",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "the argument at home is triggered by the user's non-binary identity",
+                  "concise_explanation": "parents dismissed the user's identity",
+                  "supporting_utterance_span": "I told them I\u2019m non\u2011binary, and they dismissed me",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "academic_pressure",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user is unsure about balancing the term paper with their emotional state",
+                    "concise_explanation": "term paper due soon and user is feeling drained",
+                    "supporting_utterance_span": "I\u2019m not sure how to balance all of this right now",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees the argument as a barrier to focusing on the term paper",
+                    "concise_explanation": "argument at home is affecting ability to work on paper",
+                    "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the emotional distress from the conflict with parents may exacerbate the perceived severity of the academic pressure.",
+                "supporting_utterance_span": "I\u2019m feeling drained and hurt... and I also have a sociology term paper due next week",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the argument at home is causing the user to feel overwhelmed and affecting their ability to focus on the term paper",
+                "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T7",
+            "technique_label": "EPE"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T7",
+            "technique_label": "EPE"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "conflicts_with_parents"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be conflicts_with_parents, with a current TTM stage of contemplation. Because of this, the response should use T1 Reflection and T5 Ask Permission. This technique is appropriate because the user is seeking advice and feeling overwhelmed, and T1 Reflection can help acknowledge their emotions while T5 Ask Permission can guide them towards exploring solutions. It should be applied by reflecting the user's feelings of being stuck between the argument and the deadline, using evidence such as the high perceived_severity of the conflict and the medium perceived_barriers to focusing on the term paper. The user also shows a medium level of perceived_barriers to academic_pressure, which is connected to the main problem through a reinforcing relationship between triggers and perceived_severity. Because of this, the response should also consider the user's emotional state and how it affects their ability to focus on the term paper. The user intent in this turn is to seek advice, which aligns with the T5 Ask Permission technique. The response should first acknowledge the user's desire for suggestions, then ask permission to explore potential solutions. Relevant connected problems suggest a reinforcing relationship between the triggers of conflicts_with_parents and the perceived_severity of academic_pressure, which should be used to highlight the interconnectedness of the user's emotional state and their academic responsibilities. Overall, the response should try to improve the user's motivation and self-efficacy, while avoiding unsolicited advice or overwhelming the user with multiple suggestions.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of being stuck, then use T5 Ask Permission to guide them towards exploring solutions. I'll name the connection between the conflict and academic pressure to ground the turn, but avoid delving too deeply into the related problem to prevent overwhelming the user.",
+        "final_response": "You're feeling stuck between the argument at home and the looming deadline, and it's affecting your ability to focus on your term paper. Would it be helpful to explore some ways to process your feelings and manage your time, or would you rather talk more about what's been going on with your parents first?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "seek_advice",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now feels strongly affected by the argument, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels strongly affected by the argument"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User identifies the argument as a barrier to focusing on the term paper, suggesting a medium level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the argument as a barrier to focusing on the term paper"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the conflict and its triggers, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: coming out as non-binary triggered the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_severity: user feels strongly affected by the argument"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: the argument at home is triggered by the user's non-binary identity"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to weigh the challenges of balancing the term paper with their emotional state and identifies barriers, but does not indicate a change in stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user is unsure about balancing the term paper with their emotional state"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user sees the argument as a barrier to focusing on the term paper"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I think I need to talk about what happened at dinner first, because it still feels so raw and I don\u2019t feel heard. Once we\u2019ve unpacked that, maybe we can look at how to keep my term paper on track.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User wants to discuss the dinner incident first and then explore ways to manage their term paper",
+          "supporting_utterance_span": "I think I need to talk about what happened at dinner first, because it still feels so raw and I don\u2019t feel heard"
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "recent heated dinner and feeling dismissed",
+            "supporting_utterance_span": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "looming term paper deadline",
+            "supporting_utterance_span": "I\u2019m not sure how to balance all of this right now"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "user wants to discuss the dinner incident first, indicating it's the more pressing issue",
+          "supporting_utterance_span": "I think I need to talk about what happened at dinner first, because it still feels so raw and I don\u2019t feel heard"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "coming out as non-binary triggered the conflict",
+            "concise_explanation": "parents' dismissal after user shared their identity",
+            "supporting_utterance_span": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user feels strongly affected by the conflict",
+            "concise_explanation": "feeling 'drained and hurt' and incident still 'feels so raw'",
+            "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline. I want to figure out a way to process my feelings",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user's emotional state is a barrier to focusing on the term paper",
+            "concise_explanation": "feeling 'stuck' and 'overwhelmed' due to the conflict at home",
+            "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "conflicts_with_parents",
+            "problem_2": "academic_pressure",
+            "concise_explanation": "both problems mentioned in the same turn",
+            "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "conflicts_with_parents",
+            "attribute_1": "triggers",
+            "problem_2": "academic_pressure",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "causal",
+            "connection_explanation": "the conflict with parents is causing emotional distress, which in turn is a barrier to focusing on the term paper",
+            "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to feel strongly affected by the conflict, with consistent high-confidence entries describing the argument's impact.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels strongly affected by the argument"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels strongly affected by the conflict"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers",
+            "old_level": "medium",
+            "new_level": "medium",
+            "reasoning": "User's perception of barriers remains consistent, with the argument and emotional state both seen as obstacles to focusing on the term paper.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the argument as a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's emotional state is a barrier to focusing on the term paper"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User remains in contemplation, acknowledging the conflict's impact but without clear signs of progression towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: coming out as non-binary triggered the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_severity: user feels strongly affected by the argument"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_severity: user feels strongly affected by the conflict"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User stays in contemplation, recognizing the challenges of balancing emotional state and academic responsibilities without yet showing signs of moving towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user is unsure about balancing the term paper with their emotional state"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user sees the argument as a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user's emotional state is a barrier to focusing on the term paper"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I think I need to talk about what happened at dinner first, because it still feels so raw and I don\u2019t feel heard. Once we\u2019ve unpacked that, maybe we can look at how to keep my term paper on track.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me.  I\u2019m feeling drained and hurt, but I also have a sociology term paper due next week.  I\u2019m not sure how to balance all of this right now."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper. That can be a lot to handle. Would you like to talk more about what's been going on with your parents and how you're feeling about it?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I feel stuck between the argument at home and the looming deadline. I want to figure out a way to process my feelings and still get my paper done. Any suggestions on how to juggle both?"
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "You're feeling stuck between the argument at home and the looming deadline, and it's affecting your ability to focus on your term paper. Would it be helpful to explore some ways to process your feelings and manage your time, or would you rather talk more about what's been going on with your parents first?"
+          }
+        ],
+        "last_system_message": "You're feeling stuck between the argument at home and the looming deadline, and it's affecting your ability to focus on your term paper. Would it be helpful to explore some ways to process your feelings and manage your time, or would you rather talk more about what's been going on with your parents first?",
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user feels strongly affected by the argument",
+                  "concise_explanation": "feeling 'stuck' and 'drained'",
+                  "supporting_utterance_span": "I feel stuck between the argument at home and I\u2019m feeling drained",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user feels strongly affected by the conflict",
+                  "concise_explanation": "feeling 'drained and hurt' and incident still 'feels so raw'",
+                  "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline. I want to figure out a way to process my feelings",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "coming out as non-binary triggered the conflict",
+                  "concise_explanation": "parents' reaction to non-binary identity",
+                  "supporting_utterance_span": "after I told them I\u2019m non\u2011binary",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "the argument at home is triggered by the user's non-binary identity",
+                  "concise_explanation": "parents dismissed the user's identity",
+                  "supporting_utterance_span": "I told them I\u2019m non\u2011binary, and they dismissed me",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "coming out as non-binary triggered the conflict",
+                  "concise_explanation": "parents' dismissal after user shared their identity",
+                  "supporting_utterance_span": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "academic_pressure",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user is unsure about balancing the term paper with their emotional state",
+                    "concise_explanation": "term paper due soon and user is feeling drained",
+                    "supporting_utterance_span": "I\u2019m not sure how to balance all of this right now",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees the argument as a barrier to focusing on the term paper",
+                    "concise_explanation": "argument at home is affecting ability to work on paper",
+                    "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user's emotional state is a barrier to focusing on the term paper",
+                    "concise_explanation": "feeling 'stuck' and 'overwhelmed' due to the conflict at home",
+                    "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the emotional distress from the conflict with parents may exacerbate the perceived severity of the academic pressure.",
+                "supporting_utterance_span": "I\u2019m feeling drained and hurt... and I also have a sociology term paper due next week",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the argument at home is causing the user to feel overwhelmed and affecting their ability to focus on the term paper",
+                "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the conflict with parents is causing emotional distress, which in turn is a barrier to focusing on the term paper",
+                "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          }
+        ],
+        "main_problem": "conflicts_with_parents"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be conflicts_with_parents, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T5 Ask Permission. This technique is appropriate because the user is exploring their feelings and needs to process their emotions before moving forward. It should be applied by reflecting the user's feelings and experiences, using evidence such as their perceived_severity of the conflict and the triggers that led to the argument. The user also shows high perceived_severity and medium perceived_barriers in their academic_pressure problem, which is connected to the main problem through reinforcing and causal relationships. Because of this, the response should also consider the user's emotional state and its impact on their ability to focus on their term paper. The user intent in this turn is to explore options, and the response should acknowledge this intent by reflecting the user's desire to talk about the dinner incident first. Relevant connected problems suggest that the conflict with parents is exacerbating the user's academic pressure, and this evidence should be used to inform the response. Overall, the response should try to improve the user's emotional regulation and awareness, while avoiding giving unsolicited advice or pivoting too quickly to the academic pressure problem.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings about the dinner incident, then use T5 Ask Permission to explore ways to process their emotions. I'll name the user's goal of unpacking the dinner incident before moving on to the term paper, and I'll avoid giving advice or solutions at this stage. I'll also drop the connection to academic_pressure for now, as the user wants to focus on the conflict with parents first.",
+        "final_response": "It sounds like the dinner incident with your parents is still feeling really raw and emotional for you, and you don't feel like you've been heard. Would it be helpful to explore what happened at dinner and how you're feeling about it, before we think about how to keep your term paper on track?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to feel strongly affected by the conflict, with consistent high-confidence entries describing the argument's impact.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels strongly affected by the argument"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels strongly affected by the conflict"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers",
+            "old_level": "medium",
+            "new_level": "medium",
+            "reasoning": "User's perception of barriers remains consistent, with the argument and emotional state both seen as obstacles to focusing on the term paper.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the argument as a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's emotional state is a barrier to focusing on the term paper"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User remains in contemplation, acknowledging the conflict's impact but without clear signs of progression towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: coming out as non-binary triggered the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_severity: user feels strongly affected by the argument"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_severity: user feels strongly affected by the conflict"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User stays in contemplation, recognizing the challenges of balancing emotional state and academic responsibilities without yet showing signs of moving towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user is unsure about balancing the term paper with their emotional state"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user sees the argument as a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user's emotional state is a barrier to focusing on the term paper"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "It was so painful when Dad said, \"You don't need to be that way,\" and I felt completely dismissed. I just want them to hear me and understand that this is who I am.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing pain and hurt from the dinner incident without asking for advice.",
+          "supporting_utterance_span": "It was so painful when Dad said, 'You don't need to be that way,' and I felt completely dismissed."
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "painful dinner conversation with parents",
+            "supporting_utterance_span": "It was so painful when Dad said, 'You don't need to be that way,' and I felt completely dismissed."
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "looming term paper deadline",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "user is currently focusing on the emotional pain from the dinner incident",
+          "supporting_utterance_span": "It was so painful when Dad said, 'You don't need to be that way,' and I felt completely dismissed."
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "parent's dismissive comment triggered emotional pain",
+            "concise_explanation": "parent's comment cited as trigger",
+            "supporting_utterance_span": "It was so painful when Dad said, 'You don't need to be that way,'",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user feels deeply hurt and dismissed by parents",
+            "concise_explanation": "user describes feeling 'completely dismissed'",
+            "supporting_utterance_span": "I felt completely dismissed",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "conflicts_with_parents",
+            "problem_2": "academic_pressure",
+            "concise_explanation": "both problems discussed in recent context",
+            "supporting_utterance_span": null
+          }
+        ],
+        "problem_attribute_connections": []
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to express strong feelings of hurt and dismissal by parents, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels strongly affected by the argument"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels strongly affected by the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user feels deeply hurt and dismissed by parents"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the conflict and its emotional impact but does not express a clear intention to act or change the situation, consistent with the contemplation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: the argument at home is triggered by the user's non-binary identity"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_severity: user feels strongly affected by the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "triggers: coming out as non-binary triggered the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_severity: user feels deeply hurt and dismissed by parents"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "triggers: parent's dismissive comment triggered emotional pain"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "There is no new evidence this turn to suggest a change in the user's stage regarding academic pressure. Previous entries indicate the user sees barriers to focusing on the term paper but does not express a clear plan to address these barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user is unsure about balancing the term paper with their emotional state"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user sees the argument as a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user's emotional state is a barrier to focusing on the term paper"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "It was so painful when Dad said, \"You don't need to be that way,\" and I felt completely dismissed. I just want them to hear me and understand that this is who I am.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me.  I\u2019m feeling drained and hurt, but I also have a sociology term paper due next week.  I\u2019m not sure how to balance all of this right now."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper. That can be a lot to handle. Would you like to talk more about what's been going on with your parents and how you're feeling about it?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I feel stuck between the argument at home and the looming deadline. I want to figure out a way to process my feelings and still get my paper done. Any suggestions on how to juggle both?"
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "You're feeling stuck between the argument at home and the looming deadline, and it's affecting your ability to focus on your term paper. Would it be helpful to explore some ways to process your feelings and manage your time, or would you rather talk more about what's been going on with your parents first?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I think I need to talk about what happened at dinner first, because it still feels so raw and I don\u2019t feel heard. Once we\u2019ve unpacked that, maybe we can look at how to keep my term paper on track."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like the dinner incident with your parents is still feeling really raw and emotional for you, and you don't feel like you've been heard. Would it be helpful to explore what happened at dinner and how you're feeling about it, before we think about how to keep your term paper on track?"
+          }
+        ],
+        "last_system_message": "It sounds like the dinner incident with your parents is still feeling really raw and emotional for you, and you don't feel like you've been heard. Would it be helpful to explore what happened at dinner and how you're feeling about it, before we think about how to keep your term paper on track?",
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            4
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user feels strongly affected by the argument",
+                  "concise_explanation": "feeling 'stuck' and 'drained'",
+                  "supporting_utterance_span": "I feel stuck between the argument at home and I\u2019m feeling drained",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user feels strongly affected by the conflict",
+                  "concise_explanation": "feeling 'drained and hurt' and incident still 'feels so raw'",
+                  "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline. I want to figure out a way to process my feelings",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user feels deeply hurt and dismissed by parents",
+                  "concise_explanation": "user describes feeling 'completely dismissed'",
+                  "supporting_utterance_span": "I felt completely dismissed",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "the argument at home is triggered by the user's non-binary identity",
+                  "concise_explanation": "parents dismissed the user's identity",
+                  "supporting_utterance_span": "I told them I\u2019m non\u2011binary, and they dismissed me",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "coming out as non-binary triggered the conflict",
+                  "concise_explanation": "parents' dismissal after user shared their identity",
+                  "supporting_utterance_span": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "parent's dismissive comment triggered emotional pain",
+                  "concise_explanation": "parent's comment cited as trigger",
+                  "supporting_utterance_span": "It was so painful when Dad said, 'You don't need to be that way,'",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "academic_pressure",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user is unsure about balancing the term paper with their emotional state",
+                    "concise_explanation": "term paper due soon and user is feeling drained",
+                    "supporting_utterance_span": "I\u2019m not sure how to balance all of this right now",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees the argument as a barrier to focusing on the term paper",
+                    "concise_explanation": "argument at home is affecting ability to work on paper",
+                    "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user's emotional state is a barrier to focusing on the term paper",
+                    "concise_explanation": "feeling 'stuck' and 'overwhelmed' due to the conflict at home",
+                    "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the emotional distress from the conflict with parents may exacerbate the perceived severity of the academic pressure.",
+                "supporting_utterance_span": "I\u2019m feeling drained and hurt... and I also have a sociology term paper due next week",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the argument at home is causing the user to feel overwhelmed and affecting their ability to focus on the term paper",
+                "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the conflict with parents is causing emotional distress, which in turn is a barrier to focusing on the term paper",
+                "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "conflicts_with_parents"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be conflicts_with_parents, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging the problem and is ambivalent about change, and reflecting their feelings and exploring their reasons for change can help them move forward. It should be applied by reflecting the user's emotional pain and sense of dismissal, using evidence such as their perceived_severity and triggers. The user also shows high perceived_severity and a strong desire to be heard and understood, which suggests that the response should use T2 Affirmation to acknowledge their strength and resilience in the face of adversity. The user intent in this turn is to vent, and because of this, the response should use T1 Reflection to acknowledge their feelings and create a safe space for them to express themselves. Relevant connected problems suggest a reinforcing relationship between the triggers of conflicts_with_parents and academic_pressure, which may exacerbate the user's emotional distress. This evidence should be used by briefly acknowledging the connection between the two problems, but not overwhelming the user with it. Overall, the response should try to improve the user's emotional regulation and awareness, while avoiding giving unsolicited advice or pivoting too quickly to the related problem of academic_pressure.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's emotional pain and sense of dismissal, and then use T8 Change Talk to explore their reasons for wanting their parents to understand and accept them. I'll briefly acknowledge the connection to academic_pressure, but focus on the main problem of conflicts_with_parents. I'll drop any explicit discussion of time management or academic strategies for now, as the user is still processing their emotions and needs a safe space to vent.",
+        "final_response": "It sounds like your dad's comment really cut deep and made you feel like you're not being heard or understood. That can be a really painful and invalidating experience. What do you think you need from your parents right now in order to feel seen and accepted?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to express strong feelings of hurt and dismissal by parents, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels strongly affected by the argument"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels strongly affected by the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user feels deeply hurt and dismissed by parents"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the conflict and its emotional impact but does not express a clear intention to act or change the situation, consistent with the contemplation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: the argument at home is triggered by the user's non-binary identity"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_severity: user feels strongly affected by the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "triggers: coming out as non-binary triggered the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_severity: user feels deeply hurt and dismissed by parents"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "triggers: parent's dismissive comment triggered emotional pain"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "There is no new evidence this turn to suggest a change in the user's stage regarding academic pressure. Previous entries indicate the user sees barriers to focusing on the term paper but does not express a clear plan to address these barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user is unsure about balancing the term paper with their emotional state"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user sees the argument as a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user's emotional state is a barrier to focusing on the term paper"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I just want them to listen and say 'I hear you' instead of dismissing me. If they could acknowledge my gender identity, even just a nod, that would mean a lot. I also need a little space to process this before I can focus on the paper.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_validation",
+          "confidence": "high",
+          "explanation": "User is seeking understanding and acknowledgment from their parents, and also validation of their feelings.",
+          "supporting_utterance_span": "I just want them to listen and say 'I hear you' instead of dismissing me"
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "user seeking validation and acknowledgment from parents",
+            "supporting_utterance_span": "I just want them to listen and say 'I hear you'"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "user needs space to process before focusing on paper",
+            "supporting_utterance_span": "I also need a little space to process this before I can focus on the paper"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "user's emotional pain and need for validation from parents is the dominant theme",
+          "supporting_utterance_span": "I just want them to listen and say 'I hear you' instead of dismissing me"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "parent's dismissive comment triggered user's emotional pain",
+            "concise_explanation": "parent's comment 'You don't need to be that way' triggered user's feelings",
+            "supporting_utterance_span": "It was so painful when Dad said, 'You don't need to be that way'",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "attribute_name": "goal",
+            "attribute_type": "non_level",
+            "inferred_information": "user wants parents to acknowledge and accept their gender identity",
+            "concise_explanation": "user wants parents to say 'I hear you' and acknowledge their identity",
+            "supporting_utterance_span": "If they could acknowledge my gender identity, even just a nod, that would mean a lot",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user's emotional state is a barrier to focusing on the paper",
+            "concise_explanation": "user needs space to process before focusing on paper",
+            "supporting_utterance_span": "I also need a little space to process this before I can focus on the paper",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "conflicts_with_parents",
+            "problem_2": "academic_pressure",
+            "concise_explanation": "both problems are mentioned in the same turn",
+            "supporting_utterance_span": "I just want them to listen and say 'I hear you' instead of dismissing me. If they could acknowledge my gender identity, even just a nod, that would mean a lot. I also need a little space to process this before I can focus on the paper"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "conflicts_with_parents",
+            "attribute_1": "triggers",
+            "problem_2": "academic_pressure",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "causal",
+            "connection_explanation": "the emotional pain triggered by the conflict with parents is causing a barrier to focusing on the paper",
+            "supporting_utterance_span": "I just want them to listen and say 'I hear you' instead of dismissing me. If they could acknowledge my gender identity, even just a nod, that would mean a lot. I also need a little space to process this before I can focus on the paper",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers",
+            "old_level": "medium",
+            "new_level": "medium",
+            "reasoning": "The user's emotional state continues to be a barrier to focusing on the term paper, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the argument as a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's emotional state is a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user's emotional state is a barrier to focusing on the paper"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "The user continues to acknowledge the conflict and its emotional impact, but there is no new evidence of progression to the next stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "triggers: coming out as non-binary triggered the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_severity: user feels deeply hurt and dismissed by parents"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "triggers: parent's dismissive comment triggered emotional pain"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "triggers: parent's dismissive comment triggered user's emotional pain"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "goal: user wants parents to acknowledge and accept their gender identity"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "The user acknowledges the academic pressure and its barriers, but there is no new evidence of progression to the next stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user is unsure about balancing the term paper with their emotional state"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user sees the argument as a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user's emotional state is a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "perceived_barriers: user's emotional state is a barrier to focusing on the paper"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I just want them to listen and say 'I hear you' instead of dismissing me. If they could acknowledge my gender identity, even just a nod, that would mean a lot. I also need a little space to process this before I can focus on the paper.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me.  I\u2019m feeling drained and hurt, but I also have a sociology term paper due next week.  I\u2019m not sure how to balance all of this right now."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper. That can be a lot to handle. Would you like to talk more about what's been going on with your parents and how you're feeling about it?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I feel stuck between the argument at home and the looming deadline. I want to figure out a way to process my feelings and still get my paper done. Any suggestions on how to juggle both?"
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "You're feeling stuck between the argument at home and the looming deadline, and it's affecting your ability to focus on your term paper. Would it be helpful to explore some ways to process your feelings and manage your time, or would you rather talk more about what's been going on with your parents first?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I think I need to talk about what happened at dinner first, because it still feels so raw and I don\u2019t feel heard. Once we\u2019ve unpacked that, maybe we can look at how to keep my term paper on track."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like the dinner incident with your parents is still feeling really raw and emotional for you, and you don't feel like you've been heard. Would it be helpful to explore what happened at dinner and how you're feeling about it, before we think about how to keep your term paper on track?"
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "It was so painful when Dad said, \"You don't need to be that way,\" and I felt completely dismissed. I just want them to hear me and understand that this is who I am."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "It sounds like your dad's comment really cut deep and made you feel like you're not being heard or understood. That can be a really painful and invalidating experience. What do you think you need from your parents right now in order to feel seen and accepted?"
+          }
+        ],
+        "last_system_message": "It sounds like your dad's comment really cut deep and made you feel like you're not being heard or understood. That can be a really painful and invalidating experience. What do you think you need from your parents right now in order to feel seen and accepted?",
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "current_ttm_stage": "contemplation",
+          "goal": "user wants parents to acknowledge and accept their gender identity",
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user feels strongly affected by the argument",
+                  "concise_explanation": "feeling 'stuck' and 'drained'",
+                  "supporting_utterance_span": "I feel stuck between the argument at home and I\u2019m feeling drained",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user feels strongly affected by the conflict",
+                  "concise_explanation": "feeling 'drained and hurt' and incident still 'feels so raw'",
+                  "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline. I want to figure out a way to process my feelings",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user feels deeply hurt and dismissed by parents",
+                  "concise_explanation": "user describes feeling 'completely dismissed'",
+                  "supporting_utterance_span": "I felt completely dismissed",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "coming out as non-binary triggered the conflict",
+                  "concise_explanation": "parents' dismissal after user shared their identity",
+                  "supporting_utterance_span": "I just had a heated dinner with my parents after I told them I\u2019m non\u2011binary, and they dismissed me",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "parent's dismissive comment triggered emotional pain",
+                  "concise_explanation": "parent's comment cited as trigger",
+                  "supporting_utterance_span": "It was so painful when Dad said, 'You don't need to be that way,'",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "parent's dismissive comment triggered user's emotional pain",
+                  "concise_explanation": "parent's comment 'You don't need to be that way' triggered user's feelings",
+                  "supporting_utterance_span": "It was so painful when Dad said, 'You don't need to be that way'",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "goal": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user wants parents to acknowledge and accept their gender identity",
+                  "concise_explanation": "user wants parents to say 'I hear you' and acknowledge their identity",
+                  "supporting_utterance_span": "If they could acknowledge my gender identity, even just a nod, that would mean a lot",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "academic_pressure",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user is unsure about balancing the term paper with their emotional state",
+                    "concise_explanation": "term paper due soon and user is feeling drained",
+                    "supporting_utterance_span": "I\u2019m not sure how to balance all of this right now",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees the argument as a barrier to focusing on the term paper",
+                    "concise_explanation": "argument at home is affecting ability to work on paper",
+                    "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user's emotional state is a barrier to focusing on the term paper",
+                    "concise_explanation": "feeling 'stuck' and 'overwhelmed' due to the conflict at home",
+                    "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "user's emotional state is a barrier to focusing on the paper",
+                    "concise_explanation": "user needs space to process before focusing on paper",
+                    "supporting_utterance_span": "I also need a little space to process this before I can focus on the paper",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 5,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the argument at home is causing the user to feel overwhelmed and affecting their ability to focus on the term paper",
+                "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the conflict with parents is causing emotional distress, which in turn is a barrier to focusing on the term paper",
+                "supporting_utterance_span": "I feel stuck between the argument at home and the looming deadline",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the emotional pain triggered by the conflict with parents is causing a barrier to focusing on the paper",
+                "supporting_utterance_span": "I just want them to listen and say 'I hear you' instead of dismissing me. If they could acknowledge my gender identity, even just a nod, that would mean a lot. I also need a little space to process this before I can focus on the paper",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "conflicts_with_parents"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be conflicts_with_parents, with a current TTM stage of contemplation. Their goal is for their parents to acknowledge and accept their gender identity. Because of this, the response should use T1 Reflection and T12 Normalize/Reframe. This technique is appropriate because the user is seeking validation and needs to process their emotions before focusing on their term paper. It should be applied by reflecting the user's feelings and experiences, using evidence such as their perceived severity of the conflict and their desire for their parents to listen and acknowledge their gender identity. The user also shows high perceived severity and a strong desire for their parents to understand and accept them. Because of this, the response should use T2 Affirmation to acknowledge the user's strength and resilience in the face of adversity. The user intent in this turn is to seek validation, and the response should use T1 Reflection to acknowledge and validate their feelings. Relevant connected problems suggest a causal relationship between the conflict with parents and the user's ability to focus on their term paper, with the conflict causing emotional distress and barriers to focusing on the paper. This evidence should be used by surfacing the connection in a gentle and non-overwhelming way, such as by reflecting the user's statement about needing space to process their emotions before focusing on the paper. Overall, the response should try to improve the user's emotional regulation and sense of validation, while avoiding giving unsolicited advice or solutions.",
+        "response_reasoning": "I'll use T1 Reflection to acknowledge the user's feelings and experiences, and T12 Normalize/Reframe to help them see their emotions and needs as valid. I'll surface the user's statement about needing space to process their emotions before focusing on the paper, and avoid giving unsolicited advice or solutions. I'll drop the connection to academic_pressure for now, as it may overwhelm the user, and instead focus on validating their emotions and experiences.",
+        "final_response": "It sounds like you're feeling deeply hurt and dismissed by your parents' reaction, and you just want them to listen and acknowledge your gender identity. That can be a really painful and isolating experience. Would it be helpful to take a little time to process your emotions before thinking about your term paper, or is there something else that's feeling more pressing for you right now?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "seek_validation",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "perceived_barriers",
+            "old_level": "medium",
+            "new_level": "medium",
+            "reasoning": "The user's emotional state continues to be a barrier to focusing on the term paper, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the argument as a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's emotional state is a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user's emotional state is a barrier to focusing on the paper"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "The user continues to acknowledge the conflict and its emotional impact, but there is no new evidence of progression to the next stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "triggers: coming out as non-binary triggered the conflict"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_severity: user feels deeply hurt and dismissed by parents"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "triggers: parent's dismissive comment triggered emotional pain"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "triggers: parent's dismissive comment triggered user's emotional pain"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "goal: user wants parents to acknowledge and accept their gender identity"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "The user acknowledges the academic pressure and its barriers, but there is no new evidence of progression to the next stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user is unsure about balancing the term paper with their emotional state"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user sees the argument as a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user's emotional state is a barrier to focusing on the term paper"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "perceived_barriers: user's emotional state is a barrier to focusing on the paper"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    }
+  ]
+}

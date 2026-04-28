@@ -1,0 +1,289 @@
+{
+  "profile_id": "P04",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "emotional",
+      "introspective"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": "none",
+    "hobbies_interests": [],
+    "communication_style": "emotional",
+    "relevant_history": "recent divorce notice, planned adoption",
+    "general_behavioral_traits": [
+      "emotionally reactive",
+      "indecisive"
+    ]
+  },
+  "problems": {
+    "breakup_aftermath": {
+      "problem_name": "breakup_aftermath",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees the divorce as a catastrophic life event",
+              "concise_explanation": "world has tilted language",
+              "supporting_utterance_span": "it feels like the world has tilted",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees the situation as catastrophic",
+              "concise_explanation": "life is 'crumbling' language",
+              "supporting_utterance_span": "I feel like my whole life is crumbling",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees the situation as extremely serious and overwhelming",
+              "concise_explanation": "feeling stuck and unable to move forward",
+              "supporting_utterance_span": "I feel like I\u2019m stuck in a loop of disbelief and dread",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees the divorce as a catastrophic event",
+              "concise_explanation": "world 'tilted', 'life falling apart' language",
+              "supporting_utterance_span": "it feels like the world has tilted",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees the divorce as a catastrophic event",
+              "concise_explanation": "language of drowning and world crumbling",
+              "supporting_utterance_span": "it feels like I'm drowning",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels overwhelmed and unsure of how to start dealing with the situation",
+              "concise_explanation": "doesn't know how to start dealing with this",
+              "supporting_utterance_span": "I don't even know how to start dealing with this",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels unable to take action due to emotional overwhelm",
+              "concise_explanation": "can't think about calling a lawyer or figuring out what to do next",
+              "supporting_utterance_span": "I cant even think about calling a lawyer or figuring out what to do next",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is unsure about taking action (calling a lawyer)",
+              "concise_explanation": "user expresses uncertainty about next steps",
+              "supporting_utterance_span": "I don\u2019t know if I even want to go through this",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is uncertain about navigating the legal process",
+              "concise_explanation": "mention of not knowing if they want to go through the legal mess",
+              "supporting_utterance_span": "I don't know if I even want to go through this legal mess",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "seeing divorce papers triggered the emotional response",
+              "concise_explanation": "divorce papers as trigger",
+              "supporting_utterance_span": "I just saw the divorce papers on my kitchen table",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "conflicts_with_partner": {
+      "problem_name": "conflicts_with_partner",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        1
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {}
+    },
+    "loneliness": {
+      "problem_name": "loneliness",
+      "first_mentioned": [
+        1,
+        2
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "the breakup and feeling of loss are triggering the loneliness",
+              "concise_explanation": "feels alone after seeing divorce papers",
+              "supporting_utterance_span": "I feel like I'm completely alone right now",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "feeling of being alone is triggered by the breakup and loss of plans",
+              "concise_explanation": "feeling stuck and alone after divorce papers",
+              "supporting_utterance_span": "I just don\u2019t know how to move forward",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "feeling alone is triggered by the divorce and loss of plans",
+              "concise_explanation": "feeling alone after seeing divorce papers",
+              "supporting_utterance_span": "I feel like I\u2019m completely alone right now",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "the divorce notice is triggering feelings of isolation",
+              "concise_explanation": "feeling of the world crumbling",
+              "supporting_utterance_span": "it feels like the whole world is crumbling",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "breakup_aftermath",
+      "problem_2": "conflicts_with_partner",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I just saw the divorce papers on my kitchen table and it feels like the world has tilted"
+        }
+      ],
+      "attribute_connection_entries": [],
+      "weight": 0.1596858785830869
+    },
+    {
+      "problem_1": "breakup_aftermath",
+      "problem_2": "loneliness",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I feel like my whole life is crumbling. I don't even know how to start dealing with this. It just feels like I'm completely alone right now"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I feel like I\u2019m stuck in a loop of disbelief and dread. The papers are just sitting there on the table, and I cant even think about calling a lawyer or figuring out what to do next"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I feel like my world is falling apart and I have no idea how to pick it back up"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I just opened the divorce notice again and it feels like I'm drowning. I don't know if I even want to go through this legal mess, but I also don't know how to keep my life afloat. It feels like the whole world is crumbling"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "the breakup is causing the user to feel lonely",
+          "supporting_utterance_span": "I feel like my whole life is crumbling. I don't even know how to start dealing with this. It just feels like I'm completely alone right now",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "the breakup and loss of plans is the shared trigger for both the breakup aftermath and the feeling of loneliness",
+          "supporting_utterance_span": "The papers are just sitting there on the table, and I cant even think about calling a lawyer or figuring out what to do next. It\u2019s like every plan I had is suddenly gone",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "the divorce papers trigger both the breakup aftermath and the feeling of loneliness",
+          "supporting_utterance_span": "I just saw the divorce papers on my kitchen table and it feels like the world has tilted",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "the divorce notice is triggering both the emotional turmoil of the breakup and the feelings of isolation",
+          "supporting_utterance_span": "I just opened the divorce notice again and it feels like I'm drowning. It feels like the whole world is crumbling",
+          "confidence": "high"
+        }
+      ],
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,1840 @@
+{
+  "session_id": 2,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "friend (unresponsive)",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the friend who helped me with the thrift store is gone silent"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "the friend who helped me with the thrift store is ignoring me"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "received eviction notice, friend from thrift store is unresponsive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "Just got the eviction notice"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "the friend who helped me with the thrift store is ignoring me"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overwhelmed, anxious, indecisive",
+      "evidence_citations": [
+        {
+          "turn_id": 5,
+          "excerpt": "I don't even know what to put on the list"
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I keep staring at my phone, but I don't see how to even make a phone call right now"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "Just got the eviction notice and the friend who helped me with the thrift store is gone silent. My stomach's been acting up too, and I'm not sure if it's something serious or just stress. I feel like I\u2019m stuck between paying rent and figuring out what to do next."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "Yeah, getting an eviction notice can be really scary, and it's even tougher when it feels like you're facing it without the support you're used to having. The fact that your friend has gone silent must be adding to your stress, especially since they were someone you relied on. It's no wonder your stomach's been acting up - it sounds like your body is reacting to all this uncertainty. Can you tell me more about what's been going through your mind since you got the notice?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I don\u2019t know where to begin. The rent is due and I\u2019m already behind, the friend from the thrift store is ignoring me, and the stomach pains are getting worse. I feel stuck and just want to figure out what to do next."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "Your stomach pains and the eviction notice are probably feeling like a double whammy right now. It's like your body is mirroring the turmoil you're experiencing emotionally. Can you tell me more about what's been going through your mind since you got the notice, and how you're coping with the silence from your friend?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "Honestly, I\u2019ve been trying to call the landlord and the friend but no one\u2019s answering. The rent\u2019s due in a week and I\u2019m already behind, and those stomach pains are making it hard to focus. I\u2019m terrified I\u2019ll lose the place and I don\u2019t know how to get out of this mess."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The rent deadline is just a week away, and it's adding to your stress that no one's answering your calls, especially with those stomach pains making it hard to focus. It sounds like you're feeling really overwhelmed by all these things happening at once. Your friend's silence must be especially tough for you, given how much you were counting on them. What's been the hardest part of this situation for you so far?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "Honestly, the hardest part is the rent deadline\u2014feels like a ticking bomb\u2014and the fact that the friend who helped me with the thrift store is just silent. The stomach pains keep me from even thinking straight. I feel like I'm stuck between paying for the apartment and figuring out a next step."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The rent deadline is really scary, and it's even tougher with the silence from your friend and the stomach pains making it hard to think. Let's take one thing at a time - what if you start by making a list of all the things you need to do before the rent is due, and then we can prioritize them together? Sometimes, breaking it down into smaller tasks can make it feel less overwhelming."
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I don't even know what to put on the list. The rent is due next week and I can't think straight because of the stomach pain. The friend just won't answer me and I feel like I'm drowning."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling completely overwhelmed right now, and it's no wonder - the rent deadline is looming, your friend's not answering, and these stomach pains are making it hard to even think. It sounds like everything is piling up on you. What's the one thing that's feeling most urgent to you in this moment?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "The most urgent thing is figuring out if I can afford the rent this month. I\u2019ve got bills piling up and the landlord\u2019s phone is dead. The friend\u2019s silence just adds to the pressure, and my stomach keeps throwing me off."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "Figuring out if you can afford the rent this month is feeling really urgent to you right now, and it's no wonder - the deadline is looming, and you've got bills piling up. The fact that your landlord's phone is dead and your friend's not answering must be adding to your stress. It sounds like your stomach pains are making it hard to even think straight, which is just making everything feel more overwhelming. Yeah, it's like everything is piling up on you, and it's hard to know where to start."
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I keep calling the landlord and still no answer, and the friend who helped me with the thrift store just ignores me. My stomach hurts so bad I can\u2019t even focus on the rent. I feel like I\u2019m about to lose the place and I don\u2019t know where to get help."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The rent deadline is looming, and it's terrifying that you can't get in touch with your landlord, while also dealing with your friend's silence and these debilitating stomach pains. It's like everything is conspiring against you right now. Your stomach pains are making it hard to even think straight, which is just making everything feel more overwhelming. Yeah, it's really tough to know where to start when you're feeling this overwhelmed. Can you tell me more about what's going through your mind when you think about potentially losing your place?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I\u2019m terrified of losing the apartment; if I can\u2019t pay, I\u2019ll be stuck without a place and I feel like I\u2019m letting everyone down. The friend who helped me with the thrift store is ignoring me, and I can\u2019t even think straight because the stomach\u2019s burning. I keep wondering if I should just move out and find a cheaper spot, but I don\u2019t have the money or the time."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The thought of losing your apartment is terrifying, and it's even harder when you feel like you're being ignored by someone you were counting on. Your stomach pains are making it difficult to focus, and it's like everything is piling up against you. You're not just worried about the rent; you're worried about letting everyone down, including yourself. It's a really tough spot to be in, and it's understandable that you're considering all options, even moving out, but that in itself is a daunting task without the money or time. Yeah, it's a lot to deal with, and it's okay to feel overwhelmed."
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I tried calling the landlord again, but no answer and the rent\u2019s still due next week. The friend who was supposed to help with the thrift store is still silent, and I feel like I\u2019m just drifting. My stomach\u2019s so bad I can\u2019t even think straight about the money. I\u2019m terrified I\u2019m losing control of everything."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're still trying to reach out to your landlord, even when it feels like everything is piling up against you, and that takes a lot of courage. It's understandable that you're feeling overwhelmed by the rent deadline, the friend's silence, and your stomach pains - it's a really tough spot to be in. Yeah, it sounds like you're feeling like you're drifting, but the fact that you're still trying to take action shows you're not giving up. What's the smallest step you could take right now to feel like you're moving forward, even if it's just a tiny bit?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I keep staring at my phone, but I don't see how to even make a phone call right now. Maybe I could look for a cheaper place, but my stomach keeps making me feel like I can't think straight. The friend who was supposed to help is still silent, and I'm just feeling lost."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're sitting there staring at your phone, feeling like you can't even make a call, and that sense of being lost is really overwhelming. Your stomach pains are making it hard to think straight, and the friend's silence is just adding to the pressure. It's like everything is conspiring against you, and it's hard to know where to start. Maybe taking a step back to breathe and trying to focus on one thing at a time could help - what do you think is the smallest step you could take right now to feel like you're moving forward?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 2,
+      "turn_id": 1,
+      "user_message": "Just got the eviction notice and the friend who helped me with the thrift store is gone silent. My stomach's been acting up too, and I'm not sure if it's something serious or just stress. I feel like I\u2019m stuck between paying rent and figuring out what to do next.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate this tough spot, and right now, you need someone to acknowledge the overwhelm you're feeling. Given your intent to express emotion, I'll start by reflecting on the situation. The strategies that seem fitting are support and complex_reflection, as they allow me to understand your emotions without pushing for immediate solutions. From what you've shared, it's clear that the eviction notice and your friend's silence are significant stressors, and the physical symptoms like stomach issues are likely linked to these stressors. My entry point will be to acknowledge the immediate stress and uncertainty you're facing, especially with the eviction notice and the silence from your friend, which seems to be exacerbating your feelings of being stuck.",
+        "evidence_used": [
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "eviction notice"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "friend who helped me with the thrift store is gone silent"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "stomach's been acting up"
+          }
+        ],
+        "final_response": "Yeah, getting an eviction notice can be really scary, and it's even tougher when it feels like you're facing it without the support you're used to having. The fact that your friend has gone silent must be adding to your stress, especially since they were someone you relied on. It's no wonder your stomach's been acting up - it sounds like your body is reacting to all this uncertainty. Can you tell me more about what's been going through your mind since you got the notice?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 2,
+      "user_message": "I don\u2019t know where to begin. The rent is due and I\u2019m already behind, the friend from the thrift store is ignoring me, and the stomach pains are getting worse. I feel stuck and just want to figure out what to do next.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help you navigate this tough spot, and you need someone to reflect your emotions back to you right now. Given your express_emotion intent, I'll use support and complex_reflection strategies to acknowledge your feelings and help you process them. The evidence of your stomach pains and feeling stuck suggests that you're experiencing a lot of stress and uncertainty. My entry point will be to acknowledge the overwhelming nature of your situation and how it's affecting you physically and emotionally.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "stomach's been acting up"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "emotional, reflective"
+          }
+        ],
+        "final_response": "Your stomach pains and the eviction notice are probably feeling like a double whammy right now. It's like your body is mirroring the turmoil you're experiencing emotionally. Can you tell me more about what's been going through your mind since you got the notice, and how you're coping with the silence from your friend?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 3,
+      "user_message": "Honestly, I\u2019ve been trying to call the landlord and the friend but no one\u2019s answering. The rent\u2019s due in a week and I\u2019m already behind, and those stomach pains are making it hard to focus. I\u2019m terrified I\u2019ll lose the place and I don\u2019t know how to get out of this mess.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now. Given their intent to express emotion, I'll use the support strategy to create a safe space. The evidence shows they're overwhelmed by the eviction notice, the silent friend, and stomach pains, feeling stuck and terrified. My entry will acknowledge the specific stressors they're facing, like the looming rent deadline and the silence from their friend. ",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "rent is due and I\u2019m already behind"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "emotional, reflective"
+          }
+        ],
+        "final_response": "The rent deadline is just a week away, and it's adding to your stress that no one's answering your calls, especially with those stomach pains making it hard to focus. It sounds like you're feeling really overwhelmed by all these things happening at once. Your friend's silence must be especially tough for you, given how much you were counting on them. What's been the hardest part of this situation for you so far?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 4,
+      "user_message": "Honestly, the hardest part is the rent deadline\u2014feels like a ticking bomb\u2014and the fact that the friend who helped me with the thrift store is just silent. The stomach pains keep me from even thinking straight. I feel like I'm stuck between paying for the apartment and figuring out a next step.",
+      "inference": {
+        "user_intent": {
+          "intent": "request_plan",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "request_plan",
+        "intent_entry_style": "Propose ONE small step matched to TTM stage. Don't deflect with a question.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive friend to this person right now, and they need a concrete plan to move forward. Given their request for a plan and their current situation, I'll use the 'structure' strategy to propose a small step. The evidence shows they're overwhelmed by the rent deadline, their friend's silence, and stomach pains. A helpful step could be to focus on one thing at a time. The user's communication style is emotional and reflective, so I'll acknowledge their feelings before proposing a step. ",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "the hardest part is the rent deadline"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "emotional, reflective"
+          }
+        ],
+        "final_response": "The rent deadline is really scary, and it's even tougher with the silence from your friend and the stomach pains making it hard to think. Let's take one thing at a time - what if you start by making a list of all the things you need to do before the rent is due, and then we can prioritize them together? Sometimes, breaking it down into smaller tasks can make it feel less overwhelming."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "request_plan",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 5,
+      "user_message": "I don't even know what to put on the list. The rent is due next week and I can't think straight because of the stomach pain. The friend just won't answer me and I feel like I'm drowning.",
+      "inference": {
+        "user_intent": {
+          "intent": "resistance",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "resistance",
+        "intent_entry_style": "Roll with it \u2014 reflect resistance without arguing; emphasize autonomy.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "structure"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs help rolling with their resistance without feeling argued with, so I'll emphasize autonomy. Given the user's intent to resist, I'll use the 'support' strategy to acknowledge their feelings. The evidence shows the user is overwhelmed by the rent deadline, stomach pains, and their friend's silence, so I'll acknowledge the specific situation they're in. The user's emotional and reflective communication style suggests they need a supportive and non-judgmental space to express themselves. My entry will be a brief acknowledgment of their feelings, followed by a supportive reflection.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "The rent deadline is really scary, and it's even tougher with the silence from your friend and the stomach pains making it hard to think"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "emotional, reflective"
+          }
+        ],
+        "final_response": "You're feeling completely overwhelmed right now, and it's no wonder - the rent deadline is looming, your friend's not answering, and these stomach pains are making it hard to even think. It sounds like everything is piling up on you. What's the one thing that's feeling most urgent to you in this moment?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "resistance",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 6,
+      "user_message": "The most urgent thing is figuring out if I can afford the rent this month. I\u2019ve got bills piling up and the landlord\u2019s phone is dead. The friend\u2019s silence just adds to the pressure, and my stomach keeps throwing me off.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "structure"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now. Given their intent to express emotion, I'll use the support strategy to create a safe space for them to open up. The evidence shows they're feeling overwhelmed by the rent deadline, their friend's silence, and stomach pains, so I'll acknowledge those specific stressors. My entry point will be to reflect their urgent concern about affording rent this month. The user's emotional and reflective communication style suggests they'll appreciate a empathic and non-judgmental response. I'll use the persona information to inform my tone and language, ensuring I'm warm and understanding.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "The most urgent thing is figuring out if I can afford the rent this month"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "identity, self-worth, connection"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "The friend's silence just adds to the pressure, and my stomach keeps throwing me off"
+          }
+        ],
+        "final_response": "Figuring out if you can afford the rent this month is feeling really urgent to you right now, and it's no wonder - the deadline is looming, and you've got bills piling up. The fact that your landlord's phone is dead and your friend's not answering must be adding to your stress. It sounds like your stomach pains are making it hard to even think straight, which is just making everything feel more overwhelming. Yeah, it's like everything is piling up on you, and it's hard to know where to start."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 7,
+      "user_message": "I keep calling the landlord and still no answer, and the friend who helped me with the thrift store just ignores me. My stomach hurts so bad I can\u2019t even focus on the rent. I feel like I\u2019m about to lose the place and I don\u2019t know where to get help.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to reflect your emotions right now. Given your express_emotion intent, I'll use the support strategy to acknowledge your feelings. The evidence shows you're overwhelmed by the rent deadline, your friend's silence, and stomach pains, which are all making it hard to focus. Your recent messages have conveyed a sense of desperation and feeling stuck. My entry will be to acknowledge the urgency of your situation and how it's affecting you.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "The most urgent thing is figuring out if I can afford the rent this month"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "emotional, reflective"
+          }
+        ],
+        "final_response": "The rent deadline is looming, and it's terrifying that you can't get in touch with your landlord, while also dealing with your friend's silence and these debilitating stomach pains. It's like everything is conspiring against you right now. Your stomach pains are making it hard to even think straight, which is just making everything feel more overwhelming. Yeah, it's really tough to know where to start when you're feeling this overwhelmed. Can you tell me more about what's going through your mind when you think about potentially losing your place?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 8,
+      "user_message": "I\u2019m terrified of losing the apartment; if I can\u2019t pay, I\u2019ll be stuck without a place and I feel like I\u2019m letting everyone down. The friend who helped me with the thrift store is ignoring me, and I can\u2019t even think straight because the stomach\u2019s burning. I keep wondering if I should just move out and find a cheaper spot, but I don\u2019t have the money or the time.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to reflect your emotions right now, so I'll start by acknowledging the overwhelming fear of losing your apartment and the feeling of being stuck. The strategies that seem most fitting are support and complex_reflection, given your emotional state and the need to process your thoughts. The evidence that stands out is your repeated mention of the rent deadline, the friend's silence, and the debilitating stomach pains, which all contribute to your sense of being overwhelmed. My entry point will be to acknowledge the weight of these concerns and how they're impacting your ability to think clearly.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.(none)",
+            "content": "fear of losing the apartment"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "stomach pains and inability to focus"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "importance of identity and self-worth"
+          }
+        ],
+        "final_response": "The thought of losing your apartment is terrifying, and it's even harder when you feel like you're being ignored by someone you were counting on. Your stomach pains are making it difficult to focus, and it's like everything is piling up against you. You're not just worried about the rent; you're worried about letting everyone down, including yourself. It's a really tough spot to be in, and it's understandable that you're considering all options, even moving out, but that in itself is a daunting task without the money or time. Yeah, it's a lot to deal with, and it's okay to feel overwhelmed."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 9,
+      "user_message": "I tried calling the landlord again, but no answer and the rent\u2019s still due next week. The friend who was supposed to help with the thrift store is still silent, and I feel like I\u2019m just drifting. My stomach\u2019s so bad I can\u2019t even think straight about the money. I\u2019m terrified I\u2019m losing control of everything.",
+      "inference": {
+        "user_intent": {
+          "intent": "report_action",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "report_action",
+        "intent_entry_style": "Affirm the specific effort; respond to the content of the report.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate a really tough time, and they need acknowledgment of their efforts and emotions right now. Given their report of trying to call the landlord again and dealing with the friend's silence, I'll use the support strategy to affirm their specific effort. The evidence shows they're feeling overwhelmed by the rent deadline, the friend's silence, and their stomach pains, so I'll acknowledge the situation they're in. The fact that they're still trying to take action despite feeling like they're drifting suggests they're not giving up, which is something to acknowledge. My entry will be a brief acknowledgment of their situation and the effort they're putting in to try and resolve it.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "trying to call the landlord again"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "feeling overwhelmed by the rent deadline, the friend's silence, and stomach pains"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "connection"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "still trying to take action despite feeling like they're drifting"
+          }
+        ],
+        "final_response": "You're still trying to reach out to your landlord, even when it feels like everything is piling up against you, and that takes a lot of courage. It's understandable that you're feeling overwhelmed by the rent deadline, the friend's silence, and your stomach pains - it's a really tough spot to be in. Yeah, it sounds like you're feeling like you're drifting, but the fact that you're still trying to take action shows you're not giving up. What's the smallest step you could take right now to feel like you're moving forward, even if it's just a tiny bit?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "report_action",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 10,
+      "user_message": "I keep staring at my phone, but I don't see how to even make a phone call right now. Maybe I could look for a cheaper place, but my stomach keeps making me feel like I can't think straight. The friend who was supposed to help is still silent, and I'm just feeling lost.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the overwhelm you're feeling right now. Given your express_emotion intent, I'll use support and complex_reflection strategies to help you process your emotions. The evidence shows you're struggling with the rent deadline, stomach pains, and a friend's silence, which is making it hard to think straight. My entry will be to acknowledge the specific feeling of being lost and overwhelmed, like you're staring at your phone but can't make a move.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "feeling like I'm drifting"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "struggling with rent deadline and stomach pains"
+          }
+        ],
+        "final_response": "You're sitting there staring at your phone, feeling like you can't even make a call, and that sense of being lost is really overwhelming. Your stomach pains are making it hard to think straight, and the friend's silence is just adding to the pressure. It's like everything is conspiring against you, and it's hard to know where to start. Maybe taking a step back to breathe and trying to focus on one thing at a time could help - what do you think is the smallest step you could take right now to feel like you're moving forward?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

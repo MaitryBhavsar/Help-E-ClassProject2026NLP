@@ -1,0 +1,2810 @@
+{
+  "session_id": 1,
+  "session_summary": "The user primarily discussed their struggles with feelings of inadequacy and low self-esteem, particularly in relation to an upcoming conference presentation. They moved from being absent in the precontemplation stage of academic pressure to recognizing their struggles, and from being absent in the contemplation stage of low self-esteem to acknowledging their self-critical thoughts and perfectionistic tendencies. The user expressed a desire to explore what it means to be 'good enough' without needing to be perfect, leaving an open thread to revisit this concept and their progress in the next session.",
+  "stage_transitions": [
+    {
+      "problem": "academic_pressure",
+      "from": "(absent)",
+      "to": "precontemplation"
+    },
+    {
+      "problem": "low_self_esteem",
+      "from": "(absent)",
+      "to": "contemplation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-critical, perfectionistic",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep thinking I'm not good enough, even though my advisor said my work was solid."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "Maybe I need to be perfect, but that feels impossible."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I am not good enough, I am a fraud",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep thinking I'm not good enough, even though my advisor said my work was solid."
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "the thought that everyone will see me as a loser keeps creeping in."
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "advisor",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "my advisor said my work was solid"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "Even with the advisor's praise, the thought that everyone will see me as a loser keeps creeping in."
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, introspective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep thinking I'm not good enough, even though my advisor said my work was solid."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "It just feels like I'm already failing, and that makes it hard to see any middle ground."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "every time I rehearse I just see more flaws"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I keep spotting more flaws."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I keep thinking I'm not good enough, even though my advisor said my work was solid. The conference next week feels like a spotlight on my inadequacies, and I'm terrified they'll see me as a fraud."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It sounds like you're really struggling with feelings of not being good enough, and the conference next week is making those feelings even more intense. You mentioned your advisor said your work was solid, but it's hard to shake off the fear of being seen as a fraud. Would it be helpful to explore what small steps you could take to feel more prepared and confident for the conference?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Honestly, I don't think any step will change anything. The conference feels like a spotlight on my inadequacies, and every time I rehearse I just see more flaws. I keep thinking I'm not good enough, even though my advisor said my work was solid."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "It sounds like the conference presentation is really bringing up intense feelings of inadequacy for you, and you're worried that no matter what you do, you'll still be seen as flawed. Can you tell me more about what's driving that fear, and what you think would need to happen for you to feel more confident in your abilities?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise. Even with the advisor's praise, the thought that everyone will see me as a loser keeps creeping in. I don't know what could change that; maybe if I was perfect, but that feels impossible."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "It sounds like the fear of being seen as a fraud is really haunting you, and no matter how much you rehearse or revise, you can't shake off the feeling that you're not good enough. You've mentioned that even your advisor's praise can't fully alleviate this fear. What do you think would need to happen for you to feel more confident in your abilities, and what small steps could you take to start moving in that direction?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I just don\u2019t know how to fix this. Even if I rehearse, I keep spotting more flaws. Maybe I need to be perfect, but that feels impossible."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "It sounds like you're feeling really stuck and unsure of how to overcome your self-doubt, and the pressure to be perfect is feeling overwhelming. You're not alone in feeling this way, and it's okay to have flaws and imperfections. Would it be helpful to explore what it would mean for you to be 'good enough' without needing to be perfect?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "Maybe. I don't know what \"good enough\" even means to me. It just feels like I'm already failing, and that makes it hard to see any middle ground."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "It sounds like you're feeling really overwhelmed by the fear of not being good enough, and the idea of being 'good enough' feels unclear. What does 'good enough' mean to you, and what would need to happen for you to feel like you're meeting that standard? Maybe we can explore that together."
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I keep thinking I'm not good enough, even though my advisor said my work was solid. The conference next week feels like a spotlight on my inadequacies, and I'm terrified they'll see me as a fraud.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of inadequacy and fear without asking for advice.",
+          "supporting_utterance_span": "I keep thinking I'm not good enough"
+        },
+        "current_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "user expresses negative self-view",
+            "supporting_utterance_span": "I keep thinking I'm not good enough"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "conference presentation is a source of stress",
+            "supporting_utterance_span": "The conference next week feels like a spotlight on my inadequacies"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "explanation": "user's negative self-view is the underlying concern driving their anxiety about the conference",
+          "supporting_utterance_span": "I keep thinking I'm not good enough"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user's negative self-view is intense enough to induce fear of being seen as a fraud",
+            "concise_explanation": "user fears being seen as a fraud",
+            "supporting_utterance_span": "I'm terrified they'll see me as a fraud",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "upcoming conference presentation is a trigger for user's anxiety",
+            "concise_explanation": "conference is a source of stress",
+            "supporting_utterance_span": "The conference next week feels like a spotlight on my inadequacies",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "low_self_esteem",
+            "problem_2": "academic_pressure",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I keep thinking I'm not good enough ... The conference next week feels like a spotlight on my inadequacies"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "low_self_esteem",
+            "attribute_1": "perceived_severity",
+            "problem_2": "academic_pressure",
+            "attribute_2": "triggers",
+            "relation_type": "causal",
+            "connection_explanation": "user's negative self-view contributes to their anxiety about the conference presentation",
+            "supporting_utterance_span": "I keep thinking I'm not good enough ... The conference next week feels like a spotlight on my inadequacies",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User's negative self-view is intense enough to induce fear of being seen as a fraud, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user's negative self-view is intense enough to induce fear of being seen as a fraud"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged the intensity of their negative self-view, which may indicate a shift from precontemplation to contemplation as they begin to consider the impact of their self-perception.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user's negative self-view is intense enough to induce fear of being seen as a fraud"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence to suggest a change in the user's stage regarding academic pressure, as the only new information is about an upcoming conference presentation being a trigger for anxiety, which does not necessarily indicate a move towards contemplating change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming conference presentation is a trigger for user's anxiety"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep thinking I'm not good enough, even though my advisor said my work was solid. The conference next week feels like a spotlight on my inadequacies, and I'm terrified they'll see me as a fraud.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user's negative self-view is intense enough to induce fear of being seen as a fraud",
+                  "concise_explanation": "user fears being seen as a fraud",
+                  "supporting_utterance_span": "I'm terrified they'll see me as a fraud",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "academic_pressure",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "upcoming conference presentation is a trigger for user's anxiety",
+                    "concise_explanation": "conference is a source of stress",
+                    "supporting_utterance_span": "The conference next week feels like a spotlight on my inadequacies",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "user's negative self-view contributes to their anxiety about the conference presentation",
+                "supporting_utterance_span": "I keep thinking I'm not good enough ... The conference next week feels like a spotlight on my inadequacies",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "low_self_esteem"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be low_self_esteem. Their current TTM stage appears to be contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging their negative self-view and its impact on their anxiety about the conference presentation. It should be applied by reflecting the user's feelings of inadequacy and fear of being seen as a fraud, using evidence such as their perceived_severity of low_self_esteem being high. The user also shows high perceived_severity and a trigger of the upcoming conference presentation. Because of this, the response should use T1 Reflection to acknowledge the user's anxiety and T5 Ask Permission to explore potential solutions. The user intent in this turn is to vent, so the response should use T1 Reflection to acknowledge their feelings before guiding the turn. Relevant connected problems suggest a causal relationship between low_self_esteem and academic_pressure, where the user's negative self-view contributes to their anxiety about the conference presentation. This evidence should be used by reflecting the user's statement about the conference feeling like a spotlight on their inadequacies. Overall, the response should try to improve the user's awareness of their negative self-view and its impact on their anxiety, while avoiding giving unsolicited advice or over-questioning.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of inadequacy and fear of being seen as a fraud, then use T5 Ask Permission to explore potential solutions. I'll name the trigger ('upcoming conference presentation') to ground the turn and show understanding of the user's anxiety. I'll skip the connection to academic_pressure this turn to focus on the user's immediate concerns.",
+        "final_response": "It sounds like you're really struggling with feelings of not being good enough, and the conference next week is making those feelings even more intense. You mentioned your advisor said your work was solid, but it's hard to shake off the fear of being seen as a fraud. Would it be helpful to explore what small steps you could take to feel more prepared and confident for the conference?"
+      },
+      "trace": {
+        "main_problem": "low_self_esteem",
+        "current_problems": [
+          "low_self_esteem",
+          "academic_pressure"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User's negative self-view is intense enough to induce fear of being seen as a fraud, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user's negative self-view is intense enough to induce fear of being seen as a fraud"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged the intensity of their negative self-view, which may indicate a shift from precontemplation to contemplation as they begin to consider the impact of their self-perception.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user's negative self-view is intense enough to induce fear of being seen as a fraud"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence to suggest a change in the user's stage regarding academic pressure, as the only new information is about an upcoming conference presentation being a trigger for anxiety, which does not necessarily indicate a move towards contemplating change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming conference presentation is a trigger for user's anxiety"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "Honestly, I don't think any step will change anything. The conference feels like a spotlight on my inadequacies, and every time I rehearse I just see more flaws. I keep thinking I'm not good enough, even though my advisor said my work was solid.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of inadequacy and hopelessness without asking for advice.",
+          "supporting_utterance_span": "I don't think any step will change anything"
+        },
+        "current_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "user expresses persistent negative self-view",
+            "supporting_utterance_span": "I keep thinking I'm not good enough"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "conference and rehearsal are academic stressors",
+            "supporting_utterance_span": "The conference feels like a spotlight on my inadequacies"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "explanation": "user's self-doubt and inadequacy feelings dominate the message",
+          "supporting_utterance_span": "I keep thinking I'm not good enough"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their self-doubt as overwhelming",
+            "concise_explanation": "hopelessness language",
+            "supporting_utterance_span": "I don't think any step will change anything",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user believes their flaws are insurmountable",
+            "concise_explanation": "rehearsal reveals more flaws",
+            "supporting_utterance_span": "every time I rehearse I just see more flaws",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "conference and rehearsal are triggering user's academic stress",
+            "concise_explanation": "conference and rehearsal cited as stressors",
+            "supporting_utterance_span": "The conference feels like a spotlight on my inadequacies",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "low_self_esteem",
+            "problem_2": "academic_pressure",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I keep thinking I'm not good enough... The conference feels like a spotlight on my inadequacies"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "low_self_esteem",
+            "attribute_1": "perceived_severity",
+            "problem_2": "academic_pressure",
+            "attribute_2": "triggers",
+            "relation_type": "causal",
+            "connection_explanation": "user's low self-esteem exacerbates their academic pressure",
+            "supporting_utterance_span": "I keep thinking I'm not good enough... The conference feels like a spotlight on my inadequacies",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their self-doubt as overwhelming, consistent with previous expressions of intense negative self-view.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "negative self-view induces fear of being seen as a fraud"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "self-doubt is overwhelming"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now believes their flaws are insurmountable, providing sufficient evidence to update the level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes their flaws are insurmountable"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their self-doubt and its impact but does not express immediate intentions to act, consistent with the contemplation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "negative self-view induces fear of being seen as a fraud"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "self-doubt is overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes their flaws are insurmountable"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "User does not acknowledge the problem of academic pressure or express any desire to change, consistent with the precontemplation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming conference presentation is a trigger for user's anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "conference and rehearsal are triggering user's academic stress"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "Honestly, I don't think any step will change anything. The conference feels like a spotlight on my inadequacies, and every time I rehearse I just see more flaws. I keep thinking I'm not good enough, even though my advisor said my work was solid.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep thinking I'm not good enough, even though my advisor said my work was solid. The conference next week feels like a spotlight on my inadequacies, and I'm terrified they'll see me as a fraud."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're really struggling with feelings of not being good enough, and the conference next week is making those feelings even more intense. You mentioned your advisor said your work was solid, but it's hard to shake off the fear of being seen as a fraud. Would it be helpful to explore what small steps you could take to feel more prepared and confident for the conference?"
+          }
+        ],
+        "last_system_message": "It sounds like you're really struggling with feelings of not being good enough, and the conference next week is making those feelings even more intense. You mentioned your advisor said your work was solid, but it's hard to shake off the fear of being seen as a fraud. Would it be helpful to explore what small steps you could take to feel more prepared and confident for the conference?",
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            2
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user's negative self-view is intense enough to induce fear of being seen as a fraud",
+                  "concise_explanation": "user fears being seen as a fraud",
+                  "supporting_utterance_span": "I'm terrified they'll see me as a fraud",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees their self-doubt as overwhelming",
+                  "concise_explanation": "hopelessness language",
+                  "supporting_utterance_span": "I don't think any step will change anything",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user believes their flaws are insurmountable",
+                  "concise_explanation": "rehearsal reveals more flaws",
+                  "supporting_utterance_span": "every time I rehearse I just see more flaws",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "academic_pressure",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "upcoming conference presentation is a trigger for user's anxiety",
+                    "concise_explanation": "conference is a source of stress",
+                    "supporting_utterance_span": "The conference next week feels like a spotlight on my inadequacies",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "conference and rehearsal are triggering user's academic stress",
+                    "concise_explanation": "conference and rehearsal cited as stressors",
+                    "supporting_utterance_span": "The conference feels like a spotlight on my inadequacies",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "user's negative self-view contributes to their anxiety about the conference presentation",
+                "supporting_utterance_span": "I keep thinking I'm not good enough ... The conference next week feels like a spotlight on my inadequacies",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "user's low self-esteem exacerbates their academic pressure",
+                "supporting_utterance_span": "I keep thinking I'm not good enough... The conference feels like a spotlight on my inadequacies",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "main_problem": "low_self_esteem"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be low_self_esteem. Their current TTM stage appears to be contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging their problem and is ambivalent about change. It should be applied by reflecting the user's feelings of inadequacy and exploring their reasons for wanting to change, using evidence such as their perceived_severity of low self-esteem and their triggers, including the upcoming conference presentation. The user also shows high perceived_barriers, including their belief that their flaws are insurmountable. Because of this, the response should use T11 Coping/Relapse Plan. This technique should be applied by helping the user identify coping strategies to manage their anxiety and self-doubt, using evidence such as their past attempts to cope with similar situations. The user intent in this turn is to vent, and the response should acknowledge this by reflecting their feelings and concerns. Relevant connected problems suggest a causal relationship between low_self_esteem and academic_pressure, with the conference presentation triggering both anxiety and self-doubt. This evidence should be used by surfacing the connection between the user's self-view and their academic stress, and exploring how addressing one may impact the other. Overall, the response should try to improve the user's motivation and self-efficacy, while avoiding giving unsolicited advice or overwhelming the user with multiple suggestions.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of inadequacy, then use T8 Change Talk to explore their reasons for wanting to change. I'll name their perceived_severity and triggers to ground the reflection, and avoid giving advice or solutions for now. I'll skip the connection to academic_pressure this turn, focusing on the user's immediate concerns about the conference presentation.",
+        "final_response": "It sounds like the conference presentation is really bringing up intense feelings of inadequacy for you, and you're worried that no matter what you do, you'll still be seen as flawed. Can you tell me more about what's driving that fear, and what you think would need to happen for you to feel more confident in your abilities?"
+      },
+      "trace": {
+        "main_problem": "low_self_esteem",
+        "current_problems": [
+          "low_self_esteem",
+          "academic_pressure"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their self-doubt as overwhelming, consistent with previous expressions of intense negative self-view.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "negative self-view induces fear of being seen as a fraud"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "self-doubt is overwhelming"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now believes their flaws are insurmountable, providing sufficient evidence to update the level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes their flaws are insurmountable"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their self-doubt and its impact but does not express immediate intentions to act, consistent with the contemplation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "negative self-view induces fear of being seen as a fraud"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "self-doubt is overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes their flaws are insurmountable"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "User does not acknowledge the problem of academic pressure or express any desire to change, consistent with the precontemplation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming conference presentation is a trigger for user's anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "conference and rehearsal are triggering user's academic stress"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise. Even with the advisor's praise, the thought that everyone will see me as a loser keeps creeping in. I don't know what could change that; maybe if I was perfect, but that feels impossible.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of inadequacy and frustration without asking for advice.",
+          "supporting_utterance_span": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise"
+        },
+        "current_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "user expresses feelings of inadequacy and being a 'loser'",
+            "supporting_utterance_span": "the thought that everyone will see me as a loser keeps creeping in"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "conference presentation and rehearsal are driving the stress",
+            "supporting_utterance_span": "no matter how much I rehearse or revise"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "explanation": "user's language and tone suggest that feelings of inadequacy are the primary concern",
+          "supporting_utterance_span": "I think it comes from that feeling of being a fraud"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their self-doubt as a major issue",
+            "concise_explanation": "feeling of being a 'loser' and 'fraud' dominates the conversation",
+            "supporting_utterance_span": "the thought that everyone will see me as a loser keeps creeping in",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user believes that achieving perfection is the only way to overcome their self-doubt",
+            "concise_explanation": "user mentions that 'maybe if I was perfect' they could feel more confident",
+            "supporting_utterance_span": "maybe if I was perfect, but that feels impossible",
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "conference presentation and rehearsal are triggering the user's stress and self-doubt",
+            "concise_explanation": "rehearsal and conference presentation are mentioned as sources of stress",
+            "supporting_utterance_span": "no matter how much I rehearse or revise",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "low_self_esteem",
+            "problem_2": "academic_pressure",
+            "concise_explanation": "both problems are discussed in the same turn, with the conference presentation triggering the user's self-doubt",
+            "supporting_utterance_span": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "low_self_esteem",
+            "attribute_1": "perceived_severity",
+            "problem_2": "academic_pressure",
+            "attribute_2": "triggers",
+            "relation_type": "causal",
+            "connection_explanation": "the user's self-doubt (low_self_esteem) is exacerbated by the academic pressure (conference presentation and rehearsal)",
+            "supporting_utterance_span": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their self-doubt as a major issue, consistent with previous expressions of intense negative self-view and overwhelming self-doubt.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "negative self-view induces fear of being seen as a fraud"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "self-doubt is overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "self-doubt is a major issue"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still believes that achieving perfection is necessary to overcome self-doubt, and previously believed their flaws were insurmountable, indicating persistent high perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "flaws are insurmountable"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "achieving perfection is the only way to overcome self-doubt"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem of low self-esteem and is considering how to overcome it, as evidenced by their recognition of self-doubt as a major issue and their beliefs about achieving perfection.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "negative self-view induces fear of being seen as a fraud"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "self-doubt is overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "self-doubt is a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "achieving perfection is the only way to overcome self-doubt"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no evidence that the user acknowledges academic pressure as a problem they want to change; the focus remains on triggers for anxiety and stress without indication of contemplating change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming conference presentation is a trigger for anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "conference and rehearsal trigger academic stress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "conference presentation and rehearsal trigger stress and self-doubt"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise. Even with the advisor's praise, the thought that everyone will see me as a loser keeps creeping in. I don't know what could change that; maybe if I was perfect, but that feels impossible.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep thinking I'm not good enough, even though my advisor said my work was solid. The conference next week feels like a spotlight on my inadequacies, and I'm terrified they'll see me as a fraud."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're really struggling with feelings of not being good enough, and the conference next week is making those feelings even more intense. You mentioned your advisor said your work was solid, but it's hard to shake off the fear of being seen as a fraud. Would it be helpful to explore what small steps you could take to feel more prepared and confident for the conference?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "Honestly, I don't think any step will change anything. The conference feels like a spotlight on my inadequacies, and every time I rehearse I just see more flaws. I keep thinking I'm not good enough, even though my advisor said my work was solid."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the conference presentation is really bringing up intense feelings of inadequacy for you, and you're worried that no matter what you do, you'll still be seen as flawed. Can you tell me more about what's driving that fear, and what you think would need to happen for you to feel more confident in your abilities?"
+          }
+        ],
+        "last_system_message": "It sounds like the conference presentation is really bringing up intense feelings of inadequacy for you, and you're worried that no matter what you do, you'll still be seen as flawed. Can you tell me more about what's driving that fear, and what you think would need to happen for you to feel more confident in your abilities?",
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user's negative self-view is intense enough to induce fear of being seen as a fraud",
+                  "concise_explanation": "user fears being seen as a fraud",
+                  "supporting_utterance_span": "I'm terrified they'll see me as a fraud",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees their self-doubt as overwhelming",
+                  "concise_explanation": "hopelessness language",
+                  "supporting_utterance_span": "I don't think any step will change anything",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees their self-doubt as a major issue",
+                  "concise_explanation": "feeling of being a 'loser' and 'fraud' dominates the conversation",
+                  "supporting_utterance_span": "the thought that everyone will see me as a loser keeps creeping in",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user believes their flaws are insurmountable",
+                  "concise_explanation": "rehearsal reveals more flaws",
+                  "supporting_utterance_span": "every time I rehearse I just see more flaws",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user believes that achieving perfection is the only way to overcome their self-doubt",
+                  "concise_explanation": "user mentions that 'maybe if I was perfect' they could feel more confident",
+                  "supporting_utterance_span": "maybe if I was perfect, but that feels impossible",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "academic_pressure",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "upcoming conference presentation is a trigger for user's anxiety",
+                    "concise_explanation": "conference is a source of stress",
+                    "supporting_utterance_span": "The conference next week feels like a spotlight on my inadequacies",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "conference and rehearsal are triggering user's academic stress",
+                    "concise_explanation": "conference and rehearsal cited as stressors",
+                    "supporting_utterance_span": "The conference feels like a spotlight on my inadequacies",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "conference presentation and rehearsal are triggering the user's stress and self-doubt",
+                    "concise_explanation": "rehearsal and conference presentation are mentioned as sources of stress",
+                    "supporting_utterance_span": "no matter how much I rehearse or revise",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "user's negative self-view contributes to their anxiety about the conference presentation",
+                "supporting_utterance_span": "I keep thinking I'm not good enough ... The conference next week feels like a spotlight on my inadequacies",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "user's low self-esteem exacerbates their academic pressure",
+                "supporting_utterance_span": "I keep thinking I'm not good enough... The conference feels like a spotlight on my inadequacies",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "the user's self-doubt (low_self_esteem) is exacerbated by the academic pressure (conference presentation and rehearsal)",
+                "supporting_utterance_span": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "main_problem": "low_self_esteem"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be low_self_esteem, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging their problem and is ambivalent about change, and reflecting their feelings and inviting them to explore their own reasons for change can help them move forward. It should be applied by reflecting the user's feelings of inadequacy and fear of being seen as a fraud, using evidence such as their perceived_severity and perceived_barriers. The user also shows high perceived_severity and high perceived_barriers, which suggests that they are deeply entrenched in their negative self-view and believe that their flaws are insurmountable. Because of this, the response should use T2 Affirmation to acknowledge the user's strengths and efforts, and T11 Coping/Relapse Plan to help them develop strategies for managing their self-doubt. The user intent in this turn is to vent, and because of this, the response should use T1 Reflection to acknowledge and validate their feelings before guiding the turn. Relevant connected problems suggest that the user's academic_pressure is exacerbating their low_self_esteem, and this evidence should be used by surfacing the connection between the two problems in a non-overwhelming way. Overall, the response should try to improve the user's self_efficacy and motivation, while avoiding giving unsolicited advice or pivoting to the secondary problem.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of inadequacy and fear of being seen as a fraud, then use T8 Change Talk to invite them to explore their own reasons for change. I'll skip the connection to academic_pressure this turn, and instead focus on acknowledging the user's strengths and efforts using T2 Affirmation. I'll name the user's goal of feeling more confident and prepared for the conference, but avoid giving unsolicited advice or suggesting specific steps.",
+        "final_response": "It sounds like the fear of being seen as a fraud is really haunting you, and no matter how much you rehearse or revise, you can't shake off the feeling that you're not good enough. You've mentioned that even your advisor's praise can't fully alleviate this fear. What do you think would need to happen for you to feel more confident in your abilities, and what small steps could you take to start moving in that direction?"
+      },
+      "trace": {
+        "main_problem": "low_self_esteem",
+        "current_problems": [
+          "low_self_esteem",
+          "academic_pressure"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their self-doubt as a major issue, consistent with previous expressions of intense negative self-view and overwhelming self-doubt.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "negative self-view induces fear of being seen as a fraud"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "self-doubt is overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "self-doubt is a major issue"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still believes that achieving perfection is necessary to overcome self-doubt, and previously believed their flaws were insurmountable, indicating persistent high perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "flaws are insurmountable"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "achieving perfection is the only way to overcome self-doubt"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem of low self-esteem and is considering how to overcome it, as evidenced by their recognition of self-doubt as a major issue and their beliefs about achieving perfection.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "negative self-view induces fear of being seen as a fraud"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "self-doubt is overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "self-doubt is a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "achieving perfection is the only way to overcome self-doubt"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no evidence that the user acknowledges academic pressure as a problem they want to change; the focus remains on triggers for anxiety and stress without indication of contemplating change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming conference presentation is a trigger for anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "conference and rehearsal trigger academic stress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "conference presentation and rehearsal trigger stress and self-doubt"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I just don\u2019t know how to fix this. Even if I rehearse, I keep spotting more flaws. Maybe I need to be perfect, but that feels impossible.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_validation",
+          "confidence": "high",
+          "explanation": "User is seeking reassurance about their feelings of inadequacy and is unsure about how to improve their situation.",
+          "supporting_utterance_span": "I just don\u2019t know how to fix this"
+        },
+        "current_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "user expresses feelings of inadequacy and self-doubt",
+            "supporting_utterance_span": "I keep spotting more flaws"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "rehearsal and conference presentation are sources of stress",
+            "supporting_utterance_span": "Even if I rehearse"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "explanation": "user's self-doubt and fear of being seen as a fraud are dominant themes",
+          "supporting_utterance_span": "I keep spotting more flaws"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their self-doubt as a major issue",
+            "concise_explanation": "user expresses intense feelings of inadequacy",
+            "supporting_utterance_span": "I just don\u2019t know how to fix this",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user believes that achieving perfection is necessary to overcome self-doubt",
+            "concise_explanation": "user mentions needing to be perfect",
+            "supporting_utterance_span": "Maybe I need to be perfect",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "rehearsal and conference presentation are triggering user's self-doubt",
+            "concise_explanation": "user mentions rehearsal as a source of stress",
+            "supporting_utterance_span": "Even if I rehearse",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "low_self_esteem",
+            "problem_2": "academic_pressure",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "I just don\u2019t know how to fix this. Even if I rehearse"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "low_self_esteem",
+            "attribute_1": "perceived_severity",
+            "problem_2": "academic_pressure",
+            "attribute_2": "triggers",
+            "relation_type": "causal",
+            "connection_explanation": "user's self-doubt is exacerbated by the academic pressure of the conference presentation",
+            "supporting_utterance_span": "I just don\u2019t know how to fix this. Even if I rehearse",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to see their self-doubt as a major issue, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their self-doubt as a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their self-doubt as a major issue"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still believes that achieving perfection is necessary to overcome self-doubt, consistent with previous high-confidence entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes their flaws are insurmountable"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user believes that achieving perfection is the only way to overcome their self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user believes that achieving perfection is necessary to overcome self-doubt"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge their self-doubt as a major issue and sees it as a problem, but there is no evidence of progression to preparation or action stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes their flaws are insurmountable"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their self-doubt as a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their self-doubt as a major issue"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no evidence that the user acknowledges academic pressure as a problem or is considering change; triggers are still present but not linked to a desire to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming conference presentation is a trigger for user's anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "conference and rehearsal are triggering user's academic stress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "conference presentation and rehearsal are triggering the user's stress and self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "rehearsal and conference presentation are triggering user's self-doubt"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I just don\u2019t know how to fix this. Even if I rehearse, I keep spotting more flaws. Maybe I need to be perfect, but that feels impossible.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep thinking I'm not good enough, even though my advisor said my work was solid. The conference next week feels like a spotlight on my inadequacies, and I'm terrified they'll see me as a fraud."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're really struggling with feelings of not being good enough, and the conference next week is making those feelings even more intense. You mentioned your advisor said your work was solid, but it's hard to shake off the fear of being seen as a fraud. Would it be helpful to explore what small steps you could take to feel more prepared and confident for the conference?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "Honestly, I don't think any step will change anything. The conference feels like a spotlight on my inadequacies, and every time I rehearse I just see more flaws. I keep thinking I'm not good enough, even though my advisor said my work was solid."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the conference presentation is really bringing up intense feelings of inadequacy for you, and you're worried that no matter what you do, you'll still be seen as flawed. Can you tell me more about what's driving that fear, and what you think would need to happen for you to feel more confident in your abilities?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise. Even with the advisor's praise, the thought that everyone will see me as a loser keeps creeping in. I don't know what could change that; maybe if I was perfect, but that feels impossible."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like the fear of being seen as a fraud is really haunting you, and no matter how much you rehearse or revise, you can't shake off the feeling that you're not good enough. You've mentioned that even your advisor's praise can't fully alleviate this fear. What do you think would need to happen for you to feel more confident in your abilities, and what small steps could you take to start moving in that direction?"
+          }
+        ],
+        "last_system_message": "It sounds like the fear of being seen as a fraud is really haunting you, and no matter how much you rehearse or revise, you can't shake off the feeling that you're not good enough. You've mentioned that even your advisor's praise can't fully alleviate this fear. What do you think would need to happen for you to feel more confident in your abilities, and what small steps could you take to start moving in that direction?",
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            4
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees their self-doubt as overwhelming",
+                  "concise_explanation": "hopelessness language",
+                  "supporting_utterance_span": "I don't think any step will change anything",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees their self-doubt as a major issue",
+                  "concise_explanation": "feeling of being a 'loser' and 'fraud' dominates the conversation",
+                  "supporting_utterance_span": "the thought that everyone will see me as a loser keeps creeping in",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user sees their self-doubt as a major issue",
+                  "concise_explanation": "user expresses intense feelings of inadequacy",
+                  "supporting_utterance_span": "I just don\u2019t know how to fix this",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user believes their flaws are insurmountable",
+                  "concise_explanation": "rehearsal reveals more flaws",
+                  "supporting_utterance_span": "every time I rehearse I just see more flaws",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user believes that achieving perfection is the only way to overcome their self-doubt",
+                  "concise_explanation": "user mentions that 'maybe if I was perfect' they could feel more confident",
+                  "supporting_utterance_span": "maybe if I was perfect, but that feels impossible",
+                  "confidence": "medium"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user believes that achieving perfection is necessary to overcome self-doubt",
+                  "concise_explanation": "user mentions needing to be perfect",
+                  "supporting_utterance_span": "Maybe I need to be perfect",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "academic_pressure",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "conference and rehearsal are triggering user's academic stress",
+                    "concise_explanation": "conference and rehearsal cited as stressors",
+                    "supporting_utterance_span": "The conference feels like a spotlight on my inadequacies",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "conference presentation and rehearsal are triggering the user's stress and self-doubt",
+                    "concise_explanation": "rehearsal and conference presentation are mentioned as sources of stress",
+                    "supporting_utterance_span": "no matter how much I rehearse or revise",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "rehearsal and conference presentation are triggering user's self-doubt",
+                    "concise_explanation": "user mentions rehearsal as a source of stress",
+                    "supporting_utterance_span": "Even if I rehearse",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "user's low self-esteem exacerbates their academic pressure",
+                "supporting_utterance_span": "I keep thinking I'm not good enough... The conference feels like a spotlight on my inadequacies",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "the user's self-doubt (low_self_esteem) is exacerbated by the academic pressure (conference presentation and rehearsal)",
+                "supporting_utterance_span": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "user's self-doubt is exacerbated by the academic pressure of the conference presentation",
+                "supporting_utterance_span": "I just don\u2019t know how to fix this. Even if I rehearse",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "main_problem": "low_self_esteem"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be low_self_esteem, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T12 Normalize/Reframe. This technique is appropriate because the user is struggling with intense feelings of inadequacy and self-doubt, and normalizing their experience could help them feel less alone. It should be applied by reflecting the user's feelings and thoughts, using evidence such as their perceived_severity of self-doubt and their belief that achieving perfection is necessary to overcome it. The user also shows high perceived_barriers, which should be addressed by exploring the idea that perfection is not necessary for confidence and self-worth. The user intent in this turn is to seek validation, which should be acknowledged by reflecting their feelings and concerns. Relevant connected problems suggest a causal relationship between low_self_esteem and academic_pressure, where the user's self-doubt exacerbates their academic stress. This evidence should be used by surfacing the connection between the two problems in a gentle and non-overwhelming way. Overall, the response should try to improve the user's self-efficacy and awareness, while avoiding giving unsolicited advice or solutions.",
+        "response_reasoning": "I'll use T1 Reflection to acknowledge the user's feelings of inadequacy and self-doubt, and T12 Normalize/Reframe to help them see that perfection is not necessary for confidence and self-worth. I'll surface the user's perceived_severity of self-doubt and their belief that achieving perfection is necessary, and drop the connection to academic_pressure for now to avoid overwhelming the user. I'll honor the user's intent to seek validation by reflecting their feelings and concerns before guiding the turn.",
+        "final_response": "It sounds like you're feeling really stuck and unsure of how to overcome your self-doubt, and the pressure to be perfect is feeling overwhelming. You're not alone in feeling this way, and it's okay to have flaws and imperfections. Would it be helpful to explore what it would mean for you to be 'good enough' without needing to be perfect?"
+      },
+      "trace": {
+        "main_problem": "low_self_esteem",
+        "current_problems": [
+          "low_self_esteem",
+          "academic_pressure"
+        ],
+        "user_intent": "seek_validation",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to see their self-doubt as a major issue, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their self-doubt as a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their self-doubt as a major issue"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still believes that achieving perfection is necessary to overcome self-doubt, consistent with previous high-confidence entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes their flaws are insurmountable"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user believes that achieving perfection is the only way to overcome their self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user believes that achieving perfection is necessary to overcome self-doubt"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge their self-doubt as a major issue and sees it as a problem, but there is no evidence of progression to preparation or action stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes their flaws are insurmountable"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their self-doubt as a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their self-doubt as a major issue"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no evidence that the user acknowledges academic pressure as a problem or is considering change; triggers are still present but not linked to a desire to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming conference presentation is a trigger for user's anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "conference and rehearsal are triggering user's academic stress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "conference presentation and rehearsal are triggering the user's stress and self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "rehearsal and conference presentation are triggering user's self-doubt"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "Maybe. I don't know what \"good enough\" even means to me. It just feels like I'm already failing, and that makes it hard to see any middle ground.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "medium",
+          "explanation": "User is considering the concept of 'good enough' and its implications, but is uncertain about its meaning and application to their situation.",
+          "supporting_utterance_span": "Maybe. I don't know what 'good enough' even means to me."
+        },
+        "current_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "user struggles with self-doubt and feelings of inadequacy",
+            "supporting_utterance_span": "It just feels like I'm already failing"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "conference presentation and fear of being seen as a fraud",
+            "supporting_utterance_span": "It just feels like I'm already failing"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "explanation": "user's self-doubt and feelings of inadequacy are the primary focus of the current conversation",
+          "supporting_utterance_span": "It just feels like I'm already failing"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their self-doubt as a significant and debilitating issue",
+            "concise_explanation": "feels like already failing",
+            "supporting_utterance_span": "It just feels like I'm already failing",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user believes their self-doubt and fear of not being perfect are major obstacles to feeling 'good enough'",
+            "concise_explanation": "feels like already failing and can't see middle ground",
+            "supporting_utterance_span": "It just feels like I'm already failing, and that makes it hard to see any middle ground",
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "conference presentation is a trigger for user's self-doubt and fear of being seen as a fraud",
+            "concise_explanation": "conference presentation and fear of being seen as a fraud",
+            "supporting_utterance_span": "It just feels like I'm already failing",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "low_self_esteem",
+            "problem_2": "academic_pressure",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "It just feels like I'm already failing"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "low_self_esteem",
+            "attribute_1": "perceived_severity",
+            "problem_2": "academic_pressure",
+            "attribute_2": "triggers",
+            "relation_type": "causal",
+            "connection_explanation": "user's self-doubt and fear of not being perfect contribute to their fear of being seen as a fraud in the conference presentation",
+            "supporting_utterance_span": "It just feels like I'm already failing",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their self-doubt as significant and debilitating, with no indication of reduction in perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their self-doubt as a significant and debilitating issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their self-doubt as a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their self-doubt as a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their self-doubt as overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user's negative self-view is intense enough to induce fear of being seen as a fraud"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still believes their self-doubt and fear of not being perfect are major obstacles to feeling 'good enough', indicating no change in perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user believes their self-doubt and fear of not being perfect are major obstacles to feeling 'good enough'"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user believes that achieving perfection is necessary to overcome self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user believes that achieving perfection is the only way to overcome their self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes their flaws are insurmountable"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their self-doubt as a significant issue and recognizes the barriers to change, but there is no indication of progression to preparation or action stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their self-doubt as a significant and debilitating issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user believes their self-doubt and fear of not being perfect are major obstacles to feeling 'good enough'"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their self-doubt as a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user believes that achieving perfection is necessary to overcome self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user believes that achieving perfection is the only way to overcome their self-doubt"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no indication that the user acknowledges academic pressure as a problem or is considering change, with the focus remaining on triggers for anxiety and self-doubt.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "conference presentation is a trigger for user's self-doubt and fear of being seen as a fraud"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "rehearsal and conference presentation are triggering user's self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "conference presentation and rehearsal are triggering the user's stress and self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "conference and rehearsal are triggering user's academic stress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming conference presentation is a trigger for user's anxiety"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "Maybe. I don't know what \"good enough\" even means to me. It just feels like I'm already failing, and that makes it hard to see any middle ground.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep thinking I'm not good enough, even though my advisor said my work was solid. The conference next week feels like a spotlight on my inadequacies, and I'm terrified they'll see me as a fraud."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're really struggling with feelings of not being good enough, and the conference next week is making those feelings even more intense. You mentioned your advisor said your work was solid, but it's hard to shake off the fear of being seen as a fraud. Would it be helpful to explore what small steps you could take to feel more prepared and confident for the conference?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "Honestly, I don't think any step will change anything. The conference feels like a spotlight on my inadequacies, and every time I rehearse I just see more flaws. I keep thinking I'm not good enough, even though my advisor said my work was solid."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the conference presentation is really bringing up intense feelings of inadequacy for you, and you're worried that no matter what you do, you'll still be seen as flawed. Can you tell me more about what's driving that fear, and what you think would need to happen for you to feel more confident in your abilities?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise. Even with the advisor's praise, the thought that everyone will see me as a loser keeps creeping in. I don't know what could change that; maybe if I was perfect, but that feels impossible."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like the fear of being seen as a fraud is really haunting you, and no matter how much you rehearse or revise, you can't shake off the feeling that you're not good enough. You've mentioned that even your advisor's praise can't fully alleviate this fear. What do you think would need to happen for you to feel more confident in your abilities, and what small steps could you take to start moving in that direction?"
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "I just don\u2019t know how to fix this. Even if I rehearse, I keep spotting more flaws. Maybe I need to be perfect, but that feels impossible."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "It sounds like you're feeling really stuck and unsure of how to overcome your self-doubt, and the pressure to be perfect is feeling overwhelming. You're not alone in feeling this way, and it's okay to have flaws and imperfections. Would it be helpful to explore what it would mean for you to be 'good enough' without needing to be perfect?"
+          }
+        ],
+        "last_system_message": "It sounds like you're feeling really stuck and unsure of how to overcome your self-doubt, and the pressure to be perfect is feeling overwhelming. You're not alone in feeling this way, and it's okay to have flaws and imperfections. Would it be helpful to explore what it would mean for you to be 'good enough' without needing to be perfect?",
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees their self-doubt as a major issue",
+                  "concise_explanation": "feeling of being a 'loser' and 'fraud' dominates the conversation",
+                  "supporting_utterance_span": "the thought that everyone will see me as a loser keeps creeping in",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user sees their self-doubt as a major issue",
+                  "concise_explanation": "user expresses intense feelings of inadequacy",
+                  "supporting_utterance_span": "I just don\u2019t know how to fix this",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user sees their self-doubt as a significant and debilitating issue",
+                  "concise_explanation": "feels like already failing",
+                  "supporting_utterance_span": "It just feels like I'm already failing",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user believes that achieving perfection is the only way to overcome their self-doubt",
+                  "concise_explanation": "user mentions that 'maybe if I was perfect' they could feel more confident",
+                  "supporting_utterance_span": "maybe if I was perfect, but that feels impossible",
+                  "confidence": "medium"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user believes that achieving perfection is necessary to overcome self-doubt",
+                  "concise_explanation": "user mentions needing to be perfect",
+                  "supporting_utterance_span": "Maybe I need to be perfect",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user believes their self-doubt and fear of not being perfect are major obstacles to feeling 'good enough'",
+                  "concise_explanation": "feels like already failing and can't see middle ground",
+                  "supporting_utterance_span": "It just feels like I'm already failing, and that makes it hard to see any middle ground",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "academic_pressure",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "conference presentation and rehearsal are triggering the user's stress and self-doubt",
+                    "concise_explanation": "rehearsal and conference presentation are mentioned as sources of stress",
+                    "supporting_utterance_span": "no matter how much I rehearse or revise",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "rehearsal and conference presentation are triggering user's self-doubt",
+                    "concise_explanation": "user mentions rehearsal as a source of stress",
+                    "supporting_utterance_span": "Even if I rehearse",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "conference presentation is a trigger for user's self-doubt and fear of being seen as a fraud",
+                    "concise_explanation": "conference presentation and fear of being seen as a fraud",
+                    "supporting_utterance_span": "It just feels like I'm already failing",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 5,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "the user's self-doubt (low_self_esteem) is exacerbated by the academic pressure (conference presentation and rehearsal)",
+                "supporting_utterance_span": "I think it comes from that feeling of being a fraud, no matter how much I rehearse or revise",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "user's self-doubt is exacerbated by the academic pressure of the conference presentation",
+                "supporting_utterance_span": "I just don\u2019t know how to fix this. Even if I rehearse",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "user's self-doubt and fear of not being perfect contribute to their fear of being seen as a fraud in the conference presentation",
+                "supporting_utterance_span": "It just feels like I'm already failing",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "main_problem": "low_self_esteem"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be low_self_esteem, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is struggling with intense feelings of inadequacy and self-doubt, and reflecting their emotions and exploring their own reasons for change can help them move forward. It should be applied by reflecting the user's feelings of inadequacy and fear of being seen as a fraud, using evidence such as their perceived_severity and perceived_barriers. The user also shows high perceived_severity and high perceived_barriers, which suggests that they are deeply invested in achieving perfection and are struggling to see any middle ground. Because of this, the response should use T6 Options Menu to help the user explore what 'good enough' means to them. The user intent in this turn is to explore options, and because of this, the response should use T4 Open Question to invite the user to elaborate on what 'good enough' means to them. Relevant connected problems suggest that the user's academic_pressure is exacerbating their self-doubt, and this evidence should be used by surfacing the connection between the two problems in a reflection. Overall, the response should try to improve the user's self-efficacy and awareness, while avoiding giving unsolicited advice or pivoting to the secondary problem.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of inadequacy and fear of being seen as a fraud, then use T8 Change Talk to invite the user to explore their own reasons for change. I'll skip the connection to academic_pressure this turn and focus on the user's emotional state. I'll use T4 Open Question to invite the user to elaborate on what 'good enough' means to them, and avoid giving unsolicited advice.",
+        "final_response": "It sounds like you're feeling really overwhelmed by the fear of not being good enough, and the idea of being 'good enough' feels unclear. What does 'good enough' mean to you, and what would need to happen for you to feel like you're meeting that standard? Maybe we can explore that together."
+      },
+      "trace": {
+        "main_problem": "low_self_esteem",
+        "current_problems": [
+          "low_self_esteem",
+          "academic_pressure"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their self-doubt as significant and debilitating, with no indication of reduction in perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their self-doubt as a significant and debilitating issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their self-doubt as a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their self-doubt as a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their self-doubt as overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user's negative self-view is intense enough to induce fear of being seen as a fraud"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still believes their self-doubt and fear of not being perfect are major obstacles to feeling 'good enough', indicating no change in perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user believes their self-doubt and fear of not being perfect are major obstacles to feeling 'good enough'"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user believes that achieving perfection is necessary to overcome self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user believes that achieving perfection is the only way to overcome their self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes their flaws are insurmountable"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their self-doubt as a significant issue and recognizes the barriers to change, but there is no indication of progression to preparation or action stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their self-doubt as a significant and debilitating issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user believes their self-doubt and fear of not being perfect are major obstacles to feeling 'good enough'"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their self-doubt as a major issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user believes that achieving perfection is necessary to overcome self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user believes that achieving perfection is the only way to overcome their self-doubt"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no indication that the user acknowledges academic pressure as a problem or is considering change, with the focus remaining on triggers for anxiety and self-doubt.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "conference presentation is a trigger for user's self-doubt and fear of being seen as a fraud"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "rehearsal and conference presentation are triggering user's self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "conference presentation and rehearsal are triggering the user's stress and self-doubt"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "conference and rehearsal are triggering user's academic stress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "upcoming conference presentation is a trigger for user's anxiety"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,1880 @@
+{
+  "session_id": 1,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-critical, avoidant, emotionally reactive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I'm just feeling like a ghost in the office"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "I keep putting off the call, just like everything else. I don't even know if reaching out is worth it"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "I keep picturing him saying I'm a ghost again, and that just feels like another blow to an already battered ego"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I am responsible for my actions, I must take care of others",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "My former co\u2011founder is upset that I'm not keeping up"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "I keep putting off the call, just like everything else. I don't even know if reaching out is worth it"
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "former co-founder, team members, mom (deceased)",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "My former co\u2011founder is upset that I'm not keeping up"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "The co\u2011founder still calls me a ghost"
+        },
+        {
+          "turn_id": 1,
+          "excerpt": "With Mom gone"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, guarded",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I'm just feeling like a ghost in the office"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "I keep putting off the call, just like everything else. I don't even know if reaching out is worth it"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "mom's passing, co-founder's criticism",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "With Mom gone"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "The co\u2011founder still calls me a ghost"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, procrastinator, emotionally reactive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep postponing the actual work, staring at debt numbers all day, and still can't decide on a next move"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I\u2019ve been staring at the spreadsheet all day, and every time I think I can make a move I just end up scrolling through old emails"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "I keep picturing him saying I'm a ghost again, and that just feels like another blow to an already battered ego"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I keep postponing the actual work, staring at debt numbers all day, and still can't decide on a next move. My former co\u2011founder is upset that I'm not keeping up, and I'm just feeling like a ghost in the office. With Mom gone, the whole thing feels like a pivot with no roadmap."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're feeling the weight of your mom's absence, and it's like the whole office has become a reminder of what's not working. The debt numbers are staring you down, and your former co-founder's expectations are adding to the pressure. It's no wonder you're feeling stuck - it's like you're trying to navigate a pivot without a roadmap. What's the smallest thing that you think might help you move forward, even if it's just a tiny step?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I\u2019ve been staring at the spreadsheet all day, and every time I think I can make a move I just end up scrolling through old emails. Mom\u2019s funeral was a pivot point, but the real pivot is figuring out how to pay the debt without losing the team members who are already angry. I don\u2019t even know the smallest step\u2014maybe I could just write down a list of options, but that feels like another task."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "You're sitting at your desk, staring at a spreadsheet that's not giving you any answers, and every time you think you can make a move, you get pulled back into old emails. It's like you're trying to find a way out of this overwhelming situation, but every door you try leads to more questions. The debt, the team's anger, the weight of your mom's absence - it's all piling up, and it's no wonder you feel like you're not even sure where to start. Maybe just taking a step back and writing down a list of options, no matter how small they seem, could be a way to begin finding some clarity."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I tried drafting that list, but it just turned into a spreadsheet of options I can't decide on. The co\u2011founder still calls me a ghost, and I'm stuck in this loop of guilt and grief. Maybe I should try a quick call with him, but I'm not sure he'll even listen."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're still feeling the weight of your mom's absence and the pressure from your co-founder, and it's like you're trying to find a way out of this overwhelming situation, but every door you try leads to more questions. Drafting that list of options was a great idea, but it's turned into another source of uncertainty. I can see why you're hesitant to reach out to your co-founder, but at the same time, it might be a way to break the loop of guilt and grief. What's the worst that could happen if you do try to call him, and what's the best that could come out of it?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "Worst case, he\u2019ll call me a ghost again and I\u2019ll just sink deeper into guilt; best case, we clear the air and I get some direction. Mom\u2019s gone, so I feel like I\u2019m navigating a pivot with no map. I\u2019m tempted to just write a quick note before the call, but I\u2019m not sure if that counts as a step."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You're really scared that your co-founder will dismiss you again, and that fear is holding you back from making this call. At the same time, you're hoping that talking to him might give you some direction and help you clear the air. It's like you're standing at a crossroads, unsure which path to take. Writing a quick note before the call might be a way to clarify your thoughts and feel more prepared - does that feel like it could be a helpful step to you?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I\u2019m not sure a note will change anything\u2014I keep postponing the call like the rest of the tasks, and Mom\u2019s absence still feels like an endless weight."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "The weight of your mom's absence is still feeling like a huge burden, and it's no wonder you're struggling to make decisions about the business. You've been putting off the call to your co-founder, and even the idea of writing a note before it feels uncertain. It sounds like you're feeling really stuck, and I want to acknowledge that it's okay to feel that way. What's been the hardest part of considering this call, is it the fear of your co-founder's reaction or something else?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "Honestly, it's not just fear of his reaction\u2014it's the guilt of feeling like I've let everyone down, especially after Mom's passing. I keep putting off the call, just like everything else. I don't even know if reaching out is worth it."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're carrying a heavy burden of guilt, feeling like you've let everyone down, and that's making it hard to take action, even something as simple as making a call to your co-founder. The weight of your mom's absence is still feeling overwhelming, and it's like every decision and action is being filtered through that grief. I want to acknowledge how tough this must be for you, and how it's affecting every part of your life. Can you tell me more about what's holding you back from reaching out to your co-founder - is it the fear of his reaction, or is there something else at play?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "Honestly, every time I think about calling him, I just freeze and put it off again\u2014like the guilt is a wall I can't climb over. Mom\u2019s gone and that grief is a constant background noise, and it feels like I\u2019m just stuck in this limbo of my own making. I\u2019m not sure if the call will help or just make me feel worse, so I keep delaying it."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The guilt you're carrying is a heavy burden, and it's no wonder you're freezing when you think about calling your co-founder. It's like that guilt is a wall that's blocking your path forward. I can see how the grief of losing your mom is still a constant presence in your life, and it's affecting every decision you make. Yeah, it's really tough to know what to do when you're feeling stuck like this. Can you tell me more about what you think might happen if you do make the call, and what's the worst-case scenario that's playing out in your mind?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I keep picturing him saying I'm a ghost again, and that just feels like another blow to an already battered ego. The worst is that I get shut down, the debt stays, and the guilt just piles on, making it impossible to move forward. If I do call, I'm terrified that it will just add to the grief and leave me stuck in this limbo."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The image of your co-founder saying you're a ghost again is a really painful one, and it's no wonder you're terrified of being shut down and feeling like you're stuck in this limbo. It sounds like the fear of rejection is a major obstacle for you right now. Can you tell me more about what you think you need to happen in order to feel like you can move forward, even if it's just a small step?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I keep thinking a \"small step\" is just scheduling a call, but the debt spreadsheet keeps telling me otherwise. The weight of Mom's loss, the debt, and my co\u2011founder's anger feel like a single KPI I can't improve. Maybe I should set a hard deadline for the call, but the fear of being shut down keeps me postponing."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The debt spreadsheet can be a harsh reminder of your struggles, and it's no wonder you're feeling like you're stuck. Setting a hard deadline for the call might be a way to take control, but I can see how the fear of being shut down is holding you back. What's the smallest step you could take right now to start moving forward, even if it's just a tiny one?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I set a deadline, but every time I check the clock it feels like a reminder of how much I\u2019m still stuck. The call feels like a big KPI that I can\u2019t hit, and Mom\u2019s absence is the constant background noise that keeps me from even starting. I think maybe I\u2019ll just send a short text first, but even that seems like a big step."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The weight of your mom's absence is still feeling like a huge burden, and it's no wonder you're struggling to take action. Setting a deadline for the call was a great idea, but I can see how the pressure of it is making you feel even more stuck. Sending a short text first might be a good way to start small, but even that feels like a big step right now. What if we broke it down even further - what's the smallest thing you could do today to start moving forward, even if it's just a tiny step?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I keep postponing the actual work, staring at debt numbers all day, and still can't decide on a next move. My former co\u2011founder is upset that I'm not keeping up, and I'm just feeling like a ghost in the office. With Mom gone, the whole thing feels like a pivot with no roadmap.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate this tough spot, and it sounds like you're feeling really stuck and overwhelmed with the debt numbers and the pressure from your former co-founder. The strategies I'm considering include support and complex_reflection to help you process your emotions and thoughts. The evidence that stands out to me is your feeling like a ghost in the office and the sense of loss with your mom gone, which suggests that there's a lot of emotional weight behind your indecision. My entry point will be to acknowledge the pain and uncertainty you're feeling, and see if we can't find a way to break through the paralysis that's holding you back.",
+        "evidence_used": [
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "feeling like a ghost in the office"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "Mom gone"
+          }
+        ],
+        "final_response": "You're feeling the weight of your mom's absence, and it's like the whole office has become a reminder of what's not working. The debt numbers are staring you down, and your former co-founder's expectations are adding to the pressure. It's no wonder you're feeling stuck - it's like you're trying to navigate a pivot without a roadmap. What's the smallest thing that you think might help you move forward, even if it's just a tiny step?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "I\u2019ve been staring at the spreadsheet all day, and every time I think I can make a move I just end up scrolling through old emails. Mom\u2019s funeral was a pivot point, but the real pivot is figuring out how to pay the debt without losing the team members who are already angry. I don\u2019t even know the smallest step\u2014maybe I could just write down a list of options, but that feels like another task.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the emotional weight you're carrying right now. Given your intent to express emotion, I'll use complex reflection and support strategies to help you feel understood. The evidence shows that you're feeling stuck and overwhelmed by debt numbers and your former co-founder's expectations, and that your mom's absence is still deeply felt. My entry point will be to reflect on the sense of being stuck and the emotional burden of navigating this pivot without a clear roadmap.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "feeling like a ghost in the office"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "Mom's funeral was a pivot point"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "don't even know the smallest step"
+          }
+        ],
+        "final_response": "You're sitting at your desk, staring at a spreadsheet that's not giving you any answers, and every time you think you can make a move, you get pulled back into old emails. It's like you're trying to find a way out of this overwhelming situation, but every door you try leads to more questions. The debt, the team's anger, the weight of your mom's absence - it's all piling up, and it's no wonder you feel like you're not even sure where to start. Maybe just taking a step back and writing down a list of options, no matter how small they seem, could be a way to begin finding some clarity."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I tried drafting that list, but it just turned into a spreadsheet of options I can't decide on. The co\u2011founder still calls me a ghost, and I'm stuck in this loop of guilt and grief. Maybe I should try a quick call with him, but I'm not sure he'll even listen.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate a difficult decision, and they need me to reflect both sides of their ambivalence. The strategies that might help are support, facilitate, and complex_reflection, as they're struggling to find a way out of their overwhelming situation. The evidence shows that they're feeling stuck and guilty, and their attempts to make a list of options have only led to more uncertainty. My entry point will be to acknowledge the weight of their emotions and the difficulty of their situation, and then help them explore their thoughts and feelings about reaching out to their co-founder.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "staring at the spreadsheet all day, and every time I think I can make a move I just end up scrolling through old emails"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "the co\u2011founder still calls me a ghost, and I'm stuck in this loop of guilt and grief"
+          }
+        ],
+        "final_response": "You're still feeling the weight of your mom's absence and the pressure from your co-founder, and it's like you're trying to find a way out of this overwhelming situation, but every door you try leads to more questions. Drafting that list of options was a great idea, but it's turned into another source of uncertainty. I can see why you're hesitant to reach out to your co-founder, but at the same time, it might be a way to break the loop of guilt and grief. What's the worst that could happen if you do try to call him, and what's the best that could come out of it?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "Worst case, he\u2019ll call me a ghost again and I\u2019ll just sink deeper into guilt; best case, we clear the air and I get some direction. Mom\u2019s gone, so I feel like I\u2019m navigating a pivot with no map. I\u2019m tempted to just write a quick note before the call, but I\u2019m not sure if that counts as a step.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate a difficult time, and right now, they need help processing their emotions and thoughts about reaching out to their co-founder. The strategies that seem most relevant are support and complex_reflection, as they've been struggling to make a decision and are feeling overwhelmed by guilt and grief. The evidence that stands out is their concern about being called a ghost again and their desire to clear the air with their co-founder. My entry point will be to acknowledge the uncertainty and fear they're feeling about making this call, and then explore the potential outcomes they've mentioned.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "Worst case, he\u2019ll call me a ghost again and I\u2019ll just sink deeper into guilt; best case, we clear the air and I get some direction"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "Mom\u2019s gone, so I feel like I\u2019m navigating a pivot with no map"
+          }
+        ],
+        "final_response": "You're really scared that your co-founder will dismiss you again, and that fear is holding you back from making this call. At the same time, you're hoping that talking to him might give you some direction and help you clear the air. It's like you're standing at a crossroads, unsure which path to take. Writing a quick note before the call might be a way to clarify your thoughts and feel more prepared - does that feel like it could be a helpful step to you?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I\u2019m not sure a note will change anything\u2014I keep postponing the call like the rest of the tasks, and Mom\u2019s absence still feels like an endless weight.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this difficult time, and it seems like the weight of your mom's absence is still feeling overwhelming. The candidate strategies I'm considering are support, facilitate, and complex_reflection, which can help you process your emotions and gain clarity. From our previous conversations, I recall that you've been struggling to make a decision about the next steps for your business, and the pressure from your co-founder is adding to your stress. Your hesitation to make the call and write a note before it suggests that you're feeling uncertain about how to move forward. My first sentence will acknowledge the weight of your mom's absence and the uncertainty you're feeling about making the call.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "Mom\u2019s gone, so I feel like I\u2019m navigating a pivot with no map"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "I\u2019m tempted to just write a quick note before the call, but I\u2019m not sure if that counts as a step"
+          }
+        ],
+        "final_response": "The weight of your mom's absence is still feeling like a huge burden, and it's no wonder you're struggling to make decisions about the business. You've been putting off the call to your co-founder, and even the idea of writing a note before it feels uncertain. It sounds like you're feeling really stuck, and I want to acknowledge that it's okay to feel that way. What's been the hardest part of considering this call, is it the fear of your co-founder's reaction or something else?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 6,
+      "user_message": "Honestly, it's not just fear of his reaction\u2014it's the guilt of feeling like I've let everyone down, especially after Mom's passing. I keep putting off the call, just like everything else. I don't even know if reaching out is worth it.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this difficult time, and it seems like the weight of your mom's absence and the guilt of feeling like you've let everyone down are really holding you back. The candidate strategies I'm considering are support, facilitate, and complex_reflection, as they seem to align with your current emotional state and need for exploration. Evidence from our recent conversations suggests that you're struggling to make decisions and take action, and that the guilt and grief you're feeling are significant barriers. My entry point for this response will be to acknowledge the complexity of your emotions and the challenges you're facing, and to help you explore your thoughts and feelings in a safe and supportive way.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "the guilt of feeling like I've let everyone down"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "struggling to make decisions and take action"
+          }
+        ],
+        "final_response": "You're carrying a heavy burden of guilt, feeling like you've let everyone down, and that's making it hard to take action, even something as simple as making a call to your co-founder. The weight of your mom's absence is still feeling overwhelming, and it's like every decision and action is being filtered through that grief. I want to acknowledge how tough this must be for you, and how it's affecting every part of your life. Can you tell me more about what's holding you back from reaching out to your co-founder - is it the fear of his reaction, or is there something else at play?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 7,
+      "user_message": "Honestly, every time I think about calling him, I just freeze and put it off again\u2014like the guilt is a wall I can't climb over. Mom\u2019s gone and that grief is a constant background noise, and it feels like I\u2019m just stuck in this limbo of my own making. I\u2019m not sure if the call will help or just make me feel worse, so I keep delaying it.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate this tough time, and I can see that the guilt and grief are really holding you back from making this call. The strategies that might be helpful right now are support and complex reflection, given your current emotional state and the fact that you're struggling to take action. The evidence that stands out to me is your consistent pattern of postponing the call and feeling stuck, which suggests that the guilt and grief are major barriers for you. My entry point will be to acknowledge the weight of that guilt and grief, and how it's affecting your ability to take action.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "guilt of feeling like I've let everyone down"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "weight of Mom's absence"
+          }
+        ],
+        "final_response": "The guilt you're carrying is a heavy burden, and it's no wonder you're freezing when you think about calling your co-founder. It's like that guilt is a wall that's blocking your path forward. I can see how the grief of losing your mom is still a constant presence in your life, and it's affecting every decision you make. Yeah, it's really tough to know what to do when you're feeling stuck like this. Can you tell me more about what you think might happen if you do make the call, and what's the worst-case scenario that's playing out in your mind?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 8,
+      "user_message": "I keep picturing him saying I'm a ghost again, and that just feels like another blow to an already battered ego. The worst is that I get shut down, the debt stays, and the guilt just piles on, making it impossible to move forward. If I do call, I'm terrified that it will just add to the grief and leave me stuck in this limbo.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this difficult situation, and it seems like the weight of your co-founder's potential rejection is really holding you back. The strategies that might be helpful right now are support and complex_reflection, as they can help you process your emotions and gain a deeper understanding of your situation. The evidence that stands out to me is your fear of being called a ghost again and the guilt that's already piling up, which suggests that you're feeling really vulnerable and unsure of how to move forward. My entry point for this conversation is to acknowledge the pain and fear that you're experiencing, and to help you explore what might happen if you do make the call to your co-founder.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "guilt is a wall I can't climb over"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "grief is a constant background noise"
+          }
+        ],
+        "final_response": "The image of your co-founder saying you're a ghost again is a really painful one, and it's no wonder you're terrified of being shut down and feeling like you're stuck in this limbo. It sounds like the fear of rejection is a major obstacle for you right now. Can you tell me more about what you think you need to happen in order to feel like you can move forward, even if it's just a small step?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 9,
+      "user_message": "I keep thinking a \"small step\" is just scheduling a call, but the debt spreadsheet keeps telling me otherwise. The weight of Mom's loss, the debt, and my co\u2011founder's anger feel like a single KPI I can't improve. Maybe I should set a hard deadline for the call, but the fear of being shut down keeps me postponing.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this tough time, and I can see that you're feeling overwhelmed by the weight of your mom's loss, the debt, and your co-founder's anger. The strategies I'm considering include support and complex reflection, as they seem to be the most relevant given your current emotional state. The evidence I'm using is your recent message, where you mentioned feeling like you can't improve your situation, and the debt spreadsheet is a constant reminder of your struggles. My entry point will be to acknowledge the pain and fear you're feeling, and to explore ways to break down the obstacles that are holding you back.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "I keep picturing him saying I'm a ghost again, and that just feels like another blow to an already battered ego."
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "The weight of Mom's loss, the debt, and my co-founder's anger feel like a single KPI I can't improve."
+          }
+        ],
+        "final_response": "The debt spreadsheet can be a harsh reminder of your struggles, and it's no wonder you're feeling like you're stuck. Setting a hard deadline for the call might be a way to take control, but I can see how the fear of being shut down is holding you back. What's the smallest step you could take right now to start moving forward, even if it's just a tiny one?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 10,
+      "user_message": "I set a deadline, but every time I check the clock it feels like a reminder of how much I\u2019m still stuck. The call feels like a big KPI that I can\u2019t hit, and Mom\u2019s absence is the constant background noise that keeps me from even starting. I think maybe I\u2019ll just send a short text first, but even that seems like a big step.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this tough time, and I can see that you're feeling really stuck. The strategies that might help you right now are support and complex reflection, which can help you process your emotions and gain clarity. The evidence that stands out to me is your mention of the deadline feeling like a reminder of how stuck you are, and the call feeling like a big KPI that you can't hit - it sounds like the pressure is really getting to you. My entry point will be to acknowledge the weight of your mom's absence and the fear of not being able to hit this KPI, and see if we can break it down into smaller, more manageable steps.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "The weight of Mom's loss, the debt, and my co\u2011founder's anger feel like a single KPI I can't improve"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "The worst is that I get shut down, the debt stays, and the guilt just piles on, making it impossible to move forward"
+          }
+        ],
+        "final_response": "The weight of your mom's absence is still feeling like a huge burden, and it's no wonder you're struggling to take action. Setting a deadline for the call was a great idea, but I can see how the pressure of it is making you feel even more stuck. Sending a short text first might be a good way to start small, but even that feels like a big step right now. What if we broke it down even further - what's the smallest thing you could do today to start moving forward, even if it's just a tiny step?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

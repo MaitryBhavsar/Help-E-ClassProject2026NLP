@@ -1,0 +1,387 @@
+{
+  "profile_id": "P09",
+  "persona": {
+    "demographics": "student",
+    "personality_traits": [
+      "anxious",
+      "self-critical"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": null,
+    "hobbies_interests": [
+      "art"
+    ],
+    "communication_style": "emotional, expressive",
+    "relevant_history": "past experiences of being laughed at",
+    "general_behavioral_traits": [
+      "emotionally reactive",
+      "ruminative"
+    ]
+  },
+  "problems": {
+    "academic_pressure": {
+      "problem_name": "academic_pressure",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees the upcoming assembly as highly stressful",
+              "concise_explanation": "uses the word 'terrified'",
+              "supporting_utterance_span": "I\u2019m terrified I\u2019ll miss the instructions for tomorrow\u2019s assembly",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_benefits": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user recognizes the importance of presenting",
+              "concise_explanation": "user knows they have to do it",
+              "supporting_utterance_span": "I know I have to do it",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees presenting as a valuable experience",
+              "concise_explanation": "user doesn't want to give up on what they've worked for",
+              "supporting_utterance_span": "but that feels like giving up on everything I\u2019ve worked for",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "the user sees presenting the art project as a valuable experience, despite their anxiety",
+              "concise_explanation": "user wants to present the art project despite anxiety",
+              "supporting_utterance_span": "I want to find a way to feel more confident, but I\u2019m not sure where to start",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees presenting as an important part of their academic work",
+              "concise_explanation": "user wants to present their group art project",
+              "supporting_utterance_span": "I want to find a way to feel more confident",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "social_anxiety": {
+      "problem_name": "social_anxiety",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees social anxiety as a significant concern",
+              "concise_explanation": "user feels trapped and anxious about speaking",
+              "supporting_utterance_span": "I just feel trapped in this loop",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees their social anxiety as a significant obstacle",
+              "concise_explanation": "user feels trapped and overwhelmed",
+              "supporting_utterance_span": "I don\u2019t know how to stop the laughter in my head",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "the user perceives their social anxiety as severe, given the significant impact it has on their daily life",
+              "concise_explanation": "anxiety is debilitating and affects daily life",
+              "supporting_utterance_span": "I feel stuck",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees their social anxiety as a significant obstacle to presenting",
+              "concise_explanation": "laughter in head is a major concern",
+              "supporting_utterance_span": "I hear the laughter in my head",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "past experiences of being laughed at trigger current anxiety",
+              "concise_explanation": "mentions being laughed at again",
+              "supporting_utterance_span": "they\u2019ll just laugh at me again",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "public speaking triggers social anxiety",
+              "concise_explanation": "speaking in front of the class triggers fear of laughter",
+              "supporting_utterance_span": "Every time I think about speaking, I hear the laughter in my head",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "past experiences of being laughed at trigger anxiety",
+              "concise_explanation": "laughter in head is a recurring trigger",
+              "supporting_utterance_span": "I hear the laughter in my head",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "the thought of speaking in front of the class triggers the user's anxiety",
+              "concise_explanation": "speaking in front of the class triggers anxiety",
+              "supporting_utterance_span": "Every time I think about speaking, I hear the laughter in my head",
+              "confidence": "high"
+            }
+          ]
+        },
+        "coping_strategies": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is considering a quick art exercise or a breathing trick to calm down",
+              "concise_explanation": "user mentions wanting to try something practical",
+              "supporting_utterance_span": "like a quick art exercise or a breathing trick",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "general_anxiety": {
+      "problem_name": "general_anxiety",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        1
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels their hearing aid issues and social anxiety are barriers to success",
+              "concise_explanation": "mentions feeling exposed and having their hearing aid taken",
+              "supporting_utterance_span": "My hearing aid was taken again last night, so I\u2019m terrified",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "academic_pressure",
+      "problem_2": "social_anxiety",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I\u2019m supposed to speak in front of the whole class, and I keep thinking they\u2019ll just laugh at me again"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "speaking in front of the whole class"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems are discussed in the context of the upcoming presentation",
+          "supporting_utterance_span": "I have to present my group art project later"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are discussed in the same turn, with the user's social anxiety affecting their ability to present the art project",
+          "supporting_utterance_span": "I hear the laughter in my head... present the art project"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are discussed in the context of the upcoming presentation",
+          "supporting_utterance_span": "I\u2019m supposed to speak in front of the whole class"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "the upcoming presentation triggers both academic pressure and social anxiety",
+          "supporting_utterance_span": "I\u2019m supposed to speak in front of the whole class, and I keep thinking they\u2019ll just laugh at me again",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "public speaking is a trigger for both social anxiety and academic pressure",
+          "supporting_utterance_span": "Every time I think about speaking, I hear the laughter in my head",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the user's social anxiety triggers (laughter) exacerbate their academic pressure (fear of failure)",
+          "supporting_utterance_span": "I hear the laughter in my head",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_benefits",
+          "relation_type": "conflicting",
+          "connection_explanation": "the user's social anxiety triggers (fear of being laughed at) conflict with their perceived benefits of presenting the art project (valuable experience)",
+          "supporting_utterance_span": "Every time I think about speaking, I hear the laughter in my head... I want to find a way to feel more confident, but I\u2019m not sure where to start",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "the upcoming presentation is triggering both social anxiety and academic pressure",
+          "supporting_utterance_span": "I\u2019m supposed to speak in front of the whole class",
+          "confidence": "high"
+        }
+      ],
+      "weight": 1.0
+    },
+    {
+      "problem_1": "academic_pressure",
+      "problem_2": "general_anxiety",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I\u2019m terrified I\u2019ll miss the instructions for tomorrow\u2019s assembly, and I hate feeling so exposed"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I just feel trapped in this loop"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "the user's academic pressure contributes to their general feelings of being stuck and unsure",
+          "supporting_utterance_span": "I feel stuck... present the art project"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "shared_barrier",
+          "connection_explanation": "the user's hearing aid issues and social anxiety are shared barriers to success in the academic context",
+          "supporting_utterance_span": "My hearing aid was taken again last night, so I\u2019m terrified I\u2019ll miss the instructions for tomorrow\u2019s assembly",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 0.48689050519737026
+    },
+    {
+      "problem_1": "general_anxiety",
+      "problem_2": "social_anxiety",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "they\u2019ll just laugh at me again, and I hate feeling so exposed"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I just feel trapped in this loop"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "user's social anxiety contributes to their general feeling of being overwhelmed",
+          "supporting_utterance_span": "I don\u2019t know how to stop the laughter in my head"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "the user's social anxiety contributes to their general feelings of being stuck and unsure",
+          "supporting_utterance_span": "I feel stuck... I hear the laughter in my head"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "user's general anxiety is contributing to their social anxiety",
+          "supporting_utterance_span": "I don\u2019t know if talking about it will help"
+        }
+      ],
+      "attribute_connection_entries": [],
+      "weight": 0.4
+    }
+  ]
+}

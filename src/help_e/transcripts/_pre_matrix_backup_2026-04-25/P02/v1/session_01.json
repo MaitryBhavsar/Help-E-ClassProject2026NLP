@@ -1,0 +1,601 @@
+{
+  "session_id": 1,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "update",
+      "new_value": "student",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "the final project for my design class"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "the plan we made with my sister"
+        }
+      ]
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "family",
+      "evidence_citations": [
+        {
+          "turn_id": 3,
+          "excerpt": "the plan we made with my sister"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "design",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "the final project for my design class"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, reflective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I\u2019ve been staring at my to\u2011do list and feeling like I\u2019m drowning in deadlines"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "the memory of the plan we made with my sister keeps haunting me"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, perfectionist",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I keep staring at the specs and feel stuck before I even start"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I worry it won't live up to what we imagined"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I\u2019ve been staring at my to\u2011do list and feeling like I\u2019m drowning in deadlines. I know I should buckle down, but the pressure just feels overwhelming."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It can be really tough to face a long list of tasks when it feels like the clock is ticking, and it's understandable that the pressure is getting to you. Sometimes, taking a step back to breathe can help clear your head. What's been the most overwhelming part of your to-do list for you?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Honestly, the worst part is the final project for my design class that\u2019s due next week, plus a client brief that needs to be turned in on Friday. I keep staring at the specs and feel stuck before I even start. I know I should just dive in, but every time I try, something new pops up and I\u2019m left scrambling. It\u2019s like the pressure just keeps stacking on top of itself."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "You're facing a tight deadline for your design class final project and a client brief, and it's like the pressure is mounting with each new task that pops up. It's understandable that you're feeling stuck and overwhelmed. Sometimes, having too many things to focus on can make it hard to start anything. What's the first thing that comes to mind when you think about tackling the final project?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "Honestly, the first thing that pops into my head is that I should just sketch out a quick layout, but the memory of the plan we made with my sister keeps haunting me, and I worry it won't live up to what we imagined."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The weight of your own expectations, combined with the pressure of an impending deadline, can be a heavy burden to carry, especially when it's a project that's close to your heart. It's like your mind is trying to protect you from potential disappointment by making it hard to start. What if you were to take a small step back from the project and try to separate your sister's expectations from your own - would that make it easier to begin?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I\u2019ve been staring at my to\u2011do list and feeling like I\u2019m drowning in deadlines. I know I should buckle down, but the pressure just feels overwhelming.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "Where: The user is feeling overwhelmed by their to-do list and deadlines, needing a space to express their emotions. Which: I'll use the support strategy to acknowledge their feelings and create a safe space for them to open up. Evidence: The user's message about feeling like they're drowning in deadlines and the pressure feeling overwhelming. Entry: It can be really tough to face a long list of tasks when it feels like the clock is ticking, and it's understandable that the pressure is getting to you.",
+        "evidence_used": [
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "feeling like I'm drowning in deadlines"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "the pressure just feels overwhelming"
+          }
+        ],
+        "final_response": "It can be really tough to face a long list of tasks when it feels like the clock is ticking, and it's understandable that the pressure is getting to you. Sometimes, taking a step back to breathe can help clear your head. What's been the most overwhelming part of your to-do list for you?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "Honestly, the worst part is the final project for my design class that\u2019s due next week, plus a client brief that needs to be turned in on Friday. I keep staring at the specs and feel stuck before I even start. I know I should just dive in, but every time I try, something new pops up and I\u2019m left scrambling. It\u2019s like the pressure just keeps stacking on top of itself.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: The user is feeling overwhelmed by their to-do list, specifically the final project for their design class and a client brief. Which: I will use the support and complex_reflection strategies to acknowledge their emotions and help them gain clarity. Evidence: The user mentioned feeling stuck when looking at the specs for their final project and feeling like the pressure is stacking up. Entry: It sounds like the final project and client brief are weighing heavily on your mind, and the pressure to deliver is making it hard to focus.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "I\u2019ve been staring at my to\u2011do list and feeling like I\u2019m drowning in deadlines."
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "the final project for my design class that\u2019s due next week, plus a client brief that needs to be turned in on Friday"
+          }
+        ],
+        "final_response": "You're facing a tight deadline for your design class final project and a client brief, and it's like the pressure is mounting with each new task that pops up. It's understandable that you're feeling stuck and overwhelmed. Sometimes, having too many things to focus on can make it hard to start anything. What's the first thing that comes to mind when you think about tackling the final project?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "Honestly, the first thing that pops into my head is that I should just sketch out a quick layout, but the memory of the plan we made with my sister keeps haunting me, and I worry it won't live up to what we imagined.",
+      "inference": {
+        "user_intent": {
+          "intent": "resistance",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "resistance",
+        "intent_entry_style": "Roll with it \u2014 reflect resistance without arguing; emphasize autonomy.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: The user is feeling overwhelmed by their to-do list, specifically the final project for their design class and a client brief, and is struggling to start due to fear of not meeting their own expectations. Which: I will use the strategies of complex_reflection and evoke to help the user explore their thoughts and feelings. Evidence: The user mentioned that the memory of the plan they made with their sister is haunting them and they worry it won't live up to what they imagined, indicating a fear of not meeting their own expectations. Entry: The weight of your own expectations, combined with the pressure of an impending deadline, can be a heavy burden to carry, especially when it's a project that's close to your heart.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "the memory of the plan we made with my sister keeps haunting me, and I worry it won't live up to what we imagined"
+          }
+        ],
+        "final_response": "The weight of your own expectations, combined with the pressure of an impending deadline, can be a heavy burden to carry, especially when it's a project that's close to your heart. It's like your mind is trying to protect you from potential disappointment by making it hard to start. What if you were to take a small step back from the project and try to separate your sister's expectations from your own - would that make it easier to begin?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "resistance",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

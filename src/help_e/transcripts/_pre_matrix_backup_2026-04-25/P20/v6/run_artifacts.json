@@ -1,0 +1,236 @@
+{
+  "profile_id": "P20",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user described a heated dinner with parents after coming out as non\u2011binary, feeling dismissed and hurt. They also expressed concern about an upcoming sociology term paper and the challenge of balancing emotional processing with academic responsibilities. The user sought validation and a listening ear from their parents, while also looking for ways to manage both emotional and academic demands. The conversation shifted from initial venting about the dinner to a focus on seeking acknowledgment from parents and planning how to handle the term paper. The user remained in contemplation about both conflicts_with_parents and academic_pressure throughout the session."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "conflicts_with_parents",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User acknowledges parental dismissal and seeks validation, but has not yet taken concrete steps."
+          }
+        ]
+      },
+      {
+        "problem_name": "academic_pressure",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User recognizes looming deadline and seeks strategies to balance academic work with emotional processing, but no concrete action taken."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "seek_advice"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "explore_option"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "It sounds like your dad's comment really cut deep and made you feel like you're not being heard or understood."
+              }
+            ],
+            "reasoning": "The assistant explicitly named the user\u2019s emotions (overwhelmed, hurt, invalidated) and stayed with them, providing precise validation rather than generic statements.",
+            "score": 5
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "It sounds like your dad's comment really cut deep and made you feel like you're not being heard or understood."
+              }
+            ],
+            "reasoning": "The assistant tracked specific details (the dinner, the parents\u2019 comment, the term paper deadline) across turns, showing a clear grasp of the user\u2019s situation.",
+            "score": 5
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "You're feeling stuck between the argument at home and the looming deadline, and it's affecting your ability to focus on your term paper."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "It sounds like you're feeling deeply hurt and dismissed by your parents' reaction, and you just want them to listen and acknowledge your gender identity."
+              }
+            ],
+            "reasoning": "The assistant offered to explore ways to process feelings and manage time, giving the user a concrete next step (exploration) without lecturing, which is helpful.",
+            "score": 4
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "Would it be helpful to explore some ways to process your feelings and manage your time, or would you rather talk more about what's been going on with your parents first?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to take a little time to process your emotions before thinking about your term paper, or is there something else that's feeling more pressing for you right now?"
+              }
+            ],
+            "reasoning": "The assistant consistently asked permission and offered options, respecting the user\u2019s right to choose the direction of the conversation.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "It sounds like your dad's comment really cut deep and made you feel like you're not being heard or understood."
+              }
+            ],
+            "reasoning": "The assistant provided validation and avoided any judgmental language, creating a safe space for the user to express feelings.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really overwhelmed and hurt after the dinner with your parents, and now you're also worried about your term paper."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "It sounds like you're feeling deeply hurt and dismissed by your parents' reaction, and you just want them to listen and acknowledge your gender identity."
+              }
+            ],
+            "reasoning": "The supportive, validating tone and open-ended offers to continue suggest the user would likely want to keep talking with this agent.",
+            "score": 5
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

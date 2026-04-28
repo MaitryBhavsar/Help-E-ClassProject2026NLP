@@ -1,0 +1,278 @@
+{
+  "profile_id": "P25",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "emotional",
+      "introspective"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": "partner",
+    "hobbies_interests": [],
+    "communication_style": "emotional, reflective",
+    "relevant_history": "past hurt or betrayal in the relationship",
+    "general_behavioral_traits": [
+      "emotionally reactive",
+      "indecisive"
+    ]
+  },
+  "problems": {
+    "conflicts_with_partner": {
+      "problem_name": "conflicts_with_partner",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user is deeply hurt and questioning the relationship",
+              "concise_explanation": "feels like presence is being erased",
+              "supporting_utterance_span": "it feels like they\u2019re erasing my presence",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees the trust breach as a significant issue",
+              "concise_explanation": "trust is 'broken'",
+              "supporting_utterance_span": "my trust is broken",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees the situation as highly severe and potentially relationship-ending",
+              "concise_explanation": "user is considering cutting off the partner",
+              "supporting_utterance_span": "I'm stuck between wanting to confront them and just cutting them off",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user perceives the conflict as highly severe due to the emotional pain and uncertainty",
+              "concise_explanation": "user is 'stuck' and 'scared' of potential outcomes",
+              "supporting_utterance_span": "I feel like I\u2019m stuck between wanting to speak up and just walking away. I\u2019m scared that if I confront them I\u2019ll get more hurt",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user perceives the partner's actions as a significant obstacle to trust restoration",
+              "concise_explanation": "social media posts and lack of apology",
+              "supporting_utterance_span": "I'd need a sincere apology and no more social media posts about me",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user perceives the partner's lack of trustworthiness as a significant barrier to reconciliation",
+              "concise_explanation": "user doubts the partner's ability to change",
+              "supporting_utterance_span": "even if they apologized and stopped posting, I still don't know if I can trust them again",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees the risk of further hurt as a significant barrier to confronting their partner",
+              "concise_explanation": "user is 'scared' of getting 'more hurt' if they confront their partner",
+              "supporting_utterance_span": "I\u2019m scared that if I confront them I\u2019ll get more hurt",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_benefits": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees potential benefits in restoring trust, but is uncertain",
+              "concise_explanation": "considering conditions for trust restoration",
+              "supporting_utterance_span": "I'd need a sincere apology and no more social media posts about me",
+              "confidence": "medium"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user is motivated to address the trust issue, but is hesitant",
+              "concise_explanation": "expressing desire for apology and change",
+              "supporting_utterance_span": "I'd need a sincere apology and no more social media posts about me",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "partner's social media post triggered feelings of hurt and mistrust",
+              "concise_explanation": "Instagram post about trip without user",
+              "supporting_utterance_span": "they posted on Instagram about a trip they took without me",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "partner's Instagram post triggered the user's feelings of hurt and betrayal",
+              "concise_explanation": "Instagram post mentioned as catalyst",
+              "supporting_utterance_span": "they posted on Instagram about a trip they took without me",
+              "confidence": "medium"
+            }
+          ]
+        }
+      }
+    },
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        2
+      ],
+      "last_mentioned": [
+        1,
+        4
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_susceptibility": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user recognizes the emotional turmoil is affecting their work",
+              "concise_explanation": "difficulty focusing on work due to emotional turmoil",
+              "supporting_utterance_span": "it's hard to focus on the work",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "relationship concerns are preventing the user from focusing on work",
+              "concise_explanation": "difficulty focusing due to relationship rumination",
+              "supporting_utterance_span": "it's hard to focus on the work",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "general_anxiety": {
+      "problem_name": "general_anxiety",
+      "first_mentioned": [
+        1,
+        4
+      ],
+      "last_mentioned": [
+        1,
+        4
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {}
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "conflicts_with_partner",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "my trust is broken... it's hard to focus on the work"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems are mentioned in the recent dialogue",
+          "supporting_utterance_span": null
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are mentioned in the context of the user's emotional turmoil",
+          "supporting_utterance_span": "I'm stuck between wanting to confront them and just cutting them off to protect myself"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems were previously discussed in the context of the user's emotional turmoil",
+          "supporting_utterance_span": null
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "the trigger for the relationship conflict (partner's Instagram post) is also causing the work stress (difficulty focusing due to rumination)",
+          "supporting_utterance_span": "they posted on Instagram about a trip they took without me... it's hard to focus on the work",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 0.9685784006130803
+    },
+    {
+      "problem_1": "conflicts_with_partner",
+      "problem_2": "general_anxiety",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "the user's anxiety is linked to their uncertainty about the partner and the future",
+          "supporting_utterance_span": "I'm stuck between wanting to confront them and just cutting them off"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the user's perception of the severity of the partner conflict contributes to their overall anxiety",
+          "supporting_utterance_span": "I'm stuck between wanting to confront them and just cutting them off to protect myself",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 0.7723682379552391
+    }
+  ]
+}

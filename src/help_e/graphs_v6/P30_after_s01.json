@@ -1,0 +1,301 @@
+{
+  "profile_id": "P30",
+  "persona": {
+    "demographics": "has debt, caregiver, working",
+    "personality_traits": [],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": "has parents",
+    "hobbies_interests": [],
+    "communication_style": "emotional, open",
+    "relevant_history": "parents' medical bills, credit card debt, recent pipe burst",
+    "general_behavioral_traits": []
+  },
+  "problems": {
+    "financial_stress": {
+      "problem_name": "financial_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "preparation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels overwhelmed by their financial situation",
+              "concise_explanation": "feels like drowning",
+              "supporting_utterance_span": "I feel like I'm drowning",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels overwhelmed by debt",
+              "concise_explanation": "feels like drowning",
+              "supporting_utterance_span": "I feel like I'm drowning in debt",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels overwhelmed by debt",
+              "concise_explanation": "debt is 'suffocating'",
+              "supporting_utterance_span": "The debt is suffocating me",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user feels overwhelmed by the weight of debt",
+              "concise_explanation": "describes debt as 'crushing'",
+              "supporting_utterance_span": "the sheer weight of everything piling up",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees their debt as a significant obstacle",
+              "concise_explanation": "struggling to keep up with minimum payments",
+              "supporting_utterance_span": "I'm not sure how I'm going to keep up with the minimum payments",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees no way to keep up with payments",
+              "concise_explanation": "can't see a way out",
+              "supporting_utterance_span": "I don't know how I'm going to keep up with the minimum payments",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees lack of control as a significant barrier",
+              "concise_explanation": "feels like they have 'no control'",
+              "supporting_utterance_span": "I feel like I have no control",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user doubts the effectiveness of small steps",
+              "concise_explanation": "expresses uncertainty about making a difference",
+              "supporting_utterance_span": "I don't know if any small steps will make a difference",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is skeptical about the effectiveness of small steps in managing debt",
+              "concise_explanation": "user expresses doubt about small steps making a difference",
+              "supporting_utterance_span": "I don't know if any small steps will make a difference",
+              "confidence": "medium"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user is motivated to find a way out of debt",
+              "concise_explanation": "wants 'a way out'",
+              "supporting_utterance_span": "I just want a way out",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is willing to consider options",
+              "concise_explanation": "expresses willingness to hear small steps",
+              "supporting_utterance_span": "I'm willing to hear them",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is willing to consider suggestions, despite skepticism",
+              "concise_explanation": "user is open to hearing suggestions",
+              "supporting_utterance_span": "I'm willing to hear what you suggest",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "caregiver_stress": {
+      "problem_name": "caregiver_stress",
+      "first_mentioned": [
+        1,
+        2
+      ],
+      "last_mentioned": [
+        1,
+        2
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "caregiving responsibilities contribute to overall stress",
+              "concise_explanation": "juggling caregiving",
+              "supporting_utterance_span": "I'm also juggling caregiving",
+              "confidence": "medium"
+            }
+          ]
+        }
+      }
+    },
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        2
+      ],
+      "last_mentioned": [
+        1,
+        2
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "work responsibilities contribute to overall stress",
+              "concise_explanation": "juggling work",
+              "supporting_utterance_span": "I'm also juggling... work",
+              "confidence": "medium"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "caregiver_stress",
+      "problem_2": "financial_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I'm drowning in debt... I'm also juggling caregiving"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems mentioned in recent context",
+          "supporting_utterance_span": null
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems mentioned in recent context",
+          "supporting_utterance_span": null
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are contributing to user's overall stress profile",
+          "supporting_utterance_span": null
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "caregiving responsibilities exacerbate financial stress",
+          "supporting_utterance_span": "I'm drowning in debt... I'm also juggling caregiving",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 1.0
+    },
+    {
+      "problem_1": "financial_stress",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I'm drowning in debt... I'm also juggling... work"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems mentioned in recent context",
+          "supporting_utterance_span": null
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems mentioned in recent context",
+          "supporting_utterance_span": null
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are contributing to user's overall stress profile",
+          "supporting_utterance_span": null
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "work responsibilities exacerbate financial stress",
+          "supporting_utterance_span": "I'm drowning in debt... I'm also juggling... work",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 1.0
+    },
+    {
+      "problem_1": "caregiver_stress",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I'm also juggling caregiving and work"
+        }
+      ],
+      "attribute_connection_entries": [],
+      "weight": 0.16383693331974514
+    }
+  ]
+}

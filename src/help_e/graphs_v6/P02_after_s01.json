@@ -1,0 +1,129 @@
+{
+  "profile_id": "P02",
+  "persona": {
+    "demographics": "student",
+    "personality_traits": [],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": null,
+    "hobbies_interests": [
+      "design"
+    ],
+    "communication_style": "brief, guarded",
+    "relevant_history": null,
+    "general_behavioral_traits": []
+  },
+  "problems": {
+    "academic_pressure": {
+      "problem_name": "academic_pressure",
+      "first_mentioned": [
+        1,
+        5
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels overwhelmed by the volume of assignments",
+              "concise_explanation": "expressed as feeling constantly behind",
+              "supporting_utterance_span": "feels like I\u2019m always a step behind",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "deadlines and assignment pile trigger stress",
+              "concise_explanation": "deadlines cited as a driver",
+              "supporting_utterance_span": "another deadline jumps up",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        5
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels overwhelmed by constant revisions and deadlines",
+              "concise_explanation": "expressed as feeling constantly behind",
+              "supporting_utterance_span": "feels like I\u2019m always a step behind",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "client revisions and shifting deadlines trigger stress",
+              "concise_explanation": "deadlines cited as a driver",
+              "supporting_utterance_span": "another deadline jumps up",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "academic_pressure",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same user turn",
+          "supporting_utterance_span": "pile of assignments for my design class and the endless revisions from clients"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "deadlines are the common driver for both academic workload and client revisions",
+          "supporting_utterance_span": "another deadline jumps up",
+          "confidence": "high"
+        }
+      ],
+      "weight": 1.0
+    }
+  ]
+}

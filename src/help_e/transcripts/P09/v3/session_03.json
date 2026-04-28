@@ -1,0 +1,2371 @@
+{
+  "session_id": 3,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": "friend",
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": "drawing, graphic novel",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "Now I have a graphic novel due in a few days and I'm just stuck, like I can't even start."
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "Maybe a five-minute doodle will do, or maybe it'll just push me deeper into procrastination."
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": "emotional, introspective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I just got into a big fight with my parents about my grades and what I want to do after high school. Someone on Instagram said something about my weight and it's making me feel like I don't fit in."
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I keep thinking everyone's watching me, especially after the fight with my parents. I cant even look in the mirror without feeling judged, so I just scroll through Insta to avoid it."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "past experiences of being teased about ears, weight comments, fight with parents about grades and future plans",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "Someone on Instagram said something about my weight and it's making me feel like I don't fit in."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I heard my parents yelling again, so I just keep scrolling instead of looking at myself."
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, people-pleaser, avoidant, procrastinator",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "Honestly, it's all of it. The parents are yelling, the comment makes me feel awful, and I just can't even pick up a pen because I don't even trust my own drawing anymore."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I don't know if I even want to try. Maybe I'll just stare at my phone instead of drawing."
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "I don't know if I want to try that at all; maybe just scrolling through Insta will distract me from the whole mess."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I'll just keep scrolling and maybe find a meme about how everyone judges me after that fight with my parents."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I just got into a big fight with my parents about my grades and what I want to do after high school. Someone on Instagram said something about my weight and it's making me feel like I don't fit in. Now I have a graphic novel due in a few days and I'm just stuck, like I can't even start."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're facing a really tight deadline for your graphic novel, and on top of that, you've just had a big fight with your parents and are dealing with a hurtful comment about your weight. It's no wonder you're feeling stuck and overwhelmed. Can you tell me more about what's been the hardest part of starting this project, is it the pressure from your parents, the self-doubt, or something else entirely?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Honestly, it's all of it. The parents are yelling, the comment makes me feel awful, and I just can't even pick up a pen because I don't even trust my own drawing anymore."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The deadline for your graphic novel is just a few days away, and on top of that, you're dealing with the weight of your parents' expectations and the sting of that hurtful comment. It's like the pressure is suffocating your creativity, and you can't even pick up a pen because you're doubting your own abilities. Yeah, it's a lot to handle. Can you think of a small step you could take to just get started, even if it's just a tiny sketch or a few lines of dialogue?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I could try a quick sketch, but my brain feels like it's stuck on mute while everyone else is shouting. The last thing I want is another reminder that my art is judged just like my body. Maybe a five-minute doodle will do, or maybe it'll just push me deeper into procrastination."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're feeling like you're stuck and can't even start working on your graphic novel because the pressure from the deadline and the fear of being judged are overwhelming you. It's like your brain is frozen, and the thought of taking that first step feels daunting. Yeah, it's a lot to handle. Maybe taking a tiny step, like that five-minute doodle, could help you get unstuck without feeling like you're committing to something that might be judged. What do you think might happen if you just let yourself doodle for a few minutes without any expectations?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I don't know if I even want to try. Maybe I'll just stare at my phone instead of drawing."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You're feeling really stuck right now, and the thought of starting your graphic novel is overwhelming. It's like the pressure from the deadline and the fear of being judged are suffocating your creativity. Yeah, it's a lot to handle. If you're willing, maybe taking a tiny step, like that five-minute doodle, could help you get unstuck without feeling like you're committing to something that might be judged. What do you think might happen if you just let yourself doodle for a few minutes without any expectations?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I don't think doodling will help; I'd probably just end up looking like a mess and my parents will still judge me. Maybe I'll just stare at my phone instead."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling really overwhelmed by the deadline and the fear of being judged, and it's like that's stopping you from even picking up a pen. It makes sense that you're worried your doodling will be a mess and that your parents will judge you - it's a lot of pressure to deal with. Yeah, it can be really tough to start something new when you're feeling that way. Maybe we can just sit with that feeling for a moment, and see if there's a small way to take the pressure off, even if it's just for a few minutes."
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I don't know if I want to try that at all; maybe just scrolling through Insta will distract me from the whole mess.  I keep feeling like everyone is judging me, even my art, and that makes me want to put it all down.  Honestly, I don't even trust myself to finish this thing before the deadline."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're feeling like you're under a microscope, and everyone's judgment is just too much to handle right now. It's like the fear of not being good enough is suffocating your creativity, and even the thought of picking up a pen feels daunting. I can see why scrolling through Instagram might seem like a tempting distraction, but maybe we can find a way to make that first step a little less scary. What's the smallest thing you could do to start working on your graphic novel, even if it's just for a minute?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I don't even want to try that. I'll just keep scrolling and maybe find a meme about how everyone judges me after that fight with my parents. I just feel like there's no point, everyone is looking at me."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "You're feeling like you're at a dead end, and the thought of working on your graphic novel just feels like too much right now. It's like the weight of everyone's expectations, including your parents', is crushing your creativity. I can see why you'd think that scrolling through Instagram might be a way to escape, but it's also possible that it's just a temporary distraction from the feelings that are really bothering you. What's really going on is that you're scared of not being good enough, and that fear is paralyzing you. Yeah, it's a really tough spot to be in."
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I just want to lie in bed and not think about it. Everyone's staring at me, and I hate how my body feels."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "You're feeling like you're under so much scrutiny, and it's like everyone's eyes are on you, making you hate how your body feels. Your anxiety about your body image is really overwhelming you right now, and it's understandable that you'd want to escape it by lying in bed. It takes a lot of courage to acknowledge these feelings, and I'm here to support you. Can you tell me more about what's been going on that's making you feel like everyone's staring at you?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I keep thinking everyone's watching me, especially after the fight with my parents. I can't even look in the mirror without feeling judged, so I just scroll through Insta to avoid it. It feels like I'm stuck and everyone is staring at me."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're feeling like you're under a microscope, and it's overwhelming to deal with the constant feeling of being watched, especially after that fight with your parents. It's like every glance in the mirror becomes a judgment, and even Instagram, which might seem like a distraction, is actually a reminder of the body image concerns that are bothering you. It takes a lot of courage to admit how stuck you're feeling right now. Yeah, it's really tough to face these feelings, but maybe we can explore what's driving this need to escape and find a way to make it feel safer for you to confront your body image concerns."
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I heard my parents yelling again, so I just keep scrolling instead of looking at myself. It feels like nobody cares and I'm stuck."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The sound of your parents yelling again must have been really tough to hear, and it's no wonder you felt like scrolling through Instagram was a way to escape. It's like that noise just confirmed your worst fears - that nobody cares and you're stuck. But in this moment, I want you to know that I'm here, and I care. Can you tell me more about what happens when you hear your parents yelling, and how that makes you feel about yourself?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 3,
+      "turn_id": 1,
+      "user_message": "I just got into a big fight with my parents about my grades and what I want to do after high school. Someone on Instagram said something about my weight and it's making me feel like I don't fit in. Now I have a graphic novel due in a few days and I'm just stuck, like I can't even start.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "academic_pressure",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "academic_pressure",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate this tough spot, and right now you need someone to acknowledge the emotional weight of that fight with your parents and the hurtful comment on Instagram. The strategies that feel right for this moment are support and evoke, given your contemplation stage with academic pressure and the emotional turmoil you're expressing. The evidence that stands out is your struggle to start working on your graphic novel due to feeling stuck, and the anxiety about your body image that's tied to the fear of negative attention. My entry point will be to reflect on the overwhelm you must be feeling with the deadline looming and these personal struggles.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.academic_pressure",
+            "content": "feeling stuck, unable to start working on the graphic novel"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "anxious about body image, fear of negative attention"
+          },
+          {
+            "source": "recent_turn.t1.entry",
+            "content": "fight with parents, hurtful Instagram comment"
+          }
+        ],
+        "final_response": "You're facing a really tight deadline for your graphic novel, and on top of that, you've just had a big fight with your parents and are dealing with a hurtful comment about your weight. It's no wonder you're feeling stuck and overwhelmed. Can you tell me more about what's been the hardest part of starting this project, is it the pressure from your parents, the self-doubt, or something else entirely?"
+      },
+      "trace": {
+        "main_problem": "academic_pressure",
+        "current_problems": [
+          "conflicts_with_parents",
+          "body_image_concerns",
+          "loneliness",
+          "academic_pressure"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 2,
+      "user_message": "Honestly, it's all of it. The parents are yelling, the comment makes me feel awful, and I just can't even pick up a pen because I don't even trust my own drawing anymore.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "academic_pressure",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "academic_pressure",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "support",
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now, so I'll start by reflecting their feelings. Given their contemplation stage and express_emotion intent, I'll use the evoke strategy to help them explore their ambivalence. The evidence shows that the user is overwhelmed by the deadline, self-doubt, and the hurtful comment, which is affecting their trust in their drawing abilities. I'll acknowledge the pressure they're under and how it's impacting their creative process. My entry will be a brief, empathic acknowledgment of their situation, focusing on the emotional toll of the deadline and the comment.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.academic_pressure",
+            "content": "User is feeling stuck and overwhelmed by the deadline and self-doubt"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "User is anxious about their body image and feels judged"
+          }
+        ],
+        "final_response": "The deadline for your graphic novel is just a few days away, and on top of that, you're dealing with the weight of your parents' expectations and the sting of that hurtful comment. It's like the pressure is suffocating your creativity, and you can't even pick up a pen because you're doubting your own abilities. Yeah, it's a lot to handle. Can you think of a small step you could take to just get started, even if it's just a tiny sketch or a few lines of dialogue?"
+      },
+      "trace": {
+        "main_problem": "academic_pressure",
+        "current_problems": [
+          "conflicts_with_parents",
+          "body_image_concerns",
+          "loneliness",
+          "academic_pressure"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 3,
+      "user_message": "I could try a quick sketch, but my brain feels like it's stuck on mute while everyone else is shouting. The last thing I want is another reminder that my art is judged just like my body. Maybe a five-minute doodle will do, or maybe it'll just push me deeper into procrastination.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "academic_pressure",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "academic_pressure",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "support",
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help the user navigate their emotional overwhelm, and right now, they need me to acknowledge the pressure and self-doubt they're feeling. The strategies that might be helpful are support and facilitate, given their current preparation stage for addressing academic pressure. The evidence that stands out is their fear of being judged and the weight of their parents' expectations, which is suffocating their creativity. My entry point will be to acknowledge the overwhelming feeling of being stuck and the fear of judgment that's holding them back.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.academic_pressure",
+            "content": "fear of being judged and self-doubt"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of negative attention and being watched"
+          }
+        ],
+        "final_response": "You're feeling like you're stuck and can't even start working on your graphic novel because the pressure from the deadline and the fear of being judged are overwhelming you. It's like your brain is frozen, and the thought of taking that first step feels daunting. Yeah, it's a lot to handle. Maybe taking a tiny step, like that five-minute doodle, could help you get unstuck without feeling like you're committing to something that might be judged. What do you think might happen if you just let yourself doodle for a few minutes without any expectations?"
+      },
+      "trace": {
+        "main_problem": "academic_pressure",
+        "current_problems": [
+          "body_image_concerns",
+          "loneliness",
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 4,
+      "user_message": "I don't know if I even want to try. Maybe I'll just stare at my phone instead of drawing.",
+      "inference": {
+        "user_intent": {
+          "intent": "resistance",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "academic_pressure",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "academic_pressure",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "resistance",
+        "intent_entry_style": "Roll with it \u2014 reflect resistance without arguing; emphasize autonomy.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their resistance without arguing, emphasizing their autonomy. Given their preparation stage for the academic pressure problem, I'll use the advise_with_permission strategy to gently encourage them towards action. The evidence shows that the user is hesitant due to fear of judgment and procrastination, so I'll acknowledge this feeling and offer a small step to get started. The user's recent turns indicate that they're struggling with self-doubt and the pressure from the deadline, so I'll emphasize the importance of taking a tiny step without expectations. My entry point will be to acknowledge their current state and offer a gentle suggestion.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.academic_pressure",
+            "content": "fear of judgment and procrastination"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "hesitant to start working on the graphic novel"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "self-conscious and perfectionistic"
+          }
+        ],
+        "final_response": "You're feeling really stuck right now, and the thought of starting your graphic novel is overwhelming. It's like the pressure from the deadline and the fear of being judged are suffocating your creativity. Yeah, it's a lot to handle. If you're willing, maybe taking a tiny step, like that five-minute doodle, could help you get unstuck without feeling like you're committing to something that might be judged. What do you think might happen if you just let yourself doodle for a few minutes without any expectations?"
+      },
+      "trace": {
+        "main_problem": "academic_pressure",
+        "current_problems": [
+          "body_image_concerns",
+          "loneliness",
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "resistance",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 5,
+      "user_message": "I don't think doodling will help; I'd probably just end up looking like a mess and my parents will still judge me. Maybe I'll just stare at my phone instead.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "academic_pressure",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "academic_pressure",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion about your graphic novel and the fear of being judged. Given your current preparation stage for tackling the academic pressure, I think using the support strategy could help you feel less alone. The evidence that you're hesitant to start drawing due to fear of judgment and that you're considering distracting yourself with your phone suggests that you're struggling with self-doubt and procrastination. My entry point will be to acknowledge the overwhelm you're feeling and the fear of not meeting expectations. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.academic_pressure",
+            "content": "fear of judgment and procrastination"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of negative attention and being watched"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "self-conscious and perfectionistic"
+          }
+        ],
+        "final_response": "You're feeling really overwhelmed by the deadline and the fear of being judged, and it's like that's stopping you from even picking up a pen. It makes sense that you're worried your doodling will be a mess and that your parents will judge you - it's a lot of pressure to deal with. Yeah, it can be really tough to start something new when you're feeling that way. Maybe we can just sit with that feeling for a moment, and see if there's a small way to take the pressure off, even if it's just for a few minutes."
+      },
+      "trace": {
+        "main_problem": "academic_pressure",
+        "current_problems": [
+          "body_image_concerns",
+          "loneliness",
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 6,
+      "user_message": "I don't know if I want to try that at all; maybe just scrolling through Insta will distract me from the whole mess.  I keep feeling like everyone is judging me, even my art, and that makes me want to put it all down.  Honestly, I don't even trust myself to finish this thing before the deadline.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "academic_pressure",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "academic_pressure",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion right now, so I want to acknowledge that first. Given your intent to express emotion and your current stage of preparation, I think strategies like support and facilitate could be helpful. From what you've shared, it seems like the fear of judgment and self-doubt are really holding you back from starting your graphic novel, and that's something we can explore further. My first sentence will acknowledge the overwhelm and fear you're feeling, and then we can go from there.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.academic_pressure",
+            "content": "fear of judgment and self-doubt"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of negative attention and being watched"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "feeling like everyone is judging me, even my art"
+          }
+        ],
+        "final_response": "You're feeling like you're under a microscope, and everyone's judgment is just too much to handle right now. It's like the fear of not being good enough is suffocating your creativity, and even the thought of picking up a pen feels daunting. I can see why scrolling through Instagram might seem like a tempting distraction, but maybe we can find a way to make that first step a little less scary. What's the smallest thing you could do to start working on your graphic novel, even if it's just for a minute?"
+      },
+      "trace": {
+        "main_problem": "academic_pressure",
+        "current_problems": [
+          "body_image_concerns",
+          "loneliness",
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 7,
+      "user_message": "I don't even want to try that. I'll just keep scrolling and maybe find a meme about how everyone judges me after that fight with my parents. I just feel like there's no point, everyone is looking at me.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "academic_pressure",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "academic_pressure",
+        "ttm_stage": "precontemplation",
+        "transition_target": "precontemplation \u2192 contemplation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now. Given their precontemplation stage and express_emotion intent, I'll use complex_reflection to help them develop a discrepancy between their current state and their desired state. The evidence shows that the user is feeling overwhelmed by the deadline, fear of judgment, and self-doubt, which is causing them to consider giving up on their graphic novel. I'll use the fact that they mentioned feeling like everyone is judging them and that they don't trust themselves to finish the project before the deadline as evidence to acknowledge their feelings. My entry will be a brief acknowledgment of their emotional state, followed by a reflection of what's underneath their words.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.academic_pressure",
+            "content": "feeling stuck and overwhelmed by deadline and fear of judgment"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of negative attention and being watched"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "feeling like everyone is judging them"
+          }
+        ],
+        "final_response": "You're feeling like you're at a dead end, and the thought of working on your graphic novel just feels like too much right now. It's like the weight of everyone's expectations, including your parents', is crushing your creativity. I can see why you'd think that scrolling through Instagram might be a way to escape, but it's also possible that it's just a temporary distraction from the feelings that are really bothering you. What's really going on is that you're scared of not being good enough, and that fear is paralyzing you. Yeah, it's a really tough spot to be in."
+      },
+      "trace": {
+        "main_problem": "academic_pressure",
+        "current_problems": [
+          "body_image_concerns",
+          "loneliness",
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "precontemplation",
+        "transition_target": "precontemplation \u2192 contemplation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 8,
+      "user_message": "I just want to lie in bed and not think about it. Everyone's staring at me, and I hate how my body feels.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and I can see that you're feeling really overwhelmed by the pressure to conform to certain body image standards and the fear of being judged. The strategies that might be helpful in this situation are support and facilitate, as they can help you process your emotions and gain a new perspective. The evidence that stands out to me is your past experiences of being teased about your ears and weight comments, which have contributed to your current body image concerns. My entry point for this conversation will be to acknowledge the pain and anxiety you're feeling, and to help you explore ways to cope with these emotions.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "past experiences of being teased about ears and weight comments"
+          },
+          {
+            "source": "persona.relevant_history",
+            "content": "past experiences of being teased about ears and weight comments"
+          }
+        ],
+        "final_response": "You're feeling like you're under so much scrutiny, and it's like everyone's eyes are on you, making you hate how your body feels. Your anxiety about your body image is really overwhelming you right now, and it's understandable that you'd want to escape it by lying in bed. It takes a lot of courage to acknowledge these feelings, and I'm here to support you. Can you tell me more about what's been going on that's making you feel like everyone's staring at you?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "loneliness",
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 9,
+      "user_message": "I keep thinking everyone's watching me, especially after the fight with my parents. I can't even look in the mirror without feeling judged, so I just scroll through Insta to avoid it. It feels like I'm stuck and everyone is staring at me.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "academic_pressure",
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now. Given their contemplation stage with body image concerns, I'll use the evoke strategy to help them explore their ambivalence. The evidence shows that the user feels judged and like they're under a microscope, especially after the fight with their parents and the weight comment on Instagram. To start, I'll acknowledge the overwhelming feeling of being watched and the anxiety about their body image that's causing them to avoid mirrors and seek escape through Instagram.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "feels judged and like they're under a microscope"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "anxiety about body image causing avoidance of mirrors and escape through Instagram"
+          }
+        ],
+        "final_response": "You're feeling like you're under a microscope, and it's overwhelming to deal with the constant feeling of being watched, especially after that fight with your parents. It's like every glance in the mirror becomes a judgment, and even Instagram, which might seem like a distraction, is actually a reminder of the body image concerns that are bothering you. It takes a lot of courage to admit how stuck you're feeling right now. Yeah, it's really tough to face these feelings, but maybe we can explore what's driving this need to escape and find a way to make it feel safer for you to confront your body image concerns."
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "loneliness",
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 10,
+      "user_message": "I heard my parents yelling again, so I just keep scrolling instead of looking at myself. It feels like nobody cares and I'm stuck.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "academic_pressure",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "academic_pressure",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help this person work through their body image concerns and feelings of being judged. Given their current contemplation stage, I'll use the evoke strategy to help them explore their ambivalence and move towards preparation. The evidence shows that the user's anxiety about their body image is tied to their fear of negative attention and being watched, which is holding them back from self-expression. The recent argument with their parents has further emphasized their feelings of being unimportant and uncared for. To acknowledge their emotions, I'll reflect on how the sound of their parents yelling again triggered them to feel stuck and unimportant. My entry will be a brief acknowledgment of this specific moment, showing that I understand how it's affecting their body image concerns.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "feeling judged and like they don't fit in"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of negative attention and being watched"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "can't even look in the mirror without feeling judged"
+          }
+        ],
+        "final_response": "The sound of your parents yelling again must have been really tough to hear, and it's no wonder you felt like scrolling through Instagram was a way to escape. It's like that noise just confirmed your worst fears - that nobody cares and you're stuck. But in this moment, I want you to know that I'm here, and I care. Can you tell me more about what happens when you hear your parents yelling, and how that makes you feel about yourself?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "loneliness",
+          "conflicts_with_parents",
+          "academic_pressure"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

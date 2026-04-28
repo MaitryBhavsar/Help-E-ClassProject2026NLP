@@ -1,0 +1,1880 @@
+{
+  "session_id": 2,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-aware, introspective, anxious, perfectionistic",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep putting off writing for the LGBTQ+ org because the thought of stepping into that spotlight feels too risky right now."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I'm stuck in a transition that feels less like growth and more like a forced performance"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I don't know if this is a small win or just a concession"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "even that feels like a performance now"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "authenticity, self-expression, acceptance, autonomy",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the weight of having to explain my identity to my parents feels like a constant reminder that I\u2019m not accepted"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "what if you were to write just for yourself, without thinking about how others might read it - would that feel like a safer space to start"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "when I used to write in a little notebook in the park, where nobody could see me and I could just be myself"
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I am not accepted for who I am, I need to conform to be accepted, my worth is tied to others' opinions",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the weight of having to explain my identity to my parents feels like a constant reminder that I\u2019m not accepted"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I'm stuck in a transition that feels less like growth and more like a forced performance"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "the anxiety about my parents' reactions keeps me from even starting my writing assignment"
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "recently experienced or currently experiencing a life transition (college to adulthood), struggling with body image and identity",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I\u2019m back on campus"
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "the transition back to campus feels like a stage where I\u2019m constantly evaluated"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "Every time I look in the mirror, I feel like a mismatch"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "procrastinator, perfectionist, people-pleaser, self-doubter, overthinker",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep putting off writing for the LGBTQ+ org"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I'm stuck in a transition that feels less like growth and more like a forced performance"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I don't know if this is a small win or just a concession"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "even that feels like a performance now"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I\u2019m back on campus, but the weight of having to explain my identity to my parents feels like a constant reminder that I\u2019m not accepted. I keep putting off writing for the LGBTQ+ org because the thought of stepping into that spotlight feels too risky right now. I\u2019m also staring at my reflection and feeling that I\u2019m not fitting the body I think I should be."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It's really tough to feel like you're constantly having to justify your identity to your parents, and that weight can be overwhelming. I can see how the thought of taking on a more public role with the LGBTQ+ org, even though it's something you're passionate about, feels too risky right now. You're also dealing with feelings about your body image, which can be a lot to handle on top of everything else. Can you tell me more about what's been the hardest part of navigating these feelings lately?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Honestly, the hardest part is this relentless loop where I feel I have to articulate my identity to parents who still see me through a binary lens, and that cognitive load spills into every other area\u2014my coursework, my activism, even my body. I keep putting off the org meeting because the fear of being misunderstood feels heavier than the actual task. It's like I'm stuck in a transition that feels less like growth and more like a forced performance, and that anxiety keeps me from finishing the writing assignment for the class."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "You're feeling like you're stuck in this limbo, where you're trying to navigate your identity, but it feels like you're performing for others instead of being true to yourself. The fear of being misunderstood is holding you back from taking on that role with the LGBTQ+ org, and even from finishing your writing assignment. It's like you're carrying this extra weight, not just from your parents, but from the feeling that you need to constantly explain yourself. Yeah, that can be really overwhelming. Can you think of any small step you could take to start moving forward with your writing, even if it's just a tiny part of the assignment?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I could try to write a single paragraph, but the dread of how my words will be perceived keeps me from even starting. The pressure of being on campus again, coupled with the constant need to justify myself, feels like an endless loop that drains my energy."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The pressure to constantly justify yourself, especially on campus, feels like it's draining your energy and keeping you from moving forward with your writing. It's like you're caught in this cycle where the fear of being misunderstood is holding you back from expressing yourself. Yeah, that can be really overwhelming. What if you were to start with just a single paragraph, not worrying about how it will be perceived, but just focusing on getting your thoughts down?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I\u2019m not sure if just writing a paragraph feels like a concession or a win. The loop of waiting to feel safe enough to type another line still feels exhausting."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The uncertainty about whether writing a paragraph is a concession or a win is really telling - it shows just how much weight you're giving to the opinions of others, and how that's affecting your own sense of self. It's like you're waiting for permission to express yourself, and that's an exhausting place to be. Yeah, it makes sense that the thought of taking on that writing feels like a risk right now. What's the smallest, most manageable part of that writing that you could focus on, just to get started?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I keep putting it off, and the anxiety keeps me from starting. Maybe I should just write a sentence, but the fear of judgment is still there. I don't know if this is a small win or just a concession. The transition back to campus feels like a constant test of my identity."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "The transition back to campus is feeling like a constant test of your identity, and that's a really heavy burden to carry. It's like every step you take, every word you write, feels like it's under a microscope, and that's exhausting. You're questioning whether taking small steps, like writing a sentence, is a win or a concession, and that uncertainty is paralyzing. Yeah, it makes sense that you're feeling stuck, like you're waiting for permission to express yourself. Can you think of what it would mean for you to take one small step towards writing, not as a test, but as an act of self-expression?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "Honestly, I don't know what that small step would actually look like; maybe just jotting a sentence about how I feel, but the anxiety about how others will read it still feels overwhelming. It's like the transition back to campus is a constant test, and I keep putting off the writing because the fear of judgment is too heavy."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The weight of being on campus again, with the constant fear of judgment, feels like it's silencing your voice. It's like every word you write could be scrutinized, and that's a really tough place to be. Yeah, it makes sense that you're feeling overwhelmed, like you're waiting for permission to express yourself. What if you were to write just for yourself, without thinking about how others might read it - would that feel like a safer space to start?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "Writing for myself sounds theoretically appealing, but the persistent anxiety about how I might be perceived still feels like a barrier. The transition back to campus feels like a stage where I\u2019m constantly evaluated, and that pressure is a major procrastination trigger. I also keep staring at my reflection, wondering if I fit the body I think I should, which just adds to the overall anxiety."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The pressure to conform to certain expectations, both on campus and in your own reflection, feels like it's taking a toll on your ability to express yourself. You're not just worried about how others will perceive your writing, but also how you perceive your own body. It's like you're caught in this cycle of self-doubt, where every glance in the mirror and every sentence you write feels like it's under scrutiny. Yeah, that can be really overwhelming. What's one thing you've done in the past that's helped you feel more authentic, even if it was just for a moment?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I think the only thing that has ever helped me feel a bit more authentic is when I used to write in a little notebook in the park, where nobody could see me and I could just be myself, but even that feels like a performance now. I'm not sure if that even counts as a win, because the anxiety about what others think still lingers. Maybe I should try that again, but I keep putting it off. It's part of the same life_transition I'm stuck in."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "Whatever you want to say next, I'm listening."
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "Every time I look in the mirror, I feel like a mismatch, and the anxiety about my parents' reactions keeps me from even starting my writing assignment, making this return to campus feel more like a performance than a transition."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're feeling like you're stuck in this cycle of self-doubt, where every glance in the mirror and every thought about your writing assignment feels like it's under scrutiny. The anxiety about your parents' reactions is really holding you back, and it's making it hard for you to even start writing. It sounds like you're feeling a lot of pressure to conform to certain expectations, and that's taking a toll on your ability to express yourself. Can you think of what it would mean for you to take one small step towards writing, just for yourself, without worrying about what others might think?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I think a small step might be writing a single sentence in a private notebook, but even that feels like a performance because my mind keeps projecting my parents' judgment onto the words. The anxiety that accompanies each line makes it hard to start, and I keep postponing it. It's as if the act of writing itself is a test of my identity during this transition back to campus."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The act of writing itself feels like a test of your identity, and that's a really heavy burden to carry. It's like every sentence you write is a reflection of your worth, and that's a lot of pressure. Yeah, it makes sense that you're feeling stuck, like you're waiting for permission to express yourself. What if you were to write just one sentence, not as a test, but as an act of self-expression, without worrying about what others might think - would that feel like a safer space to start?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 2,
+      "turn_id": 1,
+      "user_message": "I\u2019m back on campus, but the weight of having to explain my identity to my parents feels like a constant reminder that I\u2019m not accepted. I keep putting off writing for the LGBTQ+ org because the thought of stepping into that spotlight feels too risky right now. I\u2019m also staring at my reflection and feeling that I\u2019m not fitting the body I think I should be.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the weight of explaining your identity to your parents. The strategies that feel right for this moment are support and complex_reflection, given your intent to express emotion. I've taken note of your struggles with feeling accepted and the pressure to conform, as well as your passion for writing and your involvement with the LGBTQ+ org. My entry point will be to reflect on the emotional burden you're carrying, especially with the added pressure of potentially stepping into a more public role.",
+        "evidence_used": [
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not accepted for who I am"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "authenticity, self-expression, acceptance"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "weight of having to explain my identity to my parents"
+          }
+        ],
+        "final_response": "It's really tough to feel like you're constantly having to justify your identity to your parents, and that weight can be overwhelming. I can see how the thought of taking on a more public role with the LGBTQ+ org, even though it's something you're passionate about, feels too risky right now. You're also dealing with feelings about your body image, which can be a lot to handle on top of everything else. Can you tell me more about what's been the hardest part of navigating these feelings lately?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 2,
+      "user_message": "Honestly, the hardest part is this relentless loop where I feel I have to articulate my identity to parents who still see me through a binary lens, and that cognitive load spills into every other area\u2014my coursework, my activism, even my body. I keep putting off the org meeting because the fear of being misunderstood feels heavier than the actual task. It's like I'm stuck in a transition that feels less like growth and more like a forced performance, and that anxiety keeps me from finishing the writing assignment for the class.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the weight of explaining your identity to your parents right now. Given your express_emotion intent, I'll use complex_reflection and support strategies to help you feel understood. The evidence shows that you're struggling with the cognitive load of articulating your identity, and that's spilling into other areas like coursework and activism. My entry will be to acknowledge the feeling of being stuck in a transition that feels like a forced performance.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "weight of having to explain my identity to my parents"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not accepted for who I am"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "stuck in a transition that feels less like growth and more like a forced performance"
+          }
+        ],
+        "final_response": "You're feeling like you're stuck in this limbo, where you're trying to navigate your identity, but it feels like you're performing for others instead of being true to yourself. The fear of being misunderstood is holding you back from taking on that role with the LGBTQ+ org, and even from finishing your writing assignment. It's like you're carrying this extra weight, not just from your parents, but from the feeling that you need to constantly explain yourself. Yeah, that can be really overwhelming. Can you think of any small step you could take to start moving forward with your writing, even if it's just a tiny part of the assignment?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 3,
+      "user_message": "I could try to write a single paragraph, but the dread of how my words will be perceived keeps me from even starting. The pressure of being on campus again, coupled with the constant need to justify myself, feels like an endless loop that drains my energy.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the weight of having to constantly justify your identity, especially with the added pressure of being back on campus. The strategies that might help right now are support and complex reflection, given your current emotional state and the need to process your feelings. The evidence that stands out is your mention of the 'endless loop' that drains your energy, which suggests a deep-seated anxiety about being perceived and accepted. My entry point will be to acknowledge this feeling of being stuck in a cycle of self-justification and the fear of being misunderstood, which seems to be underlying your hesitation to start writing.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "relentless loop of articulating identity to parents"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "dread of how my words will be perceived"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not accepted for who I am"
+          }
+        ],
+        "final_response": "The pressure to constantly justify yourself, especially on campus, feels like it's draining your energy and keeping you from moving forward with your writing. It's like you're caught in this cycle where the fear of being misunderstood is holding you back from expressing yourself. Yeah, that can be really overwhelming. What if you were to start with just a single paragraph, not worrying about how it will be perceived, but just focusing on getting your thoughts down?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 4,
+      "user_message": "I\u2019m not sure if just writing a paragraph feels like a concession or a win. The loop of waiting to feel safe enough to type another line still feels exhausting.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the emotional weight you're carrying right now. Given your express_emotion intent, I'll use support and complex_reflection strategies to help you process your feelings. The evidence shows that the pressure to constantly justify yourself is draining your energy, and the fear of being misunderstood is holding you back from writing. My entry will acknowledge the exhaustion and uncertainty you're feeling about taking small steps towards writing.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "The pressure to constantly justify myself feels like an endless loop that drains my energy"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "The dread of how my words will be perceived keeps me from even starting"
+          }
+        ],
+        "final_response": "The uncertainty about whether writing a paragraph is a concession or a win is really telling - it shows just how much weight you're giving to the opinions of others, and how that's affecting your own sense of self. It's like you're waiting for permission to express yourself, and that's an exhausting place to be. Yeah, it makes sense that the thought of taking on that writing feels like a risk right now. What's the smallest, most manageable part of that writing that you could focus on, just to get started?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 5,
+      "user_message": "I keep putting it off, and the anxiety keeps me from starting. Maybe I should just write a sentence, but the fear of judgment is still there. I don't know if this is a small win or just a concession. The transition back to campus feels like a constant test of my identity.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the emotional weight you're carrying right now. Given your express_emotion intent, I'll use support and complex_reflection strategies to help you process your feelings. The evidence shows that the pressure to justify your identity and the fear of judgment are significant barriers for you, making it hard to start writing and navigate this transition back to campus. My entry point will be to acknowledge the exhaustion and uncertainty you're feeling, and how that's impacting your ability to express yourself.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "The loop of waiting to feel safe enough to type another line still feels exhausting"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "authenticity, self-expression, acceptance"
+          }
+        ],
+        "final_response": "The transition back to campus is feeling like a constant test of your identity, and that's a really heavy burden to carry. It's like every step you take, every word you write, feels like it's under a microscope, and that's exhausting. You're questioning whether taking small steps, like writing a sentence, is a win or a concession, and that uncertainty is paralyzing. Yeah, it makes sense that you're feeling stuck, like you're waiting for permission to express yourself. Can you think of what it would mean for you to take one small step towards writing, not as a test, but as an act of self-expression?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 6,
+      "user_message": "Honestly, I don't know what that small step would actually look like; maybe just jotting a sentence about how I feel, but the anxiety about how others will read it still feels overwhelming. It's like the transition back to campus is a constant test, and I keep putting off the writing because the fear of judgment is too heavy.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion about the pressure to justify your identity and the fear of judgment that's holding you back from writing. Given your intent to express emotion, I'll use complex reflection and support strategies to acknowledge your feelings and help you explore them. The evidence that stands out to me is your mention of the transition back to campus feeling like a constant test of your identity, and how the fear of judgment is overwhelming. My entry point will be to acknowledge the weight of that fear and how it's affecting your ability to express yourself.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "the transition back to campus feels like a constant test of my identity"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "the fear of judgment is still there"
+          }
+        ],
+        "final_response": "The weight of being on campus again, with the constant fear of judgment, feels like it's silencing your voice. It's like every word you write could be scrutinized, and that's a really tough place to be. Yeah, it makes sense that you're feeling overwhelmed, like you're waiting for permission to express yourself. What if you were to write just for yourself, without thinking about how others might read it - would that feel like a safer space to start?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 7,
+      "user_message": "Writing for myself sounds theoretically appealing, but the persistent anxiety about how I might be perceived still feels like a barrier. The transition back to campus feels like a stage where I\u2019m constantly evaluated, and that pressure is a major procrastination trigger. I also keep staring at my reflection, wondering if I fit the body I think I should, which just adds to the overall anxiety.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their anxiety and self-doubt, and right now, they need someone to acknowledge the weight of being constantly evaluated. The strategies that seem most fitting are support and complex reflection, as they've been struggling to express themselves due to fear of judgment. The evidence that stands out is their mention of the transition back to campus feeling like a stage where they're constantly evaluated, and the pressure being a major procrastination trigger. My entry point will be to acknowledge the anxiety they're feeling about being perceived, and how that's affecting their ability to write and express themselves.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "the transition back to campus feels like a constant test"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "authenticity, self-expression, acceptance"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "the anxiety about how others will read it still feels overwhelming"
+          }
+        ],
+        "final_response": "The pressure to conform to certain expectations, both on campus and in your own reflection, feels like it's taking a toll on your ability to express yourself. You're not just worried about how others will perceive your writing, but also how you perceive your own body. It's like you're caught in this cycle of self-doubt, where every glance in the mirror and every sentence you write feels like it's under scrutiny. Yeah, that can be really overwhelming. What's one thing you've done in the past that's helped you feel more authentic, even if it was just for a moment?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 8,
+      "user_message": "I think the only thing that has ever helped me feel a bit more authentic is when I used to write in a little notebook in the park, where nobody could see me and I could just be myself, but even that feels like a performance now. I'm not sure if that even counts as a win, because the anxiety about what others think still lingers. Maybe I should try that again, but I keep putting it off. It's part of the same life_transition I'm stuck in.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: user state unclear. Which: T1-equivalent reflection only. Evidence: none surfaced this turn. Entry: stay present without advancing any agenda.",
+        "evidence_used": [],
+        "final_response": "Whatever you want to say next, I'm listening.",
+        "_fallback_default": true
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 9,
+      "user_message": "Every time I look in the mirror, I feel like a mismatch, and the anxiety about my parents' reactions keeps me from even starting my writing assignment, making this return to campus feel more like a performance than a transition.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": []
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their anxiety and self-doubt, and right now they need someone to acknowledge the weight of their emotions. The fact that they feel like a mismatch when looking in the mirror, and that their parents' reactions are causing them so much anxiety, suggests that they're struggling to find a sense of authenticity and self-acceptance. The evidence from their recent turns shows that they've been trying to find ways to express themselves, but the fear of judgment is holding them back. My approach will be to use complex reflection to help them explore their emotions and thoughts, and to facilitate a sense of safety and permission to express themselves. By acknowledging the specific barriers they've named, such as their parents' reactions and their own self-doubt, I hope to help them feel seen and understood.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "anxiety about parents' reactions"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "feeling like a mismatch in the mirror"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not accepted for who I am"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "fear of judgment"
+          }
+        ],
+        "final_response": "You're feeling like you're stuck in this cycle of self-doubt, where every glance in the mirror and every thought about your writing assignment feels like it's under scrutiny. The anxiety about your parents' reactions is really holding you back, and it's making it hard for you to even start writing. It sounds like you're feeling a lot of pressure to conform to certain expectations, and that's taking a toll on your ability to express yourself. Can you think of what it would mean for you to take one small step towards writing, just for yourself, without worrying about what others might think?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 10,
+      "user_message": "I think a small step might be writing a single sentence in a private notebook, but even that feels like a performance because my mind keeps projecting my parents' judgment onto the words. The anxiety that accompanies each line makes it hard to start, and I keep postponing it. It's as if the act of writing itself is a test of my identity during this transition back to campus.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": []
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion about your struggles with writing and self-identity, so I'll start by acknowledging that. Given your intent to express emotion, I'll use strategies like support and complex reflection to help you feel heard. The evidence that stands out to me is your mention of writing in a private notebook feeling like a performance, and how your mind projects your parents' judgment onto your words. My entry point will be to acknowledge the weight of that anxiety and how it's affecting your ability to start writing.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "writing in a private notebook feels like a performance"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not accepted for who I am, I need to conform to be accepted"
+          }
+        ],
+        "final_response": "The act of writing itself feels like a test of your identity, and that's a really heavy burden to carry. It's like every sentence you write is a reflection of your worth, and that's a lot of pressure. Yeah, it makes sense that you're feeling stuck, like you're waiting for permission to express yourself. What if you were to write just one sentence, not as a test, but as an act of self-expression, without worrying about what others might think - would that feel like a safer space to start?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

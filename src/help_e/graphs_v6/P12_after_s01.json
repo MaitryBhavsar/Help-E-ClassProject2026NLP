@@ -1,0 +1,269 @@
+{
+  "profile_id": "P12",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "self-critical",
+      "perfectionistic"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": "colleagues, senior leaders",
+    "hobbies_interests": [],
+    "communication_style": "reflective, emotionally expressive",
+    "relevant_history": "recent presentation failure",
+    "general_behavioral_traits": [
+      "overthinker",
+      "emotionally reactive"
+    ]
+  },
+  "problems": {
+    "low_self_esteem": {
+      "problem_name": "low_self_esteem",
+      "first_mentioned": [
+        1,
+        3
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "preparation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees their self-doubt as severe",
+              "concise_explanation": "user questions their worth and competence",
+              "supporting_utterance_span": "I question my worth and competence",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees their self-doubt as a major issue",
+              "concise_explanation": "user feels like a failure and doubts their competence",
+              "supporting_utterance_span": "I feel like a failure and I'm doubting my competence",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees their self-doubt as a significant issue",
+              "concise_explanation": "user feels like a failure and doubts their competence",
+              "supporting_utterance_span": "I feel like a failure and I'm doubting my competence",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "the presentation failure triggered the user's self-doubt",
+              "concise_explanation": "presentation failure led to self-doubt",
+              "supporting_utterance_span": "I was the one who let everyone down",
+              "confidence": "high"
+            }
+          ]
+        },
+        "coping_strategies": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is seeking concrete feedback and rehearsal to improve",
+              "concise_explanation": "user wants to know what they missed and rehearse with a colleague",
+              "supporting_utterance_span": "I think I need concrete feedback and a rehearsal with a colleague",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is seeking concrete feedback and rehearsal to address their self-doubt",
+              "concise_explanation": "user wants to outline a plan for feedback and rehearsal",
+              "supporting_utterance_span": "Could we outline what that might involve?",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "general_anxiety": {
+      "problem_name": "general_anxiety",
+      "first_mentioned": [
+        1,
+        3
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "the upcoming meeting is a trigger for the user's anxiety",
+              "concise_explanation": "user is scared of the next meeting",
+              "supporting_utterance_span": "I'm scared that the next meeting will be another disaster",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user's anxiety is triggered by the thought of the next meeting",
+              "concise_explanation": "user is scared that the next meeting will be a disaster",
+              "supporting_utterance_span": "I'm scared that the next meeting will be another disaster",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user's anxiety is triggered by the thought of the next meeting",
+              "concise_explanation": "user is scared of another disaster in the next meeting",
+              "supporting_utterance_span": "I'm scared that the next meeting will be another disaster",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        4
+      ],
+      "last_mentioned": [
+        1,
+        4
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {}
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "general_anxiety",
+      "problem_2": "low_self_esteem",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I keep replaying how I looked like a joke, and that makes me question my worth and competence. I'm scared that the next meeting will be another disaster"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I feel like a failure and I'm doubting my competence... I'm scared that the next meeting will be another disaster"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are discussed in the context of the user's presentation failure and its aftermath",
+          "supporting_utterance_span": "I feel like a failure and I'm doubting my competence... I'm scared that the next meeting will be another disaster"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "the presentation failure triggered both the user's self-doubt and anxiety about the next meeting",
+          "supporting_utterance_span": "I was the one who let everyone down\u2014especially those senior leaders who were supposed to endorse me. I'm scared that the next meeting will be another disaster",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "user's self-doubt contributes to their anxiety about the next meeting",
+          "supporting_utterance_span": "I feel like a failure and I'm doubting my competence... I'm scared that the next meeting will be another disaster",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "coping_strategies",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's coping strategies for low self-esteem (seeking feedback and rehearsal) may help alleviate anxiety triggers related to the next meeting",
+          "supporting_utterance_span": "Could we outline what that might involve?... I'm scared that the next meeting will be another disaster",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 1.0
+    },
+    {
+      "problem_1": "low_self_esteem",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I just finished presenting at a major marketing conference and I completely messed up... I feel like a failure and I'm doubting my competence"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "user's self-doubt is closely tied to their work-related stress and presentation failure",
+          "supporting_utterance_span": "I just finished presenting at a major marketing conference and I completely messed up"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_severity",
+          "relation_type": "causal",
+          "connection_explanation": "the pressure of presenting at a major marketing conference contributes to user's self-doubt",
+          "supporting_utterance_span": "I just finished presenting at a major marketing conference and I completely messed up... I feel like a failure and I'm doubting my competence",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 0.5862774775435328
+    },
+    {
+      "problem_1": "general_anxiety",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I'm scared that the next meeting will be another disaster... I just finished presenting at a major marketing conference and I completely messed up"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "user's anxiety is triggered by work-related stressors, such as the presentation failure",
+          "supporting_utterance_span": "I'm scared that the next meeting will be another disaster"
+        }
+      ],
+      "attribute_connection_entries": [],
+      "weight": 0.31959520710407774
+    }
+  ]
+}

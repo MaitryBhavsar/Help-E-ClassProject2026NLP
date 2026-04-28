@@ -1,0 +1,3329 @@
+{
+  "session_id": 1,
+  "session_summary": "The user primarily discussed their struggles with grief, sleep problems, and work stress, feeling overwhelmed by the pressure to honor a recently lost loved one through their work and an upcoming memorial. They moved into precontemplation about their grief and contemplation about their sleep problems and work stress, acknowledging the impact of their perfectionism and self-criticism on their well-being. An open thread is the user's intent to find a way to manage their emotions and workload, potentially revisiting their approach to the memorial and the project deadline in the next session.",
+  "stage_transitions": [
+    {
+      "problem": "grief_of_loved_one",
+      "from": "(absent)",
+      "to": "precontemplation"
+    },
+    {
+      "problem": "sleep_problems",
+      "from": "(absent)",
+      "to": "contemplation"
+    },
+    {
+      "problem": "work_stress",
+      "from": "(absent)",
+      "to": "contemplation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "perfectionistic, self-critical",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep thinking about the meeting and the memorial and I\u2019m terrified I\u2019ll mess up or that none of it will honor her"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I\u2019m exhausted and I keep thinking I\u2019m not doing justice to her"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "honoring loved ones, doing justice to their memory",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I\u2019m terrified I\u2019ll mess up or that none of it will honor her"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I keep worrying I\u2019m letting her down by not getting it perfect"
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, expressive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I\u2019m terrified I\u2019ll mess up or that none of it will honor her"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I\u2019m exhausted, and I keep worrying I\u2019m letting her down"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "recent loss of a loved one",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the memorial and I\u2019m terrified I\u2019ll mess up or that none of it will honor her"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I even think about skipping the memorial"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep thinking about the meeting and the memorial and I\u2019m terrified I\u2019ll mess up"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I\u2019m stuck in this loop\u2014no matter how many mockups I tweak, it never feels right"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I\u2019m staring at these mockups and they just don\u2019t feel right. I keep thinking about the meeting and the memorial and I\u2019m terrified I\u2019ll mess up or that none of it will honor her. I\u2019ve been up all night and I\u2019m not even sure I can pull this off."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice. That's a lot to carry, especially on no sleep."
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Every time I look at the mockups, they feel unfinished, like I\u2019m not doing justice to her. I\u2019m terrified I\u2019ll miss the 3pm deadline, and I\u2019m already thinking about the memorial next Thursday. I just don\u2019t know if I can keep going."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "Every time you look at those mockups, you're not just seeing design elements \u2014 you're seeing a reflection of whether you're doing her memory justice. That's an unbearable weight, especially with the deadline looming and the memorial so close. It's like you're being pulled in two directions, trying to honor her and meet the project's demands at the same time."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I\u2019m still staring at these mockups and nothing feels right. I\u2019m exhausted and I keep thinking I\u2019m not doing justice to her. I don\u2019t know if I can get this done before 3pm, and I\u2019m terrified I\u2019ll forget to honor her properly."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're still carrying the weight of getting this just right, and it's like every detail is a test of whether you're honoring her memory. That's an exhausting burden, especially when you're already running on empty."
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I keep staring at the mockups and every time I think about her, I feel like the design is falling apart. I don't know if I can finish it on time, and it just feels like I'm letting her down."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "Every time you think about her, it feels like the design is falling apart, and that's a devastating feeling \u2014 like you're letting her down all over again. That weight is crushing, and it's no wonder you're struggling to keep going."
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I\u2019m just stuck in this loop\u2014no matter how many mockups I tweak, it never feels right. I\u2019m exhausted, and I keep worrying I\u2019m letting her down by not getting it perfect before the client meeting. I even think about skipping the memorial because I can\u2019t focus, but I know that\u2019s not the answer."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're stuck in this loop, and it's like every tweak, every decision, is a test of whether you're doing her memory justice. That's an exhausting burden, and it's no wonder you're struggling to keep going. The fear of letting her down is crushing, and it's understandable that you'd feel like skipping the memorial just to escape the pain \u2014 but you know that's not the answer, and that's what's keeping you stuck."
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I\u2019m staring at these mockups and they just don\u2019t feel right. I keep thinking about the meeting and the memorial and I\u2019m terrified I\u2019ll mess up or that none of it will honor her. I\u2019ve been up all night and I\u2019m not even sure I can pull this off.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing anxiety and self-doubt about an upcoming event without asking for advice.",
+          "supporting_utterance_span": "I'm terrified I'll mess up or that none of it will honor her"
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "pressure to perform well in a meeting and memorial",
+            "supporting_utterance_span": "I keep thinking about the meeting and the memorial"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "lack of sleep due to anxiety",
+            "supporting_utterance_span": "I've been up all night"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "memorial for a loved one",
+            "supporting_utterance_span": "or that none of it will honor her"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "the meeting and memorial are the central concerns driving the user's anxiety",
+          "supporting_utterance_span": "I keep thinking about the meeting and the memorial"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the potential consequences of failure as severe",
+            "concise_explanation": "fear of messing up",
+            "supporting_utterance_span": "I'm terrified I'll mess up",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "motivation",
+            "attribute_type": "level",
+            "inferred_information": "user is motivated to do well, but uncertain about their ability",
+            "concise_explanation": "wanting to honor her",
+            "supporting_utterance_span": "or that none of it will honor her",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "anxiety about the meeting and memorial is preventing sleep",
+            "concise_explanation": "up all night due to worry",
+            "supporting_utterance_span": "I've been up all night",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "sleep_problems",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I've been up all night and I'm not even sure I can pull this off"
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "grief_of_loved_one",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I keep thinking about the meeting and the memorial"
+          },
+          {
+            "problem_1": "sleep_problems",
+            "problem_2": "grief_of_loved_one",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I've been up all night and I'm not even sure I can pull this off"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "triggers",
+            "problem_2": "grief_of_loved_one",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "the memorial for the loved one is a trigger for both the work stress and the grief",
+            "supporting_utterance_span": "I keep thinking about the meeting and the memorial",
+            "confidence": "high"
+          },
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "triggers",
+            "problem_2": "sleep_problems",
+            "attribute_2": "triggers",
+            "relation_type": "causal",
+            "connection_explanation": "the work stress is causing the sleep problems",
+            "supporting_utterance_span": "I've been up all night and I'm not even sure I can pull this off",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User sees the potential consequences of failure as severe, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the potential consequences of failure as severe"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "motivation",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User is motivated to do well, but uncertain about their ability, indicating a moderate level of motivation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is motivated to do well, but uncertain about their ability"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the potential consequences of failure and is motivated to do well, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the potential consequences of failure as severe"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is motivated to do well, but uncertain about their ability"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in the user's awareness or motivation to address sleep problems.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: anxiety about the meeting and memorial is preventing sleep"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No evidence suggests a change in the user's awareness or motivation to address grief.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I\u2019m staring at these mockups and they just don\u2019t feel right. I keep thinking about the meeting and the memorial and I\u2019m terrified I\u2019ll mess up or that none of it will honor her. I\u2019ve been up all night and I\u2019m not even sure I can pull this off.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "work_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user sees the potential consequences of failure as severe",
+                  "concise_explanation": "fear of messing up",
+                  "supporting_utterance_span": "I'm terrified I'll mess up",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "motivation": {
+              "current_level": "medium",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user is motivated to do well, but uncertain about their ability",
+                  "concise_explanation": "wanting to honor her",
+                  "supporting_utterance_span": "or that none of it will honor her",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "sleep_problems",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "anxiety about the meeting and memorial is preventing sleep",
+                    "concise_explanation": "up all night due to worry",
+                    "supporting_utterance_span": "I've been up all night",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the work stress is causing the sleep problems",
+                "supporting_utterance_span": "I've been up all night and I'm not even sure I can pull this off",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the memorial for the loved one is a trigger for both the work stress and the grief",
+                "supporting_utterance_span": "I keep thinking about the meeting and the memorial",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "work_stress"
+      },
+      "response": {
+        "system_intent": "The main problem is work_stress, and the user is at the contemplation stage. The intent this turn is to vent, and given that we have not used any techniques previously, the natural next move is to use T1 Reflection \u2014 because it allows us to catch the feeling underneath the user's words and name what they haven't yet named out loud. I'll apply it by focusing on the emotional weight of the user's situation, particularly the fear of not honoring their loved one. The specific material I'll use is the user's mention of being up all night and their fear of messing up, as well as the connection to the memorial and the loved one. I will not simply re-describe the problem back to them. The edge to sleep_problems and grief_of_loved_one is a causal and shared_trigger relation, respectively, but I'll leave those out for now and focus on the main problem. Tone should be warm and empathetic because the user is vulnerable and scared. I'll match their register by using their vocabulary and staying inside their metaphor. This turn is trying to improve emotional regulation and awareness. I will avoid deflecting the user's emotions or minimizing their fears.",
+        "response_reasoning": "Intent is vent; the weight under it is fear and anxiety. Lean into that, don't restate the workload or the meeting. No question this turn; they need to be with their emotions first. One callback to the all-nighters and the memorial they mentioned. Keep it short, specific, and empathetic.",
+        "final_response": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice. That's a lot to carry, especially on no sleep."
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "sleep_problems",
+          "grief_of_loved_one"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "motivation"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User sees the potential consequences of failure as severe, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the potential consequences of failure as severe"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "motivation",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User is motivated to do well, but uncertain about their ability, indicating a moderate level of motivation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is motivated to do well, but uncertain about their ability"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the potential consequences of failure and is motivated to do well, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the potential consequences of failure as severe"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is motivated to do well, but uncertain about their ability"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in the user's awareness or motivation to address sleep problems.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: anxiety about the meeting and memorial is preventing sleep"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No evidence suggests a change in the user's awareness or motivation to address grief.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "Every time I look at the mockups, they feel unfinished, like I\u2019m not doing justice to her. I\u2019m terrified I\u2019ll miss the 3pm deadline, and I\u2019m already thinking about the memorial next Thursday. I just don\u2019t know if I can keep going.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of inadequacy and fear about the project and memorial without asking for advice.",
+          "supporting_utterance_span": "I'm terrified I'll miss the 3pm deadline, and I'm already thinking about the memorial next Thursday"
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "pressure to meet deadline and fear of not doing justice",
+            "supporting_utterance_span": "I'm terrified I'll miss the 3pm deadline"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "grief_of_loved_one",
+            "explanation": "memorial and fear of not honoring her memory",
+            "supporting_utterance_span": "I'm already thinking about the memorial next Thursday"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "implied by previous all-nighter and current exhaustion",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "deadline and project pressure are the immediate concerns",
+          "supporting_utterance_span": "I'm terrified I'll miss the 3pm deadline"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the project deadline as highly stressful",
+            "concise_explanation": "fear of missing deadline",
+            "supporting_utterance_span": "I'm terrified I'll miss the 3pm deadline",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user feels overwhelmed by the project's demands",
+            "concise_explanation": "feels unfinished and unsure",
+            "supporting_utterance_span": "Every time I look at the mockups, they feel unfinished",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "memorial and project are triggers for grief",
+            "concise_explanation": "thinking about the memorial",
+            "supporting_utterance_span": "I'm already thinking about the memorial next Thursday",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "grief_of_loved_one",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "Every time I look at the mockups, they feel unfinished, like I\u2019m not doing justice to her"
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "sleep_problems",
+            "concise_explanation": "implied connection through previous all-nighter",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_1": "grief_of_loved_one",
+            "problem_2": "sleep_problems",
+            "concise_explanation": "implied connection through emotional distress",
+            "supporting_utterance_span": null
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "triggers",
+            "problem_2": "grief_of_loved_one",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "the memorial is a trigger for both work stress and grief",
+            "supporting_utterance_span": "I'm already thinking about the memorial next Thursday",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the project deadline as highly stressful, consistent with previous expressions of severe potential consequences of failure.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the potential consequences of failure as severe"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the project deadline as highly stressful"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User feels overwhelmed by the project's demands, indicating a high level of perceived barriers to managing work stress.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by the project's demands"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem of work stress and its severe potential consequences, but there's no indication of progression to preparation or action stage yet.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the potential consequences of failure as severe"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the project deadline as highly stressful"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by the project's demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There's no new evidence indicating the user is acknowledging the problem or considering change, so the stage remains precontemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "memorial and project are triggers for grief"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "Similar to grief_of_loved_one, there's no indication the user is recognizing sleep problems as an issue they want to change, keeping the stage at precontemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "anxiety about the meeting and memorial is preventing sleep"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "Every time I look at the mockups, they feel unfinished, like I\u2019m not doing justice to her. I\u2019m terrified I\u2019ll miss the 3pm deadline, and I\u2019m already thinking about the memorial next Thursday. I just don\u2019t know if I can keep going.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019m staring at these mockups and they just don\u2019t feel right. I keep thinking about the meeting and the memorial and I\u2019m terrified I\u2019ll mess up or that none of it will honor her. I\u2019ve been up all night and I\u2019m not even sure I can pull this off."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice. That's a lot to carry, especially on no sleep."
+          }
+        ],
+        "last_system_message": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice. That's a lot to carry, especially on no sleep.",
+        "main_problem": {
+          "problem_name": "work_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            2
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user sees the potential consequences of failure as severe",
+                  "concise_explanation": "fear of messing up",
+                  "supporting_utterance_span": "I'm terrified I'll mess up",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees the project deadline as highly stressful",
+                  "concise_explanation": "fear of missing deadline",
+                  "supporting_utterance_span": "I'm terrified I'll miss the 3pm deadline",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "motivation": {
+              "current_level": "medium",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user is motivated to do well, but uncertain about their ability",
+                  "concise_explanation": "wanting to honor her",
+                  "supporting_utterance_span": "or that none of it will honor her",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user feels overwhelmed by the project's demands",
+                  "concise_explanation": "feels unfinished and unsure",
+                  "supporting_utterance_span": "Every time I look at the mockups, they feel unfinished",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "memorial and project are triggers for grief",
+                    "concise_explanation": "thinking about the memorial",
+                    "supporting_utterance_span": "I'm already thinking about the memorial next Thursday",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the memorial for the loved one is a trigger for both the work stress and the grief",
+                "supporting_utterance_span": "I keep thinking about the meeting and the memorial",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the memorial is a trigger for both work stress and grief",
+                "supporting_utterance_span": "I'm already thinking about the memorial next Thursday",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          },
+          {
+            "problem_name": "sleep_problems",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "anxiety about the meeting and memorial is preventing sleep",
+                    "concise_explanation": "up all night due to worry",
+                    "supporting_utterance_span": "I've been up all night",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.7730536017400815,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the work stress is causing the sleep problems",
+                "supporting_utterance_span": "I've been up all night and I'm not even sure I can pull this off",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "work_stress"
+      },
+      "response": {
+        "system_intent": "The main problem is work_stress, and the user is at the contemplation stage. The intent this turn is to vent, and given that last turn we used T1 Reflection, the natural next move is to continue with T1 Reflection \u2014 because the user is still expressing their fears and doubts about the project. I'll apply it by acknowledging the weight of their emotions and the pressure to honor their loved one's memory. The specific material I'll use is the user's mention of the memorial and the deadline, as well as their fear of not doing justice to their loved one. I will not simply re-describe the problem back to them, but rather try to capture the emotional burden they are carrying. The connection to the related problem of grief_of_loved_one is relevant here, as the memorial is a shared trigger for both work stress and grief. Tone should be warm and empathetic, as the user is vulnerable and uncertain. This turn is trying to improve the user's emotional regulation and awareness of their feelings, and I will avoid deflecting their concerns or offering unsolicited advice.",
+        "response_reasoning": "Intent is still venting, with a deep fear of not honoring their loved one's memory. I'll lean into that fear, acknowledging its presence without trying to fix it. The user's language is desperate, so I'll match that with a reflective tone that acknowledges the weight of their emotions. No question this turn; they need to feel heard first.",
+        "final_response": "Every time you look at those mockups, you're not just seeing design elements \u2014 you're seeing a reflection of whether you're doing her memory justice. That's an unbearable weight, especially with the deadline looming and the memorial so close. It's like you're being pulled in two directions, trying to honor her and meet the project's demands at the same time."
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "grief_of_loved_one",
+          "sleep_problems"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the project deadline as highly stressful, consistent with previous expressions of severe potential consequences of failure.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the potential consequences of failure as severe"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the project deadline as highly stressful"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User feels overwhelmed by the project's demands, indicating a high level of perceived barriers to managing work stress.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by the project's demands"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem of work stress and its severe potential consequences, but there's no indication of progression to preparation or action stage yet.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the potential consequences of failure as severe"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the project deadline as highly stressful"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by the project's demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There's no new evidence indicating the user is acknowledging the problem or considering change, so the stage remains precontemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "memorial and project are triggers for grief"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "Similar to grief_of_loved_one, there's no indication the user is recognizing sleep problems as an issue they want to change, keeping the stage at precontemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "anxiety about the meeting and memorial is preventing sleep"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I\u2019m still staring at these mockups and nothing feels right. I\u2019m exhausted and I keep thinking I\u2019m not doing justice to her. I don\u2019t know if I can get this done before 3pm, and I\u2019m terrified I\u2019ll forget to honor her properly.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of inadequacy and fear without asking for advice.",
+          "supporting_utterance_span": "I'm still staring at these mockups and nothing feels right. I'm exhausted and I keep thinking I'm not doing justice to her."
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "pressure to meet deadline and do justice to her memory",
+            "supporting_utterance_span": "I don't know if I can get this done before 3pm"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "exhaustion from lack of sleep",
+            "supporting_utterance_span": "I'm exhausted"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "grief_of_loved_one",
+            "explanation": "fear of not honoring her memory properly",
+            "supporting_utterance_span": "I'm terrified I'll forget to honor her properly"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "deadline and project demands are the primary drivers of user's current distress",
+          "supporting_utterance_span": "I don't know if I can get this done before 3pm"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the project deadline as highly pressing and stressful",
+            "concise_explanation": "deadline looming",
+            "supporting_utterance_span": "I don't know if I can get this done before 3pm",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "fear of not doing justice to her memory is a key trigger for work stress",
+            "concise_explanation": "fear of not honoring her memory",
+            "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user is experiencing significant distress due to lack of sleep",
+            "concise_explanation": "exhaustion",
+            "supporting_utterance_span": "I'm exhausted",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "working on the project is a trigger for grief",
+            "concise_explanation": "thinking about her while working on the project",
+            "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "grief_of_loved_one",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I don't know if I can get this done before 3pm, and I'm terrified I'll forget to honor her properly"
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "sleep_problems",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I'm exhausted and I don't know if I can get this done before 3pm"
+          },
+          {
+            "problem_1": "grief_of_loved_one",
+            "problem_2": "sleep_problems",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I'm exhausted and I keep thinking I'm not doing justice to her"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "triggers",
+            "problem_2": "grief_of_loved_one",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "fear of not honoring her memory is a trigger for both work stress and grief",
+            "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+            "confidence": "high"
+          },
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "perceived_severity",
+            "problem_2": "sleep_problems",
+            "attribute_2": "perceived_severity",
+            "relation_type": "reinforcing",
+            "connection_explanation": "exhaustion due to sleep problems exacerbates work stress",
+            "supporting_utterance_span": "I'm exhausted and I don't know if I can get this done before 3pm",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the project deadline as highly pressing and stressful, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "potential consequences of failure seen as severe"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "project deadline seen as highly stressful"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "project deadline seen as highly pressing and stressful"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User is experiencing significant distress due to lack of sleep, indicating a high perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is experiencing significant distress due to lack of sleep"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its severity, but there is no new evidence of progression to the next stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is motivated to do well, but uncertain about their ability"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the project deadline as highly stressful"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the project deadline as highly pressing and stressful"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "fear of not doing justice to her memory is a key trigger for work stress"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User is experiencing significant distress due to lack of sleep, indicating an acknowledgment of the problem and its severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "anxiety about the meeting and memorial is preventing sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is experiencing significant distress due to lack of sleep"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence to suggest the user is acknowledging the problem or considering change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "memorial and project are triggers for grief"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "working on the project is a trigger for grief"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I\u2019m still staring at these mockups and nothing feels right. I\u2019m exhausted and I keep thinking I\u2019m not doing justice to her. I don\u2019t know if I can get this done before 3pm, and I\u2019m terrified I\u2019ll forget to honor her properly.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019m staring at these mockups and they just don\u2019t feel right. I keep thinking about the meeting and the memorial and I\u2019m terrified I\u2019ll mess up or that none of it will honor her. I\u2019ve been up all night and I\u2019m not even sure I can pull this off."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice. That's a lot to carry, especially on no sleep."
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "Every time I look at the mockups, they feel unfinished, like I\u2019m not doing justice to her. I\u2019m terrified I\u2019ll miss the 3pm deadline, and I\u2019m already thinking about the memorial next Thursday. I just don\u2019t know if I can keep going."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "Every time you look at those mockups, you're not just seeing design elements \u2014 you're seeing a reflection of whether you're doing her memory justice. That's an unbearable weight, especially with the deadline looming and the memorial so close. It's like you're being pulled in two directions, trying to honor her and meet the project's demands at the same time."
+          }
+        ],
+        "last_system_message": "Every time you look at those mockups, you're not just seeing design elements \u2014 you're seeing a reflection of whether you're doing her memory justice. That's an unbearable weight, especially with the deadline looming and the memorial so close. It's like you're being pulled in two directions, trying to honor her and meet the project's demands at the same time.",
+        "main_problem": {
+          "problem_name": "work_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user sees the potential consequences of failure as severe",
+                  "concise_explanation": "fear of messing up",
+                  "supporting_utterance_span": "I'm terrified I'll mess up",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees the project deadline as highly stressful",
+                  "concise_explanation": "fear of missing deadline",
+                  "supporting_utterance_span": "I'm terrified I'll miss the 3pm deadline",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees the project deadline as highly pressing and stressful",
+                  "concise_explanation": "deadline looming",
+                  "supporting_utterance_span": "I don't know if I can get this done before 3pm",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "motivation": {
+              "current_level": "medium",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user is motivated to do well, but uncertain about their ability",
+                  "concise_explanation": "wanting to honor her",
+                  "supporting_utterance_span": "or that none of it will honor her",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user feels overwhelmed by the project's demands",
+                  "concise_explanation": "feels unfinished and unsure",
+                  "supporting_utterance_span": "Every time I look at the mockups, they feel unfinished",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "fear of not doing justice to her memory is a key trigger for work stress",
+                  "concise_explanation": "fear of not honoring her memory",
+                  "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "memorial and project are triggers for grief",
+                    "concise_explanation": "thinking about the memorial",
+                    "supporting_utterance_span": "I'm already thinking about the memorial next Thursday",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "working on the project is a trigger for grief",
+                    "concise_explanation": "thinking about her while working on the project",
+                    "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the memorial for the loved one is a trigger for both the work stress and the grief",
+                "supporting_utterance_span": "I keep thinking about the meeting and the memorial",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the memorial is a trigger for both work stress and grief",
+                "supporting_utterance_span": "I'm already thinking about the memorial next Thursday",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "fear of not honoring her memory is a trigger for both work stress and grief",
+                "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          },
+          {
+            "problem_name": "sleep_problems",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user is experiencing significant distress due to lack of sleep",
+                    "concise_explanation": "exhaustion",
+                    "supporting_utterance_span": "I'm exhausted",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "anxiety about the meeting and memorial is preventing sleep",
+                    "concise_explanation": "up all night due to worry",
+                    "supporting_utterance_span": "I've been up all night",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.8351902648542302,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the work stress is causing the sleep problems",
+                "supporting_utterance_span": "I've been up all night and I'm not even sure I can pull this off",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_severity",
+                "explanation": "exhaustion due to sleep problems exacerbates work stress",
+                "supporting_utterance_span": "I'm exhausted and I don't know if I can get this done before 3pm",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "work_stress"
+      },
+      "response": {
+        "system_intent": "The main problem is work_stress, TTM stage contemplation. Intent this turn is vent. Given that last turn we used T1 Reflection, the natural next move is T1 Reflection again \u2014 because the user is still expressing overwhelming emotions and needs to feel heard. I'll apply it by acknowledging the weight of their responsibility to honor her memory and the pressure of the deadline. The specific material I'll use is the user's fear of not doing justice to her memory and their exhaustion. I will not simply re-describe the problem back to them. The edge to grief_of_loved_one is a shared_trigger, but I'll leave it out for now to focus on the user's immediate emotional state. Tone should be warmer and more empathetic because the user is vulnerable and self-critical. I'll match their register by using their vocabulary and keeping it short. This turn is trying to improve emotional regulation and awareness. I will avoid deflecting the user's emotions or offering unsolicited advice.",
+        "response_reasoning": "Intent is vent; the weight under it is shame and fear of not honoring her memory. Lean into that, don't restate the workload. Persona reads as self-critical, so I'll keep it short, specific, and empathetic. One callback to the user's fear of not doing justice to her memory. No question this turn; they need to be with their emotions first.",
+        "final_response": "You're still carrying the weight of getting this just right, and it's like every detail is a test of whether you're honoring her memory. That's an exhausting burden, especially when you're already running on empty."
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "sleep_problems",
+          "grief_of_loved_one"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the project deadline as highly pressing and stressful, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "potential consequences of failure seen as severe"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "project deadline seen as highly stressful"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "project deadline seen as highly pressing and stressful"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User is experiencing significant distress due to lack of sleep, indicating a high perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is experiencing significant distress due to lack of sleep"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its severity, but there is no new evidence of progression to the next stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is motivated to do well, but uncertain about their ability"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the project deadline as highly stressful"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the project deadline as highly pressing and stressful"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "fear of not doing justice to her memory is a key trigger for work stress"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User is experiencing significant distress due to lack of sleep, indicating an acknowledgment of the problem and its severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "anxiety about the meeting and memorial is preventing sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is experiencing significant distress due to lack of sleep"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence to suggest the user is acknowledging the problem or considering change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "memorial and project are triggers for grief"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "working on the project is a trigger for grief"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I keep staring at the mockups and every time I think about her, I feel like the design is falling apart. I don't know if I can finish it on time, and it just feels like I'm letting her down.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of inadequacy and fear of not doing justice to the loved one's memory without asking for advice.",
+          "supporting_utterance_span": "I feel like the design is falling apart. I don't know if I can finish it on time, and it just feels like I'm letting her down."
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "pressure to meet deadline and fear of not doing justice to the loved one's memory",
+            "supporting_utterance_span": "I don't know if I can finish it on time"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "grief_of_loved_one",
+            "explanation": "emotional pain and sense of responsibility to honor the loved one's memory",
+            "supporting_utterance_span": "every time I think about her, I feel like the design is falling apart"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "grief_of_loved_one",
+          "explanation": "the user's emotional pain and sense of responsibility to honor the loved one's memory is the dominant theme",
+          "supporting_utterance_span": "every time I think about her, I feel like the design is falling apart"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the deadline and design requirements as highly demanding",
+            "concise_explanation": "fear of not meeting deadline",
+            "supporting_utterance_span": "I don't know if I can finish it on time",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "thinking about the loved one triggers emotional pain and sense of responsibility",
+            "concise_explanation": "emotional reaction to thinking about the loved one",
+            "supporting_utterance_span": "every time I think about her, I feel like the design is falling apart",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user sees their emotional state and design challenges as barriers to meeting the deadline",
+            "concise_explanation": "feeling overwhelmed by design and emotional demands",
+            "supporting_utterance_span": "I feel like the design is falling apart",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "grief_of_loved_one",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "I keep staring at the mockups and every time I think about her, I feel like the design is falling apart"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "triggers",
+            "problem_2": "grief_of_loved_one",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "thinking about the loved one triggers both emotional pain and design anxiety",
+            "supporting_utterance_span": "every time I think about her, I feel like the design is falling apart",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the project deadline and design requirements as highly demanding, consistent with previous expressions of high stress.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "deadline and design requirements as highly demanding"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "project deadline as highly pressing and stressful"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "project deadline as highly stressful"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still identifies their emotional state and design challenges as significant barriers to meeting the deadline, aligning with previous feelings of being overwhelmed.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "emotional state and design challenges as barriers"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "feels overwhelmed by the project's demands"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem and its severity but hasn't indicated a move towards preparation or action; they recognize barriers and the demanding nature of the project.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "sees deadline and design requirements as highly demanding"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "identifies emotional state and design challenges as barriers"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "fear of not doing justice to her memory is a key trigger for work stress"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There's no indication the user is considering change or acknowledging the grief as a problem to be addressed; triggers for grief are recognized but without a contemplation of change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "thinking about the loved one triggers emotional pain and sense of responsibility"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "working on the project is a trigger for grief"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "memorial and project are triggers for grief"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep staring at the mockups and every time I think about her, I feel like the design is falling apart. I don't know if I can finish it on time, and it just feels like I'm letting her down.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019m staring at these mockups and they just don\u2019t feel right. I keep thinking about the meeting and the memorial and I\u2019m terrified I\u2019ll mess up or that none of it will honor her. I\u2019ve been up all night and I\u2019m not even sure I can pull this off."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice. That's a lot to carry, especially on no sleep."
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "Every time I look at the mockups, they feel unfinished, like I\u2019m not doing justice to her. I\u2019m terrified I\u2019ll miss the 3pm deadline, and I\u2019m already thinking about the memorial next Thursday. I just don\u2019t know if I can keep going."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "Every time you look at those mockups, you're not just seeing design elements \u2014 you're seeing a reflection of whether you're doing her memory justice. That's an unbearable weight, especially with the deadline looming and the memorial so close. It's like you're being pulled in two directions, trying to honor her and meet the project's demands at the same time."
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I\u2019m still staring at these mockups and nothing feels right. I\u2019m exhausted and I keep thinking I\u2019m not doing justice to her. I don\u2019t know if I can get this done before 3pm, and I\u2019m terrified I\u2019ll forget to honor her properly."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "You're still carrying the weight of getting this just right, and it's like every detail is a test of whether you're honoring her memory. That's an exhausting burden, especially when you're already running on empty."
+          }
+        ],
+        "last_system_message": "You're still carrying the weight of getting this just right, and it's like every detail is a test of whether you're honoring her memory. That's an exhausting burden, especially when you're already running on empty.",
+        "main_problem": {
+          "problem_name": "grief_of_loved_one",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            4
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "memorial and project are triggers for grief",
+                  "concise_explanation": "thinking about the memorial",
+                  "supporting_utterance_span": "I'm already thinking about the memorial next Thursday",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "working on the project is a trigger for grief",
+                  "concise_explanation": "thinking about her while working on the project",
+                  "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "thinking about the loved one triggers emotional pain and sense of responsibility",
+                  "concise_explanation": "emotional reaction to thinking about the loved one",
+                  "supporting_utterance_span": "every time I think about her, I feel like the design is falling apart",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "work_stress",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees the project deadline as highly stressful",
+                    "concise_explanation": "fear of missing deadline",
+                    "supporting_utterance_span": "I'm terrified I'll miss the 3pm deadline",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user sees the project deadline as highly pressing and stressful",
+                    "concise_explanation": "deadline looming",
+                    "supporting_utterance_span": "I don't know if I can get this done before 3pm",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user sees the deadline and design requirements as highly demanding",
+                    "concise_explanation": "fear of not meeting deadline",
+                    "supporting_utterance_span": "I don't know if I can finish it on time",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "motivation": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user is motivated to do well, but uncertain about their ability",
+                    "concise_explanation": "wanting to honor her",
+                    "supporting_utterance_span": "or that none of it will honor her",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user feels overwhelmed by the project's demands",
+                    "concise_explanation": "feels unfinished and unsure",
+                    "supporting_utterance_span": "Every time I look at the mockups, they feel unfinished",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user sees their emotional state and design challenges as barriers to meeting the deadline",
+                    "concise_explanation": "feeling overwhelmed by design and emotional demands",
+                    "supporting_utterance_span": "I feel like the design is falling apart",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "fear of not doing justice to her memory is a key trigger for work stress",
+                    "concise_explanation": "fear of not honoring her memory",
+                    "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the memorial is a trigger for both work stress and grief",
+                "supporting_utterance_span": "I'm already thinking about the memorial next Thursday",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "fear of not honoring her memory is a trigger for both work stress and grief",
+                "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "thinking about the loved one triggers both emotional pain and design anxiety",
+                "supporting_utterance_span": "every time I think about her, I feel like the design is falling apart",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 4
+              }
+            ]
+          },
+          {
+            "problem_name": "sleep_problems",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user is experiencing significant distress due to lack of sleep",
+                    "concise_explanation": "exhaustion",
+                    "supporting_utterance_span": "I'm exhausted",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "anxiety about the meeting and memorial is preventing sleep",
+                    "concise_explanation": "up all night due to worry",
+                    "supporting_utterance_span": "I've been up all night",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.34043258618482286,
+            "cooccurrence_count": 3,
+            "connection_evidence": []
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "main_problem": "grief_of_loved_one"
+      },
+      "response": {
+        "system_intent": "The main problem is grief_of_loved_one, TTM stage precontemplation. Intent this turn is vent. Given that last turn we used T1 Reflection, the natural next move is T1 Reflection again \u2014 because the user is still expressing overwhelming emotions and needs to feel heard. I'll apply it by acknowledging the pain of feeling like they're letting their loved one down and the weight of the project's demands. The specific material I'll use is the user's fear of not doing justice to their loved one's memory and the feeling of the design falling apart. I will not simply re-describe the problem back to them. The edge to work_stress is a shared_trigger, but I won't surface it this turn as it might feel like pivoting. Tone should be warmer and more empathetic because the user is vulnerable and self-critical. I'll match their register by using their vocabulary and keeping it short. This turn is trying to improve emotional regulation and awareness. I will avoid deflecting the user's emotions or offering unsolicited advice.",
+        "response_reasoning": "Intent is vent; the weight under it is shame and fear of not honoring her memory. Lean into that, don't restate the workload or design challenges. Persona is unknown, so I'll default to warmth and empathy. One callback to the user's fear of letting her down. No question this turn; they need to be with their emotions first. The response will be short and focused on the user's emotional pain.",
+        "final_response": "Every time you think about her, it feels like the design is falling apart, and that's a devastating feeling \u2014 like you're letting her down all over again. That weight is crushing, and it's no wonder you're struggling to keep going."
+      },
+      "trace": {
+        "main_problem": "grief_of_loved_one",
+        "current_problems": [
+          "work_stress",
+          "grief_of_loved_one"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the project deadline and design requirements as highly demanding, consistent with previous expressions of high stress.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "deadline and design requirements as highly demanding"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "project deadline as highly pressing and stressful"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "project deadline as highly stressful"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still identifies their emotional state and design challenges as significant barriers to meeting the deadline, aligning with previous feelings of being overwhelmed.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "emotional state and design challenges as barriers"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "feels overwhelmed by the project's demands"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem and its severity but hasn't indicated a move towards preparation or action; they recognize barriers and the demanding nature of the project.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "sees deadline and design requirements as highly demanding"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "identifies emotional state and design challenges as barriers"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "fear of not doing justice to her memory is a key trigger for work stress"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There's no indication the user is considering change or acknowledging the grief as a problem to be addressed; triggers for grief are recognized but without a contemplation of change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "thinking about the loved one triggers emotional pain and sense of responsibility"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "working on the project is a trigger for grief"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "memorial and project are triggers for grief"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I\u2019m just stuck in this loop\u2014no matter how many mockups I tweak, it never feels right. I\u2019m exhausted, and I keep worrying I\u2019m letting her down by not getting it perfect before the client meeting. I even think about skipping the memorial because I can\u2019t focus, but I know that\u2019s not the answer.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing frustration and exhaustion without asking for advice.",
+          "supporting_utterance_span": "I\u2019m just stuck in this loop\u2014no matter how many mockups I tweak, it never feels right. I\u2019m exhausted"
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "client meeting and mockup tweaks",
+            "supporting_utterance_span": "client meeting"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "grief_of_loved_one",
+            "explanation": "memorial and letting her down",
+            "supporting_utterance_span": "letting her down"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "exhaustion",
+            "supporting_utterance_span": "I\u2019m exhausted"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "client meeting and mockup tweaks are the immediate concerns",
+          "supporting_utterance_span": "client meeting"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the project as extremely important and feels overwhelmed",
+            "concise_explanation": "client meeting and perfectionism",
+            "supporting_utterance_span": "I keep worrying I\u2019m letting her down by not getting it perfect",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user feels that their current state (exhaustion) is a significant obstacle to completing the project",
+            "concise_explanation": "exhaustion and self-doubt",
+            "supporting_utterance_span": "I\u2019m exhausted",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "thinking about the loved one triggers feelings of guilt and responsibility",
+            "concise_explanation": "memorial and letting her down",
+            "supporting_utterance_span": "letting her down",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their exhaustion as a significant issue",
+            "concise_explanation": "exhaustion",
+            "supporting_utterance_span": "I\u2019m exhausted",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "grief_of_loved_one",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "client meeting and letting her down"
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "sleep_problems",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "client meeting and exhaustion"
+          },
+          {
+            "problem_1": "grief_of_loved_one",
+            "problem_2": "sleep_problems",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "letting her down and exhaustion"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "perceived_severity",
+            "problem_2": "grief_of_loved_one",
+            "attribute_2": "triggers",
+            "relation_type": "causal",
+            "connection_explanation": "the user's grief triggers their work stress",
+            "supporting_utterance_span": "letting her down by not getting it perfect",
+            "confidence": "high"
+          },
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "perceived_barriers",
+            "problem_2": "sleep_problems",
+            "attribute_2": "perceived_severity",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the user's exhaustion reinforces their perception of barriers to completing the project",
+            "supporting_utterance_span": "I\u2019m exhausted",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the project as extremely important and feels overwhelmed, consistent with previous expressions of high stress and pressure.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees the project as extremely important and feels overwhelmed"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees the deadline and design requirements as highly demanding"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the project deadline as highly pressing and stressful"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User identifies their current state of exhaustion as a significant obstacle to completing the project, aligning with previous mentions of feeling overwhelmed by the project's demands.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels that their current state (exhaustion) is a significant obstacle to completing the project"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their emotional state and design challenges as barriers to meeting the deadline"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by the project's demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User consistently describes their exhaustion as a significant issue, indicating no change in the perceived severity of sleep problems.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their exhaustion as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is experiencing significant distress due to lack of sleep"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem and its severity but hasn't expressed a clear intention to act or make changes, keeping the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees the project as extremely important and feels overwhelmed"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their emotional state and design challenges as barriers to meeting the deadline"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "triggers: fear of not doing justice to her memory is a key trigger for work stress"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There's no new evidence suggesting the user is considering change or acknowledging the problem in a way that would move the stage beyond precontemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "thinking about the loved one triggers feelings of guilt and responsibility"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "thinking about the loved one triggers emotional pain and sense of responsibility"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "working on the project is a trigger for grief"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User recognizes the severity of sleep problems but hasn't indicated a clear plan or intention to address them, maintaining the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their exhaustion as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is experiencing significant distress due to lack of sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "anxiety about the meeting and memorial is preventing sleep"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I\u2019m just stuck in this loop\u2014no matter how many mockups I tweak, it never feels right. I\u2019m exhausted, and I keep worrying I\u2019m letting her down by not getting it perfect before the client meeting. I even think about skipping the memorial because I can\u2019t focus, but I know that\u2019s not the answer.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019m staring at these mockups and they just don\u2019t feel right. I keep thinking about the meeting and the memorial and I\u2019m terrified I\u2019ll mess up or that none of it will honor her. I\u2019ve been up all night and I\u2019m not even sure I can pull this off."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice. That's a lot to carry, especially on no sleep."
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "Every time I look at the mockups, they feel unfinished, like I\u2019m not doing justice to her. I\u2019m terrified I\u2019ll miss the 3pm deadline, and I\u2019m already thinking about the memorial next Thursday. I just don\u2019t know if I can keep going."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "Every time you look at those mockups, you're not just seeing design elements \u2014 you're seeing a reflection of whether you're doing her memory justice. That's an unbearable weight, especially with the deadline looming and the memorial so close. It's like you're being pulled in two directions, trying to honor her and meet the project's demands at the same time."
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I\u2019m still staring at these mockups and nothing feels right. I\u2019m exhausted and I keep thinking I\u2019m not doing justice to her. I don\u2019t know if I can get this done before 3pm, and I\u2019m terrified I\u2019ll forget to honor her properly."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "You're still carrying the weight of getting this just right, and it's like every detail is a test of whether you're honoring her memory. That's an exhausting burden, especially when you're already running on empty."
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "I keep staring at the mockups and every time I think about her, I feel like the design is falling apart. I don't know if I can finish it on time, and it just feels like I'm letting her down."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "Every time you think about her, it feels like the design is falling apart, and that's a devastating feeling \u2014 like you're letting her down all over again. That weight is crushing, and it's no wonder you're struggling to keep going."
+          }
+        ],
+        "last_system_message": "Every time you think about her, it feels like the design is falling apart, and that's a devastating feeling \u2014 like you're letting her down all over again. That weight is crushing, and it's no wonder you're struggling to keep going.",
+        "main_problem": {
+          "problem_name": "work_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees the project deadline as highly pressing and stressful",
+                  "concise_explanation": "deadline looming",
+                  "supporting_utterance_span": "I don't know if I can get this done before 3pm",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user sees the deadline and design requirements as highly demanding",
+                  "concise_explanation": "fear of not meeting deadline",
+                  "supporting_utterance_span": "I don't know if I can finish it on time",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user sees the project as extremely important and feels overwhelmed",
+                  "concise_explanation": "client meeting and perfectionism",
+                  "supporting_utterance_span": "I keep worrying I\u2019m letting her down by not getting it perfect",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "motivation": {
+              "current_level": "medium",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user is motivated to do well, but uncertain about their ability",
+                  "concise_explanation": "wanting to honor her",
+                  "supporting_utterance_span": "or that none of it will honor her",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user feels overwhelmed by the project's demands",
+                  "concise_explanation": "feels unfinished and unsure",
+                  "supporting_utterance_span": "Every time I look at the mockups, they feel unfinished",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user sees their emotional state and design challenges as barriers to meeting the deadline",
+                  "concise_explanation": "feeling overwhelmed by design and emotional demands",
+                  "supporting_utterance_span": "I feel like the design is falling apart",
+                  "confidence": "medium"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user feels that their current state (exhaustion) is a significant obstacle to completing the project",
+                  "concise_explanation": "exhaustion and self-doubt",
+                  "supporting_utterance_span": "I\u2019m exhausted",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "fear of not doing justice to her memory is a key trigger for work stress",
+                  "concise_explanation": "fear of not honoring her memory",
+                  "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "working on the project is a trigger for grief",
+                    "concise_explanation": "thinking about her while working on the project",
+                    "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "thinking about the loved one triggers emotional pain and sense of responsibility",
+                    "concise_explanation": "emotional reaction to thinking about the loved one",
+                    "supporting_utterance_span": "every time I think about her, I feel like the design is falling apart",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "thinking about the loved one triggers feelings of guilt and responsibility",
+                    "concise_explanation": "memorial and letting her down",
+                    "supporting_utterance_span": "letting her down",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 5,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "fear of not honoring her memory is a trigger for both work stress and grief",
+                "supporting_utterance_span": "I keep thinking I'm not doing justice to her",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "thinking about the loved one triggers both emotional pain and design anxiety",
+                "supporting_utterance_span": "every time I think about her, I feel like the design is falling apart",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 4
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "the user's grief triggers their work stress",
+                "supporting_utterance_span": "letting her down by not getting it perfect",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          },
+          {
+            "problem_name": "sleep_problems",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user is experiencing significant distress due to lack of sleep",
+                    "concise_explanation": "exhaustion",
+                    "supporting_utterance_span": "I'm exhausted",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "user sees their exhaustion as a significant issue",
+                    "concise_explanation": "exhaustion",
+                    "supporting_utterance_span": "I\u2019m exhausted",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "anxiety about the meeting and memorial is preventing sleep",
+                    "concise_explanation": "up all night due to worry",
+                    "supporting_utterance_span": "I've been up all night",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.7969862985233795,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the work stress is causing the sleep problems",
+                "supporting_utterance_span": "I've been up all night and I'm not even sure I can pull this off",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_severity",
+                "explanation": "exhaustion due to sleep problems exacerbates work stress",
+                "supporting_utterance_span": "I'm exhausted and I don't know if I can get this done before 3pm",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_barriers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the user's exhaustion reinforces their perception of barriers to completing the project",
+                "supporting_utterance_span": "I\u2019m exhausted",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "work_stress"
+      },
+      "response": {
+        "system_intent": "The main problem is work_stress, and the user is at the contemplation stage. The intent this turn is to vent, and given that last turn we used T1 Reflection, the natural next move is to continue with T1 Reflection \u2014 because the user is still expressing feelings of overwhelm and self-doubt. I'll apply it by acknowledging the user's emotional state and the weight of their responsibilities. The specific material I'll use is the user's fear of not doing justice to her memory, which is a key trigger for their work stress. I will not simply re-describe the problem back to them. The connection to the related problem of grief_of_loved_one is relevant, as the user's grief is a trigger for their work stress. I'll surface that in one sentence to help them feel seen as a whole person. Tone should be warmer and more empathetic because the user is expressing vulnerability and self-doubt. I'll match their register by using their vocabulary and keeping it short. This turn is trying to improve the user's emotional regulation and awareness of their emotional state. I will avoid deflecting the user's concerns or offering unsolicited advice.",
+        "response_reasoning": "Intent is vent; the weight under it is shame and fear of not coping. Lean into that, don't restate the workload. No question this turn; they need to be with it first. One callback to the fear of not doing justice to her memory. Skip the sleep_problems thread \u2014 pivoting would feel unheard.",
+        "final_response": "You're stuck in this loop, and it's like every tweak, every decision, is a test of whether you're doing her memory justice. That's an exhausting burden, and it's no wonder you're struggling to keep going. The fear of letting her down is crushing, and it's understandable that you'd feel like skipping the memorial just to escape the pain \u2014 but you know that's not the answer, and that's what's keeping you stuck."
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "grief_of_loved_one",
+          "sleep_problems"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the project as extremely important and feels overwhelmed, consistent with previous expressions of high stress and pressure.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees the project as extremely important and feels overwhelmed"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees the deadline and design requirements as highly demanding"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the project deadline as highly pressing and stressful"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User identifies their current state of exhaustion as a significant obstacle to completing the project, aligning with previous mentions of feeling overwhelmed by the project's demands.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels that their current state (exhaustion) is a significant obstacle to completing the project"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their emotional state and design challenges as barriers to meeting the deadline"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by the project's demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User consistently describes their exhaustion as a significant issue, indicating no change in the perceived severity of sleep problems.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their exhaustion as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is experiencing significant distress due to lack of sleep"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem and its severity but hasn't expressed a clear intention to act or make changes, keeping the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees the project as extremely important and feels overwhelmed"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their emotional state and design challenges as barriers to meeting the deadline"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "triggers: fear of not doing justice to her memory is a key trigger for work stress"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There's no new evidence suggesting the user is considering change or acknowledging the problem in a way that would move the stage beyond precontemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "thinking about the loved one triggers feelings of guilt and responsibility"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "thinking about the loved one triggers emotional pain and sense of responsibility"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "working on the project is a trigger for grief"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User recognizes the severity of sleep problems but hasn't indicated a clear plan or intention to address them, maintaining the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their exhaustion as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is experiencing significant distress due to lack of sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "anxiety about the meeting and memorial is preventing sleep"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,3290 @@
+{
+  "session_id": 1,
+  "session_summary": "The user primarily discussed their career uncertainty, financial stress, and low self-esteem stemming from a recent business failure. They moved from being absent in the transtheoretical model (TTM) stages to preparation for career uncertainty and contemplation for financial stress and low self-esteem. The user expressed a desire to balance their need for financial security with their desire for creative freedom, but struggled to see a clear path forward, leaving open the thread of exploring ways to reconcile these competing interests in future sessions.",
+  "stage_transitions": [
+    {
+      "problem": "career_uncertainty",
+      "from": "(absent)",
+      "to": "preparation"
+    },
+    {
+      "problem": "financial_stress",
+      "from": "(absent)",
+      "to": "contemplation"
+    },
+    {
+      "problem": "low_self_esteem",
+      "from": "(absent)",
+      "to": "contemplation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "creative, risk-averse, self-critical",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I poured my life savings into this company, and now it\u2019s just gone, leaving me with debt and a crushing sense of failure."
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I\u2019m torn between a steady job that could help pay the debt and something new that might let me use my skills."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark that made me start the company."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "creative freedom, financial security",
+      "evidence_citations": [
+        {
+          "turn_id": 3,
+          "excerpt": "A job feels safer, but I\u2019m scared of losing the creative freedom that built me."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark that made me start the company."
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "reflective, emotional",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I\u2019ve let everyone down."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "The debt feels like a huge weight and I\u2019m torn between a safe job and keeping my creative freedom."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "entrepreneurial experience, business failure",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I poured my life savings into this company, and now it\u2019s just gone, leaving me with debt and a crushing sense of failure."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I know I have some skills, but the debt is looming and I\u2019m scared of another failure."
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "indecisive, self-doubting, anxious",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I feel stuck and I\u2019m scared of another failure."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "The debt feels like a huge weight and I\u2019m torn between a safe job and keeping my creative freedom."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I'm scared that if I try to build something new again, I'll just end up deeper in debt."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "Honestly, I\u2019m at a loss. I poured my life savings into this company, and now it\u2019s just gone, leaving me with debt and a crushing sense of failure. I feel like I\u2019ve let everyone down. I\u2019m not sure what to do next."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It sounds like you're feeling overwhelmed by the loss of your company and the debt that's left you with a deep sense of failure. You've invested so much of yourself in this, and it's understandable that you're not sure what to do next. Would you like to talk more about what's been going through your mind since this happened?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I\u2019m trying to figure out a next step but I feel stuck. I know I have some skills, but the debt is looming and I\u2019m scared of another failure. Should I look for a job or try to bootstrap something else?"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "You're feeling stuck and scared about what's next, with the debt looming and a fear of another failure. What are your thoughts on looking for a job versus trying to bootstrap something new - is one of these options standing out to you, or are you still weighing the pros and cons of each?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I\u2019m torn between a steady job that could help pay the debt and something new that might let me use my skills. A job feels safer, but I\u2019m scared of losing the creative freedom that built me. I don\u2019t know which path to take."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're feeling torn between the security of a steady job and the potential of something new that could let you use your skills, but you're scared of losing the creative freedom that's important to you. What are some of the things that you think would need to happen for you to feel confident in choosing one path over the other?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "Honestly, I don\u2019t know what would make me feel confident. The debt feels like a huge weight and I\u2019m torn between a safe job and keeping my creative freedom. All I see is a choice, but I can\u2019t see a clear path forward."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "It sounds like the debt and the fear of losing your creative freedom are weighing heavily on you, and you're struggling to see a clear path forward. What does 'a clear path forward' mean to you - is it having a sense of direction, or feeling more confident in your abilities? You've mentioned that you're torn between a safe job and keeping your creative freedom, and that you're not sure what would make you feel confident in choosing one path over the other."
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark that made me start the company. I'm scared that if I try to build something new again, I'll just end up deeper in debt. I don't see how to balance both."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "It sounds like you're feeling torn between pursuing a steady job to pay off debt and preserving your creative spark. What would need to happen for you to feel like you're balancing both, or is there one aspect that feels more pressing to address right now?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "Honestly, I\u2019m at a loss. I poured my life savings into this company, and now it\u2019s just gone, leaving me with debt and a crushing sense of failure. I feel like I\u2019ve let everyone down. I\u2019m not sure what to do next.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of loss and failure without asking for advice.",
+          "supporting_utterance_span": "I\u2019m at a loss"
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "debt from company failure",
+            "supporting_utterance_span": "leaving me with debt"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "feeling of personal failure",
+            "supporting_utterance_span": "crushing sense of failure"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "company failure and debt are the primary concerns",
+          "supporting_utterance_span": "poured my life savings into this company, and now it\u2019s just gone"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the debt as a significant threat",
+            "concise_explanation": "describes debt as 'crushing'",
+            "supporting_utterance_span": "leaving me with debt and a crushing sense of failure",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user feels deeply responsible for the failure",
+            "concise_explanation": "feels like they've 'let everyone down'",
+            "supporting_utterance_span": "I feel like I\u2019ve let everyone down",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "financial_stress",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "leaving me with debt and a crushing sense of failure"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "financial_stress",
+            "attribute_1": "perceived_severity",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "perceived_severity",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the financial stress and sense of failure reinforce each other",
+            "supporting_utterance_span": "leaving me with debt and a crushing sense of failure",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User sees the debt as a significant threat, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User feels deeply responsible for the failure, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels deeply responsible for the failure"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the debt as a significant threat, indicating a move from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User feels deeply responsible for the failure, indicating a move from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels deeply responsible for the failure"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "Honestly, I\u2019m at a loss. I poured my life savings into this company, and now it\u2019s just gone, leaving me with debt and a crushing sense of failure. I feel like I\u2019ve let everyone down. I\u2019m not sure what to do next.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user sees the debt as a significant threat",
+                  "concise_explanation": "describes debt as 'crushing'",
+                  "supporting_utterance_span": "leaving me with debt and a crushing sense of failure",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user feels deeply responsible for the failure",
+                    "concise_explanation": "feels like they've 'let everyone down'",
+                    "supporting_utterance_span": "I feel like I\u2019ve let everyone down",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_severity",
+                "explanation": "the financial stress and sense of failure reinforce each other",
+                "supporting_utterance_span": "leaving me with debt and a crushing sense of failure",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "financial_stress"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be financial_stress. Their current TTM stage appears to be contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging the problem and is ambivalent about change. It should be applied by reflecting the user's feelings of loss and failure, using evidence such as the perceived_severity of the financial stress. The user also shows high perceived_severity and a sense of responsibility for the failure, which is reinforced by the related problem of low_self_esteem. Because of this, the response should use T2 Affirmation to acknowledge the user's efforts and strengths. The user intent in this turn is to vent, so the response should acknowledge this intent and provide a safe space for the user to express their emotions. Relevant connected problems suggest a reinforcing relationship between the perceived_severity of financial_stress and low_self_esteem, which should be used to highlight the interconnectedness of these issues. Overall, the response should try to improve the user's awareness and emotional regulation, while avoiding giving unsolicited advice or solutions.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of loss and failure, and then use T2 Affirmation to acknowledge their efforts. I'll skip the connection to low_self_esteem for now and focus on the user's immediate emotional needs. I'll avoid giving advice or solutions and instead provide a safe space for the user to vent.",
+        "final_response": "It sounds like you're feeling overwhelmed by the loss of your company and the debt that's left you with a deep sense of failure. You've invested so much of yourself in this, and it's understandable that you're not sure what to do next. Would you like to talk more about what's been going through your mind since this happened?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User sees the debt as a significant threat, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User feels deeply responsible for the failure, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels deeply responsible for the failure"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the debt as a significant threat, indicating a move from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User feels deeply responsible for the failure, indicating a move from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels deeply responsible for the failure"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "I\u2019m trying to figure out a next step but I feel stuck. I know I have some skills, but the debt is looming and I\u2019m scared of another failure. Should I look for a job or try to bootstrap something else?",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User is weighing different options for their next step and seeking guidance.",
+          "supporting_utterance_span": "Should I look for a job or try to bootstrap something else?"
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "debt and financial uncertainty",
+            "supporting_utterance_span": "the debt is looming"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "fear of another failure and self-doubt",
+            "supporting_utterance_span": "I\u2019m scared of another failure"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "debt is the immediate concern driving the user's decision-making",
+          "supporting_utterance_span": "the debt is looming"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user sees debt as a significant obstacle to moving forward",
+            "concise_explanation": "debt is described as 'looming'",
+            "supporting_utterance_span": "the debt is looming",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_susceptibility",
+            "attribute_type": "level",
+            "inferred_information": "user believes they are likely to experience another failure",
+            "concise_explanation": "user expresses fear of another failure",
+            "supporting_utterance_span": "I\u2019m scared of another failure",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "coping_strategies",
+            "attribute_type": "non_level",
+            "inferred_information": "user is considering looking for a job or bootstrapping a new venture as potential solutions",
+            "concise_explanation": "user mentions two possible next steps",
+            "supporting_utterance_span": "Should I look for a job or try to bootstrap something else?",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "financial_stress",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems are discussed in the context of the user's current situation",
+            "supporting_utterance_span": "the debt is looming and I\u2019m scared of another failure"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "financial_stress",
+            "attribute_1": "perceived_barriers",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "perceived_susceptibility",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the user's fear of another failure (low_self_esteem) is exacerbated by the debt (financial_stress), creating a reinforcing cycle",
+            "supporting_utterance_span": "the debt is looming and I\u2019m scared of another failure",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now identifies debt as a significant obstacle to moving forward, indicating a clear and substantial barrier to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees debt as a significant obstacle to moving forward"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_susceptibility",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User believes they are likely to experience another failure, suggesting a strong perceived likelihood of continued susceptibility.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes they are likely to experience another failure"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "While the user acknowledges significant barriers, they are also considering potential solutions like finding a job or starting a new venture, indicating continued contemplation rather than progression to preparation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees debt as a significant obstacle to moving forward"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user is considering looking for a job or bootstrapping a new venture as potential solutions"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "The user's belief in their likelihood of experiencing another failure keeps them in contemplation, as they acknowledge their issue but have not yet shown signs of preparing to act.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes they are likely to experience another failure"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I\u2019m trying to figure out a next step but I feel stuck. I know I have some skills, but the debt is looming and I\u2019m scared of another failure. Should I look for a job or try to bootstrap something else?",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "Honestly, I\u2019m at a loss. I poured my life savings into this company, and now it\u2019s just gone, leaving me with debt and a crushing sense of failure. I feel like I\u2019ve let everyone down. I\u2019m not sure what to do next."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling overwhelmed by the loss of your company and the debt that's left you with a deep sense of failure. You've invested so much of yourself in this, and it's understandable that you're not sure what to do next. Would you like to talk more about what's been going through your mind since this happened?"
+          }
+        ],
+        "last_system_message": "It sounds like you're feeling overwhelmed by the loss of your company and the debt that's left you with a deep sense of failure. You've invested so much of yourself in this, and it's understandable that you're not sure what to do next. Would you like to talk more about what's been going through your mind since this happened?",
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            2
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user sees the debt as a significant threat",
+                  "concise_explanation": "describes debt as 'crushing'",
+                  "supporting_utterance_span": "leaving me with debt and a crushing sense of failure",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees debt as a significant obstacle to moving forward",
+                  "concise_explanation": "debt is described as 'looming'",
+                  "supporting_utterance_span": "the debt is looming",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user is considering looking for a job or bootstrapping a new venture as potential solutions",
+                  "concise_explanation": "user mentions two possible next steps",
+                  "supporting_utterance_span": "Should I look for a job or try to bootstrap something else?",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user feels deeply responsible for the failure",
+                    "concise_explanation": "feels like they've 'let everyone down'",
+                    "supporting_utterance_span": "I feel like I\u2019ve let everyone down",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_susceptibility": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user believes they are likely to experience another failure",
+                    "concise_explanation": "user expresses fear of another failure",
+                    "supporting_utterance_span": "I\u2019m scared of another failure",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_severity",
+                "explanation": "the financial stress and sense of failure reinforce each other",
+                "supporting_utterance_span": "leaving me with debt and a crushing sense of failure",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_barriers",
+                "attribute_2": "perceived_susceptibility",
+                "explanation": "the user's fear of another failure (low_self_esteem) is exacerbated by the debt (financial_stress), creating a reinforcing cycle",
+                "supporting_utterance_span": "the debt is looming and I\u2019m scared of another failure",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "main_problem": "financial_stress"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be financial_stress, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging the problem and is ambivalent about change, but is also considering potential solutions. It should be applied by reflecting the user's feelings of being stuck and scared of another failure, using evidence such as their perceived_severity and perceived_barriers. The user also shows high perceived_severity and perceived_barriers, which should be addressed using T6 Options Menu. This technique should be applied by presenting the user with potential next steps, such as looking for a job or bootstrapping a new venture, and asking them to consider which option might be the most feasible. The user intent in this turn is to explore options, which aligns with the T4 Open Question technique. Because of this, the response should use T4 Open Question to invite the user to elaborate on their thoughts and feelings about their potential next steps. Relevant connected problems suggest a reinforcing relationship between financial_stress and low_self_esteem, which should be used to inform the response by acknowledging the user's sense of failure and responsibility. Overall, the response should try to improve the user's motivation and self-efficacy, while avoiding giving unsolicited advice or pivoting to the secondary problem.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of being stuck and scared, then use T8 Change Talk to invite them to consider their own reasons for change. I'll also use T4 Open Question to ask about their thoughts on potential next steps, and will name the options they've mentioned (looking for a job or bootstrapping something else) to ground the turn. I'll skip explicit mention of the connection to low_self_esteem this turn, but will keep it in mind to inform my reflection and questioning.",
+        "final_response": "You're feeling stuck and scared about what's next, with the debt looming and a fear of another failure. What are your thoughts on looking for a job versus trying to bootstrap something new - is one of these options standing out to you, or are you still weighing the pros and cons of each?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_barriers"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_susceptibility"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now identifies debt as a significant obstacle to moving forward, indicating a clear and substantial barrier to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees debt as a significant obstacle to moving forward"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_susceptibility",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User believes they are likely to experience another failure, suggesting a strong perceived likelihood of continued susceptibility.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes they are likely to experience another failure"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "While the user acknowledges significant barriers, they are also considering potential solutions like finding a job or starting a new venture, indicating continued contemplation rather than progression to preparation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees debt as a significant obstacle to moving forward"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user is considering looking for a job or bootstrapping a new venture as potential solutions"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "The user's belief in their likelihood of experiencing another failure keeps them in contemplation, as they acknowledge their issue but have not yet shown signs of preparing to act.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes they are likely to experience another failure"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I\u2019m torn between a steady job that could help pay the debt and something new that might let me use my skills. A job feels safer, but I\u2019m scared of losing the creative freedom that built me. I don\u2019t know which path to take.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User is weighing the pros and cons of two different options (job vs. new venture) and seeking to discuss the implications of each choice.",
+          "supporting_utterance_span": "I\u2019m torn between a steady job that could help pay the debt and something new that might let me use my skills"
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "debt from company loss",
+            "supporting_utterance_span": "pay the debt"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "fear of another failure, loss of creative identity",
+            "supporting_utterance_span": "I\u2019m scared of losing the creative freedom that built me"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "uncertainty about next career step",
+            "supporting_utterance_span": "I\u2019m torn between a steady job and something new"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "debt is the primary driver of the current dilemma",
+          "supporting_utterance_span": "pay the debt"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees debt as a significant threat to their financial stability",
+            "concise_explanation": "debt is 'looming'",
+            "supporting_utterance_span": "the debt is looming",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user fears that taking a job will lead to loss of creative identity",
+            "concise_explanation": "fear of losing creative freedom",
+            "supporting_utterance_span": "I\u2019m scared of losing the creative freedom that built me",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "cues_to_action",
+            "attribute_type": "level",
+            "inferred_information": "user is considering the pros and cons of different career paths",
+            "concise_explanation": "weighing options",
+            "supporting_utterance_span": "I\u2019m torn between a steady job and something new",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "financial_stress",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems are discussed in the context of the user's career uncertainty",
+            "supporting_utterance_span": "I\u2019m torn between a steady job that could help pay the debt and something new that might let me use my skills"
+          },
+          {
+            "problem_1": "financial_stress",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "financial stress is a key factor in the user's career uncertainty",
+            "supporting_utterance_span": "a steady job that could help pay the debt"
+          },
+          {
+            "problem_1": "low_self_esteem",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "low self-esteem is influencing the user's career uncertainty",
+            "supporting_utterance_span": "I\u2019m scared of losing the creative freedom that built me"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "financial_stress",
+            "attribute_1": "perceived_severity",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the user's financial stress is exacerbating their low self-esteem, making them more fearful of taking risks",
+            "supporting_utterance_span": "I\u2019m torn between a steady job that could help pay the debt and something new that might let me use my skills",
+            "confidence": "medium"
+          },
+          {
+            "problem_1": "career_uncertainty",
+            "attribute_1": "cues_to_action",
+            "problem_2": "financial_stress",
+            "attribute_2": "perceived_severity",
+            "relation_type": "causal",
+            "connection_explanation": "the user's financial stress is driving their consideration of different career paths",
+            "supporting_utterance_span": "a steady job that could help pay the debt",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe debt as a significant threat to their financial stability, consistent with previous assessments.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees debt as a significant threat to their financial stability"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now fears that taking a job will lead to loss of creative identity, indicating a significant barrier to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user fears that taking a job will lead to loss of creative identity"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "cues_to_action",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User is considering the pros and cons of different career paths, indicating a strong cue to action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is considering the pros and cons of different career paths"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and weigh options, but has not yet taken concrete steps towards change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees debt as a significant obstacle to moving forward"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees debt as a significant threat to their financial stability"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem and is considering the potential consequences of change, but has not yet taken concrete steps.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels deeply responsible for the failure"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes they are likely to experience another failure"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user fears that taking a job will lead to loss of creative identity"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User is now considering the pros and cons of different career paths, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is considering the pros and cons of different career paths"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I\u2019m torn between a steady job that could help pay the debt and something new that might let me use my skills. A job feels safer, but I\u2019m scared of losing the creative freedom that built me. I don\u2019t know which path to take.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "Honestly, I\u2019m at a loss. I poured my life savings into this company, and now it\u2019s just gone, leaving me with debt and a crushing sense of failure. I feel like I\u2019ve let everyone down. I\u2019m not sure what to do next."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling overwhelmed by the loss of your company and the debt that's left you with a deep sense of failure. You've invested so much of yourself in this, and it's understandable that you're not sure what to do next. Would you like to talk more about what's been going through your mind since this happened?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I\u2019m trying to figure out a next step but I feel stuck. I know I have some skills, but the debt is looming and I\u2019m scared of another failure. Should I look for a job or try to bootstrap something else?"
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "You're feeling stuck and scared about what's next, with the debt looming and a fear of another failure. What are your thoughts on looking for a job versus trying to bootstrap something new - is one of these options standing out to you, or are you still weighing the pros and cons of each?"
+          }
+        ],
+        "last_system_message": "You're feeling stuck and scared about what's next, with the debt looming and a fear of another failure. What are your thoughts on looking for a job versus trying to bootstrap something new - is one of these options standing out to you, or are you still weighing the pros and cons of each?",
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user sees the debt as a significant threat",
+                  "concise_explanation": "describes debt as 'crushing'",
+                  "supporting_utterance_span": "leaving me with debt and a crushing sense of failure",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees debt as a significant threat to their financial stability",
+                  "concise_explanation": "debt is 'looming'",
+                  "supporting_utterance_span": "the debt is looming",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees debt as a significant obstacle to moving forward",
+                  "concise_explanation": "debt is described as 'looming'",
+                  "supporting_utterance_span": "the debt is looming",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user is considering looking for a job or bootstrapping a new venture as potential solutions",
+                  "concise_explanation": "user mentions two possible next steps",
+                  "supporting_utterance_span": "Should I look for a job or try to bootstrap something else?",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user feels deeply responsible for the failure",
+                    "concise_explanation": "feels like they've 'let everyone down'",
+                    "supporting_utterance_span": "I feel like I\u2019ve let everyone down",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_susceptibility": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user believes they are likely to experience another failure",
+                    "concise_explanation": "user expresses fear of another failure",
+                    "supporting_utterance_span": "I\u2019m scared of another failure",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user fears that taking a job will lead to loss of creative identity",
+                    "concise_explanation": "fear of losing creative freedom",
+                    "supporting_utterance_span": "I\u2019m scared of losing the creative freedom that built me",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_severity",
+                "explanation": "the financial stress and sense of failure reinforce each other",
+                "supporting_utterance_span": "leaving me with debt and a crushing sense of failure",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_barriers",
+                "attribute_2": "perceived_susceptibility",
+                "explanation": "the user's fear of another failure (low_self_esteem) is exacerbated by the debt (financial_stress), creating a reinforcing cycle",
+                "supporting_utterance_span": "the debt is looming and I\u2019m scared of another failure",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's financial stress is exacerbating their low self-esteem, making them more fearful of taking risks",
+                "supporting_utterance_span": "I\u2019m torn between a steady job that could help pay the debt and something new that might let me use my skills",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              3
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "cues_to_action": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user is considering the pros and cons of different career paths",
+                    "concise_explanation": "weighing options",
+                    "supporting_utterance_span": "I\u2019m torn between a steady job and something new",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.5638165713738822,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "cues_to_action",
+                "attribute_2": "perceived_severity",
+                "explanation": "the user's financial stress is driving their consideration of different career paths",
+                "supporting_utterance_span": "a steady job that could help pay the debt",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "main_problem": "financial_stress"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be financial_stress, with a current TTM stage of contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is weighing the pros and cons of different options and is ambivalent about change. It should be applied by reflecting the user's feelings and concerns, using evidence such as their perceived severity of debt and fear of another failure. The user also shows high perceived barriers, with concerns about losing creative freedom. Because of this, the response should use T6 Options Menu, presenting the user with a choice between exploring the potential benefits of a steady job and the potential risks of bootstrapping a new venture. The user intent in this turn is to explore options, so the response should acknowledge this intent and guide the user in weighing the pros and cons of each option. Relevant connected problems suggest a reinforcing relationship between financial_stress and low_self_esteem, with the user's sense of failure exacerbating their financial stress. This evidence should be used by surfacing the user's feelings of responsibility and fear of failure in a non-judgmental way. Overall, the response should try to improve the user's motivation and self-efficacy, while avoiding giving unsolicited advice or overwhelming the user with too many options.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of being torn between a steady job and something new, then use T8 Change Talk to explore the user's own reasons for change. I'll name the user's concerns about losing creative freedom and the potential benefits of a steady job, and ask an open question to guide the user in weighing the pros and cons of each option. I'll skip the connection to low_self_esteem this turn, focusing on the user's immediate concerns about financial_stress.",
+        "final_response": "You're feeling torn between the security of a steady job and the potential of something new that could let you use your skills, but you're scared of losing the creative freedom that's important to you. What are some of the things that you think would need to happen for you to feel confident in choosing one path over the other?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem",
+          "career_uncertainty"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "cues_to_action"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe debt as a significant threat to their financial stability, consistent with previous assessments.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees debt as a significant threat to their financial stability"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now fears that taking a job will lead to loss of creative identity, indicating a significant barrier to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user fears that taking a job will lead to loss of creative identity"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "cues_to_action",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User is considering the pros and cons of different career paths, indicating a strong cue to action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is considering the pros and cons of different career paths"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and weigh options, but has not yet taken concrete steps towards change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees debt as a significant obstacle to moving forward"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees debt as a significant threat to their financial stability"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem and is considering the potential consequences of change, but has not yet taken concrete steps.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels deeply responsible for the failure"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes they are likely to experience another failure"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user fears that taking a job will lead to loss of creative identity"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User is now considering the pros and cons of different career paths, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is considering the pros and cons of different career paths"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "Honestly, I don\u2019t know what would make me feel confident. The debt feels like a huge weight and I\u2019m torn between a safe job and keeping my creative freedom. All I see is a choice, but I can\u2019t see a clear path forward.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User is weighing the pros and cons of different options and seeking clarity on their next steps.",
+          "supporting_utterance_span": "I\u2019m torn between a safe job and keeping my creative freedom"
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "debt is a huge weight",
+            "supporting_utterance_span": "The debt feels like a huge weight"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "feeling of being stuck and uncertain",
+            "supporting_utterance_span": "I don\u2019t know what would make me feel confident"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "weighing options for next steps",
+            "supporting_utterance_span": "I\u2019m torn between a safe job and keeping my creative freedom"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "user is currently focused on deciding between different career paths",
+          "supporting_utterance_span": "I\u2019m torn between a safe job and keeping my creative freedom"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "debt is overwhelming",
+            "concise_explanation": "debt is a huge weight",
+            "supporting_utterance_span": "The debt feels like a huge weight",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "fear of losing creative freedom is a significant barrier",
+            "concise_explanation": "creative freedom is important",
+            "supporting_utterance_span": "I\u2019m scared of losing the creative freedom that built me",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "self_efficacy",
+            "attribute_type": "level",
+            "inferred_information": "user lacks confidence in their ability to make a decision",
+            "concise_explanation": "user is unsure what would make them feel confident",
+            "supporting_utterance_span": "I don\u2019t know what would make me feel confident",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "financial_stress",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems are being considered in the user's decision-making process",
+            "supporting_utterance_span": "I\u2019m torn between a safe job and keeping my creative freedom"
+          },
+          {
+            "problem_1": "career_uncertainty",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "user's lack of confidence is affecting their ability to make a career decision",
+            "supporting_utterance_span": "I don\u2019t know what would make me feel confident"
+          },
+          {
+            "problem_1": "financial_stress",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "user's financial stress is contributing to their feelings of low self-esteem",
+            "supporting_utterance_span": "The debt feels like a huge weight"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "financial_stress",
+            "attribute_1": "perceived_severity",
+            "problem_2": "career_uncertainty",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the user's financial stress is reinforcing their fear of losing creative freedom",
+            "supporting_utterance_span": "The debt feels like a huge weight and I\u2019m torn between a safe job and keeping my creative freedom",
+            "confidence": "medium"
+          },
+          {
+            "problem_1": "low_self_esteem",
+            "attribute_1": "self_efficacy",
+            "problem_2": "career_uncertainty",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "causal",
+            "connection_explanation": "the user's lack of confidence is causing them to perceive more barriers to making a career decision",
+            "supporting_utterance_span": "I don\u2019t know what would make me feel confident and I\u2019m torn between a safe job and keeping my creative freedom",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the debt as overwhelming, consistent with previous expressions of the debt being a significant threat to their financial stability.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees debt as a significant threat to their financial stability"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "debt is overwhelming"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User identifies fear of losing creative freedom as a significant barrier, providing sufficient evidence to update the level.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "fear of losing creative freedom is a significant barrier"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "self_efficacy",
+            "old_level": "unknown",
+            "new_level": "low",
+            "reasoning": "User lacks confidence in their ability to make a decision, indicating a low level of self-efficacy.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user lacks confidence in their ability to make a decision"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and express the severity of the debt, but there is no evidence of progression towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees debt as a significant obstacle to moving forward"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees debt as a significant threat to their financial stability"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "debt is overwhelming"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their lack of confidence but does not express any intention to act or prepare for change, keeping the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels deeply responsible for the failure"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes they are likely to experience another failure"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user fears that taking a job will lead to loss of creative identity"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user lacks confidence in their ability to make a decision"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User is considering the pros and cons of different career paths and identifies a significant barrier, indicating continued contemplation without progression towards preparation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is considering the pros and cons of different career paths"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "fear of losing creative freedom is a significant barrier"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "Honestly, I don\u2019t know what would make me feel confident. The debt feels like a huge weight and I\u2019m torn between a safe job and keeping my creative freedom. All I see is a choice, but I can\u2019t see a clear path forward.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "Honestly, I\u2019m at a loss. I poured my life savings into this company, and now it\u2019s just gone, leaving me with debt and a crushing sense of failure. I feel like I\u2019ve let everyone down. I\u2019m not sure what to do next."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling overwhelmed by the loss of your company and the debt that's left you with a deep sense of failure. You've invested so much of yourself in this, and it's understandable that you're not sure what to do next. Would you like to talk more about what's been going through your mind since this happened?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I\u2019m trying to figure out a next step but I feel stuck. I know I have some skills, but the debt is looming and I\u2019m scared of another failure. Should I look for a job or try to bootstrap something else?"
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "You're feeling stuck and scared about what's next, with the debt looming and a fear of another failure. What are your thoughts on looking for a job versus trying to bootstrap something new - is one of these options standing out to you, or are you still weighing the pros and cons of each?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I\u2019m torn between a steady job that could help pay the debt and something new that might let me use my skills. A job feels safer, but I\u2019m scared of losing the creative freedom that built me. I don\u2019t know which path to take."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "You're feeling torn between the security of a steady job and the potential of something new that could let you use your skills, but you're scared of losing the creative freedom that's important to you. What are some of the things that you think would need to happen for you to feel confident in choosing one path over the other?"
+          }
+        ],
+        "last_system_message": "You're feeling torn between the security of a steady job and the potential of something new that could let you use your skills, but you're scared of losing the creative freedom that's important to you. What are some of the things that you think would need to happen for you to feel confident in choosing one path over the other?",
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            3
+          ],
+          "last_mentioned": [
+            1,
+            4
+          ],
+          "level_attributes": {
+            "cues_to_action": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user is considering the pros and cons of different career paths",
+                  "concise_explanation": "weighing options",
+                  "supporting_utterance_span": "I\u2019m torn between a steady job and something new",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "fear of losing creative freedom is a significant barrier",
+                  "concise_explanation": "creative freedom is important",
+                  "supporting_utterance_span": "I\u2019m scared of losing the creative freedom that built me",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "financial_stress",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user sees the debt as a significant threat",
+                    "concise_explanation": "describes debt as 'crushing'",
+                    "supporting_utterance_span": "leaving me with debt and a crushing sense of failure",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user sees debt as a significant threat to their financial stability",
+                    "concise_explanation": "debt is 'looming'",
+                    "supporting_utterance_span": "the debt is looming",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "debt is overwhelming",
+                    "concise_explanation": "debt is a huge weight",
+                    "supporting_utterance_span": "The debt feels like a huge weight",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees debt as a significant obstacle to moving forward",
+                    "concise_explanation": "debt is described as 'looming'",
+                    "supporting_utterance_span": "the debt is looming",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "coping_strategies": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user is considering looking for a job or bootstrapping a new venture as potential solutions",
+                    "concise_explanation": "user mentions two possible next steps",
+                    "supporting_utterance_span": "Should I look for a job or try to bootstrap something else?",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.80706085027984,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "cues_to_action",
+                "attribute_2": "perceived_severity",
+                "explanation": "the user's financial stress is driving their consideration of different career paths",
+                "supporting_utterance_span": "a steady job that could help pay the debt",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's financial stress is reinforcing their fear of losing creative freedom",
+                "supporting_utterance_span": "The debt feels like a huge weight and I\u2019m torn between a safe job and keeping my creative freedom",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              }
+            ]
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user feels deeply responsible for the failure",
+                    "concise_explanation": "feels like they've 'let everyone down'",
+                    "supporting_utterance_span": "I feel like I\u2019ve let everyone down",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_susceptibility": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user believes they are likely to experience another failure",
+                    "concise_explanation": "user expresses fear of another failure",
+                    "supporting_utterance_span": "I\u2019m scared of another failure",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user fears that taking a job will lead to loss of creative identity",
+                    "concise_explanation": "fear of losing creative freedom",
+                    "supporting_utterance_span": "I\u2019m scared of losing the creative freedom that built me",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "self_efficacy": {
+                "current_level": "low",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user lacks confidence in their ability to make a decision",
+                    "concise_explanation": "user is unsure what would make them feel confident",
+                    "supporting_utterance_span": "I don\u2019t know what would make me feel confident",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.5739870461398434,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "self_efficacy",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's lack of confidence is causing them to perceive more barriers to making a career decision",
+                "supporting_utterance_span": "I don\u2019t know what would make me feel confident and I\u2019m torn between a safe job and keeping my creative freedom",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "main_problem": "career_uncertainty"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be career_uncertainty, with a current TTM stage of contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is weighing the pros and cons of different career paths and is torn between a safe job and keeping their creative freedom. It should be applied by reflecting the user's feelings and concerns, using evidence such as their perceived barriers (fear of losing creative freedom) and cues to action (considering the pros and cons of different career paths). The user also shows high perceived barriers and low self-efficacy, which suggests that they are struggling to make a decision. Because of this, the response should use T10 Action Planning, but given the user's low self-efficacy, it should be applied by focusing on a micro-step, such as exploring one aspect of their creative freedom. The user intent in this turn is to explore options, which suggests that they are looking for a way to move forward. Because of this, the response should use T4 Open Question, by asking the user to elaborate on what they mean by 'a clear path forward'. Relevant connected problems suggest that the user's financial stress is driving their consideration of different career paths, and that their lack of confidence is causing them to perceive more barriers to making a career decision. This evidence should be used by surfacing the connection between the user's financial stress and their career uncertainty, but without overwhelming the user. Overall, the response should try to improve the user's self-efficacy and clarity, while avoiding giving unsolicited advice or pivoting to the secondary problems.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings and concerns, then use T8 Change Talk to invite the user to explore their own reasons for wanting to keep their creative freedom. I'll skip the connection to financial stress this turn, and instead focus on the user's perceived barriers and cues to action. I'll use T4 Open Question to ask the user to elaborate on what they mean by 'a clear path forward', and avoid giving unsolicited advice or planning techniques that might overwhelm the user.",
+        "final_response": "It sounds like the debt and the fear of losing your creative freedom are weighing heavily on you, and you're struggling to see a clear path forward. What does 'a clear path forward' mean to you - is it having a sense of direction, or feeling more confident in your abilities? You've mentioned that you're torn between a safe job and keeping your creative freedom, and that you're not sure what would make you feel confident in choosing one path over the other."
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem",
+          "career_uncertainty"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "self_efficacy"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the debt as overwhelming, consistent with previous expressions of the debt being a significant threat to their financial stability.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees debt as a significant threat to their financial stability"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "debt is overwhelming"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User identifies fear of losing creative freedom as a significant barrier, providing sufficient evidence to update the level.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "fear of losing creative freedom is a significant barrier"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "self_efficacy",
+            "old_level": "unknown",
+            "new_level": "low",
+            "reasoning": "User lacks confidence in their ability to make a decision, indicating a low level of self-efficacy.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user lacks confidence in their ability to make a decision"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and express the severity of the debt, but there is no evidence of progression towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees debt as a significant obstacle to moving forward"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees debt as a significant threat to their financial stability"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "debt is overwhelming"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their lack of confidence but does not express any intention to act or prepare for change, keeping the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels deeply responsible for the failure"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user believes they are likely to experience another failure"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user fears that taking a job will lead to loss of creative identity"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user lacks confidence in their ability to make a decision"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User is considering the pros and cons of different career paths and identifies a significant barrier, indicating continued contemplation without progression towards preparation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is considering the pros and cons of different career paths"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "fear of losing creative freedom is a significant barrier"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark that made me start the company. I'm scared that if I try to build something new again, I'll just end up deeper in debt. I don't see how to balance both.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User is weighing the pros and cons of taking a steady job versus building something new, and is seeking to balance both options.",
+          "supporting_utterance_span": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark"
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "debt from company and fear of deeper debt",
+            "supporting_utterance_span": "I'm scared that if I try to build something new again, I'll just end up deeper in debt"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "fear of giving up creative spark and feeling like a failure",
+            "supporting_utterance_span": "it feels like giving up the creative spark that made me start the company"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "weighing steady job versus building something new",
+            "supporting_utterance_span": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "user is currently focused on deciding between a steady job and building something new",
+          "supporting_utterance_span": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees debt as a significant and pressing issue",
+            "concise_explanation": "debt is described as a 'huge weight'",
+            "supporting_utterance_span": "I'm scared that if I try to build something new again, I'll just end up deeper in debt",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user feels that taking a steady job would be giving up on their creative spark and sense of self",
+            "concise_explanation": "user describes taking a steady job as 'giving up the creative spark'",
+            "supporting_utterance_span": "it feels like giving up the creative spark that made me start the company",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "cues_to_action",
+            "attribute_type": "level",
+            "inferred_information": "user is considering taking action to address their career uncertainty, but is unsure which path to take",
+            "concise_explanation": "user is weighing pros and cons of different options",
+            "supporting_utterance_span": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "financial_stress",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems are discussed in the context of the user's decision about taking a steady job or building something new",
+            "supporting_utterance_span": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark"
+          },
+          {
+            "problem_1": "low_self_esteem",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "user's fear of giving up their creative spark is related to their sense of self and identity",
+            "supporting_utterance_span": "it feels like giving up the creative spark that made me start the company"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "financial_stress",
+            "attribute_1": "perceived_severity",
+            "problem_2": "career_uncertainty",
+            "attribute_2": "cues_to_action",
+            "relation_type": "causal",
+            "connection_explanation": "the user's perception of the severity of their financial stress is influencing their consideration of taking action to address their career uncertainty",
+            "supporting_utterance_span": "I'm scared that if I try to build something new again, I'll just end up deeper in debt",
+            "confidence": "medium"
+          },
+          {
+            "problem_1": "low_self_esteem",
+            "attribute_1": "perceived_barriers",
+            "problem_2": "career_uncertainty",
+            "attribute_2": "cues_to_action",
+            "relation_type": "conflicting",
+            "connection_explanation": "the user's perception of the barriers to taking a steady job (giving up creative spark) is in conflict with their desire to take action to address their career uncertainty",
+            "supporting_utterance_span": "it feels like giving up the creative spark that made me start the company",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe debt as a significant and pressing issue, with no indication of a decrease in perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees debt as a significant threat to their financial stability"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "debt is overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees debt as a significant and pressing issue"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to express concerns about losing their creative identity and sense of self if they take a steady job, indicating no change in perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user fears that taking a job will lead to loss of creative identity"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels that taking a steady job would be giving up on their creative spark and sense of self"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "cues_to_action",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User is still considering taking action to address their career uncertainty, indicating no decrease in cues to action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is considering the pros and cons of different career paths"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user is considering taking action to address their career uncertainty, but is unsure which path to take"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and express concerns about debt, but there is no indication of a move towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user sees debt as a significant obstacle to moving forward"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_severity: user sees debt as a significant threat to their financial stability"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_severity: debt is overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "perceived_severity: user sees debt as a significant and pressing issue"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to express concerns about their self-esteem and the potential consequences of taking a steady job, but there is no indication of a move towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user feels deeply responsible for the failure"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user fears that taking a job will lead to loss of creative identity"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "self_efficacy: user lacks confidence in their ability to make a decision"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "perceived_barriers: user feels that taking a steady job would be giving up on their creative spark and sense of self"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User is considering taking action to address their career uncertainty and is weighing the pros and cons of different career paths, indicating a move towards preparation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "cues_to_action: user is considering the pros and cons of different career paths"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_barriers: fear of losing creative freedom is a significant barrier"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "cues_to_action: user is considering taking action to address their career uncertainty, but is unsure which path to take"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark that made me start the company. I'm scared that if I try to build something new again, I'll just end up deeper in debt. I don't see how to balance both.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "Honestly, I\u2019m at a loss. I poured my life savings into this company, and now it\u2019s just gone, leaving me with debt and a crushing sense of failure. I feel like I\u2019ve let everyone down. I\u2019m not sure what to do next."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling overwhelmed by the loss of your company and the debt that's left you with a deep sense of failure. You've invested so much of yourself in this, and it's understandable that you're not sure what to do next. Would you like to talk more about what's been going through your mind since this happened?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I\u2019m trying to figure out a next step but I feel stuck. I know I have some skills, but the debt is looming and I\u2019m scared of another failure. Should I look for a job or try to bootstrap something else?"
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "You're feeling stuck and scared about what's next, with the debt looming and a fear of another failure. What are your thoughts on looking for a job versus trying to bootstrap something new - is one of these options standing out to you, or are you still weighing the pros and cons of each?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I\u2019m torn between a steady job that could help pay the debt and something new that might let me use my skills. A job feels safer, but I\u2019m scared of losing the creative freedom that built me. I don\u2019t know which path to take."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "You're feeling torn between the security of a steady job and the potential of something new that could let you use your skills, but you're scared of losing the creative freedom that's important to you. What are some of the things that you think would need to happen for you to feel confident in choosing one path over the other?"
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "Honestly, I don\u2019t know what would make me feel confident. The debt feels like a huge weight and I\u2019m torn between a safe job and keeping my creative freedom. All I see is a choice, but I can\u2019t see a clear path forward."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "It sounds like the debt and the fear of losing your creative freedom are weighing heavily on you, and you're struggling to see a clear path forward. What does 'a clear path forward' mean to you - is it having a sense of direction, or feeling more confident in your abilities? You've mentioned that you're torn between a safe job and keeping your creative freedom, and that you're not sure what would make you feel confident in choosing one path over the other."
+          }
+        ],
+        "last_system_message": "It sounds like the debt and the fear of losing your creative freedom are weighing heavily on you, and you're struggling to see a clear path forward. What does 'a clear path forward' mean to you - is it having a sense of direction, or feeling more confident in your abilities? You've mentioned that you're torn between a safe job and keeping your creative freedom, and that you're not sure what would make you feel confident in choosing one path over the other.",
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "current_ttm_stage": "preparation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            3
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "cues_to_action": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user is considering the pros and cons of different career paths",
+                  "concise_explanation": "weighing options",
+                  "supporting_utterance_span": "I\u2019m torn between a steady job and something new",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user is considering taking action to address their career uncertainty, but is unsure which path to take",
+                  "concise_explanation": "user is weighing pros and cons of different options",
+                  "supporting_utterance_span": "I keep circling back to a steady job to pay off the debt, but it feels like giving up the creative spark",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "fear of losing creative freedom is a significant barrier",
+                  "concise_explanation": "creative freedom is important",
+                  "supporting_utterance_span": "I\u2019m scared of losing the creative freedom that built me",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "financial_stress",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user sees debt as a significant threat to their financial stability",
+                    "concise_explanation": "debt is 'looming'",
+                    "supporting_utterance_span": "the debt is looming",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "debt is overwhelming",
+                    "concise_explanation": "debt is a huge weight",
+                    "supporting_utterance_span": "The debt feels like a huge weight",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "user sees debt as a significant and pressing issue",
+                    "concise_explanation": "debt is described as a 'huge weight'",
+                    "supporting_utterance_span": "I'm scared that if I try to build something new again, I'll just end up deeper in debt",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees debt as a significant obstacle to moving forward",
+                    "concise_explanation": "debt is described as 'looming'",
+                    "supporting_utterance_span": "the debt is looming",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "coping_strategies": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user is considering looking for a job or bootstrapping a new venture as potential solutions",
+                    "concise_explanation": "user mentions two possible next steps",
+                    "supporting_utterance_span": "Should I look for a job or try to bootstrap something else?",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.9531281492085265,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "cues_to_action",
+                "attribute_2": "perceived_severity",
+                "explanation": "the user's financial stress is driving their consideration of different career paths",
+                "supporting_utterance_span": "a steady job that could help pay the debt",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's financial stress is reinforcing their fear of losing creative freedom",
+                "supporting_utterance_span": "The debt feels like a huge weight and I\u2019m torn between a safe job and keeping my creative freedom",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "cues_to_action",
+                "explanation": "the user's perception of the severity of their financial stress is influencing their consideration of taking action to address their career uncertainty",
+                "supporting_utterance_span": "I'm scared that if I try to build something new again, I'll just end up deeper in debt",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user feels deeply responsible for the failure",
+                    "concise_explanation": "feels like they've 'let everyone down'",
+                    "supporting_utterance_span": "I feel like I\u2019ve let everyone down",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_susceptibility": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user believes they are likely to experience another failure",
+                    "concise_explanation": "user expresses fear of another failure",
+                    "supporting_utterance_span": "I\u2019m scared of another failure",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user fears that taking a job will lead to loss of creative identity",
+                    "concise_explanation": "fear of losing creative freedom",
+                    "supporting_utterance_span": "I\u2019m scared of losing the creative freedom that built me",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "user feels that taking a steady job would be giving up on their creative spark and sense of self",
+                    "concise_explanation": "user describes taking a steady job as 'giving up the creative spark'",
+                    "supporting_utterance_span": "it feels like giving up the creative spark that made me start the company",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "self_efficacy": {
+                "current_level": "low",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user lacks confidence in their ability to make a decision",
+                    "concise_explanation": "user is unsure what would make them feel confident",
+                    "supporting_utterance_span": "I don\u2019t know what would make me feel confident",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.8436443979489779,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "self_efficacy",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's lack of confidence is causing them to perceive more barriers to making a career decision",
+                "supporting_utterance_span": "I don\u2019t know what would make me feel confident and I\u2019m torn between a safe job and keeping my creative freedom",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              },
+              {
+                "relation_type": "conflicting",
+                "attribute_1": "perceived_barriers",
+                "attribute_2": "cues_to_action",
+                "explanation": "the user's perception of the barriers to taking a steady job (giving up creative spark) is in conflict with their desire to take action to address their career uncertainty",
+                "supporting_utterance_span": "it feels like giving up the creative spark that made me start the company",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "main_problem": "career_uncertainty"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be career_uncertainty, with a current TTM stage of preparation. Because of this, the response should use T4 Open Question and T10 Action Planning. This technique is appropriate because the user is considering taking action to address their career uncertainty, but is unsure which path to take. It should be applied by exploring the user's thoughts on balancing their creative spark with the need to pay off debt, using evidence such as their perceived barriers (fear of losing creative freedom) and cues to action (considering a steady job to pay off debt). The user also shows high perceived barriers (fear of losing creative freedom) and high cues to action (considering a steady job to pay off debt). Because of this, the response should use T6 Options Menu to help the user weigh the pros and cons of each option. The user intent in this turn is to explore options, so the response should acknowledge this intent and guide the user in exploring their thoughts and feelings about each option. Relevant connected problems suggest a causal relationship between financial_stress and career_uncertainty, with the user's financial stress driving their consideration of different career paths. This evidence should be used by reflecting the user's concerns about debt and creative freedom, and exploring how these concerns are influencing their career decisions. Overall, the response should try to improve the user's clarity and planning, while avoiding giving unsolicited advice or overwhelming the user with too many options.",
+        "response_reasoning": "I'll use T4 Open Question to explore the user's thoughts on balancing their creative spark with the need to pay off debt, and T10 Action Planning to help the user consider small steps they could take to address their career uncertainty. I'll surface the user's perceived barriers (fear of losing creative freedom) and cues to action (considering a steady job to pay off debt), and use these to inform the user's exploration of options. I'll drop the connection to low_self_esteem for now, as it's not directly relevant to the user's current concerns.",
+        "final_response": "It sounds like you're feeling torn between pursuing a steady job to pay off debt and preserving your creative spark. What would need to happen for you to feel like you're balancing both, or is there one aspect that feels more pressing to address right now?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem",
+          "career_uncertainty"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "cues_to_action"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe debt as a significant and pressing issue, with no indication of a decrease in perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the debt as a significant threat"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees debt as a significant threat to their financial stability"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "debt is overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees debt as a significant and pressing issue"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to express concerns about losing their creative identity and sense of self if they take a steady job, indicating no change in perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user fears that taking a job will lead to loss of creative identity"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels that taking a steady job would be giving up on their creative spark and sense of self"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "cues_to_action",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User is still considering taking action to address their career uncertainty, indicating no decrease in cues to action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is considering the pros and cons of different career paths"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user is considering taking action to address their career uncertainty, but is unsure which path to take"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and express concerns about debt, but there is no indication of a move towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user sees debt as a significant obstacle to moving forward"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_severity: user sees debt as a significant threat to their financial stability"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_severity: debt is overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "perceived_severity: user sees debt as a significant and pressing issue"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to express concerns about their self-esteem and the potential consequences of taking a steady job, but there is no indication of a move towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user feels deeply responsible for the failure"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user fears that taking a job will lead to loss of creative identity"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "self_efficacy: user lacks confidence in their ability to make a decision"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "perceived_barriers: user feels that taking a steady job would be giving up on their creative spark and sense of self"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User is considering taking action to address their career uncertainty and is weighing the pros and cons of different career paths, indicating a move towards preparation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "cues_to_action: user is considering the pros and cons of different career paths"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_barriers: fear of losing creative freedom is a significant barrier"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "cues_to_action: user is considering taking action to address their career uncertainty, but is unsure which path to take"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 2,
+        "attr_conn_added": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "profile_id": "P18",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "emotional",
+      "overwhelmed",
+      "anxious"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": "limited, friend moved away, dad needs care",
+    "hobbies_interests": [],
+    "communication_style": "emotional, expressive",
+    "relevant_history": "friend moved away, caring for dad",
+    "general_behavioral_traits": [
+      "overwhelmed",
+      "emotionally reactive"
+    ]
+  },
+  "problems": {
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels overwhelmed by work",
+              "concise_explanation": "work piling up",
+              "supporting_utterance_span": "Work is piling up",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels overwhelmed by work",
+              "concise_explanation": "work piles up",
+              "supporting_utterance_span": "The work piles up",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees work stress as highly severe",
+              "concise_explanation": "work piles up, feeling of snapping",
+              "supporting_utterance_span": "The work piles up, I feel like I'm going to snap",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees work deadlines as unsustainable",
+              "concise_explanation": "deadlines are 'keeping coming'",
+              "supporting_utterance_span": "The work deadlines keep coming",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees work deadlines as unsustainable",
+              "concise_explanation": "feeling of being overwhelmed",
+              "supporting_utterance_span": "I don't even know how to keep my head above water",
+              "confidence": "high"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "low",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user is questioning their ability to continue",
+              "concise_explanation": "keep wondering if I can keep doing this forever",
+              "supporting_utterance_span": "I keep wondering if I can keep doing this forever",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "conflicts_with_parents": {
+      "problem_name": "conflicts_with_parents",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels burdened by dad's constant needs",
+              "concise_explanation": "dad needs me constantly",
+              "supporting_utterance_span": "my dad needs me constantly",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees dad's needs as highly demanding",
+              "concise_explanation": "dad needs me constantly",
+              "supporting_utterance_span": "my dad needs me constantly",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees dad's needs as relentless",
+              "concise_explanation": "dad's needs 'never stop'",
+              "supporting_utterance_span": "my dad's needs never stop",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees dad's needs as constant and overwhelming",
+              "concise_explanation": "dad's needs never stop",
+              "supporting_utterance_span": "my dad needs me constantly",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "loneliness": {
+      "problem_name": "loneliness",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels isolated",
+              "concise_explanation": "barely have anyone to talk to",
+              "supporting_utterance_span": "I barely have anyone to talk to",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees loneliness as highly distressing",
+              "concise_explanation": "feeling alone after friend left",
+              "supporting_utterance_span": "I feel so alone after my friend left",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user feels isolated after friend moved away",
+              "concise_explanation": "no one to 'lean on'",
+              "supporting_utterance_span": "I have no one to lean on after my friend moved away",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels alone and without support",
+              "concise_explanation": "no one to lean on",
+              "supporting_utterance_span": "I have no one to lean on",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "friend's departure exacerbates feelings of loneliness",
+              "concise_explanation": "feeling alone after friend left",
+              "supporting_utterance_span": "I feel so alone after my friend left",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "conflicts_with_parents",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems mentioned in the same turn",
+          "supporting_utterance_span": "Work is piling up, my dad needs me"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems mentioned as contributing to feelings of overwhelm",
+          "supporting_utterance_span": "The work piles up, my dad needs me constantly"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both work stress and conflicts with parents are discussed in the same turn",
+          "supporting_utterance_span": "The work piles up, my dad needs me constantly"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both work deadlines and dad's needs contribute to feeling overwhelmed",
+          "supporting_utterance_span": "The work deadlines keep coming, my dad's needs never stop"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "work deadlines and my dad needs me"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the user's feelings of overwhelm by work and burdened by dad's needs reinforce each other",
+          "supporting_utterance_span": "The work piles up, my dad needs me constantly",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the high severity of work stress and conflicts with parents reinforce each other",
+          "supporting_utterance_span": "The work piles up, my dad needs me constantly",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "work deadlines and dad's needs reinforce each other in contributing to feeling overwhelmed",
+          "supporting_utterance_span": "The work deadlines keep coming, my dad's needs never stop",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "work deadlines and dad's needs both contribute to the feeling of being overwhelmed",
+          "supporting_utterance_span": "work deadlines and my dad needs me",
+          "confidence": "high"
+        }
+      ],
+      "weight": 1.0
+    },
+    {
+      "problem_1": "loneliness",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems mentioned in the same turn",
+          "supporting_utterance_span": "Work is piling up, I barely have anyone to talk to"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems mentioned as part of the user's current struggles",
+          "supporting_utterance_span": "The work piles up, my dad needs me constantly, and I feel so alone after my friend left"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both work stress and loneliness are discussed in the same turn",
+          "supporting_utterance_span": "The work piles up, I feel so alone after my friend left"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "work deadlines and lack of social support contribute to feeling overwhelmed",
+          "supporting_utterance_span": "The work deadlines keep coming, I have no one to lean on after my friend moved away"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "work deadlines and I have no one to lean on"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "the user's feelings of overwhelm by work may contribute to their feelings of loneliness",
+          "supporting_utterance_span": "The work piles up, and I feel so alone after my friend left",
+          "confidence": "low"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the high severity of work stress and loneliness reinforce each other",
+          "supporting_utterance_span": "The work piles up, I feel so alone after my friend left",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "work deadlines and lack of social support reinforce each other in contributing to feeling overwhelmed",
+          "supporting_utterance_span": "The work deadlines keep coming, I have no one to lean on after my friend moved away",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "work deadlines and feeling alone both contribute to the feeling of being overwhelmed",
+          "supporting_utterance_span": "work deadlines and I have no one to lean on",
+          "confidence": "high"
+        }
+      ],
+      "weight": 0.9782228350633104
+    },
+    {
+      "problem_1": "conflicts_with_parents",
+      "problem_2": "loneliness",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems mentioned in the same turn",
+          "supporting_utterance_span": "my dad needs me, I barely have anyone to talk to"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems mentioned as part of the user's current struggles",
+          "supporting_utterance_span": "my dad needs me constantly, and I feel so alone after my friend left"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both conflicts with parents and loneliness are discussed in the same turn",
+          "supporting_utterance_span": "my dad needs me constantly, I feel so alone after my friend left"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "dad's needs and lack of social support contribute to feeling overwhelmed",
+          "supporting_utterance_span": "my dad's needs never stop, I have no one to lean on after my friend moved away"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "my dad needs me and I have no one to lean on"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "the user's feelings of burdened by dad's needs may contribute to their feelings of loneliness",
+          "supporting_utterance_span": "my dad needs me constantly, and I feel so alone after my friend left",
+          "confidence": "low"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the high severity of conflicts with parents and loneliness reinforce each other",
+          "supporting_utterance_span": "my dad needs me constantly, I feel so alone after my friend left",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "dad's needs and lack of social support reinforce each other in contributing to feeling overwhelmed",
+          "supporting_utterance_span": "my dad's needs never stop, I have no one to lean on after my friend moved away",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "dad's needs and feeling alone both contribute to the feeling of being overwhelmed",
+          "supporting_utterance_span": "my dad needs me and I have no one to lean on",
+          "confidence": "high"
+        }
+      ],
+      "weight": 0.9782228350633104
+    }
+  ]
+}

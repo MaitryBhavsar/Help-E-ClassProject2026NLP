@@ -1,0 +1,1769 @@
+{
+  "session_id": 1,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-critical, anxious, perfectionistic",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep worrying about every detail and end up staring at the screen, not moving."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "It feels like the whole project is a test of my worth, and I\u2019m terrified of failing."
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I keep doubting whether I can actually finish on time, which makes me feel like a failure."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I am not good enough, I will fail if I make a mistake",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm not cut out for this."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I keep thinking I'm not good enough and that feels like a personal failure."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "It feels like the whole project is a test of my worth, and I\u2019m terrified of failing."
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "creating comic books",
+      "evidence_citations": [
+        {
+          "turn_id": 3,
+          "excerpt": "I finished that comic book project last year"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "that successful comic book project"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, introspective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm drowning in this deadline, and the client's criticism just made me doubt my whole skill set."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "It feels like the whole project is a test of my worth, and I\u2019m terrified of failing."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "past success with comic book project, current struggle with deadline and criticism",
+      "evidence_citations": [
+        {
+          "turn_id": 3,
+          "excerpt": "I finished that comic book project last year"
+        },
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm drowning in this deadline, and the client's criticism just made me doubt my whole skill set."
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, avoidant",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep worrying about every detail and end up staring at the screen, not moving."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I feel like I'm not good enough and the deadline just makes that fear louder."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I\u2019m worried the client will just point out more flaws. I don\u2019t know if I can handle that criticism."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I feel like I'm drowning in this deadline, and the client's criticism just made me doubt my whole skill set. I keep worrying about every detail and end up staring at the screen, not moving. It's exhausting, and I can't shake the feeling that maybe I'm not cut out for this."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The client's criticism really seems to have knocked you off balance, and now you're questioning whether you're truly cut out for this role. It's like the deadline is looming over you, and every detail feels like a potential mistake. Yeah, it's exhausting when worry takes over like that. Can you tell me more about what's going through your mind when you start worrying about all those details?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Whenever I start worrying, it feels like a loop of 'what if I mess up' and I just stare at the screen. I feel like I'm not good enough and the deadline just makes that fear louder. It's hard to move forward."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "That loop of 'what if I mess up' really seems to be holding you back, and it's like the deadline is amplifying your fears. You mentioned feeling like you're not good enough, and it's hard to move forward when you're stuck in that mindset. Can you think of a time when you overcame a similar fear or self-doubt, no matter how small it might seem?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I can't really remember a time where I felt confident, but maybe when I finished that comic book project last year, even though I was nervous and worried about the client\u2019s reaction. It felt like a win, but I still doubt myself now. It's hard to see how that past success applies to this deadline and the criticism I just got."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're really struggling to see yourself as capable right now, and that's understandable given the criticism and the looming deadline. It's like the fear of not being good enough is overshadowing everything else, including that comic book project you finished last year, which was a win despite your nerves. Yeah, it's hard to connect that past success to your current situation, but maybe that's because the criticism has made you doubt your skills so much. Can you think about what specifically made that comic book project a success, and how those strengths might still be relevant now?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I guess it was because I stuck to my vision, but the criticism just makes me doubt that at all. The deadline feels like a wall and I'm anxious about every detail. I keep thinking I'm not good enough and that feels like a personal failure."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The criticism really seems to have shaken your confidence, and now you're doubting your ability to stick to your vision, which was a key factor in your success with the comic book project. It's like the deadline has become a wall, and every detail feels like a potential mistake. Yeah, it's exhausting when self-doubt takes over like that. You're not just worried about the project; you're worried that you're not good enough, and that feels like a personal failure. Can you tell me more about what you think would happen if you could find a way to silence that self-doubt and focus on your strengths?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "If I could just quiet that self\u2011doubt, maybe I'd actually get something done before the deadline, but right now I keep looping over every tiny mistake I could make. It feels like the whole project is a test of my worth, and I\u2019m terrified of failing. I\u2019m not sure if I\u2019m even capable of finishing it on time."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "The deadline feels like a test of your worth, and that's a really heavy burden to carry. You've mentioned that if you could quiet your self-doubt, you might be able to make progress, but right now, it's like every tiny mistake feels like a potential failure. I want to explore that idea of self-doubt with you - what do you think would need to happen for you to feel more confident in your abilities and less worried about making mistakes?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I think I need some concrete feedback from the client before I can move forward, and maybe a short break to reset. Right now the pressure feels overwhelming, and I keep doubting my own judgment."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're feeling really stuck right now and overwhelmed by the deadline, and it's like the client's criticism has made you doubt your own judgment. You've mentioned needing some concrete feedback from the client before you can move forward, which makes sense given your situation. One possible next step could be to ask the client for a specific check-in or progress review, which might help you get the feedback you need to feel more confident in your work. Would that be something you'd be willing to try, or is there another way you think you could get the feedback you need to move forward?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I think asking for a check\u2011in could help, but I\u2019m worried the client will just point out more flaws. I don\u2019t know if I can handle that criticism. Maybe a short break would help, but I\u2019m scared that I\u2019ll miss the deadline."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "You're really worried that asking for a check-in with the client could lead to more criticism, and that's a terrifying prospect when you're already feeling so overwhelmed. It's like the fear of not being good enough is holding you back from taking the steps you need to move forward. Yeah, it's understandable that you're scared of missing the deadline if you take a short break, but at the same time, you feel like you need to reset to avoid burnout. Maybe we can explore what a short break would look like for you, and how you could use that time to recharge and come back to your project with a fresh perspective."
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I\u2019m not sure a break is even realistic\u2014I already feel like I\u2019m falling behind. Maybe I could squeeze in a 10\u2011minute pause, but I\u2019m terrified that I\u2019ll lose momentum and miss the deadline. The idea of stepping back feels risky, yet staying stuck feels worse."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "You're feeling really torn about taking a break, even a short one, because you're scared that you'll lose momentum and miss the deadline. At the same time, staying stuck feels worse, and you're worried that if you don't take a pause, you'll burn out. Yeah, it's a tough spot to be in. Maybe we can explore what a 10-minute pause would look like for you, and how you could use that time to recharge and come back to your project with a fresh perspective. What do you think you could do in those 10 minutes to help you feel more centered and focused?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I\u2019m not even sure a 10\u2011minute break would help\u2014I feel the anxiety just spikes when I think about losing momentum. Maybe a quick pause could reset my brain, but I\u2019m scared the timer will make me feel even more rushed. If I can\u2019t even decide on that, I\u2019m stuck in a loop of doubt and stress."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're really struggling with the idea of taking a break, even a short one, because the anxiety about losing momentum is spiking. It's like the fear of not meeting the deadline is holding you back from taking a pause, even though you feel like you need to reset. Yeah, it's a tough spot to be in. Can you think of anything that's helped you reset or recharge in the past, maybe something that worked for you during that successful comic book project?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I think a quick walk outside used to help me reset, but the clock feels like it's counting down and I can't stop. I keep doubting whether I can actually finish on time, which makes me feel like a failure. Maybe I should try it, but the anxiety makes it hard to even decide."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're feeling really stuck right now, and the pressure of the deadline is making it hard for you to think clearly. It's like the anxiety is spiking whenever you think about taking a break, even a short one. I want to go back to what you mentioned earlier - that a quick walk outside used to help you reset. What do you think is holding you back from trying that now, and how might you be able to use that to your advantage?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I feel like I'm drowning in this deadline, and the client's criticism just made me doubt my whole skill set. I keep worrying about every detail and end up staring at the screen, not moving. It's exhausting, and I can't shake the feeling that maybe I'm not cut out for this.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now. Given their contemplation stage and express_emotion intent, I'll use the evoke strategy to help them explore their ambivalence. The evidence that stands out is their self-doubt triggered by client criticism and their excessive worry about details, which is leading to inaction. My entry will be to acknowledge the overwhelm and self-doubt they're experiencing, specifically how the criticism has impacted their confidence.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "feeling overwhelmed by a deadline and doubted their skills due to client criticism"
+          }
+        ],
+        "final_response": "The client's criticism really seems to have knocked you off balance, and now you're questioning whether you're truly cut out for this role. It's like the deadline is looming over you, and every detail feels like a potential mistake. Yeah, it's exhausting when worry takes over like that. Can you tell me more about what's going through your mind when you start worrying about all those details?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "Whenever I start worrying, it feels like a loop of 'what if I mess up' and I just stare at the screen. I feel like I'm not good enough and the deadline just makes that fear louder. It's hard to move forward.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need me to acknowledge the overwhelming emotions you're experiencing due to work stress. Given your contemplation stage, I'll use the evoke strategy to help you explore your ambivalence. The evidence shows that you're caught in a loop of self-doubt and fear of failure, which is exacerbated by the deadline and client criticism. My entry point will be to reflect on how this loop affects your ability to move forward.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "loop of 'what if I mess up'"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "drowning in this deadline, and the client's criticism just made me doubt my whole skill set"
+          }
+        ],
+        "final_response": "That loop of 'what if I mess up' really seems to be holding you back, and it's like the deadline is amplifying your fears. You mentioned feeling like you're not good enough, and it's hard to move forward when you're stuck in that mindset. Can you think of a time when you overcame a similar fear or self-doubt, no matter how small it might seem?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I can't really remember a time where I felt confident, but maybe when I finished that comic book project last year, even though I was nervous and worried about the client\u2019s reaction. It felt like a win, but I still doubt myself now. It's hard to see how that past success applies to this deadline and the criticism I just got.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle right now, so I'll reflect their feelings first. Given their contemplation stage, I'll use the 'complex_reflection' strategy to help them develop a discrepancy between their current self-doubt and past successes. The evidence shows they're struggling to recall a time when they felt confident, but they did mention a past success with a comic book project, which I can use to highlight their capabilities. My entry will be an empathic acknowledgment of their current self-doubt and how it's affecting them. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "past success with a comic book project"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "feeling like they're not good enough"
+          }
+        ],
+        "final_response": "You're really struggling to see yourself as capable right now, and that's understandable given the criticism and the looming deadline. It's like the fear of not being good enough is overshadowing everything else, including that comic book project you finished last year, which was a win despite your nerves. Yeah, it's hard to connect that past success to your current situation, but maybe that's because the criticism has made you doubt your skills so much. Can you think about what specifically made that comic book project a success, and how those strengths might still be relevant now?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I guess it was because I stuck to my vision, but the criticism just makes me doubt that at all. The deadline feels like a wall and I'm anxious about every detail. I keep thinking I'm not good enough and that feels like a personal failure.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the overwhelm you're feeling right now. Given your contemplation stage with work stress, I think using the 'support' strategy could help, as it allows me to provide a safe space for you to express your emotions. The evidence that stands out to me is your past success with the comic book project, where sticking to your vision was key, and how the recent criticism has made you doubt this ability. My entry point will be to reflect on how the criticism has impacted your confidence and your ability to move forward with the current project.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "User is feeling overwhelmed by a deadline and doubted their skills due to client criticism"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "User mentions a past success with a comic book project, but doubts its relevance to their current situation"
+          }
+        ],
+        "final_response": "The criticism really seems to have shaken your confidence, and now you're doubting your ability to stick to your vision, which was a key factor in your success with the comic book project. It's like the deadline has become a wall, and every detail feels like a potential mistake. Yeah, it's exhausting when self-doubt takes over like that. You're not just worried about the project; you're worried that you're not good enough, and that feels like a personal failure. Can you tell me more about what you think would happen if you could find a way to silence that self-doubt and focus on your strengths?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "If I could just quiet that self\u2011doubt, maybe I'd actually get something done before the deadline, but right now I keep looping over every tiny mistake I could make. It feels like the whole project is a test of my worth, and I\u2019m terrified of failing. I\u2019m not sure if I\u2019m even capable of finishing it on time.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this overwhelming deadline and the self-doubt that's been triggered by the client's criticism. Given your contemplation stage, I think it's essential to use the evoke strategy to help you resolve your ambivalence and move towards preparation. The evidence that stands out to me is your past success with the comic book project, where you stuck to your vision and achieved a positive outcome, which could be a strength you can draw upon now. My entry point will be to acknowledge the fear of failure that's holding you back and explore how that's impacting your ability to move forward.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "past success with comic book project"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "self-doubt and fear of failure"
+          }
+        ],
+        "final_response": "The deadline feels like a test of your worth, and that's a really heavy burden to carry. You've mentioned that if you could quiet your self-doubt, you might be able to make progress, but right now, it's like every tiny mistake feels like a potential failure. I want to explore that idea of self-doubt with you - what do you think would need to happen for you to feel more confident in your abilities and less worried about making mistakes?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 6,
+      "user_message": "I think I need some concrete feedback from the client before I can move forward, and maybe a short break to reset. Right now the pressure feels overwhelming, and I keep doubting my own judgment.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_information",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "seek_information",
+        "intent_entry_style": "Elicit what they know \u2192 provide one piece \u2192 elicit reaction.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help the user navigate their work stress, and they're seeking information on how to move forward. Given their preparation stage, I'll use the advise_with_permission strategy to help them take action. The evidence shows that the user is overwhelmed by the deadline and doubts their skills due to client criticism, but they've had a past success with a comic book project, which could be a strength to build on. The user's desire for concrete feedback from the client and a short break to reset indicates a willingness to take action, so I'll acknowledge this and provide a suggestion. My entry point will be to acknowledge the user's need for concrete feedback and suggest a way to obtain it.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "User is feeling overwhelmed by a deadline and doubts their skills due to client criticism"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "User had a past success with a comic book project, which could be a strength to build on"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "User needs concrete feedback from the client before moving forward and maybe a short break to reset"
+          }
+        ],
+        "final_response": "You're feeling really stuck right now and overwhelmed by the deadline, and it's like the client's criticism has made you doubt your own judgment. You've mentioned needing some concrete feedback from the client before you can move forward, which makes sense given your situation. One possible next step could be to ask the client for a specific check-in or progress review, which might help you get the feedback you need to feel more confident in your work. Would that be something you'd be willing to try, or is there another way you think you could get the feedback you need to move forward?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress"
+        ],
+        "user_intent": "seek_information",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 7,
+      "user_message": "I think asking for a check\u2011in could help, but I\u2019m worried the client will just point out more flaws. I don\u2019t know if I can handle that criticism. Maybe a short break would help, but I\u2019m scared that I\u2019ll miss the deadline.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help you navigate this overwhelming situation with your work stress, and right now, you need someone to acknowledge the fear and self-doubt you're expressing. Given your intent to express emotion, I'll prioritize empathy and reflection. I'll use the support strategy to create a safe space for you to explore your feelings, and then possibly advise_with_permission to help you consider concrete steps like asking for a check-in with the client or taking a short break. The evidence from our recent conversations shows that you're struggling with self-doubt and fear of failure, and you've mentioned needing concrete feedback from the client to move forward, which indicates a desire to take action. My entry will acknowledge the anxiety you're feeling about potential criticism and the pressure of the deadline.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "User is feeling overwhelmed by a deadline and doubted their skills due to client criticism"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "I think I need some concrete feedback from the client before I can move forward, and maybe a short break to reset."
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "The user feels that if they could quiet their self-doubt, they might be able to make progress, but currently, the project feels like a test of their worth, and they are terrified of failing"
+          }
+        ],
+        "final_response": "You're really worried that asking for a check-in with the client could lead to more criticism, and that's a terrifying prospect when you're already feeling so overwhelmed. It's like the fear of not being good enough is holding you back from taking the steps you need to move forward. Yeah, it's understandable that you're scared of missing the deadline if you take a short break, but at the same time, you feel like you need to reset to avoid burnout. Maybe we can explore what a short break would look like for you, and how you could use that time to recharge and come back to your project with a fresh perspective."
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 8,
+      "user_message": "I\u2019m not sure a break is even realistic\u2014I already feel like I\u2019m falling behind. Maybe I could squeeze in a 10\u2011minute pause, but I\u2019m terrified that I\u2019ll lose momentum and miss the deadline. The idea of stepping back feels risky, yet staying stuck feels worse.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "advise_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions about work stress, and right now, they need someone to acknowledge their fear of falling behind and missing the deadline. The strategies that seem most appropriate are support and facilitate, as they're in the preparation stage and need help exploring their options. The evidence that stands out is their past success with the comic book project, where they stuck to their vision and achieved a win despite their nerves, and their current desire to take a short break to reset, even if it's just 10 minutes. My entry point will be to acknowledge the risk they feel in taking a break and the fear of losing momentum, while also exploring the possibility that a short pause could help them recharge and come back to their project with a fresh perspective.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "User is feeling overwhelmed by a deadline and doubting their skills due to client criticism"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "User is worried that asking for a check-in could lead to more criticism and is scared of missing the deadline if they take a short break"
+          }
+        ],
+        "final_response": "You're feeling really torn about taking a break, even a short one, because you're scared that you'll lose momentum and miss the deadline. At the same time, staying stuck feels worse, and you're worried that if you don't take a pause, you'll burn out. Yeah, it's a tough spot to be in. Maybe we can explore what a 10-minute pause would look like for you, and how you could use that time to recharge and come back to your project with a fresh perspective. What do you think you could do in those 10 minutes to help you feel more centered and focused?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 9,
+      "user_message": "I\u2019m not even sure a 10\u2011minute break would help\u2014I feel the anxiety just spikes when I think about losing momentum. Maybe a quick pause could reset my brain, but I\u2019m scared the timer will make me feel even more rushed. If I can\u2019t even decide on that, I\u2019m stuck in a loop of doubt and stress.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "advise_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their work stress, and right now, they need me to acknowledge the overwhelming anxiety they're feeling about taking a break. The strategies that seem most relevant are support and facilitate, given their current preparation stage and expressed emotions. Evidence from their recent messages suggests that they're struggling to quiet their self-doubt and are worried about losing momentum if they take a break. My entry point will be to acknowledge the anxiety they're feeling about taking a break and explore how that's impacting their decision-making. I'll use the evidence of their past successes, like the comic book project, to help them see their strengths and capabilities.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "User is feeling overwhelmed by a deadline and doubted their skills due to client criticism"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "I\u2019m not even sure a 10\u2011minute break would help\u2014I feel the anxiety just spikes when I think about losing momentum"
+          }
+        ],
+        "final_response": "You're really struggling with the idea of taking a break, even a short one, because the anxiety about losing momentum is spiking. It's like the fear of not meeting the deadline is holding you back from taking a pause, even though you feel like you need to reset. Yeah, it's a tough spot to be in. Can you think of anything that's helped you reset or recharge in the past, maybe something that worked for you during that successful comic book project?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 10,
+      "user_message": "I think a quick walk outside used to help me reset, but the clock feels like it's counting down and I can't stop. I keep doubting whether I can actually finish on time, which makes me feel like a failure. Maybe I should try it, but the anxiety makes it hard to even decide.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their work stress, and right now they need me to acknowledge their emotional state. The strategies that feel most relevant are support and facilitate, given their current preparation stage. The evidence that stands out to me is their past success with the comic book project and their mention of a quick walk outside as a way to reset. This suggests that they have coping mechanisms that have worked for them in the past, but are currently being overwhelmed by self-doubt and anxiety. My entry point will be to acknowledge their feelings of being stuck and overwhelmed, and to explore how they might be able to use their past successes to inform their current situation.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "past success with comic book project"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "quick walk outside as a way to reset"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "anxiety about losing momentum"
+          }
+        ],
+        "final_response": "You're feeling really stuck right now, and the pressure of the deadline is making it hard for you to think clearly. It's like the anxiety is spiking whenever you think about taking a break, even a short one. I want to go back to what you mentioned earlier - that a quick walk outside used to help you reset. What do you think is holding you back from trying that now, and how might you be able to use that to your advantage?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

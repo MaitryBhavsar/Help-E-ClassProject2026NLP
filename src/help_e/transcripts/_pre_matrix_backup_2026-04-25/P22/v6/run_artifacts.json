@@ -1,0 +1,220 @@
+{
+  "profile_id": "P22",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user opened the session by expressing overwhelming grief over the loss of a close friend and business partner, while simultaneously feeling pressured by an upcoming investor pitch. They repeatedly voiced uncertainty about continuing the company alone, feeling guilt for potentially quitting, and a sense of failure toward their late partner. Throughout the conversation, the user remained stuck in a cycle of rumination without identifying concrete steps or support systems. No shift toward action or acceptance occurred; the user stayed in a state of contemplation, seeking validation and understanding of their emotional turmoil."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "grief_of_loved_one",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Acknowledged grief but did not move toward action."
+          }
+        ]
+      },
+      {
+        "problem_name": "work_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Recognized work pressure yet remained in ambivalence."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "grief_of_loved_one",
+          "work_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "grief_of_loved_one",
+          "work_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "grief_of_loved_one",
+          "work_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "grief_of_loved_one",
+          "work_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "grief_of_loved_one",
+          "work_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling completely overwhelmed by the pressure of the investor pitch and the weight of your grief, like you're drowning in a cycle of work and sorrow."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like the weight of leading the company alone, combined with your grief, is feeling almost unbearable right now."
+              }
+            ],
+            "reasoning": "The assistant consistently named the user\u2019s emotions (overwhelmed, drowning, unbearable) and validated them, showing a clear recognition of the user\u2019s feelings.",
+            "score": 4
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling completely overwhelmed by the pressure of the investor pitch and the weight of your grief, like you're drowning in a cycle of work and sorrow."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore what kind of support or plan might make it feel more manageable to keep going, or is there something else that's feeling like it needs to happen for you to feel like you can move forward?"
+              }
+            ],
+            "reasoning": "The assistant tracked key details (investor pitch, grief, desire to quit) but did not probe deeper into the user\u2019s specific circumstances or history, indicating a partial grasp.",
+            "score": 3
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore what kind of support or plan might make it feel more manageable to keep going, or is there something else that's feeling like it needs to happen for you to feel like you can move forward?"
+              }
+            ],
+            "reasoning": "The assistant offered a generic invitation to explore support but did not provide concrete suggestions, resources, or actionable steps, limiting its usefulness.",
+            "score": 2
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "Would you like to explore what's driving your desire to quit, or what might need to happen for you to feel like you can keep moving forward?"
+              }
+            ],
+            "reasoning": "The assistant repeatedly asked for permission to delve deeper and did not impose any agenda, respecting the user\u2019s autonomy.",
+            "score": 4
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling completely overwhelmed by the pressure of the investor pitch and the weight of your grief, like you're drowning in a cycle of work and sorrow."
+              }
+            ],
+            "reasoning": "The assistant\u2019s tone was validating and non\u2011judgmental, creating a safe space for the user to share sensitive feelings.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore what kind of support or plan might make it feel more manageable to keep going, or is there something else that's feeling like it needs to happen for you to feel like you can move forward?"
+              }
+            ],
+            "reasoning": "By offering to explore options without pushing, the assistant likely encourages the user to continue the conversation.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

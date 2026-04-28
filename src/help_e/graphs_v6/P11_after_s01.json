@@ -1,0 +1,365 @@
+{
+  "profile_id": "P11",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "emotional",
+      "expressive",
+      "introverted"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": "spouse",
+    "hobbies_interests": [
+      "sketching",
+      "drawing"
+    ],
+    "communication_style": "emotional, expressive",
+    "relevant_history": "health issues, pain, treatments",
+    "general_behavioral_traits": [
+      "emotionally reactive",
+      "overthinker"
+    ]
+  },
+  "problems": {
+    "health_anxiety": {
+      "problem_name": "health_anxiety",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees their health issues as severe and debilitating",
+              "concise_explanation": "physical symptoms described as hitting 'out of nowhere'",
+              "supporting_utterance_span": "pain and dizziness hit me out of nowhere",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees their health issues as severely impacting their life",
+              "concise_explanation": "language of being 'stuck in a loop'",
+              "supporting_utterance_span": "I just keep feeling like I'm stuck in a loop of pain and doubt",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees their health anxiety as overwhelming",
+              "concise_explanation": "describes pain and doubts as a 'storm'",
+              "supporting_utterance_span": "The pain and the doubts are like a storm over my canvas",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees their health issues as severe and overwhelming",
+              "concise_explanation": "description of pain as a 'storm'",
+              "supporting_utterance_span": "The pain feels like a storm over my canvas",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees their symptoms as severe and overwhelming",
+              "concise_explanation": "pain described as a 'storm'",
+              "supporting_utterance_span": "the pain feels like a storm over my canvas",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user doubts the effectiveness of their treatments",
+              "concise_explanation": "treatments seen as potentially 'nothing but a placebo'",
+              "supporting_utterance_span": "I'm terrified that the treatments are nothing but a placebo",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "conflicts_with_partner": {
+      "problem_name": "conflicts_with_partner",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user's health issues trigger feelings of isolation in their relationship",
+              "concise_explanation": "feeling unheard when discussing health concerns with spouse",
+              "supporting_utterance_span": "it felt like I was speaking into a wall",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "trying to explain health issues to spouse triggers feelings of hurt and isolation",
+              "concise_explanation": "it hurts when trying to explain",
+              "supporting_utterance_span": "it hurts when I try to explain it to my spouse",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "trying to explain health anxiety to spouse triggers feelings of isolation",
+              "concise_explanation": "it hurts when trying to explain",
+              "supporting_utterance_span": "it hurts when I try to explain it to my spouse",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "difficulty communicating with spouse triggers feelings of isolation",
+              "concise_explanation": "feeling of 'shouting into the wind' when trying to explain symptoms",
+              "supporting_utterance_span": "every time I try to explain it to my spouse it just feels like I'm shouting into the wind",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "trying to explain symptoms to spouse triggers feelings of isolation",
+              "concise_explanation": "feeling unheard by spouse",
+              "supporting_utterance_span": "it feels like I'm shouting into a void",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "general_anxiety": {
+      "problem_name": "general_anxiety",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_barriers": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels unsure about how to find calm",
+              "concise_explanation": "expresses uncertainty about finding calm",
+              "supporting_utterance_span": "I'm not sure how to find calm",
+              "confidence": "medium"
+            }
+          ]
+        },
+        "perceived_benefits": {
+          "current_level": "low",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is unsure if talking about their issues helps or makes them feel more alone",
+              "concise_explanation": "user questions whether talking about issues is helpful",
+              "supporting_utterance_span": "I\u2019m not sure if talking about it helps or just makes me feel more alone",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is uncertain about the benefits of talking about their feelings",
+              "concise_explanation": "user questions whether talking helps or not",
+              "supporting_utterance_span": "I don't know if talking helps or just makes me feel more alone",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "conflicts_with_partner",
+      "problem_2": "health_anxiety",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both health anxiety and relationship conflict discussed in the same turn",
+          "supporting_utterance_span": "I tried talking to my spouse, but it felt like I was speaking into a wall"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I just keep feeling like I'm stuck in a loop of pain and doubt. It hurts when I try to explain it to my spouse"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The pain and the doubts are like a storm over my canvas, and it hurts when I try to explain it to my spouse"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The pain feels like a storm over my canvas, and every time I try to explain it to my spouse it just feels like I'm shouting into the wind"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I keep trying to explain the pain, but it feels like I'm shouting into a void"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "user's health issues trigger both their anxiety about health and their feelings of isolation in the relationship",
+          "supporting_utterance_span": "I tried talking to my spouse, but it felt like I was speaking into a wall",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's health anxiety triggers are exacerbated by their conflicts with their partner, creating a reinforcing cycle.",
+          "supporting_utterance_span": "I just keep feeling like I'm stuck in a loop of pain and doubt. It hurts when I try to explain it to my spouse",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "trying to explain health anxiety to spouse triggers feelings of isolation, which in turn reinforces health anxiety",
+          "supporting_utterance_span": "it hurts when I try to explain it to my spouse, and The pain and the doubts are like a storm over my canvas",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "difficulty communicating with spouse triggers both health anxiety and feelings of isolation",
+          "supporting_utterance_span": "every time I try to explain it to my spouse it just feels like I'm shouting into the wind",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "trying to explain symptoms to spouse triggers both health anxiety and feelings of isolation",
+          "supporting_utterance_span": "I keep trying to explain the pain, but it feels like I'm shouting into a void",
+          "confidence": "high"
+        }
+      ],
+      "weight": 1.0
+    },
+    {
+      "problem_1": "general_anxiety",
+      "problem_2": "health_anxiety",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "health anxiety and general anxiety discussed together",
+          "supporting_utterance_span": "I'm at a loss\u2014when will this stop?"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The pain and the doubts are like a storm over my canvas, and I'm not sure how to find calm"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The pain feels like a storm over my canvas, and I\u2019m not sure if talking about it helps or just makes me feel more alone"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I don't know if talking helps or just makes me feel more alone"
+        }
+      ],
+      "attribute_connection_entries": [],
+      "weight": 0.36010445805370156
+    },
+    {
+      "problem_1": "conflicts_with_partner",
+      "problem_2": "general_anxiety",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "relationship conflict and general anxiety mentioned in the same context",
+          "supporting_utterance_span": "it felt like I was speaking into a wall and that just made me feel even more isolated"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "it hurts when I try to explain it to my spouse, and I'm not sure how to find calm"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "every time I try to explain it to my spouse it just feels like I'm shouting into the wind, and I\u2019m not sure if talking about it helps or just makes me feel more alone"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I don't know if talking helps or just makes me feel more alone"
+        }
+      ],
+      "attribute_connection_entries": [],
+      "weight": 0.36010445805370156
+    }
+  ]
+}

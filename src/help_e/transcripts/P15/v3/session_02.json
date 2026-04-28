@@ -1,0 +1,2426 @@
+{
+  "session_id": 2,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "introspective, emotionally sensitive, creative",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like a candle flickering in a storm, the flame of my own ambition wavering against the wind of my father's prayers and my own doubts."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I keep picturing the decision as a path split over a river, one bank with my dad's prayers, the other with my manuscript."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I think the conversation will be a lantern in the night, giving me a map to choose whether to stay or go."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "family, creativity, personal growth",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I'm torn between staying here to support him and chasing a writing gig on the West Coast."
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "I think the smallest step might be to sit with my dad for a short coffee and ask him how he's feeling about faith, just to hear his voice, and then write down a paragraph about that conversation."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "The insight could help me decide if the West Coast is a horizon worth chasing or if staying is the shore that still needs tending."
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I am responsible for my father's well-being, my creative ambitions are important to my sense of self",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The storm of his illness clouds my thoughts, and the wind of anxiety keeps me awake, leaving me alone in the fog."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I\u2019m torn between the heavy weight of guilt that clings to every step and the quiet ache of a story that might never see the light."
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I hope the conversation will let me hear his doubts as much as his faith, so I can see he's not asking me to abandon his path."
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "father",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the wind of my father's prayers and my own doubts"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "I think the smallest step might be to sit with my dad for a short coffee and ask him how he's feeling about faith, just to hear his voice"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "writing",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "chasing a writing gig on the West Coast"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "my manuscript"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, introspective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like a candle flickering in a storm, the flame of my own ambition wavering against the wind of my father's prayers and my own doubts."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I think the conversation will be a lantern in the night, giving me a map to choose whether to stay or go."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "father's illness",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the storm of his illness clouds my thoughts"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "I think the smallest step might be to sit with my dad for a short coffee and ask him how he's feeling about faith"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, reflective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like a candle flickering in a storm, the flame of my own ambition wavering against the wind of my father's prayers and my own doubts."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I\u2019m torn between the heavy weight of guilt that clings to every step and the quiet ache of a story that might never see the light."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I think the conversation will be a lantern in the night, giving me a map to choose whether to stay or go."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I feel like a candle flickering in a storm, the flame of my own ambition wavering against the wind of my father's prayers and my own doubts. The storm of his illness clouds my thoughts, and the wind of anxiety keeps me awake, leaving me alone in the fog."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The storm of your father's illness is clouding your thoughts and keeping you awake, and it's like the wind of anxiety is blowing out the flame of your ambition at times. You're feeling alone in the fog, and it's hard to see a clear path forward. It sounds like you're trying to find ways to stay grounded and connected to your life, like committing to regular visits with your dad if you stay in the city. What's been the most challenging part of navigating your father's illness and your own creative ambitions?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I'm torn between staying here to support him and chasing a writing gig on the West Coast. The idea of leaving feels like abandoning my responsibility, yet staying feels like stalling my own creative growth. I keep waking at night, replaying the conversations with my dad about faith, and I feel lonely even when I'm surrounded by people."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The weight of your father's illness and your own doubts is really clouding your thoughts, and it's like you're being pulled in two different directions - the desire to support your dad and the need to nurture your creative passion. It's understandable that you're feeling lonely and uncertain about the path ahead, especially with the added pressure of potentially leaving your dad behind. It sounds like the nights are the hardest, with conversations with your dad replaying in your mind. Can you tell me more about what's been going through your mind during those wakeful nights?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "When I lie awake, the echo of his prayers feels like a choir in the dark, and I\u2019m a leaf caught between the tide of his faith and the pull of my own creative horizon. I worry that if I go west, I\u2019ll leave him in a storm of doubt; if I stay, I\u2019ll let my own story go stale and grow lonely in the silence of the house. The nights feel like a restless tide, and I\u2019m terrified of drowning in both guilt and the fear that I\u2019m failing him and myself."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The echo of your dad's prayers and the pull of your own creative horizon are creating a sense of turmoil within you, like being caught between two powerful forces. It's as if the nights are a restless tide, and you're terrified of drowning in both guilt and the fear that you're failing him and yourself. What's the most overwhelming part of this inner conflict for you - is it the fear of leaving your dad behind, or the fear of letting your own story go stale?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I\u2019m torn between the heavy weight of guilt that clings to every step and the quiet ache of a story that might never see the light. The nights feel endless, and I keep replaying his prayers like a metronome that won\u2019t pause, while the idea of staying feels like a quiet loneliness that keeps me awake. I can\u2019t say which is heavier \u2013 the fear of leaving him or the fear of my own silence \u2013 but both keep me from moving forward."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The weight of guilt and the quiet ache of a potentially unfulfilled story are really pulling at you, making it hard to move forward. It's like you're being held back by the fear of leaving your dad and the fear of your own silence, and both feel overwhelming. Can you tell me more about what it would mean for you to find a way to reconcile these two fears, to somehow balance your creative ambitions with your sense of responsibility to your dad?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I keep picturing the decision as a path split over a river, one bank with my dad's prayers, the other with my manuscript. If I choose the left, I feel the weight of his faith pressing into me; if I choose the right, I feel the quiet loneliness of a house that no longer hums with my own voice. The nights are the hardest, my mind looping over the two choices and I can't sleep. I wonder if there's a way to hold both banks in my hand."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "The image of the path split over the river, with your dad's prayers on one bank and your manuscript on the other, really captures the essence of your dilemma. It's like you're being pulled in two different directions, and the weight of his faith and the quiet loneliness of a house without your voice are both pressing in on you. The nights can be the hardest, with your mind looping over the two choices and the fear of making the wrong decision. It takes a lot of courage to acknowledge the complexity of your emotions and the difficulty of your decision. Can you tell me more about what it would mean for you to find a way to hold both your creative ambitions and your sense of responsibility to your dad in balance?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I keep walking along that riverbank, feeling the current tug of his prayers pull me back, while the silence of my own work feels like a distant shore. Each sleepless night feels like a storm that erodes the bridge between them, leaving me lonely and uncertain about whether staying or leaving is the right path."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The image of walking along that riverbank, feeling the tug of your dad's prayers and the silence of your own work as a distant shore, is really powerful. It captures the essence of your dilemma, being torn between the weight of his faith and the quiet loneliness of a house without your voice. Each sleepless night feeling like a storm that erodes the bridge between them must be incredibly difficult. Can you tell me more about what it is about your dad's prayers that pulls you back, and what it is about your own work that feels like a distant shore?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "His prayers feel like a tide that keeps pulling me back toward the shore of duty, while my manuscript sits like a lighthouse far out on a horizon I can\u2019t quite see. I wake in the dark, listening to that tide and wondering if the silence of my own work is simply a distant shore I\u2019m too afraid to cross. The weight of staying or leaving gnaws at me, and the nights feel like a storm that erodes any bridge between them."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The image of your dad's prayers as a tide pulling you back, and your manuscript as a lighthouse on a distant horizon, really captures the essence of your dilemma. It's like you're being pulled in two different directions, and the weight of his faith and the quiet loneliness of a house without your voice are both pressing in on you. The nights can be the hardest, with your mind looping over the two choices and the fear of making the wrong decision. What's the smallest step you could take to start moving forward, even if it's just exploring one of these paths a little further?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I think the smallest step might be to sit with my dad for a short coffee and ask him how he's feeling about faith, just to hear his voice, and then write down a paragraph about that conversation. That act could quiet the tide a bit and maybe give me a bridge to cross the river. It's a small act that might ease my loneliness and help me sleep a little better."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "Having a conversation with your dad and writing about it could be a powerful way to quiet the tide of guilt and responsibility that's been holding you back. By taking this small step, you might find that it eases your loneliness and helps you sleep a little better, giving you a sense of clarity on how to move forward with your creative ambitions while still being there for your dad. What do you think you hope to gain from this conversation with your dad, and how might it inform your decision about staying or leaving?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I hope the conversation will let me hear his doubts as much as his faith, so I can see he's not asking me to abandon his path. If he shares that he feels alone too, that could ease the loneliness that keeps me awake. Writing it down will give me a ritual to calm my restless nights, and might reveal whether staying here is right or if I can honor him while chasing the West Coast."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're looking to have a conversation with your dad that will let you hear his doubts as much as his faith, and understand that he's not asking you to abandon his path. This conversation could be a powerful way to ease your uncertainty and help you decide on a career path. By hearing his perspective, you might gain a deeper understanding of what's holding you back and what you need to move forward. What do you think you'll do with the insights you gain from this conversation, and how might it inform your decision about staying or leaving?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I think the conversation will be a lantern in the night, giving me a map to choose whether to stay or go. If he shares his doubts, I might feel less lonely and maybe find a way to sleep a little better. The insight could help me decide if the West Coast is a horizon worth chasing or if staying is the shore that still needs tending. Whatever I decide, it feels like a small act that could quiet the tide of guilt and let me breathe again."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The conversation with your dad could be that lantern in the night, giving you a clearer sense of direction. It's interesting that you mention the possibility of feeling less lonely if he shares his doubts - it sounds like you're looking for a sense of connection and understanding from him. What do you think you'll be listening for in his response, and how might that inform your decision about staying or leaving?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 2,
+      "turn_id": 1,
+      "user_message": "I feel like a candle flickering in a storm, the flame of my own ambition wavering against the wind of my father's prayers and my own doubts. The storm of his illness clouds my thoughts, and the wind of anxiety keeps me awake, leaving me alone in the fog.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "life_transition",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "life_transition",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate the challenges you're facing, and right now, you're expressing a lot of emotion about your situation. The strategies that might be helpful are evoke, complex_reflection, and inform_with_permission, as they can help you resolve ambivalence and develop awareness. The evidence that stands out is your feeling of being a candle flickering in a storm, which suggests that you're struggling to stay grounded amidst the turmoil of your father's illness and your own doubts. My entry point will be to acknowledge the pain and uncertainty you're feeling, and how it's affecting your decision-making and emotional state.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "feeling of betrayal if leaving dad's side"
+          },
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "exploring ways to stay close while pursuing creative passion"
+          },
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "torn between pursuing steady writing job and nurturing creative passion"
+          }
+        ],
+        "final_response": "The storm of your father's illness is clouding your thoughts and keeping you awake, and it's like the wind of anxiety is blowing out the flame of your ambition at times. You're feeling alone in the fog, and it's hard to see a clear path forward. It sounds like you're trying to find ways to stay grounded and connected to your life, like committing to regular visits with your dad if you stay in the city. What's been the most challenging part of navigating your father's illness and your own creative ambitions?"
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "career_uncertainty",
+          "caregiver_stress",
+          "loneliness",
+          "life_transition"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 2,
+      "user_message": "I'm torn between staying here to support him and chasing a writing gig on the West Coast. The idea of leaving feels like abandoning my responsibility, yet staying feels like stalling my own creative growth. I keep waking at night, replaying the conversations with my dad about faith, and I feel lonely even when I'm surrounded by people.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "life_transition",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "life_transition",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "evoke",
+            "complex_reflection",
+            "inform_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate this tough spot, and right now, you need someone to acknowledge the weight of your emotions. The strategies that seem most fitting are support and evoke, given your contemplation stage with career uncertainty. The evidence that stands out is your struggle to balance your creative passion with the responsibility of caring for your dad, and the loneliness that's been exacerbating your emotional distress. My entry point will be to reflect on the pain of feeling torn between two important aspects of your life, and how that's affecting your sleep and overall sense of isolation.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "torn between pursuing a steady writing job and nurturing their own creative passion"
+          },
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "feeling that leaving their dad's side would be a betrayal"
+          },
+          {
+            "source": "problem_summary.loneliness",
+            "content": "feeling lonely even when surrounded by people"
+          }
+        ],
+        "final_response": "The weight of your father's illness and your own doubts is really clouding your thoughts, and it's like you're being pulled in two different directions - the desire to support your dad and the need to nurture your creative passion. It's understandable that you're feeling lonely and uncertain about the path ahead, especially with the added pressure of potentially leaving your dad behind. It sounds like the nights are the hardest, with conversations with your dad replaying in your mind. Can you tell me more about what's been going through your mind during those wakeful nights?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "career_uncertainty",
+          "caregiver_stress",
+          "loneliness",
+          "life_transition"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 3,
+      "user_message": "When I lie awake, the echo of his prayers feels like a choir in the dark, and I\u2019m a leaf caught between the tide of his faith and the pull of my own creative horizon. I worry that if I go west, I\u2019ll leave him in a storm of doubt; if I stay, I\u2019ll let my own story go stale and grow lonely in the silence of the house. The nights feel like a restless tide, and I\u2019m terrified of drowning in both guilt and the fear that I\u2019m failing him and myself.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "life_transition",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "life_transition",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "evoke",
+            "complex_reflection",
+            "inform_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "support",
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now, so I'll prioritize empathy and reflection. Given their contemplation stage, I'll use the 'evoke' strategy to help them explore their ambivalence and the 'complex_reflection' strategy to develop discrepancy. The evidence shows that the user is torn between pursuing their creative passion and supporting their dad, feeling uncertain and alone, so I'll acknowledge this emotional struggle. The user's fear of leaving their dad in a storm of doubt and their own fear of failing him and themselves is a crucial aspect to reflect. My entry will be a brief, empathic acknowledgment of their emotional state, followed by an evocative question to help them explore their feelings.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "torn between pursuing a steady writing job and nurturing their own creative passion"
+          },
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "fear of leaving dad in a storm of doubt"
+          },
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "fear of failing him and themselves"
+          }
+        ],
+        "final_response": "The echo of your dad's prayers and the pull of your own creative horizon are creating a sense of turmoil within you, like being caught between two powerful forces. It's as if the nights are a restless tide, and you're terrified of drowning in both guilt and the fear that you're failing him and yourself. What's the most overwhelming part of this inner conflict for you - is it the fear of leaving your dad behind, or the fear of letting your own story go stale?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "career_uncertainty",
+          "caregiver_stress",
+          "loneliness",
+          "life_transition"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 4,
+      "user_message": "I\u2019m torn between the heavy weight of guilt that clings to every step and the quiet ache of a story that might never see the light. The nights feel endless, and I keep replaying his prayers like a metronome that won\u2019t pause, while the idea of staying feels like a quiet loneliness that keeps me awake. I can\u2019t say which is heavier \u2013 the fear of leaving him or the fear of my own silence \u2013 but both keep me from moving forward.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "life_transition",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "life_transition",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "support",
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "evoke",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now, so I'll start by reflecting their feelings of guilt and loneliness. The strategies that fit this moment are support and complex reflection, which can help the user process their ambivalence. The evidence that stands out is the user's description of being torn between the weight of guilt and the quiet ache of a potentially unfulfilled story, which suggests they're struggling to reconcile their creative ambitions with their sense of responsibility to their dad. My entry will be a brief acknowledgment of this emotional conflict, followed by an open question to help them explore their feelings further.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "torn between the heavy weight of guilt and the quiet ache of a story that might never see the light"
+          },
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "nights feel endless, replaying his prayers like a metronome that won\u2019t pause"
+          }
+        ],
+        "final_response": "The weight of guilt and the quiet ache of a potentially unfulfilled story are really pulling at you, making it hard to move forward. It's like you're being held back by the fear of leaving your dad and the fear of your own silence, and both feel overwhelming. Can you tell me more about what it would mean for you to find a way to reconcile these two fears, to somehow balance your creative ambitions with your sense of responsibility to your dad?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "career_uncertainty",
+          "caregiver_stress",
+          "loneliness",
+          "life_transition"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 5,
+      "user_message": "I keep picturing the decision as a path split over a river, one bank with my dad's prayers, the other with my manuscript. If I choose the left, I feel the weight of his faith pressing into me; if I choose the right, I feel the quiet loneliness of a house that no longer hums with my own voice. The nights are the hardest, my mind looping over the two choices and I can't sleep. I wonder if there's a way to hold both banks in my hand.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "life_transition",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "life_transition",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "evoke",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to reflect their emotions right now, so I'll prioritize empathy and acknowledgment. Given the user's contemplation stage, I'll use the evoke strategy to help them explore their ambivalence. The evidence shows that the user is torn between their creative passion and their sense of responsibility to their dad, feeling uncertain and alone. The user's recent turns have highlighted the weight of guilt and the quiet ache of a potentially unfulfilled story, which are keeping them from moving forward. My entry will acknowledge the user's emotional pain and the difficulty of their decision.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "torn between pursuing a steady writing job and nurturing their own creative passion"
+          },
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "weight of guilt and the quiet ache of a potentially unfulfilled story"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "picturing the decision as a path split over a river, one bank with my dad's prayers, the other with my manuscript"
+          }
+        ],
+        "final_response": "The image of the path split over the river, with your dad's prayers on one bank and your manuscript on the other, really captures the essence of your dilemma. It's like you're being pulled in two different directions, and the weight of his faith and the quiet loneliness of a house without your voice are both pressing in on you. The nights can be the hardest, with your mind looping over the two choices and the fear of making the wrong decision. It takes a lot of courage to acknowledge the complexity of your emotions and the difficulty of your decision. Can you tell me more about what it would mean for you to find a way to hold both your creative ambitions and your sense of responsibility to your dad in balance?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "career_uncertainty",
+          "caregiver_stress",
+          "loneliness",
+          "life_transition"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 6,
+      "user_message": "I keep walking along that riverbank, feeling the current tug of his prayers pull me back, while the silence of my own work feels like a distant shore. Each sleepless night feels like a storm that erodes the bridge between them, leaving me lonely and uncertain about whether staying or leaving is the right path.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "life_transition",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "life_transition",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to reflect your emotions back at you. Given your contemplation stage with career uncertainty, I think using the evoke strategy could help you explore your ambivalence further. The evidence that stands out to me is how you've been picturing the decision as a path split over a river, with your dad's prayers on one bank and your manuscript on the other, feeling the weight of his faith and the quiet loneliness of a house without your voice. My entry point will be to acknowledge the pain of being torn between these two significant aspects of your life.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "picturing the decision as a path split over a river, with dad's prayers on one bank and manuscript on the other"
+          },
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "feeling the weight of his faith and the quiet loneliness of a house without your voice"
+          }
+        ],
+        "final_response": "The image of walking along that riverbank, feeling the tug of your dad's prayers and the silence of your own work as a distant shore, is really powerful. It captures the essence of your dilemma, being torn between the weight of his faith and the quiet loneliness of a house without your voice. Each sleepless night feeling like a storm that erodes the bridge between them must be incredibly difficult. Can you tell me more about what it is about your dad's prayers that pulls you back, and what it is about your own work that feels like a distant shore?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "career_uncertainty",
+          "caregiver_stress",
+          "loneliness",
+          "life_transition"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 7,
+      "user_message": "His prayers feel like a tide that keeps pulling me back toward the shore of duty, while my manuscript sits like a lighthouse far out on a horizon I can\u2019t quite see. I wake in the dark, listening to that tide and wondering if the silence of my own work is simply a distant shore I\u2019m too afraid to cross. The weight of staying or leaving gnaws at me, and the nights feel like a storm that erodes any bridge between them.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "life_transition",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "life_transition",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person, and they need me to acknowledge the emotional weight of their decision right now. The strategies that fit this moment are evoke and complex_reflection, as they're both suited for resolving ambivalence and developing discrepancy. The evidence that stands out is the user's description of their dad's prayers as a tide pulling them back, and their manuscript as a lighthouse on a distant horizon they can't quite see. The entry point for my response is to acknowledge the pain of feeling torn between duty and creative passion, and how that's affecting their sleep and sense of self. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "User is torn between pursuing a steady writing job and nurturing their own creative passion"
+          },
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "The user's dad's prayers feel like a tide that keeps pulling them back toward the shore of duty"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "The weight of staying or leaving gnaws at me, and the nights feel like a storm that erodes any bridge between them"
+          }
+        ],
+        "final_response": "The image of your dad's prayers as a tide pulling you back, and your manuscript as a lighthouse on a distant horizon, really captures the essence of your dilemma. It's like you're being pulled in two different directions, and the weight of his faith and the quiet loneliness of a house without your voice are both pressing in on you. The nights can be the hardest, with your mind looping over the two choices and the fear of making the wrong decision. What's the smallest step you could take to start moving forward, even if it's just exploring one of these paths a little further?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "career_uncertainty",
+          "caregiver_stress",
+          "loneliness",
+          "life_transition"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 8,
+      "user_message": "I think the smallest step might be to sit with my dad for a short coffee and ask him how he's feeling about faith, just to hear his voice, and then write down a paragraph about that conversation. That act could quiet the tide a bit and maybe give me a bridge to cross the river. It's a small act that might ease my loneliness and help me sleep a little better.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "life_transition",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "life_transition",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "evoke",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're looking to deliberate on your decision, weighing the pros and cons of staying versus leaving, so I'll reflect both sides of your ambivalence. Given your preparation stage, I'll use the advise_with_permission strategy to help you move forward. Your consideration of having a conversation with your dad and writing about it is a helpful step, as it acknowledges your desire to stay connected with him while also exploring your creative passion. This act might help you feel more grounded and ease your loneliness. My response will focus on acknowledging your emotional state and exploring ways to balance your creative ambitions with your sense of responsibility to your dad.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "User is torn between pursuing a steady writing job and nurturing their own creative passion"
+          },
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "User is considering having a conversation with their dad and writing about it"
+          },
+          {
+            "source": "problem_summary.loneliness",
+            "content": "User feels lonely even when surrounded by people"
+          }
+        ],
+        "final_response": "Having a conversation with your dad and writing about it could be a powerful way to quiet the tide of guilt and responsibility that's been holding you back. By taking this small step, you might find that it eases your loneliness and helps you sleep a little better, giving you a sense of clarity on how to move forward with your creative ambitions while still being there for your dad. What do you think you hope to gain from this conversation with your dad, and how might it inform your decision about staying or leaving?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "career_uncertainty",
+          "caregiver_stress",
+          "loneliness",
+          "life_transition"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 9,
+      "user_message": "I hope the conversation will let me hear his doubts as much as his faith, so I can see he's not asking me to abandon his path. If he shares that he feels alone too, that could ease the loneliness that keeps me awake. Writing it down will give me a ritual to calm my restless nights, and might reveal whether staying here is right or if I can honor him while chasing the West Coast.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "life_transition",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "life_transition",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "evoke",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support the user in their deliberation about their career uncertainty, and they're looking to reflect on both sides of their ambivalence before making a decision. The strategies that might be helpful in this situation are support, facilitate, advise_with_permission, closed_question, and structure. The evidence suggests that the user is torn between pursuing a steady writing job and nurturing their own creative passion, and they're considering having a conversation with their dad to ease their uncertainty. The user hopes that this conversation will let them hear their dad's doubts and see that he's not asking them to abandon his path, which could ease their uncertainty and help them decide on a career path. My entry point will be to acknowledge the user's desire to hear their dad's doubts and understand his perspective, and to explore how this conversation might help them move forward.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "user is torn between pursuing a steady writing job and nurturing their own creative passion"
+          },
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "user is considering having a conversation with their dad to ease their uncertainty"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "user hopes to hear their dad's doubts and see that he's not asking them to abandon his path"
+          }
+        ],
+        "final_response": "You're looking to have a conversation with your dad that will let you hear his doubts as much as his faith, and understand that he's not asking you to abandon his path. This conversation could be a powerful way to ease your uncertainty and help you decide on a career path. By hearing his perspective, you might gain a deeper understanding of what's holding you back and what you need to move forward. What do you think you'll do with the insights you gain from this conversation, and how might it inform your decision about staying or leaving?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "career_uncertainty",
+          "caregiver_stress",
+          "loneliness",
+          "life_transition"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 10,
+      "user_message": "I think the conversation will be a lantern in the night, giving me a map to choose whether to stay or go. If he shares his doubts, I might feel less lonely and maybe find a way to sleep a little better. The insight could help me decide if the West Coast is a horizon worth chasing or if staying is the shore that still needs tending. Whatever I decide, it feels like a small act that could quiet the tide of guilt and let me breathe again.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "loneliness",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "loneliness",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "life_transition",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "life_transition",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "support",
+            "facilitate",
+            "advise_with_permission",
+            "closed_question",
+            "structure"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to reflect their emotions right now, so I'll prioritize empathy and understanding. Given the user's current stage of preparation, I'll use the facilitate strategy to help them explore their thoughts and feelings. The evidence shows that the user is torn between their creative ambitions and their sense of responsibility to their dad, and they're hoping to find a way to balance these two aspects of their life. The user's recent turns have highlighted the weight of their dad's faith and the quiet loneliness of a house without their voice, and they're looking to have a conversation with their dad to ease their uncertainty. My entry point will be to acknowledge the user's desire for a lantern in the night, a guiding light to help them navigate their decision.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "user is torn between pursuing a steady writing job and nurturing their own creative passion"
+          },
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "user is considering having a conversation with their dad and writing about it to ease their uncertainty"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "user hopes the conversation will let them hear their dad's doubts and see that he's not asking them to abandon his path"
+          }
+        ],
+        "final_response": "The conversation with your dad could be that lantern in the night, giving you a clearer sense of direction. It's interesting that you mention the possibility of feeling less lonely if he shares his doubts - it sounds like you're looking for a sense of connection and understanding from him. What do you think you'll be listening for in his response, and how might that inform your decision about staying or leaving?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "career_uncertainty",
+          "caregiver_stress",
+          "loneliness",
+          "life_transition"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "loneliness",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "life_transition",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

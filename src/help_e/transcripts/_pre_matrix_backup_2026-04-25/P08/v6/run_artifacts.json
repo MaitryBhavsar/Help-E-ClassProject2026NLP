@@ -1,0 +1,200 @@
+{
+  "profile_id": "P08",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user described feeling overwhelmed by caregiving responsibilities for their father with Alzheimer's, juggling medication schedules, appointments, and bills. They expressed guilt, exhaustion, and uncertainty about whether they are doing enough. They repeatedly asked for guidance on how to start managing the tasks. Throughout the session, they remained in a state of contemplation, acknowledging the problem but not yet taking concrete steps. The conversation focused on venting emotions and exploring potential next steps."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "caregiver_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User acknowledges caregiving overload but has not yet taken action."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "caregiver_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "caregiver_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "caregiver_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "caregiver_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "caregiver_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really overwhelmed by your dad's care and all the responsibilities that come with it."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like you're feeling really overwhelmed and guilty about your dad's care, and you're not sure where to start."
+              }
+            ],
+            "reasoning": "The assistant consistently acknowledged the user\u2019s emotions\u2014overwhelmed, guilty, exhausted\u2014using the phrase \u2018It sounds like you\u2019re feeling\u2026\u2019, which shows a clear recognition of feelings, though it repeats the same pattern rather than deeply exploring each emotion.",
+            "score": 4
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "It sounds like you're feeling like you're constantly running on a treadmill and can't catch your breath, with your dad's medication changes and bills piling up and making you feel like you're losing yourself in the process."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "It sounds like you're feeling completely overwhelmed and unsure about how to manage your dad's care, and even the thought of making a plan feels like too much."
+              }
+            ],
+            "reasoning": "The assistant references specific details such as medication changes and bills, indicating a partial grasp of the situation, but it does not track or build on these details across turns to show a deeper understanding.",
+            "score": 3
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "Would it be helpful to think about one small thing you could do this week to start feeling more in control, or would you rather talk more about how you're feeling first?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore some small, manageable steps you could take to start feeling more in control, or would you rather talk more about what's been feeling so heavy for you?"
+              }
+            ],
+            "reasoning": "The assistant offers a generic suggestion to consider a small step but does not provide concrete actions or a structured plan, offering limited practical help.",
+            "score": 2
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Would it be helpful to explore some options for managing your responsibilities, or would you rather talk more about how you're feeling first?"
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "Would it be helpful to think about one small thing you could do this week to start feeling more in control, or would you rather talk more about how you're feeling first?"
+              }
+            ],
+            "reasoning": "The assistant repeatedly asks for the user\u2019s preference before proceeding, explicitly respecting the user\u2019s autonomy and pace.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really overwhelmed by your dad's care and all the responsibilities that come with it."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "It sounds like the weight of caregiving is feeling overwhelming, and you're worried about losing yourself in the process."
+              }
+            ],
+            "reasoning": "The assistant consistently validates feelings without criticism or judgment, creating a safe space for disclosure.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "I think I need to talk more about how I'm feeling first."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "I honestly don't know what would make me feel better."
+              }
+            ],
+            "reasoning": "The user expresses a desire to continue discussing emotions, and the assistant responds in a supportive manner, indicating a high likelihood of continued engagement.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

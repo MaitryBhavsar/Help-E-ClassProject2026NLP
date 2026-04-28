@@ -1,0 +1,2398 @@
+{
+  "session_id": 4,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "worried, anxious, overwhelmed, perfectionistic, controlling, guilt-prone",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep telling myself I have to be perfect at everything, but that only makes me feel more guilty."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I feel guilt for not being perfect."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I feel guilty for putting the burden on someone else."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I'm terrified that any slip will hurt his health and I\u2019ll lose my job, so I just keep everything inside."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "has a dad, coworkers, has a sister",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "Dad's needs keep climbing"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "I could ask my sister to watch Dad for an hour"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "has a dad who needs care, has health checkup worries, fears job loss",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "Dad's needs keep climbing and I don't even know if anyone can help me."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I'm terrified the hospital might cut my hours"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I also worry that if I don't take care of myself, my own health could deteriorate"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, perfectionistic, anxious, controlling, guilt-prone, isolated",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep telling myself I have to be perfect at everything, but that only makes me feel more guilty."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I feel guilt for not being perfect."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I keep imagining the worst\u2014if I miss a cue and he slips, I\u2019ll be blamed"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I feel guilty for putting the burden on someone else"
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I'm terrified that any slip will hurt his health and I\u2019ll lose my job, so I just keep everything inside"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I feel like I'm drowning. Dad's needs keep climbing and I can't keep up with my own health or the job I have. I keep telling myself I have to be perfect at everything, but that only makes me feel more guilty. I don't even know if anyone can help me."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're feeling like you're drowning in a sea of responsibilities, and the pressure to be perfect is only adding to that sense of overwhelm. It's like you're trying to keep your head above water, but the waves just keep coming. I can see how the fear of not doing enough for your dad, and the worry about losing your job, is driving that need for perfection. Can you tell me more about what's been the hardest part of managing your dad's care and your own health lately?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Honestly, the hardest part is the constant juggling\u2014keeping him safe at home while I\u2019m exhausted from shifts and the fear that I\u2019m not doing enough. Every time I think I\u2019ve got it together, a new need pops up and I feel guilt for not being perfect. I don\u2019t have anyone to lean on, and I\u2019m terrified the hospital might cut my hours."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The constant juggling of keeping your dad safe at home while being exhausted from shifts is taking a huge toll on you, and it's understandable that the fear of not doing enough and the guilt of not being perfect are exacerbating your stress. It sounds like the pressure to be perfect is driven by the fear of your dad getting worse or losing your job if you mess up. Yeah, it's a really tough spot to be in, feeling like you're drowning in responsibilities and can't keep up. I can see how the fear of potential job cuts at the hospital is adding to your anxiety, making you feel like you're walking on thin ice."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I keep thinking that if I don't do everything perfectly, my dad will slip again and I'll lose my job. It's exhausting, and I feel so alone in this."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The weight of responsibility for your dad's care, combined with the pressure to perform at work and manage your own health, is crushing at times. It's like you're constantly walking a tightrope, fearing that one misstep could lead to your dad slipping again or you losing your job. I can see how the exhaustion and loneliness are really getting to you. Yeah, it's a really tough spot to be in, feeling like you're drowning in responsibilities and can't keep up. Can you tell me more about what you think would happen if you didn't do everything perfectly, and how that fear is affecting you right now?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I keep imagining the worst\u2014if I miss a cue and he slips, I\u2019ll be blamed, and if I can\u2019t keep my shift perfect, the hospital might cut my hours. It feels like every mistake could ruin everything, and I\u2019m stuck alone with that pressure."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You're carrying the weight of your dad's care and your own health on your shoulders, and it's understandable that the fear of missing a cue or making a mistake at work is haunting you. It sounds like the pressure to be perfect is suffocating at times. I can see how the constant juggling and fear of blame or job loss are making you feel like every mistake could ruin everything. Yeah, it's a really tough spot to be in, feeling like you're drowning in responsibilities and can't keep up. Can you tell me more about what you think would help you feel less alone in this?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I don't really know who to turn to; every time I think about asking for help, I feel guilty for putting the burden on someone else. It feels like I'm stuck in this loop of trying to be perfect, and I don't want to let my dad or my job down. I also worry that if I don't take care of myself, my own health could deteriorate and I won't be able to keep up.\n"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling trapped in this cycle of trying to be perfect, and it's overwhelming to think about asking for help because you don't want to burden others. The weight of caring for your dad, managing your job, and worrying about your own health is crushing at times. It's like you're shouldering all of this alone, and the fear of not doing enough is haunting you. Yeah, it can be really tough to admit when we need help, especially when we're used to being in control."
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I keep looping\u2014thinking I must do everything perfectly, and each time I try to reach out I feel guilty. I feel so alone, like there's no one who can understand what I'm going through."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're carrying this huge weight of responsibility for your dad's care, your job, and your own health, and it's understandable that you're feeling overwhelmed. The pressure to be perfect is suffocating at times, and it's like you're shouldering all of this alone. I can see how the fear of not doing enough and the guilt of not being perfect are haunting you. It takes a lot of courage to admit when we need help, and it might be worth exploring what that could look like for you, even if it's just talking to someone about how you're feeling."
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I\u2019m not sure how to ask for help without feeling like I\u2019m adding more to his burden, and I keep thinking that if I do, he\u2019ll think I\u2019m failing him. It feels like I\u2019m the only one who knows what\u2019s happening, so I\u2019m stuck here alone. I worry that any slip will make my health worse and I\u2019ll lose the job."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The weight of caring for your dad, managing your job, and worrying about your own health is crushing at times, and it's understandable that you're feeling overwhelmed. You're not alone in this feeling, and it takes a lot of courage to admit when we need help. It might be worth exploring what asking for help could look like for you, even if it's just talking to someone about how you're feeling. What's the smallest step you could take to start asking for help without feeling like you're adding to your dad's burden?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I don\u2019t even know how to start. I could ask my sister to watch Dad for an hour, but I worry she\u2019ll think I\u2019m failing him, and that adds to the pressure I feel toward my dad. It feels like I need to be flawless, and that makes it hard to reach out."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The pressure to be flawless is really getting to you, and it's understandable that you're worried about what your sister might think if you ask for help. It takes a lot of courage to admit when we need support, and it might be helpful to remember that asking for help doesn't mean you're failing your dad. Yeah, it's tough to start, but sometimes just talking to someone about how you're feeling can be a good first step."
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I keep thinking that if I ask for help, it will mean I'm failing him. It feels like I have to be flawless, and that makes reaching out feel impossible. I\u2019m scared that any slip will hurt his health and I\u2019ll lose my job, leaving me alone in the worst place possible."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The weight of caring for your dad and managing your job is crushing at times, and it's understandable that you're feeling overwhelmed. You've mentioned that asking for help feels impossible because you don't want to be seen as failing your dad. Can you tell me more about what's holding you back from reaching out for support, even if it's just talking to someone about how you're feeling?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I keep thinking that if I ask for help, I'm admitting I can't handle it, and that feels like a betrayal to him. I'm terrified that any slip will hurt his health and I\u2019ll lose my job, so I just keep everything inside. It feels like the more I try to be perfect, the more isolated I become."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The pressure to be perfect and the fear of not doing enough are really haunting you, and it's understandable that you feel like asking for help would be a betrayal to your dad. It sounds like the more you try to handle everything on your own, the more isolated you're becoming. I want to acknowledge how hard it is for you to consider reaching out for support when it feels like it would be a failure on your part. Can you tell me more about what you think would happen if you did ask for help, and how that would affect your relationship with your dad?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 4,
+      "turn_id": 1,
+      "user_message": "I feel like I'm drowning. Dad's needs keep climbing and I can't keep up with my own health or the job I have. I keep telling myself I have to be perfect at everything, but that only makes me feel more guilty. I don't even know if anyone can help me.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and I can see that you're feeling completely overwhelmed by the weight of your dad's care, your own health, and your job. Given your intent to express emotion, I think a good strategy would be to use the support and facilitate strategies to help you process your feelings. Looking at the evidence, I see that you're struggling to manage the rising costs of your dad's care and feeling guilty for not doing enough, which suggests that acknowledging your emotions and exploring your concerns could be really helpful. My first sentence will acknowledge the sense of drowning you're experiencing and the pressure you're putting on yourself to be perfect.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "feeling overwhelmed by the responsibility of keeping up with their dad's meds and the mounting bills"
+          },
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "need to be perfect is driven by the fear of their dad getting worse or losing their job if they mess up"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "worried, anxious, overwhelmed, perfectionistic, controlling"
+          }
+        ],
+        "final_response": "You're feeling like you're drowning in a sea of responsibilities, and the pressure to be perfect is only adding to that sense of overwhelm. It's like you're trying to keep your head above water, but the waves just keep coming. I can see how the fear of not doing enough for your dad, and the worry about losing your job, is driving that need for perfection. Can you tell me more about what's been the hardest part of managing your dad's care and your own health lately?"
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "caregiver_stress",
+          "health_anxiety",
+          "work_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 2,
+      "user_message": "Honestly, the hardest part is the constant juggling\u2014keeping him safe at home while I\u2019m exhausted from shifts and the fear that I\u2019m not doing enough. Every time I think I\u2019ve got it together, a new need pops up and I feel guilt for not being perfect. I don\u2019t have anyone to lean on, and I\u2019m terrified the hospital might cut my hours.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelming stress you're under, so I'll start by reflecting that. Given your intent to express emotion and your current preparation stage for addressing caregiver stress, I'll use the support strategy to create a safe space for you to open up. The evidence shows that the constant juggling of responsibilities, fear of not doing enough, and guilt over not being perfect are major contributors to your stress. My entry will be to acknowledge the weight of these responsibilities and the fear that's driving your need for perfection.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "constant juggling of responsibilities"
+          },
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "fear of not doing enough"
+          },
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "guilt over not being perfect"
+          }
+        ],
+        "final_response": "The constant juggling of keeping your dad safe at home while being exhausted from shifts is taking a huge toll on you, and it's understandable that the fear of not doing enough and the guilt of not being perfect are exacerbating your stress. It sounds like the pressure to be perfect is driven by the fear of your dad getting worse or losing your job if you mess up. Yeah, it's a really tough spot to be in, feeling like you're drowning in responsibilities and can't keep up. I can see how the fear of potential job cuts at the hospital is adding to your anxiety, making you feel like you're walking on thin ice."
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "caregiver_stress",
+          "health_anxiety",
+          "work_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 3,
+      "user_message": "I keep thinking that if I don't do everything perfectly, my dad will slip again and I'll lose my job. It's exhausting, and I feel so alone in this.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate the overwhelming responsibilities of caring for your dad and managing your own health, and it seems like the pressure to be perfect is really getting to you right now. Given your intent to express emotion, I'm going to prioritize empathy and reflection, using strategies like support and facilitate to help you feel heard and understood. The evidence suggests that your need to be perfect is driven by fear and guilt, and that you're feeling exhausted and alone in this struggle. My entry point will be to acknowledge the weight of those feelings and the constant juggling act you're trying to maintain.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "User is struggling to manage the rising costs of their dad's care and feeling overwhelmed by the responsibility"
+          },
+          {
+            "source": "problem_summary.health_anxiety",
+            "content": "User is constantly worried about their own health, adding to their overall stress and feeling of being overwhelmed"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "The constant juggling of keeping their dad safe at home while being exhausted from shifts is taking a huge toll on them"
+          }
+        ],
+        "final_response": "The weight of responsibility for your dad's care, combined with the pressure to perform at work and manage your own health, is crushing at times. It's like you're constantly walking a tightrope, fearing that one misstep could lead to your dad slipping again or you losing your job. I can see how the exhaustion and loneliness are really getting to you. Yeah, it's a really tough spot to be in, feeling like you're drowning in responsibilities and can't keep up. Can you tell me more about what you think would happen if you didn't do everything perfectly, and how that fear is affecting you right now?"
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "caregiver_stress",
+          "health_anxiety",
+          "work_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 4,
+      "user_message": "I keep imagining the worst\u2014if I miss a cue and he slips, I\u2019ll be blamed, and if I can\u2019t keep my shift perfect, the hospital might cut my hours. It feels like every mistake could ruin everything, and I\u2019m stuck alone with that pressure.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the overwhelming pressure you're under right now. Given your intent to express emotion, I'll start by reflecting your feelings. The strategies that seem most fitting are support and facilitate, as they allow me to understand and help you explore your emotions without imposing solutions. From the evidence, it's clear that the fear of not doing enough for your dad and the worry about job cuts are driving your anxiety and sense of loneliness. My entry point will be to acknowledge the weight of these responsibilities and how they're affecting you.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "fear of not doing enough for dad and worry about job cuts"
+          },
+          {
+            "source": "problem_summary.health_anxiety",
+            "content": "constant worry about own health"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "feeling alone and exhausted"
+          }
+        ],
+        "final_response": "You're carrying the weight of your dad's care and your own health on your shoulders, and it's understandable that the fear of missing a cue or making a mistake at work is haunting you. It sounds like the pressure to be perfect is suffocating at times. I can see how the constant juggling and fear of blame or job loss are making you feel like every mistake could ruin everything. Yeah, it's a really tough spot to be in, feeling like you're drowning in responsibilities and can't keep up. Can you tell me more about what you think would help you feel less alone in this?"
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "caregiver_stress",
+          "health_anxiety",
+          "work_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 5,
+      "user_message": "I don't really know who to turn to; every time I think about asking for help, I feel guilty for putting the burden on someone else. It feels like I'm stuck in this loop of trying to be perfect, and I don't want to let my dad or my job down. I also worry that if I don't take care of myself, my own health could deteriorate and I won't be able to keep up.\n",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now, so I'll reflect their feelings first. Given their intent to express emotion and the preparation stage of their caregiver stress, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is struggling with feelings of guilt and responsibility, fearing they're not doing enough for their dad or their job, and worrying about their own health deteriorating. My entry will be to acknowledge the weight of their responsibilities and the fear of not meeting their own expectations. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "feeling guilty for putting the burden on someone else"
+          },
+          {
+            "source": "problem_summary.health_anxiety",
+            "content": "worrying about their own health deteriorating"
+          }
+        ],
+        "final_response": "You're feeling trapped in this cycle of trying to be perfect, and it's overwhelming to think about asking for help because you don't want to burden others. The weight of caring for your dad, managing your job, and worrying about your own health is crushing at times. It's like you're shouldering all of this alone, and the fear of not doing enough is haunting you. Yeah, it can be really tough to admit when we need help, especially when we're used to being in control."
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "caregiver_stress",
+          "health_anxiety",
+          "work_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 6,
+      "user_message": "I keep looping\u2014thinking I must do everything perfectly, and each time I try to reach out I feel guilty. I feel so alone, like there's no one who can understand what I'm going through.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and I can see that you're feeling overwhelmed by the pressure to be perfect in caring for your dad, managing your job, and taking care of your own health. Given your intent to express emotion, I'll use the support strategy to acknowledge your feelings. The evidence shows that you're struggling with the constant juggling of responsibilities and the fear of not doing enough, which is exacerbating your stress and anxiety. My entry point will be to reflect on the weight of responsibility you're carrying and how it's affecting you.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "pressure to be perfect"
+          },
+          {
+            "source": "problem_summary.health_anxiety",
+            "content": "fear of not taking care of own health"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "feeling guilty for putting burden on someone else"
+          }
+        ],
+        "final_response": "You're carrying this huge weight of responsibility for your dad's care, your job, and your own health, and it's understandable that you're feeling overwhelmed. The pressure to be perfect is suffocating at times, and it's like you're shouldering all of this alone. I can see how the fear of not doing enough and the guilt of not being perfect are haunting you. It takes a lot of courage to admit when we need help, and it might be worth exploring what that could look like for you, even if it's just talking to someone about how you're feeling."
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "caregiver_stress",
+          "health_anxiety",
+          "work_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 7,
+      "user_message": "I\u2019m not sure how to ask for help without feeling like I\u2019m adding more to his burden, and I keep thinking that if I do, he\u2019ll think I\u2019m failing him. It feels like I\u2019m the only one who knows what\u2019s happening, so I\u2019m stuck here alone. I worry that any slip will make my health worse and I\u2019ll lose the job.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_validation",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "seek_validation",
+        "intent_entry_style": "Normalize their reaction; affirm specifically.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're seeking validation for your feelings about asking for help with your dad's care. Given your preparation stage for addressing caregiver stress, I'll use the support strategy to acknowledge your emotions and facilitate a sense of safety. The evidence shows that you're overwhelmed by the responsibility of caring for your dad, working extra shifts, and worrying about your own health, which is exacerbating your stress and anxiety. Your fear of not doing enough and the guilt of not being perfect are major concerns. To start, I'll acknowledge the weight of responsibility you're carrying and how it's affecting your daily life.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "overwhelmed by the responsibility of caring for dad, working extra shifts, and worrying about own health"
+          },
+          {
+            "source": "problem_summary.health_anxiety",
+            "content": "worry about own health deteriorating if not taken care of"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic and controlling"
+          }
+        ],
+        "final_response": "The weight of caring for your dad, managing your job, and worrying about your own health is crushing at times, and it's understandable that you're feeling overwhelmed. You're not alone in this feeling, and it takes a lot of courage to admit when we need help. It might be worth exploring what asking for help could look like for you, even if it's just talking to someone about how you're feeling. What's the smallest step you could take to start asking for help without feeling like you're adding to your dad's burden?"
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "caregiver_stress",
+          "health_anxiety",
+          "work_stress",
+          "financial_stress"
+        ],
+        "user_intent": "seek_validation",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 8,
+      "user_message": "I don\u2019t even know how to start. I could ask my sister to watch Dad for an hour, but I worry she\u2019ll think I\u2019m failing him, and that adds to the pressure I feel toward my dad. It feels like I need to be flawless, and that makes it hard to reach out.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_validation",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "seek_validation",
+        "intent_entry_style": "Normalize their reaction; affirm specifically.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs validation and acknowledgment of their feelings right now. Given their intent to seek validation, I'll use the support strategy to affirm their emotions and concerns. The evidence shows that the user is struggling with the pressure to be perfect and the fear of not doing enough, which is exacerbating their stress and anxiety. They're considering asking their sister for help but worry about being seen as failing their dad. My entry point will be to acknowledge the weight of their responsibilities and the fear of not meeting their own expectations.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "pressure to be perfect"
+          },
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "fear of not doing enough"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "worry about asking for help without feeling like adding to dad's burden"
+          }
+        ],
+        "final_response": "The pressure to be flawless is really getting to you, and it's understandable that you're worried about what your sister might think if you ask for help. It takes a lot of courage to admit when we need support, and it might be helpful to remember that asking for help doesn't mean you're failing your dad. Yeah, it's tough to start, but sometimes just talking to someone about how you're feeling can be a good first step."
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "caregiver_stress",
+          "health_anxiety",
+          "work_stress",
+          "financial_stress"
+        ],
+        "user_intent": "seek_validation",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 9,
+      "user_message": "I keep thinking that if I ask for help, it will mean I'm failing him. It feels like I have to be flawless, and that makes reaching out feel impossible. I\u2019m scared that any slip will hurt his health and I\u2019ll lose my job, leaving me alone in the worst place possible.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a deep-seated fear of not being perfect in caring for your dad and managing your job, which is a heavy burden to carry. The strategies that might be helpful in this situation are support and facilitate, as they allow us to explore your feelings and concerns without judgment. Given your current situation, it's clear that the pressure to be flawless is overwhelming, and it's understandable that you're worried about what others might think if you ask for help. Your fear of failing your dad and losing your job is palpable, and it's essential to acknowledge the weight of these responsibilities.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "fear of failing dad and losing job"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic and controlling"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "pressure to be flawless"
+          }
+        ],
+        "final_response": "The weight of caring for your dad and managing your job is crushing at times, and it's understandable that you're feeling overwhelmed. You've mentioned that asking for help feels impossible because you don't want to be seen as failing your dad. Can you tell me more about what's holding you back from reaching out for support, even if it's just talking to someone about how you're feeling?"
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "caregiver_stress",
+          "health_anxiety",
+          "work_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 10,
+      "user_message": "I keep thinking that if I ask for help, I'm admitting I can't handle it, and that feels like a betrayal to him. I'm terrified that any slip will hurt his health and I\u2019ll lose my job, so I just keep everything inside. It feels like the more I try to be perfect, the more isolated I become.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "health_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "health_anxiety",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "caregiver_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "caregiver_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "caregiver_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing deep emotions about feeling trapped in your role as a caregiver, which is a huge weight on you right now. Given your intent to express emotion and your stage of preparation for addressing caregiver stress, I'm considering strategies like support and facilitate to help you feel understood and explore your feelings. The evidence shows that you're struggling with feelings of guilt and betrayal when considering asking for help, and this is exacerbating your isolation. My entry point will be to acknowledge the specific emotions and fears you've shared, such as feeling like asking for help is a betrayal to your dad and the terror of any slip hurting his health and leading to job loss.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "feeling trapped in the cycle of trying to be perfect and the weight of caring for their dad, managing their job, and worrying about their own health"
+          },
+          {
+            "source": "problem_summary.caregiver_stress",
+            "content": "feeling guilty and like a betrayal when considering asking for help"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic and controlling"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "feeling like asking for help is a betrayal to their dad and the terror of any slip hurting his health and leading to job loss"
+          }
+        ],
+        "final_response": "The pressure to be perfect and the fear of not doing enough are really haunting you, and it's understandable that you feel like asking for help would be a betrayal to your dad. It sounds like the more you try to handle everything on your own, the more isolated you're becoming. I want to acknowledge how hard it is for you to consider reaching out for support when it feels like it would be a failure on your part. Can you tell me more about what you think would happen if you did ask for help, and how that would affect your relationship with your dad?"
+      },
+      "trace": {
+        "main_problem": "caregiver_stress",
+        "current_problems": [
+          "caregiver_stress",
+          "health_anxiety",
+          "work_stress",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

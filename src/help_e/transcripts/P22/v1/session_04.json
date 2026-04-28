@@ -1,0 +1,1860 @@
+{
+  "session_id": 4,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "intense, anxious, reflective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The uncertainty is gnawing at my sleep, and I'm terrified I'm not the leader this company needs."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I've already mapped the next sprint goals and will push the team through even if I'm burning out."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, self-critical, perfectionistic, anxious, burnt-out",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep pushing the team to sprint, but I feel more isolated than ever."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I've already mapped the next sprint goals and will push the team through even if I'm burning out."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I keep chasing perfection in every sprint, but the silence from investors only adds to the pressure."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I'm still stuck chasing perfection in each sprint."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "Just sent the final investor deck, but the response still feels like a cliffhanger. The uncertainty is gnawing at my sleep, and I'm terrified I'm not the leader this company needs. I keep pushing the team to sprint, but I feel more isolated than ever."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You've just sent out the final investor deck, and now you're left with this uncertainty that's really getting to you. It sounds like the pressure to perform and the fear of not being enough as a leader are really weighing on you, especially since you've taken on so much responsibility after your co-founder's death. It's like you're shouldering the entire burden of the company's success, and that's a heavy load to carry. Can you tell me more about what's going through your mind when you think about not being the leader you think you need to be?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "We pushed the deck last night. The silence feels like a bad signal from investors. I keep scrolling through emails at 2 a.m. and still feel alone in this."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The silence from investors after you've poured your heart into that deck must be really unsettling. It's like you're waiting for a verdict on your leadership, and the lack of response is making you question everything. I can sense how alone you feel in this, even with your team around you, and how that's keeping you up at night, scrolling through emails for some sign of what's to come."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I keep scrolling through emails at 2 a.m., and the silence feels like a bad signal. The team is pushing hard, but I'm not sure I'm the one to pull them through. I'm worried this uncertainty will derail the next sprint."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The silence from investors is really getting to you, and it's like you're on high alert, waiting for some sign of what's to come. I can sense how that's keeping you up at night, scrolling through emails, and how it's making you question your ability to lead the team through this next sprint. It's a heavy burden to carry, especially when you're already pushing yourself and your team so hard. Yeah, it's understandable that you're worried this uncertainty might derail your plans."
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "Honestly, the silence feels like a verdict that I'm failing. I'm checking emails at 2 a.m. and still can't sleep. The team is counting on me, but I feel like a ghost in the room."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You're lying awake at 2 a.m., checking emails, and the silence from investors feels like a verdict on your leadership. It's like you're waiting for a sign that you're doing enough, but the lack of response is making you feel like a ghost in the room, invisible and ineffective. That fear of failing your team, of not being the leader they need, is a heavy burden to carry. Yeah, it's understandable that you're worried about the impact of this uncertainty on your next sprint."
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "Yeah, metrics are what keep us moving. I\u2019ve already mapped the next sprint goals and will push the team through even if I\u2019m burning out. Sleep\u2019s become a side hustle, but I\u2019ll trade it for the runway we need. Still, I\u2019m not sure if I\u2019m the right person to keep this ship afloat."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're pushing through, mapping out the next sprint goals, and willing to make sacrifices for the company's success, even if it means burning out. It's clear that the weight of responsibility is crushing you, and the uncertainty about your leadership is keeping you up at night. I can sense the toll it's taking on your well-being, and it's understandable that you're questioning whether you're the right person to lead the team. Yeah, it's a lot to carry, and it's okay to feel overwhelmed."
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "Every night I'm scrolling through emails, feeling like I'm chasing ghosts. The silence from investors feels like a verdict that I'm failing, and I can't sleep. I keep pushing the team to sprint, but the weight of this uncertainty is crushing me, and I feel isolated. I don't know if I'm the right person to keep the ship afloat, and the runway feels like it's running out."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're lying awake at night, scrolling through emails, and the silence from investors feels like a verdict on your leadership. It's like you're waiting for a sign that you're doing enough, but the lack of response is making you feel isolated and uncertain about your ability to lead the team. The weight of responsibility is crushing you, and it's understandable that you're questioning whether you're the right person to keep the ship afloat. Yeah, it's a lot to carry, and it's okay to feel overwhelmed. Can you tell me more about what's going through your mind when you think about the runway running out?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "Honestly, the runway is a moving target and I'm burning out. I keep chasing perfection in every sprint, but the silence from investors only adds to the pressure. I'm not sure if I'm the right person to keep the ship afloat, and it's hard to sleep when the deck feels unfinished."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The runway feels like it's always slipping away, and the pressure to deliver is taking a toll on your well-being. You're chasing perfection in every sprint, but the silence from investors is making you wonder if it's all worth it. It's like you're running on a treadmill, getting nowhere fast. Yeah, it's exhausting, and it's no wonder you're struggling to sleep with the deck feeling unfinished. Can you think of a time when you felt like you were making progress, like the runway was stable?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "Yeah, the first time we hit a milestone was when we closed the seed round and the team was pumped, but that feels like a different sprint now. I keep chasing that sense of progress, and it's exhausting. I can't sleep at all, just staring at the code and the investor emails."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "You're back to that seed round milestone, when everything felt possible, and now it's like you're chasing a ghost. The pressure to deliver is suffocating, and the silence from investors is deafening. I can sense how exhausting it is to keep pushing, to keep staring at the code and the emails, and how it's taking a toll on your sleep and your well-being. Yeah, it's like you're running on empty, and it's no wonder you're questioning whether you're the right person to lead the team. What's the one thing that you think would make you feel like you're making progress again?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I keep scrolling at 2 a.m., and the silence feels like a verdict that I'm failing. If I got a reply, maybe the weight would lift and I'd actually get some sleep again."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're lying awake at 2 a.m., scrolling through emails, and the silence from investors feels like a verdict on your leadership. It's like you're waiting for a sign that you're doing enough, but the lack of response is making you feel like you're failing. Yeah, it's understandable that you're hoping a reply would lift the weight and help you get some sleep again. The uncertainty is crushing you, and it's okay to feel overwhelmed. Can you tell me more about what you think would happen if you did get a reply, how would that change things for you?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "If I finally get a reply, it might ease the weight a little, but I'm still stuck chasing perfection in each sprint. The silence feels like I'm not enough, and even a yes could feel hollow if the runway still feels like a moving target. I can't sleep when I'm waiting for that email, so I need some concrete direction, not just a polite \"thanks\", to keep the team afloat."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're waiting for a reply that feels like it's going to dictate your worth, and the silence is deafening. It's like you're stuck in limbo, unable to move forward without some kind of validation. Even if you do get a yes, you're worried it'll feel hollow if the runway is still uncertain. I can sense how exhausting it is to chase perfection in each sprint, and how that's taking a toll on your sleep and your well-being. What do you think would need to happen for you to feel like you're making progress, like you're not just stuck in this cycle of uncertainty?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 4,
+      "turn_id": 1,
+      "user_message": "Just sent the final investor deck, but the response still feels like a cliffhanger. The uncertainty is gnawing at my sleep, and I'm terrified I'm not the leader this company needs. I keep pushing the team to sprint, but I feel more isolated than ever.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the uncertainty and fear you're feeling about the investor response and your leadership. The strategies that might help are support, facilitate, and complex_reflection, given your intent to express emotion. The evidence that stands out is your perfectionistic personality and the pressure you're putting on yourself as a leader, which is affecting your sleep and making you feel isolated. My entry point will be to reflect on the weight of responsibility you've taken on, especially after your co-founder's death, and how that's impacting your current situation.",
+        "evidence_used": [
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I must be perfect to succeed"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "I'm terrified I'm not the leader this company needs"
+          }
+        ],
+        "final_response": "You've just sent out the final investor deck, and now you're left with this uncertainty that's really getting to you. It sounds like the pressure to perform and the fear of not being enough as a leader are really weighing on you, especially since you've taken on so much responsibility after your co-founder's death. It's like you're shouldering the entire burden of the company's success, and that's a heavy load to carry. Can you tell me more about what's going through your mind when you think about not being the leader you think you need to be?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 2,
+      "user_message": "We pushed the deck last night. The silence feels like a bad signal from investors. I keep scrolling through emails at 2 a.m. and still feel alone in this.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the emotional weight you're carrying right now. Given your express_emotion intent, I'll use complex_reflection and support strategies to help you feel understood. The evidence shows you're struggling with the uncertainty of the investor response and feeling isolated, which is exacerbated by your perfectionistic and anxious tendencies. My entry will be to acknowledge the pain of this silence and your fear of not being enough as a leader.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "uncertainty is gnawing at my sleep"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "responsibility, leadership, legacy, loyalty"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "I'm terrified I'm not the leader this company needs"
+          }
+        ],
+        "final_response": "The silence from investors after you've poured your heart into that deck must be really unsettling. It's like you're waiting for a verdict on your leadership, and the lack of response is making you question everything. I can sense how alone you feel in this, even with your team around you, and how that's keeping you up at night, scrolling through emails for some sign of what's to come."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 3,
+      "user_message": "I keep scrolling through emails at 2 a.m., and the silence feels like a bad signal. The team is pushing hard, but I'm not sure I'm the one to pull them through. I'm worried this uncertainty will derail the next sprint.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person, and they need me to acknowledge their emotional struggle right now. Given their intent to express emotion, I'll use strategies like complex_reflection and support to help them feel understood. The evidence shows they're struggling with uncertainty and self-doubt as a leader, and their perfectionistic personality traits are exacerbating these feelings. My entry will be to acknowledge the weight of this uncertainty and how it's affecting their sleep and leadership confidence.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "scrolling through emails at 2 a.m."
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic, anxious, driven, obsessive"
+          }
+        ],
+        "final_response": "The silence from investors is really getting to you, and it's like you're on high alert, waiting for some sign of what's to come. I can sense how that's keeping you up at night, scrolling through emails, and how it's making you question your ability to lead the team through this next sprint. It's a heavy burden to carry, especially when you're already pushing yourself and your team so hard. Yeah, it's understandable that you're worried this uncertainty might derail your plans."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 4,
+      "user_message": "Honestly, the silence feels like a verdict that I'm failing. I'm checking emails at 2 a.m. and still can't sleep. The team is counting on me, but I feel like a ghost in the room.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate this tough moment, and right now, you need someone to acknowledge the weight of this uncertainty. The strategies that feel right for this moment are support and complex reflection, given your intent to express emotion and the fact that we're still exploring the main problem. The evidence that stands out is your persistent worry about not being the leader your team needs, and how the silence from investors is keeping you up at night, making you feel like a failure. My entry point will be to reflect on the emotional toll of this silence and your fear of failing your team.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "silence feels like a bad signal"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I must be perfect to succeed"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "worried this uncertainty will derail the next sprint"
+          }
+        ],
+        "final_response": "You're lying awake at 2 a.m., checking emails, and the silence from investors feels like a verdict on your leadership. It's like you're waiting for a sign that you're doing enough, but the lack of response is making you feel like a ghost in the room, invisible and ineffective. That fear of failing your team, of not being the leader they need, is a heavy burden to carry. Yeah, it's understandable that you're worried about the impact of this uncertainty on your next sprint."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 5,
+      "user_message": "Yeah, metrics are what keep us moving. I\u2019ve already mapped the next sprint goals and will push the team through even if I\u2019m burning out. Sleep\u2019s become a side hustle, but I\u2019ll trade it for the runway we need. Still, I\u2019m not sure if I\u2019m the right person to keep this ship afloat.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person, and they need me to acknowledge their emotional struggle right now. Given their intent to express emotion, I'll use the support strategy to create a safe space for them to open up. The evidence shows they're shouldering a heavy burden of responsibility and are uncertain about their leadership abilities, which is affecting their sleep and overall well-being. Their perfectionistic and driven personality traits are contributing to their burnout. My entry will be to acknowledge the weight of their responsibilities and the toll it's taking on their well-being.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "the silence feels like a verdict that I'm failing"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic, driven"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "I feel like a ghost in the room"
+          }
+        ],
+        "final_response": "You're pushing through, mapping out the next sprint goals, and willing to make sacrifices for the company's success, even if it means burning out. It's clear that the weight of responsibility is crushing you, and the uncertainty about your leadership is keeping you up at night. I can sense the toll it's taking on your well-being, and it's understandable that you're questioning whether you're the right person to lead the team. Yeah, it's a lot to carry, and it's okay to feel overwhelmed."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 6,
+      "user_message": "Every night I'm scrolling through emails, feeling like I'm chasing ghosts. The silence from investors feels like a verdict that I'm failing, and I can't sleep. I keep pushing the team to sprint, but the weight of this uncertainty is crushing me, and I feel isolated. I don't know if I'm the right person to keep the ship afloat, and the runway feels like it's running out.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion right now, so I want to acknowledge that first. Given your intent to express emotion, I'll use strategies like support and complex reflection to help you process your feelings. The evidence shows that the silence from investors and the weight of responsibility are really getting to you, making you question your leadership and feel isolated. My entry point will be to acknowledge the uncertainty and isolation you're feeling, and how that's affecting your sleep and your confidence in leading the team.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "silence from investors feels like a verdict that I'm failing"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "responsibility"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "weight of responsibility is crushing me"
+          }
+        ],
+        "final_response": "You're lying awake at night, scrolling through emails, and the silence from investors feels like a verdict on your leadership. It's like you're waiting for a sign that you're doing enough, but the lack of response is making you feel isolated and uncertain about your ability to lead the team. The weight of responsibility is crushing you, and it's understandable that you're questioning whether you're the right person to keep the ship afloat. Yeah, it's a lot to carry, and it's okay to feel overwhelmed. Can you tell me more about what's going through your mind when you think about the runway running out?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 7,
+      "user_message": "Honestly, the runway is a moving target and I'm burning out. I keep chasing perfection in every sprint, but the silence from investors only adds to the pressure. I'm not sure if I'm the right person to keep the ship afloat, and it's hard to sleep when the deck feels unfinished.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person right now, and they need me to acknowledge the overwhelming pressure they're under. The strategies that seem fitting are support and complex_reflection, given their intent to express emotion and the absence of a clear main problem. The evidence that stands out is their relentless pursuit of perfection in every sprint, the crushing weight of responsibility, and the silence from investors that's making them question their leadership. My entry point will be to reflect on the moving target that is their runway and how it's affecting their well-being.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "chasing ghosts"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "responsibility"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "pursuit of perfection"
+          }
+        ],
+        "final_response": "The runway feels like it's always slipping away, and the pressure to deliver is taking a toll on your well-being. You're chasing perfection in every sprint, but the silence from investors is making you wonder if it's all worth it. It's like you're running on a treadmill, getting nowhere fast. Yeah, it's exhausting, and it's no wonder you're struggling to sleep with the deck feeling unfinished. Can you think of a time when you felt like you were making progress, like the runway was stable?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 8,
+      "user_message": "Yeah, the first time we hit a milestone was when we closed the seed round and the team was pumped, but that feels like a different sprint now. I keep chasing that sense of progress, and it's exhausting. I can't sleep at all, just staring at the code and the investor emails.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the exhaustion and pressure you're under right now. Given your intent to express emotion, I'll use support and complex reflection to help you process your feelings. The evidence shows that you're chasing perfection and feeling overwhelmed by the silence from investors, which is affecting your sleep and well-being. My entry point will be to acknowledge the toll this is taking on you, and how it's making you question your ability to lead the team.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "burning out"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "chasing perfection"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "responsibility"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "feeling isolated"
+          }
+        ],
+        "final_response": "You're back to that seed round milestone, when everything felt possible, and now it's like you're chasing a ghost. The pressure to deliver is suffocating, and the silence from investors is deafening. I can sense how exhausting it is to keep pushing, to keep staring at the code and the emails, and how it's taking a toll on your sleep and your well-being. Yeah, it's like you're running on empty, and it's no wonder you're questioning whether you're the right person to lead the team. What's the one thing that you think would make you feel like you're making progress again?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 9,
+      "user_message": "I keep scrolling at 2 a.m., and the silence feels like a verdict that I'm failing. If I got a reply, maybe the weight would lift and I'd actually get some sleep again.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you're lying awake at 2 a.m., scrolling through emails, and feeling like the silence from investors is a verdict on your leadership. The strategies I'll use are support and complex reflection, given your express_emotion intent and the need to acknowledge your emotional state. The evidence I'm using is your recent message, where you mentioned the silence feels like a verdict, and your past messages, where you've expressed the weight of responsibility and the pressure to deliver. My entry point will be to acknowledge the emotional toll of this silence and the impact it's having on your sleep and well-being.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "silence feels like a verdict"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "weight of responsibility and pressure to deliver"
+          }
+        ],
+        "final_response": "You're lying awake at 2 a.m., scrolling through emails, and the silence from investors feels like a verdict on your leadership. It's like you're waiting for a sign that you're doing enough, but the lack of response is making you feel like you're failing. Yeah, it's understandable that you're hoping a reply would lift the weight and help you get some sleep again. The uncertainty is crushing you, and it's okay to feel overwhelmed. Can you tell me more about what you think would happen if you did get a reply, how would that change things for you?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 10,
+      "user_message": "If I finally get a reply, it might ease the weight a little, but I'm still stuck chasing perfection in each sprint. The silence feels like I'm not enough, and even a yes could feel hollow if the runway still feels like a moving target. I can't sleep when I'm waiting for that email, so I need some concrete direction, not just a polite \"thanks\", to keep the team afloat.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a deep sense of uncertainty and pressure to deliver, so my role is to acknowledge that weight and help you explore ways to cope. Given your intent to express emotion and your perfectionistic personality, I'll use the support strategy to create a safe space for you to open up. The evidence of your sleepless nights and constant email checking suggests that you're feeling overwhelmed, and the silence from investors is exacerbating that feeling. My entry point will be to acknowledge the emotional toll of waiting for a reply and the pressure to chase perfection in each sprint.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "silence feels like a verdict that I'm failing"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "perfectionistic"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "can't sleep when waiting for that email"
+          }
+        ],
+        "final_response": "You're waiting for a reply that feels like it's going to dictate your worth, and the silence is deafening. It's like you're stuck in limbo, unable to move forward without some kind of validation. Even if you do get a yes, you're worried it'll feel hollow if the runway is still uncertain. I can sense how exhausting it is to chase perfection in each sprint, and how that's taking a toll on your sleep and your well-being. What do you think would need to happen for you to feel like you're making progress, like you're not just stuck in this cycle of uncertainty?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

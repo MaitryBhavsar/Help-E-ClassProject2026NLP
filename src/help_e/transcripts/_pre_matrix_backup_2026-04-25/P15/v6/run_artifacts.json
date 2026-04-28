@@ -1,0 +1,261 @@
+{
+  "profile_id": "P15",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user expressed feeling alone and overwhelmed by family conflict, especially with dad pushing them to abandon beliefs and mom being distant. They acknowledged the conflict and their own low self\u2011esteem, but remained uncertain about how to act. No clear shift in perspective or plan emerged across the session. The user repeatedly expressed feeling alone and burdened, indicating a persistent contemplation stage. The conversation did not move toward preparation or action."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "loneliness",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User acknowledges feeling alone but remains uncertain about change."
+          }
+        ]
+      },
+      {
+        "problem_name": "conflicts_with_parents",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User recognizes parental conflict but has not decided how to address it."
+          }
+        ]
+      },
+      {
+        "problem_name": "low_self_esteem",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User feels like a burden and doubts their worth, yet has not taken steps to change."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "loneliness",
+          "conflicts_with_parents"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "loneliness",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "loneliness",
+          "conflicts_with_parents",
+          "low_self_esteem"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "loneliness",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "loneliness",
+          "conflicts_with_parents",
+          "low_self_esteem"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "loneliness",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "loneliness",
+          "conflicts_with_parents",
+          "low_self_esteem"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "loneliness",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "loneliness",
+          "conflicts_with_parents",
+          "low_self_esteem"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "loneliness",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "\"It sounds like you're feeling completely overwhelmed and alone right now\u2026\""
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "\"It sounds like you're feeling really weighed down by your family situation\u2026\""
+              }
+            ],
+            "reasoning": "The assistant consistently acknowledged the user\u2019s feelings of overwhelm and loneliness, naming those emotions explicitly, but did not delve deeper or stay with the feeling beyond the initial validation.",
+            "score": 4
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "\"\u2026the weight of your family's expectations and your dad's health is crushing you\u2026\""
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "\"\u2026you're feeling really torn between your own beliefs and your dad's expectations\u2026\""
+              }
+            ],
+            "reasoning": "The assistant referenced the conflict between parents and the user\u2019s beliefs, but the references were generic and did not track specific details or changes across turns.",
+            "score": 2
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 5,
+                "excerpt": "\"Would it be helpful to talk about what you think might help you feel less trapped\u2026\""
+              }
+            ],
+            "reasoning": "No concrete suggestions, next steps, or actionable ideas were offered; the assistant merely invited further discussion.",
+            "score": 1
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "\"Would you like to talk more about what's been going on\u2026\""
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "\"Would it be helpful to explore what's been going on\u2026\""
+              }
+            ],
+            "reasoning": "The assistant consistently asked for permission to continue and did not impose any agenda, respecting the user\u2019s autonomy.",
+            "score": 4
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "\"You're not alone in feeling this way, and it takes a lot of courage\u2026\""
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "\"\u2026you\u2019re not being heard or understood by either of your parents\u2026\""
+              }
+            ],
+            "reasoning": "The assistant avoided judgment, offered empathy, and reinforced that the user\u2019s feelings are valid.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 5,
+                "excerpt": "\"Would it be helpful to talk about what you think might help you feel less trapped\u2026\""
+              }
+            ],
+            "reasoning": "Given the lack of actionable support, the user is unlikely to feel motivated to continue; the assistant\u2019s approach may not encourage further engagement.",
+            "score": 2
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": [
+      1
+    ]
+  }
+}

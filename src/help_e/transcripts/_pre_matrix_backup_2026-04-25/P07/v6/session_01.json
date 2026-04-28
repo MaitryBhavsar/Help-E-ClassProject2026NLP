@@ -1,0 +1,3353 @@
+{
+  "session_id": 1,
+  "session_summary": "",
+  "stage_transitions": [
+    {
+      "problem": "caregiver_stress",
+      "from": "(absent)",
+      "to": "contemplation"
+    },
+    {
+      "problem": "conflicts_with_partner",
+      "from": "(absent)",
+      "to": "contemplation"
+    },
+    {
+      "problem": "work_stress",
+      "from": "(absent)",
+      "to": "contemplation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "update",
+      "new_value": "has family, possibly adult or middle-aged",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "A meeting with my sister over the proposed modernization of our family storefront"
+        },
+        {
+          "turn_id": 1,
+          "excerpt": "my mother's recent health scare"
+        }
+      ]
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "cautious, duty-bound, traditional",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "uneasy about the direction of our business and the legacy we honor"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I have long considered the family business as a living testament to the values and labor of those who preceded me"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I am also uneasy that this shift might be perceived by the older generation as a departure from the values we have upheld for decades"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "family legacy, tradition, responsibility",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the legacy we honor"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "the family business as a living testament to the values and labor of those who preceded me"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "the values we have upheld for decades"
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "change can be threatening, tradition is important",
+      "evidence_citations": [
+        {
+          "turn_id": 3,
+          "excerpt": "The prospect of altering the storefront, even for the sake of efficiency, feels at first glance to be a departure from that testament"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I am also uneasy that this shift might be perceived by the older generation as a departure from the values we have upheld for decades"
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "family (sister, mother)",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "A meeting with my sister over the proposed modernization of our family storefront"
+        },
+        {
+          "turn_id": 1,
+          "excerpt": "my mother's recent health scare"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "reflective, cautious",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I find myself uncertain how to balance these responsibilities without compromising either the family's legacy or my own sense of stability"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I'm not ready to decide on this yet"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "family business, potential health issues with mother",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "A meeting with my sister over the proposed modernization of our family storefront"
+        },
+        {
+          "turn_id": 1,
+          "excerpt": "my mother's recent health scare"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "anxious, cautious, indecisive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I find myself uncertain how to balance these responsibilities without compromising either the family's legacy or my own sense of stability"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "These thoughts leave me feeling both anxious and cautious about the path forward"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I'm not ready to decide on this yet"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "Good day. I wish to brief you on the concerns that have occupied my thoughts this week. A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement, leaving me uneasy about the direction of our business and the legacy we honor. Subsequently, I must prepare a financial report for the upcoming quarterly review while also worrying about my mother's recent health scare and the pressure to conduct myself smoothly at the Sunday family dinner. I find myself uncertain how to balance these responsibilities without compromising either the family's legacy or my own sense of stability."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The weight of family responsibilities and the pressure to maintain the family legacy is bearing down on you, especially after that heated disagreement with your sister. You're juggling a lot, from the financial report to your mother's health scare, and it's understandable that you're feeling uncertain about how to balance everything. What's been the most challenging part of navigating these responsibilities for you?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I must admit that the most difficult aspect has been reconciling the divergent visions for our storefront with my duty to preserve our family legacy, all while ensuring that the forthcoming financial report meets our quarterly standards and that I can attend my mother's health appointments without compromising my role at the Sunday family dinner. The weight of these overlapping responsibilities creates a sense of unease that I find difficult to articulate beyond acknowledging its presence."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The pressure to meet quarterly standards and the desire to attend to your mother's health appointments are both important to you, and the tension between these responsibilities is a significant source of stress. It's like you're being pulled in multiple directions, and it's hard to know which way to turn. Yeah, it makes sense that you'd feel uneasy about all of this. Can you tell me more about what's driving your desire to preserve the family legacy, and how that's impacting your decisions about the storefront?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I have long considered the family business as a living testament to the values and labor of those who preceded me. The prospect of altering the storefront, even for the sake of efficiency, feels at first glance to be a departure from that testament. Consequently, I find myself weighing the potential benefits of modernization against the risk of eroding the very legacy that has guided my sense of duty. This deliberation has, in turn, made me hesitant to commit to a definitive course, as I am mindful of my sister\u2019s expectations and the broader family\u2019s perception of our stewardship."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "It's clear that the family legacy is a living, breathing thing for you, and the thought of altering the storefront, even for efficiency, feels like a departure from that. Yeah, it makes sense that you're hesitant to commit to a course of action when you're mindful of your sister's expectations and the broader family's perception of your stewardship. What are some of the specific concerns you have about modernizing the storefront, and how do you think they might impact the family legacy?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "One of my chief concerns is that modernizing the storefront could alter the historic aesthetic that our longstanding customers associate with our family name, potentially alienating them. Additionally, the cost of such changes could strain our financial resources at a time when the quarterly review is looming, which only adds to the pressure I already feel. I am also uneasy that this shift might be perceived by the older generation as a departure from the values we have upheld for decades. These thoughts leave me feeling both anxious and cautious about the path forward."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The historic aesthetic of your family's storefront is a big part of its identity, and it's natural that you're worried about how changes might affect your customers and your family's legacy. One thing to consider is that modernizing the storefront could actually help attract new customers and increase revenue, which could help alleviate some of the financial pressure you're feeling. Would you like to explore some potential ways to modernize the storefront while still preserving its historic charm?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I appreciate your thought, but I'm not ready to decide on this yet. The pressure from the financial report and my mother's health makes it difficult to consider any change right now, and I fear that any move could upset the balance we've maintained."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "The weight of responsibility for the family business, combined with the pressure of the financial report and the concern for your mother's health, is making it difficult for you to consider any changes right now. Yeah, it's understandable that you're feeling hesitant to make a decision when there are so many factors at play. Can you tell me more about what you think would need to happen for you to feel more confident about moving forward with modernizing the storefront?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "Good day. I wish to brief you on the concerns that have occupied my thoughts this week. A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement, leaving me uneasy about the direction of our business and the legacy we honor. Subsequently, I must prepare a financial report for the upcoming quarterly review while also worrying about my mother's recent health scare and the pressure to conduct myself smoothly at the Sunday family dinner. I find myself uncertain how to balance these responsibilities without compromising either the family's legacy or my own sense of stability.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "high",
+          "explanation": "User is expressing unease and uncertainty about their responsibilities and the direction of the family business.",
+          "supporting_utterance_span": "leaving me uneasy about the direction of our business and the legacy we honor"
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "heated disagreement with sister over family storefront modernization",
+            "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement"
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "preparing financial report for quarterly review and pressure to conduct smoothly at family dinner",
+            "supporting_utterance_span": "I must prepare a financial report for the upcoming quarterly review while also worrying about... the pressure to conduct myself smoothly at the Sunday family dinner"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "worrying about mother's recent health scare",
+            "supporting_utterance_span": "worrying about my mother's recent health scare"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_partner",
+          "explanation": "the disagreement with sister is the initial concern mentioned and seems to be the catalyst for the other worries",
+          "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "disagreement over family storefront modernization is the trigger",
+            "concise_explanation": "heated disagreement mentioned as the starting point",
+            "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the financial report and family dinner as significant stressors",
+            "concise_explanation": "preparing financial report and pressure to conduct smoothly at family dinner mentioned as sources of worry",
+            "supporting_utterance_span": "I must prepare a financial report for the upcoming quarterly review while also worrying about... the pressure to conduct myself smoothly at the Sunday family dinner",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "mother's recent health scare is the trigger",
+            "concise_explanation": "health scare mentioned as a worry",
+            "supporting_utterance_span": "worrying about my mother's recent health scare",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "conflicts_with_partner",
+            "problem_2": "work_stress",
+            "concise_explanation": "both problems discussed in the same turn as related to family and business responsibilities",
+            "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement... I must prepare a financial report for the upcoming quarterly review"
+          },
+          {
+            "problem_1": "conflicts_with_partner",
+            "problem_2": "caregiver_stress",
+            "concise_explanation": "both problems discussed in the same turn as family-related concerns",
+            "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement... worrying about my mother's recent health scare"
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "caregiver_stress",
+            "concise_explanation": "both problems discussed in the same turn as sources of worry",
+            "supporting_utterance_span": "I must prepare a financial report for the upcoming quarterly review while also worrying about... my mother's recent health scare"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "conflicts_with_partner",
+            "attribute_1": "triggers",
+            "problem_2": "work_stress",
+            "attribute_2": "perceived_severity",
+            "relation_type": "causal",
+            "connection_explanation": "the disagreement with sister (trigger for conflicts_with_partner) contributes to the user's work stress (perceived_severity of work_stress)",
+            "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement... I must prepare a financial report for the upcoming quarterly review",
+            "confidence": "medium"
+          },
+          {
+            "problem_1": "caregiver_stress",
+            "attribute_1": "triggers",
+            "problem_2": "work_stress",
+            "attribute_2": "perceived_severity",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the mother's health scare (trigger for caregiver_stress) and the financial report (perceived_severity of work_stress) together increase the user's overall stress",
+            "supporting_utterance_span": "worrying about my mother's recent health scare... I must prepare a financial report for the upcoming quarterly review",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User identifies financial report and family dinner as significant stressors, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees financial report and family dinner as significant stressors"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges work stress and identifies specific stressors, indicating awareness and potential consideration of change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees financial report and family dinner as significant stressors"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in stage for this problem.",
+            "evidence_used": [],
+            "confidence": "low"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in stage for this problem.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "Good day. I wish to brief you on the concerns that have occupied my thoughts this week. A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement, leaving me uneasy about the direction of our business and the legacy we honor. Subsequently, I must prepare a financial report for the upcoming quarterly review while also worrying about my mother's recent health scare and the pressure to conduct myself smoothly at the Sunday family dinner. I find myself uncertain how to balance these responsibilities without compromising either the family's legacy or my own sense of stability.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "conflicts_with_partner",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "disagreement over family storefront modernization is the trigger",
+                  "concise_explanation": "heated disagreement mentioned as the starting point",
+                  "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "work_stress",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user sees the financial report and family dinner as significant stressors",
+                    "concise_explanation": "preparing financial report and pressure to conduct smoothly at family dinner mentioned as sources of worry",
+                    "supporting_utterance_span": "I must prepare a financial report for the upcoming quarterly review while also worrying about... the pressure to conduct myself smoothly at the Sunday family dinner",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the disagreement with sister (trigger for conflicts_with_partner) contributes to the user's work stress (perceived_severity of work_stress)",
+                "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement... I must prepare a financial report for the upcoming quarterly review",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "mother's recent health scare is the trigger",
+                    "concise_explanation": "health scare mentioned as a worry",
+                    "supporting_utterance_span": "worrying about my mother's recent health scare",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.4,
+            "cooccurrence_count": 1,
+            "connection_evidence": []
+          }
+        ]
+      },
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_partner",
+        "ttm_stage": "precontemplation",
+        "transition_target": "precontemplation \u2192 contemplation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "Where: The user is in precontemplation stage regarding conflicts with their partner, expressing emotions and concerns about their business, family legacy, and personal stability. Which: I will use complex_reflection to develop discrepancy and help the user move towards contemplation. Evidence: The user's recent heated disagreement with their sister over the family storefront modernization and their worry about preparing a financial report while dealing with their mother's health scare. Entry: It seems like the weight of family responsibilities and the pressure to maintain the family legacy is bearing down on you, especially after that heated disagreement with your sister.",
+        "evidence_used": [
+          {
+            "source": "hbm_attribute.triggers (main_problem=conflicts_with_partner, s1t1)",
+            "content": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement"
+          },
+          {
+            "source": "hbm_attribute.perceived_severity (problem=work_stress, s1t1)",
+            "content": "high"
+          },
+          {
+            "source": "problem_connection.conflicts_with_partner\u2194work_stress (causal, s1t1)",
+            "content": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement... I must prepare a financial report for the upcoming quarterly review"
+          }
+        ],
+        "final_response": "The weight of family responsibilities and the pressure to maintain the family legacy is bearing down on you, especially after that heated disagreement with your sister. You're juggling a lot, from the financial report to your mother's health scare, and it's understandable that you're feeling uncertain about how to balance everything. What's been the most challenging part of navigating these responsibilities for you?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_partner",
+        "current_problems": [
+          "conflicts_with_partner",
+          "work_stress",
+          "caregiver_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "precontemplation",
+        "transition_target": "precontemplation \u2192 contemplation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User identifies financial report and family dinner as significant stressors, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees financial report and family dinner as significant stressors"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges work stress and identifies specific stressors, indicating awareness and potential consideration of change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees financial report and family dinner as significant stressors"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in stage for this problem.",
+            "evidence_used": [],
+            "confidence": "low"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in stage for this problem.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "I must admit that the most difficult aspect has been reconciling the divergent visions for our storefront with my duty to preserve our family legacy, all while ensuring that the forthcoming financial report meets our quarterly standards and that I can attend my mother's health appointments without compromising my role at the Sunday family dinner. The weight of these overlapping responsibilities creates a sense of unease that I find difficult to articulate beyond acknowledging its presence.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "high",
+          "explanation": "User is expressing difficulty in reconciling multiple responsibilities and the resulting unease.",
+          "supporting_utterance_span": "the weight of these overlapping responsibilities creates a sense of unease"
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "disagreement with sister over family storefront modernization",
+            "supporting_utterance_span": "heated disagreement with my sister"
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "pressure to prepare financial report and meet quarterly standards",
+            "supporting_utterance_span": "forthcoming financial report meets our quarterly standards"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "concern for mother's health and attending health appointments",
+            "supporting_utterance_span": "attend my mother's health appointments"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "user's current concerns are centered around meeting quarterly standards and managing family business responsibilities",
+          "supporting_utterance_span": "forthcoming financial report meets our quarterly standards"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the pressure to meet quarterly standards as a significant concern",
+            "concise_explanation": "emphasis on meeting quarterly standards",
+            "supporting_utterance_span": "forthcoming financial report meets our quarterly standards",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "disagreement with sister is a trigger for user's stress",
+            "concise_explanation": "heated disagreement with sister",
+            "supporting_utterance_span": "heated disagreement with my sister",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user sees their role at the Sunday family dinner as a barrier to attending mother's health appointments",
+            "concise_explanation": "concern about compromising role at Sunday family dinner",
+            "supporting_utterance_span": "without compromising my role at the Sunday family dinner",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "conflicts_with_partner",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "reconciling the divergent visions for our storefront with my duty to preserve our family legacy"
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "caregiver_stress",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "attend my mother's health appointments without compromising my role at the Sunday family dinner"
+          },
+          {
+            "problem_1": "conflicts_with_partner",
+            "problem_2": "caregiver_stress",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "reconciling the divergent visions for our storefront with my duty to preserve our family legacy and attend my mother's health appointments"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "perceived_severity",
+            "problem_2": "conflicts_with_partner",
+            "attribute_2": "triggers",
+            "relation_type": "causal",
+            "connection_explanation": "the disagreement with sister is contributing to the user's stress about meeting quarterly standards",
+            "supporting_utterance_span": "heated disagreement with my sister and forthcoming financial report meets our quarterly standards",
+            "confidence": "medium"
+          },
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "perceived_barriers",
+            "problem_2": "caregiver_stress",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "shared_barrier",
+            "connection_explanation": "the user's role at the Sunday family dinner is a shared barrier to both managing work stress and attending mother's health appointments",
+            "supporting_utterance_span": "without compromising my role at the Sunday family dinner and attend my mother's health appointments",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe significant stressors, including the pressure to meet quarterly standards, which aligns with the previous high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the financial report and family dinner as significant stressors"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the pressure to meet quarterly standards as a significant concern"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User identifies their role at the Sunday family dinner as a barrier to attending mother's health appointments, which provides sufficient evidence to update the level from unknown to medium.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their role at the Sunday family dinner as a barrier to attending mother's health appointments"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence to suggest a change in the user's awareness or motivation to address conflicts with their partner, so the stage remains precontemplation.",
+            "evidence_used": [],
+            "confidence": "low"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "The user continues to acknowledge the problem of work stress and its significant stressors, but there is no evidence of increased motivation or self-efficacy to move to the preparation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the financial report and family dinner as significant stressors"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the pressure to meet quarterly standards as a significant concern"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "The user has started to identify barriers to addressing their caregiver stress, which suggests an increase in awareness and contemplation of the problem.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their role at the Sunday family dinner as a barrier to attending mother's health appointments"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I must admit that the most difficult aspect has been reconciling the divergent visions for our storefront with my duty to preserve our family legacy, all while ensuring that the forthcoming financial report meets our quarterly standards and that I can attend my mother's health appointments without compromising my role at the Sunday family dinner. The weight of these overlapping responsibilities creates a sense of unease that I find difficult to articulate beyond acknowledging its presence.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "Good day. I wish to brief you on the concerns that have occupied my thoughts this week. A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement, leaving me uneasy about the direction of our business and the legacy we honor. Subsequently, I must prepare a financial report for the upcoming quarterly review while also worrying about my mother's recent health scare and the pressure to conduct myself smoothly at the Sunday family dinner. I find myself uncertain how to balance these responsibilities without compromising either the family's legacy or my own sense of stability."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The weight of family responsibilities and the pressure to maintain the family legacy is bearing down on you, especially after that heated disagreement with your sister. You're juggling a lot, from the financial report to your mother's health scare, and it's understandable that you're feeling uncertain about how to balance everything. What's been the most challenging part of navigating these responsibilities for you?"
+          }
+        ],
+        "last_system_message": "The weight of family responsibilities and the pressure to maintain the family legacy is bearing down on you, especially after that heated disagreement with your sister. You're juggling a lot, from the financial report to your mother's health scare, and it's understandable that you're feeling uncertain about how to balance everything. What's been the most challenging part of navigating these responsibilities for you?",
+        "main_problem": {
+          "problem_name": "work_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            2
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user sees the financial report and family dinner as significant stressors",
+                  "concise_explanation": "preparing financial report and pressure to conduct smoothly at family dinner mentioned as sources of worry",
+                  "supporting_utterance_span": "I must prepare a financial report for the upcoming quarterly review while also worrying about... the pressure to conduct myself smoothly at the Sunday family dinner",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees the pressure to meet quarterly standards as a significant concern",
+                  "concise_explanation": "emphasis on meeting quarterly standards",
+                  "supporting_utterance_span": "forthcoming financial report meets our quarterly standards",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "disagreement over family storefront modernization is the trigger",
+                    "concise_explanation": "heated disagreement mentioned as the starting point",
+                    "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "disagreement with sister is a trigger for user's stress",
+                    "concise_explanation": "heated disagreement with sister",
+                    "supporting_utterance_span": "heated disagreement with my sister",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the disagreement with sister (trigger for conflicts_with_partner) contributes to the user's work stress (perceived_severity of work_stress)",
+                "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement... I must prepare a financial report for the upcoming quarterly review",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "the disagreement with sister is contributing to the user's stress about meeting quarterly standards",
+                "supporting_utterance_span": "heated disagreement with my sister and forthcoming financial report meets our quarterly standards",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees their role at the Sunday family dinner as a barrier to attending mother's health appointments",
+                    "concise_explanation": "concern about compromising role at Sunday family dinner",
+                    "supporting_utterance_span": "without compromising my role at the Sunday family dinner",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "mother's recent health scare is the trigger",
+                    "concise_explanation": "health scare mentioned as a worry",
+                    "supporting_utterance_span": "worrying about my mother's recent health scare",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the mother's health scare (trigger for caregiver_stress) and the financial report (perceived_severity of work_stress) together increase the user's overall stress",
+                "supporting_utterance_span": "worrying about my mother's recent health scare... I must prepare a financial report for the upcoming quarterly review",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "shared_barrier",
+                "attribute_1": "perceived_barriers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's role at the Sunday family dinner is a shared barrier to both managing work stress and attending mother's health appointments",
+                "supporting_utterance_span": "without compromising my role at the Sunday family dinner and attend my mother's health appointments",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          }
+        ]
+      },
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_partner",
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: The user is in a state of contemplation about their work stress, feeling overwhelmed by multiple responsibilities and unsure of how to balance them. Which: I will use the evoke strategy to help the user resolve ambivalence and move towards preparation, as well as the support strategy to acknowledge their emotions and provide a sense of comfort. Evidence: The user's recent message highlights the difficulty of reconciling divergent visions for the family storefront with their duty to preserve the family legacy, and the weight of overlapping responsibilities is creating a sense of unease. Entry: It seems like the pressure to meet quarterly standards and the desire to attend to your mother's health appointments are both important to you, and the tension between these responsibilities is a significant source of stress.",
+        "evidence_used": [
+          {
+            "source": "hbm_attribute.perceived_severity (main_problem=work_stress, s1t1)",
+            "content": "high"
+          },
+          {
+            "source": "problem_connection.work_stress\u2194caregiver_stress via reinforcing (s1t1)",
+            "content": "worrying about my mother's recent health scare... I must prepare a financial report for the upcoming quarterly review"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "I must admit that the most difficult aspect has been reconciling the divergent visions for our storefront with my duty to preserve our family legacy"
+          }
+        ],
+        "final_response": "The pressure to meet quarterly standards and the desire to attend to your mother's health appointments are both important to you, and the tension between these responsibilities is a significant source of stress. It's like you're being pulled in multiple directions, and it's hard to know which way to turn. Yeah, it makes sense that you'd feel uneasy about all of this. Can you tell me more about what's driving your desire to preserve the family legacy, and how that's impacting your decisions about the storefront?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "conflicts_with_partner",
+          "work_stress",
+          "caregiver_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "support"
+        ],
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe significant stressors, including the pressure to meet quarterly standards, which aligns with the previous high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the financial report and family dinner as significant stressors"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the pressure to meet quarterly standards as a significant concern"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User identifies their role at the Sunday family dinner as a barrier to attending mother's health appointments, which provides sufficient evidence to update the level from unknown to medium.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their role at the Sunday family dinner as a barrier to attending mother's health appointments"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence to suggest a change in the user's awareness or motivation to address conflicts with their partner, so the stage remains precontemplation.",
+            "evidence_used": [],
+            "confidence": "low"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "The user continues to acknowledge the problem of work stress and its significant stressors, but there is no evidence of increased motivation or self-efficacy to move to the preparation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees the financial report and family dinner as significant stressors"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the pressure to meet quarterly standards as a significant concern"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "The user has started to identify barriers to addressing their caregiver stress, which suggests an increase in awareness and contemplation of the problem.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their role at the Sunday family dinner as a barrier to attending mother's health appointments"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I have long considered the family business as a living testament to the values and labor of those who preceded me. The prospect of altering the storefront, even for the sake of efficiency, feels at first glance to be a departure from that testament. Consequently, I find myself weighing the potential benefits of modernization against the risk of eroding the very legacy that has guided my sense of duty. This deliberation has, in turn, made me hesitant to commit to a definitive course, as I am mindful of my sister\u2019s expectations and the broader family\u2019s perception of our stewardship.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "high",
+          "explanation": "User is weighing the pros and cons of modernizing the family storefront, considering the potential impact on the family legacy.",
+          "supporting_utterance_span": "weighing the potential benefits of modernization against the risk of eroding the very legacy"
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "disagreement with sister over storefront modernization",
+            "supporting_utterance_span": "heated disagreement with my sister"
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "pressure to prepare financial report and manage family business",
+            "supporting_utterance_span": "prepare a financial report for the upcoming quarterly review"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "concern for mother's health and attending health appointments",
+            "supporting_utterance_span": "my mother's recent health scare"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_partner",
+          "explanation": "disagreement with sister is the central issue driving the user's deliberation",
+          "supporting_utterance_span": "heated disagreement with my sister"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the disagreement as a significant threat to the family legacy",
+            "concise_explanation": "heated disagreement and concern for family legacy",
+            "supporting_utterance_span": "heated disagreement with my sister",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user sees the pressure to prepare financial report and manage family business as a significant obstacle",
+            "concise_explanation": "pressure to prepare financial report and manage family business",
+            "supporting_utterance_span": "prepare a financial report for the upcoming quarterly review",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "mother's health scare is a trigger for the user's stress",
+            "concise_explanation": "mother's recent health scare",
+            "supporting_utterance_span": "my mother's recent health scare",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "conflicts_with_partner",
+            "problem_2": "work_stress",
+            "concise_explanation": "both problems are related to the family business and are being discussed together",
+            "supporting_utterance_span": "disagreement with sister over storefront modernization and pressure to prepare financial report"
+          },
+          {
+            "problem_1": "conflicts_with_partner",
+            "problem_2": "caregiver_stress",
+            "concise_explanation": "both problems are related to family responsibilities and are being discussed together",
+            "supporting_utterance_span": "disagreement with sister and concern for mother's health"
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "caregiver_stress",
+            "concise_explanation": "both problems are related to the user's sense of responsibility and are being discussed together",
+            "supporting_utterance_span": "pressure to prepare financial report and concern for mother's health"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "conflicts_with_partner",
+            "attribute_1": "perceived_severity",
+            "problem_2": "work_stress",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the severity of the disagreement with sister reinforces the user's perception of barriers to managing the family business",
+            "supporting_utterance_span": "heated disagreement with my sister and pressure to prepare financial report",
+            "confidence": "medium"
+          },
+          {
+            "problem_1": "conflicts_with_partner",
+            "attribute_1": "triggers",
+            "problem_2": "caregiver_stress",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "the disagreement with sister and the mother's health scare are both triggers for the user's stress",
+            "supporting_utterance_span": "heated disagreement with my sister and my mother's recent health scare",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes the disagreement as a significant threat to the family legacy, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the disagreement as a significant threat to the family legacy"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User identifies the pressure to prepare financial report and manage family business as a significant obstacle, indicating a high level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the pressure to prepare financial report and manage family business as a significant obstacle"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged the problem and its significance, as evidenced by the high perceived severity, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the disagreement as a significant threat to the family legacy"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its barriers, but there is no evidence of significant progress towards preparation or action, so the stage remains contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the pressure to prepare financial report and manage family business as a significant obstacle"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "There is no new evidence this turn to suggest a change in stage, so the stage remains contemplation.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I have long considered the family business as a living testament to the values and labor of those who preceded me. The prospect of altering the storefront, even for the sake of efficiency, feels at first glance to be a departure from that testament. Consequently, I find myself weighing the potential benefits of modernization against the risk of eroding the very legacy that has guided my sense of duty. This deliberation has, in turn, made me hesitant to commit to a definitive course, as I am mindful of my sister\u2019s expectations and the broader family\u2019s perception of our stewardship.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "Good day. I wish to brief you on the concerns that have occupied my thoughts this week. A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement, leaving me uneasy about the direction of our business and the legacy we honor. Subsequently, I must prepare a financial report for the upcoming quarterly review while also worrying about my mother's recent health scare and the pressure to conduct myself smoothly at the Sunday family dinner. I find myself uncertain how to balance these responsibilities without compromising either the family's legacy or my own sense of stability."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The weight of family responsibilities and the pressure to maintain the family legacy is bearing down on you, especially after that heated disagreement with your sister. You're juggling a lot, from the financial report to your mother's health scare, and it's understandable that you're feeling uncertain about how to balance everything. What's been the most challenging part of navigating these responsibilities for you?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I must admit that the most difficult aspect has been reconciling the divergent visions for our storefront with my duty to preserve our family legacy, all while ensuring that the forthcoming financial report meets our quarterly standards and that I can attend my mother's health appointments without compromising my role at the Sunday family dinner. The weight of these overlapping responsibilities creates a sense of unease that I find difficult to articulate beyond acknowledging its presence."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "The pressure to meet quarterly standards and the desire to attend to your mother's health appointments are both important to you, and the tension between these responsibilities is a significant source of stress. It's like you're being pulled in multiple directions, and it's hard to know which way to turn. Yeah, it makes sense that you'd feel uneasy about all of this. Can you tell me more about what's driving your desire to preserve the family legacy, and how that's impacting your decisions about the storefront?"
+          }
+        ],
+        "last_system_message": "The pressure to meet quarterly standards and the desire to attend to your mother's health appointments are both important to you, and the tension between these responsibilities is a significant source of stress. It's like you're being pulled in multiple directions, and it's hard to know which way to turn. Yeah, it makes sense that you'd feel uneasy about all of this. Can you tell me more about what's driving your desire to preserve the family legacy, and how that's impacting your decisions about the storefront?",
+        "main_problem": {
+          "problem_name": "conflicts_with_partner",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees the disagreement as a significant threat to the family legacy",
+                  "concise_explanation": "heated disagreement and concern for family legacy",
+                  "supporting_utterance_span": "heated disagreement with my sister",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "disagreement over family storefront modernization is the trigger",
+                  "concise_explanation": "heated disagreement mentioned as the starting point",
+                  "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "disagreement with sister is a trigger for user's stress",
+                  "concise_explanation": "heated disagreement with sister",
+                  "supporting_utterance_span": "heated disagreement with my sister",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "work_stress",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user sees the financial report and family dinner as significant stressors",
+                    "concise_explanation": "preparing financial report and pressure to conduct smoothly at family dinner mentioned as sources of worry",
+                    "supporting_utterance_span": "I must prepare a financial report for the upcoming quarterly review while also worrying about... the pressure to conduct myself smoothly at the Sunday family dinner",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees the pressure to meet quarterly standards as a significant concern",
+                    "concise_explanation": "emphasis on meeting quarterly standards",
+                    "supporting_utterance_span": "forthcoming financial report meets our quarterly standards",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user sees the pressure to prepare financial report and manage family business as a significant obstacle",
+                    "concise_explanation": "pressure to prepare financial report and manage family business",
+                    "supporting_utterance_span": "prepare a financial report for the upcoming quarterly review",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the disagreement with sister (trigger for conflicts_with_partner) contributes to the user's work stress (perceived_severity of work_stress)",
+                "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement... I must prepare a financial report for the upcoming quarterly review",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "the disagreement with sister is contributing to the user's stress about meeting quarterly standards",
+                "supporting_utterance_span": "heated disagreement with my sister and forthcoming financial report meets our quarterly standards",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the severity of the disagreement with sister reinforces the user's perception of barriers to managing the family business",
+                "supporting_utterance_span": "heated disagreement with my sister and pressure to prepare financial report",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees their role at the Sunday family dinner as a barrier to attending mother's health appointments",
+                    "concise_explanation": "concern about compromising role at Sunday family dinner",
+                    "supporting_utterance_span": "without compromising my role at the Sunday family dinner",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "mother's recent health scare is the trigger",
+                    "concise_explanation": "health scare mentioned as a worry",
+                    "supporting_utterance_span": "worrying about my mother's recent health scare",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "mother's health scare is a trigger for the user's stress",
+                    "concise_explanation": "mother's recent health scare",
+                    "supporting_utterance_span": "my mother's recent health scare",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.6906933585414224,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the disagreement with sister and the mother's health scare are both triggers for the user's stress",
+                "supporting_utterance_span": "heated disagreement with my sister and my mother's recent health scare",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_partner",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_partner",
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "evoke",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: The user is in a state of contemplation about conflicts with their partner, weighing the potential benefits of modernizing the family storefront against the risk of eroding the family legacy. Which: I will use the evoke strategy to help the user resolve ambivalence and move towards preparation, as well as the support strategy to facilitate their decision-making process. Evidence: The user's perceived severity of conflicts with their partner is high, and they have mentioned the pressure to preserve the family legacy and the tension between their responsibilities. Entry: The user's sense of duty to the family legacy is a significant factor in their hesitation to commit to a definitive course, and it's understandable that they're torn between modernization and tradition.",
+        "evidence_used": [
+          {
+            "source": "hbm_attribute.perceived_severity (main_problem=conflicts_with_partner, s1t3)",
+            "content": "high"
+          },
+          {
+            "source": "problem_connection.conflicts_with_partner\u2194work_stress (causal, s1t1)",
+            "content": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement... I must prepare a financial report for the upcoming quarterly review"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "The weight of these overlapping responsibilities creates a sense of unease that I find difficult to articulate beyond acknowledging its presence"
+          }
+        ],
+        "final_response": "It's clear that the family legacy is a living, breathing thing for you, and the thought of altering the storefront, even for efficiency, feels like a departure from that. Yeah, it makes sense that you're hesitant to commit to a course of action when you're mindful of your sister's expectations and the broader family's perception of your stewardship. What are some of the specific concerns you have about modernizing the storefront, and how do you think they might impact the family legacy?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_partner",
+        "current_problems": [
+          "conflicts_with_partner",
+          "work_stress",
+          "caregiver_stress"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes the disagreement as a significant threat to the family legacy, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the disagreement as a significant threat to the family legacy"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User identifies the pressure to prepare financial report and manage family business as a significant obstacle, indicating a high level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the pressure to prepare financial report and manage family business as a significant obstacle"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged the problem and its significance, as evidenced by the high perceived severity, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the disagreement as a significant threat to the family legacy"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its barriers, but there is no evidence of significant progress towards preparation or action, so the stage remains contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees the pressure to prepare financial report and manage family business as a significant obstacle"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "There is no new evidence this turn to suggest a change in stage, so the stage remains contemplation.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "One of my chief concerns is that modernizing the storefront could alter the historic aesthetic that our longstanding customers associate with our family name, potentially alienating them. Additionally, the cost of such changes could strain our financial resources at a time when the quarterly review is looming, which only adds to the pressure I already feel. I am also uneasy that this shift might be perceived by the older generation as a departure from the values we have upheld for decades. These thoughts leave me feeling both anxious and cautious about the path forward.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_information",
+          "confidence": "medium",
+          "explanation": "User is seeking to understand the potential consequences of modernizing the storefront on the family legacy and business",
+          "supporting_utterance_span": "One of my chief concerns is that modernizing the storefront could alter the historic aesthetic"
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "disagreement with sister over storefront modernization",
+            "supporting_utterance_span": "a meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement"
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "pressure to prepare financial report and manage family business",
+            "supporting_utterance_span": "I must prepare a financial report for the upcoming quarterly review"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "concern for mother's health and attending health appointments",
+            "supporting_utterance_span": "my mother's recent health scare and the pressure to conduct myself smoothly at the Sunday family dinner"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "modernization of storefront and quarterly review are primary concerns",
+          "supporting_utterance_span": "One of my chief concerns is that modernizing the storefront could alter the historic aesthetic"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the potential consequences of modernization as a significant threat to the business",
+            "concise_explanation": "chief concerns about modernization",
+            "supporting_utterance_span": "One of my chief concerns is that modernizing the storefront could alter the historic aesthetic",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user is aware of the potential financial strain of modernization",
+            "concise_explanation": "cost of changes could strain financial resources",
+            "supporting_utterance_span": "the cost of such changes could strain our financial resources",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "disagreement with sister is a source of stress",
+            "concise_explanation": "heated disagreement with sister",
+            "supporting_utterance_span": "a meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "conflicts_with_partner",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "One of my chief concerns is that modernizing the storefront could alter the historic aesthetic"
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "caregiver_stress",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "my mother's recent health scare and the pressure to conduct myself smoothly at the Sunday family dinner"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "perceived_severity",
+            "problem_2": "conflicts_with_partner",
+            "attribute_2": "triggers",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the disagreement with sister reinforces the user's perception of the severity of the work stress",
+            "supporting_utterance_span": "a meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe significant stressors, including the potential consequences of modernization, indicating no change in perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "financial report and family dinner as significant stressors"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "pressure to meet quarterly standards as a significant concern"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential consequences of modernization as a significant threat to the business"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User remains aware of significant obstacles, including the pressure to prepare financial reports and the potential financial strain of modernization, indicating no change in perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "pressure to prepare financial report and manage family business as a significant obstacle"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential financial strain of modernization"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its triggers, but there is no new evidence to suggest progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "disagreement over family storefront modernization is the trigger"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "disagreement with sister is a source of stress"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem and its severity, and is aware of significant barriers, but there is no new evidence to suggest progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "financial report and family dinner as significant stressors"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential consequences of modernization as a significant threat to the business"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential financial strain of modernization"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "There is no new evidence to suggest a change in the user's stage, and the user's awareness of triggers and barriers remains consistent with the contemplation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "mother's recent health scare is the trigger"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "mother's health scare is a trigger for the user's stress"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "One of my chief concerns is that modernizing the storefront could alter the historic aesthetic that our longstanding customers associate with our family name, potentially alienating them. Additionally, the cost of such changes could strain our financial resources at a time when the quarterly review is looming, which only adds to the pressure I already feel. I am also uneasy that this shift might be perceived by the older generation as a departure from the values we have upheld for decades. These thoughts leave me feeling both anxious and cautious about the path forward.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "Good day. I wish to brief you on the concerns that have occupied my thoughts this week. A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement, leaving me uneasy about the direction of our business and the legacy we honor. Subsequently, I must prepare a financial report for the upcoming quarterly review while also worrying about my mother's recent health scare and the pressure to conduct myself smoothly at the Sunday family dinner. I find myself uncertain how to balance these responsibilities without compromising either the family's legacy or my own sense of stability."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The weight of family responsibilities and the pressure to maintain the family legacy is bearing down on you, especially after that heated disagreement with your sister. You're juggling a lot, from the financial report to your mother's health scare, and it's understandable that you're feeling uncertain about how to balance everything. What's been the most challenging part of navigating these responsibilities for you?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I must admit that the most difficult aspect has been reconciling the divergent visions for our storefront with my duty to preserve our family legacy, all while ensuring that the forthcoming financial report meets our quarterly standards and that I can attend my mother's health appointments without compromising my role at the Sunday family dinner. The weight of these overlapping responsibilities creates a sense of unease that I find difficult to articulate beyond acknowledging its presence."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "The pressure to meet quarterly standards and the desire to attend to your mother's health appointments are both important to you, and the tension between these responsibilities is a significant source of stress. It's like you're being pulled in multiple directions, and it's hard to know which way to turn. Yeah, it makes sense that you'd feel uneasy about all of this. Can you tell me more about what's driving your desire to preserve the family legacy, and how that's impacting your decisions about the storefront?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I have long considered the family business as a living testament to the values and labor of those who preceded me. The prospect of altering the storefront, even for the sake of efficiency, feels at first glance to be a departure from that testament. Consequently, I find myself weighing the potential benefits of modernization against the risk of eroding the very legacy that has guided my sense of duty. This deliberation has, in turn, made me hesitant to commit to a definitive course, as I am mindful of my sister\u2019s expectations and the broader family\u2019s perception of our stewardship."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It's clear that the family legacy is a living, breathing thing for you, and the thought of altering the storefront, even for efficiency, feels like a departure from that. Yeah, it makes sense that you're hesitant to commit to a course of action when you're mindful of your sister's expectations and the broader family's perception of your stewardship. What are some of the specific concerns you have about modernizing the storefront, and how do you think they might impact the family legacy?"
+          }
+        ],
+        "last_system_message": "It's clear that the family legacy is a living, breathing thing for you, and the thought of altering the storefront, even for efficiency, feels like a departure from that. Yeah, it makes sense that you're hesitant to commit to a course of action when you're mindful of your sister's expectations and the broader family's perception of your stewardship. What are some of the specific concerns you have about modernizing the storefront, and how do you think they might impact the family legacy?",
+        "main_problem": {
+          "problem_name": "work_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            4
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user sees the financial report and family dinner as significant stressors",
+                  "concise_explanation": "preparing financial report and pressure to conduct smoothly at family dinner mentioned as sources of worry",
+                  "supporting_utterance_span": "I must prepare a financial report for the upcoming quarterly review while also worrying about... the pressure to conduct myself smoothly at the Sunday family dinner",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees the pressure to meet quarterly standards as a significant concern",
+                  "concise_explanation": "emphasis on meeting quarterly standards",
+                  "supporting_utterance_span": "forthcoming financial report meets our quarterly standards",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user sees the potential consequences of modernization as a significant threat to the business",
+                  "concise_explanation": "chief concerns about modernization",
+                  "supporting_utterance_span": "One of my chief concerns is that modernizing the storefront could alter the historic aesthetic",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees the pressure to prepare financial report and manage family business as a significant obstacle",
+                  "concise_explanation": "pressure to prepare financial report and manage family business",
+                  "supporting_utterance_span": "prepare a financial report for the upcoming quarterly review",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user is aware of the potential financial strain of modernization",
+                  "concise_explanation": "cost of changes could strain financial resources",
+                  "supporting_utterance_span": "the cost of such changes could strain our financial resources",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user sees the disagreement as a significant threat to the family legacy",
+                    "concise_explanation": "heated disagreement and concern for family legacy",
+                    "supporting_utterance_span": "heated disagreement with my sister",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "disagreement over family storefront modernization is the trigger",
+                    "concise_explanation": "heated disagreement mentioned as the starting point",
+                    "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "disagreement with sister is a trigger for user's stress",
+                    "concise_explanation": "heated disagreement with sister",
+                    "supporting_utterance_span": "heated disagreement with my sister",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "disagreement with sister is a source of stress",
+                    "concise_explanation": "heated disagreement with sister",
+                    "supporting_utterance_span": "a meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "the disagreement with sister is contributing to the user's stress about meeting quarterly standards",
+                "supporting_utterance_span": "heated disagreement with my sister and forthcoming financial report meets our quarterly standards",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the severity of the disagreement with sister reinforces the user's perception of barriers to managing the family business",
+                "supporting_utterance_span": "heated disagreement with my sister and pressure to prepare financial report",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "the disagreement with sister reinforces the user's perception of the severity of the work stress",
+                "supporting_utterance_span": "a meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              }
+            ]
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees their role at the Sunday family dinner as a barrier to attending mother's health appointments",
+                    "concise_explanation": "concern about compromising role at Sunday family dinner",
+                    "supporting_utterance_span": "without compromising my role at the Sunday family dinner",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "mother's recent health scare is the trigger",
+                    "concise_explanation": "health scare mentioned as a worry",
+                    "supporting_utterance_span": "worrying about my mother's recent health scare",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "mother's health scare is a trigger for the user's stress",
+                    "concise_explanation": "mother's recent health scare",
+                    "supporting_utterance_span": "my mother's recent health scare",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.7851140947166109,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the mother's health scare (trigger for caregiver_stress) and the financial report (perceived_severity of work_stress) together increase the user's overall stress",
+                "supporting_utterance_span": "worrying about my mother's recent health scare... I must prepare a financial report for the upcoming quarterly review",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "shared_barrier",
+                "attribute_1": "perceived_barriers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's role at the Sunday family dinner is a shared barrier to both managing work stress and attending mother's health appointments",
+                "supporting_utterance_span": "without compromising my role at the Sunday family dinner and attend my mother's health appointments",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          }
+        ]
+      },
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "seek_information",
+        "intent_entry_style": "Elicit what they know \u2192 provide one piece \u2192 elicit reaction.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "evoke",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_partner",
+          "strategies": [
+            "evoke",
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: The user is in the contemplation stage of dealing with work stress, seeking information about how to navigate the challenges of modernizing the family storefront while preserving the family legacy. Which: I will use the inform_with_permission strategy to provide the user with information about the potential benefits and drawbacks of modernizing the storefront, and the evoke strategy to help the user explore their concerns and values. Evidence: The user's concern about altering the historic aesthetic and the potential cost of changes, as well as their desire to preserve the family legacy, are all relevant to this discussion. Entry: The user's anxiety about modernizing the storefront is understandable, given the potential impact on longstanding customers and the family's financial resources.",
+        "evidence_used": [
+          {
+            "source": "hbm_attribute.perceived_severity (main_problem=work_stress, s1t1)",
+            "content": "high"
+          },
+          {
+            "source": "problem_connection.work_stress\u2194conflicts_with_partner (reinforcing, s1t2)",
+            "content": "heated disagreement with my sister and forthcoming financial report meets our quarterly standards"
+          }
+        ],
+        "final_response": "The historic aesthetic of your family's storefront is a big part of its identity, and it's natural that you're worried about how changes might affect your customers and your family's legacy. One thing to consider is that modernizing the storefront could actually help attract new customers and increase revenue, which could help alleviate some of the financial pressure you're feeling. Would you like to explore some potential ways to modernize the storefront while still preserving its historic charm?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "conflicts_with_partner",
+          "work_stress",
+          "caregiver_stress"
+        ],
+        "user_intent": "seek_information",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "inform_with_permission",
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe significant stressors, including the potential consequences of modernization, indicating no change in perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "financial report and family dinner as significant stressors"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "pressure to meet quarterly standards as a significant concern"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential consequences of modernization as a significant threat to the business"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User remains aware of significant obstacles, including the pressure to prepare financial reports and the potential financial strain of modernization, indicating no change in perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "pressure to prepare financial report and manage family business as a significant obstacle"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential financial strain of modernization"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its triggers, but there is no new evidence to suggest progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "disagreement over family storefront modernization is the trigger"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "disagreement with sister is a source of stress"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the problem and its severity, and is aware of significant barriers, but there is no new evidence to suggest progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "financial report and family dinner as significant stressors"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential consequences of modernization as a significant threat to the business"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential financial strain of modernization"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "There is no new evidence to suggest a change in the user's stage, and the user's awareness of triggers and barriers remains consistent with the contemplation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "mother's recent health scare is the trigger"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "mother's health scare is a trigger for the user's stress"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 2,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I appreciate your thought, but I'm not ready to decide on this yet. The pressure from the financial report and my mother's health makes it difficult to consider any change right now, and I fear that any move could upset the balance we've maintained.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "high",
+          "explanation": "User is weighing options and considering the potential consequences of modernizing the storefront, but is not ready to make a decision.",
+          "supporting_utterance_span": "I appreciate your thought, but I'm not ready to decide on this yet"
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "pressure from the financial report",
+            "supporting_utterance_span": "The pressure from the financial report"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "caregiver_stress",
+            "explanation": "mother's health",
+            "supporting_utterance_span": "my mother's health"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "sister's expectations",
+            "supporting_utterance_span": "I am mindful of my sister\u2019s expectations"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "financial report and mother's health are the primary sources of pressure",
+          "supporting_utterance_span": "The pressure from the financial report and my mother's health"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the pressure from the financial report as a significant source of stress",
+            "concise_explanation": "pressure from the financial report",
+            "supporting_utterance_span": "The pressure from the financial report",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user is concerned about their mother's health",
+            "concise_explanation": "mother's health",
+            "supporting_utterance_span": "my mother's health",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user is hesitant to commit to a course of action due to sister's expectations",
+            "concise_explanation": "sister's expectations",
+            "supporting_utterance_span": "I am mindful of my sister\u2019s expectations",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "caregiver_stress",
+            "concise_explanation": "both problems are mentioned in the same turn",
+            "supporting_utterance_span": "The pressure from the financial report and my mother's health"
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "conflicts_with_partner",
+            "concise_explanation": "both problems are mentioned in the same turn",
+            "supporting_utterance_span": "The pressure from the financial report and my mother's health makes it difficult to consider any change right now, and I fear that any move could upset the balance we've maintained"
+          },
+          {
+            "problem_1": "caregiver_stress",
+            "problem_2": "conflicts_with_partner",
+            "concise_explanation": "both problems are mentioned in the same turn",
+            "supporting_utterance_span": "The pressure from the financial report and my mother's health makes it difficult to consider any change right now, and I fear that any move could upset the balance we've maintained"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "perceived_severity",
+            "problem_2": "caregiver_stress",
+            "attribute_2": "perceived_severity",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the pressure from the financial report and the concern for mother's health are both contributing to the user's overall stress level",
+            "supporting_utterance_span": "The pressure from the financial report and my mother's health",
+            "confidence": "high"
+          },
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "perceived_barriers",
+            "problem_2": "conflicts_with_partner",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the user's hesitation to commit to a course of action is due to both the pressure from the financial report and the sister's expectations",
+            "supporting_utterance_span": "The pressure from the financial report and my mother's health makes it difficult to consider any change right now, and I fear that any move could upset the balance we've maintained",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the financial report and business pressures as significant sources of stress, with no indication of a decrease in severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "pressure from the financial report as a significant source of stress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential consequences of modernization as a significant threat to the business"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "pressure to meet quarterly standards as a significant concern"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User expresses concern about their mother's health, indicating a significant level of severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "concern about mother's health"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User is hesitant to commit to a course of action due to sister's expectations, indicating a moderate level of barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "hesitant to commit due to sister's expectations"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its severity but has not indicated any progress towards taking action or making changes, keeping the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "pressure from the financial report as a significant source of stress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential consequences of modernization as a significant threat to the business"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User has acknowledged the concern about their mother's health, indicating awareness of the problem, but there is no evidence of planning or taking action, keeping the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "concern about mother's health"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "mother's recent health scare is the trigger"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User recognizes the disagreement as a significant threat but is hesitant to commit to a course of action due to external expectations, indicating continued ambivalence and no progress towards action, keeping the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "hesitant to commit due to sister's expectations"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "disagreement as a significant threat to the family legacy"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I appreciate your thought, but I'm not ready to decide on this yet. The pressure from the financial report and my mother's health makes it difficult to consider any change right now, and I fear that any move could upset the balance we've maintained.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "Good day. I wish to brief you on the concerns that have occupied my thoughts this week. A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement, leaving me uneasy about the direction of our business and the legacy we honor. Subsequently, I must prepare a financial report for the upcoming quarterly review while also worrying about my mother's recent health scare and the pressure to conduct myself smoothly at the Sunday family dinner. I find myself uncertain how to balance these responsibilities without compromising either the family's legacy or my own sense of stability."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The weight of family responsibilities and the pressure to maintain the family legacy is bearing down on you, especially after that heated disagreement with your sister. You're juggling a lot, from the financial report to your mother's health scare, and it's understandable that you're feeling uncertain about how to balance everything. What's been the most challenging part of navigating these responsibilities for you?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I must admit that the most difficult aspect has been reconciling the divergent visions for our storefront with my duty to preserve our family legacy, all while ensuring that the forthcoming financial report meets our quarterly standards and that I can attend my mother's health appointments without compromising my role at the Sunday family dinner. The weight of these overlapping responsibilities creates a sense of unease that I find difficult to articulate beyond acknowledging its presence."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "The pressure to meet quarterly standards and the desire to attend to your mother's health appointments are both important to you, and the tension between these responsibilities is a significant source of stress. It's like you're being pulled in multiple directions, and it's hard to know which way to turn. Yeah, it makes sense that you'd feel uneasy about all of this. Can you tell me more about what's driving your desire to preserve the family legacy, and how that's impacting your decisions about the storefront?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I have long considered the family business as a living testament to the values and labor of those who preceded me. The prospect of altering the storefront, even for the sake of efficiency, feels at first glance to be a departure from that testament. Consequently, I find myself weighing the potential benefits of modernization against the risk of eroding the very legacy that has guided my sense of duty. This deliberation has, in turn, made me hesitant to commit to a definitive course, as I am mindful of my sister\u2019s expectations and the broader family\u2019s perception of our stewardship."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It's clear that the family legacy is a living, breathing thing for you, and the thought of altering the storefront, even for efficiency, feels like a departure from that. Yeah, it makes sense that you're hesitant to commit to a course of action when you're mindful of your sister's expectations and the broader family's perception of your stewardship. What are some of the specific concerns you have about modernizing the storefront, and how do you think they might impact the family legacy?"
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "One of my chief concerns is that modernizing the storefront could alter the historic aesthetic that our longstanding customers associate with our family name, potentially alienating them. Additionally, the cost of such changes could strain our financial resources at a time when the quarterly review is looming, which only adds to the pressure I already feel. I am also uneasy that this shift might be perceived by the older generation as a departure from the values we have upheld for decades. These thoughts leave me feeling both anxious and cautious about the path forward."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "The historic aesthetic of your family's storefront is a big part of its identity, and it's natural that you're worried about how changes might affect your customers and your family's legacy. One thing to consider is that modernizing the storefront could actually help attract new customers and increase revenue, which could help alleviate some of the financial pressure you're feeling. Would you like to explore some potential ways to modernize the storefront while still preserving its historic charm?"
+          }
+        ],
+        "last_system_message": "The historic aesthetic of your family's storefront is a big part of its identity, and it's natural that you're worried about how changes might affect your customers and your family's legacy. One thing to consider is that modernizing the storefront could actually help attract new customers and increase revenue, which could help alleviate some of the financial pressure you're feeling. Would you like to explore some potential ways to modernize the storefront while still preserving its historic charm?",
+        "main_problem": {
+          "problem_name": "work_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees the pressure to meet quarterly standards as a significant concern",
+                  "concise_explanation": "emphasis on meeting quarterly standards",
+                  "supporting_utterance_span": "forthcoming financial report meets our quarterly standards",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user sees the potential consequences of modernization as a significant threat to the business",
+                  "concise_explanation": "chief concerns about modernization",
+                  "supporting_utterance_span": "One of my chief concerns is that modernizing the storefront could alter the historic aesthetic",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user sees the pressure from the financial report as a significant source of stress",
+                  "concise_explanation": "pressure from the financial report",
+                  "supporting_utterance_span": "The pressure from the financial report",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees the pressure to prepare financial report and manage family business as a significant obstacle",
+                  "concise_explanation": "pressure to prepare financial report and manage family business",
+                  "supporting_utterance_span": "prepare a financial report for the upcoming quarterly review",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user is aware of the potential financial strain of modernization",
+                  "concise_explanation": "cost of changes could strain financial resources",
+                  "supporting_utterance_span": "the cost of such changes could strain our financial resources",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "conflicts_with_partner",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user sees the disagreement as a significant threat to the family legacy",
+                    "concise_explanation": "heated disagreement and concern for family legacy",
+                    "supporting_utterance_span": "heated disagreement with my sister",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "user is hesitant to commit to a course of action due to sister's expectations",
+                    "concise_explanation": "sister's expectations",
+                    "supporting_utterance_span": "I am mindful of my sister\u2019s expectations",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "disagreement over family storefront modernization is the trigger",
+                    "concise_explanation": "heated disagreement mentioned as the starting point",
+                    "supporting_utterance_span": "A meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "disagreement with sister is a trigger for user's stress",
+                    "concise_explanation": "heated disagreement with sister",
+                    "supporting_utterance_span": "heated disagreement with my sister",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "disagreement with sister is a source of stress",
+                    "concise_explanation": "heated disagreement with sister",
+                    "supporting_utterance_span": "a meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 5,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the severity of the disagreement with sister reinforces the user's perception of barriers to managing the family business",
+                "supporting_utterance_span": "heated disagreement with my sister and pressure to prepare financial report",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "the disagreement with sister reinforces the user's perception of the severity of the work stress",
+                "supporting_utterance_span": "a meeting with my sister over the proposed modernization of our family storefront ended in a heated disagreement",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_barriers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's hesitation to commit to a course of action is due to both the pressure from the financial report and the sister's expectations",
+                "supporting_utterance_span": "The pressure from the financial report and my mother's health makes it difficult to consider any change right now, and I fear that any move could upset the balance we've maintained",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user sees their role at the Sunday family dinner as a barrier to attending mother's health appointments",
+                    "concise_explanation": "concern about compromising role at Sunday family dinner",
+                    "supporting_utterance_span": "without compromising my role at the Sunday family dinner",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "user is concerned about their mother's health",
+                    "concise_explanation": "mother's health",
+                    "supporting_utterance_span": "my mother's health",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "mother's recent health scare is the trigger",
+                    "concise_explanation": "health scare mentioned as a worry",
+                    "supporting_utterance_span": "worrying about my mother's recent health scare",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "mother's health scare is a trigger for the user's stress",
+                    "concise_explanation": "mother's recent health scare",
+                    "supporting_utterance_span": "my mother's recent health scare",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.879528792628548,
+            "cooccurrence_count": 5,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the mother's health scare (trigger for caregiver_stress) and the financial report (perceived_severity of work_stress) together increase the user's overall stress",
+                "supporting_utterance_span": "worrying about my mother's recent health scare... I must prepare a financial report for the upcoming quarterly review",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "shared_barrier",
+                "attribute_1": "perceived_barriers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's role at the Sunday family dinner is a shared barrier to both managing work stress and attending mother's health appointments",
+                "supporting_utterance_span": "without compromising my role at the Sunday family dinner and attend my mother's health appointments",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_severity",
+                "explanation": "the pressure from the financial report and the concern for mother's health are both contributing to the user's overall stress level",
+                "supporting_utterance_span": "The pressure from the financial report and my mother's health",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          }
+        ]
+      },
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_partner",
+          "strategies": [
+            "evoke",
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "inform_with_permission",
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: The user is in a state of contemplation about work stress, feeling pressure from the financial report and their mother's health, and is hesitant to make a decision about modernizing the storefront. Which: I will use the evoke strategy to help the user explore their ambivalence and the inform_with_permission strategy to provide information that can support their decision-making. Evidence: The user's statement about the pressure from the financial report and their mother's health, as well as their concern about upsetting the balance they've maintained, suggests that they are feeling overwhelmed and uncertain about how to proceed. Entry: The weight of responsibility for the family business, combined with the pressure of the financial report and the concern for your mother's health, is making it difficult for you to consider any changes right now.",
+        "evidence_used": [
+          {
+            "source": "hbm_attribute.perceived_severity (main_problem=work_stress, s1t5)",
+            "content": "The pressure from the financial report and my mother's health"
+          },
+          {
+            "source": "problem_connection.work_stress\u2194conflicts_with_partner (reinforcing, s1t5)",
+            "content": "The pressure from the financial report and my mother's health makes it difficult to consider any change right now, and I fear that any move could upset the balance we've maintained"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "The pressure from the financial report and my mother's health makes it difficult to consider any change right now, and I fear that any move could upset the balance we've maintained"
+          }
+        ],
+        "final_response": "The weight of responsibility for the family business, combined with the pressure of the financial report and the concern for your mother's health, is making it difficult for you to consider any changes right now. Yeah, it's understandable that you're feeling hesitant to make a decision when there are so many factors at play. Can you tell me more about what you think would need to happen for you to feel more confident about moving forward with modernizing the storefront?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "caregiver_stress",
+          "conflicts_with_partner"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "inform_with_permission",
+          "support"
+        ],
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe the financial report and business pressures as significant sources of stress, with no indication of a decrease in severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "pressure from the financial report as a significant source of stress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential consequences of modernization as a significant threat to the business"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "pressure to meet quarterly standards as a significant concern"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User expresses concern about their mother's health, indicating a significant level of severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "concern about mother's health"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User is hesitant to commit to a course of action due to sister's expectations, indicating a moderate level of barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "hesitant to commit due to sister's expectations"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its severity but has not indicated any progress towards taking action or making changes, keeping the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "pressure from the financial report as a significant source of stress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "potential consequences of modernization as a significant threat to the business"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User has acknowledged the concern about their mother's health, indicating awareness of the problem, but there is no evidence of planning or taking action, keeping the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "concern about mother's health"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "mother's recent health scare is the trigger"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User recognizes the disagreement as a significant threat but is hesitant to commit to a course of action due to external expectations, indicating continued ambivalence and no progress towards action, keeping the stage at contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "hesitant to commit due to sister's expectations"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "disagreement as a significant threat to the family legacy"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    }
+  ]
+}

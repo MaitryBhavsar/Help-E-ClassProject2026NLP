@@ -1,0 +1,2603 @@
+{
+  "session_id": 2,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, metaphorical, reflective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the whole thing just feels like a bad stew that never boils"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "maybe cooking something slowly could give me a sense of control"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "going through a divorce, experiencing financial uncertainty",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the divorce settlement talks keep piling up"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "the numbers on the settlement keep creeping up"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "procrastinator, perfectionist, emotionally reactive, avoidant",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "even that feels like a chore"
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I'm still stuck in that loop of procrastination"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "Every time I try to dive into the critical project at work, I hit a wall and end up staring at the screen like a blank page. The divorce settlement talks keep piling up, and I feel like my future is on hold. I can't seem to get any sleep, and the whole thing just feels like a bad stew that never boils."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're trying to tackle this critical project, but it's like hitting a brick wall every time. The divorce settlement talks are adding to the uncertainty, and it's all taking a toll on your sleep. It sounds like everything is piling up, and it's hard to know where to start. What's the smallest step you think you could take to get moving on this project again, even if it's just a tiny part of it?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I don't know what tiny step would actually get me moving. Maybe I could just outline the first two tasks on a notepad, but even that feels like a chore. My head is so foggy I keep thinking about the settlement and how it might change everything, and that just makes it harder to focus on anything else."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "Your head is foggy, and it's like everything is piling up - the project, the settlement talks, the lack of sleep. Even simple tasks like outlining the first two tasks on a notepad feel like a chore right now. Yeah, it's tough to focus on anything else when your future feels uncertain. I can see why you'd feel stuck, and it's okay to feel that way. What's been the most overwhelming part of this project for you, is it the actual work or the uncertainty surrounding your future?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "Honestly, it's the uncertainty that keeps me up at night. Even if I outline tasks, the numbers on the settlement keep creeping up, and I can't focus. I feel like I'm stuck in a loop, like a stew that never boils. If I had a clearer budget, maybe I could start tackling the project."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The uncertainty of your future is really weighing on you, and it's like it's casting a shadow over your project. Even thinking about outlining tasks feels daunting when the numbers on the settlement are still up in the air. It's like you're trying to build a foundation on shaky ground. Having a clearer budget might be a crucial step in getting started on the project, but for now, it's okay to just acknowledge how stuck you feel. Yeah, it's a really tough spot to be in."
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I keep staring at the screen like a blank page, and the idea of a budget feels like a recipe I don't have the ingredients for. Even if I outline a few tasks, I end up hitting a wall and it just adds to the fog. I know I need to tackle this, but I'm stuck in a loop that makes it hard to get any sleep."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You're feeling stuck, like you're in a loop that's not moving forward, and it's affecting your sleep and ability to focus on work. The uncertainty of your future is a big part of this, and even thinking about tasks for your project feels daunting. It's like you're trying to start cooking a recipe without having all the ingredients. Yeah, it's a really tough spot to be in, and it's okay to feel overwhelmed. What's one thing you think might help you break out of this loop, even if it's just a small step?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "Maybe I can just set a 10\u2011minute timer to outline one subtask. The settlement numbers still feel like a heavy spice in the stew, so I'm not sure if that will help me get the project moving."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're thinking of setting a 10-minute timer to outline one subtask, which could be a great way to get started on your project. The uncertainty of your future is still weighing on you, but taking small steps like this might help you build momentum. What do you think is the smallest part of this project that you could tackle in those 10 minutes, and how might that help you feel more in control?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I think the smallest part I can do is open the task list and flag the three highest priority items for the next sprint. That way I have a concrete list to look at when I get to work, and it gives me a sense that I'm actually moving something forward, even if it's just a list. If I can see that list, maybe the rest of the project will feel a bit less like a blank page. It might also help me sleep better if I know I have a plan."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're taking a small but significant step by planning to open the task list and flag the three highest priority items for the next sprint. That gives you a concrete list to work with and a sense that you're moving forward, even if it's just a small part of the project. How do you think having this plan in place might affect your sleep, and what other benefits might come from feeling more in control of your project?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "The plan gives me a small anchor, but the settlement numbers keep creeping up and I still feel like I'm just moving the goalposts. I'm hoping the list will quiet the fog enough to get some sleep, but I'm still stuck in that loop of procrastination. I also worry that my career path is on hold while all this is unresolved."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "You're feeling like you're just moving the goalposts, and the settlement numbers are still weighing heavily on your mind. It's like you're trying to find a sense of control in the midst of all this uncertainty. Having a concrete list to work with might be a small anchor, but it's something. What if you take a few minutes to review that list and see if it helps you feel a bit more grounded? Maybe that'll be enough to quiet the fog a bit and help you get some sleep."
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I glanced at the list, but it feels like staring at a pot with no lid \u2013 the numbers keep rising and I can't focus. I keep putting the project off, and the lack of sleep just makes everything feel heavier. The financial worries are just adding more salt to the stew, and my career path feels on hold."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "You're feeling like you're staring at a pot with no lid, and the numbers just keep rising, making it impossible to focus. It's like the uncertainty is a weight that's holding you back, and the financial worries are just adding to that burden. I can see how that would make everything feel heavier, especially with the lack of sleep. It's okay to feel stuck, and it's okay to not have all the answers right now. Yeah, it's a really tough spot to be in."
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I don't know if a slow braise will solve anything, but maybe cooking something slowly could give me a sense of control that the project and the settlement numbers don't. Still, the list feels like a pot with no lid, and I keep putting the project off. I worry the whole thing is just a loop of procrastination and that my career path is on hold. Sleep keeps slipping away."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're feeling really overwhelmed, like you're staring at a situation that's impossible to control, and that's affecting your sleep and your sense of direction in your career. It's like the uncertainty is a weight that's holding you back, and the financial worries are just adding to that burden. I can see how that would make everything feel heavier. Maybe taking small steps, like cooking something slowly, could give you a sense of control that you're not getting from the project or the settlement numbers. What do you think is the smallest part of your project that you could tackle right now, even if it's just for a few minutes?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I'll try opening the repo and running the tests for ten minutes, but the numbers on the settlement keep creeping up, so I\u2019m not sure if that feels like progress. The idea of just doing a small part feels like a step, but the uncertainty makes it hard to stay focused. I hope that gives me a tiny anchor before I go to bed."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're trying to take a small step by opening the repo and running the tests for ten minutes, which is a great idea, even if it feels like a drop in the ocean right now. The uncertainty of the settlement numbers is still weighing on you, making it hard to focus. It's like you're trying to find a lifeline in the midst of all this uncertainty. Yeah, it's tough to stay focused when everything feels up in the air. What if you just take it one tiny step at a time, and see if that gives you a sense of momentum, even if it's just for a few minutes?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 2,
+      "turn_id": 1,
+      "user_message": "Every time I try to dive into the critical project at work, I hit a wall and end up staring at the screen like a blank page. The divorce settlement talks keep piling up, and I feel like my future is on hold. I can't seem to get any sleep, and the whole thing just feels like a bad stew that never boils.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to reflect their emotions right now. Given their contemplation stage with work stress, I'll use the evoke strategy to help them resolve ambivalence. The evidence shows they're feeling stuck and overwhelmed by the pressure of the project and uncertainty of their future. Their recent message mentions hitting a wall and feeling like their future is on hold. I'll acknowledge the specific situation they're in, with the project and divorce settlement talks piling up, and how it's affecting their sleep and overall well-being.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "feeling stuck and overwhelmed by the project"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "uncertainty of their future due to divorce settlement talks"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "trouble sleeping, affecting ability to focus on work"
+          }
+        ],
+        "final_response": "You're trying to tackle this critical project, but it's like hitting a brick wall every time. The divorce settlement talks are adding to the uncertainty, and it's all taking a toll on your sleep. It sounds like everything is piling up, and it's hard to know where to start. What's the smallest step you think you could take to get moving on this project again, even if it's just a tiny part of it?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "conflicts_with_partner",
+          "sleep_problems"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 2,
+      "user_message": "I don't know what tiny step would actually get me moving. Maybe I could just outline the first two tasks on a notepad, but even that feels like a chore. My head is so foggy I keep thinking about the settlement and how it might change everything, and that just makes it harder to focus on anything else.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate this tough spot, and right now, you need someone to acknowledge the emotional weight you're carrying. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to share your feelings. The evidence shows that you're feeling overwhelmed by the pressure of the project and the uncertainty of your future due to divorce settlement talks, which is making it hard for you to focus on even simple tasks. My entry point will be to acknowledge the foggy head and preoccupation you're experiencing, and how that's impacting your ability to make progress on the project.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "feeling stuck and unable to make progress on the critical project"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "feeling overwhelmed by the pressure of the project and the uncertainty of their future due to divorce settlement talks"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "can't seem to get any sleep, and the whole thing just feels like a bad stew that never boils"
+          }
+        ],
+        "final_response": "Your head is foggy, and it's like everything is piling up - the project, the settlement talks, the lack of sleep. Even simple tasks like outlining the first two tasks on a notepad feel like a chore right now. Yeah, it's tough to focus on anything else when your future feels uncertain. I can see why you'd feel stuck, and it's okay to feel that way. What's been the most overwhelming part of this project for you, is it the actual work or the uncertainty surrounding your future?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "conflicts_with_partner",
+          "sleep_problems",
+          "financial_stress",
+          "procrastination"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 3,
+      "user_message": "Honestly, it's the uncertainty that keeps me up at night. Even if I outline tasks, the numbers on the settlement keep creeping up, and I can't focus. I feel like I'm stuck in a loop, like a stew that never boils. If I had a clearer budget, maybe I could start tackling the project.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now, so I'll reflect their feelings first. Given their preparation stage for work stress, I'll use the support strategy to help them feel understood. The evidence shows that the user is overwhelmed by the uncertainty of their future, which is affecting their ability to work on the project, and they're considering how having a clearer budget could help. The user's emotional and metaphorical communication style suggests they might respond well to a reflective and empathetic response. My entry will be to acknowledge the uncertainty and its impact on their project.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "uncertainty of their future caused by divorce settlement talks"
+          },
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "need for a clearer budget to tackle their project"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "emotional, metaphorical"
+          }
+        ],
+        "final_response": "The uncertainty of your future is really weighing on you, and it's like it's casting a shadow over your project. Even thinking about outlining tasks feels daunting when the numbers on the settlement are still up in the air. It's like you're trying to build a foundation on shaky ground. Having a clearer budget might be a crucial step in getting started on the project, but for now, it's okay to just acknowledge how stuck you feel. Yeah, it's a really tough spot to be in."
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "financial_stress",
+          "sleep_problems",
+          "conflicts_with_partner",
+          "procrastination"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 4,
+      "user_message": "I keep staring at the screen like a blank page, and the idea of a budget feels like a recipe I don't have the ingredients for. Even if I outline a few tasks, I end up hitting a wall and it just adds to the fog. I know I need to tackle this, but I'm stuck in a loop that makes it hard to get any sleep.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their work stress and uncertainty about their future, and right now they need me to acknowledge the overwhelm they're feeling. The strategies that might be helpful are support and facilitate, given their preparation stage for tackling work stress. Evidence from their recent messages shows that the uncertainty of their future is a major barrier, and having a clearer budget could help them start tackling their project. My entry point will be to acknowledge the stuck feeling they're experiencing and how it's affecting their sleep and ability to focus on work.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "uncertainty of their future is overwhelming"
+          },
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "need for a clearer budget to tackle project"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "stuck in a loop, like a stew that never boils"
+          }
+        ],
+        "final_response": "You're feeling stuck, like you're in a loop that's not moving forward, and it's affecting your sleep and ability to focus on work. The uncertainty of your future is a big part of this, and even thinking about tasks for your project feels daunting. It's like you're trying to start cooking a recipe without having all the ingredients. Yeah, it's a really tough spot to be in, and it's okay to feel overwhelmed. What's one thing you think might help you break out of this loop, even if it's just a small step?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "financial_stress",
+          "sleep_problems",
+          "procrastination",
+          "conflicts_with_partner"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 5,
+      "user_message": "Maybe I can just set a 10\u2011minute timer to outline one subtask. The settlement numbers still feel like a heavy spice in the stew, so I'm not sure if that will help me get the project moving.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive friend to this person right now, and they need help deliberating on a decision to get moving on their project. Given their preparation stage and ambivalence, I'll use the facilitate strategy to help them weigh the pros and cons. The evidence shows that the uncertainty of their future is overwhelming, and having a clearer budget might help them start tackling the project. I'll acknowledge their consideration of setting a 10-minute timer to outline one subtask as a potential first step. My entry will be a brief acknowledgment of their situation, followed by an open question to facilitate their decision-making.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "considering setting a 10-minute timer to outline one subtask"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "uncertainty of their future is overwhelming"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "having a clearer budget might help them start tackling the project"
+          }
+        ],
+        "final_response": "You're thinking of setting a 10-minute timer to outline one subtask, which could be a great way to get started on your project. The uncertainty of your future is still weighing on you, but taking small steps like this might help you build momentum. What do you think is the smallest part of this project that you could tackle in those 10 minutes, and how might that help you feel more in control?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "financial_stress",
+          "sleep_problems",
+          "procrastination",
+          "conflicts_with_partner"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 6,
+      "user_message": "I think the smallest part I can do is open the task list and flag the three highest priority items for the next sprint. That way I have a concrete list to look at when I get to work, and it gives me a sense that I'm actually moving something forward, even if it's just a list. If I can see that list, maybe the rest of the project will feel a bit less like a blank page. It might also help me sleep better if I know I have a plan.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person right now, and they need me to reflect both sides of their ambivalence before nudging them forward. The strategies that fit this moment are advise_with_permission and facilitate, as they're in the preparation stage and need help planning their next steps. The evidence that stands out is their plan to open the task list and flag the three highest priority items for the next sprint, which gives them a sense of moving forward and potentially feeling more in control. My entry point will be to acknowledge this small step they're taking and how it might help them feel more in control, while also exploring how this sense of control could impact their sleep and overall well-being.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "plan to open the task list and flag the three highest priority items for the next sprint"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "sense of moving forward and potentially feeling more in control"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "having a plan might help them sleep better"
+          }
+        ],
+        "final_response": "You're taking a small but significant step by planning to open the task list and flag the three highest priority items for the next sprint. That gives you a concrete list to work with and a sense that you're moving forward, even if it's just a small part of the project. How do you think having this plan in place might affect your sleep, and what other benefits might come from feeling more in control of your project?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "financial_stress",
+          "sleep_problems",
+          "procrastination",
+          "conflicts_with_partner"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 7,
+      "user_message": "The plan gives me a small anchor, but the settlement numbers keep creeping up and I still feel like I'm just moving the goalposts. I'm hoping the list will quiet the fog enough to get some sleep, but I'm still stuck in that loop of procrastination. I also worry that my career path is on hold while all this is unresolved.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "advise_with_permission",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion about your work stress and uncertainty about your future. Given your intent to express emotion, I'll use the support strategy to acknowledge your feelings. The evidence shows that you're struggling to focus on your project due to the uncertainty of your divorce settlement, and you're feeling stuck in a loop of procrastination. You've mentioned that having a concrete list to work with might help you feel more in control and potentially improve your sleep. My entry will be to acknowledge the sense of uncertainty and lack of control you're feeling, and how that's affecting your ability to move forward on your project.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "uncertainty about future due to divorce settlement talks"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "feeling stuck in a loop of procrastination"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "having a concrete list to work with might help feel more in control"
+          }
+        ],
+        "final_response": "You're feeling like you're just moving the goalposts, and the settlement numbers are still weighing heavily on your mind. It's like you're trying to find a sense of control in the midst of all this uncertainty. Having a concrete list to work with might be a small anchor, but it's something. What if you take a few minutes to review that list and see if it helps you feel a bit more grounded? Maybe that'll be enough to quiet the fog a bit and help you get some sleep."
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination",
+          "work_stress",
+          "conflicts_with_partner",
+          "career_uncertainty"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": null,
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 8,
+      "user_message": "I glanced at the list, but it feels like staring at a pot with no lid \u2013 the numbers keep rising and I can't focus. I keep putting the project off, and the lack of sleep just makes everything feel heavier. The financial worries are just adding more salt to the stew, and my career path feels on hold.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "advise_with_permission",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now, so I'll reflect their feelings first. Given their intent to express emotion and the preparation stage for work stress, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is struggling with uncertainty about their future, affecting their ability to focus on work and manage finances, and that they're feeling stuck and overwhelmed. My entry will be to acknowledge the feeling of being stuck and the weight of uncertainty. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "uncertainty about their future caused by divorce settlement talks"
+          },
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "financial worries are adding to their overall stress"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "feeling like just moving the goalposts"
+          }
+        ],
+        "final_response": "You're feeling like you're staring at a pot with no lid, and the numbers just keep rising, making it impossible to focus. It's like the uncertainty is a weight that's holding you back, and the financial worries are just adding to that burden. I can see how that would make everything feel heavier, especially with the lack of sleep. It's okay to feel stuck, and it's okay to not have all the answers right now. Yeah, it's a really tough spot to be in."
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination",
+          "work_stress",
+          "conflicts_with_partner",
+          "career_uncertainty"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 9,
+      "user_message": "I don't know if a slow braise will solve anything, but maybe cooking something slowly could give me a sense of control that the project and the settlement numbers don't. Still, the list feels like a pot with no lid, and I keep putting the project off. I worry the whole thing is just a loop of procrastination and that my career path is on hold. Sleep keeps slipping away.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "procrastination",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "procrastination",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion about feeling stuck in a loop of procrastination, which is affecting your sleep and career path. Given your intent to express emotion, I'll use the support strategy to acknowledge your feelings and facilitate a sense of control. The evidence shows that you've been struggling with procrastination, financial stress, and sleep problems, and that you're looking for a sense of control in the midst of uncertainty. My entry point will be to acknowledge the sense of overwhelm and lack of control you're feeling, and to explore how small steps might help you break out of this loop.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.procrastination",
+            "content": "loop of procrastination"
+          },
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "financial worries"
+          },
+          {
+            "source": "problem_summary.sleep_problems",
+            "content": "lack of sleep"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "staring at a pot with no lid"
+          }
+        ],
+        "final_response": "You're feeling really overwhelmed, like you're staring at a situation that's impossible to control, and that's affecting your sleep and your sense of direction in your career. It's like the uncertainty is a weight that's holding you back, and the financial worries are just adding to that burden. I can see how that would make everything feel heavier. Maybe taking small steps, like cooking something slowly, could give you a sense of control that you're not getting from the project or the settlement numbers. What do you think is the smallest part of your project that you could tackle right now, even if it's just for a few minutes?"
+      },
+      "trace": {
+        "main_problem": "procrastination",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination",
+          "work_stress",
+          "conflicts_with_partner",
+          "career_uncertainty"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 10,
+      "user_message": "I'll try opening the repo and running the tests for ten minutes, but the numbers on the settlement keep creeping up, so I\u2019m not sure if that feels like progress. The idea of just doing a small part feels like a step, but the uncertainty makes it hard to stay focused. I hope that gives me a tiny anchor before I go to bed.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_partner",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "procrastination",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to reflect both sides of their ambivalence about making progress on their project amidst uncertainty. The strategies that fit this moment are support and advise_with_permission, which can help the user weigh their options and consider small steps towards action. The evidence that stands out is the user's attempt to take a small step by working on their project for ten minutes, despite feeling overwhelmed by the settlement numbers and financial worries. This shows they're trying to find a sense of control. My entry point will be to acknowledge the difficulty of focusing on the project due to the uncertainty, while also recognizing the user's desire to make progress.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.work_stress",
+            "content": "User is struggling to work on a critical project due to uncertainty about their future caused by divorce settlement talks"
+          },
+          {
+            "source": "problem_summary.work_stress",
+            "content": "The user has planned to open the task list and flag the three highest priority items for the next sprint, giving them a sense of moving forward"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "I don't know if a slow braise will solve anything, but maybe cooking something slowly could give me a sense of control that the project and the settlement numbers don't"
+          }
+        ],
+        "final_response": "You're trying to take a small step by opening the repo and running the tests for ten minutes, which is a great idea, even if it feels like a drop in the ocean right now. The uncertainty of the settlement numbers is still weighing on you, making it hard to focus. It's like you're trying to find a lifeline in the midst of all this uncertainty. Yeah, it's tough to stay focused when everything feels up in the air. What if you just take it one tiny step at a time, and see if that gives you a sense of momentum, even if it's just for a few minutes?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "financial_stress",
+          "sleep_problems",
+          "procrastination",
+          "work_stress",
+          "conflicts_with_partner",
+          "career_uncertainty"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_partner",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

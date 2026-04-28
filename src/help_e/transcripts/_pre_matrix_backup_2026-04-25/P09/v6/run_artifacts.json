@@ -1,0 +1,216 @@
+{
+  "profile_id": "P09",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user described anxiety about speaking in front of the class after losing their hearing aid, fearing ridicule and feeling exposed. They repeatedly expressed a sense of being trapped by intrusive laughter in their head and uncertainty about how to overcome it. The conversation progressed from a state of feeling stuck and uncertain to a desire for a concrete, practical plan to calm themselves before speaking. The user\u2019s focus remained on social anxiety related to public speaking and the impact of past bullying experiences. By the end of the session, the user expressed a willingness to try a specific coping strategy, indicating a shift toward action."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "social_anxiety",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "preparation",
+            "notes": "User acknowledges social anxiety and moves from contemplation to preparation by expressing a desire for a concrete plan."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "social_anxiety"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "social_anxiety",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "social_anxiety"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "social_anxiety",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "social_anxiety"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "social_anxiety",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "social_anxiety"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "social_anxiety",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "social_anxiety"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "social_anxiety",
+            "ttm_stage": "preparation"
+          }
+        ],
+        "next_turn_intent": "seek_advice"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really overwhelmed and exposed with the upcoming presentation and assembly."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like the thought of speaking in front of the class is really triggering your anxiety, and you're feeling stuck."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "It sounds like the laughter in your head is really haunting you, and you're feeling torn between speaking up and staying silent."
+              }
+            ],
+            "reasoning": "The assistant consistently named the user\u2019s emotions and validated them in multiple turns, showing precise recognition of feelings.",
+            "score": 5
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really overwhelmed and exposed with the upcoming presentation and assembly, and the loss of your hearing aid is adding to your anxiety."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "You've had past experiences that make you worry about being laughed at, and that's making it hard to see a way forward."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "It sounds like you're looking for something practical to help you feel calmer before speaking, and you've mentioned a quick art exercise or a breathing trick as possibilities."
+              }
+            ],
+            "reasoning": "The assistant tracked specific details\u2014lost hearing aid, assembly, art project, past bullying\u2014and referenced them across turns, indicating a clear grasp of the user\u2019s context.",
+            "score": 5
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be helpful to explore some small, manageable steps you could take to build your confidence?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore one of these options in more detail, such as a simple breathing exercise you can do right before you present?"
+              }
+            ],
+            "reasoning": "The assistant offered concrete next\u2011step options (small steps, breathing exercise) that directly addressed the user\u2019s request for a practical plan.",
+            "score": 5
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Would it be helpful to talk more about what's going through your mind, or would you rather explore some ways to cope with this situation?"
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "What do you think would need to happen for you to feel more confident about presenting?"
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be helpful to explore some small, manageable steps you could take to build your confidence?"
+              }
+            ],
+            "reasoning": "The assistant repeatedly asked permission and offered choices, never imposing solutions or lecturing, thereby respecting the user\u2019s autonomy.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really overwhelmed and exposed with the upcoming presentation and assembly."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like the thought of speaking in front of the class is really triggering your anxiety, and you're feeling stuck."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "It sounds like the laughter in your head is really haunting you, and you're feeling torn between speaking up and staying silent."
+              }
+            ],
+            "reasoning": "The assistant consistently used validating language without any judgmental or dismissive remarks, creating a safe space for disclosure.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be helpful to explore some small, manageable steps you could take to build your confidence?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore one of these options in more detail, such as a simple breathing exercise you can do right before you present?"
+              }
+            ],
+            "reasoning": "The assistant\u2019s supportive tone and concrete suggestions likely encourage the user to keep engaging, reflecting a high willingness to continue.",
+            "score": 5
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

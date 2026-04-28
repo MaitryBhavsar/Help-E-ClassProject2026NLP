@@ -1,0 +1,1863 @@
+{
+  "session_id": 3,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-critical, anxious, introspective, perfectionistic, fearful",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm drowning in debt and expectations. I know I need to keep studying, but every time I think about it I just feel more ashamed and worthless."
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "The hardest part is that I feel like I'm constantly failing my parents\u2014they see my struggle as a weakness, and I just can't bring myself to ask for help."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "The hardest part is that every time I think about asking for help, I feel like I'm admitting I\u2019m a failure."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I am not worthy of love and acceptance if I don't meet expectations, I must be perfect to be enough, I am a failure if I ask for help",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I know I need to keep studying, but every time I think about it I just feel more ashamed and worthless."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I don't know if asking for help will make anything better; I feel like I'd just confirm I'm a failure in their eyes."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "The hardest part is that every time I think about asking for help, I feel like I'm admitting I\u2019m a failure."
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "writing poetry, helping at the LGBTQ center",
+      "evidence_citations": [
+        {
+          "turn_id": 9,
+          "excerpt": "The only moments that feel like worth are when I finish a poem or get a quick nod from a friend online"
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "When I write, I feel a flicker of freedom, but even then the thought of my parents watching me through their judgment lingers like a shadow."
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "struggling with gender identity, anxiety about pursuing a career in psychology, pressure from parents to meet expectations, financial struggles",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm drowning in debt and expectations. I know I need to keep studying, but every time I think about it I just feel more ashamed and worthless."
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "The hardest part is that I feel like I'm constantly failing my parents\u2014they see my struggle as a weakness, and I just can't bring myself to ask for help."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I think I need a concrete plan to cover tuition and a reminder that I'm not a failure."
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, avoidant, perfectionistic, people-pleaser, fearful, self-doubting",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm drowning in debt and expectations. I know I need to keep studying, but every time I think about it I just feel more ashamed and worthless."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I don't know if asking for help will make anything better; I feel like I'd just confirm I'm a failure in their eyes."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "The hardest part is that every time I think about asking for help, I feel like I'm admitting I\u2019m a failure."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I can't keep it together; the finals are looming, my parents just cut my tuition, and I feel like I'm drowning in debt and expectations. I know I need to keep studying, but every time I think about it I just feel more ashamed and worthless. Is there any way to get out of this spiral?"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're facing a lot of pressure right now, from finals to your parents' expectations, and it's taking a huge toll on your emotional well-being. It sounds like the shame and worthlessness you're feeling are closely tied to your fear of not meeting those expectations. One thing that might help is breaking down your studying into smaller, manageable tasks, so it doesn't feel so overwhelming. Would you be open to exploring some strategies for doing that?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I don't know if breaking it down will make a difference. The deadlines are so close and the financial pressure just feels like a weight I can't lift."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The weight of those deadlines and the financial pressure from your parents is crushing, and it's no wonder you're feeling like you're drowning. It's like the expectations are piling up, and it's hard to see a way out. Yeah, breaking down your studying into smaller tasks might help, but I also want to acknowledge that it's not just about the tasks themselves, it's about the emotional weight you're carrying. Can you tell me more about what's been the hardest part of dealing with this financial pressure and the expectations from your parents?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "The hardest part is that I feel like I'm constantly failing my parents\u2014they see my struggle as a weakness, and I just can't bring myself to ask for help. The looming finals and the sudden loss of tuition support feel like a double blow, and I'm scared this will ruin my future. I keep telling myself I can do it, but the shame and fear make it hard to focus."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The fear of not meeting your parents' expectations is really getting to you, and it's like that fear is tangled up with your own sense of self-worth. You've mentioned feeling like you're constantly failing them, and that's a really heavy burden to carry. It's understandable that you're struggling to focus on your studies with all this emotional weight on your mind. Can you tell me more about what you think would happen if you did ask for help, and how that might affect your relationship with your parents?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I don't know if asking for help will make anything better; I feel like I'd just confirm I'm a failure in their eyes. The whole thing feels like a trap\u2014no tuition, finals, and I can't even talk to them. I\u2019m scared that if I reach out, they'll just close the door on me completely. I feel so stuck."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The fear of being seen as a failure by your parents is really holding you back from asking for help, and it's like that fear is confirming all your worst doubts about yourself. You've been carrying this weight for a while now, and it's no wonder you feel stuck - it's like you're trapped between the pressure to meet their expectations and the fear of being rejected if you don't. Yeah, it's a really tough spot to be in. Can you tell me more about what you think you need right now to feel like you can move forward, even if it's just a small step?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I think I need a concrete plan to cover tuition and a reminder that I'm not a failure. The pressure of finals and the money crisis is crushing my confidence."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling really overwhelmed by the pressure of finals and the money crisis, and it's affecting your confidence. One small step you could take right now is to make a list of all the possible sources of financial aid you could apply for, like scholarships or grants. Would you be open to exploring those options together? Maybe we can also brainstorm some ways to remind yourself that you're not a failure, like writing down things you're proud of or talking to someone who supports you."
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I appreciate the suggestion, but listing scholarships feels like a lot of work when I'm already drowning in deadlines. I don't know if I can even ask my parents for help without feeling like a failure. I'm also scared that even if I find a scholarship, I'll still be left to juggle finals and the weight of their expectations."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The weight of those deadlines and your parents' expectations is crushing, and it's no wonder you're feeling like you're drowning. You've been carrying this emotional burden for a while now, and it's affecting your confidence and ability to focus on finding solutions. I want to acknowledge that it takes a lot of courage to admit when we're struggling, and it's okay to feel overwhelmed. Can you tell me more about what's been the hardest part of dealing with your parents' expectations and how you think it's impacting your ability to ask for help?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "The hardest part is that every time I think about asking for help, I feel like I'm admitting I\u2019m a failure. I can\u2019t even talk to them without feeling like a failure, and the pressure from finals and the lack of money makes it feel impossible."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The pressure of finals and the weight of your parents' expectations is really getting to you, and it's no wonder you feel like you're admitting failure every time you think about asking for help. It takes a lot of courage to admit when we're struggling, and it's okay to feel overwhelmed. I want to acknowledge that it sounds like you're feeling really stuck right now, and that it's hard to see a way out. Yeah, it's a really tough spot to be in. Can you tell me more about what you think would happen if you could find a way to separate your self-worth from your parents' expectations?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "Honestly, I don't think I can separate my worth from what they think; if I do, maybe they'd see me as a disappointment and cut me off completely. The idea of looking at myself independently feels impossible when every thought is tied to them. I keep wondering if I can even focus on finals while drowning in this. I'm just stuck."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The fear of being seen as a disappointment by your parents is suffocating, and it's no wonder you feel like you can't separate your worth from their expectations. Every thought being tied to them makes it feel impossible to focus on anything else, including finals. It's like you're trapped in a cycle of fear and self-doubt. Yeah, it's a really tough spot to be in. Can you think of any small moments or experiences where you felt valued or worthy outside of your parents' opinions?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "The only moments that feel like worth are when I finish a poem or get a quick nod from a friend online, but even those feel fleeting and tied to my fear of what my parents think. I keep looping that if they see me, they'll see a failure, and that keeps me from focusing on finals. It's like the anxiety of the exams and the weight of the money crisis just amplify that shame."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "Finishing a poem or getting a nod from a friend online gives you a fleeting sense of worth, but it's hard to hold onto that when the fear of your parents' judgment is always lurking. The anxiety of finals and the money crisis is amplifying that shame, making it feel like you're stuck in a cycle of self-doubt. It's like you're trying to focus on your exams, but the weight of their expectations is always in the back of your mind, making it hard to breathe. Yeah, it's a really painful spot to be in. Can you tell me more about what happens when you're writing poetry - is that a time when you feel more connected to yourself, or is it still tainted by the fear of what your parents think?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "When I write, I feel a flicker of freedom, but even then the thought of my parents watching me through their judgment lingers like a shadow. The deadlines and the money situation keep creeping in, so I keep feeling like I'm juggling a paper and a bomb at the same time. It\u2019s hard to claim that moment as truly mine when the weight of their expectations still feels attached."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "Writing poetry gives you a brief sense of freedom, but the fear of your parents' judgment always seems to be lurking, making it hard to fully claim that moment as your own. It's like you're trying to create something meaningful while also carrying the weight of their expectations, which can be really overwhelming. Can you think of any ways you might be able to use writing or other creative pursuits as a way to cope with the stress and anxiety you're feeling right now?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 3,
+      "turn_id": 1,
+      "user_message": "I can't keep it together; the finals are looming, my parents just cut my tuition, and I feel like I'm drowning in debt and expectations. I know I need to keep studying, but every time I think about it I just feel more ashamed and worthless. Is there any way to get out of this spiral?",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_information",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "seek_information",
+        "intent_entry_style": "Elicit what they know \u2192 provide one piece \u2192 elicit reaction.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a friend to help this person navigate their struggles, and they're seeking information on how to get out of their current spiral. Given their intent and cold start, I'll use the support strategy to acknowledge their emotions and the inform_with_permission strategy to provide a potential way forward. The evidence shows they're struggling with feelings of shame and worthlessness, and their perfectionistic tendencies are exacerbating the issue. My entry point will be to acknowledge the overwhelming pressure they're under and the emotional toll it's taking.",
+        "evidence_used": [
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not worthy of love and acceptance if I don't meet expectations"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "feel like I'm drowning in debt and expectations"
+          }
+        ],
+        "final_response": "You're facing a lot of pressure right now, from finals to your parents' expectations, and it's taking a huge toll on your emotional well-being. It sounds like the shame and worthlessness you're feeling are closely tied to your fear of not meeting those expectations. One thing that might help is breaking down your studying into smaller, manageable tasks, so it doesn't feel so overwhelming. Would you be open to exploring some strategies for doing that?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "seek_information",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "inform_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 2,
+      "user_message": "I don't know if breaking it down will make a difference. The deadlines are so close and the financial pressure just feels like a weight I can't lift.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "inform_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the overwhelming emotions you're experiencing right now. Given your express_emotion intent, I'll use complex_reflection and support strategies to help you process your feelings. The evidence shows that you're struggling with feelings of shame and worthlessness, and the financial pressure is exacerbating these emotions. My entry will be to acknowledge the weight of these expectations and the pressure you're under.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "feeling ashamed and worthless"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not worthy of love and acceptance if I don't meet expectations"
+          }
+        ],
+        "final_response": "The weight of those deadlines and the financial pressure from your parents is crushing, and it's no wonder you're feeling like you're drowning. It's like the expectations are piling up, and it's hard to see a way out. Yeah, breaking down your studying into smaller tasks might help, but I also want to acknowledge that it's not just about the tasks themselves, it's about the emotional weight you're carrying. Can you tell me more about what's been the hardest part of dealing with this financial pressure and the expectations from your parents?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 3,
+      "user_message": "The hardest part is that I feel like I'm constantly failing my parents\u2014they see my struggle as a weakness, and I just can't bring myself to ask for help. The looming finals and the sudden loss of tuition support feel like a double blow, and I'm scared this will ruin my future. I keep telling myself I can do it, but the shame and fear make it hard to focus.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "inform_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the pain and fear you're feeling. Given your intent to express emotion, I'll use complex_reflection to help you explore your feelings. The evidence shows that you're struggling with feelings of shame and worthlessness, and the pressure from your parents is exacerbating this. Your recent messages have highlighted the emotional weight of these expectations, and I want to acknowledge that. My entry point will be to reflect on the sense of failure you feel in relation to your parents' expectations.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "I feel like I'm constantly failing my parents"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not worthy of love and acceptance if I don't meet expectations"
+          }
+        ],
+        "final_response": "The fear of not meeting your parents' expectations is really getting to you, and it's like that fear is tangled up with your own sense of self-worth. You've mentioned feeling like you're constantly failing them, and that's a really heavy burden to carry. It's understandable that you're struggling to focus on your studies with all this emotional weight on your mind. Can you tell me more about what you think would happen if you did ask for help, and how that might affect your relationship with your parents?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 4,
+      "user_message": "I don't know if asking for help will make anything better; I feel like I'd just confirm I'm a failure in their eyes. The whole thing feels like a trap\u2014no tuition, finals, and I can't even talk to them. I\u2019m scared that if I reach out, they'll just close the door on me completely. I feel so stuck.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion right now, so I want to acknowledge that first. Given your intent to express emotion, I think a good strategy would be to use complex_reflection to help you explore your feelings. From what you've shared, it seems like the fear of being seen as a failure by your parents is a major barrier to asking for help. Your past messages have mentioned feeling stuck and like you're drowning in debt and expectations, which suggests that this fear is closely tied to your sense of self-worth. My first sentence will be an acknowledgment of the emotional weight you're carrying, and how it's affecting your ability to ask for help.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "I feel like I'm constantly failing my parents"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not worthy of love and acceptance if I don't meet expectations"
+          }
+        ],
+        "final_response": "The fear of being seen as a failure by your parents is really holding you back from asking for help, and it's like that fear is confirming all your worst doubts about yourself. You've been carrying this weight for a while now, and it's no wonder you feel stuck - it's like you're trapped between the pressure to meet their expectations and the fear of being rejected if you don't. Yeah, it's a really tough spot to be in. Can you tell me more about what you think you need right now to feel like you can move forward, even if it's just a small step?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 5,
+      "user_message": "I think I need a concrete plan to cover tuition and a reminder that I'm not a failure. The pressure of finals and the money crisis is crushing my confidence.",
+      "inference": {
+        "user_intent": {
+          "intent": "request_plan",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "request_plan",
+        "intent_entry_style": "Propose ONE small step matched to TTM stage. Don't deflect with a question.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this user as they navigate a really tough time, and they're asking for a concrete plan to cover tuition and a reminder that they're not a failure. Given their request, I think the best strategies to use are advise_with_permission and structure, as they need a clear plan and reassurance. The evidence I'm using is their statement about needing a concrete plan and feeling like a failure, which shows they're struggling with shame and worthlessness. My entry point will be to acknowledge their feelings and offer a small, manageable step towards covering tuition.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "concrete plan to cover tuition"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "reminder that I'm not a failure"
+          }
+        ],
+        "final_response": "You're feeling really overwhelmed by the pressure of finals and the money crisis, and it's affecting your confidence. One small step you could take right now is to make a list of all the possible sources of financial aid you could apply for, like scholarships or grants. Would you be open to exploring those options together? Maybe we can also brainstorm some ways to remind yourself that you're not a failure, like writing down things you're proud of or talking to someone who supports you."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "request_plan",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "advise_with_permission",
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 6,
+      "user_message": "I appreciate the suggestion, but listing scholarships feels like a lot of work when I'm already drowning in deadlines. I don't know if I can even ask my parents for help without feeling like a failure. I'm also scared that even if I find a scholarship, I'll still be left to juggle finals and the weight of their expectations.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "advise_with_permission",
+            "structure"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion about feeling overwhelmed by finals, financial pressure, and your parents' expectations. Given your intent to express emotion, I'll use support and complex reflection strategies to acknowledge your feelings and help you explore them. The evidence I'm using is your recent message about feeling like you're drowning in deadlines and the weight of your parents' expectations, as well as your past mentions of struggling with self-worth and the fear of being seen as a failure. My entry point will be to acknowledge the emotional weight you're carrying and how it's affecting your ability to focus on finding solutions.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "feeling like you're drowning in deadlines"
+          },
+          {
+            "source": "problem_summary.none",
+            "content": "struggling with self-worth and the fear of being seen as a failure"
+          }
+        ],
+        "final_response": "The weight of those deadlines and your parents' expectations is crushing, and it's no wonder you're feeling like you're drowning. You've been carrying this emotional burden for a while now, and it's affecting your confidence and ability to focus on finding solutions. I want to acknowledge that it takes a lot of courage to admit when we're struggling, and it's okay to feel overwhelmed. Can you tell me more about what's been the hardest part of dealing with your parents' expectations and how you think it's impacting your ability to ask for help?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 7,
+      "user_message": "The hardest part is that every time I think about asking for help, I feel like I'm admitting I\u2019m a failure. I can\u2019t even talk to them without feeling like a failure, and the pressure from finals and the lack of money makes it feel impossible.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "advise_with_permission",
+            "structure"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this user as they express their emotions and struggles with feeling like a failure in their parents' eyes. Given their intent to express emotion, I'll start by acknowledging the weight of their parents' expectations and the pressure of finals. The evidence shows that the user feels like they're constantly failing their parents and that asking for help would confirm this feeling. I'll use the support strategy to create a safe space for them to open up. The user's recent messages indicate that they're feeling overwhelmed and stuck, so I'll try to help them feel seen and understood. My entry point will be to acknowledge the emotional burden they're carrying and how it's affecting their ability to ask for help.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "I appreciate the suggestion, but listing scholarships feels like a lot of work when I'm already drowning in deadlines."
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "The user feels like they're constantly failing their parents and that asking for help would confirm this feeling."
+          }
+        ],
+        "final_response": "The pressure of finals and the weight of your parents' expectations is really getting to you, and it's no wonder you feel like you're admitting failure every time you think about asking for help. It takes a lot of courage to admit when we're struggling, and it's okay to feel overwhelmed. I want to acknowledge that it sounds like you're feeling really stuck right now, and that it's hard to see a way out. Yeah, it's a really tough spot to be in. Can you tell me more about what you think would happen if you could find a way to separate your self-worth from your parents' expectations?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 8,
+      "user_message": "Honestly, I don't think I can separate my worth from what they think; if I do, maybe they'd see me as a disappointment and cut me off completely. The idea of looking at myself independently feels impossible when every thought is tied to them. I keep wondering if I can even focus on finals while drowning in this. I'm just stuck.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a deep emotional struggle right now, feeling like your worth is tied to your parents' expectations. The strategies that seem most fitting are support and complex_reflection, given your current emotional state and the need to explore your feelings without adding more pressure. The evidence that stands out is your repeated mention of feeling like a failure in your parents' eyes and the overwhelming pressure of finals and financial stress. My entry point will be to acknowledge the impossibility you feel in separating your self-worth from your parents' expectations and the fear of their disappointment.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "feeling like a failure in parents' eyes"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not worthy of love and acceptance if I don't meet expectations"
+          }
+        ],
+        "final_response": "The fear of being seen as a disappointment by your parents is suffocating, and it's no wonder you feel like you can't separate your worth from their expectations. Every thought being tied to them makes it feel impossible to focus on anything else, including finals. It's like you're trapped in a cycle of fear and self-doubt. Yeah, it's a really tough spot to be in. Can you think of any small moments or experiences where you felt valued or worthy outside of your parents' opinions?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 9,
+      "user_message": "The only moments that feel like worth are when I finish a poem or get a quick nod from a friend online, but even those feel fleeting and tied to my fear of what my parents think. I keep looping that if they see me, they'll see a failure, and that keeps me from focusing on finals. It's like the anxiety of the exams and the weight of the money crisis just amplify that shame.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to reflect your emotions right now, so I'll prioritize empathy and understanding. Given your express_emotion intent, I'll use the support strategy to acknowledge your feelings and create a safe space for you to open up. The evidence shows that you're struggling with feelings of shame and self-doubt, particularly when it comes to your parents' expectations, and that's what's keeping you from focusing on finals. Your recent messages have highlighted the weight of their opinions and the pressure of finals, so I'll use that to inform my response. My first sentence will acknowledge the specific emotional burden you're carrying, and how it's affecting your daily life, especially with the added pressure of finals and the money crisis.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "The fear of being seen as a disappointment by your parents is suffocating"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not worthy of love and acceptance if I don't meet expectations"
+          }
+        ],
+        "final_response": "Finishing a poem or getting a nod from a friend online gives you a fleeting sense of worth, but it's hard to hold onto that when the fear of your parents' judgment is always lurking. The anxiety of finals and the money crisis is amplifying that shame, making it feel like you're stuck in a cycle of self-doubt. It's like you're trying to focus on your exams, but the weight of their expectations is always in the back of your mind, making it hard to breathe. Yeah, it's a really painful spot to be in. Can you tell me more about what happens when you're writing poetry - is that a time when you feel more connected to yourself, or is it still tainted by the fear of what your parents think?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 10,
+      "user_message": "When I write, I feel a flicker of freedom, but even then the thought of my parents watching me through their judgment lingers like a shadow. The deadlines and the money situation keep creeping in, so I keep feeling like I'm juggling a paper and a bomb at the same time. It\u2019s hard to claim that moment as truly mine when the weight of their expectations still feels attached.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a deep emotional struggle, so my priority is empathy and understanding. Given your intent to express emotion and our conversation history, I'll use strategies like support and complex reflection to help you feel heard. Your words about writing poetry and feeling a flicker of freedom, despite the lingering fear of your parents' judgment, suggest that creative expression might be a source of strength for you. My entry point will be to acknowledge the difficulty of finding freedom in your creative pursuits when the weight of others' expectations is present.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "finishing a poem or getting a nod from a friend online gives you a fleeting sense of worth"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "the anxiety of finals and the money crisis is amplifying that shame"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not worthy of love and acceptance if I don't meet expectations"
+          }
+        ],
+        "final_response": "Writing poetry gives you a brief sense of freedom, but the fear of your parents' judgment always seems to be lurking, making it hard to fully claim that moment as your own. It's like you're trying to create something meaningful while also carrying the weight of their expectations, which can be really overwhelming. Can you think of any ways you might be able to use writing or other creative pursuits as a way to cope with the stress and anxiety you're feeling right now?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

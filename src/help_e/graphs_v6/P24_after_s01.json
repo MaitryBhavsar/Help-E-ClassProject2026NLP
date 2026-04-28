@@ -1,0 +1,380 @@
+{
+  "profile_id": "P24",
+  "persona": {
+    "demographics": "occupation: shop owner",
+    "personality_traits": [],
+    "core_values": [
+      "responsibility"
+    ],
+    "core_beliefs": [],
+    "support_system": "none/feeling alone",
+    "hobbies_interests": [],
+    "communication_style": "emotional",
+    "relevant_history": "recent breakup",
+    "general_behavioral_traits": []
+  },
+  "problems": {
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "preparation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees the current work situation as highly stressful",
+              "concise_explanation": "language of 'everything's falling apart'",
+              "supporting_utterance_span": "it feels like everything's falling apart",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels overwhelmed by shop responsibilities",
+              "concise_explanation": "feeling of being unable to keep up",
+              "supporting_utterance_span": "I don't know if I can keep running this shop",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels overwhelmed by the shop's demands",
+              "concise_explanation": "shop feels like a weight",
+              "supporting_utterance_span": "The shop feels like a weight I can't move",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees the shop as an unbearable burden",
+              "concise_explanation": "shop feels like a 'weight'",
+              "supporting_utterance_span": "The shop feels like a weight",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels overwhelmed by the demands of running the shop alone",
+              "concise_explanation": "mention of having to 'figure out how to run this alone'",
+              "supporting_utterance_span": "I\u2019m left figuring out how to run this alone",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels a strong sense of responsibility to others, which is a barrier to abandoning the shop",
+              "concise_explanation": "sense of betrayal to others",
+              "supporting_utterance_span": "abandoning the shop would be a betrayal to everyone who counts on it",
+              "confidence": "high"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user's motivation to continue is low due to exhaustion",
+              "concise_explanation": "statement of not being sure they can 'keep going like this'",
+              "supporting_utterance_span": "honestly not sure I can keep going like this",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user lacks desire to continue with the shop",
+              "concise_explanation": "doesn't see a reason to keep going",
+              "supporting_utterance_span": "I honestly don't see any reason to keep going",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user lacks motivation to continue with the shop",
+              "concise_explanation": "can't see any part that feels meaningful",
+              "supporting_utterance_span": "I cant see any part that feels meaningful",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is motivated to find a way to keep the shop going due to sense of responsibility",
+              "concise_explanation": "doesn't want to throw everything away",
+              "supporting_utterance_span": "I don't want to be the one who throws everything away",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "financial_stress": {
+      "problem_name": "financial_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        2
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user is struggling to manage bills and payments",
+              "concise_explanation": "drowning in bills",
+              "supporting_utterance_span": "I'm drowning in bills",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "breakup_aftermath": {
+      "problem_name": "breakup_aftermath",
+      "first_mentioned": [
+        1,
+        2
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "recent breakup is contributing to user's emotional distress",
+              "concise_explanation": "breakup mentioned as contributing factor",
+              "supporting_utterance_span": "The breakup left me feeling alone",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "breakup is exacerbating feelings of loneliness",
+              "concise_explanation": "breakup made things worse",
+              "supporting_utterance_span": "the breakup just made it worse",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "breakup is exacerbating the stress of running the shop",
+              "concise_explanation": "breakup made it worse",
+              "supporting_utterance_span": "the breakup just made it worse",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "recent breakup is a trigger for emotional distress and sense of loneliness",
+              "concise_explanation": "emotional distress and sense of loneliness",
+              "supporting_utterance_span": "can't live with that thought",
+              "confidence": "medium"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "financial_stress",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "supplier just called to demand payment, and I\u2019m left figuring out how to run this alone"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I'm drowning in bills and I feel like I can't keep up. The breakup left me feeling alone and I don't know if I can keep running this shop"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems implied in the same turn",
+          "supporting_utterance_span": "The shop feels like a weight I can't move"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems implied in the same turn",
+          "supporting_utterance_span": "The shop feels like a weight"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are related to the user's struggles with the shop",
+          "supporting_utterance_span": "abandoning the shop would be a betrayal to everyone who counts on it"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's financial struggles are exacerbating their work-related stress",
+          "supporting_utterance_span": "I'm drowning in bills and I feel like I can't keep up",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the financial struggles are contributing to the user's feelings of overwhelm with the shop",
+          "supporting_utterance_span": "I'm drowning in bills",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "financial struggles are contributing to the overall stress of running the shop",
+          "supporting_utterance_span": "The shop feels like a weight",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 0.8635874710071836
+    },
+    {
+      "problem_1": "breakup_aftermath",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The breakup left me feeling alone and I don't know if I can keep running this shop"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The shop feels like a weight I can't move, and the breakup just made it worse"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The shop feels like a weight and the breakup just made it worse"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "user's emotional distress and sense of loneliness are related to the breakup and the shop struggles",
+          "supporting_utterance_span": "can't live with that thought"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "recent breakup is contributing to user's emotional distress and ability to manage shop responsibilities",
+          "supporting_utterance_span": "The breakup left me feeling alone and I don't know if I can keep running this shop",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the breakup is exacerbating the user's stress and feelings of loneliness related to the shop",
+          "supporting_utterance_span": "the breakup just made it worse",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "breakup is exacerbating the stress of running the shop",
+          "supporting_utterance_span": "the breakup just made it worse",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the user's sense of responsibility to others (perceived barrier) is reinforced by the emotional distress and sense of loneliness triggered by the breakup",
+          "supporting_utterance_span": "abandoning the shop would be a betrayal to everyone who counts on it, and I cant live with that thought",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 0.9615833876086527
+    },
+    {
+      "problem_1": "breakup_aftermath",
+      "problem_2": "financial_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I'm drowning in bills and I feel like I can't keep up. The breakup left me feeling alone"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the context of the user's distress",
+          "supporting_utterance_span": "I honestly don't see any reason to keep going"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems implied in the same turn",
+          "supporting_utterance_span": "the breakup just made it worse"
+        }
+      ],
+      "attribute_connection_entries": [],
+      "weight": 0.30773691941270714
+    }
+  ]
+}

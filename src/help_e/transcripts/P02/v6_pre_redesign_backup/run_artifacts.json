@@ -1,0 +1,310 @@
+{
+  "profile_id": "P02",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user repeatedly expressed grief over their sister\u2019s sudden death while simultaneously struggling to finish a design project for an upcoming client meeting. They voiced feelings of inadequacy, fear of not honoring their sister, and exhaustion from lack of sleep. The conversation highlighted the interplay between grief, work stress, sleep deprivation, and a perfectionistic drive to meet a looming deadline. No significant change or progress was reported across the turns."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "grief_of_loved_one",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User acknowledges grief and its impact on work and sleep; no action taken."
+          }
+        ]
+      },
+      {
+        "problem_name": "work_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User recognizes the deadline pressure but has not begun to plan changes."
+          }
+        ]
+      },
+      {
+        "problem_name": "sleep_problems",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User reports staying up all night and acknowledges sleep loss."
+          }
+        ]
+      },
+      {
+        "problem_name": "perfectionism",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User expresses fear of not doing justice to their sister, indicating a perfectionistic concern."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "grief_of_loved_one",
+          "work_stress",
+          "sleep_problems",
+          "perfectionism"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "perfectionism",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "grief_of_loved_one",
+          "work_stress",
+          "sleep_problems",
+          "perfectionism"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "perfectionism",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "grief_of_loved_one",
+          "work_stress",
+          "sleep_problems",
+          "perfectionism"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "perfectionism",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "grief_of_loved_one",
+          "work_stress",
+          "sleep_problems",
+          "perfectionism"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "perfectionism",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "grief_of_loved_one",
+          "work_stress",
+          "sleep_problems",
+          "perfectionism"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "perfectionism",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "Every time you look at those mockups, you're not just seeing design elements \u2014 you're seeing a reflection of whether you're doing her memory justice."
+              }
+            ],
+            "reasoning": "The assistant acknowledges the user\u2019s overwhelming feelings and the weight of honoring a loved one, but the language remains somewhat generic and does not name specific emotions such as grief or exhaustion.",
+            "score": 3
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "You're still carrying the weight of getting this just right, and it's like every detail is a test of whether you're honoring her memory."
+              }
+            ],
+            "reasoning": "The assistant consistently references the mockups, the 3\u202fpm deadline, and the memorial, showing a clear grasp of the user\u2019s specific situation across turns.",
+            "score": 4
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "The fear of letting her down is crushing, and it's understandable that you'd feel like skipping the memorial just to escape the pain \u2014 but you know that's not the answer."
+              }
+            ],
+            "reasoning": "The assistant offers no concrete suggestions, next\u2011step questions, or actionable coping strategies; it merely repeats the emotional burden.",
+            "score": 1
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "Every time you think about her, it feels like the design is falling apart, and that's a devastating feeling \u2014 like you're letting her down all over again."
+              }
+            ],
+            "reasoning": "The assistant does not lecture or command; it simply mirrors the user\u2019s concerns, respecting the user\u2019s pace but not explicitly asking permission or offering choice.",
+            "score": 3
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "Every time you look at those mockups, you're not just seeing design elements \u2014 you're seeing a reflection of whether you're doing her memory justice."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "The fear of letting her down is crushing, and it's understandable that you'd feel like skipping the memorial just to escape the pain \u2014 but you know that's not the answer."
+              }
+            ],
+            "reasoning": "The assistant refrains from judging the user\u2019s feelings or decisions, providing a safe space for expression.",
+            "score": 4
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The pressure to get this just right, on top of the memorial, is overwhelming \u2014 and it's like the whole project has become a test of whether you're doing her memory justice."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "You're still carrying the weight of getting this just right, and it's like every detail is a test of whether you're honoring her memory."
+              }
+            ],
+            "reasoning": "The assistant does not explicitly invite the user to continue the conversation or offer further support, making it less likely the user would want to keep talking.",
+            "score": 2
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": [
+      1
+    ]
+  }
+}

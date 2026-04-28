@@ -1,0 +1,1893 @@
+{
+  "session_id": 1,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "overwhelmed, anxious, responsible",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel guilty about not being able to give my dad more time"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I\u2019m scared my own health might finally suffer because of all this"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I worry that if I don't keep up, my health will finally catch up to me"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "family, health, financial security",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel guilty about not being able to give my dad more time"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I\u2019m scared my own health might finally suffer because of all this"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I keep thinking about the rising care costs and how that\u2019s draining my savings"
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "dad, possibly others (unspecified)",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel guilty about not being able to give my dad more time"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I know I need to find a way to manage, but I\u2019m not sure where to start"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "tea ritual, yoga",
+      "evidence_citations": [
+        {
+          "turn_id": 3,
+          "excerpt": "I used to start my mornings with a quiet tea ritual and a short yoga stretch"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "Maybe a quick 5\u2011minute stretch in the break room would help"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, open",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel guilty about not being able to give my dad more time"
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I honestly don\u2019t see a moment where I can breathe"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "health issues (user's and dad's), financial struggles",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "My doctor said I might need more appointments"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I keep thinking about the rising care costs and how that\u2019s draining my savings"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, perfectionist",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I keep thinking about the rising care costs and how that\u2019s draining my savings"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I feel like I'm stuck in a loop where the more I try to do something, the more exhausted I become"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I know I need to find a way to manage, but I\u2019m not sure where to start"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I just can\u2019t keep up with all the bills and the extra shifts. My doctor said I might need more appointments, and I\u2019m already stretched thin. I feel guilty about not being able to give my dad more time and I don\u2019t know how to balance it all."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're dealing with a lot right now, from bills to extra shifts, and on top of that, you're worried about your dad and feeling guilty about not spending enough time with him. It's a heavy load to carry, and it's understandable that you're feeling overwhelmed. Can you tell me more about what's been the hardest part of balancing everything for you?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "Honestly, the hardest part has been the extra shifts that keep me at the hospital all night and leave me with no time for my dad or even a chance to see my doctor. I keep thinking about the rising care costs and how that\u2019s draining my savings. And I\u2019m scared that all this stress is going to take a toll on my own health."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The extra shifts at the hospital must be exhausting, leaving you little to no time for yourself or your dad. It's clear that the guilt you're feeling about not being able to spend more time with him is weighing heavily on you. On top of that, the financial strain and worry about your own health due to stress are significant burdens. Can you think of any small moments or activities that have helped you cope with stress in the past, even if they seem insignificant right now?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I used to start my mornings with a quiet tea ritual and a short yoga stretch, but with the extra night shifts I barely have time to brew the tea. The idea of fitting that in feels impossible, and I worry that if I don't keep up, my health will finally catch up to me. I\u2019m also looking at the rising bills and wondering how long I can keep this up."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "Your morning tea ritual and yoga stretch used to be a calming start to your day, but with the extra night shifts, it's like that peaceful moment is slipping away, and it's worrying you that you can't keep up with it. The pressure of rising bills and the fear of your health suffering because of it are really weighing on you. It sounds like you're feeling trapped between your responsibilities and your own well-being. Can you think of any way to bring back a small part of that ritual, even if it's not the full thing, to help you feel more grounded?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I wish I could just brew a cup of tea before my shift, but the night shifts leave me too drained. Maybe a quick 5\u2011minute stretch in the break room would help, but I keep thinking about the rising bills and how I\u2019ll pay for it. It feels like adding anything is just another thing to worry about."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The night shifts are leaving you drained, and even small things like brewing a cup of tea feel like too much to add to your plate. It's like the exhaustion is compounding the worry about rising bills and your health. A quick 5-minute stretch in the break room might be a tiny step towards feeling more grounded, but it's hard to prioritize that when everything feels so overwhelming. Yeah, it's tough to see how to fit anything else in when you're already running on empty."
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I feel like I'm stuck in a loop where the more I try to do something, the more exhausted I become. I can't even find the energy for a quick stretch. The cost of care and my own health worries just keep piling up."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling completely drained and stuck, like the more you try to do, the more exhausted you become, and even small things like a quick stretch feel impossible right now. It's like the weight of everything - the night shifts, the bills, the worry about your health - is just crushing you, leaving you no room to breathe or find any energy for yourself. Yeah, it can feel like you're just running on empty and can't see a way out of this loop."
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I hear you, and it feels like I'm stuck in this endless cycle. The night shifts keep draining me, the bills keep piling up, and I can't shake the fear that my own health will finally be the thing that breaks."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The night shifts are really taking a toll on you, and it's like the bills and worry about your health are just piling up on top of that exhaustion. It's no wonder you feel stuck - it's a heavy load to carry. Yeah, it can feel like there's no way out of this cycle when everything feels so overwhelming. I want to help you explore if there's even a small part of your day where you might be able to catch your breath and find a moment of calm."
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I honestly don\u2019t see a moment where I can breathe. The night shifts drain me, the bills keep piling, and I\u2019m scared my own health will finally catch up.\n"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The night shifts are leaving you completely drained, and on top of that, the bills and the fear for your own health are weighing heavily on you. It's like there's no room for anything else, no moment to catch your breath. I can see how that would feel suffocating. Yeah, it's a really heavy load to carry, and it's no wonder you're feeling stuck and overwhelmed."
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I feel like I'm drowning in this cycle, and I don't even know where to start. The night shifts, the bills, and the worry about my own health are all piling up."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The night shifts, bills, and worry about your health are all combining to make you feel like you're drowning in this cycle. That sense of being overwhelmed and stuck must be really affecting your sense of control and well-being. Yeah, it's a lot to carry, and it's no wonder you're feeling like you don't even know where to start. Can you tell me more about what's been the hardest part of this cycle for you?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "The hardest part is the night shifts that leave me exhausted, and I feel like I\u2019m constantly running out of time to care for my dad. The rising bills add a constant pressure that makes me anxious about whether I can keep paying for his care. I also worry that this stress will finally take a toll on my own health."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The night shifts are really taking a toll on you, leaving you exhausted, and the pressure of the rising bills is adding to your anxiety about caring for your dad. It's like you're being pulled in multiple directions, and it's no wonder you're worried about your own health too. Yeah, it's a lot to carry, and it sounds like you're feeling really overwhelmed by all these responsibilities. I want to acknowledge how hard it must be to feel like you're constantly running out of time to care for your dad, and that the stress of all this is weighing heavily on you."
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I still feel like there's no breathing room, and the bills keep climbing while the night shifts never let me rest. I\u2019m scared my own health might finally suffer because of all this. I know I need to find a way to manage, but I\u2019m not sure where to start."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The night shifts, bills, and worry about your health are all combining to make you feel like you're drowning in this cycle. That sense of being overwhelmed and stuck must be really affecting your sense of control and well-being. It's like you're being pulled in multiple directions, and it's no wonder you're worried about your own health too. Yeah, it's a lot to carry, and it sounds like you're feeling really overwhelmed by all these responsibilities. I want to acknowledge how hard it must be to feel like you're constantly running out of time to care for your dad, and that the stress of all this is weighing heavily on you. Can you tell me more about what's been the hardest part of this cycle for you, is it the lack of rest, the pressure of the bills, or something else?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I just can\u2019t keep up with all the bills and the extra shifts. My doctor said I might need more appointments, and I\u2019m already stretched thin. I feel guilty about not being able to give my dad more time and I don\u2019t know how to balance it all.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a friend to listen and help you navigate your feelings, and it seems like you're feeling overwhelmed by the pressure of managing your bills, work shifts, and personal life. The strategies I'll use are support and complex_reflection to help you process your emotions. The evidence I'm using is your mention of feeling guilty about not being able to give your dad more time, which suggests that you're struggling with balancing your responsibilities. My entry point will be to acknowledge the difficulty of managing multiple responsibilities and the emotional toll it's taking on you.",
+        "evidence_used": [
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "feeling guilty about not being able to give my dad more time"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "struggling to balance bills, work shifts, and personal life"
+          }
+        ],
+        "final_response": "You're dealing with a lot right now, from bills to extra shifts, and on top of that, you're worried about your dad and feeling guilty about not spending enough time with him. It's a heavy load to carry, and it's understandable that you're feeling overwhelmed. Can you tell me more about what's been the hardest part of balancing everything for you?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "Honestly, the hardest part has been the extra shifts that keep me at the hospital all night and leave me with no time for my dad or even a chance to see my doctor. I keep thinking about the rising care costs and how that\u2019s draining my savings. And I\u2019m scared that all this stress is going to take a toll on my own health.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs someone to acknowledge their overwhelming situation right now. The strategies that fit this moment are support and complex_reflection, given the user's emotional expression and the need to understand the depth of their feelings. The evidence that stands out is the user's mention of extra shifts, lack of time for their dad, and the fear of stress affecting their health, which shows a complex web of responsibilities and worries. My entry point will be to acknowledge the specific burden of these extra shifts and the guilt they're feeling about not being able to spend time with their dad.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "extra shifts"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "guilty about not being able to give my dad more time"
+          }
+        ],
+        "final_response": "The extra shifts at the hospital must be exhausting, leaving you little to no time for yourself or your dad. It's clear that the guilt you're feeling about not being able to spend more time with him is weighing heavily on you. On top of that, the financial strain and worry about your own health due to stress are significant burdens. Can you think of any small moments or activities that have helped you cope with stress in the past, even if they seem insignificant right now?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I used to start my mornings with a quiet tea ritual and a short yoga stretch, but with the extra night shifts I barely have time to brew the tea. The idea of fitting that in feels impossible, and I worry that if I don't keep up, my health will finally catch up to me. I\u2019m also looking at the rising bills and wondering how long I can keep this up.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle right now. Given their express_emotion intent, I'll use support and complex_reflection strategies to help them feel understood. The evidence shows they're overwhelmed by extra shifts, bills, and guilt over not spending time with their dad, and they've mentioned a past coping mechanism - a morning tea ritual and yoga stretch. My entry will acknowledge the impossibility they feel in fitting in their tea ritual and yoga stretch, and how that's affecting their sense of control over their health.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "extra shifts at the hospital all night"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "rising care costs draining savings"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "morning tea ritual and yoga stretch as past coping mechanism"
+          }
+        ],
+        "final_response": "Your morning tea ritual and yoga stretch used to be a calming start to your day, but with the extra night shifts, it's like that peaceful moment is slipping away, and it's worrying you that you can't keep up with it. The pressure of rising bills and the fear of your health suffering because of it are really weighing on you. It sounds like you're feeling trapped between your responsibilities and your own well-being. Can you think of any way to bring back a small part of that ritual, even if it's not the full thing, to help you feel more grounded?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I wish I could just brew a cup of tea before my shift, but the night shifts leave me too drained. Maybe a quick 5\u2011minute stretch in the break room would help, but I keep thinking about the rising bills and how I\u2019ll pay for it. It feels like adding anything is just another thing to worry about.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate the overwhelming demands of your job and personal life, and right now, you need someone to acknowledge the weight of those responsibilities. The strategies that might be helpful in this moment are support and complex reflection, as they allow us to explore your feelings and concerns without adding more pressure. The evidence that stands out is your desire to find small moments of calm, like brewing a cup of tea or doing a quick stretch, which suggests that you're looking for ways to cope with the stress. My entry point will be to acknowledge the exhaustion and worry that's holding you back from even these small self-care activities.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "used to start my mornings with a quiet tea ritual and a short yoga stretch"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "worry that if I don't keep up, my health will finally catch up to me"
+          }
+        ],
+        "final_response": "The night shifts are leaving you drained, and even small things like brewing a cup of tea feel like too much to add to your plate. It's like the exhaustion is compounding the worry about rising bills and your health. A quick 5-minute stretch in the break room might be a tiny step towards feeling more grounded, but it's hard to prioritize that when everything feels so overwhelming. Yeah, it's tough to see how to fit anything else in when you're already running on empty."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I feel like I'm stuck in a loop where the more I try to do something, the more exhausted I become. I can't even find the energy for a quick stretch. The cost of care and my own health worries just keep piling up.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the overwhelming situation you're in right now. Given your express_emotion intent, I'll use support and complex_reflection strategies to help you feel understood. The evidence shows that the night shifts, rising bills, and health worries are all compounding your exhaustion and guilt. Your mention of being stuck in a loop and unable to find energy even for small things like a quick stretch highlights the depth of your struggle. My entry will be to acknowledge this sense of being trapped and overwhelmed.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "feeling stuck in a loop"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "exhausted and unable to find energy for a quick stretch"
+          }
+        ],
+        "final_response": "You're feeling completely drained and stuck, like the more you try to do, the more exhausted you become, and even small things like a quick stretch feel impossible right now. It's like the weight of everything - the night shifts, the bills, the worry about your health - is just crushing you, leaving you no room to breathe or find any energy for yourself. Yeah, it can feel like you're just running on empty and can't see a way out of this loop."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 6,
+      "user_message": "I hear you, and it feels like I'm stuck in this endless cycle. The night shifts keep draining me, the bills keep piling up, and I can't shake the fear that my own health will finally be the thing that breaks.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the overwhelming cycle you're in right now. Given your intent to express emotion, I'll use strategies like support and complex reflection to help you feel understood. The evidence shows that the night shifts, bills, and fear for your health are all contributing to your feeling of being stuck. My entry will be to acknowledge the weight of these responsibilities and how they're affecting you.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "feeling stuck in a loop"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "night shifts draining energy"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "bills piling up and fear for health"
+          }
+        ],
+        "final_response": "The night shifts are really taking a toll on you, and it's like the bills and worry about your health are just piling up on top of that exhaustion. It's no wonder you feel stuck - it's a heavy load to carry. Yeah, it can feel like there's no way out of this cycle when everything feels so overwhelming. I want to help you explore if there's even a small part of your day where you might be able to catch your breath and find a moment of calm."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 7,
+      "user_message": "I honestly don\u2019t see a moment where I can breathe. The night shifts drain me, the bills keep piling, and I\u2019m scared my own health will finally catch up.\n",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the overwhelming situation you're in right now. Given your intent to express emotion, I'll use strategies like support and complex reflection to help you feel understood. The evidence shows that the night shifts, bills, and worry about your health are all contributing to your feeling of being stuck and drained. My entry will be to acknowledge the weight of these responsibilities and how they're affecting your ability to find any calm or breath in your day.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "night shifts draining me"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "bills keep piling up"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "fear of own health finally catching up"
+          }
+        ],
+        "final_response": "The night shifts are leaving you completely drained, and on top of that, the bills and the fear for your own health are weighing heavily on you. It's like there's no room for anything else, no moment to catch your breath. I can see how that would feel suffocating. Yeah, it's a really heavy load to carry, and it's no wonder you're feeling stuck and overwhelmed."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 8,
+      "user_message": "I feel like I'm drowning in this cycle, and I don't even know where to start. The night shifts, the bills, and the worry about my own health are all piling up.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions, and they need someone to acknowledge the overwhelming situation they're in. The strategies that might be helpful are support and complex_reflection, given their current state of feeling stuck and overwhelmed. The evidence that stands out is their repeated mention of feeling drained and stuck, with the night shifts, bills, and health worries piling up. My entry point will be to acknowledge the specific feeling of drowning in this cycle, and how that must be affecting their sense of control and well-being.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "feeling drained and stuck"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "night shifts, bills, and health worries piling up"
+          }
+        ],
+        "final_response": "The night shifts, bills, and worry about your health are all combining to make you feel like you're drowning in this cycle. That sense of being overwhelmed and stuck must be really affecting your sense of control and well-being. Yeah, it's a lot to carry, and it's no wonder you're feeling like you don't even know where to start. Can you tell me more about what's been the hardest part of this cycle for you?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 9,
+      "user_message": "The hardest part is the night shifts that leave me exhausted, and I feel like I\u2019m constantly running out of time to care for my dad. The rising bills add a constant pressure that makes me anxious about whether I can keep paying for his care. I also worry that this stress will finally take a toll on my own health.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions and struggles with the night shifts, caring for their dad, and worrying about the rising bills and their own health. Given their intent to express emotion, I'll use the support strategy to acknowledge their feelings and concerns. The evidence shows that the night shifts are leaving them exhausted, and the pressure of the rising bills is causing anxiety about caring for their dad. The entry point for my response will be to acknowledge the overwhelming feeling of being exhausted and anxious about their dad's care and their own health.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "night shifts leave me exhausted"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "rising bills add constant pressure"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "worry about own health"
+          }
+        ],
+        "final_response": "The night shifts are really taking a toll on you, leaving you exhausted, and the pressure of the rising bills is adding to your anxiety about caring for your dad. It's like you're being pulled in multiple directions, and it's no wonder you're worried about your own health too. Yeah, it's a lot to carry, and it sounds like you're feeling really overwhelmed by all these responsibilities. I want to acknowledge how hard it must be to feel like you're constantly running out of time to care for your dad, and that the stress of all this is weighing heavily on you."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 10,
+      "user_message": "I still feel like there's no breathing room, and the bills keep climbing while the night shifts never let me rest. I\u2019m scared my own health might finally suffer because of all this. I know I need to find a way to manage, but I\u2019m not sure where to start.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelming stress you're under. Given your intent to express emotion, I'll use strategies like support and complex reflection to help you feel heard. The evidence shows that the night shifts, bills, and worry about your health are all piling up, making you feel like you're drowning in this cycle. My entry will be to acknowledge the sense of being overwhelmed and stuck, and how that's affecting your sense of control and well-being.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "night shifts leave me exhausted"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "rising bills add constant pressure"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "worry about my own health"
+          }
+        ],
+        "final_response": "The night shifts, bills, and worry about your health are all combining to make you feel like you're drowning in this cycle. That sense of being overwhelmed and stuck must be really affecting your sense of control and well-being. It's like you're being pulled in multiple directions, and it's no wonder you're worried about your own health too. Yeah, it's a lot to carry, and it sounds like you're feeling really overwhelmed by all these responsibilities. I want to acknowledge how hard it must be to feel like you're constantly running out of time to care for your dad, and that the stress of all this is weighing heavily on you. Can you tell me more about what's been the hardest part of this cycle for you, is it the lack of rest, the pressure of the bills, or something else?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

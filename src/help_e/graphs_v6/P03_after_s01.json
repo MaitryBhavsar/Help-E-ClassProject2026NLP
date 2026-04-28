@@ -1,0 +1,389 @@
+{
+  "profile_id": "P03",
+  "persona": {
+    "demographics": "newborn, mortgage",
+    "personality_traits": [],
+    "core_values": [
+      "identity",
+      "career",
+      "financial security"
+    ],
+    "core_beliefs": [],
+    "support_system": null,
+    "hobbies_interests": [],
+    "communication_style": "emotional, reflective",
+    "relevant_history": "built a company",
+    "general_behavioral_traits": [
+      "overwhelmed",
+      "indecisive"
+    ]
+  },
+  "problems": {
+    "financial_stress": {
+      "problem_name": "financial_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees the mortgage as a significant concern",
+              "concise_explanation": "mortgage is looming",
+              "supporting_utterance_span": "the mortgage is looming",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees the mortgage as a significant and pressing concern",
+              "concise_explanation": "mortgage is the biggest fear",
+              "supporting_utterance_span": "the mortgage is the biggest fear right now",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees the mortgage as a significant financial stressor",
+              "concise_explanation": "mortgage is pulling user toward any job",
+              "supporting_utterance_span": "the mortgage is pulling me toward any job",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user feels a high level of pressure from the mortgage",
+              "concise_explanation": "mortgage is pressing",
+              "supporting_utterance_span": "The mortgage is pressing",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees the mortgage as a significant threat",
+              "concise_explanation": "mortgage described as a 'wall'",
+              "supporting_utterance_span": "the mortgage feels like a wall",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "career_uncertainty": {
+      "problem_name": "career_uncertainty",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "preparation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_barriers": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user perceives the job market as a barrier to finding a new role",
+              "concise_explanation": "difficulty finding a role in the market",
+              "supporting_utterance_span": "don't know how to find a new role in this market",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels that taking any job would be a step back and is hesitant to do so",
+              "concise_explanation": "fear of taking a step back",
+              "supporting_utterance_span": "that feels like a step back",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees taking a job that's a step back as a significant barrier to their career goals",
+              "concise_explanation": "fear of losing expertise and identity",
+              "supporting_utterance_span": "I don't want to feel like a step back and lose the expertise I have",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees taking any job as a potential step back in their career",
+              "concise_explanation": "fear of losing expertise and identity",
+              "supporting_utterance_span": "that feels like a step back",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is unsure about the effectiveness of small steps",
+              "concise_explanation": "user questions whether small steps will help",
+              "supporting_utterance_span": "I don't know if taking small steps will actually help",
+              "confidence": "medium"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user is motivated to find a new role, but is unsure of how to do so",
+              "concise_explanation": "user is exploring options and weighing pros and cons",
+              "supporting_utterance_span": "I keep thinking I should just take any job, but that feels like a step back",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user is motivated to hold on to their current career path due to their identity and expertise",
+              "concise_explanation": "user wants to maintain their current career path",
+              "supporting_utterance_span": "I feel like my identity is tied to it",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "life_transition": {
+      "problem_name": "life_transition",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        4
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {},
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "having a newborn and a house are triggers for feeling overwhelmed",
+              "concise_explanation": "newborn and house responsibilities",
+              "supporting_utterance_span": "With the house and a newborn",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "new role as a parent and homeowner is triggering feelings of uncertainty and overwhelm",
+              "concise_explanation": "adjusting to new responsibilities",
+              "supporting_utterance_span": "I'm stuck between my identity and survival",
+              "confidence": "medium"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "career_uncertainty",
+      "problem_2": "financial_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "the mortgage is looming and don't know how to find a new role in this market"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems are discussed in the same turn and are related to the user's current situation",
+          "supporting_utterance_span": "the mortgage is the biggest fear right now. I keep thinking I should just take any job"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems are discussed in the same turn as interconnected concerns",
+          "supporting_utterance_span": "the mortgage is pulling me toward any job, even if it's not what I want"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are discussed in the same turn as conflicting priorities",
+          "supporting_utterance_span": "I keep thinking I should just take any job, but that feels like a step back. The mortgage is pressing"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "the mortgage feels like a wall. I just want to know what the next move is"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "causal",
+          "connection_explanation": "the user's financial stress is causing them to feel hesitant to take a step back in their career",
+          "supporting_utterance_span": "the mortgage is the biggest fear right now. I keep thinking I should just take any job, but that feels like a step back",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "causal",
+          "connection_explanation": "the financial stress caused by the mortgage is contributing to the user's career uncertainty and perceived barriers",
+          "supporting_utterance_span": "the mortgage is pulling me toward any job, even if it's not what I want",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the pressure from the mortgage is reinforcing the user's fear of taking a step back in their career",
+          "supporting_utterance_span": "I keep thinking I should just take any job, but that feels like a step back. The mortgage is pressing",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the pressure of the mortgage (financial stress) is amplifying the uncertainty about career steps",
+          "supporting_utterance_span": "the mortgage feels like a wall. I don't know if taking small steps will actually help",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 1.0
+    },
+    {
+      "problem_1": "financial_stress",
+      "problem_2": "life_transition",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "With the house and a newborn, the mortgage is looming"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems are related to the user's current situation and are discussed in the same turn",
+          "supporting_utterance_span": "With the house and a newborn, the mortgage is looming"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "user's financial stress is connected to their life transition as a new parent and homeowner",
+          "supporting_utterance_span": "with the house and a newborn"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are interconnected as the user navigates their new role as a parent and homeowner",
+          "supporting_utterance_span": "The mortgage is pressing"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "having a newborn and a house triggers both the life transition stress and the financial stress.",
+          "supporting_utterance_span": "With the house and a newborn, the mortgage is looming",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "the user's life transition (having a newborn) is a shared trigger for both their financial stress and career uncertainty",
+          "supporting_utterance_span": "With the house and a newborn, the mortgage is looming",
+          "confidence": "high"
+        }
+      ],
+      "weight": 0.7729972226153339
+    },
+    {
+      "problem_1": "career_uncertainty",
+      "problem_2": "life_transition",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "With the house and a newborn, don't know how to find a new role in this market"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems are related to the user's current situation and are discussed in the same turn",
+          "supporting_utterance_span": "With the house and a newborn, I don't know how to find a new role in this market"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "user's career uncertainty is connected to their life transition as a new parent and homeowner",
+          "supporting_utterance_span": "with the house and a newborn"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are related to the user's current life situation and sense of identity",
+          "supporting_utterance_span": "I'm stuck between my identity and survival"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "having a newborn and a house triggers both the life transition stress and the career uncertainty.",
+          "supporting_utterance_span": "With the house and a newborn, don't know how to find a new role in this market",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "causal",
+          "connection_explanation": "the new role as a parent and homeowner is causing the user to feel uncertain about their career path",
+          "supporting_utterance_span": "I'm stuck between my identity and survival",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 0.7459922571814679
+    }
+  ]
+}

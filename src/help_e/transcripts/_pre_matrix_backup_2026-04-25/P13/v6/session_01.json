@@ -1,0 +1,2326 @@
+{
+  "session_id": 1,
+  "session_summary": "The user primarily discussed their struggles with sleep problems and the aftermath of a recent breakup, feeling overwhelmed by traffic noise and repetitive thoughts about the breakup. They moved from being absent in the precontemplation stage of addressing breakup aftermath to precontemplation and from absent in the preparation stage of addressing sleep problems to preparation. The user expressed a desire to potentially seek professional help or find a quieter living space to alleviate their sleep issues, leaving open the possibility of exploring these options further in the next session.",
+  "stage_transitions": [
+    {
+      "problem": "breakup_aftermath",
+      "from": "(absent)",
+      "to": "precontemplation"
+    },
+    {
+      "problem": "sleep_problems",
+      "from": "(absent)",
+      "to": "preparation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "emotionally reactive, introspective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep replaying the breakup"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "My mind loops through 'what if', 'why did this happen'"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I feel like I\u2019m drowning in noise and my own thoughts"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "possibly seeking professional help",
+      "evidence_citations": [
+        {
+          "turn_id": 5,
+          "excerpt": "Maybe I need to talk to a therapist"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, introspective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep replaying the breakup"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "My mind loops through 'what if', 'why did this happen'"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "recent breakup",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep replaying the breakup"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "My mind loops through 'what if', 'why did this happen'"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep replaying the breakup"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "My mind loops through 'what if', 'why did this happen'"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I feel like I\u2019m drowning in noise and my own thoughts"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I can't sleep at all. The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup. I feel like I'm stuck in a loop and can't find any peace."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It sounds like you're feeling really stuck and overwhelmed, and like the breakup is still really fresh and painful for you. The traffic noise isn't helping, and it's like your mind is replaying the breakup on a loop, making it hard to find any peace. Can you tell me more about what's been going through your mind when you're lying awake at night?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through \"what if\", \"why did this happen\", and I can't shut it off. I just feel stuck and can't find any peace."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "It sounds like the traffic noise is really getting to you, and it's like the city is overwhelming you. You're also stuck on thoughts of the breakup, and it's hard to shut them off. You feel like you're stuck and can't find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "Every night I hear the traffic and my mind keeps replaying the breakup. I tried earplugs and white noise, but nothing seems to help. I just feel like I\u2019m trapped in this loop and don\u2019t know how to break free."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "It sounds like you're feeling really trapped and overwhelmed by the traffic noise and your thoughts about the breakup. You've tried earplugs and white noise, but nothing seems to be helping you break free from this loop. It's like your mind is stuck on replay, and it's hard to find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I just keep lying awake, hearing the traffic and replaying everything. I feel like I\u2019m drowning in noise and my own thoughts. I don\u2019t know if I\u2019ll ever get any rest."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "It sounds like you're feeling completely overwhelmed and stuck, like the traffic noise and your thoughts about the breakup are drowning you. You've been lying awake for so long, replaying everything in your mind, and it's hard to see a way out. Would it help to talk about what you think might help you break free from this loop and get some rest?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I tried earplugs, white noise, even moving to a different room but nothing helps. Maybe I need to talk to a therapist or find a quieter place. I'm not sure what would actually break this loop."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "I'm here. Take your time."
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I can't sleep at all. The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup. I feel like I'm stuck in a loop and can't find any peace.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing their inability to sleep and feelings of being stuck without asking for advice.",
+          "supporting_utterance_span": "I feel like I'm stuck in a loop and can't find any peace"
+        },
+        "current_problems": [
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "inability to sleep due to traffic noise and rumination",
+            "supporting_utterance_span": "I cant sleep at all. The traffic noise keeps me awake"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "recent breakup causing emotional distress",
+            "supporting_utterance_span": "every time I close my eyes I keep replaying the breakup"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "explanation": "sleep issues are the primary concern mentioned",
+          "supporting_utterance_span": "I cant sleep at all"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+            "concise_explanation": "traffic noise and replaying breakup mentioned as causes",
+            "supporting_utterance_span": "The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "the breakup itself is a trigger for emotional distress",
+            "concise_explanation": "breakup mentioned as a source of distress",
+            "supporting_utterance_span": "every time I close my eyes I keep replaying the breakup",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "sleep_problems",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I cant sleep at all. The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "sleep_problems",
+            "attribute_1": "triggers",
+            "problem_2": "breakup_aftermath",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "the breakup is a trigger for both the sleep problems and the emotional distress",
+            "supporting_utterance_span": "every time I close my eyes I keep replaying the breakup",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests the user is considering change or acknowledging the sleep problems as an issue to be addressed.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence indicates the user is contemplating or preparing to address the emotional distress from the breakup.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup itself is a trigger for emotional distress"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I can't sleep at all. The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup. I feel like I'm stuck in a loop and can't find any peace.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic noise and replaying breakup mentioned as causes",
+                  "supporting_utterance_span": "The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "the breakup itself is a trigger for emotional distress",
+                    "concise_explanation": "breakup mentioned as a source of distress",
+                    "supporting_utterance_span": "every time I close my eyes I keep replaying the breakup",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the breakup is a trigger for both the sleep problems and the emotional distress",
+                "supporting_utterance_span": "every time I close my eyes I keep replaying the breakup",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "main_problem": "sleep_problems"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be sleep_problems, and their current TTM stage is precontemplation. Because of this, the response should use T1 Reflection to acknowledge the user's struggles with sleep and the emotional distress caused by the breakup. This technique is appropriate because it allows the user to feel heard and understood, which is crucial in the precontemplation stage. It should be applied by reflecting the user's feelings and concerns, using evidence such as the triggers for sleep problems, including traffic noise and rumination about the breakup. The user also shows a strong connection between their sleep problems and the breakup aftermath, with a shared trigger of the breakup itself. Because of this, the response should also consider the related problem of breakup_aftermath, and how it contributes to the user's sleep problems. The user intent in this turn is to vent, and the response should acknowledge this by reflecting the user's emotions and concerns. The related problem of breakup_aftermath suggests a shared_trigger between the two problems, which should be used to inform the response and provide a more comprehensive understanding of the user's situation. Overall, the response should try to improve the user's awareness of their situation and their emotional regulation, while avoiding giving unsolicited advice or solutions.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings and concerns, acknowledging the traffic noise and the breakup as triggers for their sleep problems. I'll also acknowledge the user's intent to vent, and provide a space for them to express their emotions. I'll skip providing solutions or advice for now, and instead focus on understanding and reflecting the user's experience.",
+        "final_response": "It sounds like you're feeling really stuck and overwhelmed, and like the breakup is still really fresh and painful for you. The traffic noise isn't helping, and it's like your mind is replaying the breakup on a loop, making it hard to find any peace. Can you tell me more about what's been going through your mind when you're lying awake at night?"
+      },
+      "trace": {
+        "main_problem": "sleep_problems",
+        "current_problems": [
+          "sleep_problems",
+          "breakup_aftermath"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests the user is considering change or acknowledging the sleep problems as an issue to be addressed.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence indicates the user is contemplating or preparing to address the emotional distress from the breakup.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup itself is a trigger for emotional distress"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through \"what if\", \"why did this happen\", and I can't shut it off. I just feel stuck and can't find any peace.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of being overwhelmed and stuck without asking for advice.",
+          "supporting_utterance_span": "I just feel stuck and can't find any peace"
+        },
+        "current_problems": [
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "inability to sleep due to traffic noise and rumination",
+            "supporting_utterance_span": "I keep hearing the traffic, and it feels like the city is shouting at me"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "rumination about the breakup",
+            "supporting_utterance_span": "My mind loops through 'what if', 'why did this happen'"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "explanation": "sleep disturbance is the primary complaint",
+          "supporting_utterance_span": "I keep hearing the traffic, and it feels like the city is shouting at me"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+            "concise_explanation": "traffic noise and breakup thoughts cited as drivers",
+            "supporting_utterance_span": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through 'what if', 'why did this happen'",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "thoughts about the breakup trigger rumination",
+            "concise_explanation": "breakup thoughts cited as driver",
+            "supporting_utterance_span": "My mind loops through 'what if', 'why did this happen'",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "sleep_problems",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through 'what if', 'why did this happen'"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "sleep_problems",
+            "attribute_1": "triggers",
+            "problem_2": "breakup_aftermath",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "rumination about the breakup is the same mechanism driving both the sleep disturbance and the emotional distress.",
+            "supporting_utterance_span": "My mind loops through 'what if', 'why did this happen'",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests the user is considering change or acknowledging the sleep problems as a separate issue from the breakup aftermath.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "The user continues to experience emotional distress triggered by the breakup, but there's no indication of considering change or moving towards addressing the aftermath.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup itself is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "thoughts about the breakup trigger rumination"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through \"what if\", \"why did this happen\", and I can't shut it off. I just feel stuck and can't find any peace.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I can't sleep at all. The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup. I feel like I'm stuck in a loop and can't find any peace."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really stuck and overwhelmed, and like the breakup is still really fresh and painful for you. The traffic noise isn't helping, and it's like your mind is replaying the breakup on a loop, making it hard to find any peace. Can you tell me more about what's been going through your mind when you're lying awake at night?"
+          }
+        ],
+        "last_system_message": "It sounds like you're feeling really stuck and overwhelmed, and like the breakup is still really fresh and painful for you. The traffic noise isn't helping, and it's like your mind is replaying the breakup on a loop, making it hard to find any peace. Can you tell me more about what's been going through your mind when you're lying awake at night?",
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            2
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic noise and replaying breakup mentioned as causes",
+                  "supporting_utterance_span": "The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic noise and breakup thoughts cited as drivers",
+                  "supporting_utterance_span": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through 'what if', 'why did this happen'",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "the breakup itself is a trigger for emotional distress",
+                    "concise_explanation": "breakup mentioned as a source of distress",
+                    "supporting_utterance_span": "every time I close my eyes I keep replaying the breakup",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "thoughts about the breakup trigger rumination",
+                    "concise_explanation": "breakup thoughts cited as driver",
+                    "supporting_utterance_span": "My mind loops through 'what if', 'why did this happen'",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the breakup is a trigger for both the sleep problems and the emotional distress",
+                "supporting_utterance_span": "every time I close my eyes I keep replaying the breakup",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "rumination about the breakup is the same mechanism driving both the sleep disturbance and the emotional distress.",
+                "supporting_utterance_span": "My mind loops through 'what if', 'why did this happen'",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "main_problem": "sleep_problems"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be sleep_problems, and their current TTM stage is precontemplation. Because of this, the response should use T1 Reflection to acknowledge the user's feelings and experiences. This technique is appropriate because it allows the user to feel heard and understood, which is crucial in the precontemplation stage. It should be applied by reflecting the user's emotions and concerns, using evidence such as their statement about feeling stuck and unable to find peace. The user also shows a strong connection between their sleep problems and the breakup aftermath, with shared triggers and rumination about the breakup. Because of this, the response should also consider the related problem of breakup_aftermath, and use T12 Normalize/Reframe to help the user see that their experiences are normal and valid. The user intent in this turn is to vent, and the response should acknowledge this by reflecting their emotions and concerns before guiding the turn. Relevant connected problems suggest a shared trigger between sleep_problems and breakup_aftermath, which should be used to help the user understand the connection between their sleep problems and their emotional distress. Overall, the response should try to improve the user's awareness and emotional regulation, while avoiding giving unsolicited advice or pivoting to the secondary problem too quickly.",
+        "response_reasoning": "I'll use T1 Reflection to acknowledge the user's feelings and experiences, and surface their statement about feeling stuck and unable to find peace. I'll also name the shared trigger between sleep_problems and breakup_aftermath to help the user understand the connection between their sleep problems and their emotional distress. I'll drop the use of T12 Normalize/Reframe for now, as the user is still in the precontemplation stage and may not be ready to reframe their experiences. I'll honor the user's intent to vent by reflecting their emotions and concerns before guiding the turn.",
+        "final_response": "It sounds like the traffic noise is really getting to you, and it's like the city is overwhelming you. You're also stuck on thoughts of the breakup, and it's hard to shut them off. You feel like you're stuck and can't find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?"
+      },
+      "trace": {
+        "main_problem": "sleep_problems",
+        "current_problems": [
+          "sleep_problems",
+          "breakup_aftermath"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests the user is considering change or acknowledging the sleep problems as a separate issue from the breakup aftermath.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "The user continues to experience emotional distress triggered by the breakup, but there's no indication of considering change or moving towards addressing the aftermath.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup itself is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "thoughts about the breakup trigger rumination"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "Every night I hear the traffic and my mind keeps replaying the breakup. I tried earplugs and white noise, but nothing seems to help. I just feel like I\u2019m trapped in this loop and don\u2019t know how to break free.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of being trapped and overwhelmed without asking for advice.",
+          "supporting_utterance_span": "I just feel like I\u2019m trapped in this loop and don\u2019t know how to break free"
+        },
+        "current_problems": [
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "difficulty sleeping due to traffic noise and rumination",
+            "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "rumination about the breakup",
+            "supporting_utterance_span": "my mind keeps replaying the breakup"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "explanation": "sleep difficulties are the primary concern in this turn",
+          "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+            "concise_explanation": "traffic noise and breakup thoughts cited as drivers",
+            "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "coping_strategies",
+            "attribute_type": "non_level",
+            "inferred_information": "user has tried earplugs and white noise to address sleep difficulties",
+            "concise_explanation": "earplugs and white noise mentioned as attempted solutions",
+            "supporting_utterance_span": "I tried earplugs and white noise, but nothing seems to help",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "rumination about the breakup is a persistent concern",
+            "concise_explanation": "breakup thoughts cited as a recurring issue",
+            "supporting_utterance_span": "my mind keeps replaying the breakup",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "sleep_problems",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "sleep_problems",
+            "attribute_1": "triggers",
+            "problem_2": "breakup_aftermath",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "rumination about the breakup is a trigger for both sleep difficulties and ongoing breakup concerns",
+            "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "The user has acknowledged triggers for sleep problems and has tried coping strategies, but there is no evidence of intention to change or take action beyond current coping mechanisms.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user has tried earplugs and white noise to address sleep difficulties"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "The user acknowledges the breakup as a trigger for emotional distress and recognizes rumination as a persistent concern, but there is no indication of readiness to change or address the aftermath beyond recognition of the issue.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup itself is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "thoughts about the breakup trigger rumination"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "rumination about the breakup is a persistent concern"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "Every night I hear the traffic and my mind keeps replaying the breakup. I tried earplugs and white noise, but nothing seems to help. I just feel like I\u2019m trapped in this loop and don\u2019t know how to break free.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I can't sleep at all. The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup. I feel like I'm stuck in a loop and can't find any peace."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really stuck and overwhelmed, and like the breakup is still really fresh and painful for you. The traffic noise isn't helping, and it's like your mind is replaying the breakup on a loop, making it hard to find any peace. Can you tell me more about what's been going through your mind when you're lying awake at night?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through \"what if\", \"why did this happen\", and I can't shut it off. I just feel stuck and can't find any peace."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the traffic noise is really getting to you, and it's like the city is overwhelming you. You're also stuck on thoughts of the breakup, and it's hard to shut them off. You feel like you're stuck and can't find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?"
+          }
+        ],
+        "last_system_message": "It sounds like the traffic noise is really getting to you, and it's like the city is overwhelming you. You're also stuck on thoughts of the breakup, and it's hard to shut them off. You feel like you're stuck and can't find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?",
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic noise and replaying breakup mentioned as causes",
+                  "supporting_utterance_span": "The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic noise and breakup thoughts cited as drivers",
+                  "supporting_utterance_span": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through 'what if', 'why did this happen'",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic noise and breakup thoughts cited as drivers",
+                  "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user has tried earplugs and white noise to address sleep difficulties",
+                  "concise_explanation": "earplugs and white noise mentioned as attempted solutions",
+                  "supporting_utterance_span": "I tried earplugs and white noise, but nothing seems to help",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "the breakup itself is a trigger for emotional distress",
+                    "concise_explanation": "breakup mentioned as a source of distress",
+                    "supporting_utterance_span": "every time I close my eyes I keep replaying the breakup",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "thoughts about the breakup trigger rumination",
+                    "concise_explanation": "breakup thoughts cited as driver",
+                    "supporting_utterance_span": "My mind loops through 'what if', 'why did this happen'",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "rumination about the breakup is a persistent concern",
+                    "concise_explanation": "breakup thoughts cited as a recurring issue",
+                    "supporting_utterance_span": "my mind keeps replaying the breakup",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the breakup is a trigger for both the sleep problems and the emotional distress",
+                "supporting_utterance_span": "every time I close my eyes I keep replaying the breakup",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "rumination about the breakup is the same mechanism driving both the sleep disturbance and the emotional distress.",
+                "supporting_utterance_span": "My mind loops through 'what if', 'why did this happen'",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "rumination about the breakup is a trigger for both sleep difficulties and ongoing breakup concerns",
+                "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "main_problem": "sleep_problems"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be sleep_problems, and their current TTM stage is precontemplation. Because of this, the response should use T1 Reflection and T12 Normalize/Reframe. This technique is appropriate because the user is struggling to acknowledge the severity of their sleep problems and the underlying emotional distress caused by the breakup. It should be applied by reflecting the user's feelings of being trapped and overwhelmed, using evidence such as the triggers of traffic noise and rumination about the breakup. The user also shows a shared trigger between sleep_problems and breakup_aftermath, which is the rumination about the breakup. Because of this, the response should use T1 Reflection to acknowledge this connection and help the user see the relationship between their sleep difficulties and emotional distress. The user intent in this turn is to vent, and because of this, the response should use T1 Reflection to acknowledge the user's immediate intent and create a safe space for them to express their emotions. Relevant connected problems suggest a shared trigger between sleep_problems and breakup_aftermath, which is the rumination about the breakup. This evidence should be used by surfacing it in a reflection, acknowledging the user's feelings and experiences. Overall, the response should try to improve the user's awareness and emotional regulation, while avoiding giving unsolicited advice or pivoting to the secondary problem too quickly.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of being trapped and overwhelmed, acknowledging the traffic noise and rumination about the breakup. I'll also use T12 Normalize/Reframe to help the user see that their experience is common and that they are not alone. I'll skip the connection to breakup_aftermath for now and focus on the user's immediate emotional experience.",
+        "final_response": "It sounds like you're feeling really trapped and overwhelmed by the traffic noise and your thoughts about the breakup. You've tried earplugs and white noise, but nothing seems to be helping you break free from this loop. It's like your mind is stuck on replay, and it's hard to find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?"
+      },
+      "trace": {
+        "main_problem": "sleep_problems",
+        "current_problems": [
+          "sleep_problems",
+          "breakup_aftermath"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "The user has acknowledged triggers for sleep problems and has tried coping strategies, but there is no evidence of intention to change or take action beyond current coping mechanisms.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "traffic noise and rumination about the breakup prevent sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user has tried earplugs and white noise to address sleep difficulties"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "The user acknowledges the breakup as a trigger for emotional distress and recognizes rumination as a persistent concern, but there is no indication of readiness to change or address the aftermath beyond recognition of the issue.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup itself is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "thoughts about the breakup trigger rumination"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "rumination about the breakup is a persistent concern"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I just keep lying awake, hearing the traffic and replaying everything. I feel like I\u2019m drowning in noise and my own thoughts. I don\u2019t know if I\u2019ll ever get any rest.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of being overwhelmed and stuck without asking for advice.",
+          "supporting_utterance_span": "I feel like I\u2019m drowning in noise and my own thoughts"
+        },
+        "current_problems": [
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "lying awake, hearing traffic, replaying thoughts",
+            "supporting_utterance_span": "I just keep lying awake, hearing the traffic and replaying everything"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "replaying the breakup",
+            "supporting_utterance_span": "replaying everything"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "explanation": "sleep disturbance is the central theme of the message",
+          "supporting_utterance_span": "I just keep lying awake"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+            "concise_explanation": "traffic and replaying thoughts cited as drivers",
+            "supporting_utterance_span": "hearing the traffic and replaying everything",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their sleep disturbance as severe and debilitating",
+            "concise_explanation": "feeling of drowning in noise and thoughts",
+            "supporting_utterance_span": "I feel like I\u2019m drowning in noise and my own thoughts",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "thoughts about the breakup are triggered by lying awake",
+            "concise_explanation": "replaying the breakup at night",
+            "supporting_utterance_span": "replaying everything",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "sleep_problems",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I just keep lying awake, hearing the traffic and replaying everything"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "sleep_problems",
+            "attribute_1": "triggers",
+            "problem_2": "breakup_aftermath",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "thoughts about the breakup are a trigger for sleep disturbance, and lying awake triggers thoughts about the breakup",
+            "supporting_utterance_span": "I just keep lying awake, hearing the traffic and replaying everything",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes their sleep disturbance as 'severe and debilitating', indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their sleep disturbance as severe and debilitating"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User has acknowledged the severity of their sleep problems and has tried coping strategies such as earplugs and white noise, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user has tried earplugs and white noise to address sleep difficulties"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their sleep disturbance as severe and debilitating"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence to suggest a change in the user's stage of change for the breakup aftermath problem.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup itself is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "thoughts about the breakup trigger rumination"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "rumination about the breakup is a persistent concern"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "thoughts about the breakup are triggered by lying awake"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I just keep lying awake, hearing the traffic and replaying everything. I feel like I\u2019m drowning in noise and my own thoughts. I don\u2019t know if I\u2019ll ever get any rest.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I can't sleep at all. The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup. I feel like I'm stuck in a loop and can't find any peace."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really stuck and overwhelmed, and like the breakup is still really fresh and painful for you. The traffic noise isn't helping, and it's like your mind is replaying the breakup on a loop, making it hard to find any peace. Can you tell me more about what's been going through your mind when you're lying awake at night?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through \"what if\", \"why did this happen\", and I can't shut it off. I just feel stuck and can't find any peace."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the traffic noise is really getting to you, and it's like the city is overwhelming you. You're also stuck on thoughts of the breakup, and it's hard to shut them off. You feel like you're stuck and can't find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "Every night I hear the traffic and my mind keeps replaying the breakup. I tried earplugs and white noise, but nothing seems to help. I just feel like I\u2019m trapped in this loop and don\u2019t know how to break free."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like you're feeling really trapped and overwhelmed by the traffic noise and your thoughts about the breakup. You've tried earplugs and white noise, but nothing seems to be helping you break free from this loop. It's like your mind is stuck on replay, and it's hard to find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?"
+          }
+        ],
+        "last_system_message": "It sounds like you're feeling really trapped and overwhelmed by the traffic noise and your thoughts about the breakup. You've tried earplugs and white noise, but nothing seems to be helping you break free from this loop. It's like your mind is stuck on replay, and it's hard to find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?",
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            4
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user sees their sleep disturbance as severe and debilitating",
+                  "concise_explanation": "feeling of drowning in noise and thoughts",
+                  "supporting_utterance_span": "I feel like I\u2019m drowning in noise and my own thoughts",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic noise and breakup thoughts cited as drivers",
+                  "supporting_utterance_span": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through 'what if', 'why did this happen'",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic noise and breakup thoughts cited as drivers",
+                  "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic and replaying thoughts cited as drivers",
+                  "supporting_utterance_span": "hearing the traffic and replaying everything",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user has tried earplugs and white noise to address sleep difficulties",
+                  "concise_explanation": "earplugs and white noise mentioned as attempted solutions",
+                  "supporting_utterance_span": "I tried earplugs and white noise, but nothing seems to help",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "thoughts about the breakup trigger rumination",
+                    "concise_explanation": "breakup thoughts cited as driver",
+                    "supporting_utterance_span": "My mind loops through 'what if', 'why did this happen'",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "rumination about the breakup is a persistent concern",
+                    "concise_explanation": "breakup thoughts cited as a recurring issue",
+                    "supporting_utterance_span": "my mind keeps replaying the breakup",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "thoughts about the breakup are triggered by lying awake",
+                    "concise_explanation": "replaying the breakup at night",
+                    "supporting_utterance_span": "replaying everything",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "rumination about the breakup is the same mechanism driving both the sleep disturbance and the emotional distress.",
+                "supporting_utterance_span": "My mind loops through 'what if', 'why did this happen'",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "rumination about the breakup is a trigger for both sleep difficulties and ongoing breakup concerns",
+                "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "thoughts about the breakup are a trigger for sleep disturbance, and lying awake triggers thoughts about the breakup",
+                "supporting_utterance_span": "I just keep lying awake, hearing the traffic and replaying everything",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 4
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "sleep_problems"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be sleep_problems, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging the problem and is ambivalent about change, and reflecting their concerns while exploring their reasons for change can help them move forward. It should be applied by reflecting the user's feelings of being overwhelmed and stuck, using evidence such as their perceived_severity of sleep disturbance and their triggers of traffic noise and rumination about the breakup. The user also shows high perceived_severity and a shared trigger with the related problem of breakup_aftermath, which should be acknowledged in the response. Because of this, the response should use T1 Reflection to acknowledge the user's emotional state and T5 Ask Permission to explore potential solutions. The user intent in this turn is to vent, and the response should acknowledge this intent by reflecting their feelings before guiding the turn. Relevant connected problems suggest a shared trigger between sleep_problems and breakup_aftermath, which should be surfaced in the response to help the user see the connection between their problems. Overall, the response should try to improve the user's awareness of their problems and their motivation to change, while avoiding giving unsolicited advice or pivoting to the secondary problem too quickly.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of being overwhelmed and stuck, and then use T8 Change Talk to explore their reasons for change. I'll surface the shared trigger between sleep_problems and breakup_aftermath to help the user see the connection between their problems, but will not delve too deeply into the related problem to avoid overwhelming the user. I'll drop the coping_strategies attribute for now, as the user has already mentioned trying earplugs and white noise, and will instead focus on exploring their motivations and emotions.",
+        "final_response": "It sounds like you're feeling completely overwhelmed and stuck, like the traffic noise and your thoughts about the breakup are drowning you. You've been lying awake for so long, replaying everything in your mind, and it's hard to see a way out. Would it help to talk about what you think might help you break free from this loop and get some rest?"
+      },
+      "trace": {
+        "main_problem": "sleep_problems",
+        "current_problems": [
+          "sleep_problems",
+          "breakup_aftermath"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes their sleep disturbance as 'severe and debilitating', indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their sleep disturbance as severe and debilitating"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User has acknowledged the severity of their sleep problems and has tried coping strategies such as earplugs and white noise, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user has tried earplugs and white noise to address sleep difficulties"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their sleep disturbance as severe and debilitating"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence to suggest a change in the user's stage of change for the breakup aftermath problem.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup itself is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "thoughts about the breakup trigger rumination"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "rumination about the breakup is a persistent concern"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "thoughts about the breakup are triggered by lying awake"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I tried earplugs, white noise, even moving to a different room but nothing helps. Maybe I need to talk to a therapist or find a quieter place. I'm not sure what would actually break this loop.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User is considering different solutions to their sleep problems and breakup aftermath, including therapy and a quieter environment.",
+          "supporting_utterance_span": "Maybe I need to talk to a therapist or find a quieter place"
+        },
+        "current_problems": [
+          {
+            "problem_name": "sleep_problems",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "sleep_problems",
+            "explanation": "user reports inability to sleep due to traffic noise and replaying breakup",
+            "supporting_utterance_span": "I tried earplugs, white noise, even moving to a different room but nothing helps"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "user mentions replaying the breakup, indicating ongoing emotional struggle",
+            "supporting_utterance_span": "replaying the breakup"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "explanation": "user's current message focuses on inability to sleep and exploring solutions",
+          "supporting_utterance_span": "I tried earplugs, white noise, even moving to a different room but nothing helps"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "coping_strategies",
+            "attribute_type": "non_level",
+            "inferred_information": "user has tried earplugs, white noise, and moving to a different room",
+            "concise_explanation": "user reports attempting various solutions",
+            "supporting_utterance_span": "I tried earplugs, white noise, even moving to a different room",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user sees the traffic noise and their own thoughts as significant obstacles to sleep",
+            "concise_explanation": "user mentions traffic noise and replaying breakup as barriers",
+            "supporting_utterance_span": "I tried earplugs, white noise, even moving to a different room but nothing helps",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "user's thoughts about the breakup are triggered by the traffic noise and their own rumination",
+            "concise_explanation": "user mentions replaying the breakup",
+            "supporting_utterance_span": "replaying the breakup",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "sleep_problems",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I tried earplugs, white noise, even moving to a different room but nothing helps. Maybe I need to talk to a therapist or find a quieter place"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "sleep_problems",
+            "attribute_1": "triggers",
+            "problem_2": "breakup_aftermath",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "the traffic noise triggers both the user's sleep problems and their thoughts about the breakup",
+            "supporting_utterance_span": "I tried earplugs, white noise, even moving to a different room but nothing helps. Maybe I need to talk to a therapist or find a quieter place",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now identifies traffic noise and their own thoughts as significant obstacles to sleep, indicating a clear awareness of barriers to improving their sleep.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees traffic noise and their own thoughts as significant obstacles to sleep"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User has been trying various coping strategies such as earplugs, white noise, and moving to a different room, and has acknowledged significant obstacles to sleep, indicating a move towards preparing to take action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user has tried earplugs and white noise to address sleep difficulties"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their sleep disturbance as severe and debilitating"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees traffic noise and their own thoughts as significant obstacles to sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user has tried earplugs, white noise, and moving to a different room"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence indicating the user is considering change or acknowledging the breakup aftermath as a problem they want to address, so the stage remains the same.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup itself is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "thoughts about the breakup trigger rumination"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "rumination about the breakup is a persistent concern"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "thoughts about the breakup are triggered by lying awake"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user's thoughts about the breakup are triggered by the traffic noise and their own rumination"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I tried earplugs, white noise, even moving to a different room but nothing helps. Maybe I need to talk to a therapist or find a quieter place. I'm not sure what would actually break this loop.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I can't sleep at all. The traffic noise keeps me awake, and every time I close my eyes I keep replaying the breakup. I feel like I'm stuck in a loop and can't find any peace."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really stuck and overwhelmed, and like the breakup is still really fresh and painful for you. The traffic noise isn't helping, and it's like your mind is replaying the breakup on a loop, making it hard to find any peace. Can you tell me more about what's been going through your mind when you're lying awake at night?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through \"what if\", \"why did this happen\", and I can't shut it off. I just feel stuck and can't find any peace."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the traffic noise is really getting to you, and it's like the city is overwhelming you. You're also stuck on thoughts of the breakup, and it's hard to shut them off. You feel like you're stuck and can't find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "Every night I hear the traffic and my mind keeps replaying the breakup. I tried earplugs and white noise, but nothing seems to help. I just feel like I\u2019m trapped in this loop and don\u2019t know how to break free."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like you're feeling really trapped and overwhelmed by the traffic noise and your thoughts about the breakup. You've tried earplugs and white noise, but nothing seems to be helping you break free from this loop. It's like your mind is stuck on replay, and it's hard to find any peace. Would it help to talk more about what's going through your mind when you're lying awake at night?"
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "I just keep lying awake, hearing the traffic and replaying everything. I feel like I\u2019m drowning in noise and my own thoughts. I don\u2019t know if I\u2019ll ever get any rest."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "It sounds like you're feeling completely overwhelmed and stuck, like the traffic noise and your thoughts about the breakup are drowning you. You've been lying awake for so long, replaying everything in your mind, and it's hard to see a way out. Would it help to talk about what you think might help you break free from this loop and get some rest?"
+          }
+        ],
+        "last_system_message": "It sounds like you're feeling completely overwhelmed and stuck, like the traffic noise and your thoughts about the breakup are drowning you. You've been lying awake for so long, replaying everything in your mind, and it's hard to see a way out. Would it help to talk about what you think might help you break free from this loop and get some rest?",
+        "main_problem": {
+          "problem_name": "sleep_problems",
+          "current_ttm_stage": "preparation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user sees their sleep disturbance as severe and debilitating",
+                  "concise_explanation": "feeling of drowning in noise and thoughts",
+                  "supporting_utterance_span": "I feel like I\u2019m drowning in noise and my own thoughts",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user sees the traffic noise and their own thoughts as significant obstacles to sleep",
+                  "concise_explanation": "user mentions traffic noise and replaying breakup as barriers",
+                  "supporting_utterance_span": "I tried earplugs, white noise, even moving to a different room but nothing helps",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic noise and breakup thoughts cited as drivers",
+                  "supporting_utterance_span": "I keep hearing the traffic, and it feels like the city is shouting at me. My mind loops through 'what if', 'why did this happen'",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic noise and breakup thoughts cited as drivers",
+                  "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "traffic noise and rumination about the breakup prevent sleep",
+                  "concise_explanation": "traffic and replaying thoughts cited as drivers",
+                  "supporting_utterance_span": "hearing the traffic and replaying everything",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user has tried earplugs and white noise to address sleep difficulties",
+                  "concise_explanation": "earplugs and white noise mentioned as attempted solutions",
+                  "supporting_utterance_span": "I tried earplugs and white noise, but nothing seems to help",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user has tried earplugs, white noise, and moving to a different room",
+                  "concise_explanation": "user reports attempting various solutions",
+                  "supporting_utterance_span": "I tried earplugs, white noise, even moving to a different room",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "rumination about the breakup is a persistent concern",
+                    "concise_explanation": "breakup thoughts cited as a recurring issue",
+                    "supporting_utterance_span": "my mind keeps replaying the breakup",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "thoughts about the breakup are triggered by lying awake",
+                    "concise_explanation": "replaying the breakup at night",
+                    "supporting_utterance_span": "replaying everything",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "user's thoughts about the breakup are triggered by the traffic noise and their own rumination",
+                    "concise_explanation": "user mentions replaying the breakup",
+                    "supporting_utterance_span": "replaying the breakup",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 5,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "rumination about the breakup is a trigger for both sleep difficulties and ongoing breakup concerns",
+                "supporting_utterance_span": "Every night I hear the traffic and my mind keeps replaying the breakup",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "thoughts about the breakup are a trigger for sleep disturbance, and lying awake triggers thoughts about the breakup",
+                "supporting_utterance_span": "I just keep lying awake, hearing the traffic and replaying everything",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 4
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the traffic noise triggers both the user's sleep problems and their thoughts about the breakup",
+                "supporting_utterance_span": "I tried earplugs, white noise, even moving to a different room but nothing helps. Maybe I need to talk to a therapist or find a quieter place",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "main_problem": "sleep_problems"
+      },
+      "response": {
+        "system_intent": "No safe plan available this turn. Use T1 Reflection to stay present with the user without advancing any new agenda. This reflection is appropriate because any prescriptive step would be unsupported by the current evidence.",
+        "response_reasoning": "Emit a safe reflection only; do not advise or pivot.",
+        "final_response": "I'm here. Take your time.",
+        "_fallback_default": true
+      },
+      "trace": {
+        "main_problem": "sleep_problems",
+        "current_problems": [
+          "sleep_problems",
+          "breakup_aftermath"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now identifies traffic noise and their own thoughts as significant obstacles to sleep, indicating a clear awareness of barriers to improving their sleep.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees traffic noise and their own thoughts as significant obstacles to sleep"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "sleep_problems",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User has been trying various coping strategies such as earplugs, white noise, and moving to a different room, and has acknowledged significant obstacles to sleep, indicating a move towards preparing to take action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user has tried earplugs and white noise to address sleep difficulties"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their sleep disturbance as severe and debilitating"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees traffic noise and their own thoughts as significant obstacles to sleep"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user has tried earplugs, white noise, and moving to a different room"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence indicating the user is considering change or acknowledging the breakup aftermath as a problem they want to address, so the stage remains the same.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup itself is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "thoughts about the breakup trigger rumination"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "rumination about the breakup is a persistent concern"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "thoughts about the breakup are triggered by lying awake"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user's thoughts about the breakup are triggered by the traffic noise and their own rumination"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,1890 @@
+{
+  "session_id": 1,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "perfectionistic, self-critical, anxious",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep putting off sketching anything because I fear it\u2019ll look wrong, and I can\u2019t shake this worry that I\u2019m not good enough."
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "Even then I was measuring every line against some internal blueprint, like a structural audit."
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "the fear that it won't meet my own high bar still holds me back."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "creativity, self-worth, perfection",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the only thing that matters is whether I can design a building that meets my own impossible standards"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I\u2019m stuck in this loop of delay, and it\u2019s exhausting"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I keep thinking the apartment is a shell, and every pencil stroke feels like a load test that could bring the whole thing down."
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "my worth is tied to my creative abilities, I must be perfect to be worthy",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I think my drive for perfection is tied to how I used to measure my worth in the firm, and now, after the breakup, I'm doubting if I can still be worthy."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I keep waiting for the 'perfect' spark that never arrives. I keep putting off sketching because I still feel like my work is a test of my worth."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I keep wondering if that messy line will prove I'm not good enough."
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "design, architecture, sketching",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "whether I can design a building that meets my own impossible standards"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I did for a friend\u2019s basement kitchen last summer\u2014just to get my hand moving"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "sketching a quick silhouette of a building I admire"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "reflective, emotional, guarded",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep putting off sketching anything because I fear it\u2019ll look wrong, and I can\u2019t shake this worry that I\u2019m not good enough."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I\u2019m stuck in this loop of delay, and it\u2019s exhausting"
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I\u2019m terrified the lines will be too rigid, too off\u2011center, and that\u2019s all I\u2019ll have to show for my worth."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "recent breakup, past experience in a firm",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I just finished the breakup"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "how I used to measure my worth in the firm"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, avoidant",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep putting off sketching anything because I fear it\u2019ll look wrong"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I\u2019m stuck in this loop of delay, and it\u2019s exhausting"
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I\u2019m terrified the lines will be too rigid, too off\u2011center, and that\u2019s all I\u2019ll have to show for my worth."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I just finished the breakup and now I\u2019m staring at my empty apartment, feeling like the only thing that matters is whether I can design a building that meets my own impossible standards. I keep putting off sketching anything because I fear it\u2019ll look wrong, and I can\u2019t shake this worry that I\u2019m not good enough."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're sitting in an empty apartment, feeling the weight of your breakup, and on top of that, you're putting a lot of pressure on yourself to create something perfect with your design work. It sounds like the fear of not meeting your own expectations is really holding you back from even starting to sketch. Can you tell me more about what's driving this need for perfection in your design?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I think my drive for perfection is tied to how I used to measure my worth in the firm, and now, after the breakup, I'm doubting if I can still be worthy. Every sketch feels like a test; if it doesn't match my ideal, it's a failure. So I keep putting it off, because I don't want to fail and prove I'm not good enough. It\u2019s exhausting, and I\u2019m not sure how to break this loop."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "You're feeling really stuck, and it's like every sketch is a reflection of your worth, making it hard to even begin. It's exhausting to constantly worry about not being good enough. Can you think of a time when you created something that didn't have to be perfect, just for the sake of creating?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "The closest I\u2019ve come to creating for its own sake was that quick sketch I did for a friend\u2019s basement kitchen last summer\u2014just to get my hand moving. Even then I was measuring every line against some internal blueprint, like a structural audit. It still felt like a test, not a true experiment."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're carrying the weight of your own criticism with every sketch, and even when it's just for fun, like that basement kitchen design, you're still measuring yourself against an ideal. It's like you're trying to prove something to yourself, and that's a really tough place to create from. I can see how exhausting that must be. Yeah, it's hard to break free from that need for perfection, but it sounds like you're recognizing the pattern, and that's a start."
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I get what you mean, but every time I pick up my pencil it feels like I\u2019m drafting a blueprint for my own self\u2011worth. Since the breakup the space feels empty, and I keep waiting for the \u2018perfect\u2019 moment that never comes. I\u2019m stuck in this loop of delay, and it\u2019s exhausting."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You're feeling the pressure of your pencil being a tool not just for design, but for validating your self-worth, and that's a heavy burden. It's like every line you draw is a reflection of whether you're good enough, and that's exhausting. I can see how the emptiness of your space after the breakup might be amplifying this feeling. It's interesting that you mention waiting for the 'perfect' moment to start sketching again - it sounds like you're putting a lot of pressure on yourself to get it just right. Yeah, it's tough to break free from that need for perfection, but recognizing the pattern is a big step."
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "Recognizing the pattern is a relief, but the apartment feels like a blank wall and I keep waiting for that 'perfect' spark that never arrives. I keep putting off sketching because I still feel like my work is a test of my worth."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "It's a relief to recognize the pattern, but the emptiness of your apartment and the wait for that 'perfect' spark can be really daunting. Yeah, it's tough to break free from the need for perfection, especially when it feels like your work is a test of your worth. I can see how that would make it hard to even start sketching. It's like you're waiting for a sign that never comes, and that's exhausting. Can you think of what small step you might take to start creating, not for the sake of perfection, but just to get your hand moving?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I could start by sketching a quick silhouette of a building I admire, but the fear that it won't meet my own high bar still holds me back. Maybe I can just draw a rough floor plan, no judgment, just to get my hand moving."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "Yeah, it's like that fear of not meeting your own high bar is still lurking, even when you think about taking a small step like sketching a silhouette or drawing a rough floor plan. But it sounds like you're considering just doing it anyway, without judgment, just to get your hand moving. That takes a lot of courage, and it might be a good way to break the ice and get started. What if you did just let yourself draw that rough floor plan, without worrying about whether it's perfect or not?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I could try sketching that rough floor plan, but the thought that it\u2019ll be judged by my own standards still feels like a structural audit before the building even exists. I\u2019m terrified the lines will be too rigid, too off\u2011center, and that\u2019s all I\u2019ll have to show for my worth. Maybe I can just start with a pencil and let the hand move, but the fear of failure lingers like a wind load I can\u2019t ignore."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "Let's try to simplify things - what if you start by making a few loose gesture drawings, just focusing on the movement of your hand? You don't have to worry about the lines being perfect or the proportions being right. Just let your hand move, and see what happens. This might help you break the ice and get started, without putting too much pressure on yourself."
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "The apartment feels like a blank fa\u00e7ade, and every line I draw feels like a structural test of my worth. I keep waiting for the perfect moment to start, but that delay feels like the building never takes shape."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The blank fa\u00e7ade of your apartment seems to be mirroring the blank page in front of you, and it's like every line you draw is a test of your worth. You've been waiting for the perfect moment to start, but that delay is starting to feel like the building never takes shape. Can you think of what's holding you back from just starting to draw, without worrying about whether it's perfect or not?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I keep thinking the apartment is a shell, and every pencil stroke feels like a load test that could bring the whole thing down. The fear that my own critique will collapse the draft keeps me from even starting, so I just sit in the drafty space and watch the walls breathe. It feels like I'm stuck in a structural flaw I can't fix, and that emptiness after the breakup only amplifies the doubt."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The weight of your own critique is feeling like a heavy burden, and it's understandable that you're hesitant to start sketching when every line feels like a test of your worth. You've been waiting for the perfect moment to start, but that delay is starting to feel like the building never takes shape. It takes a lot of courage to acknowledge this fear, and it might be a good starting point to explore what small step you could take to begin creating, without putting too much pressure on yourself. Maybe just letting your hand move with a pencil could be a way to break the ice and get started."
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I hear you, but even the thought of just doodling feels like a judgment. I keep wondering if that messy line will prove I'm not good enough."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The fear that your own critique will be too harsh is really holding you back, and it's understandable that even the thought of doodling feels like a judgment. It's like you're waiting for permission to create something imperfect, but that permission is hard to give yourself when you feel like your worth is tied to your art. Yeah, it's a tough spot to be in. What if you tried to separate your self-worth from your creative endeavors, just for a little while, and saw what happened?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I just finished the breakup and now I\u2019m staring at my empty apartment, feeling like the only thing that matters is whether I can design a building that meets my own impossible standards. I keep putting off sketching anything because I fear it\u2019ll look wrong, and I can\u2019t shake this worry that I\u2019m not good enough.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a friend to listen and support, and right now, you need someone to acknowledge the emotional weight of your breakup and the pressure you're putting on yourself with your design work. The strategies that seem most fitting are support and complex_reflection, given your intent to express emotion and the absence of a clear main problem to tackle. The evidence that stands out is your fear of not meeting your own standards and the worry that you're not good enough, which suggests a deep-seated need for reassurance. My entry point will be to reflect on the emptiness and uncertainty you're feeling, both in your apartment and in your design endeavors.",
+        "evidence_used": [
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "empty apartment"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "fear of not meeting own standards"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "worry of not being good enough"
+          }
+        ],
+        "final_response": "You're sitting in an empty apartment, feeling the weight of your breakup, and on top of that, you're putting a lot of pressure on yourself to create something perfect with your design work. It sounds like the fear of not meeting your own expectations is really holding you back from even starting to sketch. Can you tell me more about what's driving this need for perfection in your design?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "I think my drive for perfection is tied to how I used to measure my worth in the firm, and now, after the breakup, I'm doubting if I can still be worthy. Every sketch feels like a test; if it doesn't match my ideal, it's a failure. So I keep putting it off, because I don't want to fail and prove I'm not good enough. It\u2019s exhausting, and I\u2019m not sure how to break this loop.",
+      "inference": {
+        "user_intent": {
+          "intent": "resistance",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "resistance",
+        "intent_entry_style": "Roll with it \u2014 reflect resistance without arguing; emphasize autonomy.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate this tough spot, and it seems like you're struggling with feelings of inadequacy and self-doubt after your breakup. Given your intent to resist and reflect on these emotions, I'll use strategies like complex_reflection and support to help you explore your thoughts. The evidence from your recent message suggests that your drive for perfection is closely tied to your self-worth, and this is causing you a lot of distress. My entry point will be to acknowledge the weight of these feelings and how they're impacting your ability to start sketching, and then I'll use a complex reflection to help you explore the underlying emotions.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "fear of not meeting own expectations"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "drive for perfection tied to self-worth"
+          }
+        ],
+        "final_response": "You're feeling really stuck, and it's like every sketch is a reflection of your worth, making it hard to even begin. It's exhausting to constantly worry about not being good enough. Can you think of a time when you created something that didn't have to be perfect, just for the sake of creating?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "resistance",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "The closest I\u2019ve come to creating for its own sake was that quick sketch I did for a friend\u2019s basement kitchen last summer\u2014just to get my hand moving. Even then I was measuring every line against some internal blueprint, like a structural audit. It still felt like a test, not a true experiment.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their emotions and creative struggles, and they need me to reflect their feelings first. Given their intent to express emotion, I'll use complex reflection and support strategies to help them process. The evidence shows they're struggling with perfectionism and self-doubt, particularly in their design work, and even a casual sketch for a friend's basement kitchen felt like a test. My entry will acknowledge the weight of their self-criticism and the difficulty of creating without judgment.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "every sketch feels like a test; if it doesn't match my ideal, it's a failure"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "I'm doubting if I can still be worthy"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "It still felt like a test, not a true experiment"
+          }
+        ],
+        "final_response": "You're carrying the weight of your own criticism with every sketch, and even when it's just for fun, like that basement kitchen design, you're still measuring yourself against an ideal. It's like you're trying to prove something to yourself, and that's a really tough place to create from. I can see how exhausting that must be. Yeah, it's hard to break free from that need for perfection, but it sounds like you're recognizing the pattern, and that's a start."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I get what you mean, but every time I pick up my pencil it feels like I\u2019m drafting a blueprint for my own self\u2011worth. Since the breakup the space feels empty, and I keep waiting for the \u2018perfect\u2019 moment that never comes. I\u2019m stuck in this loop of delay, and it\u2019s exhausting.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate this tough spot, and it seems like you're really struggling to separate your self-worth from your design work, especially after the breakup. The strategies that might help right now are support and complex reflection, given your current emotional state and the fact that we're still exploring the issue. The evidence that stands out is how you mentioned every sketch feeling like a test of your worth, and how exhausting that is. My entry point will be to acknowledge the weight of that pressure and how it's affecting your ability to create.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "every time I pick up my pencil it feels like I\u2019m drafting a blueprint for my own self\u2011worth"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "I\u2019m stuck in this loop of delay, and it\u2019s exhausting"
+          }
+        ],
+        "final_response": "You're feeling the pressure of your pencil being a tool not just for design, but for validating your self-worth, and that's a heavy burden. It's like every line you draw is a reflection of whether you're good enough, and that's exhausting. I can see how the emptiness of your space after the breakup might be amplifying this feeling. It's interesting that you mention waiting for the 'perfect' moment to start sketching again - it sounds like you're putting a lot of pressure on yourself to get it just right. Yeah, it's tough to break free from that need for perfection, but recognizing the pattern is a big step."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "Recognizing the pattern is a relief, but the apartment feels like a blank wall and I keep waiting for that 'perfect' spark that never arrives. I keep putting off sketching because I still feel like my work is a test of my worth.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the weight of your emotions right now. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to explore your feelings. The evidence from our recent conversations shows that you're struggling with the pressure to create perfect designs, which is tied to your self-worth, and that's holding you back from even starting to sketch. Your recent message about waiting for the 'perfect' spark that never arrives resonates with this pattern. My first sentence will acknowledge the relief you feel in recognizing this pattern, while also validating your current emotional state.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "Recognizing the pattern is a relief, but the apartment feels like a blank wall and I keep waiting for that 'perfect' spark that never arrives."
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "pressure to create perfect designs tied to self-worth"
+          }
+        ],
+        "final_response": "It's a relief to recognize the pattern, but the emptiness of your apartment and the wait for that 'perfect' spark can be really daunting. Yeah, it's tough to break free from the need for perfection, especially when it feels like your work is a test of your worth. I can see how that would make it hard to even start sketching. It's like you're waiting for a sign that never comes, and that's exhausting. Can you think of what small step you might take to start creating, not for the sake of perfection, but just to get your hand moving?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 6,
+      "user_message": "I could start by sketching a quick silhouette of a building I admire, but the fear that it won't meet my own high bar still holds me back. Maybe I can just draw a rough floor plan, no judgment, just to get my hand moving.",
+      "inference": {
+        "user_intent": {
+          "intent": "resistance",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "resistance",
+        "intent_entry_style": "Roll with it \u2014 reflect resistance without arguing; emphasize autonomy.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their resistance to creating, and they need me to roll with their concerns without arguing. Given their intent to resist, I'll use the support strategy to acknowledge their fears and facilitate their thinking. The evidence shows they've been struggling with the need for perfection in their design work, and even small steps like sketching a silhouette or floor plan feel daunting. I'll use this to inform my response, focusing on helping them take that small step without judgment. My entry will be to acknowledge the fear that's holding them back and encourage them to take the small step they've mentioned.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "fear that it won't meet my own high bar still holds me back"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "Maybe I can just draw a rough floor plan, no judgment, just to get my hand moving"
+          }
+        ],
+        "final_response": "Yeah, it's like that fear of not meeting your own high bar is still lurking, even when you think about taking a small step like sketching a silhouette or drawing a rough floor plan. But it sounds like you're considering just doing it anyway, without judgment, just to get your hand moving. That takes a lot of courage, and it might be a good way to break the ice and get started. What if you did just let yourself draw that rough floor plan, without worrying about whether it's perfect or not?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "resistance",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 7,
+      "user_message": "I could try sketching that rough floor plan, but the thought that it\u2019ll be judged by my own standards still feels like a structural audit before the building even exists. I\u2019m terrified the lines will be too rigid, too off\u2011center, and that\u2019s all I\u2019ll have to show for my worth. Maybe I can just start with a pencil and let the hand move, but the fear of failure lingers like a wind load I can\u2019t ignore.",
+      "inference": {
+        "user_intent": {
+          "intent": "request_plan",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "request_plan",
+        "intent_entry_style": "Propose ONE small step matched to TTM stage. Don't deflect with a question.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they struggle with the need for perfection in their sketching, which is tied to their self-worth. Given their intent to request a plan, I'll propose a small step that acknowledges their fear of failure. The evidence shows they've recognized the pattern of waiting for the 'perfect' moment to start sketching, and they've considered taking a small step like drawing a rough floor plan without judgment. To help them move forward, I'll suggest they start with a simple gesture drawing, focusing on the movement of their hand rather than the outcome. This approach can help them build confidence and break the cycle of perfectionism. By taking this small step, they can begin to separate their self-worth from their sketching and develop a more compassionate approach to creativity.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "fear of not meeting their own high bar"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "considering drawing a rough floor plan without judgment"
+          }
+        ],
+        "final_response": "Let's try to simplify things - what if you start by making a few loose gesture drawings, just focusing on the movement of your hand? You don't have to worry about the lines being perfect or the proportions being right. Just let your hand move, and see what happens. This might help you break the ice and get started, without putting too much pressure on yourself."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "request_plan",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 8,
+      "user_message": "The apartment feels like a blank fa\u00e7ade, and every line I draw feels like a structural test of my worth. I keep waiting for the perfect moment to start, but that delay feels like the building never takes shape.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions and struggles with creating art, and it seems like they're still carrying the weight of self-criticism with every sketch. The fact that they mention the apartment feeling like a blank fa\u00e7ade and every line being a structural test of their worth suggests that they're putting a lot of pressure on themselves. I'll use the evidence of their past statements about waiting for the perfect moment and fearing judgment to inform my response. My entry point will be to acknowledge the fear and pressure they're feeling, and then I can use a strategy like complex_reflection to help them explore their thoughts and feelings.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "the apartment feels like a blank fa\u00e7ade"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "every line I draw feels like a structural test of my worth"
+          }
+        ],
+        "final_response": "The blank fa\u00e7ade of your apartment seems to be mirroring the blank page in front of you, and it's like every line you draw is a test of your worth. You've been waiting for the perfect moment to start, but that delay is starting to feel like the building never takes shape. Can you think of what's holding you back from just starting to draw, without worrying about whether it's perfect or not?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 9,
+      "user_message": "I keep thinking the apartment is a shell, and every pencil stroke feels like a load test that could bring the whole thing down. The fear that my own critique will collapse the draft keeps me from even starting, so I just sit in the drafty space and watch the walls breathe. It feels like I'm stuck in a structural flaw I can't fix, and that emptiness after the breakup only amplifies the doubt.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion right now, so I want to acknowledge that first. Given your intent to express emotion, I'll use strategies like support and complex reflection to help you feel heard. From what you've shared, it's clear that the emptiness of your apartment after the breakup is amplifying your fear of not meeting your own high standards, and that's making it hard to start sketching. Your fear of failure is lingering, and it's holding you back from taking that first step. My entry point will be to acknowledge the weight of that fear and the pressure you're putting on yourself.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "The apartment feels like a blank fa\u00e7ade, and every line I draw feels like a structural test of my worth."
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "I\u2019m terrified the lines will be too rigid, too off\u2011center, and that\u2019s all I\u2019ll have to show for my worth."
+          }
+        ],
+        "final_response": "The weight of your own critique is feeling like a heavy burden, and it's understandable that you're hesitant to start sketching when every line feels like a test of your worth. You've been waiting for the perfect moment to start, but that delay is starting to feel like the building never takes shape. It takes a lot of courage to acknowledge this fear, and it might be a good starting point to explore what small step you could take to begin creating, without putting too much pressure on yourself. Maybe just letting your hand move with a pencil could be a way to break the ice and get started."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 10,
+      "user_message": "I hear you, but even the thought of just doodling feels like a judgment. I keep wondering if that messy line will prove I'm not good enough.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions and struggles with creativity and self-worth, and what they need right now is acknowledgment of their fear and doubt. The strategies that seem most fitting are support and complex reflection, as they've been helpful in the past two turns. The evidence that stands out is their consistent fear of not meeting their own high standards, and how that's holding them back from even starting to create. My entry point will be to acknowledge the weight of their self-criticism and how it's affecting their ability to start creating, and then explore what small step they might take to begin, without putting too much pressure on themselves.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "fear that my own critique will collapse the draft"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "every line I draw feels like a structural test of my worth"
+          }
+        ],
+        "final_response": "The fear that your own critique will be too harsh is really holding you back, and it's understandable that even the thought of doodling feels like a judgment. It's like you're waiting for permission to create something imperfect, but that permission is hard to give yourself when you feel like your worth is tied to your art. Yeah, it's a tough spot to be in. What if you tried to separate your self-worth from your creative endeavors, just for a little while, and saw what happened?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

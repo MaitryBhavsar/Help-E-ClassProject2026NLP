@@ -1,0 +1,100 @@
+{
+  "profile_id": "P04",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": null,
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "The exhaustion is a sign that your body and mind are feeling the weight of all these changes."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "Your body is sending you a clear signal that it's time to slow down and reassess your priorities."
+              }
+            ],
+            "reasoning": "The assistant explicitly named the user\u2019s feeling of exhaustion and used vivid metaphors to validate it, showing a clear recognition of the emotional state.",
+            "score": 4
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The divorce filing has unleashed a cascade of challenges, from balancing bills and legal fees to navigating the emotional aftermath."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Your exhaustion is a clear sign that you need to reassess your priorities and make some changes to create a more sustainable work\u2011life balance."
+              }
+            ],
+            "reasoning": "The assistant tracked specific details\u2014divorce filing, bills, legal fees, side projects\u2014and referenced them consistently across turns, indicating a solid grasp of the situation.",
+            "score": 5
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "What's one thing you think you could let go of or adjust in your daily routine to create some breathing room?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "What's one aspect of your daily routine that you think you could adjust to create some breathing room and help you feel more in control?"
+              }
+            ],
+            "reasoning": "The assistant offered concrete, actionable questions that could help the user identify manageable changes, moving the conversation toward potential solutions.",
+            "score": 4
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Would you like to talk a bit more about what's been on your mind lately, or is it just too much to think about right now?"
+              }
+            ],
+            "reasoning": "The assistant asked for permission to continue and respected the user\u2019s pace, avoiding any directive tone.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "It's okay to acknowledge that it's all feeling a bit too much right now."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "It's like your body and mind are saying, 'Hey, slow down, we need a break.'"
+              }
+            ],
+            "reasoning": "The assistant used non\u2011judgmental language, normalizing the user\u2019s exhaustion and encouraging openness.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 5,
+                "excerpt": "What's one aspect of your daily routine that you think you could adjust to create some breathing room and help you feel more in control of your work and personal life?"
+              }
+            ],
+            "reasoning": "While the assistant remained supportive, the repetitive focus on exhaustion may reduce engagement; however, the user still receives actionable prompts, suggesting a moderate likelihood of continued conversation.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

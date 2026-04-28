@@ -1,0 +1,2363 @@
+{
+  "session_id": 1,
+  "session_summary": "The user primarily discussed their struggles with low self-esteem and social anxiety, particularly in the context of an upcoming science fair where they will have to interact with others. They moved from being unaware of these issues to acknowledging them, with low self-esteem reaching the precontemplation stage and social anxiety reaching the preparation stage. The user expressed a desire to overcome their fears and prove themselves, and they made a plan to practice a short pitch for their project with the support of their friend Maya. An open thread is the user's intent to work on their social anxiety and low self-esteem, with a focus on building confidence in explaining their project to others.",
+  "stage_transitions": [
+    {
+      "problem": "low_self_esteem",
+      "from": "(absent)",
+      "to": "precontemplation"
+    },
+    {
+      "problem": "social_anxiety",
+      "from": "(absent)",
+      "to": "preparation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "introverted, self-conscious",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the idea of talking to everyone makes my stomach flip"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "acceptance, self-expression",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I want to prove myself, the whispers make me feel like everyone\u2019s watching"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label"
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "people will judge me based on past experiences",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the whispers in the cafeteria still echo in my head"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'"
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "friend (Maya)",
+      "evidence_citations": [
+        {
+          "turn_id": 4,
+          "excerpt": "I think my friend Maya, who likes sci\u2011fi too, could come with me"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "sci-fi",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "my love for sci\u2011fi makes me weird"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "my friend Maya, who likes sci\u2011fi too, could come with me"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "reflective, guarded",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep thinking everyone will remember the 'Bookworm' jokes"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "being teased as 'Bookworm' in the past",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep thinking everyone will remember the 'Bookworm' jokes"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip. I keep thinking everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird. The whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It sounds like the thought of talking to people at the science fair booth is really overwhelming for you, and those past experiences of being teased are still feeling very raw. It's like the memories of being called 'Bookworm' and feeling like your interests make you weird are still echoing in your mind. Can you tell me more about what's going through your mind when you think about walking into that situation tomorrow?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching. I don\u2019t know if I can just step up and talk to people tomorrow."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "It sounds like the fear of being remembered as 'Bookworm' and the whispers from the past are still really haunting you, and it's making it hard for you to imagine yourself talking to people tomorrow. You've mentioned wanting to prove yourself, though - what do you think would need to happen for you to feel like you're able to do that, despite those fears?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth. If I can focus on explaining my project instead of the jokes, maybe I\u2019ll feel less judged. I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "It sounds like having a clear plan and a friend by your side could help you feel more confident about explaining your project and less focused on the 'Bookworm' jokes. Would it be helpful to brainstorm some specific things you could say at the booth, or to think about who might be a good friend to have with you for support?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "Yeah, brainstorming would help. I could start with a simple greeting and a short description of my project. Also, I think my friend Maya, who likes sci\u2011fi too, could come with me. I just want to feel less judged."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "It sounds like having a clear plan and a supportive friend like Maya by your side could help you feel more confident and less judged. What do you think would be the first small step you could take to start feeling more comfortable explaining your project to others?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I think I could start by writing a short script for my intro and practicing it in the hallway with Maya. Maybe just a quick 30\u2011second pitch and then we can run through it a couple of times before the fair."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "I'm here. Take your time."
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip. I keep thinking everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird. The whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing anxiety and self-doubt about an upcoming social situation without asking for advice.",
+          "supporting_utterance_span": "the idea of talking to everyone makes my stomach flip"
+        },
+        "current_problems": [
+          {
+            "problem_name": "social_anxiety",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "fear of social interaction and judgment",
+            "supporting_utterance_span": "the idea of talking to everyone makes my stomach flip"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "negative self-view due to past teasing and perceived weirdness",
+            "supporting_utterance_span": "everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "social_anxiety",
+          "explanation": "the upcoming science fair booth setup is the immediate driver of the user's anxiety",
+          "supporting_utterance_span": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "social_anxiety",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "social interactions, especially those that may involve judgment or reminders of past teasing",
+            "concise_explanation": "upcoming science fair booth setup",
+            "supporting_utterance_span": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "memories of past teasing and perceived weirdness",
+            "concise_explanation": "past 'Bookworm' jokes and whispers in the cafeteria",
+            "supporting_utterance_span": "everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "social_anxiety",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems discussed in the same turn as related to the user's upcoming social situation",
+            "supporting_utterance_span": "the idea of talking to everyone makes my stomach flip... everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "social_anxiety",
+            "attribute_1": "triggers",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "triggers",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the user's past experiences of being teased (low_self_esteem) contribute to their current social anxiety, making social interactions more daunting",
+            "supporting_utterance_span": "the whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence was provided to suggest a change in stage. The user still has not acknowledged the problem or shown any intention to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: social interactions, especially those that may involve judgment or reminders of past teasing"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence was provided to suggest a change in stage. The user still has not acknowledged the problem or shown any intention to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: memories of past teasing and perceived weirdness"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip. I keep thinking everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird. The whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "social_anxiety",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "social interactions, especially those that may involve judgment or reminders of past teasing",
+                  "concise_explanation": "upcoming science fair booth setup",
+                  "supporting_utterance_span": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "memories of past teasing and perceived weirdness",
+                    "concise_explanation": "past 'Bookworm' jokes and whispers in the cafeteria",
+                    "supporting_utterance_span": "everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the user's past experiences of being teased (low_self_esteem) contribute to their current social anxiety, making social interactions more daunting",
+                "supporting_utterance_span": "the whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T3",
+            "technique_label": "Summary"
+          },
+          {
+            "technique_id": "T12",
+            "technique_label": "Normalize/Reframe"
+          }
+        ],
+        "main_problem": "social_anxiety"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be social_anxiety. Their current TTM stage appears to be precontemplation. Because of this, the response should use T1 Reflection and T12 Normalize/Reframe. This technique is appropriate because the user is struggling to accept their social anxiety and its roots in past experiences. It should be applied by reflecting the user's feelings and thoughts, using evidence such as their triggers (social interactions, especially those that may involve judgment or reminders of past teasing). The user also shows a strong connection to the related problem of low_self_esteem, with a reinforcing relationship between the triggers of both problems. Because of this, the response should acknowledge the user's past experiences and how they contribute to their current social anxiety. The user intent in this turn is to vent, so the response should prioritize reflection and validation of their emotions. Relevant connected problems suggest a shared trigger between social_anxiety and low_self_esteem, which should be used to help the user understand the interconnectedness of their issues. Overall, the response should try to improve awareness and emotional regulation, while avoiding giving unsolicited advice or minimizing the user's concerns.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's anxiety and feelings of being judged, then use T12 Normalize/Reframe to help them see their experiences in a broader context. I'll acknowledge the connection to low_self_esteem and the reinforcing relationship between the triggers, but won't delve deeply into it this turn. I'll prioritize validation and reflection of the user's emotions, and avoid giving advice or trying to 'fix' the issue.",
+        "final_response": "It sounds like the thought of talking to people at the science fair booth is really overwhelming for you, and those past experiences of being teased are still feeling very raw. It's like the memories of being called 'Bookworm' and feeling like your interests make you weird are still echoing in your mind. Can you tell me more about what's going through your mind when you think about walking into that situation tomorrow?"
+      },
+      "trace": {
+        "main_problem": "social_anxiety",
+        "current_problems": [
+          "social_anxiety",
+          "low_self_esteem"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence was provided to suggest a change in stage. The user still has not acknowledged the problem or shown any intention to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: social interactions, especially those that may involve judgment or reminders of past teasing"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence was provided to suggest a change in stage. The user still has not acknowledged the problem or shown any intention to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: memories of past teasing and perceived weirdness"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching. I don\u2019t know if I can just step up and talk to people tomorrow.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing fear and anxiety about an upcoming social situation without asking for advice.",
+          "supporting_utterance_span": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'"
+        },
+        "current_problems": [
+          {
+            "problem_name": "social_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "social_anxiety",
+            "explanation": "fear of talking to people at the science fair booth",
+            "supporting_utterance_span": "I\u2019m terrified that everyone will remember me as the 'Bookworm'"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "feeling like past teasing defines their identity",
+            "supporting_utterance_span": "the whispers make me feel like everyone\u2019s watching"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "social_anxiety",
+          "explanation": "the science fair booth situation is the central concern",
+          "supporting_utterance_span": "I don\u2019t know if I can just step up and talk to people tomorrow"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "social_anxiety",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "past teasing and fear of being remembered as 'Bookworm' trigger anxiety",
+            "concise_explanation": "replaying jokes in head",
+            "supporting_utterance_span": "I keep replaying those jokes in my head",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "social_anxiety",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees the situation as highly intimidating",
+            "concise_explanation": "terror of being remembered",
+            "supporting_utterance_span": "I\u2019m terrified that everyone will remember me as the 'Bookworm'",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "past teasing and whispers trigger feelings of being watched",
+            "concise_explanation": "whispers make them feel watched",
+            "supporting_utterance_span": "the whispers make me feel like everyone\u2019s watching",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "social_anxiety",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "social_anxiety",
+            "attribute_1": "triggers",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "past teasing is the shared trigger for both social anxiety and low self-esteem",
+            "supporting_utterance_span": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes the social situation as 'highly intimidating', indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the situation as highly intimidating"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged the social anxiety triggers, including past teasing and fear of being judged, and described the situation as 'highly intimidating', indicating some awareness and consideration of the issue.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: social interactions, especially those that may involve judgment or reminders of past teasing"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_severity: user sees the situation as highly intimidating"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: past teasing and fear of being remembered as 'Bookworm' trigger anxiety"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence this turn indicates a change in the user's awareness or consideration of the low self-esteem issue.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: memories of past teasing and perceived weirdness"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: past teasing and whispers trigger feelings of being watched"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching. I don\u2019t know if I can just step up and talk to people tomorrow.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip. I keep thinking everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird. The whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like the thought of talking to people at the science fair booth is really overwhelming for you, and those past experiences of being teased are still feeling very raw. It's like the memories of being called 'Bookworm' and feeling like your interests make you weird are still echoing in your mind. Can you tell me more about what's going through your mind when you think about walking into that situation tomorrow?"
+          }
+        ],
+        "last_system_message": "It sounds like the thought of talking to people at the science fair booth is really overwhelming for you, and those past experiences of being teased are still feeling very raw. It's like the memories of being called 'Bookworm' and feeling like your interests make you weird are still echoing in your mind. Can you tell me more about what's going through your mind when you think about walking into that situation tomorrow?",
+        "main_problem": {
+          "problem_name": "social_anxiety",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            2
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees the situation as highly intimidating",
+                  "concise_explanation": "terror of being remembered",
+                  "supporting_utterance_span": "I\u2019m terrified that everyone will remember me as the 'Bookworm'",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "social interactions, especially those that may involve judgment or reminders of past teasing",
+                  "concise_explanation": "upcoming science fair booth setup",
+                  "supporting_utterance_span": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "past teasing and fear of being remembered as 'Bookworm' trigger anxiety",
+                  "concise_explanation": "replaying jokes in head",
+                  "supporting_utterance_span": "I keep replaying those jokes in my head",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "memories of past teasing and perceived weirdness",
+                    "concise_explanation": "past 'Bookworm' jokes and whispers in the cafeteria",
+                    "supporting_utterance_span": "everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "past teasing and whispers trigger feelings of being watched",
+                    "concise_explanation": "whispers make them feel watched",
+                    "supporting_utterance_span": "the whispers make me feel like everyone\u2019s watching",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the user's past experiences of being teased (low_self_esteem) contribute to their current social anxiety, making social interactions more daunting",
+                "supporting_utterance_span": "the whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "past teasing is the shared trigger for both social anxiety and low self-esteem",
+                "supporting_utterance_span": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "social_anxiety"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be social_anxiety. Their current TTM stage appears to be contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging the problem and is ambivalent about change, but is also expressing a desire to prove themselves. It should be applied by reflecting the user's feelings and concerns, using evidence such as their perceived_severity of social interactions and past teasing. The user also shows high perceived_severity and a strong trigger of past teasing, which should be acknowledged and explored further. The user intent in this turn is to vent, so the response should prioritize reflection and empathy. Relevant connected problems suggest a reinforcing relationship between social_anxiety and low_self_esteem, with shared triggers of past teasing. This evidence should be used by surfacing the connection between the two problems in a non-overwhelming way, such as by reflecting how past experiences are contributing to current anxiety. Overall, the response should try to improve awareness and emotional regulation, while avoiding giving unsolicited advice or pivoting to the secondary problem of low self-esteem.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's anxiety and fear of being remembered as 'Bookworm', then explore their motivations for change using T8 Change Talk. I'll name the user's desire to prove themselves as a potential motivator for change, and ask an open question to invite further elaboration. I'll skip explicit mention of the connection to low_self_esteem this turn, focusing instead on the user's immediate concerns and feelings.",
+        "final_response": "It sounds like the fear of being remembered as 'Bookworm' and the whispers from the past are still really haunting you, and it's making it hard for you to imagine yourself talking to people tomorrow. You've mentioned wanting to prove yourself, though - what do you think would need to happen for you to feel like you're able to do that, despite those fears?"
+      },
+      "trace": {
+        "main_problem": "social_anxiety",
+        "current_problems": [
+          "social_anxiety",
+          "low_self_esteem"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "social_anxiety",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes the social situation as 'highly intimidating', indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the situation as highly intimidating"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged the social anxiety triggers, including past teasing and fear of being judged, and described the situation as 'highly intimidating', indicating some awareness and consideration of the issue.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: social interactions, especially those that may involve judgment or reminders of past teasing"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_severity: user sees the situation as highly intimidating"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: past teasing and fear of being remembered as 'Bookworm' trigger anxiety"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence this turn indicates a change in the user's awareness or consideration of the low self-esteem issue.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: memories of past teasing and perceived weirdness"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: past teasing and whispers trigger feelings of being watched"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth. If I can focus on explaining my project instead of the jokes, maybe I\u2019ll feel less judged. I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User is considering ways to cope with their social anxiety and low self-esteem in a specific situation.",
+          "supporting_utterance_span": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth"
+        },
+        "current_problems": [
+          {
+            "problem_name": "social_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "social_anxiety",
+            "explanation": "fear of talking to people at the science fair booth",
+            "supporting_utterance_span": "the idea of talking to everyone makes my stomach flip"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "feeling judged and labeled as 'Bookworm'",
+            "supporting_utterance_span": "I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "social_anxiety",
+          "explanation": "user's fear of social interaction is the primary concern in this situation",
+          "supporting_utterance_span": "the idea of talking to everyone makes my stomach flip"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "social_anxiety",
+            "attribute_name": "coping_strategies",
+            "attribute_type": "non_level",
+            "inferred_information": "user wants a clear plan and a friend for support",
+            "concise_explanation": "user suggests having a plan and a friend to cope with anxiety",
+            "supporting_utterance_span": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "social_anxiety",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "past experiences of being teased and labeled are triggers",
+            "concise_explanation": "user mentions past jokes and whispers as triggers",
+            "supporting_utterance_span": "the whispers in the cafeteria still echo in my head",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "goal",
+            "attribute_type": "non_level",
+            "inferred_information": "user wants to prove themselves and overcome the 'Bookworm' label",
+            "concise_explanation": "user wants to show they are more than the label",
+            "supporting_utterance_span": "I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "social_anxiety",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems are discussed in the context of the science fair booth",
+            "supporting_utterance_span": "the idea of talking to everyone makes my stomach flip... I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "social_anxiety",
+            "attribute_1": "triggers",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "goal",
+            "relation_type": "causal",
+            "connection_explanation": "the triggers for social anxiety (past teasing) contribute to the goal of overcoming low self-esteem (proving oneself)",
+            "supporting_utterance_span": "the whispers in the cafeteria still echo in my head... I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its triggers, but there is no new evidence of progression to the next stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "social interactions trigger anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "past teasing triggers anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "past experiences trigger anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants a clear plan and a friend for support"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "User still does not show signs of acknowledging the problem as something they want to change, despite having a goal to overcome the 'Bookworm' label.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "memories of past teasing trigger feelings"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "past teasing triggers feelings of being watched"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants to prove themselves and overcome the 'Bookworm' label"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth. If I can focus on explaining my project instead of the jokes, maybe I\u2019ll feel less judged. I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip. I keep thinking everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird. The whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like the thought of talking to people at the science fair booth is really overwhelming for you, and those past experiences of being teased are still feeling very raw. It's like the memories of being called 'Bookworm' and feeling like your interests make you weird are still echoing in your mind. Can you tell me more about what's going through your mind when you think about walking into that situation tomorrow?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching. I don\u2019t know if I can just step up and talk to people tomorrow."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the fear of being remembered as 'Bookworm' and the whispers from the past are still really haunting you, and it's making it hard for you to imagine yourself talking to people tomorrow. You've mentioned wanting to prove yourself, though - what do you think would need to happen for you to feel like you're able to do that, despite those fears?"
+          }
+        ],
+        "last_system_message": "It sounds like the fear of being remembered as 'Bookworm' and the whispers from the past are still really haunting you, and it's making it hard for you to imagine yourself talking to people tomorrow. You've mentioned wanting to prove yourself, though - what do you think would need to happen for you to feel like you're able to do that, despite those fears?",
+        "main_problem": {
+          "problem_name": "social_anxiety",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees the situation as highly intimidating",
+                  "concise_explanation": "terror of being remembered",
+                  "supporting_utterance_span": "I\u2019m terrified that everyone will remember me as the 'Bookworm'",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "social interactions, especially those that may involve judgment or reminders of past teasing",
+                  "concise_explanation": "upcoming science fair booth setup",
+                  "supporting_utterance_span": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "past teasing and fear of being remembered as 'Bookworm' trigger anxiety",
+                  "concise_explanation": "replaying jokes in head",
+                  "supporting_utterance_span": "I keep replaying those jokes in my head",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "past experiences of being teased and labeled are triggers",
+                  "concise_explanation": "user mentions past jokes and whispers as triggers",
+                  "supporting_utterance_span": "the whispers in the cafeteria still echo in my head",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user wants a clear plan and a friend for support",
+                  "concise_explanation": "user suggests having a plan and a friend to cope with anxiety",
+                  "supporting_utterance_span": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "precontemplation",
+            "goal": "user wants to prove themselves and overcome the 'Bookworm' label",
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "memories of past teasing and perceived weirdness",
+                    "concise_explanation": "past 'Bookworm' jokes and whispers in the cafeteria",
+                    "supporting_utterance_span": "everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "past teasing and whispers trigger feelings of being watched",
+                    "concise_explanation": "whispers make them feel watched",
+                    "supporting_utterance_span": "the whispers make me feel like everyone\u2019s watching",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "goal": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user wants to prove themselves and overcome the 'Bookworm' label",
+                    "concise_explanation": "user wants to show they are more than the label",
+                    "supporting_utterance_span": "I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the user's past experiences of being teased (low_self_esteem) contribute to their current social anxiety, making social interactions more daunting",
+                "supporting_utterance_span": "the whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "past teasing is the shared trigger for both social anxiety and low self-esteem",
+                "supporting_utterance_span": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "goal",
+                "explanation": "the triggers for social anxiety (past teasing) contribute to the goal of overcoming low self-esteem (proving oneself)",
+                "supporting_utterance_span": "the whispers in the cafeteria still echo in my head... I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          }
+        ],
+        "main_problem": "social_anxiety"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be social_anxiety. Their current TTM stage appears to be contemplation. Because of this, the response should use T1 Reflection and T5 Ask Permission. This technique is appropriate because the user is acknowledging their problem and is ambivalent about change, and T1 Reflection can help them explore their feelings and thoughts. It should be applied by reflecting the user's content and feelings, using evidence such as their perceived_severity of social anxiety and their triggers, including past teasing and fear of being remembered as 'Bookworm'. The user also shows a desire for a clear plan and a friend for support, which can be used as evidence to inform the reflection. Because of this, the response should also use T8 Change Talk, to invite the user's own reasons for change and explore their motivation for proving themselves and overcoming the 'Bookworm' label. The user intent in this turn is to explore options, so the response should acknowledge this intent and guide the user in exploring their options. Relevant connected problems suggest a reinforcing relationship between social_anxiety and low_self_esteem, with shared triggers and a causal relationship between the triggers for social_anxiety and the goal of overcoming low_self_esteem. This evidence should be used by surfacing the connection between the two problems in a non-overwhelming way, such as by reflecting the user's desire to prove themselves and overcome the 'Bookworm' label. Overall, the response should try to improve the user's motivation and self-efficacy, while avoiding pivoting to the secondary problem or giving unsolicited advice.",
+        "response_reasoning": "I'll use T1 Reflection to acknowledge the user's desire for a clear plan and a friend for support, and T5 Ask Permission to explore their options for proving themselves and overcoming the 'Bookworm' label. I'll surface the user's perceived_severity of social anxiety and their triggers, and use the connection to low_self_esteem to inform the reflection. I'll drop the detailed exploration of the causal relationship between the triggers for social_anxiety and the goal of overcoming low_self_esteem, as it may be overwhelming. I'll honor the user's intent to explore options by guiding them in exploring their own reasons for change and motivation for proving themselves.",
+        "final_response": "It sounds like having a clear plan and a friend by your side could help you feel more confident about explaining your project and less focused on the 'Bookworm' jokes. Would it be helpful to brainstorm some specific things you could say at the booth, or to think about who might be a good friend to have with you for support?"
+      },
+      "trace": {
+        "main_problem": "social_anxiety",
+        "current_problems": [
+          "social_anxiety",
+          "low_self_esteem"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its triggers, but there is no new evidence of progression to the next stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "social interactions trigger anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "past teasing triggers anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "past experiences trigger anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants a clear plan and a friend for support"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "User still does not show signs of acknowledging the problem as something they want to change, despite having a goal to overcome the 'Bookworm' label.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "memories of past teasing trigger feelings"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "past teasing triggers feelings of being watched"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants to prove themselves and overcome the 'Bookworm' label"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "Yeah, brainstorming would help. I could start with a simple greeting and a short description of my project. Also, I think my friend Maya, who likes sci\u2011fi too, could come with me. I just want to feel less judged.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User is considering ways to feel more confident and less judged at the science fair booth.",
+          "supporting_utterance_span": "Yeah, brainstorming would help"
+        },
+        "current_problems": [
+          {
+            "problem_name": "social_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "social_anxiety",
+            "explanation": "fear of talking to people and being judged",
+            "supporting_utterance_span": "I just want to feel less judged"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "wanting to prove themselves and overcome the 'Bookworm' label",
+            "supporting_utterance_span": "I just want to feel less judged"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "social_anxiety",
+          "explanation": "dominant concern in the current message",
+          "supporting_utterance_span": "I just want to feel less judged"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "social_anxiety",
+            "attribute_name": "coping_strategies",
+            "attribute_type": "non_level",
+            "inferred_information": "brainstorming and having a friend for support",
+            "concise_explanation": "user suggests having a plan and a friend",
+            "supporting_utterance_span": "Yeah, brainstorming would help. I could start with a simple greeting and a short description of my project. Also, I think my friend Maya, who likes sci\u2011fi too, could come with me",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "goal",
+            "attribute_type": "non_level",
+            "inferred_information": "overcome the 'Bookworm' label and prove themselves",
+            "concise_explanation": "user wants to feel less judged",
+            "supporting_utterance_span": "I just want to feel less judged",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "social_anxiety",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I just want to feel less judged"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "social_anxiety",
+            "attribute_1": "triggers",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "triggers",
+            "relation_type": "shared_trigger",
+            "connection_explanation": "the 'Bookworm' label and past teasing are triggers for both social anxiety and low self-esteem",
+            "supporting_utterance_span": "I just want to feel less judged",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its triggers, but there is no new evidence of progression to the next stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the situation as highly intimidating"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "past teasing and fear of being remembered as 'Bookworm' trigger anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "past experiences of being teased and labeled are triggers"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants a clear plan and a friend for support"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "brainstorming and having a friend for support"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "User still does not show signs of acknowledging the problem as something they want to change, despite having a clear goal in mind.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "memories of past teasing and perceived weirdness"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "past teasing and whispers trigger feelings of being watched"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants to prove themselves and overcome the 'Bookworm' label"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "overcome the 'Bookworm' label and prove themselves"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "Yeah, brainstorming would help. I could start with a simple greeting and a short description of my project. Also, I think my friend Maya, who likes sci\u2011fi too, could come with me. I just want to feel less judged.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip. I keep thinking everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird. The whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like the thought of talking to people at the science fair booth is really overwhelming for you, and those past experiences of being teased are still feeling very raw. It's like the memories of being called 'Bookworm' and feeling like your interests make you weird are still echoing in your mind. Can you tell me more about what's going through your mind when you think about walking into that situation tomorrow?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching. I don\u2019t know if I can just step up and talk to people tomorrow."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the fear of being remembered as 'Bookworm' and the whispers from the past are still really haunting you, and it's making it hard for you to imagine yourself talking to people tomorrow. You've mentioned wanting to prove yourself, though - what do you think would need to happen for you to feel like you're able to do that, despite those fears?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth. If I can focus on explaining my project instead of the jokes, maybe I\u2019ll feel less judged. I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like having a clear plan and a friend by your side could help you feel more confident about explaining your project and less focused on the 'Bookworm' jokes. Would it be helpful to brainstorm some specific things you could say at the booth, or to think about who might be a good friend to have with you for support?"
+          }
+        ],
+        "last_system_message": "It sounds like having a clear plan and a friend by your side could help you feel more confident about explaining your project and less focused on the 'Bookworm' jokes. Would it be helpful to brainstorm some specific things you could say at the booth, or to think about who might be a good friend to have with you for support?",
+        "main_problem": {
+          "problem_name": "social_anxiety",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            4
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees the situation as highly intimidating",
+                  "concise_explanation": "terror of being remembered",
+                  "supporting_utterance_span": "I\u2019m terrified that everyone will remember me as the 'Bookworm'",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "social interactions, especially those that may involve judgment or reminders of past teasing",
+                  "concise_explanation": "upcoming science fair booth setup",
+                  "supporting_utterance_span": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "past teasing and fear of being remembered as 'Bookworm' trigger anxiety",
+                  "concise_explanation": "replaying jokes in head",
+                  "supporting_utterance_span": "I keep replaying those jokes in my head",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "past experiences of being teased and labeled are triggers",
+                  "concise_explanation": "user mentions past jokes and whispers as triggers",
+                  "supporting_utterance_span": "the whispers in the cafeteria still echo in my head",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user wants a clear plan and a friend for support",
+                  "concise_explanation": "user suggests having a plan and a friend to cope with anxiety",
+                  "supporting_utterance_span": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "brainstorming and having a friend for support",
+                  "concise_explanation": "user suggests having a plan and a friend",
+                  "supporting_utterance_span": "Yeah, brainstorming would help. I could start with a simple greeting and a short description of my project. Also, I think my friend Maya, who likes sci\u2011fi too, could come with me",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "precontemplation",
+            "goal": "overcome the 'Bookworm' label and prove themselves",
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "memories of past teasing and perceived weirdness",
+                    "concise_explanation": "past 'Bookworm' jokes and whispers in the cafeteria",
+                    "supporting_utterance_span": "everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "past teasing and whispers trigger feelings of being watched",
+                    "concise_explanation": "whispers make them feel watched",
+                    "supporting_utterance_span": "the whispers make me feel like everyone\u2019s watching",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "goal": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user wants to prove themselves and overcome the 'Bookworm' label",
+                    "concise_explanation": "user wants to show they are more than the label",
+                    "supporting_utterance_span": "I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "overcome the 'Bookworm' label and prove themselves",
+                    "concise_explanation": "user wants to feel less judged",
+                    "supporting_utterance_span": "I just want to feel less judged",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "past teasing is the shared trigger for both social anxiety and low self-esteem",
+                "supporting_utterance_span": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "goal",
+                "explanation": "the triggers for social anxiety (past teasing) contribute to the goal of overcoming low self-esteem (proving oneself)",
+                "supporting_utterance_span": "the whispers in the cafeteria still echo in my head... I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the 'Bookworm' label and past teasing are triggers for both social anxiety and low self-esteem",
+                "supporting_utterance_span": "I just want to feel less judged",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          }
+        ],
+        "main_problem": "social_anxiety"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be social_anxiety. Their current TTM stage appears to be contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging their problem and is ambivalent about change. It should be applied by reflecting the user's feelings and concerns, using evidence such as their perceived_severity of social_anxiety and their triggers, including past teasing and fear of being remembered as 'Bookworm'. The user also shows high perceived_severity and a desire for a clear plan and a friend for support. Because of this, the response should use T5 Ask Permission to explore options for support. The user intent in this turn is to explore options, and the response should acknowledge this intent by reflecting their desire for brainstorming and support. Relevant connected problems suggest a shared trigger between social_anxiety and low_self_esteem, with past teasing being a common trigger. This evidence should be used by surfacing the user's goal of overcoming the 'Bookworm' label and proving themselves. Overall, the response should try to improve the user's motivation and self-efficacy, while avoiding giving unsolicited advice or pivoting to the secondary problem of low self-esteem.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's desire for brainstorming and support, then use T8 Change Talk to explore their reasons for wanting to feel less judged. I'll name the user's goal of overcoming the 'Bookworm' label once to ground the turn, and avoid pivoting to the secondary problem of low self-esteem. I'll drop the connection to low self-esteem for now, as it may overwhelm the user.",
+        "final_response": "It sounds like having a clear plan and a supportive friend like Maya by your side could help you feel more confident and less judged. What do you think would be the first small step you could take to start feeling more comfortable explaining your project to others?"
+      },
+      "trace": {
+        "main_problem": "social_anxiety",
+        "current_problems": [
+          "social_anxiety",
+          "low_self_esteem"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its triggers, but there is no new evidence of progression to the next stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees the situation as highly intimidating"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "past teasing and fear of being remembered as 'Bookworm' trigger anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "past experiences of being teased and labeled are triggers"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants a clear plan and a friend for support"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "brainstorming and having a friend for support"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "User still does not show signs of acknowledging the problem as something they want to change, despite having a clear goal in mind.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "memories of past teasing and perceived weirdness"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "past teasing and whispers trigger feelings of being watched"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants to prove themselves and overcome the 'Bookworm' label"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "overcome the 'Bookworm' label and prove themselves"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I think I could start by writing a short script for my intro and practicing it in the hallway with Maya. Maybe just a quick 30\u2011second pitch and then we can run through it a couple of times before the fair.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "high",
+          "explanation": "User is considering a specific plan to address their social anxiety and low self-esteem by preparing a script and practicing with a friend.",
+          "supporting_utterance_span": "I think I could start by writing a short script for my intro and practicing it in the hallway with Maya"
+        },
+        "current_problems": [
+          {
+            "problem_name": "social_anxiety",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "social_anxiety",
+            "explanation": "fear of talking to people at the science fair booth",
+            "supporting_utterance_span": "the idea of talking to everyone makes my stomach flip"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "wanting to prove themselves and overcome the 'Bookworm' label",
+            "supporting_utterance_span": "I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "social_anxiety",
+          "explanation": "the user's fear of talking to people at the science fair booth is the primary concern",
+          "supporting_utterance_span": "the idea of talking to everyone makes my stomach flip"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "social_anxiety",
+            "attribute_name": "coping_strategies",
+            "attribute_type": "non_level",
+            "inferred_information": "preparing a script and practicing with a friend to reduce anxiety",
+            "concise_explanation": "writing a short script and practicing with Maya",
+            "supporting_utterance_span": "I think I could start by writing a short script for my intro and practicing it in the hallway with Maya",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "attribute_name": "goal",
+            "attribute_type": "non_level",
+            "inferred_information": "overcome the 'Bookworm' label and prove themselves",
+            "concise_explanation": "user wants to prove they are more than the 'Bookworm' label",
+            "supporting_utterance_span": "I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "social_anxiety",
+            "problem_2": "low_self_esteem",
+            "concise_explanation": "both problems are discussed in the context of the science fair booth",
+            "supporting_utterance_span": "the idea of talking to everyone makes my stomach flip... I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "social_anxiety",
+            "attribute_1": "coping_strategies",
+            "problem_2": "low_self_esteem",
+            "attribute_2": "goal",
+            "relation_type": "reinforcing",
+            "connection_explanation": "preparing a script and practicing with a friend may help the user feel more confident and able to prove themselves, thereby addressing both social anxiety and low self-esteem",
+            "supporting_utterance_span": "I think I could start by writing a short script for my intro and practicing it in the hallway with Maya... I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User is preparing a script and practicing with a friend to reduce anxiety, indicating a move towards taking action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "preparing a script and practicing with a friend to reduce anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "brainstorming and having a friend for support"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants a clear plan and a friend for support"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "User's goal remains the same, and there is no evidence of them acknowledging the problem or considering change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "overcome the 'Bookworm' label and prove themselves"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "overcome the 'Bookworm' label and prove themselves"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants to prove themselves and overcome the 'Bookworm' label"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I think I could start by writing a short script for my intro and practicing it in the hallway with Maya. Maybe just a quick 30\u2011second pitch and then we can run through it a couple of times before the fair.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip. I keep thinking everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird. The whispers in the cafeteria still echo in my head, so I\u2019m not sure I can just walk in and be normal."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like the thought of talking to people at the science fair booth is really overwhelming for you, and those past experiences of being teased are still feeling very raw. It's like the memories of being called 'Bookworm' and feeling like your interests make you weird are still echoing in your mind. Can you tell me more about what's going through your mind when you think about walking into that situation tomorrow?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I keep replaying those jokes in my head, and I\u2019m terrified that everyone will remember me as the 'Bookworm'. Even though I want to prove myself, the whispers make me feel like everyone\u2019s watching. I don\u2019t know if I can just step up and talk to people tomorrow."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the fear of being remembered as 'Bookworm' and the whispers from the past are still really haunting you, and it's making it hard for you to imagine yourself talking to people tomorrow. You've mentioned wanting to prove yourself, though - what do you think would need to happen for you to feel like you're able to do that, despite those fears?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth. If I can focus on explaining my project instead of the jokes, maybe I\u2019ll feel less judged. I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like having a clear plan and a friend by your side could help you feel more confident about explaining your project and less focused on the 'Bookworm' jokes. Would it be helpful to brainstorm some specific things you could say at the booth, or to think about who might be a good friend to have with you for support?"
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "Yeah, brainstorming would help. I could start with a simple greeting and a short description of my project. Also, I think my friend Maya, who likes sci\u2011fi too, could come with me. I just want to feel less judged."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "It sounds like having a clear plan and a supportive friend like Maya by your side could help you feel more confident and less judged. What do you think would be the first small step you could take to start feeling more comfortable explaining your project to others?"
+          }
+        ],
+        "last_system_message": "It sounds like having a clear plan and a supportive friend like Maya by your side could help you feel more confident and less judged. What do you think would be the first small step you could take to start feeling more comfortable explaining your project to others?",
+        "main_problem": {
+          "problem_name": "social_anxiety",
+          "current_ttm_stage": "preparation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees the situation as highly intimidating",
+                  "concise_explanation": "terror of being remembered",
+                  "supporting_utterance_span": "I\u2019m terrified that everyone will remember me as the 'Bookworm'",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "social interactions, especially those that may involve judgment or reminders of past teasing",
+                  "concise_explanation": "upcoming science fair booth setup",
+                  "supporting_utterance_span": "I\u2019m supposed to help set up the science fair booth tomorrow, but the idea of talking to everyone makes my stomach flip",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "past teasing and fear of being remembered as 'Bookworm' trigger anxiety",
+                  "concise_explanation": "replaying jokes in head",
+                  "supporting_utterance_span": "I keep replaying those jokes in my head",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "past experiences of being teased and labeled are triggers",
+                  "concise_explanation": "user mentions past jokes and whispers as triggers",
+                  "supporting_utterance_span": "the whispers in the cafeteria still echo in my head",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "coping_strategies": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user wants a clear plan and a friend for support",
+                  "concise_explanation": "user suggests having a plan and a friend to cope with anxiety",
+                  "supporting_utterance_span": "I think I need a clear plan for what to say and maybe a friend to have with me at the booth",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "brainstorming and having a friend for support",
+                  "concise_explanation": "user suggests having a plan and a friend",
+                  "supporting_utterance_span": "Yeah, brainstorming would help. I could start with a simple greeting and a short description of my project. Also, I think my friend Maya, who likes sci\u2011fi too, could come with me",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "preparing a script and practicing with a friend to reduce anxiety",
+                  "concise_explanation": "writing a short script and practicing with Maya",
+                  "supporting_utterance_span": "I think I could start by writing a short script for my intro and practicing it in the hallway with Maya",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "current_ttm_stage": "precontemplation",
+            "goal": "overcome the 'Bookworm' label and prove themselves",
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "memories of past teasing and perceived weirdness",
+                    "concise_explanation": "past 'Bookworm' jokes and whispers in the cafeteria",
+                    "supporting_utterance_span": "everyone will remember the 'Bookworm' jokes and that my love for sci\u2011fi makes me weird",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "past teasing and whispers trigger feelings of being watched",
+                    "concise_explanation": "whispers make them feel watched",
+                    "supporting_utterance_span": "the whispers make me feel like everyone\u2019s watching",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "goal": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user wants to prove themselves and overcome the 'Bookworm' label",
+                    "concise_explanation": "user wants to show they are more than the label",
+                    "supporting_utterance_span": "I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "overcome the 'Bookworm' label and prove themselves",
+                    "concise_explanation": "user wants to feel less judged",
+                    "supporting_utterance_span": "I just want to feel less judged",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "overcome the 'Bookworm' label and prove themselves",
+                    "concise_explanation": "user wants to prove they are more than the 'Bookworm' label",
+                    "supporting_utterance_span": "I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 5,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "goal",
+                "explanation": "the triggers for social anxiety (past teasing) contribute to the goal of overcoming low self-esteem (proving oneself)",
+                "supporting_utterance_span": "the whispers in the cafeteria still echo in my head... I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "shared_trigger",
+                "attribute_1": "triggers",
+                "attribute_2": "triggers",
+                "explanation": "the 'Bookworm' label and past teasing are triggers for both social anxiety and low self-esteem",
+                "supporting_utterance_span": "I just want to feel less judged",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "coping_strategies",
+                "attribute_2": "goal",
+                "explanation": "preparing a script and practicing with a friend may help the user feel more confident and able to prove themselves, thereby addressing both social anxiety and low self-esteem",
+                "supporting_utterance_span": "I think I could start by writing a short script for my intro and practicing it in the hallway with Maya... I just want to prove that I\u2019m more than the \u2018Bookworm\u2019 label",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "main_problem": "social_anxiety"
+      },
+      "response": {
+        "system_intent": "No safe plan available this turn. Use T1 Reflection to stay present with the user without advancing any new agenda. This reflection is appropriate because any prescriptive step would be unsupported by the current evidence.",
+        "response_reasoning": "Emit a safe reflection only; do not advise or pivot.",
+        "final_response": "I'm here. Take your time.",
+        "_fallback_default": true
+      },
+      "trace": {
+        "main_problem": "social_anxiety",
+        "current_problems": [
+          "social_anxiety",
+          "low_self_esteem"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "social_anxiety",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User is preparing a script and practicing with a friend to reduce anxiety, indicating a move towards taking action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "preparing a script and practicing with a friend to reduce anxiety"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "brainstorming and having a friend for support"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants a clear plan and a friend for support"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "User's goal remains the same, and there is no evidence of them acknowledging the problem or considering change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "overcome the 'Bookworm' label and prove themselves"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "overcome the 'Bookworm' label and prove themselves"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user wants to prove themselves and overcome the 'Bookworm' label"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    }
+  ]
+}

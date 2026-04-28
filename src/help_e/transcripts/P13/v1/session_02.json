@@ -1,0 +1,1853 @@
+{
+  "session_id": 2,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": "sketching, art",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep sketching, but the lines feel flat, like I\u2019m drawing in someone else\u2019s shadow."
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": "emotional, reflective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The highway hum bleeds into my bedroom, and I can\u2019t tell where the city ends and my thoughts begin."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "Loneliness feels like a quiet weight that just sits with the highway noise, and I keep racing to the idea that maybe my body is warning me something I\u2019m ignoring."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": "recent breakup",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I\u2019m not sure if this is just the breakup or something deeper."
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, anxious, indecisive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep sketching, but the lines feel flat, like I\u2019m drawing in someone else\u2019s shadow. Every time I try to close my eyes, my mind keeps racing\u2014what if my body is hiding a warning I\u2019m ignoring?"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "Loneliness feels like a quiet weight that just sits with the highway noise, and I keep racing to the idea that maybe my body is warning me something I\u2019m ignoring."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I keep thinking a routine might be the anchor I need, but the idea of structure feels like another layer of pressure."
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "I\u2019m wondering if staying here is a safety net or just a cage that feeds my loneliness and worries about my health. I\u2019m not sure if staying or moving is the right step."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "The highway hum bleeds into my bedroom, and I can\u2019t tell where the city ends and my thoughts begin. I keep sketching, but the lines feel flat, like I\u2019m drawing in someone else\u2019s shadow. Every time I try to close my eyes, my mind keeps racing\u2014what if my body is hiding a warning I\u2019m ignoring? I\u2019m not sure if this is just the breakup or something deeper.\n"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're feeling really overwhelmed, like the city is bleeding into your personal space and your thoughts are racing. I can sense that the recent breakup is still weighing on you. Would you like to talk about how it's affecting your creativity and anxiety, or is there something else on your mind that you'd like to explore?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I think the highway noise is the biggest thing, but I also feel lonely and my anxiety about my health keeps creeping in. I haven\u2019t been able to focus on my sketches, and I can\u2019t sleep properly at all these nights.\n"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The constant highway noise must be really frustrating, making it hard for you to find some peace in your own space. It sounds like it's not just the noise, but also the loneliness and health anxiety that are keeping you up at night and affecting your focus on sketching. Yeah, it's tough when your mind starts racing and you can't seem to calm down. Have you found any small ways to cope with the noise or your anxiety that have helped, even if it's just for a little while?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I tried a white\u2011noise app and a blanket of headphones, but the highway just keeps seeping in, and I still can't close my eyes. The nights feel endless, and I keep thinking I\u2019m losing my grip on my own space. I\u2019m not sure if I should stay here or move back on my own, but the idea of going back feels like walking into a storm."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You've been trying to find ways to block out the highway noise, like using a white-noise app and headphones, but it's still really tough to escape. It's like the noise is seeping into your sense of safety and control over your own space. I can imagine how endless the nights must feel, and how overwhelming the thought of making big decisions about your living situation is right now. It takes a lot of courage to consider making a change, especially when it feels like walking into a storm."
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I keep hearing that noise and it feels like a constant reminder that I can\u2019t escape. Staying here feels safer, but the loneliness just keeps growing, and I can\u2019t sleep at all. I wonder if moving would just make the anxiety worse."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The highway noise just won't quit, and it's like it's echoing all your deepest fears and anxieties. It's no wonder you're feeling trapped and unsure about what to do next. Staying here feels safer, but the loneliness is growing, and moving feels like a leap into the unknown. Yeah, it's a really tough spot to be in. What's been the most overwhelming part of this experience for you - is it the noise itself, the loneliness, or the fear of making a change?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "Loneliness feels like a quiet weight that just sits with the highway noise, and I keep racing to the idea that maybe my body is warning me something I\u2019m ignoring. The noise keeps me from sleeping, and I\u2019m terrified that moving will just magnify the anxiety. I\u2019m stuck between staying safe and feeling suffocated. The whole thing feels like a storm I\u2019m not ready to face."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "The feeling of being stuck between staying safe and feeling suffocated is really overwhelming, and it's like the highway noise and loneliness are just making it harder for you to catch your breath. It's understandable that you're scared of making a change and potentially magnifying your anxiety. Yeah, it's a lot to navigate, especially when you're already feeling the weight of loneliness. It might be helpful to explore what small things could help you feel more grounded and in control, even if it's just for a little while."
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I\u2019ve tried a few things\u2014dimming lights, breathing exercises, even a blanket of headphones\u2014but nothing seems to quiet the highway or my thoughts. Maybe a routine would help, but I\u2019m not sure what that would look like right now."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The highway noise and your thoughts feel like they're constantly battling for your attention, leaving you feeling overwhelmed. I can see that you've been trying different things to quiet them, like dimming lights and breathing exercises, but it's tough when nothing seems to work. Considering a routine might help you feel more grounded, even if it's just a small sense of control in your daily life. What does a routine mean to you right now, and how might it help you cope with the noise and your thoughts?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I keep thinking a routine might be the anchor I need, but the idea of structure feels like another layer of pressure. The highway noise makes it hard to even settle into a pattern, and my mind keeps jumping to health worries. I\u2019m not sure if sticking to a schedule will help or just add to the anxiety. Maybe I need a routine that\u2019s flexible enough to accommodate the noise without feeling like a chore."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "Whatever you want to say next, I'm listening."
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "The highway is a drumbeat that keeps my mind from settling, and even the quiet moments feel like a held breath. I keep hoping a flexible routine could anchor me, but the noise still keeps me up and the idea of adding structure feels like another layer of pressure. I\u2019m wondering if staying here is a safety net or just a cage that feeds my loneliness and worries about my health. I\u2019m not sure if staying or moving is the right step."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The highway noise is like a constant drumbeat that's making it hard for you to settle into any sense of calm, and even the quiet moments feel like you're holding your breath, waiting for the other shoe to drop. It's like you're caught between the uncertainty of staying and the uncertainty of moving, and both options feel overwhelming. Yeah, it's a really tough spot to be in, and it's understandable that you're questioning whether staying here is a safety net or just a cage that's feeding your loneliness and worries about your health. What's the smallest thing that you think might help you feel more grounded and in control right now?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I think the smallest thing might be putting a small plant on my windowsill, just a touch of green, to remind me there's life outside the highway. But even that feels like a chore sometimes, and I'm still terrified that any routine will just make me feel more trapped. I keep wondering if the plant could be a quiet anchor or if it's just another thing to keep track of, adding to my health anxiety."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "Starting small can be really powerful, and I love the idea of putting a plant on your windowsill - it's a tiny touch of green that can remind you there's life outside the highway noise. Why not try just getting the plant today, and see how it feels to have that small bit of nature in your space? You don't have to commit to a whole routine or anything, just take it one tiny step at a time."
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I could get a plant, but the idea of adding another thing to manage feels like another pressure. The highway noise still keeps me up, and I keep worrying that my body is warning me about something I\u2019m ignoring."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "I can see that the idea of getting a plant, even though it's a small thing, feels like another pressure for you right now. It's understandable that you're worried about adding to your responsibilities, especially when the highway noise is already keeping you up at night. Why not try just taking a few minutes today to sit by a window or outside, and see if being in nature, even just for a brief moment, helps you feel a bit more grounded? You don't have to commit to anything, just take it one tiny step at a time."
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 2,
+      "turn_id": 1,
+      "user_message": "The highway hum bleeds into my bedroom, and I can\u2019t tell where the city ends and my thoughts begin. I keep sketching, but the lines feel flat, like I\u2019m drawing in someone else\u2019s shadow. Every time I try to close my eyes, my mind keeps racing\u2014what if my body is hiding a warning I\u2019m ignoring? I\u2019m not sure if this is just the breakup or something deeper.\n",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_information",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "seek_information",
+        "intent_entry_style": "Elicit what they know \u2192 provide one piece \u2192 elicit reaction.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person, and they're seeking information, so I'll start by acknowledging their current emotional state. Given their intent, I'll use the 'inform_with_permission' strategy to provide a piece of information and elicit their reaction. The evidence I'll use is their mention of the recent breakup and their anxious personality traits. My entry point will be to acknowledge the overwhelming feelings they're experiencing and ask if they'd like to explore how their breakup might be affecting their creativity and anxiety.",
+        "evidence_used": [
+          {
+            "source": "persona.relevant_history",
+            "content": "recent breakup"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious"
+          }
+        ],
+        "final_response": "You're feeling really overwhelmed, like the city is bleeding into your personal space and your thoughts are racing. I can sense that the recent breakup is still weighing on you. Would you like to talk about how it's affecting your creativity and anxiety, or is there something else on your mind that you'd like to explore?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "seek_information",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "inform_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 2,
+      "user_message": "I think the highway noise is the biggest thing, but I also feel lonely and my anxiety about my health keeps creeping in. I haven\u2019t been able to focus on my sketches, and I can\u2019t sleep properly at all these nights.\n",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "inform_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and this person needs me to acknowledge their emotional pain right now, given their intent to express emotion. The strategies that fit this moment are support and complex_reflection, as they're struggling to cope with multiple stressors. Evidence shows they're overwhelmed by the highway noise, feeling lonely, and anxious about their health, which is affecting their creativity and sleep. My entry will be to reflect their struggles with the highway noise and its impact on their daily life, showing I understand how it's contributing to their feelings of overwhelm.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "highway hum bleeds into my bedroom"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "anxiety about my health keeps creeping in"
+          },
+          {
+            "source": "persona.relevant_history",
+            "content": "recent breakup"
+          }
+        ],
+        "final_response": "The constant highway noise must be really frustrating, making it hard for you to find some peace in your own space. It sounds like it's not just the noise, but also the loneliness and health anxiety that are keeping you up at night and affecting your focus on sketching. Yeah, it's tough when your mind starts racing and you can't seem to calm down. Have you found any small ways to cope with the noise or your anxiety that have helped, even if it's just for a little while?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 3,
+      "user_message": "I tried a white\u2011noise app and a blanket of headphones, but the highway just keeps seeping in, and I still can't close my eyes. The nights feel endless, and I keep thinking I\u2019m losing my grip on my own space. I\u2019m not sure if I should stay here or move back on my own, but the idea of going back feels like walking into a storm.",
+      "inference": {
+        "user_intent": {
+          "intent": "report_action",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "report_action",
+        "intent_entry_style": "Affirm the specific effort; respond to the content of the report.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "inform_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs acknowledgment of their efforts to cope with the noise and their anxiety. The strategies I'll use are support and complex reflection, given the user's report of trying to manage their environment. The evidence I'm using is their attempt to use a white-noise app and headphones, which shows they're actively trying to find solutions. My entry will acknowledge the difficulty of their situation and the sense of losing control over their space.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "tried a white\u2011noise app and a blanket of headphones"
+          },
+          {
+            "source": "persona.relevant_history",
+            "content": "recent breakup"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "highway hum bleeds into my bedroom"
+          }
+        ],
+        "final_response": "You've been trying to find ways to block out the highway noise, like using a white-noise app and headphones, but it's still really tough to escape. It's like the noise is seeping into your sense of safety and control over your own space. I can imagine how endless the nights must feel, and how overwhelming the thought of making big decisions about your living situation is right now. It takes a lot of courage to consider making a change, especially when it feels like walking into a storm."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "report_action",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 4,
+      "user_message": "I keep hearing that noise and it feels like a constant reminder that I can\u2019t escape. Staying here feels safer, but the loneliness just keeps growing, and I can\u2019t sleep at all. I wonder if moving would just make the anxiety worse.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs someone to acknowledge their emotional pain right now. Given their express_emotion intent, I'll use the support strategy to create a safe space for them to explore their feelings. The evidence shows that the highway noise is a significant trigger for their anxiety and loneliness, and they're struggling to find ways to cope. My entry will be to acknowledge the overwhelming feeling of being trapped by the noise and the fear of making a change that might worsen their anxiety. I'll use the persona's creative and reflective traits to help them find a way to express their emotions and gain some control over their situation.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "I keep hearing that noise and it feels like a constant reminder that I can\u2019t escape"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "reflective, anxious, creative"
+          }
+        ],
+        "final_response": "The highway noise just won't quit, and it's like it's echoing all your deepest fears and anxieties. It's no wonder you're feeling trapped and unsure about what to do next. Staying here feels safer, but the loneliness is growing, and moving feels like a leap into the unknown. Yeah, it's a really tough spot to be in. What's been the most overwhelming part of this experience for you - is it the noise itself, the loneliness, or the fear of making a change?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 5,
+      "user_message": "Loneliness feels like a quiet weight that just sits with the highway noise, and I keep racing to the idea that maybe my body is warning me something I\u2019m ignoring. The noise keeps me from sleeping, and I\u2019m terrified that moving will just magnify the anxiety. I\u2019m stuck between staying safe and feeling suffocated. The whole thing feels like a storm I\u2019m not ready to face.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now. The strategies that fit this moment are support and complex_reflection, given the user's intent to express emotion and the absence of a clear main problem. The evidence that stands out is the user's description of loneliness as a 'quiet weight' and their fear that moving will magnify their anxiety, which suggests a deep-seated struggle with feeling safe and in control. My entry will be to acknowledge the overwhelming feeling of being stuck between staying safe and feeling suffocated, and how the highway noise and loneliness are compounding their anxiety.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "Loneliness feels like a quiet weight that just sits with the highway noise"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "I'm terrified that moving will just magnify the anxiety"
+          },
+          {
+            "source": "persona.relevant_history",
+            "content": "recent breakup"
+          }
+        ],
+        "final_response": "The feeling of being stuck between staying safe and feeling suffocated is really overwhelming, and it's like the highway noise and loneliness are just making it harder for you to catch your breath. It's understandable that you're scared of making a change and potentially magnifying your anxiety. Yeah, it's a lot to navigate, especially when you're already feeling the weight of loneliness. It might be helpful to explore what small things could help you feel more grounded and in control, even if it's just for a little while."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 6,
+      "user_message": "I\u2019ve tried a few things\u2014dimming lights, breathing exercises, even a blanket of headphones\u2014but nothing seems to quiet the highway or my thoughts. Maybe a routine would help, but I\u2019m not sure what that would look like right now.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to reflect your emotions right now. Given your express_emotion intent, I'll use support and complex_reflection strategies to acknowledge your feelings. Your recent attempts to quiet the highway noise and your thoughts, like dimming lights and breathing exercises, show you're trying to find ways to cope. The fact that you're considering a routine suggests you're looking for a sense of control and structure in your life. My response will start by acknowledging the overwhelm you're feeling from the constant highway noise and your racing thoughts.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "Loneliness feels like a quiet weight that just sits with the highway noise"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "highway noise and racing thoughts"
+          },
+          {
+            "source": "persona.hobbies_interests",
+            "content": "sketching, art"
+          }
+        ],
+        "final_response": "The highway noise and your thoughts feel like they're constantly battling for your attention, leaving you feeling overwhelmed. I can see that you've been trying different things to quiet them, like dimming lights and breathing exercises, but it's tough when nothing seems to work. Considering a routine might help you feel more grounded, even if it's just a small sense of control in your daily life. What does a routine mean to you right now, and how might it help you cope with the noise and your thoughts?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection",
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 7,
+      "user_message": "I keep thinking a routine might be the anchor I need, but the idea of structure feels like another layer of pressure. The highway noise makes it hard to even settle into a pattern, and my mind keeps jumping to health worries. I\u2019m not sure if sticking to a schedule will help or just add to the anxiety. Maybe I need a routine that\u2019s flexible enough to accommodate the noise without feeling like a chore.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection",
+            "structure"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: user state unclear. Which: T1-equivalent reflection only. Evidence: none surfaced this turn. Entry: stay present without advancing any agenda.",
+        "evidence_used": [],
+        "final_response": "Whatever you want to say next, I'm listening.",
+        "_fallback_default": true
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 8,
+      "user_message": "The highway is a drumbeat that keeps my mind from settling, and even the quiet moments feel like a held breath. I keep hoping a flexible routine could anchor me, but the noise still keeps me up and the idea of adding structure feels like another layer of pressure. I\u2019m wondering if staying here is a safety net or just a cage that feeds my loneliness and worries about my health. I\u2019m not sure if staying or moving is the right step.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection",
+            "structure"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": []
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to reflect your emotions right now, so I'll prioritize empathy and understanding. Given your current emotional state and the absence of a clear main problem, I'll use strategies like support and complex reflection to help you process your feelings. The evidence shows that you're struggling with the highway noise, loneliness, and anxiety about your living situation, and you're unsure if staying or moving is the right step. You've mentioned that a flexible routine might help, but the idea of adding structure feels like another layer of pressure. My entry point will be to acknowledge the overwhelming feelings you're experiencing and the sense of uncertainty you're facing.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "highway noise and mind settling"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "loneliness and health worries"
+          },
+          {
+            "source": "persona.communication_style",
+            "content": "emotional and reflective"
+          }
+        ],
+        "final_response": "The highway noise is like a constant drumbeat that's making it hard for you to settle into any sense of calm, and even the quiet moments feel like you're holding your breath, waiting for the other shoe to drop. It's like you're caught between the uncertainty of staying and the uncertainty of moving, and both options feel overwhelming. Yeah, it's a really tough spot to be in, and it's understandable that you're questioning whether staying here is a safety net or just a cage that's feeding your loneliness and worries about your health. What's the smallest thing that you think might help you feel more grounded and in control right now?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 9,
+      "user_message": "I think the smallest thing might be putting a small plant on my windowsill, just a touch of green, to remind me there's life outside the highway. But even that feels like a chore sometimes, and I'm still terrified that any routine will just make me feel more trapped. I keep wondering if the plant could be a quiet anchor or if it's just another thing to keep track of, adding to my health anxiety.",
+      "inference": {
+        "user_intent": {
+          "intent": "request_plan",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "request_plan",
+        "intent_entry_style": "Propose ONE small step matched to TTM stage. Don't deflect with a question.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": []
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "structure"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their anxiety and feelings of being trapped, and they've expressed a desire for a small step towards feeling more grounded. Given their intent to request a plan, I'll propose a small, achievable action that acknowledges their concerns. The candidate strategies of support, facilitate, and structure seem most relevant, as they allow me to offer a gentle, non-intrusive suggestion. I've taken into account their recent turns, where they've mentioned the highway noise, loneliness, and health worries, and I've noticed their interest in a flexible routine and the idea of a small plant as a potential anchor. My entry point will be to acknowledge their desire for a small, manageable step and offer a specific, achievable suggestion that builds on their idea of the plant.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "small plant on my windowsill"
+          },
+          {
+            "source": "persona.hobbies_interests",
+            "content": "sketching, art"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "highway noise, loneliness, health worries"
+          }
+        ],
+        "final_response": "Starting small can be really powerful, and I love the idea of putting a plant on your windowsill - it's a tiny touch of green that can remind you there's life outside the highway noise. Why not try just getting the plant today, and see how it feels to have that small bit of nature in your space? You don't have to commit to a whole routine or anything, just take it one tiny step at a time."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "request_plan",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate",
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 10,
+      "user_message": "I could get a plant, but the idea of adding another thing to manage feels like another pressure. The highway noise still keeps me up, and I keep worrying that my body is warning me about something I\u2019m ignoring.",
+      "inference": {
+        "user_intent": {
+          "intent": "request_plan",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "request_plan",
+        "intent_entry_style": "Propose ONE small step matched to TTM stage. Don't deflect with a question.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "structure"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "structure"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this overwhelming feeling of being stuck between staying safe and feeling suffocated. Given your reflective and anxious personality, I think a gentle approach is best, so I'll use the support strategy to acknowledge your concerns. The evidence shows that you've been struggling with the highway noise and loneliness, and even small steps like getting a plant feel like a chore, so I'll focus on acknowledging that feeling. My entry point will be to acknowledge the pressure you're feeling and the worry that's keeping you up at night. I'll use the advise_with_permission strategy to propose a small, manageable step that might help you feel more grounded.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "the idea of adding another thing to manage feels like another pressure"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "reflective, anxious"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "highway noise and loneliness"
+          }
+        ],
+        "final_response": "I can see that the idea of getting a plant, even though it's a small thing, feels like another pressure for you right now. It's understandable that you're worried about adding to your responsibilities, especially when the highway noise is already keeping you up at night. Why not try just taking a few minutes today to sit by a window or outside, and see if being in nature, even just for a brief moment, helps you feel a bit more grounded? You don't have to commit to anything, just take it one tiny step at a time."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "request_plan",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

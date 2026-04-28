@@ -1,0 +1,1869 @@
+{
+  "session_id": 3,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "creative, anxious, introverted, emotionally reactive, self-doubting",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The house sale feels like a tide pulling me under, and I keep wondering if I\u2019m drowning before I even get my feet wet."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "If I could finally write that paragraph, it might feel like a brief sunrise after a long night, but I'm still haunted by the thought that the next line could collapse the whole house."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I keep feeling like the cliff is too steep, even if I put a foot down."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I am not enough, one mistake can lead to disaster",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I think the paperwork feels like a mountain that keeps shifting under my feet, and the fear that each line could tilt the whole house sale into ruin makes me hesitate."
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "Even if I start, I feel like I'm just postponing the bigger thing and I'm not enough to keep it together."
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I keep thinking I'm not enough and that any mistake will just add to the financial strain."
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": "has a mom who needs care, possibly isolated",
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": "writing",
+      "evidence_citations": [
+        {
+          "turn_id": 10,
+          "excerpt": "I wonder if I'm just another story that never finds its closing line."
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": "emotional, poetic",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The house sale feels like a tide pulling me under, and I keep wondering if I\u2019m drowning before I even get my feet wet."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "If I could finally write that paragraph, it might feel like a brief sunrise after a long night, but I'm still haunted by the thought that the next line could collapse the whole house."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "procrastinator, emotionally reactive, self-critical, exhausted, perfectionistic",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep postponing the paperwork, hoping it will resolve itself, and that hope feels like a fragile thread I\u2019m afraid to let go."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I can try to tackle a single paragraph of the paperwork, but the sheer weight of the form feels like a cliff I\u2019m afraid to climb."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "The weight of the paperwork still feels heavier than the bills on my desk, and I keep wondering if I'm just delaying the inevitable loss of control."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "The house sale feels like a tide pulling me under, and I keep wondering if I\u2019m drowning before I even get my feet wet. Money is tight, and the weight of deadlines and care has turned my days into a series of small, unfinished chapters. I keep postponing the paperwork, hoping it will resolve itself, and that hope feels like a fragile thread I\u2019m afraid to let go."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The weight of the house sale and caregiving deadlines is crushing, and it's like you're trying to stay afloat with this fragile thread of hope that things will resolve themselves. It's understandable that you're postponing the paperwork, given how overwhelming it all feels. Can you tell me more about what's holding you back from tackling the paperwork, is it the fear of making a mistake or something else?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I think the paperwork feels like a mountain that keeps shifting under my feet, and the fear that each line could tilt the whole house sale into ruin makes me hesitate. The deadlines loom like a storm I can't outrun, and my body is still in a chronic flare, so I keep postponing it, hoping the paperwork will simply fade away. I keep doubting my own strength to navigate all this, which only deepens the weight I carry."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The paperwork does feel like a mountain, doesn't it, with every line and deadline looming over you like a threat. It's no wonder you're hesitant, given the fear that one wrong move could ruin the whole house sale. And on top of that, your body is still dealing with a chronic flare, which can't be easy. It sounds like you're carrying a heavy weight, and it's understandable that you're doubting your strength to navigate all this. Can you tell me more about what you think would happen if you did make a mistake with the paperwork?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "If I slip, the house could slip away, and I'd be staring at a sudden void where the rent and my savings used to sit. I keep putting it off, like a draft of a chapter I can't finish, because the thought of a mistake feels like a storm that could swallow the whole story."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The thought of a mistake feeling like a storm that could swallow the whole story is really powerful, and it's clear that the fear of slipping up is holding you back from tackling the paperwork. It's like you're standing at the edge of a void, staring into the unknown, and that's a terrifying place to be. Your days already feel like a series of small, unfinished chapters, and the pressure to get everything just right is immense. Can you think of any small, manageable step you could take with the paperwork that might help you feel more grounded?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I can try to tackle a single paragraph of the paperwork, but the sheer weight of the form feels like a cliff I\u2019m afraid to climb. I keep postponing because the fear of a mistake makes me feel like I\u2019m not enough, and the financial strain only adds to the sense that I\u2019m drowning in this transition. Maybe I could set a timer for just ten minutes and see if that helps me breathe."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The paperwork does feel like a cliff, doesn't it, with the fear of a mistake looming over you like a constant threat. It's understandable that you're hesitant, given the weight of the house sale and the financial strain that's already making you feel like you're drowning. I love that you're considering setting a timer for just ten minutes to tackle a small part of it - that's a great way to make it feel less overwhelming. What do you think might happen if you do manage to complete that one paragraph, even if it's just for those ten minutes?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "If I could finally write that paragraph, it might feel like a brief sunrise after a long night, but I'm still haunted by the thought that the next line could collapse the whole house. Completing it could give me a small sense of control, yet the weight of the sale and my mother\u2019s care still feels like a tide pulling me under. Even if I manage the task, I worry it won\u2019t erase the doubt that I'm not enough."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "Completing that paragraph might indeed feel like a brief sunrise, a small but significant victory in the midst of all this. It's understandable that even that sense of control feels fragile, overshadowed by the fear that the next step could lead to collapse. The weight of the house sale and your mother's care is a heavy burden, and it's no wonder you're doubting your ability to navigate it all. Can you think of what it would mean to you to hold onto that sense of control, even if it's just for a moment, and how that might help you face the next part of this journey?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "That fleeting sunrise feels like a small anchor, but the next line still looks like a cliff I can't climb. I keep doubting that a brief win will lift the weight of the house sale and my mother's care, and I'm scared a mistake will wipe out my savings. The fear that I'm not enough keeps me postponing, even when a timer might help."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The fear that the next line could collapse the whole house is a powerful one, and it's no wonder you're hesitant to take the next step. It's like you're standing at the edge of a cliff, and the thought of making a mistake is terrifying. I love that you're considering using a timer to make the task less overwhelming - that's a great way to take a small step forward. What if you were to take that small step, and then pause to acknowledge the fear that's holding you back, rather than letting it dictate your next move?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I can set a timer, but when I look at the clock I feel the seconds draining like a leaky tap in a storm. The weight of the paperwork still feels heavier than the bills on my desk, and I keep wondering if I'm just delaying the inevitable loss of control. Maybe I\u2019ll try it, but the thought that a single mistake could wipe out my savings keeps me on the edge of the cliff."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The seconds ticking away on the clock can feel like a countdown to disaster, can't they, especially when the weight of the paperwork already feels crushing. It's like you're standing on the edge of a cliff, and the thought of making a mistake is terrifying. I can see why you'd wonder if you're just delaying the inevitable loss of control. Using a timer might help you take a small step forward, even if it's just for a few minutes. What do you think is the smallest, most manageable part of the paperwork you could tackle in that time?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I could try just signing the first page, but the thought that one slip will collapse everything still makes me freeze. Even if I start, I feel like I'm just postponing the bigger thing and I'm not enough to keep it together."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The thought of one slip collapsing everything is a really daunting one, and it's no wonder you're freezing up. It sounds like the fear of not being enough is really getting to you, and that's a heavy burden to carry. Just signing the first page might feel like a tiny step, but it's a start, and sometimes getting started is the hardest part. What do you think would happen if you did take that tiny step, and how might it affect your sense of control over the situation?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "Maybe I could sign the first page, but the idea that a single slip could wipe out my savings still keeps me paralyzed. I keep thinking I'm not enough and that any mistake will just add to the financial strain. Even if I do it, the weight of the house sale and my mom\u2019s care feels like a tide I can't escape."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The weight of the paperwork and the fear of a single slip causing everything to collapse is really holding you back, isn't it? It's like the fear of not being enough and the fear of making a mistake are two huge waves crashing over you, making it hard to take even the smallest step. Just signing the first page feels like a monumental task when you're worried that any mistake could add to the financial strain and the weight of your mom's care. It takes a lot of courage to even consider taking that first step, and I want to acknowledge that."
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I keep feeling like the cliff is too steep, even if I put a foot down. The weight of money worries drags me back into the same loop of putting things off. I wonder if I'm just another story that never finds its closing line."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The weight of money worries and the fear of not being enough can feel like a tide that's pulling you under, making it hard to take even the smallest step forward. It's like you're standing at the edge of a cliff, and the thought of making a mistake is terrifying. I want to acknowledge the courage it takes to even consider taking that first step, and the creativity it takes to find ways to cope with these feelings, like writing. Your words paint a vivid picture of the emotional struggle you're facing, and I'm here to support you in finding a way to move forward, even if it's just a small step at a time."
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 3,
+      "turn_id": 1,
+      "user_message": "The house sale feels like a tide pulling me under, and I keep wondering if I\u2019m drowning before I even get my feet wet. Money is tight, and the weight of deadlines and care has turned my days into a series of small, unfinished chapters. I keep postponing the paperwork, hoping it will resolve itself, and that hope feels like a fragile thread I\u2019m afraid to let go.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelm you're feeling with the house sale and caregiving responsibilities. The strategies that seem most fitting are support and complex_reflection, given your emotional and poetic communication style. The evidence that stands out is your feeling of being pulled under by the house sale and the weight of deadlines, which suggests a sense of being overwhelmed and uncertain about how to proceed. My entry point will be to reflect on the sense of overwhelm and the fear of not being able to manage the responsibilities, acknowledging the fragile thread of hope you're holding onto.",
+        "evidence_used": [
+          {
+            "source": "persona.communication_style",
+            "content": "emotional, poetic"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "feeling of being pulled under by the house sale and the weight of deadlines"
+          }
+        ],
+        "final_response": "The weight of the house sale and caregiving deadlines is crushing, and it's like you're trying to stay afloat with this fragile thread of hope that things will resolve themselves. It's understandable that you're postponing the paperwork, given how overwhelming it all feels. Can you tell me more about what's holding you back from tackling the paperwork, is it the fear of making a mistake or something else?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 2,
+      "user_message": "I think the paperwork feels like a mountain that keeps shifting under my feet, and the fear that each line could tilt the whole house sale into ruin makes me hesitate. The deadlines loom like a storm I can't outrun, and my body is still in a chronic flare, so I keep postponing it, hoping the paperwork will simply fade away. I keep doubting my own strength to navigate all this, which only deepens the weight I carry.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelming emotions you're experiencing. Given your express_emotion intent, I'll use complex_reflection and support strategies to help you feel understood. The evidence shows that the paperwork and deadlines are causing you significant distress, and your chronic flare is exacerbating the situation. My entry point will be to acknowledge the fear and self-doubt that's holding you back from tackling the paperwork.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "paperwork feels like a mountain that keeps shifting under my feet"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "emotionally reactive, self-critical"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "fear that each line could tilt the whole house sale into ruin"
+          }
+        ],
+        "final_response": "The paperwork does feel like a mountain, doesn't it, with every line and deadline looming over you like a threat. It's no wonder you're hesitant, given the fear that one wrong move could ruin the whole house sale. And on top of that, your body is still dealing with a chronic flare, which can't be easy. It sounds like you're carrying a heavy weight, and it's understandable that you're doubting your strength to navigate all this. Can you tell me more about what you think would happen if you did make a mistake with the paperwork?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 3,
+      "user_message": "If I slip, the house could slip away, and I'd be staring at a sudden void where the rent and my savings used to sit. I keep putting it off, like a draft of a chapter I can't finish, because the thought of a mistake feels like a storm that could swallow the whole story.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now, given their intent to express emotion. The strategies that fit this moment are support and complex_reflection, as they allow me to empathize without pushing for solutions. The evidence that stands out is the user's fear of making a mistake with the paperwork and the overwhelming feeling of the house sale and caregiving deadlines. My entry point will be to reflect this fear and the weight of their responsibilities, showing that I see the depth of their concerns. ",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "fear of making a mistake with the paperwork"
+          },
+          {
+            "source": "persona.general_behavioral_traits",
+            "content": "emotionally reactive, self-critical"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "weight of deadlines and care"
+          }
+        ],
+        "final_response": "The thought of a mistake feeling like a storm that could swallow the whole story is really powerful, and it's clear that the fear of slipping up is holding you back from tackling the paperwork. It's like you're standing at the edge of a void, staring into the unknown, and that's a terrifying place to be. Your days already feel like a series of small, unfinished chapters, and the pressure to get everything just right is immense. Can you think of any small, manageable step you could take with the paperwork that might help you feel more grounded?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 4,
+      "user_message": "I can try to tackle a single paragraph of the paperwork, but the sheer weight of the form feels like a cliff I\u2019m afraid to climb. I keep postponing because the fear of a mistake makes me feel like I\u2019m not enough, and the financial strain only adds to the sense that I\u2019m drowning in this transition. Maybe I could set a timer for just ten minutes and see if that helps me breathe.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelming weight of the house sale and caregiving deadlines. The strategies that seem most fitting are support and complex reflection, given your emotional and poetic communication style. The evidence that stands out is your fear of making a mistake with the paperwork and the financial strain that's exacerbating your feelings of drowning in this transition. My entry point will be to acknowledge the cliff that the paperwork feels like and the fear that's holding you back, while also recognizing the small step you're considering taking by setting a timer for ten minutes.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "fear of a mistake feels like a storm that could swallow the whole story"
+          },
+          {
+            "source": "persona.hobbies_interests",
+            "content": "writing"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "hope feels like a fragile thread I\u2019m afraid to let go"
+          }
+        ],
+        "final_response": "The paperwork does feel like a cliff, doesn't it, with the fear of a mistake looming over you like a constant threat. It's understandable that you're hesitant, given the weight of the house sale and the financial strain that's already making you feel like you're drowning. I love that you're considering setting a timer for just ten minutes to tackle a small part of it - that's a great way to make it feel less overwhelming. What do you think might happen if you do manage to complete that one paragraph, even if it's just for those ten minutes?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 5,
+      "user_message": "If I could finally write that paragraph, it might feel like a brief sunrise after a long night, but I'm still haunted by the thought that the next line could collapse the whole house. Completing it could give me a small sense of control, yet the weight of the sale and my mother\u2019s care still feels like a tide pulling me under. Even if I manage the task, I worry it won\u2019t erase the doubt that I'm not enough.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, this person needs someone to acknowledge the weight of their emotions, given their intent to express emotion. The strategies that seem most fitting are support and complex reflection, as they've been expressing a deep sense of overwhelm and self-doubt. Evidence from their recent messages shows they're struggling with the fear of not being enough and the pressure of the house sale and caregiving responsibilities. A good entry point could be acknowledging the brief sense of control they might feel if they complete the paragraph, while also recognizing the ongoing fear and self-doubt they're experiencing.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "brief sunrise after a long night"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "weight of the sale and my mother\u2019s care still feels like a tide pulling me under"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "emotionally reactive, self-critical"
+          }
+        ],
+        "final_response": "Completing that paragraph might indeed feel like a brief sunrise, a small but significant victory in the midst of all this. It's understandable that even that sense of control feels fragile, overshadowed by the fear that the next step could lead to collapse. The weight of the house sale and your mother's care is a heavy burden, and it's no wonder you're doubting your ability to navigate it all. Can you think of what it would mean to you to hold onto that sense of control, even if it's just for a moment, and how that might help you face the next part of this journey?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 6,
+      "user_message": "That fleeting sunrise feels like a small anchor, but the next line still looks like a cliff I can't climb. I keep doubting that a brief win will lift the weight of the house sale and my mother's care, and I'm scared a mistake will wipe out my savings. The fear that I'm not enough keeps me postponing, even when a timer might help.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their fear and doubt right now. Given their emotional and poetic communication style, I'll use a complex reflection strategy to help them feel understood. The evidence shows that the user is overwhelmed by the weight of the house sale and their mother's care, and they're doubting their ability to navigate it all. The fact that they mentioned a timer might help suggests they're open to finding ways to make the task less overwhelming. My entry will be to acknowledge the fear that the next line could collapse the whole house, and how that fear is holding them back.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "the next line still looks like a cliff I can't climb"
+          },
+          {
+            "source": "persona.hobbies_interests",
+            "content": "writing"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "Maybe I could set a timer for just ten minutes and see if that helps me breathe"
+          }
+        ],
+        "final_response": "The fear that the next line could collapse the whole house is a powerful one, and it's no wonder you're hesitant to take the next step. It's like you're standing at the edge of a cliff, and the thought of making a mistake is terrifying. I love that you're considering using a timer to make the task less overwhelming - that's a great way to take a small step forward. What if you were to take that small step, and then pause to acknowledge the fear that's holding you back, rather than letting it dictate your next move?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 7,
+      "user_message": "I can set a timer, but when I look at the clock I feel the seconds draining like a leaky tap in a storm. The weight of the paperwork still feels heavier than the bills on my desk, and I keep wondering if I'm just delaying the inevitable loss of control. Maybe I\u2019ll try it, but the thought that a single mistake could wipe out my savings keeps me on the edge of the cliff.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": []
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now, so I'll reflect their feelings first. Given their express_emotion intent, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is overwhelmed by the paperwork and fears making a mistake, which is causing them significant distress. I'll use this insight to acknowledge their emotions and help them feel understood. My entry point will be to reflect their feelings about the paperwork and the fear of losing control, showing that I see the weight they're carrying.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "fear that a single mistake could wipe out my savings"
+          },
+          {
+            "source": "persona.hobbies_interests",
+            "content": "writing"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "weight of the paperwork"
+          }
+        ],
+        "final_response": "The seconds ticking away on the clock can feel like a countdown to disaster, can't they, especially when the weight of the paperwork already feels crushing. It's like you're standing on the edge of a cliff, and the thought of making a mistake is terrifying. I can see why you'd wonder if you're just delaying the inevitable loss of control. Using a timer might help you take a small step forward, even if it's just for a few minutes. What do you think is the smallest, most manageable part of the paperwork you could tackle in that time?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 8,
+      "user_message": "I could try just signing the first page, but the thought that one slip will collapse everything still makes me freeze. Even if I start, I feel like I'm just postponing the bigger thing and I'm not enough to keep it together.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": []
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion about the paperwork and the fear of making a mistake. Given your intent to express emotion, I'll use the support strategy to acknowledge your feelings. The evidence shows that you're feeling overwhelmed by the weight of the paperwork and the potential consequences of a mistake, which is making you doubt your ability to cope. My entry point will be to acknowledge the fear that's holding you back and the sense of not being enough that's underlying your hesitation.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "the thought that one slip will collapse everything still makes me freeze"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious, emotionally reactive"
+          }
+        ],
+        "final_response": "The thought of one slip collapsing everything is a really daunting one, and it's no wonder you're freezing up. It sounds like the fear of not being enough is really getting to you, and that's a heavy burden to carry. Just signing the first page might feel like a tiny step, but it's a start, and sometimes getting started is the hardest part. What do you think would happen if you did take that tiny step, and how might it affect your sense of control over the situation?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 9,
+      "user_message": "Maybe I could sign the first page, but the idea that a single slip could wipe out my savings still keeps me paralyzed. I keep thinking I'm not enough and that any mistake will just add to the financial strain. Even if I do it, the weight of the house sale and my mom\u2019s care feels like a tide I can't escape.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and this person needs empathy and understanding right now, given their intent to express emotion. The strategies that fit this moment are support and complex_reflection, as they're struggling to take a small step due to overwhelming fear and self-doubt. Evidence shows they're haunted by the thought of not being enough and the fear of making a mistake, which is acknowledged in their recent messages, like when they said 'the thought that one slip will collapse everything still makes me freeze.' My entry will be to acknowledge the weight of their fears and the sense of being overwhelmed, showing I see the struggle they're in.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "the thought that one slip will collapse everything still makes me freeze"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious, emotionally reactive"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "fear of not being enough, fear of making a mistake"
+          }
+        ],
+        "final_response": "The weight of the paperwork and the fear of a single slip causing everything to collapse is really holding you back, isn't it? It's like the fear of not being enough and the fear of making a mistake are two huge waves crashing over you, making it hard to take even the smallest step. Just signing the first page feels like a monumental task when you're worried that any mistake could add to the financial strain and the weight of your mom's care. It takes a lot of courage to even consider taking that first step, and I want to acknowledge that."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 10,
+      "user_message": "I keep feeling like the cliff is too steep, even if I put a foot down. The weight of money worries drags me back into the same loop of putting things off. I wonder if I'm just another story that never finds its closing line.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the overwhelming emotions you're experiencing right now. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to share your feelings. The evidence of your anxiety and fear of not being enough, as seen in your recent messages, suggests that you're struggling to find a sense of control. My entry point will be to acknowledge the weight of your responsibilities and the fear that's holding you back, using your own words to reflect the emotional struggle you're facing.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "the weight of the house sale and my mom\u2019s care feels like a tide I can\u2019t escape"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious, emotionally reactive"
+          }
+        ],
+        "final_response": "The weight of money worries and the fear of not being enough can feel like a tide that's pulling you under, making it hard to take even the smallest step forward. It's like you're standing at the edge of a cliff, and the thought of making a mistake is terrifying. I want to acknowledge the courage it takes to even consider taking that first step, and the creativity it takes to find ways to cope with these feelings, like writing. Your words paint a vivid picture of the emotional struggle you're facing, and I'm here to support you in finding a way to move forward, even if it's just a small step at a time."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

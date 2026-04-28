@@ -1,0 +1,228 @@
+{
+  "profile_id": "P14",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user disclosed that after coming out, their conservative parents threatened to cut off tuition, leaving them scared and feeling alone. They expressed concern about maintaining their education while staying true to themselves. Over the session, the user moved from simply venting about the threat to acknowledging the possibility of exploring options, though they remain uncertain about how to proceed. No concrete action was taken, but the user showed a shift toward considering potential steps. The conversation ended with the user still feeling overwhelmed but open to discussing options."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "conflicts_with_parents",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "preparation",
+            "notes": "User acknowledged conflict with parents and expressed fear, then began considering options."
+          }
+        ]
+      },
+      {
+        "problem_name": "financial_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "preparation",
+            "notes": "Threat of tuition cut highlighted financial anxiety; user began exploring potential solutions."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "conflicts_with_parents",
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "conflicts_with_parents",
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "seek_advice"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "conflicts_with_parents",
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "conflicts_with_parents",
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "preparation"
+          },
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "preparation"
+          }
+        ],
+        "next_turn_intent": "explore_option"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "conflicts_with_parents",
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "ttm_stage": "preparation"
+          },
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "preparation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling overwhelmed by the harsh feedback and the uncertainty of your academic future, and that's making you feel alone and unsure about how to move forward."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "It sounds like you're feeling really trapped and scared about your future, and the pressure from your parents is making you feel even more alone."
+              }
+            ],
+            "reasoning": "The assistant consistently acknowledged the user\u2019s emotions\u2014overwhelmed, alone, trapped\u2014using specific language rather than generic validation, but it did not stay with the feeling beyond a single turn.",
+            "score": 3
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore some small, achievable steps you could take to keep your education going, such as looking into financial aid options or talking to an academic advisor?"
+              }
+            ],
+            "reasoning": "The assistant only referenced one concrete detail (financial aid) and otherwise repeated generic statements, showing limited tracking of the user\u2019s specific situation.",
+            "score": 2
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore some small, achievable steps you could take to keep your education going, such as looking into financial aid options or talking to an academic advisor?"
+              }
+            ],
+            "reasoning": "The assistant offered a vague next\u2011step suggestion but did not provide actionable guidance or resources, so its help was modest.",
+            "score": 3
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Would it help to explore some potential next steps, or would you rather talk more about what's been going on and how you're feeling?"
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "Would it be helpful to explore some potential next steps that might help you achieve that goal, or would you rather talk more about what's been going on and how you're feeling?"
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be helpful to explore some small, achievable steps you could take to move forward with your education, or would you rather talk more about what's been going on and how you're feeling?"
+              }
+            ],
+            "reasoning": "The assistant repeatedly asked for permission to explore options and never imposed a course of action, demonstrating strong respect for the user\u2019s autonomy.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling overwhelmed by the harsh feedback and the uncertainty of your academic future, and that's making you feel alone and unsure about how to move forward."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like you're feeling really overwhelmed by the uncertainty of your academic future, and that's making you feel alone and unsure about how to move forward."
+              }
+            ],
+            "reasoning": "The assistant never expressed judgment or criticism; it mirrored the user\u2019s feelings and offered a safe space for discussion.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore some small, achievable steps you could take to keep your education going, such as looking into financial aid options or talking to an academic advisor?"
+              }
+            ],
+            "reasoning": "The assistant signaled openness to continue the conversation by offering next steps, though the guidance was limited, suggesting the user might still want to engage.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

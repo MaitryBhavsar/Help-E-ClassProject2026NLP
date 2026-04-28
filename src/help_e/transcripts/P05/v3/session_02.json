@@ -1,0 +1,1986 @@
+{
+  "session_id": 2,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-conscious, anxious, insecure, perfectionistic",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I worry about how I look and whether people will think I'm trying too hard."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I keep telling myself I need to stay perfect, but that just makes me feel even more insecure."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I felt exposed"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "update",
+      "new_value": "belonging, connection, authenticity, vulnerability",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm losing my role as the guy who keeps everyone together."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "Your desire for connection and belonging is being held back by this fear of being judged."
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "if I let that voice go, they might actually understand and I could feel less like a failure"
+        }
+      ]
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "my body defines me, I need to fit in to belong, I must be perfect to be accepted",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I worry about how I look and whether people will think I'm trying too hard."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I keep telling myself I need to stay perfect, but that just makes me feel even more insecure."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I felt exposed"
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": "friends, one friend in particular",
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": "cautious, reflective, emotionally expressive",
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "past experiences of being laughed at for appearance, fear of being judged",
+      "evidence_citations": [
+        {
+          "turn_id": 7,
+          "excerpt": "a roommate laughed at my skinny jeans and said I looked like a 'fashion victim'"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "I keep picturing them laughing again, like in college"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, people-pleaser, emotionally reactive, perfectionistic, self-critical",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep replaying that dinner party, feeling like I blew it"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I keep telling myself I need to stay perfect, but that just makes me feel even more insecure"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "if I let that voice go, they might actually understand and I could feel less like a failure"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I keep replaying that dinner party, feeling like I blew it, and now I'm terrified the reunion will be a disaster. I worry about how I look and whether people will think I'm trying too hard. I feel like I'm losing my role as the guy who keeps everyone together."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're replaying that dinner party and feeling like you blew it, which is understandable given your fears about the reunion. Your worry about how you look and whether people will think you're trying too hard is really getting to you. It takes a lot of courage to consider opening up to your friends about these feelings, and I want to acknowledge that effort. What do you think might happen if you do decide to talk to one of your friends before the reunion, and how do you think that could affect your feelings of connection and belonging?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I guess I could try talking to someone, but I'm scared they'll think I'm just being dramatic. If I do, maybe it'll feel a bit less lonely, but I'm still worried they'll judge my appearance or think I'm trying too hard. Honestly, I don't know if I'll actually feel better after that."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "You're really scared that talking to someone about your body image concerns will make you seem dramatic or like you're trying too hard, and that's a pretty vulnerable place to be. It takes a lot of courage to even consider opening up about this, especially when you're worried about being judged. It sounds like you're feeling a bit trapped between wanting to connect with your friends and fearing their reaction. Yeah, it's understandable that you're unsure if talking to someone will actually make you feel better, but it's also possible that it could be a step towards feeling less lonely."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I keep thinking if I talk to them they'll just see me as a mess and think I'm overdramatic. It feels like I'm already failing as the guy who pulls everyone together, and I don't want to add to the group dynamic. I'm scared that even if I do, it might just make me feel more exposed."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're really worried that talking to your friends about your body image concerns will make you seem like a mess or overdramatic, and that's a pretty scary thought. It's like you're feeling trapped between wanting to connect with them and fearing their reaction. Yeah, it's understandable that you're unsure if opening up will actually make you feel better, but it's also possible that it could be a step towards feeling less lonely. What do you think is the worst that could happen if you do talk to them, and how might that affect your relationships with your friends?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I worry they'll see my body image concerns as overdramatic and maybe even avoid me, which would make me feel even more isolated. If that happens, I'd probably feel like I'm losing my place as the guy who keeps everyone together. I don't know how to handle that fear."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You're scared that if you open up about your body image concerns, your friends might see you as overdramatic and avoid you, which would make you feel even more isolated. That fear of losing your place in the group is really tough to deal with. It sounds like you're feeling trapped between wanting to connect with your friends and fearing their reaction. What's underneath that fear of being avoided - is it the fear of being judged, or something else entirely?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "It feels like I'm just a puppet of my own expectations, and I keep worrying that if I let them see this side of me they'll think I'm a failure. I guess the real fear is that they'll judge me for being vulnerable, and then I'll have to watch everyone drift away anyway. I keep telling myself I need to stay perfect, but that just makes me feel even more insecure."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling trapped by your own expectations and the fear of being judged for being vulnerable. It's like you're caught between wanting to be authentic and fearing that your friends will see you as a failure if you're not perfect. That's a really tough spot to be in. Your desire for connection and belonging is being held back by this fear of being judged. What if you could find a way to be vulnerable with your friends without feeling like you're risking your relationships with them?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I don't know if I should even bring it up, but I feel like every time I try to be honest I just end up looking like a mess. If I don't say anything, I feel like I'm hiding something huge, and if I do, I might lose the trust people have in me. It\u2019s a weird mix of wanting to be real and fearing I\u2019ll just make everyone look down on me."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're feeling really stuck between wanting to be honest with your friends and fearing that they'll judge you or look down on you. It's like you're caught between being true to yourself and protecting your relationships. That's a really tough spot to be in. Can you tell me more about what's driving that fear of being judged - is it something specific that's happened in the past, or more of a general worry?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I think it started back in college when a roommate laughed at my skinny jeans and said I looked like a \"fashion victim.\" Then at a group hike, someone made a comment about my sneakers and I felt exposed. Since then, I worry that any small slip will make everyone think I'm not worth hanging out with, and I start feeling like I'm losing my role as the guy who brings us together."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "It's really brave of you to share how those past experiences have stuck with you and are still affecting you today. It sounds like being laughed at for your skinny jeans and sneakers was really hurtful, and it's understandable that you'd worry about being judged or seen as not worth hanging out with. That fear of being vulnerable and open with your friends is a heavy burden to carry. Can you tell me more about what you think would happen if you were able to be more open and honest with your friends about your body image concerns?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I keep picturing them laughing again, like in college, and I feel like I'd be exposing a flaw that makes me less of a leader. If I do open up, I think they'll see me as weak and maybe pull away, which would just reinforce this feeling that I'm losing my role. I don't know if that fear is real or just a projection of my own insecurity."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The memory of being laughed at for your skinny jeans and sneakers still feels like a raw wound, and it's understandable that you'd worry about being judged or seen as not worth hanging out with. It takes a lot of courage to consider being open about your body image concerns, especially when you feel like it might make you seem weak or less of a leader. What's driving your fear that your friends will pull away if you open up - is it something specific they've said or done, or more of a general fear of being vulnerable?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I haven\u2019t heard anyone say it lately, but the memory of that joke still feels like a threat. It\u2019s more of an internal voice that if I show my insecurities, they\u2019ll think I\u2019m weak and pull away."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The memory of that joke still feels like a threat to you, and it's understandable that you'd worry about being judged or seen as weak. It takes a lot of courage to consider being open about your body image concerns, especially when you feel like it might make you seem vulnerable. Your internal voice is really powerful, and it's driving your fear of being seen as weak. Can you tell me more about what you think would happen if you were able to silence that internal voice and be more open with your friends about your body image concerns?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "Maybe if I let that voice go, they might actually understand and I could feel less like a failure, but the fear of being seen as weak still lingers and I worry that opening up would just push them further away. I\u2019m not sure if talking would help or just make me feel more exposed."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're still grappling with the fear of being seen as weak if you open up to your friends about your body image concerns. It's like you're caught between wanting to be honest and fearing that they'll judge you or pull away. The memory of being laughed at in the past is still affecting you, and it's understandable that you're unsure if talking would help or just make you feel more exposed. What's the worst that could happen if you do open up, and how might that compare to the potential benefits of being more honest with your friends?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 2,
+      "turn_id": 1,
+      "user_message": "I keep replaying that dinner party, feeling like I blew it, and now I'm terrified the reunion will be a disaster. I worry about how I look and whether people will think I'm trying too hard. I feel like I'm losing my role as the guy who keeps everyone together.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_friends",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_friends",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate these feelings of anxiety and insecurity, and it seems like your role in the group and your appearance are weighing heavily on you. Given your current stage of preparation, I think the strategies of support and facilitate could be helpful in exploring your emotions and thoughts. The evidence suggests that you're considering opening up to your friends and testing your approach with a quick chat before the reunion, which could be a great step towards feeling more connected. Your feelings of inadequacy and fear of being judged are valid, and I want to acknowledge the effort you're putting into thinking about how to approach this situation. My entry point will be to reflect on the specific concerns you've mentioned, such as your worry about being perceived as trying too hard and your fear of losing your role in the group.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "feeling pressure to fit in or be accepted"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "worried about the changes in their appearance"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "belonging, connection, authenticity"
+          }
+        ],
+        "final_response": "You're replaying that dinner party and feeling like you blew it, which is understandable given your fears about the reunion. Your worry about how you look and whether people will think you're trying too hard is really getting to you. It takes a lot of courage to consider opening up to your friends about these feelings, and I want to acknowledge that effort. What do you think might happen if you do decide to talk to one of your friends before the reunion, and how do you think that could affect your feelings of connection and belonging?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_friends",
+        "current_problems": [
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 2,
+      "user_message": "I guess I could try talking to someone, but I'm scared they'll think I'm just being dramatic. If I do, maybe it'll feel a bit less lonely, but I'm still worried they'll judge my appearance or think I'm trying too hard. Honestly, I don't know if I'll actually feel better after that.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_friends",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle right now. Given their intent to express emotion and current preparation stage for body image concerns, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is anxious about being judged and is scared of being perceived as complaining, but is considering talking to a friend as a potential step to feel less lonely. I'll use this to inform my response and provide a supportive acknowledgment. My entry will be a reflection of their fears and concerns, acknowledging the uncertainty they're feeling about opening up.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "anxious about being noticed at a reunion and worried about changes in appearance"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "considering opening up to friends to feel less alone"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "self-conscious, anxious, insecure"
+          }
+        ],
+        "final_response": "You're really scared that talking to someone about your body image concerns will make you seem dramatic or like you're trying too hard, and that's a pretty vulnerable place to be. It takes a lot of courage to even consider opening up about this, especially when you're worried about being judged. It sounds like you're feeling a bit trapped between wanting to connect with your friends and fearing their reaction. Yeah, it's understandable that you're unsure if talking to someone will actually make you feel better, but it's also possible that it could be a step towards feeling less lonely."
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 3,
+      "user_message": "I keep thinking if I talk to them they'll just see me as a mess and think I'm overdramatic. It feels like I'm already failing as the guy who pulls everyone together, and I don't want to add to the group dynamic. I'm scared that even if I do, it might just make me feel more exposed.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_friends",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're looking to express your emotions about your body image concerns and how they're affecting your relationships. Given your contemplation stage, I think using the 'evoke' strategy could help you resolve your ambivalence about opening up to your friends. Your fear of being seen as a mess or overdramatic is really holding you back, and I want to acknowledge how hard it is to consider being vulnerable with others. Your past experiences, like the dinner party, have left you feeling like you blew it, and now you're worried about the reunion being a disaster, which is making you even more anxious about how you look and whether people will think you're trying too hard.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of being judged or seen as weak"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "feeling like they're stuck in the middle while everyone else is moving on"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "belonging, connection, authenticity"
+          }
+        ],
+        "final_response": "You're really worried that talking to your friends about your body image concerns will make you seem like a mess or overdramatic, and that's a pretty scary thought. It's like you're feeling trapped between wanting to connect with them and fearing their reaction. Yeah, it's understandable that you're unsure if opening up will actually make you feel better, but it's also possible that it could be a step towards feeling less lonely. What do you think is the worst that could happen if you do talk to them, and how might that affect your relationships with your friends?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 4,
+      "user_message": "I worry they'll see my body image concerns as overdramatic and maybe even avoid me, which would make me feel even more isolated. If that happens, I'd probably feel like I'm losing my place as the guy who keeps everyone together. I don't know how to handle that fear.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now, so I'll start by reflecting their fear of being seen as overdramatic and avoided by friends. The strategies that fit this moment are support and evoke, which can help the user explore their ambivalence about opening up. The evidence that stands out is the user's fear of being judged and seen as weak, as well as their desire to feel less lonely and more connected. My entry will be to acknowledge the user's fear of being avoided and isolated, and then I'll use the evoke strategy to help them explore what's underneath that fear.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of being seen as overdramatic and avoided by friends"
+          },
+          {
+            "source": "problem_summary.conflicts_with_friends",
+            "content": "fear of being judged and seen as weak"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "belonging, connection, authenticity"
+          }
+        ],
+        "final_response": "You're scared that if you open up about your body image concerns, your friends might see you as overdramatic and avoid you, which would make you feel even more isolated. That fear of losing your place in the group is really tough to deal with. It sounds like you're feeling trapped between wanting to connect with your friends and fearing their reaction. What's underneath that fear of being avoided - is it the fear of being judged, or something else entirely?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 5,
+      "user_message": "It feels like I'm just a puppet of my own expectations, and I keep worrying that if I let them see this side of me they'll think I'm a failure. I guess the real fear is that they'll judge me for being vulnerable, and then I'll have to watch everyone drift away anyway. I keep telling myself I need to stay perfect, but that just makes me feel even more insecure.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "support",
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing deep emotions about your body image concerns and fear of being judged by your friends. Given your contemplation stage, I'll use the evoke strategy to help you explore your ambivalence about opening up. Your recent messages show a pattern of self-doubt and fear of being seen as imperfect, which is exacerbating your anxiety. Your fear of being judged for being vulnerable is a significant barrier to opening up, and I want to acknowledge that. My response will aim to create a safe space for you to explore these feelings.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of being judged for being vulnerable"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "fear of losing place in the group"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "belonging, connection, authenticity"
+          }
+        ],
+        "final_response": "You're feeling trapped by your own expectations and the fear of being judged for being vulnerable. It's like you're caught between wanting to be authentic and fearing that your friends will see you as a failure if you're not perfect. That's a really tough spot to be in. Your desire for connection and belonging is being held back by this fear of being judged. What if you could find a way to be vulnerable with your friends without feeling like you're risking your relationships with them?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 6,
+      "user_message": "I don't know if I should even bring it up, but I feel like every time I try to be honest I just end up looking like a mess. If I don't say anything, I feel like I'm hiding something huge, and if I do, I might lose the trust people have in me. It\u2019s a weird mix of wanting to be real and fearing I\u2019ll just make everyone look down on me.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "support",
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a deep emotional concern about being honest with your friends, fearing it might make you look like a mess. Given your contemplation stage, I think using the evoke strategy could help you explore your ambivalence about opening up. Your past experiences, like the dinner party, have left you feeling like you're already failing, and now you're worried that talking to your friends will make you seem even more vulnerable. Your fear of being judged and losing the trust of others is really holding you back, and I want to acknowledge the effort it takes to even consider being honest about your body image concerns. My entry point will be to reflect on the tension between wanting to be real and fearing judgment, and see if we can explore that further.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fearing judgment and losing trust"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "belonging, connection, authenticity"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "feeling like a puppet of my own expectations"
+          }
+        ],
+        "final_response": "You're feeling really stuck between wanting to be honest with your friends and fearing that they'll judge you or look down on you. It's like you're caught between being true to yourself and protecting your relationships. That's a really tough spot to be in. Can you tell me more about what's driving that fear of being judged - is it something specific that's happened in the past, or more of a general worry?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 7,
+      "user_message": "I think it started back in college when a roommate laughed at my skinny jeans and said I looked like a \"fashion victim.\" Then at a group hike, someone made a comment about my sneakers and I felt exposed. Since then, I worry that any small slip will make everyone think I'm not worth hanging out with, and I start feeling like I'm losing my role as the guy who brings us together.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing deep-seated emotions about your body image concerns, so I'll prioritize empathy and understanding. Given your contemplation stage, I'll use the evoke strategy to help you explore your ambivalence. The evidence shows that past experiences, like being laughed at for your clothing choices, have led to a deep-seated worry about being judged, and this fear is exacerbating your concerns about losing your place in the group. My entry point will be to acknowledge the pain and vulnerability you've shared, and how it's affecting your relationships and sense of belonging.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "past experiences, like being laughed at for clothing choices, have led to a deep-seated worry about being judged"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "belonging, connection, authenticity"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "feeling stuck between wanting to be honest and fearing judgment"
+          }
+        ],
+        "final_response": "It's really brave of you to share how those past experiences have stuck with you and are still affecting you today. It sounds like being laughed at for your skinny jeans and sneakers was really hurtful, and it's understandable that you'd worry about being judged or seen as not worth hanging out with. That fear of being vulnerable and open with your friends is a heavy burden to carry. Can you tell me more about what you think would happen if you were able to be more open and honest with your friends about your body image concerns?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 8,
+      "user_message": "I keep picturing them laughing again, like in college, and I feel like I'd be exposing a flaw that makes me less of a leader. If I do open up, I think they'll see me as weak and maybe pull away, which would just reinforce this feeling that I'm losing my role. I don't know if that fear is real or just a projection of my own insecurity.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing deep emotions about your body image concerns and how they might affect your relationships. Given your contemplation stage, I'll use the evoke strategy to help you explore your ambivalence. The evidence shows that you're worried about being judged and seen as weak, which is rooted in past experiences like being laughed at for your clothing choices. Your fear of losing your role as the guy who keeps everyone together is a significant concern. My entry point will be to acknowledge the pain of those past experiences and how they're influencing your current fears.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "past experiences of being laughed at for clothing choices"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of being judged and seen as weak"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "belonging, connection, authenticity"
+          }
+        ],
+        "final_response": "The memory of being laughed at for your skinny jeans and sneakers still feels like a raw wound, and it's understandable that you'd worry about being judged or seen as not worth hanging out with. It takes a lot of courage to consider being open about your body image concerns, especially when you feel like it might make you seem weak or less of a leader. What's driving your fear that your friends will pull away if you open up - is it something specific they've said or done, or more of a general fear of being vulnerable?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 9,
+      "user_message": "I haven\u2019t heard anyone say it lately, but the memory of that joke still feels like a threat. It\u2019s more of an internal voice that if I show my insecurities, they\u2019ll think I\u2019m weak and pull away.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now. Given their intent to express emotion, I'll use the 'support' strategy to create a safe space for them to open up. The evidence shows that the user is struggling with body image concerns and fears being judged by their friends, which is rooted in past experiences of being laughed at. The user's internal voice is driving their fear of being seen as weak, and they're unsure if opening up will lead to losing the trust of others. My entry point will be to acknowledge the user's fear of being judged and the weight of their internal voice.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of being judged"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "belonging, connection, authenticity"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "internal voice that if I show my insecurities, they'll think I'm weak and pull away"
+          }
+        ],
+        "final_response": "The memory of that joke still feels like a threat to you, and it's understandable that you'd worry about being judged or seen as weak. It takes a lot of courage to consider being open about your body image concerns, especially when you feel like it might make you seem vulnerable. Your internal voice is really powerful, and it's driving your fear of being seen as weak. Can you tell me more about what you think would happen if you were able to silence that internal voice and be more open with your friends about your body image concerns?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 10,
+      "user_message": "Maybe if I let that voice go, they might actually understand and I could feel less like a failure, but the fear of being seen as weak still lingers and I worry that opening up would just push them further away. I\u2019m not sure if talking would help or just make me feel more exposed.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "body_image_concerns",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help you navigate your body image concerns and the fear of being judged by your friends. Given your intent to express emotion, I'll use the evoke strategy to help you explore your ambivalence about opening up. The evidence shows that you're torn between wanting to be honest and fearing you'll be seen as weak, and that past experiences have contributed to this fear. Your internal voice is driving this fear, and it's understandable that you're unsure if opening up will help or make you feel more exposed. My entry point will be to acknowledge the fear and uncertainty you're feeling about being vulnerable with your friends.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "fear of being judged for being vulnerable"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "internal voice driving fear of being seen as weak"
+          }
+        ],
+        "final_response": "You're still grappling with the fear of being seen as weak if you open up to your friends about your body image concerns. It's like you're caught between wanting to be honest and fearing that they'll judge you or pull away. The memory of being laughed at in the past is still affecting you, and it's understandable that you're unsure if talking would help or just make you feel more exposed. What's the worst that could happen if you do open up, and how might that compare to the potential benefits of being more honest with your friends?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

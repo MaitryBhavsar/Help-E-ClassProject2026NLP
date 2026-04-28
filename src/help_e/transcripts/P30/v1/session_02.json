@@ -1,0 +1,1854 @@
+{
+  "session_id": 2,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "anxious, overwhelmed, responsible, self-critical",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm failing on every front."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I keep thinking I should be better at this, but the numbers just keep adding up."
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I still feel like I messed up."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I feel like I'm losing track of what matters."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "cooking",
+      "evidence_citations": [
+        {
+          "turn_id": 6,
+          "excerpt": "I made a decent batch of lasagna for Mom"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, avoidant, self-doubting",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I keep thinking I should be better at this, but the numbers just keep adding up."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I feel like I'm failing at every level."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I feel like I'm losing track of what matters."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I keep doubting myself and it's draining me"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I can't keep up with the care for Mom, the job, and my own sanity. My dad keeps saying I'm blowing it all out, and I feel like I'm failing on every front."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're shouldering a lot of responsibility, from caring for your mom to managing your job and trying to keep your own life on track, all while dealing with your dad's concerns. It's no wonder you're feeling overwhelmed and like you're failing on every front. Your dad's comments, in particular, must be really tough to hear when you're already feeling so stretched thin. Can you tell me more about what's been the hardest part of all this for you?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "The hardest part is juggling Mom's care with the deadlines at the office. I feel like I'm constantly failing, and Dad's comments make it feel like I\u2019m a disappointment. I keep thinking I should be better at this, but the numbers just keep adding up."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "Juggling your mom's care with office deadlines is a huge challenge, and it's clear how it's taking a toll on you. The pressure to perform at work while also being a caregiver is immense, and it sounds like your dad's comments are making you feel like you're not meeting expectations. It's like you're being pulled in too many directions at once, and it's hard to keep up. Can you think of any small moments recently where you felt like you were getting something right, even if it was just for a brief moment?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I did finish the spreadsheet for the client, but I still feel like I messed up. Dad keeps telling me I\u2019m not good enough, and Mom\u2019s condition only makes it worse. I keep thinking I should be better, but the numbers just keep piling up."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "Finishing that spreadsheet for the client was a significant task, and it's a testament to your capabilities, even if it doesn't feel like it right now. You're dealing with a lot, from your mom's care to your job, and your dad's comments are adding to the pressure. It's understandable that you're feeling like you're not good enough, but remember that you're doing the best you can, and that's something to acknowledge. What's the first thing that comes to mind when you think about what you need right now to feel more grounded?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I don't even know how to say this, but I just need a moment to breathe. Dad's criticism feels like a constant weight, and I keep wondering if I'm doing enough for Mom while keeping up with the office. I feel like I'm failing at every level."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The weight of your dad's criticism is bearing down on you, and it's no wonder you're feeling like you're failing at every level. You're trying to care for your mom, manage your job, and deal with your dad's concerns all at once, which is a huge challenge. It's understandable that you're feeling overwhelmed and like you're not doing enough. Can you tell me more about what you need in this moment to feel like you can breathe again?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I\u2019m stuck in a loop of Dad\u2019s criticism and Mom\u2019s meds. I can\u2019t focus on the spreadsheets or the hospital appointments; I keep thinking I\u2019m failing everyone. All I want is a break, but I feel guilty for even asking."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling completely stuck, like you're drowning in your dad's criticism and the pressure of caring for your mom. It's no wonder you can't focus on work or hospital appointments when it feels like everything is weighing on you. It takes a lot of courage to admit you need a break, and I want you to know that it's okay to feel that way. Yeah, it's tough to keep going when you feel like you're failing everyone, including yourself. Can you think of one small thing you've done recently that you feel somewhat good about, no matter how tiny it might seem?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I made a decent batch of lasagna for Mom, but I still feel like I messed up the rest of the day."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "Making that lasagna for your mom was a thoughtful gesture, and it's great that you were able to do something nice for her. It's understandable that you still feel like you messed up the rest of the day, but try not to overlook the small wins, like that lasagna. It might seem like a tiny thing, but it shows you're trying to take care of your mom and yourself, even when everything feels overwhelming. Yeah, it's tough to keep going when you feel like you're failing, but remember that you're doing the best you can, and that's something to acknowledge."
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I guess I just kept thinking about how Dad keeps saying I'm not good enough, and I feel like I'm losing track of what matters. I can't stop worrying that Mom's health is slipping and that I'm not doing enough. It feels like I'm stuck in a loop of guilt and failure."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The weight of your dad's criticism is really bearing down on you, and it's no wonder you're feeling stuck in this loop of guilt and failure. You're trying to care for your mom and manage your own emotions at the same time, which is a huge challenge. It takes a lot of courage to admit you're feeling this way. What's one thing you think you need to focus on right now to start feeling more grounded and less stuck?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "Honestly, I just feel lost. Dad's criticism still lingers, Mom's meds make me restless, and the spreadsheets keep piling up. I can\u2019t tell what to focus on first, and I keep doubting if I\u2019m doing enough."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "You're feeling lost and unsure of what to focus on first, which is really tough. It's like you're being pulled in multiple directions at once, with your dad's criticism, your mom's meds, and the spreadsheets all competing for your attention. Yeah, it's no wonder you're doubting if you're doing enough. Can you tell me more about what's feeling most overwhelming to you right now?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "The biggest thing right now is the endless list of tasks from Mom\u2019s meds, the client reports, and the office deadlines. I keep thinking I\u2019m not keeping up, and Dad\u2019s words just make it worse. I don\u2019t know where to start."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're feeling completely overwhelmed by the never-ending tasks and deadlines, and it's like your dad's criticism is echoing in your mind, making you doubt your ability to keep up. It's no wonder you're feeling lost and unsure of where to start. Yeah, it's tough to prioritize when everything feels urgent. What's one thing that you think would make the biggest difference for you right now, if you could just get a handle on it?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "Honestly, the biggest thing that would help is to sit down with Dad and explain how his constant criticism makes me feel worthless. If I can get a moment to speak with him calmly, maybe I can start to feel less judged and less guilty. Right now, I keep doubting myself and it's draining me."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The weight of your dad's criticism is crushing you, making you feel worthless and doubtful of yourself. It takes a lot of courage to want to talk to him about how his words affect you. Yeah, it's tough to feel like you're not good enough, especially when it's coming from someone you care about. Sitting down with him and explaining how you feel might be a huge step towards feeling less judged and less guilty. What do you think would be the most important thing to say to him in that conversation?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 2,
+      "turn_id": 1,
+      "user_message": "I can't keep up with the care for Mom, the job, and my own sanity. My dad keeps saying I'm blowing it all out, and I feel like I'm failing on every front.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a friend to listen and support, and right now, this person needs someone to acknowledge the overwhelming stress they're under. The strategies that seem most fitting are support and complex_reflection, given the user's intent to express emotion and their stage of feeling overwhelmed. The evidence that stands out is their struggle to balance care for their mom, job, and personal sanity, compounded by their dad's criticism. My entry will be to acknowledge the weight of these responsibilities and the emotional toll of feeling like they're failing.",
+        "evidence_used": [
+          {
+            "source": "persona.communication_style",
+            "content": "struggling to express himself"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "can't keep up with the care for Mom, the job, and my own sanity"
+          }
+        ],
+        "final_response": "You're shouldering a lot of responsibility, from caring for your mom to managing your job and trying to keep your own life on track, all while dealing with your dad's concerns. It's no wonder you're feeling overwhelmed and like you're failing on every front. Your dad's comments, in particular, must be really tough to hear when you're already feeling so stretched thin. Can you tell me more about what's been the hardest part of all this for you?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 2,
+      "user_message": "The hardest part is juggling Mom's care with the deadlines at the office. I feel like I'm constantly failing, and Dad's comments make it feel like I\u2019m a disappointment. I keep thinking I should be better at this, but the numbers just keep adding up.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the weight of your responsibilities right now. Given your express_emotion intent, I'll use complex_reflection and support strategies to help you feel understood. The evidence that stands out is your struggle to balance Mom's care with work deadlines, and how your dad's comments exacerbate your feelings of failure. My entry will be to acknowledge the specific challenge of juggling these responsibilities and how it's affecting you.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "juggling Mom's care with the deadlines at the office"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious, overwhelmed, responsible"
+          }
+        ],
+        "final_response": "Juggling your mom's care with office deadlines is a huge challenge, and it's clear how it's taking a toll on you. The pressure to perform at work while also being a caregiver is immense, and it sounds like your dad's comments are making you feel like you're not meeting expectations. It's like you're being pulled in too many directions at once, and it's hard to keep up. Can you think of any small moments recently where you felt like you were getting something right, even if it was just for a brief moment?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 3,
+      "user_message": "I did finish the spreadsheet for the client, but I still feel like I messed up. Dad keeps telling me I\u2019m not good enough, and Mom\u2019s condition only makes it worse. I keep thinking I should be better, but the numbers just keep piling up.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to reflect your emotions right now. Given your express_emotion intent, I'll use complex_reflection and support strategies to acknowledge your feelings. The evidence shows you're struggling with caring for your mom, managing your job, and dealing with your dad's concerns, which is taking a toll on your mental health. Your recent accomplishment of finishing the spreadsheet for the client is a positive aspect that I'll acknowledge. My entry will be a brief acknowledgment of your current emotional state, focusing on the feelings of inadequacy and overwhelm you've expressed.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "feeling like I'm constantly failing"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious, overwhelmed, responsible"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "finished the spreadsheet for the client"
+          }
+        ],
+        "final_response": "Finishing that spreadsheet for the client was a significant task, and it's a testament to your capabilities, even if it doesn't feel like it right now. You're dealing with a lot, from your mom's care to your job, and your dad's comments are adding to the pressure. It's understandable that you're feeling like you're not good enough, but remember that you're doing the best you can, and that's something to acknowledge. What's the first thing that comes to mind when you think about what you need right now to feel more grounded?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 4,
+      "user_message": "I don't even know how to say this, but I just need a moment to breathe. Dad's criticism feels like a constant weight, and I keep wondering if I'm doing enough for Mom while keeping up with the office. I feel like I'm failing at every level.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the weight of your emotions right now. Given your intent to express emotion, I'll use strategies like support and complex reflection to help you feel heard. The evidence shows you're shouldering a lot of responsibility, from caring for your mom to managing your job, and your dad's comments are making it feel like you're failing. Your recent turns have highlighted the pressure you're under, and it's clear you're feeling overwhelmed. My first sentence will acknowledge the constant weight of your dad's criticism and the pressure to care for your mom while keeping up with work.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "Dad's criticism feels like a constant weight"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "feeling overwhelmed and like failing on every front"
+          }
+        ],
+        "final_response": "The weight of your dad's criticism is bearing down on you, and it's no wonder you're feeling like you're failing at every level. You're trying to care for your mom, manage your job, and deal with your dad's concerns all at once, which is a huge challenge. It's understandable that you're feeling overwhelmed and like you're not doing enough. Can you tell me more about what you need in this moment to feel like you can breathe again?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 5,
+      "user_message": "I\u2019m stuck in a loop of Dad\u2019s criticism and Mom\u2019s meds. I can\u2019t focus on the spreadsheets or the hospital appointments; I keep thinking I\u2019m failing everyone. All I want is a break, but I feel guilty for even asking.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person, and they need me to acknowledge their emotional pain right now. Given their intent to express emotion, I'll use the support strategy to create a safe space for them to open up. The evidence shows they're feeling overwhelmed by their dad's criticism and their mom's care, so I'll acknowledge that specifically. Their recent turns indicate a pattern of self-doubt and feelings of failure, which I'll gently reflect. My entry will be a brief acknowledgment of their current emotional state, followed by a supportive reflection of their struggles.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "feeling like I'm failing at every level"
+          },
+          {
+            "source": "problem_summary.none",
+            "content": "overwhelmed by dad's criticism and mom's care"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious and overwhelmed"
+          }
+        ],
+        "final_response": "You're feeling completely stuck, like you're drowning in your dad's criticism and the pressure of caring for your mom. It's no wonder you can't focus on work or hospital appointments when it feels like everything is weighing on you. It takes a lot of courage to admit you need a break, and I want you to know that it's okay to feel that way. Yeah, it's tough to keep going when you feel like you're failing everyone, including yourself. Can you think of one small thing you've done recently that you feel somewhat good about, no matter how tiny it might seem?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 6,
+      "user_message": "I made a decent batch of lasagna for Mom, but I still feel like I messed up the rest of the day.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the weight of your emotions right now. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to share your feelings. The evidence shows that you've been struggling with caring for your mom, managing your job, and dealing with your dad's criticism, which is taking a toll on your mental health. Your recent message about making a decent batch of lasagna for your mom, despite feeling like you messed up the rest of the day, suggests that you're trying to find small moments of positivity amidst the chaos. My entry point will be to acknowledge the effort you put into making that lasagna and how it might be a small step towards feeling more grounded.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "made a decent batch of lasagna for Mom"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "struggling with caring for mom, managing job, and dealing with dad's criticism"
+          }
+        ],
+        "final_response": "Making that lasagna for your mom was a thoughtful gesture, and it's great that you were able to do something nice for her. It's understandable that you still feel like you messed up the rest of the day, but try not to overlook the small wins, like that lasagna. It might seem like a tiny thing, but it shows you're trying to take care of your mom and yourself, even when everything feels overwhelming. Yeah, it's tough to keep going when you feel like you're failing, but remember that you're doing the best you can, and that's something to acknowledge."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 7,
+      "user_message": "I guess I just kept thinking about how Dad keeps saying I'm not good enough, and I feel like I'm losing track of what matters. I can't stop worrying that Mom's health is slipping and that I'm not doing enough. It feels like I'm stuck in a loop of guilt and failure.",
+      "inference": {
+        "user_intent": {
+          "intent": "resistance",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "resistance",
+        "intent_entry_style": "Roll with it \u2014 reflect resistance without arguing; emphasize autonomy.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their feelings of guilt and failure, and it seems like they need help breaking out of the loop of negative self-talk. Given their intent to resist and emphasize autonomy, I'll use the support strategy to acknowledge their emotions and facilitate their own thinking. The evidence shows that they're struggling with their dad's criticism and the pressure of caring for their mom, and they feel like they're not doing enough. I'll use this information to provide a supportive and non-judgmental response. My entry point will be to acknowledge the weight of their dad's criticism and the pressure they're feeling, and then facilitate their own thinking about what they need to move forward.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "Dad keeps saying I'm not good enough"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "feeling stuck in a loop of guilt and failure"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious, overwhelmed, responsible"
+          }
+        ],
+        "final_response": "The weight of your dad's criticism is really bearing down on you, and it's no wonder you're feeling stuck in this loop of guilt and failure. You're trying to care for your mom and manage your own emotions at the same time, which is a huge challenge. It takes a lot of courage to admit you're feeling this way. What's one thing you think you need to focus on right now to start feeling more grounded and less stuck?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "resistance",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 8,
+      "user_message": "Honestly, I just feel lost. Dad's criticism still lingers, Mom's meds make me restless, and the spreadsheets keep piling up. I can\u2019t tell what to focus on first, and I keep doubting if I\u2019m doing enough.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a friend to help you navigate these tough emotions, and it seems like you're feeling really lost right now. Given your intent to express emotion, I think a good strategy would be to use complex_reflection to help you unpack your feelings. Looking at the evidence, I see that you've been struggling with your dad's criticism and the pressure of caring for your mom, which is making it hard for you to focus on work. You've also been feeling guilty for wanting a break, which is understandable. My entry point will be to acknowledge the overwhelm you're feeling and see if we can break it down together.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.none",
+            "content": "Dad's criticism and Mom's meds"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious and overwhelmed"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "feeling lost and stuck in a loop of guilt and failure"
+          }
+        ],
+        "final_response": "You're feeling lost and unsure of what to focus on first, which is really tough. It's like you're being pulled in multiple directions at once, with your dad's criticism, your mom's meds, and the spreadsheets all competing for your attention. Yeah, it's no wonder you're doubting if you're doing enough. Can you tell me more about what's feeling most overwhelming to you right now?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 9,
+      "user_message": "The biggest thing right now is the endless list of tasks from Mom\u2019s meds, the client reports, and the office deadlines. I keep thinking I\u2019m not keeping up, and Dad\u2019s words just make it worse. I don\u2019t know where to start.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their overwhelming situation right now, so I'll start by reflecting their feelings. Given their express_emotion intent, I'll use complex_reflection to help them process their emotions. The evidence shows they're struggling with their dad's criticism, mom's meds, and work deadlines, feeling lost and unsure of where to start. I'll acknowledge the weight of their responsibilities and the impact of their dad's words on their self-doubt. My entry will be a brief, empathic acknowledgment of their situation, followed by an open question to help them explore their priorities.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "feeling lost and unsure of what to focus on first"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "struggling with dad's criticism, mom's meds, and work deadlines"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious, overwhelmed, responsible"
+          }
+        ],
+        "final_response": "You're feeling completely overwhelmed by the never-ending tasks and deadlines, and it's like your dad's criticism is echoing in your mind, making you doubt your ability to keep up. It's no wonder you're feeling lost and unsure of where to start. Yeah, it's tough to prioritize when everything feels urgent. What's one thing that you think would make the biggest difference for you right now, if you could just get a handle on it?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 2,
+      "turn_id": 10,
+      "user_message": "Honestly, the biggest thing that would help is to sit down with Dad and explain how his constant criticism makes me feel worthless. If I can get a moment to speak with him calmly, maybe I can start to feel less judged and less guilty. Right now, I keep doubting myself and it's draining me.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now. Given their intent to express emotion, I'll use complex_reflection to help them feel understood. The evidence shows that the user is feeling worthless due to their dad's constant criticism, and they're doubting themselves. They've expressed a desire to talk to their dad about how his criticism makes them feel. My entry will be to acknowledge the weight of their dad's criticism and the impact it has on their self-worth.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "Dad's criticism makes me feel worthless"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "anxious, overwhelmed, responsible"
+          }
+        ],
+        "final_response": "The weight of your dad's criticism is crushing you, making you feel worthless and doubtful of yourself. It takes a lot of courage to want to talk to him about how his words affect you. Yeah, it's tough to feel like you're not good enough, especially when it's coming from someone you care about. Sitting down with him and explaining how you feel might be a huge step towards feeling less judged and less guilty. What do you think would be the most important thing to say to him in that conversation?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "profile_id": "P28",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user describes feeling overwhelmed by the sudden caregiving responsibilities after their mother\u2019s stroke, their own chronic health concerns, and an impending writing deadline. They express guilt for not being able to manage all demands and fear that taking a break could worsen their mother\u2019s condition or jeopardize their work. Throughout the session, the user repeatedly loops over these worries, feeling stuck and exhausted. The conversation ends with the user acknowledging a persistent loop of guilt and fear without identifying concrete steps to break it."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "caregiver_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "precontemplation",
+            "session_end_stage": "contemplation",
+            "notes": "First acknowledgement of caregiving burden and uncertainty about change."
+          }
+        ]
+      },
+      {
+        "problem_name": "academic_pressure",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "precontemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Recognition of looming deadline and fear of missing it."
+          }
+        ]
+      },
+      {
+        "problem_name": "health_anxiety",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "precontemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Concern about personal health worsening while caring for mother."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "caregiver_stress",
+          "academic_pressure",
+          "health_anxiety"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "precontemplation"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "precontemplation"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "ttm_stage": "precontemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "caregiver_stress",
+          "academic_pressure",
+          "health_anxiety"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "caregiver_stress",
+          "academic_pressure",
+          "health_anxiety"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "caregiver_stress",
+          "academic_pressure",
+          "health_anxiety"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "caregiver_stress",
+          "academic_pressure",
+          "health_anxiety"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "health_anxiety",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling completely overwhelmed by your mom's needs, your own health, and the writing deadline, and that's leaving you feeling guilty and unsure of how to keep going."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "It sounds like you're feeling like you're failing on both fronts, and that's a really tough place to be."
+              }
+            ],
+            "reasoning": "The assistant named specific emotions\u2014overwhelmed, guilty, failing\u2014and stayed with them in multiple turns, showing attentive recognition.",
+            "score": 4
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "You mentioned wanting someone to take over some of your mom's care for a day, or getting a short break from writing, but you're terrified of worsening your mom's situation or missing a deadline."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "It sounds like you're feeling stuck in a loop of guilt and fear, and it's exhausting. You're worried that taking a break will leave your mom alone and you'll miss the deadline."
+              }
+            ],
+            "reasoning": "The assistant tracked the user\u2019s caregiving context, health anxiety, and academic pressure across turns, showing a clear grasp of the situation.",
+            "score": 5
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "Would it be helpful to think about one small thing you could do to take care of yourself this week, or would you rather keep talking about what's feeling overwhelming?"
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be helpful to just talk more about what's feeling overwhelming, or is there a small part of your situation that you'd like to explore further?"
+              }
+            ],
+            "reasoning": "The assistant offered a general prompt for a small step but did not provide concrete suggestions or actionable advice, resulting in a neutral helpfulness level.",
+            "score": 3
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "Would it be helpful to explore some small, temporary solutions that might give you a bit of breathing room, or would you rather focus on something else?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore what's driving that fear, or would you rather just talk more about how you're feeling?"
+              }
+            ],
+            "reasoning": "The assistant consistently asked for permission and offered choices, respecting the user\u2019s right to decide the direction of the conversation.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling completely overwhelmed by your mom's needs, your own health, and the writing deadline, and that's leaving you feeling guilty and unsure of how to keep going."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "It sounds like you're feeling really overwhelmed and unsure of how to balance your mom's care and your writing deadline."
+              }
+            ],
+            "reasoning": "The assistant never imposed judgment or blame, creating a safe space for the user to share concerns.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "Would it be helpful to think about one small thing you could do to take care of yourself this week, or would you rather keep talking about what's feeling overwhelming?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore what's driving that fear, or would you rather just talk more about how you're feeling?"
+              }
+            ],
+            "reasoning": "While the assistant remained supportive and offered options, the lack of concrete next steps may leave the user wanting more guidance, but overall the tone encourages continued dialogue.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

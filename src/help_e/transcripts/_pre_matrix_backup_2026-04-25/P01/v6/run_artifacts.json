@@ -1,0 +1,200 @@
+{
+  "profile_id": "P01",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user expressed discomfort about a recent comment on their weight and concerns about how a thyroid condition might affect their self\u2011image. They worried that this could influence how colleagues perceive their work during an upcoming portfolio review. Over the course of the session, they moved from simply acknowledging the issue to outlining concrete strategies such as self\u2011affirmations, seeking supportive feedback, and practicing breathing exercises to manage anxiety. The conversation highlighted a shift from contemplation to preparation, indicating a growing intention to take actionable steps. The user remains uncertain about the effectiveness of these strategies but is actively exploring options to regain confidence."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "body_image_concerns",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "preparation",
+            "notes": "User moved from acknowledging body image worries to planning concrete coping strategies."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "body_image_concerns"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "body_image_concerns",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "body_image_concerns"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "body_image_concerns",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "body_image_concerns"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "body_image_concerns",
+            "ttm_stage": "preparation"
+          }
+        ],
+        "next_turn_intent": "explore_option"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "body_image_concerns"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "body_image_concerns",
+            "ttm_stage": "preparation"
+          }
+        ],
+        "next_turn_intent": "explore_option"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "body_image_concerns"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "body_image_concerns",
+            "ttm_stage": "preparation"
+          }
+        ],
+        "next_turn_intent": "seek_advice"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really exposed and worried about what others might think, especially with the portfolio review and thyroid check\u2011up coming up."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like the comment at lunch really stuck with you, and now you're worried that everyone is judging you based on your weight, not your talent."
+              }
+            ],
+            "reasoning": "The assistant named the user\u2019s feelings precisely and stayed with them, showing a deep recognition of the emotional state.",
+            "score": 5
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really exposed and worried about what others might think, especially with the portfolio review and thyroid check\u2011up coming up."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like the comment at lunch really stuck with you, and now you're worried that everyone is judging you based on your weight, not your talent."
+              }
+            ],
+            "reasoning": "The assistant tracked specific details\u2014thyroid condition, lunch comment, upcoming review\u2014demonstrating a clear grasp of the user\u2019s situation.",
+            "score": 5
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "It sounds like you're taking some really positive steps to boost your confidence and feel more in control, like practicing self\u2011affirmations and seeking supportive feedback."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "It sounds like you're taking proactive steps to manage your anxiety and body image concerns, such as practicing breathing and grounding techniques."
+              }
+            ],
+            "reasoning": "The assistant offered concrete, actionable strategies that directly address the user\u2019s concerns and move them toward a solution.",
+            "score": 5
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Would you like to talk more about what's been going through your mind..."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "What do you think would help you feel more confident and focused on your portfolio review, and less worried about what others think of your body?"
+              }
+            ],
+            "reasoning": "The assistant consistently asked for permission and avoided lecturing, honoring the user\u2019s pace and choices.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "That can be a really tough and vulnerable spot to be in."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "That can be a really painful and vulnerable feeling."
+              }
+            ],
+            "reasoning": "The assistant used supportive language that made the user feel safe to share without fear of judgment.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "What do you think would be the most important thing for you to focus on right now to help you feel more confident and prepared for your portfolio review?"
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "How do you think these strategies will help you feel more confident and prepared for your portfolio review?"
+              }
+            ],
+            "reasoning": "The assistant\u2019s open-ended, encouraging questions signal a desire to keep the conversation going and support ongoing progress.",
+            "score": 5
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

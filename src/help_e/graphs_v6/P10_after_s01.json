@@ -1,0 +1,266 @@
+{
+  "profile_id": "P10",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "determined",
+      "anxious"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": null,
+    "hobbies_interests": [],
+    "communication_style": "emotional, expressive",
+    "relevant_history": null,
+    "general_behavioral_traits": [
+      "overwhelmed",
+      "financially stressed"
+    ]
+  },
+  "problems": {
+    "financial_stress": {
+      "problem_name": "financial_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees the situation as critical",
+              "concise_explanation": "using 'stay afloat' language",
+              "supporting_utterance_span": "I\u2019m looking for a way to stay afloat",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees their financial situation as critical",
+              "concise_explanation": "feeling stuck and anxious",
+              "supporting_utterance_span": "left me feeling stuck and anxious",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees the financial situation as critical",
+              "concise_explanation": "rent hike and car repairs are overwhelming",
+              "supporting_utterance_span": "rent hike is a slap in the face",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees their financial situation as critical",
+              "concise_explanation": "describes situation as 'endless loop'",
+              "supporting_utterance_span": "I keep thinking I\u2019m stuck in this endless loop of rent hikes and car bills",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees the financial situation as critical and unsustainable",
+              "concise_explanation": "user is 'stretched thin' and 'exhausted'",
+              "supporting_utterance_span": "I'm already stretched thin",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels that the commute costs and car repairs are significant obstacles",
+              "concise_explanation": "bus fare is eating up earnings",
+              "supporting_utterance_span": "bus fare is eating up my earnings",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is unsure about how to escape their financial struggles",
+              "concise_explanation": "states uncertainty about where to start",
+              "supporting_utterance_span": "but I\u2019m not sure where to start",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "rent increase and car repair costs are driving the financial stress",
+              "concise_explanation": "explicitly mentions rent and car issues",
+              "supporting_utterance_span": "Rent just went up, and my car's out of commission",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "rent increase and car repairs are the primary triggers",
+              "concise_explanation": "rent hike and car breakdown cited as causes",
+              "supporting_utterance_span": "rent hike and car breakdown",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "rent hike and car breakdown are the primary triggers for financial stress",
+              "concise_explanation": "rent notice and car out of commission cited as causes",
+              "supporting_utterance_span": "rent notice\u2014my landlord wants me to pay the higher amount next month, and my car's out of commission",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "general_anxiety": {
+      "problem_name": "general_anxiety",
+      "first_mentioned": [
+        1,
+        2
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_susceptibility": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels vulnerable to the financial situation and its impact on their life",
+              "concise_explanation": "user is 'exhausted' and 'trying to keep my head above water'",
+              "supporting_utterance_span": "it's exhausting trying to juggle all this while still keeping my head above water",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "financial stress is triggering the user's anxiety",
+              "concise_explanation": "feeling stuck and anxious due to financial situation",
+              "supporting_utterance_span": "left me feeling stuck and anxious",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "financial stress is triggering the user's anxiety",
+              "concise_explanation": "feeling stuck and anxious due to financial situation",
+              "supporting_utterance_span": "I feel like I\u2019m constantly chasing my tail",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "financial struggles are triggering the user's anxiety",
+              "concise_explanation": "links financial situation to fear of giving up",
+              "supporting_utterance_span": "I\u2019m scared I\u2019ll have to give up everything I\u2019ve worked so hard for",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "financial_stress",
+      "problem_2": "general_anxiety",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "rent hike and car breakdown have left me feeling stuck and anxious"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "rent hike is a slap in the face and I feel like I\u2019m constantly chasing my tail"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I keep thinking I\u2019m stuck in this endless loop of rent hikes and car bills. I\u2019m scared I\u2019ll have to give up everything I\u2019ve worked so hard for"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "rent notice\u2014my landlord wants me to pay the higher amount next month, and I'm already stretched thin. My car's out of commission and the bus fare is eating a chunk of every shift I pick up. It's exhausting trying to juggle all this"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "the financial stress triggers are causing the user's anxiety",
+          "supporting_utterance_span": "rent hike and car breakdown have left me feeling stuck and anxious",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "the financial stress is causing the user's anxiety",
+          "supporting_utterance_span": "rent hike is a slap in the face and I feel like I\u2019m constantly chasing my tail",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "the user's financial struggles are causing their anxiety",
+          "supporting_utterance_span": "I keep thinking I\u2019m stuck in this endless loop of rent hikes and car bills. I\u2019m scared I\u2019ll have to give up everything I\u2019ve worked so hard for",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_susceptibility",
+          "relation_type": "causal",
+          "connection_explanation": "the financial stress triggers (rent hike and car breakdown) contribute to the user's perceived susceptibility to anxiety",
+          "supporting_utterance_span": "rent notice\u2014my landlord wants me to pay the higher amount next month, and I'm already stretched thin. My car's out of commission and the bus fare is eating a chunk of every shift I pick up. It's exhausting trying to juggle all this",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 1.0
+    }
+  ]
+}

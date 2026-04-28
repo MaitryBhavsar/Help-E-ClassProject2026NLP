@@ -1,0 +1,2436 @@
+{
+  "session_id": 1,
+  "session_summary": "",
+  "stage_transitions": [
+    {
+      "problem": "breakup_aftermath",
+      "from": "(absent)",
+      "to": "contemplation"
+    },
+    {
+      "problem": "financial_stress",
+      "from": "(absent)",
+      "to": "precontemplation"
+    },
+    {
+      "problem": "work_stress",
+      "from": "(absent)",
+      "to": "contemplation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "update",
+      "new_value": "divorced or in the process of divorce",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The divorce filing feels like the pot\u2019s lid has been ripped off"
+        }
+      ]
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "side projects",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "trying to keep my side projects afloat"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "brief, possibly guarded",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I don't know. I guess I'm just tired"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I don't know. I guess I'm just tired"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I don't know. I guess I'm just tired"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I don't know. I guess I'm just tired"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "recent divorce filing, work and side project pressures",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The divorce filing feels like the pot\u2019s lid has been ripped off"
+        },
+        {
+          "turn_id": 1,
+          "excerpt": "I\u2019ve been pulling late nights at work, trying to keep my side projects afloat"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I\u2019ve been pulling late nights at work, trying to keep my side projects afloat, and it feels like I\u2019m cooking a stew that keeps spilling over\u2014every time I think I\u2019ve got a handle, another thing boils up. The divorce filing feels like the pot\u2019s lid has been ripped off, and I\u2019m left staring at a mess I can\u2019t quite clean up. I don\u2019t know how to balance the bills, the legal fees, and the fact that my life feels like it just got a new, unplanned recipe."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The divorce filing has unleashed a cascade of challenges, from balancing bills and legal fees to navigating the emotional aftermath, and it's taking a toll on your daily life. You're trying to keep up with work and side projects, but it feels like everything is boiling over. It's like you're staring at a mess that you can't quite clean up, and it's overwhelming. Yeah, that sounds incredibly tough. What's been the most overwhelming part of this for you so far?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I don't know. I guess I'm just tired."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The exhaustion is a sign that your body and mind are feeling the weight of all these changes. It's like you're running on empty, and it's no wonder you're feeling tired. Yeah, it's a lot to handle, and it's okay to acknowledge that it's all feeling a bit too much right now."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I don't know. I guess I'm just tired."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "Your body is sending you a clear signal that it's time to slow down and reassess your priorities. The constant pressure to perform at work, combined with the emotional weight of the divorce filing, is taking a significant toll on your well-being. What's one thing you think you could let go of or adjust in your daily routine to create some breathing room?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I don't know. I guess I'm just tired."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "Yeah, it can be really tough to keep going when you're feeling this drained. It's like your body and mind are saying, 'Hey, slow down, we need a break.' Would you like to talk a bit more about what's been on your mind lately, or is it just too much to think about right now?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I don't know. I guess I'm just tired."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "Your exhaustion is a clear sign that you need to reassess your priorities and make some changes to create a more sustainable work-life balance. Given that you've been pulling late nights at work and trying to keep your side projects afloat, it's no wonder you're feeling drained. What's one aspect of your daily routine that you think you could adjust to create some breathing room and help you feel more in control of your work and personal life?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I\u2019ve been pulling late nights at work, trying to keep my side projects afloat, and it feels like I\u2019m cooking a stew that keeps spilling over\u2014every time I think I\u2019ve got a handle, another thing boils up. The divorce filing feels like the pot\u2019s lid has been ripped off, and I\u2019m left staring at a mess I can\u2019t quite clean up. I don\u2019t know how to balance the bills, the legal fees, and the fact that my life feels like it just got a new, unplanned recipe.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "high",
+          "explanation": "User is expressing overwhelm and frustration with their current situation.",
+          "supporting_utterance_span": "it feels like I\u2019m cooking a stew that keeps spilling over"
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "pulling late nights at work",
+            "supporting_utterance_span": "I\u2019ve been pulling late nights at work"
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "balancing bills and legal fees",
+            "supporting_utterance_span": "balance the bills, the legal fees"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "divorce filing and emotional turmoil",
+            "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "breakup_aftermath",
+          "explanation": "divorce filing is the central, emotionally charged event",
+          "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user feels overwhelmed by work demands",
+            "concise_explanation": "late nights and spill-over metaphor",
+            "supporting_utterance_span": "pulling late nights at work, trying to keep my side projects afloat",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "divorce filing is a major trigger for emotional distress",
+            "concise_explanation": "divorce filing mentioned as a pivotal event",
+            "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user feels uncertain about managing financial obligations",
+            "concise_explanation": "mention of balancing bills and legal fees",
+            "supporting_utterance_span": "balance the bills, the legal fees",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems mentioned in the same turn",
+            "supporting_utterance_span": "I\u2019ve been pulling late nights at work...The divorce filing feels like the pot\u2019s lid has been ripped off"
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "financial_stress",
+            "concise_explanation": "both problems mentioned in the same turn",
+            "supporting_utterance_span": "I\u2019ve been pulling late nights at work...balance the bills, the legal fees"
+          },
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "financial_stress",
+            "concise_explanation": "both problems mentioned in the same turn",
+            "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off...balance the bills, the legal fees"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "work_stress",
+            "attribute_1": "perceived_severity",
+            "problem_2": "breakup_aftermath",
+            "attribute_2": "triggers",
+            "relation_type": "reinforcing",
+            "connection_explanation": "work stress and divorce filing together exacerbate the user's emotional state",
+            "supporting_utterance_span": "I\u2019ve been pulling late nights at work...The divorce filing feels like the pot\u2019s lid has been ripped off",
+            "confidence": "medium"
+          },
+          {
+            "problem_1": "financial_stress",
+            "attribute_1": "perceived_barriers",
+            "problem_2": "breakup_aftermath",
+            "attribute_2": "triggers",
+            "relation_type": "causal",
+            "connection_explanation": "divorce filing leads to increased financial stress due to legal fees",
+            "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off...balance the bills, the legal fees",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User explicitly states feeling overwhelmed by work demands, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User expresses uncertainty about managing financial obligations, suggesting significant perceived barriers to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels uncertain about managing financial obligations"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges feeling overwhelmed, indicating awareness of the problem and potential contemplation of change, despite no explicit mention of motivation or plans to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "While the user recognizes uncertainty about managing financial obligations, there's no clear indication of acknowledging the problem as something that needs to change or any motivation towards change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels uncertain about managing financial obligations"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There's no new evidence this turn that would suggest a change in the user's stage regarding the breakup aftermath.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I\u2019ve been pulling late nights at work, trying to keep my side projects afloat, and it feels like I\u2019m cooking a stew that keeps spilling over\u2014every time I think I\u2019ve got a handle, another thing boils up. The divorce filing feels like the pot\u2019s lid has been ripped off, and I\u2019m left staring at a mess I can\u2019t quite clean up. I don\u2019t know how to balance the bills, the legal fees, and the fact that my life feels like it just got a new, unplanned recipe.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "breakup_aftermath",
+          "current_ttm_stage": "precontemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {},
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "divorce filing is a major trigger for emotional distress",
+                  "concise_explanation": "divorce filing mentioned as a pivotal event",
+                  "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "financial_stress",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user feels uncertain about managing financial obligations",
+                    "concise_explanation": "mention of balancing bills and legal fees",
+                    "supporting_utterance_span": "balance the bills, the legal fees",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_barriers",
+                "attribute_2": "triggers",
+                "explanation": "divorce filing leads to increased financial stress due to legal fees",
+                "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off...balance the bills, the legal fees",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          },
+          {
+            "problem_name": "work_stress",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user feels overwhelmed by work demands",
+                    "concise_explanation": "late nights and spill-over metaphor",
+                    "supporting_utterance_span": "pulling late nights at work, trying to keep my side projects afloat",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.8844129532345624,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "work stress and divorce filing together exacerbate the user's emotional state",
+                "supporting_utterance_span": "I\u2019ve been pulling late nights at work...The divorce filing feels like the pot\u2019s lid has been ripped off",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          }
+        ]
+      },
+      "candidate_bundle": {
+        "main_problem": "breakup_aftermath",
+        "ttm_stage": "precontemplation",
+        "transition_target": "precontemplation \u2192 contemplation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "Where: The user is in the precontemplation stage of the breakup aftermath, expressing emotions about their current situation. Which: I will use complex reflection to develop discrepancy and help the user move towards contemplation. Evidence: The user's statement about feeling like they're cooking a stew that keeps spilling over and the divorce filing feeling like the pot's lid has been ripped off suggests a sense of overwhelm and chaos. Entry: It seems like the divorce filing has unleashed a cascade of challenges, from balancing bills and legal fees to navigating the emotional aftermath, and it's taking a toll on your daily life.",
+        "evidence_used": [
+          {
+            "source": "hbm_attribute.triggers (main_problem=breakup_aftermath, s1t1)",
+            "content": "The divorce filing feels like the pot\u2019s lid has been ripped off"
+          },
+          {
+            "source": "problem_connection.breakup_aftermath\u2194financial_stress (causal, s1t1)",
+            "content": "The divorce filing feels like the pot\u2019s lid has been ripped off...balance the bills, the legal fees"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "I\u2019ve been pulling late nights at work, trying to keep my side projects afloat, and it feels like I\u2019m cooking a stew that keeps spilling over"
+          }
+        ],
+        "final_response": "The divorce filing has unleashed a cascade of challenges, from balancing bills and legal fees to navigating the emotional aftermath, and it's taking a toll on your daily life. You're trying to keep up with work and side projects, but it feels like everything is boiling over. It's like you're staring at a mess that you can't quite clean up, and it's overwhelming. Yeah, that sounds incredibly tough. What's been the most overwhelming part of this for you so far?"
+      },
+      "trace": {
+        "main_problem": "breakup_aftermath",
+        "current_problems": [
+          "work_stress",
+          "financial_stress",
+          "breakup_aftermath"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "precontemplation",
+        "transition_target": "precontemplation \u2192 contemplation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission"
+        ],
+        "chosen_misc_codes": [],
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User explicitly states feeling overwhelmed by work demands, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "financial_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User expresses uncertainty about managing financial obligations, suggesting significant perceived barriers to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels uncertain about managing financial obligations"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges feeling overwhelmed, indicating awareness of the problem and potential contemplation of change, despite no explicit mention of motivation or plans to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "While the user recognizes uncertainty about managing financial obligations, there's no clear indication of acknowledging the problem as something that needs to change or any motivation towards change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels uncertain about managing financial obligations"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There's no new evidence this turn that would suggest a change in the user's stage regarding the breakup aftermath.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "I don't know. I guess I'm just tired.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "high",
+          "explanation": "User is expressing exhaustion and frustration without asking for advice.",
+          "supporting_utterance_span": "I'm just tired"
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "late nights at work",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "divorce filing and emotional aftermath",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "balancing bills and legal fees",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": null,
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user feels overwhelmed by work demands",
+            "concise_explanation": "expresses exhaustion",
+            "supporting_utterance_span": "I'm just tired",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems discussed in recent context",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "financial_stress",
+            "concise_explanation": "both problems discussed in recent context",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "financial_stress",
+            "concise_explanation": "both problems discussed in recent context",
+            "supporting_utterance_span": null
+          }
+        ],
+        "problem_attribute_connections": []
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe feeling overwhelmed by work demands, with no indication of a decrease in severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User remains in contemplation stage as they continue to acknowledge the problem of work stress and its severity, but there is no new evidence of progression towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence is provided to suggest a change in stage for breakup_aftermath.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "divorce filing is a major trigger for emotional distress"
+              }
+            ],
+            "confidence": "low"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence is provided to suggest a change in stage for financial_stress.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels uncertain about managing financial obligations"
+              }
+            ],
+            "confidence": "low"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I don't know. I guess I'm just tired.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019ve been pulling late nights at work, trying to keep my side projects afloat, and it feels like I\u2019m cooking a stew that keeps spilling over\u2014every time I think I\u2019ve got a handle, another thing boils up. The divorce filing feels like the pot\u2019s lid has been ripped off, and I\u2019m left staring at a mess I can\u2019t quite clean up. I don\u2019t know how to balance the bills, the legal fees, and the fact that my life feels like it just got a new, unplanned recipe."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The divorce filing has unleashed a cascade of challenges, from balancing bills and legal fees to navigating the emotional aftermath, and it's taking a toll on your daily life. You're trying to keep up with work and side projects, but it feels like everything is boiling over. It's like you're staring at a mess that you can't quite clean up, and it's overwhelming. Yeah, that sounds incredibly tough. What's been the most overwhelming part of this for you so far?"
+          }
+        ],
+        "last_system_message": "The divorce filing has unleashed a cascade of challenges, from balancing bills and legal fees to navigating the emotional aftermath, and it's taking a toll on your daily life. You're trying to keep up with work and side projects, but it feels like everything is boiling over. It's like you're staring at a mess that you can't quite clean up, and it's overwhelming. Yeah, that sounds incredibly tough. What's been the most overwhelming part of this for you so far?",
+        "main_problem": null,
+        "relevant_problems": []
+      },
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "breakup_aftermath",
+          "strategies": []
+        }
+      ],
+      "response": {
+        "reasoning": "Where: The user is expressing emotion and feeling overwhelmed by their current situation, including the divorce filing and balancing work and side projects. Which: I will use the support strategy to acknowledge their emotions and provide a sense of understanding. Evidence: The user mentioned feeling like they're cooking a stew that keeps spilling over and that their life feels like it just got a new, unplanned recipe, indicating a sense of chaos and uncertainty. Entry: It seems like the exhaustion is a culmination of all the stress and uncertainty you've been dealing with lately, and it's taking a toll on your daily life.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "I\u2019ve been pulling late nights at work, trying to keep my side projects afloat, and it feels like I\u2019m cooking a stew that keeps spilling over"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "The divorce filing feels like the pot\u2019s lid has been ripped off, and I\u2019m left staring at a mess I can\u2019t quite clean up"
+          }
+        ],
+        "final_response": "The exhaustion is a sign that your body and mind are feeling the weight of all these changes. It's like you're running on empty, and it's no wonder you're feeling tired. Yeah, it's a lot to handle, and it's okay to acknowledge that it's all feeling a bit too much right now."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [
+          "work_stress",
+          "breakup_aftermath",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe feeling overwhelmed by work demands, with no indication of a decrease in severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User remains in contemplation stage as they continue to acknowledge the problem of work stress and its severity, but there is no new evidence of progression towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence is provided to suggest a change in stage for breakup_aftermath.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "divorce filing is a major trigger for emotional distress"
+              }
+            ],
+            "confidence": "low"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence is provided to suggest a change in stage for financial_stress.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels uncertain about managing financial obligations"
+              }
+            ],
+            "confidence": "low"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I don't know. I guess I'm just tired.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "high",
+          "explanation": "User is expressing exhaustion and uncertainty without asking for advice.",
+          "supporting_utterance_span": "I don't know. I guess I'm just tired."
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "user mentioned being tired, implying ongoing work-related strain",
+            "supporting_utterance_span": "I guess I'm just tired."
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "recent divorce filing and emotional aftermath",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "user's immediate expression of tiredness suggests work stress is the dominant concern in this turn",
+          "supporting_utterance_span": "I guess I'm just tired."
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user feels overwhelmed by work demands",
+            "concise_explanation": "user expresses exhaustion",
+            "supporting_utterance_span": "I guess I'm just tired.",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems are active in the user's recent context",
+            "supporting_utterance_span": null
+          }
+        ],
+        "problem_attribute_connections": []
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe feeling overwhelmed by work demands, with consistent high confidence across all entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User remains in contemplation stage as they continue to acknowledge the problem of work stress and its severity but do not show signs of moving towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence this turn to suggest a change in stage for breakup_aftermath; user's stage remains precontemplation due to lack of information indicating awareness or consideration of change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: divorce filing is a major trigger for emotional distress"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I don't know. I guess I'm just tired.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019ve been pulling late nights at work, trying to keep my side projects afloat, and it feels like I\u2019m cooking a stew that keeps spilling over\u2014every time I think I\u2019ve got a handle, another thing boils up. The divorce filing feels like the pot\u2019s lid has been ripped off, and I\u2019m left staring at a mess I can\u2019t quite clean up. I don\u2019t know how to balance the bills, the legal fees, and the fact that my life feels like it just got a new, unplanned recipe."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The divorce filing has unleashed a cascade of challenges, from balancing bills and legal fees to navigating the emotional aftermath, and it's taking a toll on your daily life. You're trying to keep up with work and side projects, but it feels like everything is boiling over. It's like you're staring at a mess that you can't quite clean up, and it's overwhelming. Yeah, that sounds incredibly tough. What's been the most overwhelming part of this for you so far?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I don't know. I guess I'm just tired."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "The exhaustion is a sign that your body and mind are feeling the weight of all these changes. It's like you're running on empty, and it's no wonder you're feeling tired. Yeah, it's a lot to handle, and it's okay to acknowledge that it's all feeling a bit too much right now."
+          }
+        ],
+        "last_system_message": "The exhaustion is a sign that your body and mind are feeling the weight of all these changes. It's like you're running on empty, and it's no wonder you're feeling tired. Yeah, it's a lot to handle, and it's okay to acknowledge that it's all feeling a bit too much right now.",
+        "main_problem": {
+          "problem_name": "work_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user feels overwhelmed by work demands",
+                  "concise_explanation": "late nights and spill-over metaphor",
+                  "supporting_utterance_span": "pulling late nights at work, trying to keep my side projects afloat",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user feels overwhelmed by work demands",
+                  "concise_explanation": "expresses exhaustion",
+                  "supporting_utterance_span": "I'm just tired",
+                  "confidence": "medium"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user feels overwhelmed by work demands",
+                  "concise_explanation": "user expresses exhaustion",
+                  "supporting_utterance_span": "I guess I'm just tired.",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "divorce filing is a major trigger for emotional distress",
+                    "concise_explanation": "divorce filing mentioned as a pivotal event",
+                    "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.8829345216748978,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "work stress and divorce filing together exacerbate the user's emotional state",
+                "supporting_utterance_span": "I\u2019ve been pulling late nights at work...The divorce filing feels like the pot\u2019s lid has been ripped off",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          },
+          {
+            "problem_name": "financial_stress",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user feels uncertain about managing financial obligations",
+                    "concise_explanation": "mention of balancing bills and legal fees",
+                    "supporting_utterance_span": "balance the bills, the legal fees",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.3128818084226832,
+            "cooccurrence_count": 2,
+            "connection_evidence": []
+          }
+        ]
+      },
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "breakup_aftermath",
+          "strategies": []
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: The user is currently in the contemplation stage of their work stress, feeling overwhelmed and tired from trying to balance work, side projects, and the emotional aftermath of a divorce filing. Which: I will use the evoke strategy to help the user explore their ambivalence and move towards preparation, as well as provide support to acknowledge their emotions. Evidence: The user's recent messages, such as 'I've been pulling late nights at work, trying to keep my side projects afloat' and 'I guess I'm just tired', show the toll that work stress and the divorce filing are taking on their life. Entry: The exhaustion and feeling of being overwhelmed are palpable, and it's clear that the user is struggling to cope with the demands of work and their personal life.",
+        "evidence_used": [
+          {
+            "source": "hbm_attribute.perceived_severity (main_problem=work_stress, s1t1)",
+            "content": "high"
+          },
+          {
+            "source": "problem_connection.work_stress\u2194breakup_aftermath (shared_trigger, s1t1)",
+            "content": "I\u2019ve been pulling late nights at work...The divorce filing feels like the pot\u2019s lid has been ripped off"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "I guess I'm just tired"
+          }
+        ],
+        "final_response": "Your body is sending you a clear signal that it's time to slow down and reassess your priorities. The constant pressure to perform at work, combined with the emotional weight of the divorce filing, is taking a significant toll on your well-being. What's one thing you think you could let go of or adjust in your daily routine to create some breathing room?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "breakup_aftermath"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "support"
+        ],
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe feeling overwhelmed by work demands, with consistent high confidence across all entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User remains in contemplation stage as they continue to acknowledge the problem of work stress and its severity but do not show signs of moving towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence this turn to suggest a change in stage for breakup_aftermath; user's stage remains precontemplation due to lack of information indicating awareness or consideration of change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: divorce filing is a major trigger for emotional distress"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I don't know. I guess I'm just tired.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "high",
+          "explanation": "User is expressing exhaustion without asking for advice.",
+          "supporting_utterance_span": "I don't know. I guess I'm just tired."
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "constant pressure to perform at work",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "emotional weight of the divorce filing",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "balancing bills and legal fees",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": null,
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user feels overwhelmed by work demands",
+            "concise_explanation": "constant pressure to perform",
+            "supporting_utterance_span": null,
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user is struggling with emotional aftermath",
+            "concise_explanation": "emotional weight of divorce",
+            "supporting_utterance_span": null,
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user feels unable to manage work and personal life",
+            "concise_explanation": "feeling of being overwhelmed",
+            "supporting_utterance_span": null,
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems discussed in recent dialogue",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_1": "work_stress",
+            "problem_2": "financial_stress",
+            "concise_explanation": "both problems discussed in recent dialogue",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "financial_stress",
+            "concise_explanation": "both problems discussed in recent dialogue",
+            "supporting_utterance_span": null
+          }
+        ],
+        "problem_attribute_connections": []
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe feeling overwhelmed by work demands, with consistent reports across all turns.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now reports feeling unable to manage work and personal life, indicating significant barriers to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user feels unable to manage work and personal life"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User reports struggling with emotional aftermath, suggesting a noticeable but not overwhelming level of severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user is struggling with emotional aftermath"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and express feelings of being overwhelmed, but does not yet show signs of preparation for change, such as concrete plans or steps taken.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user feels unable to manage work and personal life"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User now acknowledges the emotional aftermath of the breakup, indicating a growing awareness of the problem and potential motivation to address it.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user is struggling with emotional aftermath"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence to suggest a change in the user's awareness or motivation to address financial stress.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I don't know. I guess I'm just tired.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019ve been pulling late nights at work, trying to keep my side projects afloat, and it feels like I\u2019m cooking a stew that keeps spilling over\u2014every time I think I\u2019ve got a handle, another thing boils up. The divorce filing feels like the pot\u2019s lid has been ripped off, and I\u2019m left staring at a mess I can\u2019t quite clean up. I don\u2019t know how to balance the bills, the legal fees, and the fact that my life feels like it just got a new, unplanned recipe."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The divorce filing has unleashed a cascade of challenges, from balancing bills and legal fees to navigating the emotional aftermath, and it's taking a toll on your daily life. You're trying to keep up with work and side projects, but it feels like everything is boiling over. It's like you're staring at a mess that you can't quite clean up, and it's overwhelming. Yeah, that sounds incredibly tough. What's been the most overwhelming part of this for you so far?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I don't know. I guess I'm just tired."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "The exhaustion is a sign that your body and mind are feeling the weight of all these changes. It's like you're running on empty, and it's no wonder you're feeling tired. Yeah, it's a lot to handle, and it's okay to acknowledge that it's all feeling a bit too much right now."
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I don't know. I guess I'm just tired."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "Your body is sending you a clear signal that it's time to slow down and reassess your priorities. The constant pressure to perform at work, combined with the emotional weight of the divorce filing, is taking a significant toll on your well-being. What's one thing you think you could let go of or adjust in your daily routine to create some breathing room?"
+          }
+        ],
+        "last_system_message": "Your body is sending you a clear signal that it's time to slow down and reassess your priorities. The constant pressure to perform at work, combined with the emotional weight of the divorce filing, is taking a significant toll on your well-being. What's one thing you think you could let go of or adjust in your daily routine to create some breathing room?",
+        "main_problem": null,
+        "relevant_problems": []
+      },
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "work_stress",
+          "strategies": [
+            "evoke",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: The user is expressing exhaustion and uncertainty, feeling overwhelmed by their current situation. Which: I'll use the support strategy to acknowledge their emotions and provide a sense of comfort. Evidence: The user's repetition of 'I don't know' and 'I guess I'm just tired' suggests a sense of helplessness and emotional exhaustion, as seen in their recent turns. Entry: It seems like the weight of everything is still feeling crushing, and it's hard to find the energy to think about what to do next.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "I don't know. I guess I'm just tired."
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "I don't know. I guess I'm just tired."
+          }
+        ],
+        "final_response": "Yeah, it can be really tough to keep going when you're feeling this drained. It's like your body and mind are saying, 'Hey, slow down, we need a break.' Would you like to talk a bit more about what's been on your mind lately, or is it just too much to think about right now?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [
+          "work_stress",
+          "breakup_aftermath",
+          "financial_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe feeling overwhelmed by work demands, with consistent reports across all turns.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now reports feeling unable to manage work and personal life, indicating significant barriers to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user feels unable to manage work and personal life"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User reports struggling with emotional aftermath, suggesting a noticeable but not overwhelming level of severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user is struggling with emotional aftermath"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and express feelings of being overwhelmed, but does not yet show signs of preparation for change, such as concrete plans or steps taken.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user feels unable to manage work and personal life"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User now acknowledges the emotional aftermath of the breakup, indicating a growing awareness of the problem and potential motivation to address it.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user is struggling with emotional aftermath"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "There is no new evidence to suggest a change in the user's awareness or motivation to address financial stress.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I don't know. I guess I'm just tired.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "high",
+          "explanation": "User is expressing exhaustion without asking for advice.",
+          "supporting_utterance_span": "I don't know. I guess I'm just tired."
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "user is feeling drained and overwhelmed",
+            "supporting_utterance_span": "I don't know. I guess I'm just tired."
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "recent divorce filing and emotional aftermath",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "work_stress",
+          "explanation": "user's current emotional state is dominated by exhaustion",
+          "supporting_utterance_span": "I don't know. I guess I'm just tired."
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user feels overwhelmed and drained",
+            "concise_explanation": "user expresses exhaustion",
+            "supporting_utterance_span": "I don't know. I guess I'm just tired.",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "self_efficacy",
+            "attribute_type": "level",
+            "inferred_information": "user feels unable to cope with current demands",
+            "concise_explanation": "user's repeated expression of exhaustion",
+            "supporting_utterance_span": "I don't know. I guess I'm just tired.",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "work_stress",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems are contributing to user's current emotional state",
+            "supporting_utterance_span": null
+          }
+        ],
+        "problem_attribute_connections": []
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe feeling overwhelmed and drained by work demands, with no indication of reduction in severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels overwhelmed and drained"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "self_efficacy",
+            "old_level": "unknown",
+            "new_level": "low",
+            "reasoning": "User now expresses feeling unable to cope with current demands, indicating a low sense of self-efficacy.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels unable to cope with current demands"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User remains in contemplation stage as they continue to acknowledge the problem (high perceived severity) but express low self-efficacy, indicating ambivalence about change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels overwhelmed and drained"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels unable to cope with current demands"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "No new evidence this turn directly impacts the stage of breakup_aftermath; thus, it remains in contemplation.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I don't know. I guess I'm just tired.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I\u2019ve been pulling late nights at work, trying to keep my side projects afloat, and it feels like I\u2019m cooking a stew that keeps spilling over\u2014every time I think I\u2019ve got a handle, another thing boils up. The divorce filing feels like the pot\u2019s lid has been ripped off, and I\u2019m left staring at a mess I can\u2019t quite clean up. I don\u2019t know how to balance the bills, the legal fees, and the fact that my life feels like it just got a new, unplanned recipe."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "The divorce filing has unleashed a cascade of challenges, from balancing bills and legal fees to navigating the emotional aftermath, and it's taking a toll on your daily life. You're trying to keep up with work and side projects, but it feels like everything is boiling over. It's like you're staring at a mess that you can't quite clean up, and it's overwhelming. Yeah, that sounds incredibly tough. What's been the most overwhelming part of this for you so far?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I don't know. I guess I'm just tired."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "The exhaustion is a sign that your body and mind are feeling the weight of all these changes. It's like you're running on empty, and it's no wonder you're feeling tired. Yeah, it's a lot to handle, and it's okay to acknowledge that it's all feeling a bit too much right now."
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I don't know. I guess I'm just tired."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "Your body is sending you a clear signal that it's time to slow down and reassess your priorities. The constant pressure to perform at work, combined with the emotional weight of the divorce filing, is taking a significant toll on your well-being. What's one thing you think you could let go of or adjust in your daily routine to create some breathing room?"
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "I don't know. I guess I'm just tired."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "Yeah, it can be really tough to keep going when you're feeling this drained. It's like your body and mind are saying, 'Hey, slow down, we need a break.' Would you like to talk a bit more about what's been on your mind lately, or is it just too much to think about right now?"
+          }
+        ],
+        "last_system_message": "Yeah, it can be really tough to keep going when you're feeling this drained. It's like your body and mind are saying, 'Hey, slow down, we need a break.' Would you like to talk a bit more about what's been on your mind lately, or is it just too much to think about right now?",
+        "main_problem": {
+          "problem_name": "work_stress",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user feels overwhelmed by work demands",
+                  "concise_explanation": "user expresses exhaustion",
+                  "supporting_utterance_span": "I guess I'm just tired.",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user feels overwhelmed by work demands",
+                  "concise_explanation": "constant pressure to perform",
+                  "supporting_utterance_span": null,
+                  "confidence": "medium"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user feels overwhelmed and drained",
+                  "concise_explanation": "user expresses exhaustion",
+                  "supporting_utterance_span": "I don't know. I guess I'm just tired.",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user feels unable to manage work and personal life",
+                  "concise_explanation": "feeling of being overwhelmed",
+                  "supporting_utterance_span": null,
+                  "confidence": "medium"
+                }
+              ]
+            },
+            "self_efficacy": {
+              "current_level": "low",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user feels unable to cope with current demands",
+                  "concise_explanation": "user's repeated expression of exhaustion",
+                  "supporting_utterance_span": "I don't know. I guess I'm just tired.",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user is struggling with emotional aftermath",
+                    "concise_explanation": "emotional weight of divorce",
+                    "supporting_utterance_span": null,
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "divorce filing is a major trigger for emotional distress",
+                    "concise_explanation": "divorce filing mentioned as a pivotal event",
+                    "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.881487843333849,
+            "cooccurrence_count": 5,
+            "connection_evidence": [
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "triggers",
+                "explanation": "work stress and divorce filing together exacerbate the user's emotional state",
+                "supporting_utterance_span": "I\u2019ve been pulling late nights at work...The divorce filing feels like the pot\u2019s lid has been ripped off",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          },
+          {
+            "problem_name": "financial_stress",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user feels uncertain about managing financial obligations",
+                    "concise_explanation": "mention of balancing bills and legal fees",
+                    "supporting_utterance_span": "balance the bills, the legal fees",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.30391551190289023,
+            "cooccurrence_count": 3,
+            "connection_evidence": []
+          }
+        ]
+      },
+      "candidate_bundle": {
+        "main_problem": "work_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "work_stress",
+          "strategies": [
+            "evoke",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "Where: The user is currently in the contemplation stage of their work stress, feeling overwhelmed and tired. Which: I will use the support and evoke strategies to help the user explore their emotions and develop a plan to manage their work stress. Evidence: The user has mentioned feeling tired and overwhelmed, and has a low self-efficacy when it comes to managing their work and personal life. Entry: The user's exhaustion is a clear sign that they need to reassess their priorities and make some changes to create a more sustainable work-life balance.",
+        "evidence_used": [
+          {
+            "source": "hbm_attribute.perceived_severity (main_problem=work_stress, s1t1)",
+            "content": "high"
+          },
+          {
+            "source": "hbm_attribute.self_efficacy (main_problem=work_stress, s1t5)",
+            "content": "low"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "I don't know. I guess I'm just tired."
+          }
+        ],
+        "final_response": "Your exhaustion is a clear sign that you need to reassess your priorities and make some changes to create a more sustainable work-life balance. Given that you've been pulling late nights at work and trying to keep your side projects afloat, it's no wonder you're feeling drained. What's one aspect of your daily routine that you think you could adjust to create some breathing room and help you feel more in control of your work and personal life?"
+      },
+      "trace": {
+        "main_problem": "work_stress",
+        "current_problems": [
+          "work_stress",
+          "breakup_aftermath"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "self_efficacy"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe feeling overwhelmed and drained by work demands, with no indication of reduction in severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels overwhelmed and drained"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user feels overwhelmed by work demands"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user feels overwhelmed by work demands"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "work_stress",
+            "attribute_name": "self_efficacy",
+            "old_level": "unknown",
+            "new_level": "low",
+            "reasoning": "User now expresses feeling unable to cope with current demands, indicating a low sense of self-efficacy.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels unable to cope with current demands"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User remains in contemplation stage as they continue to acknowledge the problem (high perceived severity) but express low self-efficacy, indicating ambivalence about change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels overwhelmed and drained"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels unable to cope with current demands"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "No new evidence this turn directly impacts the stage of breakup_aftermath; thus, it remains in contemplation.",
+            "evidence_used": [],
+            "confidence": "low"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

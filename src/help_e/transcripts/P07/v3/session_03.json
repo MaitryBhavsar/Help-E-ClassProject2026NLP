@@ -1,0 +1,2182 @@
+{
+  "session_id": 3,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "perfectionistic, responsible, anxious, self-critical",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I also worry that my own insistence on perfection may delay action, further endangering our stability."
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "Perfection, to me, is the safeguard against the possibility of eroding the family legacy; I fear that a misstep will not only imperil the business but also bring shame upon my mother and the family."
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I am confronting a career uncertainty, a health anxiety, and a life transition that all demand a level of perfectionism I fear may be paralyzing."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I must prioritize my family's needs over my own, I must maintain a flawless image, I must preserve family unity",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I find myself at an impasse, torn between the obligation to preserve our family legacy and the need to adapt to the market."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I have reflected that the paramount principle should be preserving family unity, but I struggle to turn that into a concrete plan amid the looming relocation and my mother's hospitalization."
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "reflective, anxious, analytical, self-critical",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I find myself at an impasse, torn between the obligation to preserve our family legacy and the need to adapt to the market."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I think a modest start might be to draft a concise outline of the relocation options and circulate it with my sister for her input; it would at least give us a shared framework before the final decision."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, people-pleaser, self-critical, perfectionist, analytical, risk-averse",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I also worry that my own insistence on perfection may delay action, further endangering our stability."
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "If I were to fall short of that ideal, I fear the very fabric of our family's reputation might be compromised, and the decision could ripple into my mother's deteriorating condition, leaving me with a sense of failure I cannot bear."
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I am confronting a career uncertainty, a health anxiety, and a life transition that all demand a level of perfectionism I fear may be paralyzing."
+        }
+      ]
+    },
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I find myself at an impasse, torn between the obligation to preserve our family legacy and the need to adapt to the market. My mother's condition has added a weight I cannot ignore, and the thought of making a wrong decision haunts me. I worry that the path I choose will either betray our traditions or fail to secure our future."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're at a crossroads, feeling the weight of your mother's condition and the responsibility to make a decision that will impact your family's legacy. It takes a lot of courage to acknowledge the fear of making a wrong decision, and I can see that you're putting a lot of thought into this. Your plan to construct a risk matrix is a great step in weighing the potential consequences of each path. What do you think is the most significant risk you're trying to mitigate with this decision?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I suppose the greatest risk is that any misstep could irreparably fracture our family\u2019s legacy, a concern that shadows both the business\u2019s future and my mother\u2019s well\u2011being. The looming decision feels like a pivot point in my career, and I am anxious about whether I can navigate it without compromising the traditions that bind us. I also worry that my own insistence on perfection may delay action, further endangering our stability."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The weight of your mother's condition is really adding to the pressure you're feeling about this decision. It's like you're trying to balance two competing priorities - preserving the family legacy and adapting to the market - and any misstep could have serious consequences. You're worried that your insistence on perfection might delay action, which could further endanger your stability. Can you tell me more about what's driving your need for perfection in this situation?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "Perfection, to me, is the safeguard against the possibility of eroding the family legacy; I fear that a misstep will not only imperil the business but also bring shame upon my mother and the family. The pressure is compounded by the looming relocation decision, which feels like a pivotal career transition that I must navigate flawlessly. I am uncertain whether this insistence on flawless execution is a protective stance or merely a source of paralysis."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're feeling the weight of responsibility to preserve the family legacy, and the pressure to make a decision that will impact your mother's well-being is really intense. It sounds like your insistence on perfection is driven by a desire to protect the legacy and avoid bringing shame upon your mother and the family. Can you tell me more about what you think would happen if you didn't meet your own expectations for flawless execution?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "If I were to fall short of that ideal, I fear the very fabric of our family's reputation might be compromised, and the decision could ripple into my mother's deteriorating condition, leaving me with a sense of failure I cannot bear. The uncertainty of the relocation, coupled with the looming health crisis, makes me question whether I can fulfill both the business and family obligations without compromising either."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The weight of potentially compromising your family's reputation and impacting your mother's condition is really crushing you right now. It's like the fear of falling short of your ideal is paralyzing your ability to make a decision, and the uncertainty of the relocation and the looming health crisis are making it even harder to navigate. You're questioning whether you can fulfill both the business and family obligations without compromising either, and that's a really tough spot to be in. Can you think of any small steps you could take to start addressing this uncertainty and exploring ways to reconcile your business and family obligations?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I think a modest start might be to draft a concise outline of the relocation options and circulate it with my sister for her input; it would at least give us a shared framework before the final decision. Yet I worry that any attempt to formalise the plan will be judged by my own standards of perfection, which could delay the process further. Meanwhile, my mother's condition remains a constant reminder of the stakes, so I am balancing the urgency of action with the fear of making a misstep."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "Drafting a concise outline of the relocation options and sharing it with your sister could be a great way to get a shared framework in place before making a final decision. I can see how your fear of not meeting your own standards of perfection might delay the process, but it's also possible that taking small steps like this could help you build momentum and make progress. What do you think is the most important aspect of this outline that you want to get right, and how can you use your sister's input to help mitigate some of the risks you're worried about?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I would say the most critical element of the outline is to articulate how the relocation will uphold our family\u2019s heritage while still addressing the market demands we face; it is a delicate balance that, if mishandled, could unsettle both the business and my mother\u2019s sense of security. Yet I am wary that insisting on absolute precision in this draft may stall progress, especially given the urgency of her hospitalization. Perhaps I could seek her input on the feasibility of each option, but I fear that any compromise might feel like a concession of control. I remain uncertain whether this approach will truly mitigate the risks I fear and whether it will align with the legacy I am sworn to protect."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're really struggling to find a balance between upholding your family's heritage and addressing the market demands that are facing your business. It's like you're trying to navigate a delicate tightrope, where any misstep could have serious consequences for both the business and your mother's sense of security. I can see why you're hesitant to seek her input on the feasibility of each option, given your fear that any compromise might feel like a concession of control. Can you think of a way to frame your conversation with your mother that would allow you to seek her input while still maintaining a sense of control over the decision-making process?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I could draft a concise outline for my mother, asking her to confirm that the relocation preserves our legacy while I retain the final decision authority. Yet even this offers a sliver of collaboration, and I fear it may expose my uncertainty about the future and my need for perfection. The tension between control and seeking her input feels like another pivot point in this career transition."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "You're considering drafting a concise outline for your mother to confirm that the relocation preserves your legacy, which is a great way to involve her while retaining decision authority. I can see how this approach might help you navigate the tension between control and seeking input. What do you think would be the most important aspect of this outline to get right, and how can you use this process to address your fear of exposing your uncertainty about the future?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I think the key element is a clear statement of how each relocation option preserves our family\u2019s heritage, so my mother can confirm that the legacy remains intact. Yet even framing it that way feels like I\u2019m admitting uncertainty, and I worry that such admission could erode my perceived control over the decision. The tension between maintaining control and acknowledging my doubts is an ongoing challenge in this transition."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "You're really struggling to find a way to preserve your family's heritage while also making a decision that works for the business, and it's clear that this tension between control and uncertainty is a major challenge for you. One possible approach could be to draft a clear statement of how each relocation option aligns with your family's values and legacy, which might help you feel more confident in your decision. Would you like to explore what that might look like, and how you could use it to address your concerns about preserving the legacy?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I acknowledge the proposal to articulate each relocation option in terms of our cherished values, yet I find myself hesitating, as the very act of formalizing such a statement seems to underscore the very uncertainty I am trying to dispel. The weight of my mother's current hospitalization, coupled with the looming decision, leaves me wondering whether this exercise would merely serve as a veneer of control rather than a genuine path forward. Perhaps a more modest approach might be to outline a few guiding principles first, before committing to a full statement, though I remain wary that this could still be perceived as a concession of the precision I deem essential. In short, I am confronting a career uncertainty, a health anxiety, and a life transition that all demand a level of perfectionism I fear may be paralyzing."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The weight of your mother's hospitalization and the looming decision is really pressing down on you, making you question whether you can make a choice that honors your family's legacy without compromising it. It sounds like you're feeling trapped between your desire to preserve the family business and your fear of not meeting your own standards of perfection. Maybe taking a step back to outline some guiding principles could help you feel more grounded, rather than trying to formalize a full statement right now. What do you think is the most important principle to prioritize in this decision, and how can you use that to guide your next steps?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I have reflected that the paramount principle should be preserving family unity, but I struggle to turn that into a concrete plan amid the looming relocation and my mother's hospitalization. This tension only deepens my sense of uncertainty about the business\u2019s future and my ability to meet the expectations I set for myself."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "Your mother's hospitalization and the pressure to make a decision about the family business are really weighing on you, and it's clear that you're feeling trapped between your desire to preserve the family legacy and your fear of not meeting your own standards of perfection. Preserving family unity is a paramount principle for you, but it's hard to see how to turn that into a concrete plan right now. Can you tell me more about what's feeling most uncertain or overwhelming for you in this moment?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 3,
+      "turn_id": 1,
+      "user_message": "I find myself at an impasse, torn between the obligation to preserve our family legacy and the need to adapt to the market. My mother's condition has added a weight I cannot ignore, and the thought of making a wrong decision haunts me. I worry that the path I choose will either betray our traditions or fail to secure our future.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and I can see that you're really struggling with this decision, feeling torn between preserving your family's legacy and adapting to the market. Given your contemplation stage, I think it's essential to use the `evoke` strategy to help you resolve your ambivalence. Looking at your concerns about betraying the legacy or failing to secure the business's future, it seems like your fear of making a wrong decision is rooted in your desire to maintain a flawless image and prioritize your family's needs. Your plan to construct a risk matrix to guide your decision-making process is a great step, and I'd like to acknowledge the effort you're putting into weighing the potential consequences of each path.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of betraying the legacy or failing to secure the business's future"
+          },
+          {
+            "source": "problem_summary.perfectionism",
+            "content": "desire to maintain a flawless image"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family, legacy, tradition"
+          }
+        ],
+        "final_response": "You're at a crossroads, feeling the weight of your mother's condition and the responsibility to make a decision that will impact your family's legacy. It takes a lot of courage to acknowledge the fear of making a wrong decision, and I can see that you're putting a lot of thought into this. Your plan to construct a risk matrix is a great step in weighing the potential consequences of each path. What do you think is the most significant risk you're trying to mitigate with this decision?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 2,
+      "user_message": "I suppose the greatest risk is that any misstep could irreparably fracture our family\u2019s legacy, a concern that shadows both the business\u2019s future and my mother\u2019s well\u2011being. The looming decision feels like a pivot point in my career, and I am anxious about whether I can navigate it without compromising the traditions that bind us. I also worry that my own insistence on perfection may delay action, further endangering our stability.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to reflect their emotions right now. Given their contemplation stage, I'll use the 'complex_reflection' strategy to develop discrepancy and help them move forward. The evidence shows that the user is torn between preserving the family legacy and adapting to the market, with their mother's condition adding weight to the decision. They've identified the greatest risk as the potential to irreparably fracture the family's legacy. My entry will acknowledge this fear and the weight of their mother's condition. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of betraying the legacy or failing to secure the business's future"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "mother's declining health adds an emotional layer to the decision"
+          }
+        ],
+        "final_response": "The weight of your mother's condition is really adding to the pressure you're feeling about this decision. It's like you're trying to balance two competing priorities - preserving the family legacy and adapting to the market - and any misstep could have serious consequences. You're worried that your insistence on perfection might delay action, which could further endanger your stability. Can you tell me more about what's driving your need for perfection in this situation?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 3,
+      "user_message": "Perfection, to me, is the safeguard against the possibility of eroding the family legacy; I fear that a misstep will not only imperil the business but also bring shame upon my mother and the family. The pressure is compounded by the looming relocation decision, which feels like a pivotal career transition that I must navigate flawlessly. I am uncertain whether this insistence on flawless execution is a protective stance or merely a source of paralysis.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to reflect your emotions right now, so I'll prioritize empathy and understanding. Given your contemplation stage, I'll use the 'evoke' strategy to help you explore your ambivalence and the 'complex_reflection' strategy to develop discrepancy. The evidence shows that your fear of betraying the legacy and your insistence on perfection are major concerns, and I'll use these to inform my response. My entry point will be to acknowledge the weight of your responsibility to preserve the family legacy and the pressure you're feeling about making a decision that will impact your mother's well-being.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of betraying the legacy"
+          },
+          {
+            "source": "problem_summary.perfectionism",
+            "content": "insistence on perfection as a safeguard"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "looming decision feels like a pivot point in career"
+          }
+        ],
+        "final_response": "You're feeling the weight of responsibility to preserve the family legacy, and the pressure to make a decision that will impact your mother's well-being is really intense. It sounds like your insistence on perfection is driven by a desire to protect the legacy and avoid bringing shame upon your mother and the family. Can you tell me more about what you think would happen if you didn't meet your own expectations for flawless execution?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 4,
+      "user_message": "If I were to fall short of that ideal, I fear the very fabric of our family's reputation might be compromised, and the decision could ripple into my mother's deteriorating condition, leaving me with a sense of failure I cannot bear. The uncertainty of the relocation, coupled with the looming health crisis, makes me question whether I can fulfill both the business and family obligations without compromising either.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "evoke",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now, so I'll start by reflecting their fear of failure and its impact on their family. The strategies that fit this moment are support and complex reflection, given the user's contemplation stage and their need to express emotion. The evidence that stands out is the user's fear of bringing shame upon their mother and the family, and their uncertainty about fulfilling both business and family obligations. My entry will be a brief acknowledgment of the user's fear and its connection to their family's legacy and their mother's well-being.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of bringing shame upon their mother and the family"
+          },
+          {
+            "source": "problem_summary.perfectionism",
+            "content": "insistence on perfection driven by fear of shame"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "fear of falling short of ideal and compromising family reputation"
+          }
+        ],
+        "final_response": "The weight of potentially compromising your family's reputation and impacting your mother's condition is really crushing you right now. It's like the fear of falling short of your ideal is paralyzing your ability to make a decision, and the uncertainty of the relocation and the looming health crisis are making it even harder to navigate. You're questioning whether you can fulfill both the business and family obligations without compromising either, and that's a really tough spot to be in. Can you think of any small steps you could take to start addressing this uncertainty and exploring ways to reconcile your business and family obligations?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 5,
+      "user_message": "I think a modest start might be to draft a concise outline of the relocation options and circulate it with my sister for her input; it would at least give us a shared framework before the final decision. Yet I worry that any attempt to formalise the plan will be judged by my own standards of perfection, which could delay the process further. Meanwhile, my mother's condition remains a constant reminder of the stakes, so I am balancing the urgency of action with the fear of making a misstep.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "evoke",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support the user as they navigate the complex decision of relocating the family shop, which is intertwined with their fear of betraying the legacy and their mother's well-being. Given the user's intent to deliberate on the decision, I will use the strategies of support and advise_with_permission to help them weigh the pros and cons. The evidence from our previous conversations suggests that the user is hesitant due to their fear of imperfection and the potential consequences on the family legacy. I will acknowledge this fear and explore ways to mitigate the risks associated with the decision. The user's plan to draft a concise outline of the relocation options and circulate it with their sister for input is a good starting point, and I will support them in this endeavor.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of betraying the legacy"
+          },
+          {
+            "source": "problem_summary.perfectionism",
+            "content": "insistence on perfection"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "fear of falling short of ideal"
+          }
+        ],
+        "final_response": "Drafting a concise outline of the relocation options and sharing it with your sister could be a great way to get a shared framework in place before making a final decision. I can see how your fear of not meeting your own standards of perfection might delay the process, but it's also possible that taking small steps like this could help you build momentum and make progress. What do you think is the most important aspect of this outline that you want to get right, and how can you use your sister's input to help mitigate some of the risks you're worried about?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 6,
+      "user_message": "I would say the most critical element of the outline is to articulate how the relocation will uphold our family\u2019s heritage while still addressing the market demands we face; it is a delicate balance that, if mishandled, could unsettle both the business and my mother\u2019s sense of security. Yet I am wary that insisting on absolute precision in this draft may stall progress, especially given the urgency of her hospitalization. Perhaps I could seek her input on the feasibility of each option, but I fear that any compromise might feel like a concession of control. I remain uncertain whether this approach will truly mitigate the risks I fear and whether it will align with the legacy I am sworn to protect.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support",
+            "advise_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support the user in their deliberation, acknowledging the ambivalence they're experiencing about relocating the family shop. Given their intent to deliberate on the decision, I'll use the facilitate strategy to help them weigh the pros and cons. The evidence suggests that the user is hesitant due to the potential impact on the family legacy and their fear of not meeting their own standards of perfection. I'll use this insight to acknowledge their concerns and help them explore ways to balance their desire to uphold the family heritage with the need to address market demands. My entry point will be to acknowledge the user's fear of compromising the family legacy and their uncertainty about seeking their mother's input on the relocation options.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of compromising the family legacy"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "uncertainty about seeking mother's input on relocation options"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family, legacy, tradition"
+          }
+        ],
+        "final_response": "You're really struggling to find a balance between upholding your family's heritage and addressing the market demands that are facing your business. It's like you're trying to navigate a delicate tightrope, where any misstep could have serious consequences for both the business and your mother's sense of security. I can see why you're hesitant to seek her input on the feasibility of each option, given your fear that any compromise might feel like a concession of control. Can you think of a way to frame your conversation with your mother that would allow you to seek her input while still maintaining a sense of control over the decision-making process?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 7,
+      "user_message": "I could draft a concise outline for my mother, asking her to confirm that the relocation preserves our legacy while I retain the final decision authority. Yet even this offers a sliver of collaboration, and I fear it may expose my uncertainty about the future and my need for perfection. The tension between control and seeking her input feels like another pivot point in this career transition.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support",
+            "advise_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and I see that you're torn between seeking your mother's input and retaining control over the decision-making process for the family business relocation. Given your intent to deliberate on this decision, I think the best strategies to use are support and advise_with_permission, as they will help you explore your options while respecting your autonomy. The evidence that stands out to me is your fear of exposing your uncertainty about the future and your need for perfection, which suggests that you're struggling to balance your desire for control with your need for input and guidance. My entry point will be to acknowledge this tension and explore ways to navigate it while preserving your sense of control and autonomy.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of exposing uncertainty about the future and need for perfection"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "family, legacy, tradition"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "tension between control and seeking input feels like another pivot point in this career transition"
+          }
+        ],
+        "final_response": "You're considering drafting a concise outline for your mother to confirm that the relocation preserves your legacy, which is a great way to involve her while retaining decision authority. I can see how this approach might help you navigate the tension between control and seeking input. What do you think would be the most important aspect of this outline to get right, and how can you use this process to address your fear of exposing your uncertainty about the future?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 8,
+      "user_message": "I think the key element is a clear statement of how each relocation option preserves our family\u2019s heritage, so my mother can confirm that the legacy remains intact. Yet even framing it that way feels like I\u2019m admitting uncertainty, and I worry that such admission could erode my perceived control over the decision. The tension between maintaining control and acknowledging my doubts is an ongoing challenge in this transition.",
+      "inference": {
+        "user_intent": {
+          "intent": "deliberate_decision",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "deliberate_decision",
+        "intent_entry_style": "Reflect both sides of the ambivalence before any nudge.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support",
+            "advise_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support the user in their deliberation, and they need help weighing the pros and cons of their decision, specifically in terms of preserving their family's heritage. The strategies that might be helpful are advise_with_permission, which could support their change planning, and facilitate, which could help them explore their ambivalence. The evidence that stands out is the user's fear of betraying the legacy or failing to secure the business's future, and their uncertainty about their capacity to lead through this transition while caring for their mother. The entry point for my response should be acknowledging the user's struggle to balance control and uncertainty, and how this tension is impacting their decision-making process.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "fear of betraying the legacy or failing to secure the business's future"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "uncertainty about capacity to lead through transition while caring for mother"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "tension between control and seeking input"
+          }
+        ],
+        "final_response": "You're really struggling to find a way to preserve your family's heritage while also making a decision that works for the business, and it's clear that this tension between control and uncertainty is a major challenge for you. One possible approach could be to draft a clear statement of how each relocation option aligns with your family's values and legacy, which might help you feel more confident in your decision. Would you like to explore what that might look like, and how you could use it to address your concerns about preserving the legacy?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism"
+        ],
+        "user_intent": "deliberate_decision",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "advise_with_permission",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 9,
+      "user_message": "I acknowledge the proposal to articulate each relocation option in terms of our cherished values, yet I find myself hesitating, as the very act of formalizing such a statement seems to underscore the very uncertainty I am trying to dispel. The weight of my mother's current hospitalization, coupled with the looming decision, leaves me wondering whether this exercise would merely serve as a veneer of control rather than a genuine path forward. Perhaps a more modest approach might be to outline a few guiding principles first, before committing to a full statement, though I remain wary that this could still be perceived as a concession of the precision I deem essential. In short, I am confronting a career uncertainty, a health anxiety, and a life transition that all demand a level of perfectionism I fear may be paralyzing.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "career_uncertainty",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "career_uncertainty",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support",
+            "advise_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support",
+            "advise_with_permission",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person right now, and they need me to acknowledge the uncertainty and perfectionism that's holding them back. Given their intent to express emotion, I'll use the support strategy to create a safe space for them to explore their feelings. The evidence suggests that they're struggling to balance their family's heritage with the demands of modern business, and their fear of not meeting their own standards of perfection is delaying the decision-making process. I'll use this insight to help them see that their perfectionism might be a source of paralysis, and that taking small steps could help them build momentum. My entry point will be to acknowledge the weight of their mother's hospitalization and the looming decision, and how it's making them question their ability to make a decision without compromising their family's legacy.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.career_uncertainty",
+            "content": "User is considering relocating the family shop but is unsure due to the potential impact on the business's legacy"
+          },
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "User feels caught between their mother's needs and the demands of the family business"
+          },
+          {
+            "source": "problem_summary.perfectionism",
+            "content": "User has tried to maintain a perfect image for years and is haunted by the thought of any misstep tarnishing this image"
+          }
+        ],
+        "final_response": "The weight of your mother's hospitalization and the looming decision is really pressing down on you, making you question whether you can make a choice that honors your family's legacy without compromising it. It sounds like you're feeling trapped between your desire to preserve the family business and your fear of not meeting your own standards of perfection. Maybe taking a step back to outline some guiding principles could help you feel more grounded, rather than trying to formalize a full statement right now. What do you think is the most important principle to prioritize in this decision, and how can you use that to guide your next steps?"
+      },
+      "trace": {
+        "main_problem": "career_uncertainty",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 10,
+      "user_message": "I have reflected that the paramount principle should be preserving family unity, but I struggle to turn that into a concrete plan amid the looming relocation and my mother's hospitalization. This tension only deepens my sense of uncertainty about the business\u2019s future and my ability to meet the expectations I set for myself.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "conflicts_with_parents",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "conflicts_with_parents",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "conflicts_with_parents",
+          "strategies": [
+            "support",
+            "advise_with_permission",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "career_uncertainty",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate the complex emotions and pressures surrounding their family business and their mother's hospitalization, and right now they need help expressing and processing their emotions. Given their current stage of preparation and their intent to express emotion, I'll use the support and facilitate strategies to create a safe space for them to explore their feelings. The evidence shows that they're struggling to balance their desire to preserve the family legacy with their own need for control and perfection, and this is causing significant uncertainty and anxiety. My entry point will be to acknowledge the weight of their mother's hospitalization and the looming decision, and how this is impacting their sense of control and perfectionism.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.conflicts_with_parents",
+            "content": "user feels caught between their mother's needs and the demands of the family business"
+          },
+          {
+            "source": "problem_summary.perfectionism",
+            "content": "user is haunted by the thought of any misstep tarnishing their perfect image"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "user is confronting a career uncertainty, a health anxiety, and a life transition that all demand a level of perfectionism they fear may be paralyzing"
+          }
+        ],
+        "final_response": "Your mother's hospitalization and the pressure to make a decision about the family business are really weighing on you, and it's clear that you're feeling trapped between your desire to preserve the family legacy and your fear of not meeting your own standards of perfection. Preserving family unity is a paramount principle for you, but it's hard to see how to turn that into a concrete plan right now. Can you tell me more about what's feeling most uncertain or overwhelming for you in this moment?"
+      },
+      "trace": {
+        "main_problem": "conflicts_with_parents",
+        "current_problems": [
+          "conflicts_with_parents",
+          "career_uncertainty",
+          "perfectionism"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

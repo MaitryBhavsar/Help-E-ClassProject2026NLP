@@ -1,0 +1,437 @@
+{
+  "profile_id": "P28",
+  "persona": {
+    "demographics": "adult child of a parent with a stroke, writer",
+    "personality_traits": [
+      "responsible",
+      "guilt-prone",
+      "anxious"
+    ],
+    "core_values": [
+      "family",
+      "responsibility",
+      "self-care"
+    ],
+    "core_beliefs": [],
+    "support_system": "mother (with stroke), possibly others not mentioned",
+    "hobbies_interests": [
+      "writing"
+    ],
+    "communication_style": "emotional, expressive, seeking guidance",
+    "relevant_history": "mother's stroke, current health issues, writing deadline",
+    "general_behavioral_traits": [
+      "overthinker",
+      "emotionally reactive",
+      "self-critical"
+    ]
+  },
+  "problems": {
+    "caregiver_stress": {
+      "problem_name": "caregiver_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels overwhelmed by caregiving responsibilities",
+              "concise_explanation": "feeling of losing breath, sole caregiver",
+              "supporting_utterance_span": "I feel like I'm losing my breath",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels overwhelmed by mom's needs",
+              "concise_explanation": "feeling of being needed and responsible",
+              "supporting_utterance_span": "Mom will need me more",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user feels overwhelmed by their mom's care needs",
+              "concise_explanation": "user expresses fear of leaving mom without help",
+              "supporting_utterance_span": "a break might leave Mom without help",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees the situation as critical and feels overwhelmed",
+              "concise_explanation": "feels stuck in a loop of guilt and fear",
+              "supporting_utterance_span": "I feel stuck in a loop of guilt and fear, and it\u2019s exhausting",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels guilty for not being able to do it all",
+              "concise_explanation": "guilt for not meeting expectations",
+              "supporting_utterance_span": "I'm guilty for not being able to do it all",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels unable to take a break from caregiving without worsening their mom's situation",
+              "concise_explanation": "fear of worsening mom's situation",
+              "supporting_utterance_span": "I'm terrified that missing a deadline or worsening my own health will just make everything worse",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "mom's stroke and resulting pain",
+              "concise_explanation": "mom's stroke as trigger",
+              "supporting_utterance_span": "Mom's stroke left her in a new world of pain",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "mom's needs trigger user's stress",
+              "concise_explanation": "mom's needs are the trigger",
+              "supporting_utterance_span": "Mom will need me more",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "thought of leaving Mom alone triggers guilt and fear",
+              "concise_explanation": "fear of leaving Mom alone",
+              "supporting_utterance_span": "if I take a break, Mom will be alone",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "health_anxiety": {
+      "problem_name": "health_anxiety",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        4
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels that taking a break from writing or caregiving might worsen their own health",
+              "concise_explanation": "fear of worsening own health",
+              "supporting_utterance_span": "I'm terrified that missing a deadline or worsening my own health will just make everything worse",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_susceptibility": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is concerned about the impact of stress on their health",
+              "concise_explanation": "user mentions their own health as a concern",
+              "supporting_utterance_span": "I'm also dealing with my own health",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels unable to take a break from writing without missing a deadline",
+              "concise_explanation": "fear of missing deadline",
+              "supporting_utterance_span": "I'm terrified that missing a deadline or worsening my own health will just make everything worse",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user fears missing deadline",
+              "concise_explanation": "fear of missing deadline",
+              "supporting_utterance_span": "I'll miss the deadline",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees missing the deadline as a significant consequence",
+              "concise_explanation": "user mentions deadline as a source of stress",
+              "supporting_utterance_span": "missing the deadline will ruin everything",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees missing the deadline as a significant barrier to taking a break",
+              "concise_explanation": "fear of missing the deadline",
+              "supporting_utterance_span": "I\u2019ll miss the deadline",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "caregiver_stress",
+      "problem_2": "health_anxiety",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "Mom's stroke left her in a new world of pain and I\u2019m the only one who can help, but I\u2019m also dealing with my own health"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "Mom's stroke left her in a new world of pain and I\u2019m the only one who can help, but I\u2019m also dealing with my own health"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "Maybe I could get a break, but I'm terrified that Mom will need me more and that I'll miss the deadline. I don't know if there's a way to balance it all. I just feel like I'm failing on both fronts"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "user's health is affected by their caregiving responsibilities",
+          "supporting_utterance_span": "I'm also dealing with my own health and a break might leave Mom without help"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "user's own health is mentioned as a source of stress, in addition to caregiver stress",
+          "supporting_utterance_span": "I\u2019m also dealing with my own health"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "triggers",
+          "attribute_2": "triggers",
+          "relation_type": "shared_trigger",
+          "connection_explanation": "mom's stroke is a trigger for both the caregiving stress and the user's own health anxiety",
+          "supporting_utterance_span": "Mom's stroke left her in a new world of pain and I\u2019m the only one who can help, but I\u2019m also dealing with my own health",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's fear of worsening their mom's situation and their own health reinforce each other",
+          "supporting_utterance_span": "I'm terrified that missing a deadline or worsening my own health will just make everything worse",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_susceptibility",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's concern for their mom's care increases their concern about their own health",
+          "supporting_utterance_span": "I'm also dealing with my own health and a break might leave Mom without help",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 0.8438663155258301
+    },
+    {
+      "problem_1": "caregiver_stress",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "Mom's stroke left her in a new world of pain and I\u2019m the only one who can help, but I\u2019m also dealing with my own health and a writing deadline"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "Mom's stroke left her in a new world of pain and I\u2019m the only one who can help, but I\u2019m also dealing with my own health and a writing deadline"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "Maybe I could get a break, but I'm terrified that Mom will need me more and that I'll miss the deadline"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are mentioned as sources of stress",
+          "supporting_utterance_span": "a break might leave Mom without help and missing the deadline will ruin everything"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are mentioned as sources of stress and guilt",
+          "supporting_utterance_span": "if I take a break, Mom will be alone and I\u2019ll miss the deadline"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's guilt for not meeting caregiving expectations is exacerbated by the pressure of the writing deadline",
+          "supporting_utterance_span": "I'm guilty for not being able to do it all, and I don't know how to keep going with a writing deadline",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's fear of worsening their mom's situation and missing a deadline reinforce each other",
+          "supporting_utterance_span": "I'm terrified that missing a deadline or worsening my own health will just make everything worse",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's fear of missing deadline is reinforced by mom's needs",
+          "supporting_utterance_span": "Maybe I could get a break, but I'm terrified that Mom will need me more and that I'll miss the deadline",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's concern for their mom's care increases their stress about missing the deadline",
+          "supporting_utterance_span": "a break might leave Mom without help and missing the deadline will ruin everything",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "triggers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the thought of leaving Mom alone triggers guilt and fear, which reinforces the perceived barrier of missing the deadline",
+          "supporting_utterance_span": "if I take a break, Mom will be alone and I\u2019ll miss the deadline",
+          "confidence": "high"
+        }
+      ],
+      "weight": 1.0
+    },
+    {
+      "problem_1": "health_anxiety",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I\u2019m also dealing with my own health and a writing deadline"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "but I\u2019m also dealing with my own health and a writing deadline"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "Maybe I could get a break, but I'm terrified that Mom will need me more and that I'll miss the deadline. I don't know if there's a way to balance it all. I just feel like I'm failing on both fronts"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "user's health is affected by their work stress",
+          "supporting_utterance_span": "missing the deadline will ruin everything and I'm also dealing with my own health"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "user's own health and work stress are interconnected sources of stress",
+          "supporting_utterance_span": "I\u2019m also dealing with my own health and a writing deadline"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's fear of missing a deadline and worsening their own health reinforce each other",
+          "supporting_utterance_span": "I'm terrified that missing a deadline or worsening my own health will just make everything worse",
+          "confidence": "high"
+        }
+      ],
+      "weight": 0.6401753750819236
+    }
+  ]
+}

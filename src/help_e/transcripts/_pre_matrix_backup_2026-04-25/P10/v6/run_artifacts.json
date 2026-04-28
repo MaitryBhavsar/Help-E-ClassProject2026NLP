@@ -1,0 +1,200 @@
+{
+  "profile_id": "P10",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user described mounting rent increases and car breakdowns that are eating into earnings from extra shifts. They expressed feeling stuck, anxious, and exhausted while trying to keep finances afloat. They repeatedly acknowledged the financial strain but did not yet outline concrete plans to change. The conversation remained focused on venting and emotional processing rather than moving toward solutions."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "financial_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Acknowledged financial strain but not yet planning changes."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "financial_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like the rent increase and car repairs are putting a lot of pressure on your finances, and the extra shifts are not covering the costs."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like the rent hike and car breakdown have really taken a toll on you, leaving you feeling stuck and anxious."
+              }
+            ],
+            "reasoning": "The assistant explicitly named the user\u2019s feelings of pressure, overwhelm, and anxiety, validating them without dismissing or generalizing.",
+            "score": 4
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like the rent increase and car repairs are putting a lot of pressure on your finances, and the extra shifts are not covering the costs."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "It sounds like you're feeling really trapped and anxious about your financial situation, and like you're running out of options."
+              }
+            ],
+            "reasoning": "The assistant tracked key details\u2014rent hike, car breakdown, bus fare, extra shifts\u2014and tied them to the user\u2019s emotional state, showing a partial grasp of the context.",
+            "score": 3
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Would it be helpful to explore some options for managing your finances, or would you rather talk more about what's been going on first?"
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be helpful to explore some small ways to cut costs or find new income streams, or would you rather keep talking about what's been going on and how you're feeling?"
+              }
+            ],
+            "reasoning": "The assistant offered a generic invitation to discuss solutions but did not provide concrete suggestions or actionable steps, limiting its usefulness.",
+            "score": 2
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Would it be helpful to explore some options for managing your finances, or would you rather talk more about what's been going on first?"
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be helpful to explore some small ways to cut costs or find new income streams, or would you rather keep talking about what's been going on and how you're feeling?"
+              }
+            ],
+            "reasoning": "The assistant consistently asked for permission before moving to solutions, respecting the user\u2019s pace and choice.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like the rent increase and car repairs are putting a lot of pressure on your finances, and the extra shifts are not covering the costs."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "It sounds like you're feeling really trapped and anxious about your financial situation, and like you're running out of options."
+              }
+            ],
+            "reasoning": "The assistant used neutral, validating language without any judgment or criticism, creating a safe space for disclosure.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Would it be helpful to explore some options for managing your finances, or would you rather talk more about what's been going on first?"
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be helpful to explore some small ways to cut costs or find new income streams, or would you rather keep talking about what's been going on and how you're feeling?"
+              }
+            ],
+            "reasoning": "The assistant\u2019s approach is neutral and non\u2011pushy, likely keeping the user open to further conversation, but the lack of concrete help may temper enthusiasm.",
+            "score": 3
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

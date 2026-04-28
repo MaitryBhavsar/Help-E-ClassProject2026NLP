@@ -1,0 +1,240 @@
+{
+  "profile_id": "P04",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user described the sudden arrival of divorce papers and the loss of adoption plans, expressing feelings of betrayal, disbelief, dread, and isolation. They repeatedly stated that they do not know how to start dealing with the situation or what steps to take next. Throughout the session, the user remained in a state of emotional overwhelm, with no indication of planning or taking action. The conversation focused on venting emotions rather than exploring solutions or seeking advice."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "breakup_aftermath",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Acknowledges divorce and its impact, no action yet."
+          }
+        ]
+      },
+      {
+        "problem_name": "loneliness",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Acknowledges feeling alone, no action yet."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "breakup_aftermath"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "breakup_aftermath",
+          "loneliness"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "loneliness",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "breakup_aftermath"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "breakup_aftermath"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "breakup_aftermath"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Seeing those papers on your kitchen table must have felt like a punch to the gut, especially with the adoption plans you had made together."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "Feeling like you're completely alone right now, with your whole life crumbling, is a terrifying place to be."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "The papers just sitting there on the table, a constant reminder of what's been lost, and the future that's been turned upside down."
+              }
+            ],
+            "reasoning": "The assistant offers generic validation but does not name specific emotions such as betrayal or disbelief; it uses broad terms like \"terrifying\" and \"crumbling\" without deep emotional labeling.",
+            "score": 2
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Seeing those papers on your kitchen table must have felt like a punch to the gut, especially with the adoption plans you had made together."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "Feeling like you're completely alone right now, with your whole life crumbling, is a terrifying place to be."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "The papers just sitting there on the table, a constant reminder of what's been lost, and the future that's been turned upside down."
+              }
+            ],
+            "reasoning": "The assistant repeats the same generic observations and does not track or reference the user\u2019s specific details beyond the initial mention of adoption plans.",
+            "score": 1
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It's okay to feel like you don't know where to start or how to sort through all these emotions."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "That sense of isolation can be overwhelming, and it's okay to feel like you don't know how to start dealing with all this."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "That sense of being frozen in time, with no clear direction, can be really debilitating."
+              }
+            ],
+            "reasoning": "The assistant offers no concrete suggestions, next steps, or actionable advice; it merely reiterates that it is okay to feel overwhelmed.",
+            "score": 1
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It's okay to feel like you don't know where to start."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It's okay to feel like you don't know how to start dealing with all this."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "It's okay to feel like you don't know how to start."
+              }
+            ],
+            "reasoning": "The assistant does not push the user toward any specific action or decision; it simply acknowledges uncertainty, respecting the user\u2019s autonomy.",
+            "score": 3
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It's okay to feel like you don't know where to start."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "That sense of isolation can be overwhelming, and it's okay to feel like you don't know how to start dealing with all this."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "That sense of being frozen in time, with no clear direction, can be really debilitating."
+              }
+            ],
+            "reasoning": "The assistant maintains a non-judgmental tone throughout, offering empathy without criticism or blame.",
+            "score": 4
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Seeing those papers on your kitchen table must have felt like a punch to the gut, especially with the adoption plans you had made together."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "Feeling like you're completely alone right now, with your whole life crumbling, is a terrifying place to be."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "The papers just sitting there on the table, a constant reminder of what's been lost, and the future that's been turned upside down."
+              }
+            ],
+            "reasoning": "Because the assistant offers no actionable help or new direction, the user is unlikely to feel motivated to continue the conversation.",
+            "score": 2
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "profile_id": "P08",
+  "persona": {
+    "demographics": "has a father",
+    "personality_traits": [],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": "has a father",
+    "hobbies_interests": [],
+    "communication_style": "emotional",
+    "relevant_history": "caring for a family member with medical needs",
+    "general_behavioral_traits": [
+      "overwhelmed",
+      "emotionally reactive"
+    ]
+  },
+  "problems": {
+    "caregiver_stress": {
+      "problem_name": "caregiver_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels overwhelmed by the responsibilities",
+              "concise_explanation": "describes feeling like 'drowning' in tasks",
+              "supporting_utterance_span": "I don't even know how to keep it all straight",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels overwhelmed and exhausted by caregiving responsibilities",
+              "concise_explanation": "expresses feeling of drowning",
+              "supporting_utterance_span": "I'm drowning in all this",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels overwhelmed by caregiving responsibilities",
+              "concise_explanation": "feeling guilty and exhausted",
+              "supporting_utterance_span": "The guilt and exhaustion feel so heavy",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user feels overwhelmed by caregiving responsibilities",
+              "concise_explanation": "treadmill analogy",
+              "supporting_utterance_span": "I feel like I'm on a treadmill that never stops",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels overwhelmed by dad's care responsibilities",
+              "concise_explanation": "feeling like another mountain",
+              "supporting_utterance_span": "but even that feels like another mountain",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user is unsure about their ability to manage the responsibilities",
+              "concise_explanation": "expresses uncertainty about doing enough",
+              "supporting_utterance_span": "I keep wondering if I'm doing enough",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels uncertain about where to start and what to do",
+              "concise_explanation": "asks for guidance on where to start",
+              "supporting_utterance_span": "I just don\u2019t know where to start",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user is uncertain about the effectiveness of small steps",
+              "concise_explanation": "wonders if any small step will make a difference",
+              "supporting_utterance_span": "I just don\u2019t know if any small step will make a difference",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user feels unable to keep up with responsibilities",
+              "concise_explanation": "feeling of being pulled back",
+              "supporting_utterance_span": "every time I think I've caught up, something else pulls me back",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees lack of clear plan as a major obstacle",
+              "concise_explanation": "need for clear plan",
+              "supporting_utterance_span": "Maybe if I could just have a clear plan for the meds and bills",
+              "confidence": "high"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user is motivated to find a way to manage the responsibilities",
+              "concise_explanation": "seeks guidance on where to start",
+              "supporting_utterance_span": "I wish someone could just tell me where to start",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user is motivated to find a way to manage responsibilities, but feels stuck",
+              "concise_explanation": "seeks advice and guidance",
+              "supporting_utterance_span": "I wish someone could just tell me what to do",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user is motivated to address their feelings before taking action",
+              "concise_explanation": "wants to talk more about feelings first",
+              "supporting_utterance_span": "I think I need to talk more about how I'm feeling first",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "medication changes and bills are driving the stress",
+              "concise_explanation": "explicit mention of medication changes and bills",
+              "supporting_utterance_span": "juggling his medication changes while also keeping up with bills",
+              "confidence": "high"
+            }
+          ]
+        },
+        "coping_strategies": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is unsure about effective coping strategies",
+              "concise_explanation": "seeking reassurance",
+              "supporting_utterance_span": "I honestly don't know what would make me feel better",
+              "confidence": "medium"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": []
+}

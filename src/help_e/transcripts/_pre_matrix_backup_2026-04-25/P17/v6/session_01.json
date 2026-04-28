@@ -1,0 +1,3242 @@
+{
+  "session_id": 1,
+  "session_summary": "The user primarily discussed their struggles with the aftermath of a recent breakup, career uncertainty, and perfectionism, which are all contributing to their feelings of being stuck and unsure about their next steps. They moved into the contemplation stage for all three issues, acknowledging the need to address these challenges but remaining uncertain about how to proceed. An open thread is the user's desire to explore ways to move past the breakup and potentially start fresh in a new career, such as sustainable design, which they want to revisit in future sessions.",
+  "stage_transitions": [
+    {
+      "problem": "breakup_aftermath",
+      "from": "(absent)",
+      "to": "contemplation"
+    },
+    {
+      "problem": "career_uncertainty",
+      "from": "(absent)",
+      "to": "contemplation"
+    },
+    {
+      "problem": "perfectionism",
+      "from": "(absent)",
+      "to": "contemplation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "update",
+      "new_value": "age_range: 35",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I'm terrified I won't be good enough if I try to move into sustainable design at 35"
+        }
+      ]
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "perfectionistic, self-critical",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "my perfectionism makes me think I need everything perfect before I even start"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I feel like I need to have everything perfect before I can even think about moving on"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "sustainable design",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I'm terrified I won't be good enough if I try to move into sustainable design at 35"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, reflective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep overthinking every move, and it's exhausting"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "My mind just loops back to that moment, and I feel like I need to have everything perfect before I can even think about moving on"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "recent breakup",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "Since the breakup I feel lost"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, ruminative",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep overthinking every move, and it's exhausting"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "My mind just loops back to that moment, and I feel like I need to have everything perfect before I can even think about moving on"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I keep overthinking every move, and it's exhausting. Since the breakup I feel lost, and my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35. I just feel stuck and unsure."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It sounds like you're feeling really stuck and unsure about your next steps, and that your perfectionism is making it hard for you to take the leap into sustainable design. You're worried that you won't be good enough, especially at 35. Would it be helpful to explore what small steps you could take to start moving in that direction, or would you rather just talk more about what's been going on since the breakup?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "It sounds like the breakup is still feeling very raw and overwhelming for you, and it's making it hard for you to think about anything else right now. Would it be helpful to just talk more about what's been going on since the breakup, or is there something specific that's been on your mind that you'd like to explore?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I keep replaying the last night we talked. It\u2019s like I\u2019m stuck in that same place, wondering if I should have done something different. My mind just loops back to that moment, and I feel like I need to have everything perfect before I can even think about moving on. I don\u2019t know if I can even think about a career shift right now."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "It sounds like you're really struggling to move past the breakup, and that your mind keeps looping back to the last night you talked. You feel like you need to have everything perfect before you can even think about moving on. Can you tell me more about what's holding you back from moving forward?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I keep replaying that night, feeling like I messed it up. It\u2019s hard to even think about a new career when I\u2019m stuck in that loop. I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "It sounds like you're still really struggling to come to terms with what happened that last night, and it's feeling like a big obstacle to moving forward. You're not sure if you can move on from the breakup or start fresh in a new career. Would it be helpful to explore what's holding you back from moving on, or would you rather just talk more about what's been on your mind lately?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I keep replaying that night, feeling like I messed it up, and my need for everything to be perfect makes it even harder. It's hard to even think about a new career when I'm stuck in that loop. I just want to talk about what's been on my mind."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "It sounds like you're still really struggling to come to terms with what happened that last night, and it's feeling like a big obstacle to moving forward. You're not sure if you can move on from the breakup or start fresh in a new career. Would it be helpful to just talk more about what's been on your mind, or is there something specific that's been bothering you that you'd like to explore?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I keep overthinking every move, and it's exhausting. Since the breakup I feel lost, and my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35. I just feel stuck and unsure.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of exhaustion, being stuck, and unsure about their situation without asking for advice.",
+          "supporting_utterance_span": "I keep overthinking every move, and it's exhausting. I just feel stuck and unsure."
+        },
+        "current_problems": [
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "need for everything to be perfect before starting",
+            "supporting_utterance_span": "my perfectionism makes me think I need everything perfect before I even start"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "feeling lost since the breakup",
+            "supporting_utterance_span": "Since the breakup I feel lost"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "unsure about moving into sustainable design at 35",
+            "supporting_utterance_span": "I'm terrified I won't be good enough if I try to move into sustainable design at 35"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "perfectionism",
+          "explanation": "perfectionism is the underlying issue driving the other problems",
+          "supporting_utterance_span": "my perfectionism makes me think I need everything perfect before I even start"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their perfectionism as a significant obstacle",
+            "concise_explanation": "exhausting and prevents starting",
+            "supporting_utterance_span": "I keep overthinking every move, and it's exhausting",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "the breakup is a trigger for feeling lost",
+            "concise_explanation": "feeling lost since the breakup",
+            "supporting_utterance_span": "Since the breakup I feel lost",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user perceives their age as a barrier to career change",
+            "concise_explanation": "terrified of not being good enough at 35",
+            "supporting_utterance_span": "I'm terrified I won't be good enough if I try to move into sustainable design at 35",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "perfectionism",
+            "problem_2": "breakup_aftermath",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "I keep overthinking every move, and it's exhausting. Since the breakup I feel lost"
+          },
+          {
+            "problem_1": "perfectionism",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35"
+          },
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems discussed in the same turn",
+            "supporting_utterance_span": "Since the breakup I feel lost. I'm terrified I won't be good enough if I try to move into sustainable design at 35"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "perfectionism",
+            "attribute_1": "perceived_severity",
+            "problem_2": "career_uncertainty",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "causal",
+            "connection_explanation": "user's perfectionism contributes to their perception of barriers in career change",
+            "supporting_utterance_span": "my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes their perfectionism as a 'significant obstacle', indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perfectionism seen as a significant obstacle"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User perceives their age as a barrier to career change, indicating a high level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "age perceived as a barrier to career change"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their perfectionism as a significant obstacle, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perfectionism seen as a significant obstacle"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in the user's awareness or willingness to address the breakup aftermath, so the stage remains precontemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: the breakup is a trigger for feeling lost"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their age as a barrier to career change, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "age perceived as a barrier to career change"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep overthinking every move, and it's exhausting. Since the breakup I feel lost, and my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35. I just feel stuck and unsure.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "perfectionism",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user sees their perfectionism as a significant obstacle",
+                  "concise_explanation": "exhausting and prevents starting",
+                  "supporting_utterance_span": "I keep overthinking every move, and it's exhausting",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {}
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user perceives their age as a barrier to career change",
+                    "concise_explanation": "terrified of not being good enough at 35",
+                    "supporting_utterance_span": "I'm terrified I won't be good enough if I try to move into sustainable design at 35",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 1,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "perceived_severity",
+                "attribute_2": "perceived_barriers",
+                "explanation": "user's perfectionism contributes to their perception of barriers in career change",
+                "supporting_utterance_span": "my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 1
+              }
+            ]
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "current_ttm_stage": "precontemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {},
+            "non_level_attributes": {
+              "triggers": {
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "the breakup is a trigger for feeling lost",
+                    "concise_explanation": "feeling lost since the breakup",
+                    "supporting_utterance_span": "Since the breakup I feel lost",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "edge_weight_to_main_problem": 0.4,
+            "cooccurrence_count": 1,
+            "connection_evidence": []
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "perfectionism"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be perfectionism. Their current TTM stage appears to be contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging the problem and is ambivalent about change. It should be applied by reflecting the user's feelings of exhaustion and uncertainty, using evidence such as their perceived severity of perfectionism. The user also shows high perceived barriers to career change, which is connected to their perfectionism. Because of this, the response should use T5 Ask Permission to explore potential solutions. The user intent in this turn is to vent, and the response should acknowledge this by reflecting their emotions before guiding the turn. Relevant connected problems suggest a causal relationship between perfectionism and career uncertainty, where the user's perfectionism contributes to their perception of barriers in career change. This evidence should be used by surfacing it in a reflection, to help the user see the connection between their problems. Overall, the response should try to improve the user's awareness of their problems and their motivation to change, while avoiding giving unsolicited advice or over-questioning.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's exhaustion and uncertainty, then use T8 Change Talk to invite their own reasons for change. I'll skip the connection to breakup_aftermath this turn, and instead focus on the causal relationship between perfectionism and career uncertainty. I'll name the user's goal of moving into sustainable design to ground the turn, and ask permission to explore potential solutions.",
+        "final_response": "It sounds like you're feeling really stuck and unsure about your next steps, and that your perfectionism is making it hard for you to take the leap into sustainable design. You're worried that you won't be good enough, especially at 35. Would it be helpful to explore what small steps you could take to start moving in that direction, or would you rather just talk more about what's been going on since the breakup?"
+      },
+      "trace": {
+        "main_problem": "perfectionism",
+        "current_problems": [
+          "perfectionism",
+          "breakup_aftermath",
+          "career_uncertainty"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes their perfectionism as a 'significant obstacle', indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perfectionism seen as a significant obstacle"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User perceives their age as a barrier to career change, indicating a high level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "age perceived as a barrier to career change"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their perfectionism as a significant obstacle, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perfectionism seen as a significant obstacle"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "No new evidence suggests a change in the user's awareness or willingness to address the breakup aftermath, so the stage remains precontemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: the breakup is a trigger for feeling lost"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their age as a barrier to career change, indicating a shift from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "age perceived as a barrier to career change"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User wants to discuss their emotions and thoughts about the breakup, indicating a need to express and process their feelings.",
+          "supporting_utterance_span": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess"
+        },
+        "current_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "user explicitly mentions the breakup and its emotional impact",
+            "supporting_utterance_span": "the breakup first; it's still so raw"
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "user's previous messages and context indicate ongoing perfectionism issues",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "user mentions a career shift, implying uncertainty about their career path",
+            "supporting_utterance_span": "I don't know if I can even think about a career shift right now"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "breakup_aftermath",
+          "explanation": "user prioritizes discussing the breakup, indicating it's the most pressing issue",
+          "supporting_utterance_span": "I think I need to talk about the breakup first"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user experiences the breakup as highly distressing and overwhelming",
+            "concise_explanation": "breakup described as 'still so raw'",
+            "supporting_utterance_span": "it's still so raw",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "the breakup itself is a trigger for the user's emotional distress",
+            "concise_explanation": "user wants to talk about the breakup, implying it's a trigger",
+            "supporting_utterance_span": "I think I need to talk about the breakup first",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user perceives their current emotional state as a barrier to considering a career shift",
+            "concise_explanation": "user says they can't think about a career shift due to the breakup",
+            "supporting_utterance_span": "I don't know if I can even think about a career shift right now",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems are mentioned in the same turn, with the breakup affecting the user's ability to consider a career shift",
+            "supporting_utterance_span": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "breakup_aftermath",
+            "attribute_1": "triggers",
+            "problem_2": "career_uncertainty",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "causal",
+            "connection_explanation": "the emotional distress from the breakup (trigger) contributes to the user's perception of barriers to considering a career shift",
+            "supporting_utterance_span": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes the breakup as 'highly distressing and overwhelming', indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user experiences the breakup as highly distressing and overwhelming"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still perceives significant barriers to career change, including their age and current emotional state, maintaining a high level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their age as a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user perceives their current emotional state as a barrier to considering a career shift"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the breakup as a trigger for their emotional distress and experiences it as highly distressing, indicating a move from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: the breakup is a trigger for feeling lost"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_severity: user experiences the breakup as highly distressing and overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: the breakup itself is a trigger for the user's emotional distress"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "No new evidence suggests a change in the user's stage regarding perfectionism, so it remains in contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user sees their perfectionism as a significant obstacle"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge barriers to career change, indicating no progress or regression, thus remaining in contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_barriers: user perceives their age as a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user perceives their current emotional state as a barrier to considering a career shift"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep overthinking every move, and it's exhausting. Since the breakup I feel lost, and my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35. I just feel stuck and unsure."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really stuck and unsure about your next steps, and that your perfectionism is making it hard for you to take the leap into sustainable design. You're worried that you won't be good enough, especially at 35. Would it be helpful to explore what small steps you could take to start moving in that direction, or would you rather just talk more about what's been going on since the breakup?"
+          }
+        ],
+        "last_system_message": "It sounds like you're feeling really stuck and unsure about your next steps, and that your perfectionism is making it hard for you to take the leap into sustainable design. You're worried that you won't be good enough, especially at 35. Would it be helpful to explore what small steps you could take to start moving in that direction, or would you rather just talk more about what's been going on since the breakup?",
+        "main_problem": {
+          "problem_name": "breakup_aftermath",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            2
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user experiences the breakup as highly distressing and overwhelming",
+                  "concise_explanation": "breakup described as 'still so raw'",
+                  "supporting_utterance_span": "it's still so raw",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "the breakup is a trigger for feeling lost",
+                  "concise_explanation": "feeling lost since the breakup",
+                  "supporting_utterance_span": "Since the breakup I feel lost",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "the breakup itself is a trigger for the user's emotional distress",
+                  "concise_explanation": "user wants to talk about the breakup, implying it's a trigger",
+                  "supporting_utterance_span": "I think I need to talk about the breakup first",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              2
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user perceives their age as a barrier to career change",
+                    "concise_explanation": "terrified of not being good enough at 35",
+                    "supporting_utterance_span": "I'm terrified I won't be good enough if I try to move into sustainable design at 35",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user perceives their current emotional state as a barrier to considering a career shift",
+                    "concise_explanation": "user says they can't think about a career shift due to the breakup",
+                    "supporting_utterance_span": "I don't know if I can even think about a career shift right now",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 1.0,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the emotional distress from the breakup (trigger) contributes to the user's perception of barriers to considering a career shift",
+                "supporting_utterance_span": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          },
+          {
+            "problem_name": "perfectionism",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              1
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user sees their perfectionism as a significant obstacle",
+                    "concise_explanation": "exhausting and prevents starting",
+                    "supporting_utterance_span": "I keep overthinking every move, and it's exhausting",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.24870240116005438,
+            "cooccurrence_count": 1,
+            "connection_evidence": []
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "breakup_aftermath"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be breakup_aftermath, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging the problem and is ambivalent about change. It should be applied by reflecting the user's emotional distress and exploring their reasons for wanting to change, using evidence such as their perceived severity of the breakup and their triggers for feeling lost. The user also shows high perceived severity and is currently venting, so the response should use T1 Reflection to acknowledge their emotions and create a safe space for them to express themselves. The user intent in this turn is to vent, so the response should use T1 Reflection to acknowledge their immediate intent and create a safe space for them to express themselves. Relevant connected problems suggest a causal relationship between the emotional distress from the breakup and the user's perception of barriers to considering a career shift, which should be used to inform the reflection and exploration of the user's reasons for wanting to change. Overall, the response should try to improve the user's awareness and emotional regulation, while avoiding pivoting to the secondary problem of career uncertainty or giving unsolicited advice.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's emotional distress and need to talk about the breakup, then use T8 Change Talk to explore their reasons for wanting to change. I'll skip the connection to career uncertainty this turn and focus on creating a safe space for the user to vent and explore their emotions.",
+        "final_response": "It sounds like the breakup is still feeling very raw and overwhelming for you, and it's making it hard for you to think about anything else right now. Would it be helpful to just talk more about what's been going on since the breakup, or is there something specific that's been on your mind that you'd like to explore?"
+      },
+      "trace": {
+        "main_problem": "breakup_aftermath",
+        "current_problems": [
+          "breakup_aftermath",
+          "perfectionism",
+          "career_uncertainty"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes the breakup as 'highly distressing and overwhelming', indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user experiences the breakup as highly distressing and overwhelming"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still perceives significant barriers to career change, including their age and current emotional state, maintaining a high level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their age as a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user perceives their current emotional state as a barrier to considering a career shift"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges the breakup as a trigger for their emotional distress and experiences it as highly distressing, indicating a move from precontemplation to contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: the breakup is a trigger for feeling lost"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_severity: user experiences the breakup as highly distressing and overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "triggers: the breakup itself is a trigger for the user's emotional distress"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "No new evidence suggests a change in the user's stage regarding perfectionism, so it remains in contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user sees their perfectionism as a significant obstacle"
+              }
+            ],
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge barriers to career change, indicating no progress or regression, thus remaining in contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_barriers: user perceives their age as a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user perceives their current emotional state as a barrier to considering a career shift"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 1,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I keep replaying the last night we talked. It\u2019s like I\u2019m stuck in that same place, wondering if I should have done something different. My mind just loops back to that moment, and I feel like I need to have everything perfect before I can even think about moving on. I don\u2019t know if I can even think about a career shift right now.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing emotional pain and rumination about the breakup without asking for advice.",
+          "supporting_utterance_span": "I keep replaying the last night we talked"
+        },
+        "current_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "user is still replaying the last night of the relationship",
+            "supporting_utterance_span": "I keep replaying the last night we talked"
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "user feels the need to have everything perfect before moving on",
+            "supporting_utterance_span": "I feel like I need to have everything perfect before I can even think about moving on"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "user mentions not being able to think about a career shift right now",
+            "supporting_utterance_span": "I don\u2019t know if I can even think about a career shift right now"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "breakup_aftermath",
+          "explanation": "the breakup is the dominant theme in the user's message",
+          "supporting_utterance_span": "I keep replaying the last night we talked"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "replaying the last night of the relationship is a trigger for the user's emotional pain",
+            "concise_explanation": "user is stuck in that same place",
+            "supporting_utterance_span": "I keep replaying the last night we talked",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user's perfectionism is a barrier to moving on from the breakup",
+            "concise_explanation": "need to have everything perfect before moving on",
+            "supporting_utterance_span": "I feel like I need to have everything perfect before I can even think about moving on",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user's current emotional state is a barrier to exploring career options",
+            "concise_explanation": "can't think about a career shift right now",
+            "supporting_utterance_span": "I don\u2019t know if I can even think about a career shift right now",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "perfectionism",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "I keep replaying the last night we talked... I feel like I need to have everything perfect before I can even think about moving on"
+          },
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "I keep replaying the last night we talked... I don\u2019t know if I can even think about a career shift right now"
+          },
+          {
+            "problem_1": "perfectionism",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "I feel like I need to have everything perfect before I can even think about moving on... I don\u2019t know if I can even think about a career shift right now"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "breakup_aftermath",
+            "attribute_1": "triggers",
+            "problem_2": "perfectionism",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "causal",
+            "connection_explanation": "the user's rumination about the breakup triggers their perfectionism, which in turn creates a barrier to moving on",
+            "supporting_utterance_span": "I keep replaying the last night we talked... I feel like I need to have everything perfect before I can even think about moving on",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now identifies their perfectionism as a barrier to moving on from the breakup, indicating a significant obstacle.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's perfectionism is a barrier to moving on from the breakup"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to perceive their current emotional state as a barrier to exploring career options, consistent with previous assessments.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their age as a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user perceives their current emotional state as a barrier to considering a career shift"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's current emotional state is a barrier to exploring career options"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to experience the breakup as a trigger for emotional distress and is aware of its impact, but there is no new evidence to suggest progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup is a trigger for feeling lost"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user experiences the breakup as highly distressing and overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "replaying the last night of the relationship is a trigger for the user's emotional pain"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their perfectionism as a significant obstacle and identifies it as a barrier to moving on from the breakup, but there is no new evidence to suggest progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees their perfectionism as a significant obstacle"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's perfectionism is a barrier to moving on from the breakup"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to perceive barriers to career change, including their age and current emotional state, but there is no new evidence to suggest progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their age as a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user perceives their current emotional state as a barrier to considering a career shift"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's current emotional state is a barrier to exploring career options"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep replaying the last night we talked. It\u2019s like I\u2019m stuck in that same place, wondering if I should have done something different. My mind just loops back to that moment, and I feel like I need to have everything perfect before I can even think about moving on. I don\u2019t know if I can even think about a career shift right now.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep overthinking every move, and it's exhausting. Since the breakup I feel lost, and my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35. I just feel stuck and unsure."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really stuck and unsure about your next steps, and that your perfectionism is making it hard for you to take the leap into sustainable design. You're worried that you won't be good enough, especially at 35. Would it be helpful to explore what small steps you could take to start moving in that direction, or would you rather just talk more about what's been going on since the breakup?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the breakup is still feeling very raw and overwhelming for you, and it's making it hard for you to think about anything else right now. Would it be helpful to just talk more about what's been going on since the breakup, or is there something specific that's been on your mind that you'd like to explore?"
+          }
+        ],
+        "last_system_message": "It sounds like the breakup is still feeling very raw and overwhelming for you, and it's making it hard for you to think about anything else right now. Would it be helpful to just talk more about what's been going on since the breakup, or is there something specific that's been on your mind that you'd like to explore?",
+        "main_problem": {
+          "problem_name": "breakup_aftermath",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user experiences the breakup as highly distressing and overwhelming",
+                  "concise_explanation": "breakup described as 'still so raw'",
+                  "supporting_utterance_span": "it's still so raw",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "the breakup is a trigger for feeling lost",
+                  "concise_explanation": "feeling lost since the breakup",
+                  "supporting_utterance_span": "Since the breakup I feel lost",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "the breakup itself is a trigger for the user's emotional distress",
+                  "concise_explanation": "user wants to talk about the breakup, implying it's a trigger",
+                  "supporting_utterance_span": "I think I need to talk about the breakup first",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "replaying the last night of the relationship is a trigger for the user's emotional pain",
+                  "concise_explanation": "user is stuck in that same place",
+                  "supporting_utterance_span": "I keep replaying the last night we talked",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "career_uncertainty",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user perceives their age as a barrier to career change",
+                    "concise_explanation": "terrified of not being good enough at 35",
+                    "supporting_utterance_span": "I'm terrified I won't be good enough if I try to move into sustainable design at 35",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user perceives their current emotional state as a barrier to considering a career shift",
+                    "concise_explanation": "user says they can't think about a career shift due to the breakup",
+                    "supporting_utterance_span": "I don't know if I can even think about a career shift right now",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user's current emotional state is a barrier to exploring career options",
+                    "concise_explanation": "can't think about a career shift right now",
+                    "supporting_utterance_span": "I don\u2019t know if I can even think about a career shift right now",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.9842324040775697,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the emotional distress from the breakup (trigger) contributes to the user's perception of barriers to considering a career shift",
+                "supporting_utterance_span": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          },
+          {
+            "problem_name": "perfectionism",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              3
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user sees their perfectionism as a significant obstacle",
+                    "concise_explanation": "exhausting and prevents starting",
+                    "supporting_utterance_span": "I keep overthinking every move, and it's exhausting",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user's perfectionism is a barrier to moving on from the breakup",
+                    "concise_explanation": "need to have everything perfect before moving on",
+                    "supporting_utterance_span": "I feel like I need to have everything perfect before I can even think about moving on",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.9163158250755866,
+            "cooccurrence_count": 2,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's rumination about the breakup triggers their perfectionism, which in turn creates a barrier to moving on",
+                "supporting_utterance_span": "I keep replaying the last night we talked... I feel like I need to have everything perfect before I can even think about moving on",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "breakup_aftermath"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be breakup_aftermath, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is struggling to move past the breakup and is experiencing high levels of emotional distress, as evidenced by their perceived_severity being high. It should be applied by reflecting the user's feelings of being stuck and unsure, using evidence such as their statement about replaying the last night they talked and feeling like they need everything perfect before moving on. The user also shows high perceived_barriers, as seen in their related problem of career_uncertainty, where they perceive their age and emotional state as barriers to considering a career shift. Because of this, the response should use T5 Ask Permission, to explore the user's willingness to discuss potential small steps towards moving on. The user intent in this turn is to vent, and because of this, the response should use T1 Reflection to acknowledge the user's immediate intent, and then guide the conversation towards exploring the user's thoughts and feelings about moving on. Relevant connected problems suggest a causal relationship between the triggers of the breakup and the perceived barriers to considering a career shift, as well as a causal relationship between the user's rumination about the breakup and their perfectionism. This evidence should be used by surfacing the user's feelings and thoughts about the breakup, and exploring how these might be impacting their ability to consider a career shift. Overall, the response should try to improve the user's awareness and clarity about their thoughts and feelings, while avoiding giving unsolicited advice or pivoting too quickly to the related problems.",
+        "response_reasoning": "I'll use T1 Reflection to acknowledge the user's feelings of being stuck and unsure, and then use T8 Change Talk to explore the user's thoughts and feelings about moving on. I'll surface the user's statement about replaying the last night they talked, and explore how this might be impacting their ability to consider a career shift. I'll drop the related problems of career_uncertainty and perfectionism for now, as the user is not yet ready to discuss these topics. I'll honor the user's intent to vent by reflecting their feelings and thoughts, before guiding the conversation towards exploring potential small steps towards moving on.",
+        "final_response": "It sounds like you're really struggling to move past the breakup, and that your mind keeps looping back to the last night you talked. You feel like you need to have everything perfect before you can even think about moving on. Can you tell me more about what's holding you back from moving forward?"
+      },
+      "trace": {
+        "main_problem": "breakup_aftermath",
+        "current_problems": [
+          "breakup_aftermath",
+          "perfectionism",
+          "career_uncertainty"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now identifies their perfectionism as a barrier to moving on from the breakup, indicating a significant obstacle.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's perfectionism is a barrier to moving on from the breakup"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to perceive their current emotional state as a barrier to exploring career options, consistent with previous assessments.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their age as a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user perceives their current emotional state as a barrier to considering a career shift"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's current emotional state is a barrier to exploring career options"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to experience the breakup as a trigger for emotional distress and is aware of its impact, but there is no new evidence to suggest progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "the breakup is a trigger for feeling lost"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user experiences the breakup as highly distressing and overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "replaying the last night of the relationship is a trigger for the user's emotional pain"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledges their perfectionism as a significant obstacle and identifies it as a barrier to moving on from the breakup, but there is no new evidence to suggest progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user sees their perfectionism as a significant obstacle"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's perfectionism is a barrier to moving on from the breakup"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to perceive barriers to career change, including their age and current emotional state, but there is no new evidence to suggest progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user perceives their age as a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user perceives their current emotional state as a barrier to considering a career shift"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user's current emotional state is a barrier to exploring career options"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 1
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I keep replaying that night, feeling like I messed it up. It\u2019s hard to even think about a new career when I\u2019m stuck in that loop. I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of guilt and uncertainty about the breakup and career change without asking for advice.",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up"
+        },
+        "current_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "user is still replaying the last night and feeling stuck",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up"
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "user feels the need to have everything perfect before moving on",
+            "supporting_utterance_span": "It\u2019s hard to even think about a new career when I\u2019m stuck in that loop"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "user is unsure about starting fresh in sustainable design",
+            "supporting_utterance_span": "I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "breakup_aftermath",
+          "explanation": "the breakup is the primary focus of the user's current emotional state",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "replaying the last night is a trigger for the user's emotional distress",
+            "concise_explanation": "user is stuck in the loop of replaying the last night",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user's perfectionism is a barrier to moving on from the breakup and considering a career change",
+            "concise_explanation": "user feels the need to have everything perfect before moving on",
+            "supporting_utterance_span": "It\u2019s hard to even think about a new career when I\u2019m stuck in that loop",
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_susceptibility",
+            "attribute_type": "level",
+            "inferred_information": "user is susceptible to feeling uncertain about their career due to the breakup and perfectionism",
+            "concise_explanation": "user is unsure about starting fresh in sustainable design",
+            "supporting_utterance_span": "I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design",
+            "confidence": "medium"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "perfectionism",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up. It\u2019s hard to even think about a new career when I\u2019m stuck in that loop"
+          },
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up. I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design"
+          },
+          {
+            "problem_1": "perfectionism",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "It\u2019s hard to even think about a new career when I\u2019m stuck in that loop. I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "breakup_aftermath",
+            "attribute_1": "triggers",
+            "problem_2": "perfectionism",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "causal",
+            "connection_explanation": "the user's replaying of the last night triggers their perfectionism, which in turn creates a barrier to moving on",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up. It\u2019s hard to even think about a new career when I\u2019m stuck in that loop",
+            "confidence": "medium"
+          },
+          {
+            "problem_1": "perfectionism",
+            "attribute_1": "perceived_barriers",
+            "problem_2": "career_uncertainty",
+            "attribute_2": "perceived_susceptibility",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the user's perfectionism reinforces their uncertainty about their career",
+            "supporting_utterance_span": "It\u2019s hard to even think about a new career when I\u2019m stuck in that loop. I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still describes their perfectionism as a significant barrier to moving on from the breakup and now also to considering a career change, indicating no change in the level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perfectionism is a barrier to moving on from the breakup"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perfectionism is a barrier to moving on from the breakup and considering a career change"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_susceptibility",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User acknowledges susceptibility to feeling uncertain about their career due to the breakup and perfectionism, providing sufficient evidence to update the level from unknown to medium.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user is susceptible to feeling uncertain about their career due to the breakup and perfectionism"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its triggers but does not show signs of moving towards preparation or action, thus remaining in the contemplation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: the breakup is a trigger for feeling lost"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_severity: user experiences the breakup as highly distressing and overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "triggers: replaying the last night of the relationship is a trigger for the user's emotional pain"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "triggers: replaying the last night is a trigger for the user's emotional distress"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User recognizes perfectionism as a barrier to moving on and considering career changes, indicating awareness of the problem but not yet showing signs of preparation for change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user sees their perfectionism as a significant obstacle"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user's perfectionism is a barrier to moving on from the breakup"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_barriers: user's perfectionism is a barrier to moving on from the breakup and considering a career change"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User is aware of their career uncertainty and acknowledges susceptibility due to the breakup and perfectionism, but there's no indication of moving towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_barriers: user perceives their age as a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user perceives their current emotional state as a barrier to considering a career shift"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user's current emotional state is a barrier to exploring career options"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_susceptibility: user is susceptible to feeling uncertain about their career due to the breakup and perfectionism"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep replaying that night, feeling like I messed it up. It\u2019s hard to even think about a new career when I\u2019m stuck in that loop. I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep overthinking every move, and it's exhausting. Since the breakup I feel lost, and my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35. I just feel stuck and unsure."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really stuck and unsure about your next steps, and that your perfectionism is making it hard for you to take the leap into sustainable design. You're worried that you won't be good enough, especially at 35. Would it be helpful to explore what small steps you could take to start moving in that direction, or would you rather just talk more about what's been going on since the breakup?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the breakup is still feeling very raw and overwhelming for you, and it's making it hard for you to think about anything else right now. Would it be helpful to just talk more about what's been going on since the breakup, or is there something specific that's been on your mind that you'd like to explore?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I keep replaying the last night we talked. It\u2019s like I\u2019m stuck in that same place, wondering if I should have done something different. My mind just loops back to that moment, and I feel like I need to have everything perfect before I can even think about moving on. I don\u2019t know if I can even think about a career shift right now."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like you're really struggling to move past the breakup, and that your mind keeps looping back to the last night you talked. You feel like you need to have everything perfect before you can even think about moving on. Can you tell me more about what's holding you back from moving forward?"
+          }
+        ],
+        "last_system_message": "It sounds like you're really struggling to move past the breakup, and that your mind keeps looping back to the last night you talked. You feel like you need to have everything perfect before you can even think about moving on. Can you tell me more about what's holding you back from moving forward?",
+        "main_problem": {
+          "problem_name": "breakup_aftermath",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            4
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user experiences the breakup as highly distressing and overwhelming",
+                  "concise_explanation": "breakup described as 'still so raw'",
+                  "supporting_utterance_span": "it's still so raw",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "the breakup itself is a trigger for the user's emotional distress",
+                  "concise_explanation": "user wants to talk about the breakup, implying it's a trigger",
+                  "supporting_utterance_span": "I think I need to talk about the breakup first",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "replaying the last night of the relationship is a trigger for the user's emotional pain",
+                  "concise_explanation": "user is stuck in that same place",
+                  "supporting_utterance_span": "I keep replaying the last night we talked",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "replaying the last night is a trigger for the user's emotional distress",
+                  "concise_explanation": "user is stuck in the loop of replaying the last night",
+                  "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "perfectionism",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user sees their perfectionism as a significant obstacle",
+                    "concise_explanation": "exhausting and prevents starting",
+                    "supporting_utterance_span": "I keep overthinking every move, and it's exhausting",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user's perfectionism is a barrier to moving on from the breakup",
+                    "concise_explanation": "need to have everything perfect before moving on",
+                    "supporting_utterance_span": "I feel like I need to have everything perfect before I can even think about moving on",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user's perfectionism is a barrier to moving on from the breakup and considering a career change",
+                    "concise_explanation": "user feels the need to have everything perfect before moving on",
+                    "supporting_utterance_span": "It\u2019s hard to even think about a new career when I\u2019m stuck in that loop",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.9448869341641218,
+            "cooccurrence_count": 3,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's rumination about the breakup triggers their perfectionism, which in turn creates a barrier to moving on",
+                "supporting_utterance_span": "I keep replaying the last night we talked... I feel like I need to have everything perfect before I can even think about moving on",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's replaying of the last night triggers their perfectionism, which in turn creates a barrier to moving on",
+                "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up. It\u2019s hard to even think about a new career when I\u2019m stuck in that loop",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              }
+            ]
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              4
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user perceives their age as a barrier to career change",
+                    "concise_explanation": "terrified of not being good enough at 35",
+                    "supporting_utterance_span": "I'm terrified I won't be good enough if I try to move into sustainable design at 35",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user perceives their current emotional state as a barrier to considering a career shift",
+                    "concise_explanation": "user says they can't think about a career shift due to the breakup",
+                    "supporting_utterance_span": "I don't know if I can even think about a career shift right now",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user's current emotional state is a barrier to exploring career options",
+                    "concise_explanation": "can't think about a career shift right now",
+                    "supporting_utterance_span": "I don\u2019t know if I can even think about a career shift right now",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_susceptibility": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user is susceptible to feeling uncertain about their career due to the breakup and perfectionism",
+                    "concise_explanation": "user is unsure about starting fresh in sustainable design",
+                    "supporting_utterance_span": "I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design",
+                    "confidence": "medium"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.7513142915142994,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the emotional distress from the breakup (trigger) contributes to the user's perception of barriers to considering a career shift",
+                "supporting_utterance_span": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "breakup_aftermath"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be breakup_aftermath, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T5 Ask Permission. This technique is appropriate because the user is struggling to move past the breakup and is feeling overwhelmed by their perfectionism. It should be applied by reflecting the user's emotional distress and feelings of being stuck, using evidence such as their perceived_severity of the breakup and their triggers, including replaying the last night of the relationship. The user also shows high perceived_barriers, including their perfectionism and age, which should be acknowledged in the response. The user intent in this turn is to vent, and the response should use T1 Reflection to acknowledge their feelings and concerns. Relevant connected problems suggest a causal relationship between the user's perfectionism and their perceived barriers to moving on from the breakup, which should be surfaced in the response to help the user understand the connection. Overall, the response should try to improve the user's awareness and clarity about their situation, while avoiding giving unsolicited advice or pivoting to the secondary problems of perfectionism or career uncertainty.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings of being stuck and overwhelmed, then gate options with T5 Ask Permission. I'll skip the connection to perfectionism and career uncertainty this turn, focusing on the user's emotional distress and breakup aftermath. I'll name the user's goal of moving on from the breakup once to ground the turn.",
+        "final_response": "It sounds like you're still really struggling to come to terms with what happened that last night, and it's feeling like a big obstacle to moving forward. You're not sure if you can move on from the breakup or start fresh in a new career. Would it be helpful to explore what's holding you back from moving on, or would you rather just talk more about what's been on your mind lately?"
+      },
+      "trace": {
+        "main_problem": "breakup_aftermath",
+        "current_problems": [
+          "breakup_aftermath",
+          "perfectionism",
+          "career_uncertainty"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_susceptibility"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User still describes their perfectionism as a significant barrier to moving on from the breakup and now also to considering a career change, indicating no change in the level of perceived barriers.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perfectionism is a barrier to moving on from the breakup"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perfectionism is a barrier to moving on from the breakup and considering a career change"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_susceptibility",
+            "old_level": "unknown",
+            "new_level": "medium",
+            "reasoning": "User acknowledges susceptibility to feeling uncertain about their career due to the breakup and perfectionism, providing sufficient evidence to update the level from unknown to medium.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user is susceptible to feeling uncertain about their career due to the breakup and perfectionism"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge the problem and its triggers but does not show signs of moving towards preparation or action, thus remaining in the contemplation stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "triggers: the breakup is a trigger for feeling lost"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_severity: user experiences the breakup as highly distressing and overwhelming"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "triggers: replaying the last night of the relationship is a trigger for the user's emotional pain"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "triggers: replaying the last night is a trigger for the user's emotional distress"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User recognizes perfectionism as a barrier to moving on and considering career changes, indicating awareness of the problem but not yet showing signs of preparation for change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_severity: user sees their perfectionism as a significant obstacle"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user's perfectionism is a barrier to moving on from the breakup"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_barriers: user's perfectionism is a barrier to moving on from the breakup and considering a career change"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User is aware of their career uncertainty and acknowledges susceptibility due to the breakup and perfectionism, but there's no indication of moving towards preparation or action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perceived_barriers: user perceives their age as a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "perceived_barriers: user perceives their current emotional state as a barrier to considering a career shift"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perceived_barriers: user's current emotional state is a barrier to exploring career options"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perceived_susceptibility: user is susceptible to feeling uncertain about their career due to the breakup and perfectionism"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I keep replaying that night, feeling like I messed it up, and my need for everything to be perfect makes it even harder. It's hard to even think about a new career when I'm stuck in that loop. I just want to talk about what's been on my mind.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings and thoughts about the breakup and career uncertainty without asking for advice.",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up"
+        },
+        "current_problems": [
+          {
+            "problem_name": "breakup_aftermath",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "breakup_aftermath",
+            "explanation": "user is still replaying the last night and feeling stuck",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up"
+          },
+          {
+            "problem_name": "perfectionism",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "perfectionism",
+            "explanation": "user's need for everything to be perfect is making it harder to move on",
+            "supporting_utterance_span": "my need for everything to be perfect makes it even harder"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "career_uncertainty",
+            "explanation": "user is having trouble thinking about a new career due to being stuck in the loop",
+            "supporting_utterance_span": "It's hard to even think about a new career when I'm stuck in that loop"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "breakup_aftermath",
+          "explanation": "the breakup is the primary focus of the user's current thoughts and feelings",
+          "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "breakup_aftermath",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "replaying the last night is a trigger for the user's distress",
+            "concise_explanation": "user is stuck in the loop of replaying the last night",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user's need for perfection is a barrier to moving on",
+            "concise_explanation": "user's perfectionism makes it harder to move on",
+            "supporting_utterance_span": "my need for everything to be perfect makes it even harder",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user is unsure about their career path and feels stuck",
+            "concise_explanation": "user is having trouble thinking about a new career",
+            "supporting_utterance_span": "It's hard to even think about a new career when I'm stuck in that loop",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "perfectionism",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up, and my need for everything to be perfect makes it even harder"
+          },
+          {
+            "problem_1": "breakup_aftermath",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up, and it's hard to even think about a new career when I'm stuck in that loop"
+          },
+          {
+            "problem_1": "perfectionism",
+            "problem_2": "career_uncertainty",
+            "concise_explanation": "both problems are discussed in the same turn",
+            "supporting_utterance_span": "my need for everything to be perfect makes it even harder, and it's hard to even think about a new career when I'm stuck in that loop"
+          }
+        ],
+        "problem_attribute_connections": [
+          {
+            "problem_1": "breakup_aftermath",
+            "attribute_1": "triggers",
+            "problem_2": "perfectionism",
+            "attribute_2": "perceived_barriers",
+            "relation_type": "reinforcing",
+            "connection_explanation": "the user's need to replay the last night reinforces their perfectionism, making it harder to move on",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up, and my need for everything to be perfect makes it even harder",
+            "confidence": "high"
+          },
+          {
+            "problem_1": "breakup_aftermath",
+            "attribute_1": "triggers",
+            "problem_2": "career_uncertainty",
+            "attribute_2": "perceived_severity",
+            "relation_type": "causal",
+            "connection_explanation": "the user's distress about the breakup is causing them to feel uncertain about their career path",
+            "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up, and it's hard to even think about a new career when I'm stuck in that loop",
+            "confidence": "high"
+          }
+        ]
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their need for perfection as a significant barrier to moving on, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perfectionism is a barrier to moving on from the breakup"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perfectionism is a barrier to moving on from the breakup and considering a career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "need for perfection is a barrier to moving on"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes feeling stuck and unsure about their career path, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user is unsure about their career path and feels stuck"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to experience distressing triggers related to the breakup, but there is no new evidence to suggest a change in stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "breakup itself is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "replaying the last night is a trigger for emotional pain"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "replaying the last night is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "replaying the last night is a trigger for distress"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge their perfectionism as a barrier, but there is no new evidence to suggest a change in stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perfectionism is a significant obstacle"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perfectionism is a barrier to moving on from the breakup"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perfectionism is a barrier to moving on from the breakup and considering a career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "need for perfection is a barrier to moving on"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User now acknowledges feeling stuck in their career, but there is no new evidence to suggest a change in stage beyond contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "age is a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "current emotional state is a barrier to considering a career shift"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "current emotional state is a barrier to exploring career options"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "susceptible to feeling uncertain about career due to breakup and perfectionism"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "unsure about career path and feels stuck"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep replaying that night, feeling like I messed it up, and my need for everything to be perfect makes it even harder. It's hard to even think about a new career when I'm stuck in that loop. I just want to talk about what's been on my mind.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep overthinking every move, and it's exhausting. Since the breakup I feel lost, and my perfectionism makes me think I need everything perfect before I even start. I'm terrified I won't be good enough if I try to move into sustainable design at 35. I just feel stuck and unsure."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like you're feeling really stuck and unsure about your next steps, and that your perfectionism is making it hard for you to take the leap into sustainable design. You're worried that you won't be good enough, especially at 35. Would it be helpful to explore what small steps you could take to start moving in that direction, or would you rather just talk more about what's been going on since the breakup?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "It sounds like the breakup is still feeling very raw and overwhelming for you, and it's making it hard for you to think about anything else right now. Would it be helpful to just talk more about what's been going on since the breakup, or is there something specific that's been on your mind that you'd like to explore?"
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I keep replaying the last night we talked. It\u2019s like I\u2019m stuck in that same place, wondering if I should have done something different. My mind just loops back to that moment, and I feel like I need to have everything perfect before I can even think about moving on. I don\u2019t know if I can even think about a career shift right now."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like you're really struggling to move past the breakup, and that your mind keeps looping back to the last night you talked. You feel like you need to have everything perfect before you can even think about moving on. Can you tell me more about what's holding you back from moving forward?"
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "I keep replaying that night, feeling like I messed it up. It\u2019s hard to even think about a new career when I\u2019m stuck in that loop. I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "It sounds like you're still really struggling to come to terms with what happened that last night, and it's feeling like a big obstacle to moving forward. You're not sure if you can move on from the breakup or start fresh in a new career. Would it be helpful to explore what's holding you back from moving on, or would you rather just talk more about what's been on your mind lately?"
+          }
+        ],
+        "last_system_message": "It sounds like you're still really struggling to come to terms with what happened that last night, and it's feeling like a big obstacle to moving forward. You're not sure if you can move on from the breakup or start fresh in a new career. Would it be helpful to explore what's holding you back from moving on, or would you rather just talk more about what's been on your mind lately?",
+        "main_problem": {
+          "problem_name": "breakup_aftermath",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user experiences the breakup as highly distressing and overwhelming",
+                  "concise_explanation": "breakup described as 'still so raw'",
+                  "supporting_utterance_span": "it's still so raw",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "replaying the last night of the relationship is a trigger for the user's emotional pain",
+                  "concise_explanation": "user is stuck in that same place",
+                  "supporting_utterance_span": "I keep replaying the last night we talked",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "replaying the last night is a trigger for the user's emotional distress",
+                  "concise_explanation": "user is stuck in the loop of replaying the last night",
+                  "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "replaying the last night is a trigger for the user's distress",
+                  "concise_explanation": "user is stuck in the loop of replaying the last night",
+                  "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": [
+          {
+            "problem_name": "perfectionism",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user sees their perfectionism as a significant obstacle",
+                    "concise_explanation": "exhausting and prevents starting",
+                    "supporting_utterance_span": "I keep overthinking every move, and it's exhausting",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user's perfectionism is a barrier to moving on from the breakup",
+                    "concise_explanation": "need to have everything perfect before moving on",
+                    "supporting_utterance_span": "I feel like I need to have everything perfect before I can even think about moving on",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user's perfectionism is a barrier to moving on from the breakup and considering a career change",
+                    "concise_explanation": "user feels the need to have everything perfect before moving on",
+                    "supporting_utterance_span": "It\u2019s hard to even think about a new career when I\u2019m stuck in that loop",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "user's need for perfection is a barrier to moving on",
+                    "concise_explanation": "user's perfectionism makes it harder to move on",
+                    "supporting_utterance_span": "my need for everything to be perfect makes it even harder",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.9601044580537015,
+            "cooccurrence_count": 4,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's rumination about the breakup triggers their perfectionism, which in turn creates a barrier to moving on",
+                "supporting_utterance_span": "I keep replaying the last night we talked... I feel like I need to have everything perfect before I can even think about moving on",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 3
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's replaying of the last night triggers their perfectionism, which in turn creates a barrier to moving on",
+                "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up. It\u2019s hard to even think about a new career when I\u2019m stuck in that loop",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 4
+              },
+              {
+                "relation_type": "reinforcing",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the user's need to replay the last night reinforces their perfectionism, making it harder to move on",
+                "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up, and my need for everything to be perfect makes it even harder",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "current_ttm_stage": "contemplation",
+            "goal": null,
+            "first_mentioned": [
+              1,
+              1
+            ],
+            "last_mentioned": [
+              1,
+              5
+            ],
+            "level_attributes": {
+              "perceived_barriers": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 1,
+                    "inferred_information": "user perceives their age as a barrier to career change",
+                    "concise_explanation": "terrified of not being good enough at 35",
+                    "supporting_utterance_span": "I'm terrified I won't be good enough if I try to move into sustainable design at 35",
+                    "confidence": "high"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 2,
+                    "inferred_information": "user perceives their current emotional state as a barrier to considering a career shift",
+                    "concise_explanation": "user says they can't think about a career shift due to the breakup",
+                    "supporting_utterance_span": "I don't know if I can even think about a career shift right now",
+                    "confidence": "medium"
+                  },
+                  {
+                    "session_id": 1,
+                    "turn_id": 3,
+                    "inferred_information": "user's current emotional state is a barrier to exploring career options",
+                    "concise_explanation": "can't think about a career shift right now",
+                    "supporting_utterance_span": "I don\u2019t know if I can even think about a career shift right now",
+                    "confidence": "high"
+                  }
+                ]
+              },
+              "perceived_susceptibility": {
+                "current_level": "medium",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 4,
+                    "inferred_information": "user is susceptible to feeling uncertain about their career due to the breakup and perfectionism",
+                    "concise_explanation": "user is unsure about starting fresh in sustainable design",
+                    "supporting_utterance_span": "I\u2019m not sure if I can move on from the breakup or the idea of starting fresh in sustainable design",
+                    "confidence": "medium"
+                  }
+                ]
+              },
+              "perceived_severity": {
+                "current_level": "high",
+                "recent_evidence": [
+                  {
+                    "session_id": 1,
+                    "turn_id": 5,
+                    "inferred_information": "user is unsure about their career path and feels stuck",
+                    "concise_explanation": "user is having trouble thinking about a new career",
+                    "supporting_utterance_span": "It's hard to even think about a new career when I'm stuck in that loop",
+                    "confidence": "high"
+                  }
+                ]
+              }
+            },
+            "non_level_attributes": {},
+            "edge_weight_to_main_problem": 0.8798046834070192,
+            "cooccurrence_count": 5,
+            "connection_evidence": [
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_barriers",
+                "explanation": "the emotional distress from the breakup (trigger) contributes to the user's perception of barriers to considering a career shift",
+                "supporting_utterance_span": "I think I need to talk about the breakup first; it's still so raw and it's throwing my whole head into a mess. I don't know if I can even think about a career shift right now",
+                "confidence": "medium",
+                "session_id": 1,
+                "turn_id": 2
+              },
+              {
+                "relation_type": "causal",
+                "attribute_1": "triggers",
+                "attribute_2": "perceived_severity",
+                "explanation": "the user's distress about the breakup is causing them to feel uncertain about their career path",
+                "supporting_utterance_span": "I keep replaying that night, feeling like I messed it up, and it's hard to even think about a new career when I'm stuck in that loop",
+                "confidence": "high",
+                "session_id": 1,
+                "turn_id": 5
+              }
+            ]
+          }
+        ]
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "breakup_aftermath"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be breakup_aftermath, and their current TTM stage is contemplation. Because of this, the response should use T1 Reflection and T5 Ask Permission. This technique is appropriate because the user is struggling to move past the breakup and is experiencing high perceived severity and distress. It should be applied by reflecting the user's emotional pain and distress, using evidence such as their triggers (replaying the last night of the relationship) and perceived barriers (perfectionism). The user also shows high perceived barriers and low self-efficacy, which suggests that they may benefit from a gentle and supportive approach. Because of this, the response should use T2 Affirmation to acknowledge the user's strengths and efforts. The user intent in this turn is to vent, and because of this, the response should use T1 Reflection to acknowledge and validate their emotions. Relevant connected problems suggest that the user's perfectionism and career uncertainty are closely linked to their breakup aftermath, and that these issues may be reinforcing each other. This evidence should be used by surfacing the connection between the user's perfectionism and their difficulty moving on from the breakup. Overall, the response should try to improve the user's emotional regulation and awareness, while avoiding giving unsolicited advice or overwhelming the user with multiple suggestions.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's emotional pain and distress, then use T5 Ask Permission to explore what's been on their mind. I'll skip the connection to perfectionism and career uncertainty this turn, and instead focus on acknowledging and validating the user's emotions. I'll name the user's goal ('moving on from the breakup') once to ground the turn, but will not push for specific solutions or actions.",
+        "final_response": "It sounds like you're still really struggling to come to terms with what happened that last night, and it's feeling like a big obstacle to moving forward. You're not sure if you can move on from the breakup or start fresh in a new career. Would it be helpful to just talk more about what's been on your mind, or is there something specific that's been bothering you that you'd like to explore?"
+      },
+      "trace": {
+        "main_problem": "breakup_aftermath",
+        "current_problems": [
+          "breakup_aftermath",
+          "perfectionism",
+          "career_uncertainty"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "perfectionism",
+            "attribute_name": "perceived_barriers",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their need for perfection as a significant barrier to moving on, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perfectionism is a barrier to moving on from the breakup"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perfectionism is a barrier to moving on from the breakup and considering a career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "need for perfection is a barrier to moving on"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User now describes feeling stuck and unsure about their career path, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user is unsure about their career path and feels stuck"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "breakup_aftermath",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to experience distressing triggers related to the breakup, but there is no new evidence to suggest a change in stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "breakup itself is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "replaying the last night is a trigger for emotional pain"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "replaying the last night is a trigger for emotional distress"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "replaying the last night is a trigger for distress"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "perfectionism",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User continues to acknowledge their perfectionism as a barrier, but there is no new evidence to suggest a change in stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "perfectionism is a significant obstacle"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "perfectionism is a barrier to moving on from the breakup"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "perfectionism is a barrier to moving on from the breakup and considering a career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "need for perfection is a barrier to moving on"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User now acknowledges feeling stuck in their career, but there is no new evidence to suggest a change in stage beyond contemplation.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "age is a barrier to career change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "current emotional state is a barrier to considering a career shift"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "current emotional state is a barrier to exploring career options"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "susceptible to feeling uncertain about career due to breakup and perfectionism"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "unsure about career path and feels stuck"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 3,
+        "attr_conn_added": 2
+      }
+    }
+  ]
+}

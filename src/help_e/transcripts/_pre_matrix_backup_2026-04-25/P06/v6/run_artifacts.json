@@ -1,0 +1,236 @@
+{
+  "profile_id": "P06",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user, a final\u2011year medical student, describes feeling overwhelmed by a heavy academic workload while simultaneously grieving the sudden loss of a close friend. They express exhaustion, confusion, and a sense of being stuck between studying and mourning. Throughout the session, the user repeatedly acknowledges both the academic pressure and the grief but does not articulate any concrete steps to address either. The conversation ends with the user still in a state of contemplation, seeking to talk more about their feelings without moving toward action."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "academic_pressure",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Acknowledged academic workload but no action plan."
+          }
+        ]
+      },
+      {
+        "problem_name": "grief_of_loved_one",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Acknowledged grief but no action plan."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "academic_pressure",
+          "grief_of_loved_one"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "academic_pressure",
+          "grief_of_loved_one"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "academic_pressure",
+          "grief_of_loved_one"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "academic_pressure",
+          "grief_of_loved_one"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "academic_pressure",
+          "grief_of_loved_one"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "academic_pressure",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "grief_of_loved_one",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling completely overwhelmed with your academic workload and the loss of your friend is weighing heavily on your mind."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like you're feeling completely overwhelmed and exhausted, like you're drowning in your academic workload."
+              }
+            ],
+            "reasoning": "The assistant consistently acknowledged the user\u2019s feelings of overwhelm and exhaustion, but the validation was somewhat generic and did not deeply name specific emotions such as grief or sadness.",
+            "score": 3
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "It sounds like you're feeling completely overwhelmed, like you're drowning in your academic workload and the thought of your friend is looping in your head."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "It sounds like you're feeling stuck and overwhelmed, torn between the pressure of your academic workload and the grief that's still with you."
+              }
+            ],
+            "reasoning": "The assistant tracked specific details\u2014lecture blur, piling notes, looping grief\u2014and referenced them in multiple turns, showing a clear grasp of the user\u2019s situation.",
+            "score": 4
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Would it help to focus on one thing at a time, either taking a break to process your emotions or making a small step towards your studies, or would you rather just talk more about how you're feeling right now?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "What is it about talking more about your feelings that you hope will help you move forward?"
+              }
+            ],
+            "reasoning": "The assistant offered generic options and questions but did not provide concrete, actionable steps or strategies to address the academic or grief challenges.",
+            "score": 2
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "Would it help to talk about what's feeling most overwhelming right now, or would you rather just take a moment to breathe?"
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "Would it help to focus on one thing at a time, either taking a break to process your emotions or making a small step towards your studies, or would you rather just talk more about how you're feeling right now?"
+              }
+            ],
+            "reasoning": "The assistant repeatedly asked for the user\u2019s preference and offered choices, respecting the user\u2019s autonomy without imposing a specific plan.",
+            "score": 4
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling completely overwhelmed with your academic workload and the loss of your friend is weighing heavily on your mind."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "It sounds like you're feeling stuck and overwhelmed, with the grief and academic pressure feeling inseparable."
+              }
+            ],
+            "reasoning": "The assistant maintained a supportive, non\u2011judgmental tone throughout, validating the user\u2019s experience without criticism.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Would it help to focus on one thing at a time, either taking a break to process your emotions or making a small step towards your studies, or would you rather just talk more about how you're feeling right now?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "What is it about talking more about your feelings that you hope will help you move forward?"
+              }
+            ],
+            "reasoning": "The assistant encouraged further conversation and left the door open for the user to continue, suggesting a willingness to keep talking.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

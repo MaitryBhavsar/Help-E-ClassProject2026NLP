@@ -1,0 +1,236 @@
+{
+  "profile_id": "P13",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user began by describing insomnia caused by traffic noise and intrusive thoughts about a recent breakup. They acknowledged the sleep problem and the emotional distress, and tried simple interventions like earplugs and white noise. Despite these attempts, they continued to feel stuck and overwhelmed, expressing a sense of drowning in noise and thoughts. Toward the end, they mentioned considering therapy or a quieter place as potential next steps. Overall, the conversation moved from initial acknowledgment to action attempts and then to contemplation of further help."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "sleep_problems",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "preparation",
+            "notes": "Progressed from contemplation to preparation after trying interventions and considering therapy."
+          }
+        ]
+      },
+      {
+        "problem_name": "breakup_aftermath",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "Remains in contemplation, no action taken."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "sleep_problems",
+          "breakup_aftermath"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "sleep_problems",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "sleep_problems",
+          "breakup_aftermath"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "sleep_problems",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "sleep_problems",
+          "breakup_aftermath"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "sleep_problems",
+            "ttm_stage": "action"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "sleep_problems",
+          "breakup_aftermath"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "sleep_problems",
+            "ttm_stage": "action"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "sleep_problems",
+          "breakup_aftermath"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "sleep_problems",
+            "ttm_stage": "preparation"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really stuck and overwhelmed, and like the breakup is still really fresh and painful for you."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like the traffic noise is really getting to you, and it's like the city is overwhelming you."
+              }
+            ],
+            "reasoning": "The assistant explicitly named the user\u2019s feelings of being stuck, overwhelmed, and the pain of the breakup, showing precise emotional recognition.",
+            "score": 5
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really stuck and overwhelmed, and like the breakup is still really fresh and painful for you."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "It sounds like you're feeling really trapped and overwhelmed by the traffic noise and your thoughts about the breakup."
+              }
+            ],
+            "reasoning": "The assistant acknowledged the traffic noise and breakup context, but did not track deeper details or ask clarifying questions, indicating a partial grasp.",
+            "score": 3
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Would it help to talk about what you think might help you break free from this loop and get some rest?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "I'm here. Take your time."
+              }
+            ],
+            "reasoning": "The assistant offered only a generic invitation to talk and a passive statement of availability, with no concrete suggestions or actionable steps.",
+            "score": 1
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Would it help to talk more about what's going through your mind when you're lying awake at night?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "I'm here. Take your time."
+              }
+            ],
+            "reasoning": "The assistant consistently asked permission and refrained from pushing any particular course of action, respecting the user\u2019s autonomy.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling really stuck and overwhelmed..."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "I'm here. Take your time."
+              }
+            ],
+            "reasoning": "The assistant maintained a non\u2011judgmental tone throughout, offering a safe space for the user to express distress.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Would it help to talk about what you think might help you break free from this loop and get some rest?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "I'm here. Take your time."
+              }
+            ],
+            "reasoning": "The assistant\u2019s neutral stance and lack of proactive encouragement suggest the user might be uncertain about continuing, leading to a moderate rating.",
+            "score": 3
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

@@ -1,0 +1,2246 @@
+{
+  "session_id": 4,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "lost job at bakery, struggling with rent, received eviction notice, experiencing stomach pain, car is broken",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I just got the eviction notice and I'm stuck arguing with my parents about money. My stomach keeps hurting, so I can't keep working."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "I could try to get a quick estimate for the car, but I don't have the cash, and my parents are just saying 'work harder' so they won't help."
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, self-critical, anxious, avoidant",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm failing everything."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I feel like asking the landlord is admitting I'm a failure, and my parents already keep telling me I should just 'get on with it.'"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I keep thinking asking the landlord would just confirm I'm a failure, but I'm also tired of fighting my parents and the rent piling up."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "Taking a break feels like giving up all the rent, the parents, and the only thing that keeps me sane."
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "When my parents say 'work harder' it feels like a constant reminder that I\u2019m already behind, and it drains me so I can\u2019t even think about talking to the landlord."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I just got the eviction notice and I'm stuck arguing with my parents about money. My stomach keeps hurting, so I can't keep working. I feel like I'm failing everything."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The eviction notice and the argument with your parents must feel like a huge weight on you right now. It sounds like your stomach issues are also linked to all this stress, making everything even tougher. I can see why you'd feel like you're failing, given all these pressures. Can you tell me more about what's holding you back from asking your landlord about a payment plan - is it really just the fear of feeling like a failure, or is there something else at play?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I feel like asking the landlord is admitting I'm a failure, and my parents already keep telling me I should just \"get on with it.\" The landlord would probably just say no, and then I\u2019d be stuck with the notice. Plus my stomach keeps hurting, so I\u2019m already worried more about my health than anything else."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "Your fear of being seen as a failure is really holding you back from asking the landlord for help, and it's understandable given the pressure you're already under from your parents. The eviction notice and the argument with your parents must feel like a huge weight on you right now. It's also clear that your stomach issues are linked to all this stress, making everything even tougher. Yeah, it's a lot to deal with, and it's affecting your daily life in a big way. Can you think of any small steps you could take to start addressing the eviction notice, even if it feels overwhelming right now?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I keep thinking asking the landlord would just confirm I'm a failure, but I'm also tired of fighting my parents and the rent piling up. My stomach\u2019s still killing me, so even the idea of going out feels too hard. I\u2019m stuck between wanting to move on and feeling like I\u2019ve already lost."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're feeling really stuck right now, like you're torn between wanting to move forward and feeling like you've already lost. It's like you're carrying this weight of failure, and the thought of asking your landlord for help is just confirming that feeling. And on top of that, your stomach issues are making everything feel even more overwhelming. Yeah, it's a lot to deal with. Can you think of anything that's helped you cope with feelings of failure in the past, even if it's just a small thing?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I used to bake to feel in control, but I can't even get the oven running right now. The rent keeps piling, and every time I call my parents they just say \"just work harder,\" which makes me feel worse. I don't know if taking a break is even an option."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "It's really tough to see something that once brought you so much comfort and control, like baking, feeling completely out of reach right now. The fact that you can't even get the oven running says a lot about how overwhelmed you're feeling. It's like every part of your life is piling up on you, from the rent to your parents' expectations, and it's leaving you feeling helpless. I can understand why taking a break might seem like the only option, but at the same time, it's scary to think about what that would mean. Can you tell me more about what's going through your mind when you think about taking a break?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "Taking a break feels like giving up all the rent, the parents, and the only thing that keeps me sane. I can't even afford to think about a pause because the landlord won't care and my stomach keeps acting up. I feel like if I step back, the whole thing collapses and the parents will label me as lazy. I just can't see a way out."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling like you're at a breaking point, where taking a break feels like giving up on everything that's important to you. It's like the weight of the rent, your parents' expectations, and your stomach issues are all crushing you, and you can't see a way to escape. I can understand why you'd feel like stepping back would mean everything collapses, and that's a really scary thought. It takes a lot of courage to admit when we're feeling this overwhelmed, so I want you to know that I'm here to support you, not to judge you."
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I hear you, but I\u2019m stuck. The landlord\u2019s probably going to say no, my car\u2019s broken, and there\u2019s no oven to bake with. I\u2019m just looking for a concrete plan, not a pep talk."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're feeling stuck, and it's understandable given the eviction notice, the argument with your parents, and your stomach issues. One small step could be to draft a message to your landlord, not to send it yet, but just to get your thoughts together. This way, you're taking a tiny step towards addressing the notice without having to deal with the immediate fear of rejection. What do you think might happen if you just wrote down what you'd like to say to your landlord, without worrying about sending it?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I\u2019m not sure I\u2019ve got the energy to draft anything; the rent\u2019s piling up and my parents keep saying I should just \u2018work harder,\u2019 which makes me feel even more drained. Maybe I could try, but my stomach\u2019s killing me."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "You're feeling completely drained, and it's no wonder given the weight of the rent piling up and your parents' constant pressure to 'work harder'. It's like their words are sucking the energy out of you, and your stomach issues are making everything feel even more overwhelming. I can see why drafting a message to your landlord feels like too much right now. Can you tell me more about what's going through your mind when you think about your parents' expectations and how that's affecting your ability to take action on the eviction notice?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "When my parents say 'work harder' it feels like a constant reminder that I\u2019m already behind, and it drains me so I can\u2019t even think about talking to the landlord. The rent pile keeps growing, and my stomach keeps hurting, so I feel stuck and exhausted."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "Your parents' words are really getting to you, and it's like they're piling on top of the rent and your stomach issues, making it hard to think about talking to the landlord. It sounds like you're feeling a lot of pressure to 'work harder', but that's not helping you feel more in control of the situation. Can you think of anything that's helped you cope with feelings of being overwhelmed in the past, even if it's just a small thing?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I honestly don't know what helped before. The parents keep pushing me to work harder, the rent is piling up, and my stomach just won't stop hurting. I feel like I'm drowning and there's no way out."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "You're feeling completely overwhelmed, like you're drowning in your problems, and it's hard to see a way out. The pressure from your parents to 'work harder' is weighing on you, and the rent piling up is making everything feel even more urgent. Your stomach issues are also taking a toll, making it hard to think about taking action. I can see why you'd feel stuck and exhausted. What's one thing that you think might help you feel even slightly more in control of your situation right now?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I could try to get a quick estimate for the car, but I don't have the cash, and my parents are just saying \"work harder\" so they won't help. I don't even know if my stomach will let me go to the mechanic."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're hesitant to get an estimate for your car because you're not sure if you can afford it, and that's understandable given your current financial stress. Getting an estimate might give you a better idea of what you're dealing with, but it's also okay to prioritize your stomach issues and take care of yourself first. What do you think would need to happen for you to feel like getting an estimate is a feasible step for you right now?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 4,
+      "turn_id": 1,
+      "user_message": "I just got the eviction notice and I'm stuck arguing with my parents about money. My stomach keeps hurting, so I can't keep working. I feel like I'm failing everything.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelming stress you're under, so I'll start by reflecting that. Given your contemplation stage with financial stress, I'll use the 'evoke' strategy to help you explore your ambivalence about asking for a payment plan. The evidence that stands out is your hesitation to ask your landlord for help due to feelings of failure, which suggests that addressing these feelings might be crucial. My entry will be to acknowledge the weight of the eviction notice and the argument with your parents, showing that I see the complexity of your situation.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "hesitation to ask landlord for payment plan due to feelings of failure"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "stomach hurting, possibly related to stress and anxiety"
+          },
+          {
+            "source": "recent_turn.t1.main_problem",
+            "content": "eviction notice and argument with parents"
+          }
+        ],
+        "final_response": "The eviction notice and the argument with your parents must feel like a huge weight on you right now. It sounds like your stomach issues are also linked to all this stress, making everything even tougher. I can see why you'd feel like you're failing, given all these pressures. Can you tell me more about what's holding you back from asking your landlord about a payment plan - is it really just the fear of feeling like a failure, or is there something else at play?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_parents",
+          "financial_stress",
+          "body_image_concerns"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 2,
+      "user_message": "I feel like asking the landlord is admitting I'm a failure, and my parents already keep telling me I should just \"get on with it.\" The landlord would probably just say no, and then I\u2019d be stuck with the notice. Plus my stomach keeps hurting, so I\u2019m already worried more about my health than anything else.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now, given their intent to express emotion. The strategies that fit this moment are support and complex reflection, which can help the user process their feelings and develop a discrepancy between their current situation and their desired outcome. The evidence that stands out is the user's fear of failure and rejection, which is holding them back from asking the landlord for a payment plan, and their stomach issues, which are adding to their overall stress and anxiety. My entry will be to acknowledge the user's fear and anxiety, and how it's affecting their daily life, especially with the added pressure of their stomach issues.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "fear of failure and rejection"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "stomach issues related to stress and anxiety"
+          }
+        ],
+        "final_response": "Your fear of being seen as a failure is really holding you back from asking the landlord for help, and it's understandable given the pressure you're already under from your parents. The eviction notice and the argument with your parents must feel like a huge weight on you right now. It's also clear that your stomach issues are linked to all this stress, making everything even tougher. Yeah, it's a lot to deal with, and it's affecting your daily life in a big way. Can you think of any small steps you could take to start addressing the eviction notice, even if it feels overwhelming right now?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_parents",
+          "financial_stress",
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 3,
+      "user_message": "I keep thinking asking the landlord would just confirm I'm a failure, but I'm also tired of fighting my parents and the rent piling up. My stomach\u2019s still killing me, so even the idea of going out feels too hard. I\u2019m stuck between wanting to move on and feeling like I\u2019ve already lost.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle right now. Given their preparation stage for financial stress, I'll use the support strategy to help them feel understood. The evidence shows that the user is hesitant to ask the landlord for a payment plan due to feelings of failure, and their stomach issues are exacerbating their emotional distress. My entry point will be to acknowledge the user's stuck feeling and their fear of being seen as a failure. I'll use the user's language to reflect their emotional state, such as feeling stuck between wanting to move on and feeling like they've already lost.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User is hesitant to ask the landlord for a payment plan due to feelings of failure"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "Stomach issues are linked to stress and anxiety"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "User feels stuck between wanting to move on and feeling like they've already lost"
+          }
+        ],
+        "final_response": "You're feeling really stuck right now, like you're torn between wanting to move forward and feeling like you've already lost. It's like you're carrying this weight of failure, and the thought of asking your landlord for help is just confirming that feeling. And on top of that, your stomach issues are making everything feel even more overwhelming. Yeah, it's a lot to deal with. Can you think of anything that's helped you cope with feelings of failure in the past, even if it's just a small thing?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_parents",
+          "financial_stress",
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 4,
+      "user_message": "I used to bake to feel in control, but I can't even get the oven running right now. The rent keeps piling, and every time I call my parents they just say \"just work harder,\" which makes me feel worse. I don't know if taking a break is even an option.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and I can see that you're feeling really overwhelmed by the eviction notice and the pressure from your parents. Given your intent to express emotion, I'll prioritize empathy and reflection. The strategies that seem most fitting right now are support and facilitate, as they allow me to acknowledge your emotions and help you explore your thoughts without imposing a plan. I've noticed that you used to bake to feel in control, but currently can't even do that due to your emotional state, which suggests that you're feeling a deep sense of loss and disempowerment. My entry point will be to acknowledge the pain of feeling like you've lost control over something that once brought you comfort and a sense of accomplishment.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User used to bake to feel in control"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "Stuck between wanting to move on and feeling like they've already lost"
+          }
+        ],
+        "final_response": "It's really tough to see something that once brought you so much comfort and control, like baking, feeling completely out of reach right now. The fact that you can't even get the oven running says a lot about how overwhelmed you're feeling. It's like every part of your life is piling up on you, from the rent to your parents' expectations, and it's leaving you feeling helpless. I can understand why taking a break might seem like the only option, but at the same time, it's scary to think about what that would mean. Can you tell me more about what's going through your mind when you think about taking a break?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_parents",
+          "financial_stress",
+          "body_image_concerns"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 5,
+      "user_message": "Taking a break feels like giving up all the rent, the parents, and the only thing that keeps me sane. I can't even afford to think about a pause because the landlord won't care and my stomach keeps acting up. I feel like if I step back, the whole thing collapses and the parents will label me as lazy. I just can't see a way out.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now. Given their intent to express emotion, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is feeling overwhelmed by their financial stress, stomach issues, and fear of being seen as a failure, so I'll acknowledge those specific struggles. My entry point will be to reflect their feelings of being stuck and unable to see a way out. I'll use the user's words to show that I understand their desperation and hopelessness.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "feeling stuck between wanting to move on and feeling like they've already lost"
+          },
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "stomach issues making everything feel even more overwhelming"
+          },
+          {
+            "source": "recent_turn.t4",
+            "content": "can't even afford to think about a pause because the landlord won't care and my stomach keeps acting up"
+          }
+        ],
+        "final_response": "You're feeling like you're at a breaking point, where taking a break feels like giving up on everything that's important to you. It's like the weight of the rent, your parents' expectations, and your stomach issues are all crushing you, and you can't see a way to escape. I can understand why you'd feel like stepping back would mean everything collapses, and that's a really scary thought. It takes a lot of courage to admit when we're feeling this overwhelmed, so I want you to know that I'm here to support you, not to judge you."
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "conflicts_with_parents",
+          "body_image_concerns"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 6,
+      "user_message": "I hear you, but I\u2019m stuck. The landlord\u2019s probably going to say no, my car\u2019s broken, and there\u2019s no oven to bake with. I\u2019m just looking for a concrete plan, not a pep talk.",
+      "inference": {
+        "user_intent": {
+          "intent": "request_plan",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "request_plan",
+        "intent_entry_style": "Propose ONE small step matched to TTM stage. Don't deflect with a question.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and I can see that you're feeling really stuck right now, overwhelmed by the eviction notice, the argument with your parents, and your stomach issues. Given your preparation stage for addressing financial stress, I think a strategy like advise_with_permission could be helpful, as it drives preparation towards action and supports change planning. Looking at the evidence, I see that you've mentioned feeling like asking the landlord for a payment plan would be an admission of failure, and that your stomach issues are linked to stress, making everything tougher. My entry point will be to acknowledge the weight of these pressures and propose a small, concrete step towards addressing the eviction notice. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User is struggling to pay rent and received an eviction notice"
+          },
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User believes asking the landlord for a payment plan would be an admission of failure"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "User feels like taking a break is not an option due to the landlord and parents"
+          }
+        ],
+        "final_response": "You're feeling stuck, and it's understandable given the eviction notice, the argument with your parents, and your stomach issues. One small step could be to draft a message to your landlord, not to send it yet, but just to get your thoughts together. This way, you're taking a tiny step towards addressing the notice without having to deal with the immediate fear of rejection. What do you think might happen if you just wrote down what you'd like to say to your landlord, without worrying about sending it?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "conflicts_with_parents",
+          "body_image_concerns"
+        ],
+        "user_intent": "request_plan",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 7,
+      "user_message": "I\u2019m not sure I\u2019ve got the energy to draft anything; the rent\u2019s piling up and my parents keep saying I should just \u2018work harder,\u2019 which makes me feel even more drained. Maybe I could try, but my stomach\u2019s killing me.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the overwhelming emotions you're feeling right now. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to open up. The evidence shows that you're struggling with feelings of failure and the pressure from your parents, which is exacerbating your stomach issues and making it hard to take action. My entry point will be to acknowledge the weight of your emotions and the physical toll it's taking on you. I'll use the facilitate strategy to help you explore your thoughts and feelings without pushing you to take action just yet.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "feeling drained and unsure if they have the energy to take action"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "looking for a concrete plan, not a pep talk"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "self-critical and emotionally reactive"
+          }
+        ],
+        "final_response": "You're feeling completely drained, and it's no wonder given the weight of the rent piling up and your parents' constant pressure to 'work harder'. It's like their words are sucking the energy out of you, and your stomach issues are making everything feel even more overwhelming. I can see why drafting a message to your landlord feels like too much right now. Can you tell me more about what's going through your mind when you think about your parents' expectations and how that's affecting your ability to take action on the eviction notice?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "conflicts_with_parents",
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 8,
+      "user_message": "When my parents say 'work harder' it feels like a constant reminder that I\u2019m already behind, and it drains me so I can\u2019t even think about talking to the landlord. The rent pile keeps growing, and my stomach keeps hurting, so I feel stuck and exhausted.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help you navigate this tough spot, and I can see that you're feeling really stuck and overwhelmed by the eviction notice, your parents' pressure, and your stomach issues. Given your current preparation stage for addressing the financial stress, I think a strategy like support could help you feel less alone and more empowered to take action. The fact that you mentioned your stomach keeps hurting and the rent pile is growing suggests that you're feeling a sense of urgency and desperation, and it might be helpful to acknowledge that feeling and explore ways to cope with it. My first step will be to acknowledge the weight of your parents' expectations and how that's affecting your ability to take action on the eviction notice.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "user feels stuck and exhausted, with the rent pile growing and their stomach hurting"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "user mentions parents' pressure to 'work harder' is draining their energy"
+          }
+        ],
+        "final_response": "Your parents' words are really getting to you, and it's like they're piling on top of the rent and your stomach issues, making it hard to think about talking to the landlord. It sounds like you're feeling a lot of pressure to 'work harder', but that's not helping you feel more in control of the situation. Can you think of anything that's helped you cope with feelings of being overwhelmed in the past, even if it's just a small thing?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_parents",
+          "financial_stress",
+          "body_image_concerns"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 9,
+      "user_message": "I honestly don't know what helped before. The parents keep pushing me to work harder, the rent is piling up, and my stomach just won't stop hurting. I feel like I'm drowning and there's no way out.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now, so I'll reflect their feelings first. Given the user's current preparation stage for addressing financial stress, I'll use the support strategy to help them feel understood. The evidence shows that the user is feeling overwhelmed by their parents' pressure, the growing rent pile, and their persistent stomach issues, so I'll acknowledge those specific stressors. My entry will be a brief, empathic acknowledgment of their situation, focusing on the feelings of being stuck and exhausted. I'll then use the facilitate strategy to help the user explore their own thoughts and feelings about their situation.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "feeling overwhelmed by parents' pressure and growing rent pile"
+          },
+          {
+            "source": "problem_summary.body_image_concerns",
+            "content": "persistent stomach issues"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "feeling stuck and exhausted"
+          }
+        ],
+        "final_response": "You're feeling completely overwhelmed, like you're drowning in your problems, and it's hard to see a way out. The pressure from your parents to 'work harder' is weighing on you, and the rent piling up is making everything feel even more urgent. Your stomach issues are also taking a toll, making it hard to think about taking action. I can see why you'd feel stuck and exhausted. What's one thing that you think might help you feel even slightly more in control of your situation right now?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_parents",
+          "financial_stress",
+          "body_image_concerns",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 10,
+      "user_message": "I could try to get a quick estimate for the car, but I don't have the cash, and my parents are just saying \"work harder\" so they won't help. I don't even know if my stomach will let me go to the mechanic.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_information",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_parents",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "seek_information",
+        "intent_entry_style": "Elicit what they know \u2192 provide one piece \u2192 elicit reaction.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their financial stress, and right now, they're seeking information to help them move forward. Given their preparation stage, I'll use the advise_with_permission strategy to help them consider a concrete plan. The evidence shows that the user is feeling stuck and exhausted, with their stomach issues and parents' pressure to 'work harder' weighing on them. They've mentioned considering getting a quick estimate for their car, but are unsure if they can afford it. My entry point will be to acknowledge their hesitation and explore what getting an estimate might mean for them.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "user is considering getting a quick estimate for their car but is unsure if they can afford it"
+          },
+          {
+            "source": "persona.relevant_history",
+            "content": "user's stomach issues are affecting their ability to take action"
+          }
+        ],
+        "final_response": "You're hesitant to get an estimate for your car because you're not sure if you can afford it, and that's understandable given your current financial stress. Getting an estimate might give you a better idea of what you're dealing with, but it's also okay to prioritize your stomach issues and take care of yourself first. What do you think would need to happen for you to feel like getting an estimate is a feasible step for you right now?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "conflicts_with_friends",
+          "financial_stress",
+          "body_image_concerns",
+          "conflicts_with_parents"
+        ],
+        "user_intent": "seek_information",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_parents",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

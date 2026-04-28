@@ -1,0 +1,62 @@
+{
+  "profile_id": "P02",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": null,
+    "hobbies_interests": [],
+    "communication_style": "brief, guarded",
+    "relevant_history": null,
+    "general_behavioral_traits": []
+  },
+  "problems": {
+    "sleep_problems": {
+      "problem_name": "sleep_problems",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        3
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels tired but doesn't elaborate on severity",
+              "concise_explanation": "vague expression of tiredness",
+              "supporting_utterance_span": "I'm just tired",
+              "confidence": "low"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user experiences fatigue as a significant issue",
+              "concise_explanation": "user explicitly states being tired",
+              "supporting_utterance_span": "I'm just tired",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees their tiredness as a significant issue",
+              "concise_explanation": "repeatedly mentions being tired",
+              "supporting_utterance_span": "I guess I'm just tired",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    }
+  },
+  "edges": []
+}

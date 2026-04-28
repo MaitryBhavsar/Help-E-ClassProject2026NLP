@@ -1,0 +1,2516 @@
+{
+  "session_id": 4,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "recent breakup, weight comment from friend, procrastination loop, struggle with body image, ex's face still lingers",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "the body image comments from the day after the ex\u2019s appearance keep popping up as a spike in my performance metrics"
+        },
+        {
+          "turn_id": 8,
+          "excerpt": "the ex\u2019s face still lingers"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, avoidant, procrastinator, self-critical, anxious",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I think about the new expenses and my body, and it feels like a runaway project with no deadline in sight"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I notice the body image thoughts surface right when I open my expense spreadsheet; they feel like a spike in my performance metrics and I end up skipping the review entirely"
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "the anxiety and body\u2011image thoughts linger, and I still can\u2019t get restful sleep"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I can't keep my sleep schedule; every night I think about the new expenses and my body, and it feels like a runaway project with no deadline in sight. If I could treat this like a sprint, I'd know what to do, but the anxiety keeps me in a hold state."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "You're lying awake at night, feeling like these new expenses and your body concerns are spinning out of control, like a project with no end in sight. It's really getting to you, affecting your sleep and making everything feel more overwhelming. It sounds like you wish you could tackle this like a sprint, where you know what to do, but the anxiety is keeping you stuck. Can you tell me more about what's holding you back from making a change?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I keep treating the sleepless nights like a backlog that never gets closed, but the anxiety feels like a blocker that stalls the sprint. The body image comments from the day after the ex\u2019s appearance keep popping up as a spike in my performance metrics, and the new expenses are a new risk factor I haven't accounted for. I need a concrete plan to prioritize these tasks and set realistic objectives."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "Let's break down your financial stress into smaller, manageable tasks. Why not start by dedicating 30 minutes each day to reviewing your expenses and creating a budget plan? You can use your analytical skills to categorize and prioritize your spending, just like you would approach a sprint project. This small step can help you regain a sense of control and make progress towards tackling your financial worries."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "Thanks for the sprint plan, but I keep hitting blockers\u2014my body image thoughts keep popping up during the review, and I'm not sure I can focus. The new expenses still feel like a huge risk, and my sleep hasn't improved at all."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You're really struggling to focus on your financial plan because of these body image thoughts that keep popping up, and the new expenses feel like a huge risk. It's like every time you try to make progress, these thoughts and worries about your body and finances hold you back. I can see how that would be really frustrating and affect your sleep. Can you tell me more about what happens when these body image thoughts come up during your review, and how you've been trying to cope with them so far?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I notice the body image thoughts surface right when I open my expense spreadsheet; they feel like a spike in my performance metrics and I end up skipping the review entirely. I've tried a quick 5\u2011minute breathing exercise, but the anxiety just pushes through. Running has been on hold, and reading feels like a distraction rather than a solution. I still haven't been able to get any restful sleep, so the cycle continues."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "When you open your expense spreadsheet, those body image thoughts feel like a major obstacle, and it's no wonder you've been skipping the review. You've been trying to cope with a quick breathing exercise, but it's not quite enough to push through the anxiety. It's also tough that running and reading, which are usually helpful for you, aren't feeling like solutions right now. Can you think of what might help you feel more grounded when you're looking at your expenses, so you can start making some progress on your financial plan?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I think I need a buffer zone before I even open the spreadsheet\u2014like a brief \"standby\" sprint\u2014so the body image spike doesn't hit me. But even if I pause, the anxiety still lingers, and I keep losing focus. Maybe I should set a timer to only look at the sheets for five minutes, then check in with a quick run or a short walk. I'm not sure if that helps with the sleep cycle either."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're trying to find a way to manage your anxiety and body image thoughts when reviewing your expenses, and setting a timer to limit your review time and then taking a short walk or run is a creative approach. It's great that you're thinking of ways to cope with your anxiety. Have you considered starting with a brief 'standby' period, like a short meditation or deep breathing exercise, before opening your spreadsheet to help calm your mind? This might help you feel more grounded and focused when reviewing your expenses."
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I'll try the breathing pause before I open the spreadsheet, but the body image spike still feels like a blocker. Maybe I should set a timer to limit the review and then take a short walk afterward. The last time I saw my ex still lingers, and my sleep hasn't improved."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're still feeling really stuck with these body image thoughts popping up when you try to review your expenses, and it's affecting your sleep. It's like this one thing is holding you back from making progress on your financial plan. I can see how setting a timer and taking a short walk afterward might help you feel more in control and calm. What do you think might happen if you start with just a few minutes of review, and then take that walk - could that be a way to build some momentum and make this feel less overwhelming?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I\u2019ll set a 5\u2011minute sprint and then walk, but the spike still feels like a blocker. Even if I limit the review, the anxiety and body\u2011image thoughts linger, and I still can\u2019t get restful sleep."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "You're really struggling to shake off those body image thoughts when you're reviewing your expenses, and it's affecting your sleep. It's like every time you try to make progress, these thoughts and worries hold you back. I can see how frustrating that must be for you, especially when you've been trying to find ways to cope. Setting a timer and taking a short walk might help you feel more in control, but it's clear that the anxiety and body image concerns are still lingering. What do you think is the most overwhelming part of this process for you right now?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I think the worst part is that every time I open my expense sheet, the body image spike hits me and I just freeze. The ex\u2019s face still lingers, and I can\u2019t sleep. It feels like a never\u2011ending sprint with no finish line."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The body image spike that hits you when you open your expense sheet is really powerful, and it's no wonder you freeze up. It's like that one moment just stops you in your tracks. You've also mentioned that your ex's face still lingers in your mind, which can't be easy. Have you thought about what might help you feel more grounded in that moment, so you can start to make some progress on your financial plan?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I could try a 5\u2011minute breathing pause, but the ex\u2019s face keeps surfacing and I can\u2019t focus. Maybe I\u2019ll schedule a brief check\u2011in after the spreadsheet review to reset my mental sprint. Still, the anxiety is like a blocker that never clears."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The anxiety you're feeling when you try to review your expenses is really debilitating, and it's no wonder you're having trouble focusing. It sounds like the face of your ex is still really present for you, and that's making it even harder to shake off those body image thoughts. You've been trying to find ways to cope, like setting a timer and taking a short walk, but it's clear that the anxiety is still a major blocker for you. What if you tried to reframe your thinking around this spreadsheet review, and instead of seeing it as a source of stress, tried to view it as a small, manageable task that you can complete in a short amount of time?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "Reframing feels like a band\u2011aid; the ex's face is still a constant reminder, and the body image spikes keep popping up. I keep trying to set a timer, but the anxiety never goes away. Maybe there's a better approach than just a quick breathing pause."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're feeling like you've tried a few different approaches, like setting a timer and taking a short walk, but the anxiety and body image thoughts still linger, and it's really frustrating. It's like the face of your ex is still a constant reminder, and that's making it hard to shake off those thoughts. Maybe we can explore what's not working about the current approach, and see if there's a way to address the underlying issues that are driving these body image spikes. What do you think is the root of why these thoughts keep popping up, and how can we work together to find a more effective way to manage them?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 4,
+      "turn_id": 1,
+      "user_message": "I can't keep my sleep schedule; every night I think about the new expenses and my body, and it feels like a runaway project with no deadline in sight. If I could treat this like a sprint, I'd know what to do, but the anxiety keeps me in a hold state.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional state right now, so I'll reflect their feelings first. Given their contemplation stage with financial stress, I'll use the 'evoke' strategy to help them explore their ambivalence. The evidence shows they're feeling overwhelmed by new expenses and anxious about their body, which is affecting their sleep. I'll use this to acknowledge their situation and help them feel understood. My entry point will be to reflect their anxiety and feeling of being stuck, showing I see the impact of these issues on their daily life.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "anxious about managing new expenses"
+          },
+          {
+            "source": "problem_summary.low_self_esteem",
+            "content": "anxious about their body"
+          },
+          {
+            "source": "recent_turn.t0.user_message",
+            "content": "feels like a runaway project with no deadline in sight"
+          }
+        ],
+        "final_response": "You're lying awake at night, feeling like these new expenses and your body concerns are spinning out of control, like a project with no end in sight. It's really getting to you, affecting your sleep and making everything feel more overwhelming. It sounds like you wish you could tackle this like a sprint, where you know what to do, but the anxiety is keeping you stuck. Can you tell me more about what's holding you back from making a change?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem",
+          "procrastination",
+          "work_stress",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "precontemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 2,
+      "user_message": "I keep treating the sleepless nights like a backlog that never gets closed, but the anxiety feels like a blocker that stalls the sprint. The body image comments from the day after the ex\u2019s appearance keep popping up as a spike in my performance metrics, and the new expenses are a new risk factor I haven't accounted for. I need a concrete plan to prioritize these tasks and set realistic objectives.",
+      "inference": {
+        "user_intent": {
+          "intent": "request_plan",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "request_plan",
+        "intent_entry_style": "Propose ONE small step matched to TTM stage. Don't deflect with a question.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "evoke"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help the user tackle their financial stress, and they're looking for a concrete plan to prioritize tasks and set realistic objectives. Given their preparation stage, I'll use the advise_with_permission strategy to propose a small step towards action. The user's anxiety and overwhelm are evident in their sleepless nights and feelings of being stuck, so I'll acknowledge this emotional state. The user's analytical personality and experience with sprint planning can be leveraged to create a structured approach to managing their expenses and body image concerns. To start, I'll propose a small, actionable step that builds on their existing strengths and coping mechanisms.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "User is struggling with new expenses and is anxious about managing them"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "analytical, perfectionistic"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "treating sleepless nights like a backlog that never gets closed"
+          }
+        ],
+        "final_response": "Let's break down your financial stress into smaller, manageable tasks. Why not start by dedicating 30 minutes each day to reviewing your expenses and creating a budget plan? You can use your analytical skills to categorize and prioritize your spending, just like you would approach a sprint project. This small step can help you regain a sense of control and make progress towards tackling your financial worries."
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem",
+          "conflicts_with_friends",
+          "work_stress",
+          "procrastination"
+        ],
+        "user_intent": "request_plan",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "advise_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 3,
+      "user_message": "Thanks for the sprint plan, but I keep hitting blockers\u2014my body image thoughts keep popping up during the review, and I'm not sure I can focus. The new expenses still feel like a huge risk, and my sleep hasn't improved at all.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "evoke"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help the user navigate their financial stress and related emotional struggles. Given their current intent to express emotion, I'll start by acknowledging their feelings and concerns. The strategies that seem most fitting for this moment are support and facilitate, as they allow the user to express themselves without feeling judged or pushed towards a specific action. From the evidence, it's clear that the user's body image thoughts and risk concerns are significant blockers to their progress, and their sleep hasn't improved despite previous plans. My entry point will be to acknowledge these challenges and offer a supportive space for them to explore their feelings. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "body image thoughts and risk concerns blocking progress"
+          },
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "sleep hasn't improved"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "self-critical and perfectionistic"
+          }
+        ],
+        "final_response": "You're really struggling to focus on your financial plan because of these body image thoughts that keep popping up, and the new expenses feel like a huge risk. It's like every time you try to make progress, these thoughts and worries about your body and finances hold you back. I can see how that would be really frustrating and affect your sleep. Can you tell me more about what happens when these body image thoughts come up during your review, and how you've been trying to cope with them so far?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem",
+          "procrastination"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 4,
+      "user_message": "I notice the body image thoughts surface right when I open my expense spreadsheet; they feel like a spike in my performance metrics and I end up skipping the review entirely. I've tried a quick 5\u2011minute breathing exercise, but the anxiety just pushes through. Running has been on hold, and reading feels like a distraction rather than a solution. I still haven't been able to get any restful sleep, so the cycle continues.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "advise_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional struggle right now. Given their preparation stage for financial stress, I'll use the support strategy to create a safe space for them to express their emotions. The evidence shows that body image thoughts are a significant blocker for the user, and they're struggling to focus on their financial plan. The user's attempt to use a breathing exercise and their mention of running and reading as coping mechanisms are specific efforts that I can acknowledge. My entry will be to reflect on the user's experience of having body image thoughts surface when they try to review their expenses, and how that's affecting their ability to make progress.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "body image thoughts surface during expense review"
+          },
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "user tries breathing exercise to cope"
+          },
+          {
+            "source": "persona.hobbies_interests",
+            "content": "running and reading as coping mechanisms"
+          }
+        ],
+        "final_response": "When you open your expense spreadsheet, those body image thoughts feel like a major obstacle, and it's no wonder you've been skipping the review. You've been trying to cope with a quick breathing exercise, but it's not quite enough to push through the anxiety. It's also tough that running and reading, which are usually helpful for you, aren't feeling like solutions right now. Can you think of what might help you feel more grounded when you're looking at your expenses, so you can start making some progress on your financial plan?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem",
+          "procrastination",
+          "conflicts_with_friends",
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 5,
+      "user_message": "I think I need a buffer zone before I even open the spreadsheet\u2014like a brief \"standby\" sprint\u2014so the body image spike doesn't hit me. But even if I pause, the anxiety still lingers, and I keep losing focus. Maybe I should set a timer to only look at the sheets for five minutes, then check in with a quick run or a short walk. I'm not sure if that helps with the sleep cycle either.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_information",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "seek_information",
+        "intent_entry_style": "Elicit what they know \u2192 provide one piece \u2192 elicit reaction.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support the user in managing their financial stress, and they're seeking information on how to cope with their body image thoughts and anxiety. Given their preparation stage, I'll use the advise_with_permission strategy to help them structure a plan. The user has mentioned setting a timer to review their expenses for only five minutes and then taking a short walk or run to manage anxiety, which shows they're trying to find ways to cope. I'll acknowledge their effort to find a solution and provide a suggestion to build on that. The user's analytical personality and past experience with running as a coping mechanism can be helpful in finding a solution. I'll start by acknowledging their struggle with body image thoughts and anxiety, and then provide a suggestion to help them move forward.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "user is struggling with new expenses and body image thoughts"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "user mentions setting a timer to review expenses for five minutes and then taking a short walk or run"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "user is analytical and has experience with running as a coping mechanism"
+          }
+        ],
+        "final_response": "You're trying to find a way to manage your anxiety and body image thoughts when reviewing your expenses, and setting a timer to limit your review time and then taking a short walk or run is a creative approach. It's great that you're thinking of ways to cope with your anxiety. Have you considered starting with a brief 'standby' period, like a short meditation or deep breathing exercise, before opening your spreadsheet to help calm your mind? This might help you feel more grounded and focused when reviewing your expenses."
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem",
+          "procrastination",
+          "work_stress",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "seek_information",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "advise_with_permission",
+          "structure"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 6,
+      "user_message": "I'll try the breathing pause before I open the spreadsheet, but the body image spike still feels like a blocker. Maybe I should set a timer to limit the review and then take a short walk afterward. The last time I saw my ex still lingers, and my sleep hasn't improved.",
+      "inference": {
+        "user_intent": {
+          "intent": "small_talk",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "small_talk",
+        "intent_entry_style": "Stay light; warm acknowledgment.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "advise_with_permission",
+            "structure"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate financial stress and body image concerns, and right now they need a light, warm acknowledgment. Given their intent to make small talk, I'll start by acknowledging their struggle with the body image spike and their efforts to find a solution. The strategies that fit this moment are support and facilitate, as they're in the preparation stage and need help exploring their own solutions. I've noticed that the user's body image thoughts are a significant blocker, and they're considering setting a timer to limit their review time and then taking a short walk. My entry will be a brief acknowledgment of their struggle and a exploration of how they can use their analytical skills to find a solution.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "body image spike feels like a blocker"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "setting a timer to limit review time and then taking a short walk"
+          }
+        ],
+        "final_response": "You're still feeling really stuck with these body image thoughts popping up when you try to review your expenses, and it's affecting your sleep. It's like this one thing is holding you back from making progress on your financial plan. I can see how setting a timer and taking a short walk afterward might help you feel more in control and calm. What do you think might happen if you start with just a few minutes of review, and then take that walk - could that be a way to build some momentum and make this feel less overwhelming?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "work_stress",
+          "low_self_esteem",
+          "conflicts_with_friends",
+          "financial_stress",
+          "procrastination"
+        ],
+        "user_intent": "small_talk",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 7,
+      "user_message": "I\u2019ll set a 5\u2011minute sprint and then walk, but the spike still feels like a blocker. Even if I limit the review, the anxiety and body\u2011image thoughts linger, and I still can\u2019t get restful sleep.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "financial_stress",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "financial_stress",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "advise_with_permission",
+            "structure"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help the user navigate their financial stress and body image concerns, and they need me to acknowledge their emotional struggle right now. Given their intent to express emotion, I'll use the support strategy to create a safe space for them to open up. The evidence shows that the user is struggling with body image thoughts and anxiety when reviewing their expenses, and they've been trying to cope with breathing exercises and physical activity. My entry point will be to acknowledge the user's frustration with the body image spike and their difficulty in finding a solution that works. ",
+        "evidence_used": [
+          {
+            "source": "problem_summary.financial_stress",
+            "content": "body image thoughts and anxiety when reviewing expenses"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "body image spike still feels like a blocker"
+          }
+        ],
+        "final_response": "You're really struggling to shake off those body image thoughts when you're reviewing your expenses, and it's affecting your sleep. It's like every time you try to make progress, these thoughts and worries hold you back. I can see how frustrating that must be for you, especially when you've been trying to find ways to cope. Setting a timer and taking a short walk might help you feel more in control, but it's clear that the anxiety and body image concerns are still lingering. What do you think is the most overwhelming part of this process for you right now?"
+      },
+      "trace": {
+        "main_problem": "financial_stress",
+        "current_problems": [
+          "financial_stress",
+          "low_self_esteem",
+          "procrastination",
+          "work_stress",
+          "conflicts_with_friends"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "preparation",
+        "transition_target": "preparation \u2192 action",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "advise_with_permission",
+          "closed_question",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 8,
+      "user_message": "I think the worst part is that every time I open my expense sheet, the body image spike hits me and I just freeze. The ex\u2019s face still lingers, and I can\u2019t sleep. It feels like a never\u2011ending sprint with no finish line.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "low_self_esteem",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate this tough time, and it sounds like you're really struggling with the body image thoughts that come up when you're reviewing your expenses. The strategies that might be most helpful right now are evoke, complex_reflection, and inform_with_permission, as they can help you resolve ambivalence and build awareness. The evidence that stands out to me is the way you described the body image spike hitting you when you open your expense sheet, and how the ex's face still lingers in your mind. My first sentence will acknowledge the specific struggle you're facing, which is the freezing that happens when you're hit with the body image spike.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.low_self_esteem",
+            "content": "body image spike when opening expense spreadsheet"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "ex's face still lingers, can't sleep"
+          }
+        ],
+        "final_response": "The body image spike that hits you when you open your expense sheet is really powerful, and it's no wonder you freeze up. It's like that one moment just stops you in your tracks. You've also mentioned that your ex's face still lingers in your mind, which can't be easy. Have you thought about what might help you feel more grounded in that moment, so you can start to make some progress on your financial plan?"
+      },
+      "trace": {
+        "main_problem": "low_self_esteem",
+        "current_problems": [
+          "low_self_esteem",
+          "financial_stress",
+          "procrastination",
+          "conflicts_with_friends",
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 9,
+      "user_message": "I could try a 5\u2011minute breathing pause, but the ex\u2019s face keeps surfacing and I can\u2019t focus. Maybe I\u2019ll schedule a brief check\u2011in after the spreadsheet review to reset my mental sprint. Still, the anxiety is like a blocker that never clears.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "low_self_esteem",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "financial_stress",
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "low_self_esteem",
+          "strategies": [
+            "support",
+            "evoke",
+            "complex_reflection",
+            "inform_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help the user navigate their low self-esteem and anxiety, and right now, they need me to acknowledge the overwhelming emotions they're experiencing. The strategies that might be helpful in this situation are evoke, complex_reflection, and inform_with_permission, as they can help the user resolve their ambivalence and develop a plan to cope with their anxiety. The evidence suggests that the user is struggling to focus on their financial plan due to body image thoughts and anxiety, and that setting a timer and taking a short walk has been a coping strategy they've tried. The user's recent turns have shown that they're trying to find ways to manage their anxiety, but it's still lingering, and they're feeling stuck. My entry point will be to acknowledge the user's feelings and concerns, and then explore ways to help them feel more grounded and in control.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.low_self_esteem",
+            "content": "body image thoughts and anxiety are contributing to low self-esteem"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "ex's face still lingers in mind, can't sleep, and feels like a never-ending sprint"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not in control, I am stuck in the past"
+          }
+        ],
+        "final_response": "The anxiety you're feeling when you try to review your expenses is really debilitating, and it's no wonder you're having trouble focusing. It sounds like the face of your ex is still really present for you, and that's making it even harder to shake off those body image thoughts. You've been trying to find ways to cope, like setting a timer and taking a short walk, but it's clear that the anxiety is still a major blocker for you. What if you tried to reframe your thinking around this spreadsheet review, and instead of seeing it as a source of stress, tried to view it as a small, manageable task that you can complete in a short amount of time?"
+      },
+      "trace": {
+        "main_problem": "low_self_esteem",
+        "current_problems": [
+          "low_self_esteem",
+          "financial_stress",
+          "conflicts_with_friends",
+          "procrastination",
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 10,
+      "user_message": "Reframing feels like a band\u2011aid; the ex's face is still a constant reminder, and the body image spikes keep popping up. I keep trying to set a timer, but the anxiety never goes away. Maybe there's a better approach than just a quick breathing pause.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "medium",
+          "explanation": "v3 combined extract",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "low_self_esteem",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "low_self_esteem",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "financial_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "financial_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "procrastination",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "procrastination",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "conflicts_with_friends",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          },
+          {
+            "problem_name": "work_stress",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "work_stress",
+            "explanation": "v3 summary-based",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "low_self_esteem",
+          "explanation": "v3 main pick",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v3_summary_only": true,
+        "_fallback_default": false
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "_v3_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "low_self_esteem",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          }
+        ],
+        "stage_specific_candidates": [
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          }
+        ],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": "low_self_esteem",
+          "strategies": [
+            "support",
+            "evoke",
+            "complex_reflection",
+            "inform_with_permission"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": "low_self_esteem",
+          "strategies": [
+            "evoke",
+            "complex_reflection",
+            "inform_with_permission"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their struggle with body image thoughts and anxiety when reviewing their expenses. The strategies that might help are evoke, complex_reflection, and inform_with_permission, which can help the user resolve their ambivalence and develop a discrepancy between their current behavior and desired outcome. The evidence that stands out is the user's recent attempt to set a timer and take a short walk, but still feeling stuck with body image thoughts and anxiety. My entry point will be to acknowledge the user's feeling that reframing their thinking around the spreadsheet review feels like a band-aid, and that the anxiety never goes away, to show that I understand their frustration and concern.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.low_self_esteem",
+            "content": "User feels anxious and has body image thoughts when reviewing expenses"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "User feels that reframing their thinking around the spreadsheet review feels like a band-aid"
+          }
+        ],
+        "final_response": "You're feeling like you've tried a few different approaches, like setting a timer and taking a short walk, but the anxiety and body image thoughts still linger, and it's really frustrating. It's like the face of your ex is still a constant reminder, and that's making it hard to shake off those thoughts. Maybe we can explore what's not working about the current approach, and see if there's a way to address the underlying issues that are driving these body image spikes. What do you think is the root of why these thoughts keep popping up, and how can we work together to find a more effective way to manage them?"
+      },
+      "trace": {
+        "main_problem": "low_self_esteem",
+        "current_problems": [
+          "low_self_esteem",
+          "financial_stress",
+          "procrastination",
+          "conflicts_with_friends",
+          "work_stress"
+        ],
+        "user_intent": "express_emotion",
+        "ttm_stage": "contemplation",
+        "transition_target": "contemplation \u2192 preparation",
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "chosen_misc_codes": [
+          "evoke",
+          "complex_reflection",
+          "inform_with_permission"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [
+          {
+            "problem_name": "low_self_esteem",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "financial_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "procrastination",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "conflicts_with_friends",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "v3 inferred from rolling summary"
+          },
+          {
+            "problem_name": "work_stress",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "v3 inferred from rolling summary"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

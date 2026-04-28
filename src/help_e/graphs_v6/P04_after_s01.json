@@ -1,0 +1,290 @@
+{
+  "profile_id": "P04",
+  "persona": {
+    "demographics": "divorced or in the process of divorce",
+    "personality_traits": [],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": null,
+    "hobbies_interests": [
+      "side projects"
+    ],
+    "communication_style": "brief, possibly guarded",
+    "relevant_history": "recent divorce filing, work and side project pressures",
+    "general_behavioral_traits": []
+  },
+  "problems": {
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels overwhelmed by work demands",
+              "concise_explanation": "late nights and spill-over metaphor",
+              "supporting_utterance_span": "pulling late nights at work, trying to keep my side projects afloat",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels overwhelmed by work demands",
+              "concise_explanation": "expresses exhaustion",
+              "supporting_utterance_span": "I'm just tired",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels overwhelmed by work demands",
+              "concise_explanation": "user expresses exhaustion",
+              "supporting_utterance_span": "I guess I'm just tired.",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user feels overwhelmed by work demands",
+              "concise_explanation": "constant pressure to perform",
+              "supporting_utterance_span": null,
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels overwhelmed and drained",
+              "concise_explanation": "user expresses exhaustion",
+              "supporting_utterance_span": "I don't know. I guess I'm just tired.",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user feels unable to manage work and personal life",
+              "concise_explanation": "feeling of being overwhelmed",
+              "supporting_utterance_span": null,
+              "confidence": "medium"
+            }
+          ]
+        },
+        "self_efficacy": {
+          "current_level": "low",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels unable to cope with current demands",
+              "concise_explanation": "user's repeated expression of exhaustion",
+              "supporting_utterance_span": "I don't know. I guess I'm just tired.",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "financial_stress": {
+      "problem_name": "financial_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        1
+      ],
+      "current_ttm_stage": "precontemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels uncertain about managing financial obligations",
+              "concise_explanation": "mention of balancing bills and legal fees",
+              "supporting_utterance_span": "balance the bills, the legal fees",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "breakup_aftermath": {
+      "problem_name": "breakup_aftermath",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        4
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is struggling with emotional aftermath",
+              "concise_explanation": "emotional weight of divorce",
+              "supporting_utterance_span": null,
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "divorce filing is a major trigger for emotional distress",
+              "concise_explanation": "divorce filing mentioned as a pivotal event",
+              "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "breakup_aftermath",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems mentioned in the same turn",
+          "supporting_utterance_span": "I\u2019ve been pulling late nights at work...The divorce filing feels like the pot\u2019s lid has been ripped off"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in recent context",
+          "supporting_utterance_span": null
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems are active in the user's recent context",
+          "supporting_utterance_span": null
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in recent dialogue",
+          "supporting_utterance_span": null
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are contributing to user's current emotional state",
+          "supporting_utterance_span": null
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "work stress and divorce filing together exacerbate the user's emotional state",
+          "supporting_utterance_span": "I\u2019ve been pulling late nights at work...The divorce filing feels like the pot\u2019s lid has been ripped off",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 0.881487843333849
+    },
+    {
+      "problem_1": "financial_stress",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems mentioned in the same turn",
+          "supporting_utterance_span": "I\u2019ve been pulling late nights at work...balance the bills, the legal fees"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in recent context",
+          "supporting_utterance_span": null
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in recent dialogue",
+          "supporting_utterance_span": null
+        }
+      ],
+      "attribute_connection_entries": [],
+      "weight": 0.30391551190289023
+    },
+    {
+      "problem_1": "breakup_aftermath",
+      "problem_2": "financial_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems mentioned in the same turn",
+          "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off...balance the bills, the legal fees"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in recent context",
+          "supporting_utterance_span": null
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in recent dialogue",
+          "supporting_utterance_span": null
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "divorce filing leads to increased financial stress due to legal fees",
+          "supporting_utterance_span": "The divorce filing feels like the pot\u2019s lid has been ripped off...balance the bills, the legal fees",
+          "confidence": "high"
+        }
+      ],
+      "weight": 0.9039155119028902
+    }
+  ]
+}

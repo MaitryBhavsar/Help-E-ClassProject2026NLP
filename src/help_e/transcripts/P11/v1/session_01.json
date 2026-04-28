@@ -1,0 +1,1866 @@
+{
+  "session_id": 1,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-critical, emotionally reactive, avoidant",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep doubting my own worth"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I keep doubting my worth and just can't seem to get started"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I'm not good enough to even do this"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I'm not good enough, I'm not doing enough",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep doubting my own worth"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "Did I do enough for her?"
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "photography",
+      "evidence_citations": [
+        {
+          "turn_id": 10,
+          "excerpt": "I guess the smallest thing I can do is step outside for a fifteen\u2011minute walk with my camera"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, reflective",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like I'm stuck in a fog"
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I keep circling back to that kitchen"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "recent loss of mother",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I just lost my mom"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "memories of Mom"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, procrastinator, emotionally reactive",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep putting it off"
+        },
+        {
+          "turn_id": 4,
+          "excerpt": "I keep doubting my worth and just can't seem to get started"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I keep thinking I'm just wasting time"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I just lost my mom, and the project deadline is coming up fast. I feel like I can't focus, and every time I think about starting I end up putting it off. It's hard to believe I can get this done, and I keep doubting my own worth."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "Losing someone as important as your mom is incredibly tough, and having a big project deadline looming over you right now is just adding to the stress. It's completely understandable that you're struggling to focus and that doubts about your worth are creeping in. Yeah, it's a lot to handle, and it's okay to feel overwhelmed. Can you tell me more about what's been the hardest part of trying to get started on this project?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "The hardest part is just getting past the first step. I keep thinking I don't have the energy, and every time I try to start, I feel a wave of doubt that I'm not good enough. It's like my grief and that nagging self\u2011doubt are holding me back, so I keep putting it off."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "Getting past that first step feels like a monumental task right now, doesn't it? It's like your grief and self-doubt are teaming up against you, making it hard to find the energy to start. I can see how the fear of not being good enough would be really daunting, especially with a big deadline looming. It's okay to feel that way, and it's understandable that you're struggling to get started. Yeah, it's a lot to handle, and it's okay to take things one small step at a time."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I appreciate you saying it's okay, but I still feel like I'm stuck in a fog. The deadline looms like a mountain I can't climb, and every time I think about starting I get swallowed by grief and doubt. I keep wondering if I'm even good enough to keep going."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The weight of your grief and the pressure of this deadline are really colliding right now, making it incredibly hard to find a way forward. It's like every step feels like climbing a mountain, and the doubt about being good enough is a heavy burden. Yeah, it's okay to feel like you're stuck in this fog. Let's just take a moment to acknowledge how hard this is for you, and we can go from there."
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I feel like I'm just going in circles and I can't even list what I need to do. The deadline feels like a wall and my grief keeps pulling me back. I keep doubting my worth and just can't seem to get started."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "You're feeling like you're going in circles, and the deadline is looming over you like a wall, making it hard to even think about what you need to do. It's like your grief is pulling you back, and the doubt about your worth is making it impossible to get started. Yeah, it's a really tough spot to be in, and it's okay to feel like you're not making progress. Let's just take a moment to acknowledge how hard this is for you, and we can try to break it down together, one small step at a time."
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I hear you, but the wall still feels huge. Every time I try to outline a step, I get lost in memories of Mom and doubt my worth. I keep putting it off, and I don't even know where to start."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "The wall does feel huge, and it's like every time you try to make a plan, the memories of your mom and the doubts about your worth just overwhelm you. It's okay to feel that way, and it's understandable that you're struggling to know where to start. Yeah, it's a lot to handle, and it's okay to take things one small step at a time. Can you tell me more about what happens when you try to outline a step, and how those memories of your mom come up for you?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "When I try to list a step, my mind drifts to the kitchen where Mom used to cook, and suddenly I'm overwhelmed by the loss. It feels like every word I type is a question: \"Did I do enough for her?\" That makes me freeze and push the task away."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The kitchen where your mom used to cook is a place that holds a lot of memories for you, and it's no wonder that it's where your mind drifts when you're trying to focus on your project. It's like those memories are still very much alive, and they're making it hard for you to separate your grief from your work. When you start to think about your project, and you're wondering if you did enough for your mom, that's a really tough question to face. Can you think of one small thing you could do to start making progress on your project, even if it's just a tiny step?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I keep circling back to that kitchen, and even if I try to sketch a rough outline, my mind drifts to whether I did enough for Mom. I could maybe write a single sentence about the project, but I feel guilty about taking time for myself right now. It's hard to find a tiny step that feels doable."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The kitchen where your mom used to cook is a place that holds a lot of memories for you, and it's no wonder that it's where your mind drifts when you're trying to focus on your project. You're feeling guilty about taking time for yourself, and that's making it hard to find a tiny step that feels doable. Yeah, it's okay to feel that way. Writing a single sentence about the project might be a good place to start, even if it feels like a small thing. What's the one thing you could write about that might help you get started?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "Honestly, I can't think of a single sentence that feels right. The thought of writing it feels like a reminder that I'm not enough, and just the idea of putting words down feels like another weight. Maybe I should just write something about the color palette?"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The weight of your emotions is really making it hard to find a starting point, and it's like every idea feels like another weight. Writing about the color palette might be a way to begin, even if it doesn't feel directly related to the rest of the project. What is it about the color palette that feels like a possible place to start, and how might that help you get some momentum going?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "Honestly, I don't even know if picking a color palette is helpful; it feels like I'm avoiding the main task. The idea of choosing colors feels too easy, but I keep thinking I'm just wasting time and that I'm not good enough to even do this."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The idea of choosing colors for your project feels too easy, and you're worried that you're avoiding the main task. It's like you're questioning whether you're good enough to even do this, and that's a really hard feeling to shake. You've been trying to find a way to start, but every idea feels like another weight. I want to acknowledge how tough this is for you, and that it's okay to feel unsure. What's one thing you could do to take a tiny step forward, even if it doesn't feel directly related to the rest of the project?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I guess the smallest thing I can do is step outside for a fifteen\u2011minute walk with my camera, just to get my head out of the kitchen. I know it feels like I'm avoiding the work, but I feel like I need to breathe. I\u2019m not sure it will help, but maybe it can be a tiny break."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "Taking that 15-minute walk with your camera might be just what you need to clear your mind and get out of the kitchen, which has been feeling overwhelming. It's okay to take a break and prioritize your own needs, even if it feels like you're avoiding the work. Yeah, it's a small step, but sometimes those are the most important ones. What do you hope to get out of this walk, or what do you think might happen when you take a step back from the project for a little while?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I just lost my mom, and the project deadline is coming up fast. I feel like I can't focus, and every time I think about starting I end up putting it off. It's hard to believe I can get this done, and I keep doubting my own worth.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the pain and overwhelm you're feeling. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to process your feelings. The evidence that stands out is your recent loss and the pressure of the project deadline, which is making it hard for you to focus and believe in yourself. My entry point will be to acknowledge the difficulty of dealing with grief while facing a significant deadline, and how that's affecting your self-doubt.",
+        "evidence_used": [
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "lost my mom"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "project deadline is coming up fast"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "doubting my own worth"
+          }
+        ],
+        "final_response": "Losing someone as important as your mom is incredibly tough, and having a big project deadline looming over you right now is just adding to the stress. It's completely understandable that you're struggling to focus and that doubts about your worth are creeping in. Yeah, it's a lot to handle, and it's okay to feel overwhelmed. Can you tell me more about what's been the hardest part of trying to get started on this project?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "The hardest part is just getting past the first step. I keep thinking I don't have the energy, and every time I try to start, I feel a wave of doubt that I'm not good enough. It's like my grief and that nagging self\u2011doubt are holding me back, so I keep putting it off.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelming emotions you're dealing with. Given your intent to express emotion, I'll use a combination of support and complex reflection to help you feel understood. The evidence shows that your grief and self-doubt are significant barriers to starting your project, and it's essential to acknowledge the pain of losing your mom and the stress of the deadline. My entry point will be to reflect on the specific challenge you're facing with getting past the first step, and how that's tied to your feelings of not being good enough.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "I just lost my mom, and the project deadline is coming up fast. I feel like I can't focus, and every time I think about starting I end up putting it off."
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "The hardest part is just getting past the first step. I keep thinking I don't have the energy, and every time I try to start, I feel a wave of doubt that I'm not good enough."
+          }
+        ],
+        "final_response": "Getting past that first step feels like a monumental task right now, doesn't it? It's like your grief and self-doubt are teaming up against you, making it hard to find the energy to start. I can see how the fear of not being good enough would be really daunting, especially with a big deadline looming. It's okay to feel that way, and it's understandable that you're struggling to get started. Yeah, it's a lot to handle, and it's okay to take things one small step at a time."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I appreciate you saying it's okay, but I still feel like I'm stuck in a fog. The deadline looms like a mountain I can't climb, and every time I think about starting I get swallowed by grief and doubt. I keep wondering if I'm even good enough to keep going.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, this person needs acknowledgment of their emotional pain. Given their intent to express emotion, I'll use the support strategy to create a safe space. The evidence shows they're struggling with grief, self-doubt, and feeling overwhelmed by the project deadline. Their recent messages highlight the difficulty in getting past the first step due to these feelings. My entry will acknowledge the weight of their grief and the pressure of the deadline.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "lost my mom"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "project deadline is coming up fast"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "grief and self-doubt are holding me back"
+          }
+        ],
+        "final_response": "The weight of your grief and the pressure of this deadline are really colliding right now, making it incredibly hard to find a way forward. It's like every step feels like climbing a mountain, and the doubt about being good enough is a heavy burden. Yeah, it's okay to feel like you're stuck in this fog. Let's just take a moment to acknowledge how hard this is for you, and we can go from there."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I feel like I'm just going in circles and I can't even list what I need to do. The deadline feels like a wall and my grief keeps pulling me back. I keep doubting my worth and just can't seem to get started.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the overwhelming emotions you're experiencing. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to share your feelings. The evidence shows that you're struggling to start your project due to grief and self-doubt, and it's essential to acknowledge the weight of these emotions. My entry point will be to reflect on the emotional turmoil you're facing, specifically the feeling of being stuck in a cycle of grief and doubt.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "feeling stuck in a fog"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "grief and doubt holding me back"
+          }
+        ],
+        "final_response": "You're feeling like you're going in circles, and the deadline is looming over you like a wall, making it hard to even think about what you need to do. It's like your grief is pulling you back, and the doubt about your worth is making it impossible to get started. Yeah, it's a really tough spot to be in, and it's okay to feel like you're not making progress. Let's just take a moment to acknowledge how hard this is for you, and we can try to break it down together, one small step at a time."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I hear you, but the wall still feels huge. Every time I try to outline a step, I get lost in memories of Mom and doubt my worth. I keep putting it off, and I don't even know where to start.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the pain and struggle you're going through right now. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to open up. The evidence shows that your grief and self-doubt are intertwined, making it hard for you to start working on your project. Your recent messages have highlighted the difficulty of getting past the first step and the overwhelming feeling of being stuck. My entry point will be to acknowledge the weight of your emotions and the challenges you're facing.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "feeling like going in circles and can't list what I need to do"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "stuck in a fog and wondering if I'm good enough to keep going"
+          }
+        ],
+        "final_response": "The wall does feel huge, and it's like every time you try to make a plan, the memories of your mom and the doubts about your worth just overwhelm you. It's okay to feel that way, and it's understandable that you're struggling to know where to start. Yeah, it's a lot to handle, and it's okay to take things one small step at a time. Can you tell me more about what happens when you try to outline a step, and how those memories of your mom come up for you?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 6,
+      "user_message": "When I try to list a step, my mind drifts to the kitchen where Mom used to cook, and suddenly I'm overwhelmed by the loss. It feels like every word I type is a question: \"Did I do enough for her?\" That makes me freeze and push the task away.",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_information",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "seek_information",
+        "intent_entry_style": "Elicit what they know \u2192 provide one piece \u2192 elicit reaction.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're seeking information on how to navigate your current situation. Given your intent and the fact that we're still exploring the main problem, I'll use strategies like support and facilitate to help you elicit what you know and provide one piece of information at a time. The evidence shows that your grief and self-doubt are significant barriers, and the memories of your mom are overwhelming you. Your mind drifting to the kitchen where your mom used to cook and feeling overwhelmed by the loss is a specific moment that acknowledges your pain. The fact that every word you type feels like a question about whether you did enough for her is a crucial insight into your thought process.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "mind drifts to the kitchen where Mom used to cook"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "every word I type is a question: 'Did I do enough for her'"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "grief and self-doubt as barriers"
+          }
+        ],
+        "final_response": "The kitchen where your mom used to cook is a place that holds a lot of memories for you, and it's no wonder that it's where your mind drifts when you're trying to focus on your project. It's like those memories are still very much alive, and they're making it hard for you to separate your grief from your work. When you start to think about your project, and you're wondering if you did enough for your mom, that's a really tough question to face. Can you think of one small thing you could do to start making progress on your project, even if it's just a tiny step?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "seek_information",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 7,
+      "user_message": "I keep circling back to that kitchen, and even if I try to sketch a rough outline, my mind drifts to whether I did enough for Mom. I could maybe write a single sentence about the project, but I feel guilty about taking time for myself right now. It's hard to find a tiny step that feels doable.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate your emotions, and it seems like the kitchen where your mom used to cook is a significant trigger for you. The strategies I'm considering include support and facilitate, given your current emotional state. The evidence I'm drawing from is your consistent mention of feeling stuck and overwhelmed by memories of your mom, particularly in the context of the kitchen. My entry point will be to acknowledge the difficulty of finding a tiny step that feels doable, especially when you're feeling guilty about taking time for yourself.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "kitchen where Mom used to cook"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "feeling guilty about taking time for myself"
+          }
+        ],
+        "final_response": "The kitchen where your mom used to cook is a place that holds a lot of memories for you, and it's no wonder that it's where your mind drifts when you're trying to focus on your project. You're feeling guilty about taking time for yourself, and that's making it hard to find a tiny step that feels doable. Yeah, it's okay to feel that way. Writing a single sentence about the project might be a good place to start, even if it feels like a small thing. What's the one thing you could write about that might help you get started?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 8,
+      "user_message": "Honestly, I can't think of a single sentence that feels right. The thought of writing it feels like a reminder that I'm not enough, and just the idea of putting words down feels like another weight. Maybe I should just write something about the color palette?",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_information",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "seek_information",
+        "intent_entry_style": "Elicit what they know \u2192 provide one piece \u2192 elicit reaction.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person right now, and they need help finding a way to start writing about their project. The strategies that seem most fitting are support and facilitate, given their current struggle with feelings of inadequacy and grief. The evidence that stands out is their difficulty in writing even a single sentence due to feelings of not being enough, and how the thought of writing feels like an additional weight. My entry point will be to acknowledge the weight of their emotions and the struggle to find a starting point, and then gently explore the idea of writing about the color palette as a potential first step.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "can't think of a single sentence that feels right"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "the thought of writing it feels like a reminder that I'm not enough"
+          }
+        ],
+        "final_response": "The weight of your emotions is really making it hard to find a starting point, and it's like every idea feels like another weight. Writing about the color palette might be a way to begin, even if it doesn't feel directly related to the rest of the project. What is it about the color palette that feels like a possible place to start, and how might that help you get some momentum going?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "seek_information",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 9,
+      "user_message": "Honestly, I don't even know if picking a color palette is helpful; it feels like I'm avoiding the main task. The idea of choosing colors feels too easy, but I keep thinking I'm just wasting time and that I'm not good enough to even do this.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion about feeling stuck and unsure if you're good enough. Given your intent to express emotion, I'll use strategies like support and complex reflection to help you feel heard. The evidence I'm drawing from is your recent messages, where you've shared feelings of guilt, doubt, and being overwhelmed by memories of your mom. Your struggle to start on your project and feelings of inadequacy are really tough to navigate. I'll start by acknowledging the weight of your emotions and the difficulty of finding a starting point.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "The thought of writing it feels like a reminder that I'm not enough"
+          },
+          {
+            "source": "recent_turn.t7.user",
+            "content": "I feel guilty about taking time for myself right now"
+          }
+        ],
+        "final_response": "The idea of choosing colors for your project feels too easy, and you're worried that you're avoiding the main task. It's like you're questioning whether you're good enough to even do this, and that's a really hard feeling to shake. You've been trying to find a way to start, but every idea feels like another weight. I want to acknowledge how tough this is for you, and that it's okay to feel unsure. What's one thing you could do to take a tiny step forward, even if it doesn't feel directly related to the rest of the project?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 10,
+      "user_message": "I guess the smallest thing I can do is step outside for a fifteen\u2011minute walk with my camera, just to get my head out of the kitchen. I know it feels like I'm avoiding the work, but I feel like I need to breathe. I\u2019m not sure it will help, but maybe it can be a tiny break.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the weight of your emotions right now. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to share. The evidence shows that you've been struggling to start your project due to feelings of guilt and inadequacy, and even small steps feel like a burden. Your decision to take a 15-minute walk with your camera feels like a tiny, necessary break, and I want to acknowledge the courage it takes to prioritize your own needs. My entry point will be to reflect on the significance of taking this small step, and how it might help you clear your mind.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "feels too easy, but I keep thinking I'm just wasting time and that I'm not good enough to even do this"
+          },
+          {
+            "source": "recent_turn.t9.assistant",
+            "content": "questioning whether you're good enough to even do this, and that's a really hard feeling to shake"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "I guess the smallest thing I can do is step outside for a fifteen\u2011minute walk with my camera, just to get my head out of the kitchen"
+          }
+        ],
+        "final_response": "Taking that 15-minute walk with your camera might be just what you need to clear your mind and get out of the kitchen, which has been feeling overwhelming. It's okay to take a break and prioritize your own needs, even if it feels like you're avoiding the work. Yeah, it's a small step, but sometimes those are the most important ones. What do you hope to get out of this walk, or what do you think might happen when you take a step back from the project for a little while?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

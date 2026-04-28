@@ -1,0 +1,249 @@
+{
+  "profile_id": "P05",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "analytical",
+      "self-critical"
+    ],
+    "core_values": [
+      "connection",
+      "appreciation"
+    ],
+    "core_beliefs": [],
+    "support_system": "friends, possibly distant or unresponsive",
+    "hobbies_interests": [],
+    "communication_style": "reflective, somewhat guarded",
+    "relevant_history": null,
+    "general_behavioral_traits": [
+      "overthinker",
+      "emotionally reactive"
+    ]
+  },
+  "problems": {
+    "loneliness": {
+      "problem_name": "loneliness",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "preparation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels strongly isolated and unvalued",
+              "concise_explanation": "emotional language used",
+              "supporting_utterance_span": "It feels like I\u2019m the only one who actually cares",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels strongly isolated and unvalued",
+              "concise_explanation": "emotional language and uncertainty about reaching out",
+              "supporting_utterance_span": "I'm not sure if I should keep trying or just step back",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels strongly isolated and unvalued",
+              "concise_explanation": "user expresses strong emotional pain",
+              "supporting_utterance_span": "I guess I'd feel better if at least one friend responded",
+              "confidence": "high"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is motivated to reconnect with friends",
+              "concise_explanation": "user is seeking advice on a plan to reconnect",
+              "supporting_utterance_span": "Do you think that could work?",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "coping_strategies": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user has been trying to organize events to connect with friends",
+              "concise_explanation": "user mentions organizing events",
+              "supporting_utterance_span": "I keep organizing events",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user has been trying to organize events to connect with friends",
+              "concise_explanation": "user mentions sending invites",
+              "supporting_utterance_span": "I guess I'd feel better if at least one friend responded",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user plans to reach out to a friend for one-on-one meeting",
+              "concise_explanation": "user suggests a specific plan to reconnect",
+              "supporting_utterance_span": "reach out to the friend who said they couldn't make it",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is considering a one-on-one meeting as a way to reconnect",
+              "concise_explanation": "user suggests reaching out to a friend for a one-on-one meeting",
+              "supporting_utterance_span": "reach out to the friend who said they couldn't make it",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels overwhelmed by work demands",
+              "concise_explanation": "barely keeping head above water",
+              "supporting_utterance_span": "I\u2019m barely keeping my head above water",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels overwhelmed by work demands",
+              "concise_explanation": "user mentions being 'barely keeping my head above water'",
+              "supporting_utterance_span": "I'm barely keeping my head above water",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels overwhelmed by work demands",
+              "concise_explanation": "user mentions being overwhelmed",
+              "supporting_utterance_span": "I\u2019m not sure if I should just stop trying or keep pushing",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees the looming deadline as a barrier to taking time for a one-on-one meeting",
+              "concise_explanation": "user mentions a looming deadline as a time pressure",
+              "supporting_utterance_span": "I also have a looming deadline",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "loneliness",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "nobody answered back...and with that new campaign at work piling up"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems mentioned in the context of user feeling overwhelmed",
+          "supporting_utterance_span": "every time I reach out, they seem to have other priorities. I'm barely keeping my head above water"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I guess I'd feel better if at least one friend responded, but I\u2019m not sure if I should just stop trying or keep pushing"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems discussed in the context of user's life",
+          "supporting_utterance_span": "nobody answered back... that new campaign at work piling up"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "reach out to the friend who said they couldn't make it and I also have a looming deadline"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's feelings of isolation and overwhelm at work may be exacerbating each other",
+          "supporting_utterance_span": "every time I reach out, they seem to have other priorities. I'm barely keeping my head above water",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's feelings of isolation and disconnection from friends are exacerbated by the overwhelming work demands",
+          "supporting_utterance_span": "I guess I'd feel better if at least one friend responded, but I\u2019m not sure if I should just stop trying or keep pushing",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "coping_strategies",
+          "attribute_2": "perceived_barriers",
+          "relation_type": "conflicting",
+          "connection_explanation": "user's attempt to reconnect with friends (loneliness) is conflicted with the time pressure from work (work_stress)",
+          "supporting_utterance_span": "reach out to the friend who said they couldn't make it and I also have a looming deadline",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 1.0
+    }
+  ]
+}

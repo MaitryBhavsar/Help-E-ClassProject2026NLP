@@ -1,0 +1,292 @@
+{
+  "profile_id": "P14",
+  "persona": {
+    "demographics": "student",
+    "personality_traits": [],
+    "core_values": [
+      "autonomy",
+      "self-identity"
+    ],
+    "core_beliefs": [],
+    "support_system": "parents, none (feeling alone)",
+    "hobbies_interests": [],
+    "communication_style": "emotional",
+    "relevant_history": "academic pressure, parental conflict",
+    "general_behavioral_traits": []
+  },
+  "problems": {
+    "academic_pressure": {
+      "problem_name": "academic_pressure",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "preparation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees the situation as potentially catastrophic for their academic future",
+              "concise_explanation": "fear of tuition cut-off",
+              "supporting_utterance_span": "scared they'll cut off my tuition",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees the potential loss of tuition as a severe threat to their academic future",
+              "concise_explanation": "fear of tuition cut-off",
+              "supporting_utterance_span": "I'm scared they'll cut off my tuition",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees the situation as highly threatening to their academic future",
+              "concise_explanation": "parents' threat to cut off tuition",
+              "supporting_utterance_span": "My parents are threatening to cut off my tuition",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees the threat to cut tuition as extremely serious",
+              "concise_explanation": "threat to cut tuition described as 'death sentence'",
+              "supporting_utterance_span": "The threat to cut my tuition feels like a death sentence",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user feels constrained by external pressures (harsh feedback) and internal doubts",
+              "concise_explanation": "feeling harshly judged and uncertain",
+              "supporting_utterance_span": "I cant believe how harsh they were",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels trapped by the situation and unsure of how to proceed",
+              "concise_explanation": "feeling trapped",
+              "supporting_utterance_span": "I just feel trapped",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels that their parents' threat is a significant obstacle to their academic goals",
+              "concise_explanation": "parents' threat seen as major barrier",
+              "supporting_utterance_span": "The threat to cut my tuition feels like a death sentence",
+              "confidence": "high"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user is motivated to find a way to keep their education going",
+              "concise_explanation": "seeking advice on how to stay in education",
+              "supporting_utterance_span": "Is there any way to keep my education going",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is motivated to find a solution to academic uncertainty",
+              "concise_explanation": "user wants to explore options",
+              "supporting_utterance_span": "I think I want to look at some options",
+              "confidence": "high"
+            }
+          ]
+        },
+        "cues_to_action": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is considering taking action to address academic uncertainty",
+              "concise_explanation": "user is looking for options",
+              "supporting_utterance_span": "I think I want to look at some options",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    },
+    "loneliness": {
+      "problem_name": "loneliness",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels alone and unsure about how to move forward",
+              "concise_explanation": "feeling alone",
+              "supporting_utterance_span": "I feel so alone",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels intensely alone and isolated",
+              "concise_explanation": "feeling alone",
+              "supporting_utterance_span": "I feel so alone",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user feels unsure and alone in decision-making process",
+              "concise_explanation": "user is unsure where to start",
+              "supporting_utterance_span": "but I'm not sure where to start",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "feeling alone is triggered by the uncertainty and pressure of the academic situation",
+              "concise_explanation": "feeling alone in decision-making",
+              "supporting_utterance_span": "I feel so alone in figuring out what to do next",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user's feeling of being alone is triggered by the uncertainty of their academic future",
+              "concise_explanation": "feeling alone linked to academic uncertainty",
+              "supporting_utterance_span": "I feel like everything is a mess right now",
+              "confidence": "medium"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "academic_pressure",
+      "problem_2": "loneliness",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I cant believe how harsh they were\u2014now Im scared they'll cut off my tuition, and I feel so alone in figuring out what to do next"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I'm scared they'll cut off my tuition, and I feel so alone"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "My parents are threatening to cut off my tuition, and I feel so alone"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are present in user's consideration of options",
+          "supporting_utterance_span": "I think I want to look at some options, but I'm not sure where to start"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The threat to cut my tuition feels like a death sentence, and I don't want to give up on my identity. I just feel like everything is a mess right now"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "the external pressure (harsh feedback) contributes to the feeling of loneliness",
+          "supporting_utterance_span": "I cant believe how harsh they were\u2014now Im scared they'll cut off my tuition, and I feel so alone in figuring out what to do next",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the fear of tuition cut-off exacerbates the feeling of loneliness",
+          "supporting_utterance_span": "I'm scared they'll cut off my tuition, and I feel so alone",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the severity of the academic pressure situation exacerbates the feeling of loneliness",
+          "supporting_utterance_span": "My parents are threatening to cut off my tuition, and I feel so alone",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "motivation",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "user's motivation to address academic uncertainty is reinforced by their feelings of loneliness and uncertainty",
+          "supporting_utterance_span": "I think I want to look at some options, but I'm not sure where to start",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "the threat to cut tuition (academic pressure) is causing the user to feel alone and unsure about their future (loneliness)",
+          "supporting_utterance_span": "The threat to cut my tuition feels like a death sentence, and I don't want to give up on my identity. I just feel like everything is a mess right now",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 1.0
+    }
+  ]
+}

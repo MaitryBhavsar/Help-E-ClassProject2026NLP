@@ -1,0 +1,229 @@
+{
+  "profile_id": "P27",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "empathetic",
+      "frustrated"
+    ],
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": "partner, family",
+    "hobbies_interests": [],
+    "communication_style": "emotional",
+    "relevant_history": "argument with partner about family",
+    "general_behavioral_traits": [
+      "emotionally reactive",
+      "frustrated"
+    ]
+  },
+  "problems": {
+    "conflicts_with_partner": {
+      "problem_name": "conflicts_with_partner",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees the conflict as significant and persistent",
+              "concise_explanation": "argument keeps coming up",
+              "supporting_utterance_span": "The argument about Mom and Dad just keeps coming up",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees the argument as a significant and persistent issue",
+              "concise_explanation": "describes feeling 'stuck' and 'exhausted'",
+              "supporting_utterance_span": "I just feel like I'm stuck in this endless cycle of arguing, and I'm exhausted",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees the argument as highly distressing",
+              "concise_explanation": "feeling of shouting into a void",
+              "supporting_utterance_span": "I just feel like I'm shouting into a void",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees the conflict as highly stressful and exhausting",
+              "concise_explanation": "tension described as exhausting",
+              "supporting_utterance_span": "the tension is exhausting",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels that their partner's stubbornness is a major obstacle to resolving the issue",
+              "concise_explanation": "mentions 'both so stubborn' and 'can't get her to listen'",
+              "supporting_utterance_span": "we're both so stubborn",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user feels partner's lack of listening is a major obstacle",
+              "concise_explanation": "partner's not listening",
+              "supporting_utterance_span": "no matter what I say, she's not listening",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user feels that their partner is not listening, creating a significant barrier to resolution",
+              "concise_explanation": "feels like shouting into a void",
+              "supporting_utterance_span": "I feel like I'm shouting into a void",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user sees partner's unwillingness to listen as a major obstacle",
+              "concise_explanation": "user doubts partner will change",
+              "supporting_utterance_span": "I doubt it",
+              "confidence": "high"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "medium",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user is motivated to find a way out of the argument cycle",
+              "concise_explanation": "expresses hope for a solution",
+              "supporting_utterance_span": "I keep hoping there\u2019s a way out",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user is motivated to find a way out of the conflict, but unsure how",
+              "concise_explanation": "wants to find a way out, but unsure",
+              "supporting_utterance_span": "Maybe there's a way to talk about this without it spiraling",
+              "confidence": "medium"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is motivated to find a solution, but feels stuck",
+              "concise_explanation": "user wants partner to understand the hurt caused",
+              "supporting_utterance_span": "Maybe if she saw how much this is hurting me, she\u2019d change",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "family events trigger the argument",
+              "concise_explanation": "argument comes up at family events",
+              "supporting_utterance_span": "The argument about Mom and Dad just keeps coming up at every family event",
+              "confidence": "high"
+            }
+          ]
+        },
+        "coping_strategies": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user is considering avoiding family gatherings",
+              "concise_explanation": "maybe stop going to family gatherings",
+              "supporting_utterance_span": "Maybe I should just stop going to family gatherings altogether",
+              "confidence": "medium"
+            }
+          ]
+        }
+      }
+    },
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        1
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user is exhausted from work",
+              "concise_explanation": "overnight shift caused exhaustion",
+              "supporting_utterance_span": "I had a shift overnight and now I\u2019m just exhausted",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {}
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "conflicts_with_partner",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The argument about Mom and Dad just keeps coming up at every family event, and I had a shift overnight and now I\u2019m just exhausted"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems mentioned in the same turn",
+          "supporting_utterance_span": "I just feel like I'm stuck in this endless cycle of arguing, and I'm exhausted"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems mentioned in the same turn",
+          "supporting_utterance_span": "I'm exhausted from trying to keep my cool"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems mentioned in the same turn, with exhaustion potentially related to both",
+          "supporting_utterance_span": "the tension is exhausting"
+        }
+      ],
+      "attribute_connection_entries": [],
+      "weight": 0.4
+    }
+  ]
+}

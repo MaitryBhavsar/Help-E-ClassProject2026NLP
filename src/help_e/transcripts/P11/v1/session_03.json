@@ -1,0 +1,1876 @@
+{
+  "session_id": 3,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I'm not good enough, I'm not doing enough, I've lost my sense of identity",
+      "evidence_citations": [
+        {
+          "turn_id": 6,
+          "excerpt": "the weight makes me feel like I don't even exist anymore"
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "the mirror keeps reminding me I'm not the same person I used to be"
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "update",
+      "new_value": "photography, painting, walking",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I'm so tired I can't paint or even go for a walk"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "every time I try to focus on something like painting or a walk"
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "recent loss of mother, diagnosis with Lyme disease",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The photoshoot felt like a reminder that my body isn\u2019t the same as it was before Lyme"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "seeing the extra weight just makes me feel ashamed and stuck"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "procrastinator, emotionally reactive, avoidant, overthinker, self-critical",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I'm so tired I can't paint or even go for a walk"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I keep lying awake, hearing the clock tick, and I feel stuck in a loop of shame and loneliness"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "I keep replaying the mirror and the numbers"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "The photoshoot felt like a reminder that my body isn\u2019t the same as it was before Lyme, and seeing that weight gain in the mirror just made me feel ashamed and stuck. The medical bill on top of everything is a constant weight on my wallet, and I\u2019m not even sure how I\u2019m going to pay it. I\u2019m so tired I can\u2019t paint or even go for a walk, which makes me feel even more isolated and lonely. All of this is keeping me up at night, and I can\u2019t seem to get any rest."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "The photoshoot was really tough for you, and it's like seeing your body change has brought up all these feelings of shame and frustration. It's not just the physical changes, but also the financial stress of the medical bill that's weighing you down. It sounds like all of this is making it hard for you to do the things you love, like painting or going for walks, and that's leaving you feeling isolated and lonely. Yeah, it's no wonder you're having trouble sleeping with all this on your mind."
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I keep thinking the photoshoot was a good thing, but seeing the extra weight just makes me feel ashamed and stuck. The medical bill feels like a punch in the gut, and I can\u2019t even go out to paint or walk. All of this keeps me up at night and I feel so alone."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The photoshoot was a harsh reminder of the changes your body has gone through since Lyme, and it's like that weight gain is staring back at you, making you feel ashamed and stuck. It's not just the physical changes, but also the constant stress of that medical bill, which is making it hard for you to enjoy the things you love, like painting or going for walks. Yeah, it's no wonder you're feeling so alone and struggling to sleep with all this on your mind. What's it like for you to feel like you're losing touch with the things that bring you joy?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "It feels like every time I look in the mirror, I\u2019m reminded of the weight I\u2019ve gained and the body that\u2019s no longer mine. The bill only adds to the sense that I\u2019m drowning, and the fatigue keeps me from even picking up a brush or going for a walk. I keep feeling isolated, like no one sees the real me, and that makes it hard to fall asleep."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The mirror can be a harsh critic, and it's like it's reflecting all your worries about your body and your health. Seeing the changes in your body since Lyme, and dealing with the stress of that medical bill, is a heavy burden. It's no wonder you're feeling isolated and like you're losing touch with the things that bring you joy, like painting and walking. Yeah, it can be really tough to feel like yourself when everything feels so overwhelming."
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I keep staring at the mirror and it feels like a judgment. The bill is piling up, and I can't even afford to buy new brushes. I lie awake, hearing the clock tick, wondering if this will ever stop."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The mirror can be a really tough thing to face, especially when it feels like it's judging you. And with the medical bill piling up, it's like there's this constant weight on your mind, making it hard to enjoy the things you love, like painting. It's no wonder you're lying awake at night, feeling overwhelmed and wondering if this will ever stop. Yeah, it sounds like everything is just feeling really stuck right now."
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I keep lying awake, hearing the clock tick, and I can't seem to find any rest. The bill feels like another weight that just piles up, and I feel stuck in a loop of shame and isolation."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "The clock ticking away can be really unsettling, especially when you're already feeling overwhelmed. It's like the medical bill is just one more thing piling up, making you feel stuck in this loop of shame and isolation. I can see how that would make it hard to find any rest. It sounds like your mind is racing with all these worries, and it's no wonder you're feeling so trapped. Yeah, it's like everything is just feeling really heavy right now."
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "Every time I glance at the bill, I feel like it's a punch in the gut, and the bill keeps growing while I can't even afford new brushes. I'm staring at the mirror and feeling judged, and the weight makes me feel like I don't even exist anymore. I lie awake, counting the ticks of the clock, and I don't know how to escape this cycle."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The bill and the mirror both seem to be constant reminders of things that feel out of your control right now, and it's like they're echoing your deepest fears about not being good enough. Seeing the weight gain and dealing with the financial stress of the medical bill can be really painful, especially when it feels like it's affecting your sense of identity and self-worth. It sounds like the clock ticking away at night is just another reminder of all the things that are feeling stuck and overwhelming. Yeah, it's no wonder you're feeling so trapped and struggling to find any rest."
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I hear you, but it feels like the bill is just another weight I can\u2019t lift. I can\u2019t even buy new brushes, and the mirror keeps reminding me I\u2019m not the same person I used to be. All of it just keeps me up, and I\u2019ve been feeling more alone than ever."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "The mirror's reflection and the bill's constant presence are harsh reminders of what you feel you've lost and the weight you've gained, making it hard to recognize yourself. It's like these reminders are echoing your deepest fears about not being good enough. You're not just struggling with the physical changes, but also with the feeling of being overwhelmed by the medical bill and the sense of isolation it brings. It's no wonder you're feeling so alone and struggling to find rest, given the weight of these constant reminders."
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I keep staring at the bill and it feels like a punch in the gut, and the mirror just reminds me I'm not the same person I used to be. I can't even afford new brushes, and the exhaustion makes me feel more isolated. All of it keeps me up, and I feel like I'm stuck in a loop of shame and loneliness."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The bill and the mirror both seem to be constant reminders of things that feel out of your control right now, and it's like they're echoing your deepest fears about not being good enough. Seeing the weight gain and dealing with the financial stress of the medical bill can be really painful, especially when it feels like it's affecting your sense of identity and self-worth. You're not just struggling with the physical changes, but also with the feeling of being overwhelmed by the medical bill and the sense of isolation it brings. Yeah, it can be really tough to feel like yourself when everything feels so overwhelming. What's been the hardest part of this cycle for you to break?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "Honestly, the hardest part is that every time I try to focus on something like painting or a walk, the weight and the bill keep pulling me back, and I just feel so stuck. It\u2019s like my own body is a judgment and my finances are a wall I can\u2019t climb. I can\u2019t sleep because I keep replaying the mirror and the numbers."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The weight and the bill feel like they're constantly pulling you back, making it hard to focus on things that bring you joy, like painting. It's like your body and finances are echoing your deepest fears, making it tough to escape this cycle. You've been trying to find rest, but the mirror and the numbers keep replaying in your mind, keeping you up at night. Yeah, it can be really tough to feel like yourself when everything feels so overwhelming. What's one thing you've found that helps you momentarily escape this feeling of being stuck?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "Honestly, the only thing that gives me a brief lift is when I stare at a photo of the coast and pretend I'm there, but even that feels like a lie and I'm back to the mirror and the bill in an hour. I don't have a real escape; the fatigue and shame swallow me again."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The photo of the coast gives you a brief sense of escape, but it's like even that feels tainted by the shame and self-doubt that's been following you. It's as if your mind is constantly pulling you back to the mirror and the bill, and it's hard to find a moment's peace. I can see how that would make you feel like you're not even able to escape into your own thoughts without being pulled back down. Yeah, it's like the weight of those feelings is just crushing at times. The fact that you're holding onto that photo as a source of comfort, even if it's fleeting, suggests that there's a part of you that's still reaching for a sense of freedom and peace."
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 3,
+      "turn_id": 1,
+      "user_message": "The photoshoot felt like a reminder that my body isn\u2019t the same as it was before Lyme, and seeing that weight gain in the mirror just made me feel ashamed and stuck. The medical bill on top of everything is a constant weight on my wallet, and I\u2019m not even sure how I\u2019m going to pay it. I\u2019m so tired I can\u2019t paint or even go for a walk, which makes me feel even more isolated and lonely. All of this is keeping me up at night, and I can\u2019t seem to get any rest.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the emotional weight you're carrying. Given your express_emotion intent, I'll use complex_reflection to help you feel understood. The evidence that stands out is how the photoshoot triggered feelings of shame about your body, and the financial stress of the medical bill is adding to your anxiety. My entry will be to acknowledge the pain of feeling stuck and isolated, and how that's affecting your daily life and sleep.",
+        "evidence_used": [
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "photoshoot felt like a reminder that my body isn\u2019t the same as it was before Lyme"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "medical bill on top of everything is a constant weight on my wallet"
+          },
+          {
+            "source": "CURRENT USER MESSAGE",
+            "content": "can\u2019t seem to get any rest"
+          }
+        ],
+        "final_response": "The photoshoot was really tough for you, and it's like seeing your body change has brought up all these feelings of shame and frustration. It's not just the physical changes, but also the financial stress of the medical bill that's weighing you down. It sounds like all of this is making it hard for you to do the things you love, like painting or going for walks, and that's leaving you feeling isolated and lonely. Yeah, it's no wonder you're having trouble sleeping with all this on your mind."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 2,
+      "user_message": "I keep thinking the photoshoot was a good thing, but seeing the extra weight just makes me feel ashamed and stuck. The medical bill feels like a punch in the gut, and I can\u2019t even go out to paint or walk. All of this keeps me up at night and I feel so alone.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person right now, and they need me to acknowledge their emotions. Given their intent to express emotion, I'll use the complex_reflection strategy to help them process their feelings. The evidence shows they're struggling with body image issues and financial stress, which is affecting their sleep and overall well-being. My entry point will be to acknowledge the pain of seeing their weight gain in the photoshoot and how it's impacting their daily life.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "photoshoot felt like a reminder that my body isn\u2019t the same as it was before Lyme"
+          },
+          {
+            "source": "persona.relevant_history",
+            "content": "recent loss of mother"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "medical bill on top of everything is a constant weight on my wallet"
+          }
+        ],
+        "final_response": "The photoshoot was a harsh reminder of the changes your body has gone through since Lyme, and it's like that weight gain is staring back at you, making you feel ashamed and stuck. It's not just the physical changes, but also the constant stress of that medical bill, which is making it hard for you to enjoy the things you love, like painting or going for walks. Yeah, it's no wonder you're feeling so alone and struggling to sleep with all this on your mind. What's it like for you to feel like you're losing touch with the things that bring you joy?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 3,
+      "user_message": "It feels like every time I look in the mirror, I\u2019m reminded of the weight I\u2019ve gained and the body that\u2019s no longer mine. The bill only adds to the sense that I\u2019m drowning, and the fatigue keeps me from even picking up a brush or going for a walk. I keep feeling isolated, like no one sees the real me, and that makes it hard to fall asleep.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions, and what they need right now is acknowledgment of their struggles. The strategies that fit this moment are support and complex_reflection, as they allow me to empathize with their feelings without pushing for solutions. The evidence that stands out is their recent loss of their mother and their struggles with body image, which are intertwined with their feelings of shame and isolation. My entry point will be to acknowledge the pain of seeing their changed body in the mirror and the weight of their medical bills, which is keeping them up at night.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "feeling ashamed and stuck due to weight gain"
+          },
+          {
+            "source": "persona.relevant_history",
+            "content": "recent loss of mother"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "medical bill weighing on wallet"
+          }
+        ],
+        "final_response": "The mirror can be a harsh critic, and it's like it's reflecting all your worries about your body and your health. Seeing the changes in your body since Lyme, and dealing with the stress of that medical bill, is a heavy burden. It's no wonder you're feeling isolated and like you're losing touch with the things that bring you joy, like painting and walking. Yeah, it can be really tough to feel like yourself when everything feels so overwhelming."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 4,
+      "user_message": "I keep staring at the mirror and it feels like a judgment. The bill is piling up, and I can't even afford to buy new brushes. I lie awake, hearing the clock tick, wondering if this will ever stop.",
+      "inference": {
+        "user_intent": {
+          "intent": "resistance",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "resistance",
+        "intent_entry_style": "Roll with it \u2014 reflect resistance without arguing; emphasize autonomy.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their resistance without arguing, emphasizing their autonomy. Given their recent messages, I'll use the support strategy to reflect their feelings and concerns. The evidence shows that the user is struggling with body image issues, financial stress, and feelings of isolation, which are all contributing to their lack of sleep. The user's recent loss of their mother and their self-critical personality traits are also relevant factors. My entry point will be to acknowledge the user's feelings of judgment and overwhelm, and then use the support strategy to help them feel heard and understood.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "feeling isolated and like no one sees the real me"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "self-critical, emotionally reactive, avoidant"
+          },
+          {
+            "source": "problem_summary.none",
+            "content": "body image issues, financial stress, lack of sleep"
+          }
+        ],
+        "final_response": "The mirror can be a really tough thing to face, especially when it feels like it's judging you. And with the medical bill piling up, it's like there's this constant weight on your mind, making it hard to enjoy the things you love, like painting. It's no wonder you're lying awake at night, feeling overwhelmed and wondering if this will ever stop. Yeah, it sounds like everything is just feeling really stuck right now."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "resistance",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 5,
+      "user_message": "I keep lying awake, hearing the clock tick, and I can't seem to find any rest. The bill feels like another weight that just piles up, and I feel stuck in a loop of shame and isolation.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion right now, so I want to acknowledge that first. Given your intent to express emotion and the fact that we're still getting started, I think strategies like support and complex reflection could be helpful. I've noticed that the medical bill and your body image concerns have been weighing heavily on you, and it sounds like these stressors are making it hard for you to rest and enjoy activities you love. My first sentence will acknowledge the overwhelming feeling of being stuck in a loop of shame and isolation.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "lying awake, hearing the clock tick"
+          },
+          {
+            "source": "problem_summary.<none>",
+            "content": "medical bill piling up"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I'm not good enough"
+          }
+        ],
+        "final_response": "The clock ticking away can be really unsettling, especially when you're already feeling overwhelmed. It's like the medical bill is just one more thing piling up, making you feel stuck in this loop of shame and isolation. I can see how that would make it hard to find any rest. It sounds like your mind is racing with all these worries, and it's no wonder you're feeling so trapped. Yeah, it's like everything is just feeling really heavy right now."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 6,
+      "user_message": "Every time I glance at the bill, I feel like it's a punch in the gut, and the bill keeps growing while I can't even afford new brushes. I'm staring at the mirror and feeling judged, and the weight makes me feel like I don't even exist anymore. I lie awake, counting the ticks of the clock, and I don't know how to escape this cycle.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions, and what they need right now is acknowledgment of their feelings. The strategies that fit this moment are support and complex_reflection, as they allow me to understand and reflect their emotions without imposing solutions. The evidence that stands out is their repeated mention of feeling judged by the mirror and overwhelmed by the medical bill, which suggests that these are critical points of distress for them. My entry point will be to acknowledge the pain of seeing the bill and the weight gain, and how these reminders are affecting their sense of self.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t5.user",
+            "content": "feeling judged by the mirror"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "overwhelmed by the medical bill"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I'm not good enough"
+          },
+          {
+            "source": "recent_turn.t4.user",
+            "content": "lying awake, hearing the clock tick"
+          }
+        ],
+        "final_response": "The bill and the mirror both seem to be constant reminders of things that feel out of your control right now, and it's like they're echoing your deepest fears about not being good enough. Seeing the weight gain and dealing with the financial stress of the medical bill can be really painful, especially when it feels like it's affecting your sense of identity and self-worth. It sounds like the clock ticking away at night is just another reminder of all the things that are feeling stuck and overwhelming. Yeah, it's no wonder you're feeling so trapped and struggling to find any rest."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 7,
+      "user_message": "I hear you, but it feels like the bill is just another weight I can\u2019t lift. I can\u2019t even buy new brushes, and the mirror keeps reminding me I\u2019m not the same person I used to be. All of it just keeps me up, and I\u2019ve been feeling more alone than ever.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the pain of feeling like you're losing yourself in all this. The strategies that might help right now are support and complex reflection, given your emotional state and the need to process your feelings. The evidence that stands out is how the mirror and the bill are constant reminders of your feelings of inadequacy and the weight gain, which is affecting your sense of identity. My entry point will be to acknowledge the weight of these reminders and how they're impacting your daily life and sense of self.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "feeling judged by the mirror and the weight gain"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I'm not good enough"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "feeling like I don't even exist anymore"
+          }
+        ],
+        "final_response": "The mirror's reflection and the bill's constant presence are harsh reminders of what you feel you've lost and the weight you've gained, making it hard to recognize yourself. It's like these reminders are echoing your deepest fears about not being good enough. You're not just struggling with the physical changes, but also with the feeling of being overwhelmed by the medical bill and the sense of isolation it brings. It's no wonder you're feeling so alone and struggling to find rest, given the weight of these constant reminders."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 8,
+      "user_message": "I keep staring at the bill and it feels like a punch in the gut, and the mirror just reminds me I'm not the same person I used to be. I can't even afford new brushes, and the exhaustion makes me feel more isolated. All of it keeps me up, and I feel like I'm stuck in a loop of shame and loneliness.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to acknowledge the pain you're in right now. Given your express_emotion intent, I'll use support and complex_reflection strategies to help you feel understood. The evidence shows you're struggling with feelings of shame and isolation, triggered by the mirror and the bill, and it's affecting your sense of identity. My entry will be to acknowledge the weight of these constant reminders and how they're impacting your daily life.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "the bill is just another weight I can\u2019t lift"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "feeling judged by the mirror and struggling with the weight gain"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I'm not good enough"
+          }
+        ],
+        "final_response": "The bill and the mirror both seem to be constant reminders of things that feel out of your control right now, and it's like they're echoing your deepest fears about not being good enough. Seeing the weight gain and dealing with the financial stress of the medical bill can be really painful, especially when it feels like it's affecting your sense of identity and self-worth. You're not just struggling with the physical changes, but also with the feeling of being overwhelmed by the medical bill and the sense of isolation it brings. Yeah, it can be really tough to feel like yourself when everything feels so overwhelming. What's been the hardest part of this cycle for you to break?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 9,
+      "user_message": "Honestly, the hardest part is that every time I try to focus on something like painting or a walk, the weight and the bill keep pulling me back, and I just feel so stuck. It\u2019s like my own body is a judgment and my finances are a wall I can\u2019t climb. I can\u2019t sleep because I keep replaying the mirror and the numbers.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need me to acknowledge the pain you're in right now. Given your intent to express emotion, I'll use the support strategy to create a safe space for you to open up. The evidence shows that the weight gain and financial stress are constant reminders of your feelings of inadequacy, making it hard for you to focus on things you enjoy, like painting. Your recent messages have highlighted the sense of shame and isolation you're feeling, and it's clear that these emotions are keeping you up at night. My entry point will be to acknowledge the struggle you're facing in trying to focus on positive activities, like painting or a walk, when the weight and bill are pulling you back.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "can't afford new brushes"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "weight gain and financial stress"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I'm not good enough"
+          }
+        ],
+        "final_response": "The weight and the bill feel like they're constantly pulling you back, making it hard to focus on things that bring you joy, like painting. It's like your body and finances are echoing your deepest fears, making it tough to escape this cycle. You've been trying to find rest, but the mirror and the numbers keep replaying in your mind, keeping you up at night. Yeah, it can be really tough to feel like yourself when everything feels so overwhelming. What's one thing you've found that helps you momentarily escape this feeling of being stuck?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 10,
+      "user_message": "Honestly, the only thing that gives me a brief lift is when I stare at a photo of the coast and pretend I'm there, but even that feels like a lie and I'm back to the mirror and the bill in an hour. I don't have a real escape; the fatigue and shame swallow me again.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and this person needs empathy and understanding right now, given their expression of emotion and struggle with feelings of shame and isolation. The strategies that seem most fitting are support and complex reflection, as they've been helpful in recent turns and align with the user's intent to express emotion. Evidence from recent turns suggests that the user feels overwhelmed by the medical bill and their weight, and that these issues are affecting their sense of identity and self-worth. The fact that staring at a photo of the coast gives them a brief lift, but ultimately feels like a lie, indicates a deep-seated struggle with shame and self-acceptance. My entry point will be to acknowledge the pain of feeling like even their escapes feel like lies, and to reflect the underlying emotions that might be driving this feeling.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "the only thing that gives me a brief lift is when I stare at a photo of the coast and pretend I'm there, but even that feels like a lie"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I'm not good enough"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "I feel like I'm stuck in a loop of shame and loneliness"
+          }
+        ],
+        "final_response": "The photo of the coast gives you a brief sense of escape, but it's like even that feels tainted by the shame and self-doubt that's been following you. It's as if your mind is constantly pulling you back to the mirror and the bill, and it's hard to find a moment's peace. I can see how that would make you feel like you're not even able to escape into your own thoughts without being pulled back down. Yeah, it's like the weight of those feelings is just crushing at times. The fact that you're holding onto that photo as a source of comfort, even if it's fleeting, suggests that there's a part of you that's still reaching for a sense of freedom and peace."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

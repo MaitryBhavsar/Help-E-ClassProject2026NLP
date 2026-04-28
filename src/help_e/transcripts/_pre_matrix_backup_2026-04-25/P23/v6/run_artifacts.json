@@ -1,0 +1,296 @@
+{
+  "profile_id": "P23",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user recounts the collapse of their startup, leaving them with significant debt and a sense of failure. They express uncertainty about next steps, torn between a steady job to pay off debt and pursuing new creative ventures. Throughout the conversation, they repeatedly highlight the weight of financial stress and fear of further failure. They remain stuck, unable to identify a clear path forward, and continue to weigh options without committing to action. The session ends with the user feeling stuck and uncertain about balancing financial obligations with creative aspirations."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "financial_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User remains in contemplation, still uncertain about next steps."
+          }
+        ]
+      },
+      {
+        "problem_name": "career_uncertainty",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User remains in contemplation, still uncertain about next steps."
+          }
+        ]
+      },
+      {
+        "problem_name": "low_self_esteem",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "contemplation",
+            "notes": "User remains in contemplation, still uncertain about next steps."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "financial_stress",
+          "career_uncertainty",
+          "low_self_esteem"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "explore_option"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "financial_stress",
+          "career_uncertainty",
+          "low_self_esteem"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "explore_option"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "financial_stress",
+          "career_uncertainty",
+          "low_self_esteem"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "financial_stress",
+          "career_uncertainty",
+          "low_self_esteem"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "financial_stress",
+          "career_uncertainty",
+          "low_self_esteem"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "career_uncertainty",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "low_self_esteem",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling overwhelmed by the loss of your company and the debt that's left you with a deep sense of failure."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "You're feeling stuck and scared about what's next."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "You're feeling torn between the security of a steady job and the potential of something new that could let you use your skills, but you're scared of losing the creative freedom that's important to you."
+              }
+            ],
+            "reasoning": "The assistant explicitly named the user\u2019s emotions\u2014overwhelmed, stuck, scared, torn\u2014rather than offering generic validation, showing a precise and sustained empathic stance.",
+            "score": 5
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling overwhelmed by the loss of your company and the debt that's left you with a deep sense of failure."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "You're feeling torn between the security of a steady job and the potential of something new that could let you use your skills, but you're scared of losing the creative freedom that's important to you."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "It sounds like you're feeling torn between pursuing a steady job to pay off debt and preserving your creative spark."
+              }
+            ],
+            "reasoning": "The assistant consistently tracks the user\u2019s specific situation\u2014debt, creative freedom, job vs bootstrap\u2014and references those details across turns, indicating a clear grasp of the context.",
+            "score": 5
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "What are your thoughts on looking for a job versus trying to bootstrap something new?"
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "What does 'a clear path forward' mean to you - is it having a sense of direction, or feeling more confident in your abilities?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "What would need to happen for you to feel like you're balancing both, or is there one aspect that feels more pressing to address right now?"
+              }
+            ],
+            "reasoning": "The assistant offers reflective questions that help the user clarify options, but it stops short of providing concrete strategies or next\u2011step suggestions, limiting its practical impact.",
+            "score": 3
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Would you like to talk more about what's been going through your mind since this happened?"
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "What are your thoughts on looking for a job versus trying to bootstrap something new?"
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "What are some of the things that you think would need to happen for you to feel confident in choosing one path over the other?"
+              }
+            ],
+            "reasoning": "The assistant consistently asks permission and invites the user to steer the conversation, never imposing a particular course of action.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling overwhelmed by the loss of your company and the debt that's left you with a deep sense of failure."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "You're feeling torn between the security of a steady job and the potential of something new that could let you use your skills, but you're scared of losing the creative freedom that's important to you."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "It sounds like you're feeling torn between pursuing a steady job to pay off debt and preserving your creative spark."
+              }
+            ],
+            "reasoning": "The assistant\u2019s language is consistently validating and non\u2011judgmental, creating a safe space for the user to express vulnerability.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "Would you like to talk more about what's been going through your mind since this happened?"
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "What are some of the things that you think would need to happen for you to feel confident in choosing one path over the other?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "What would need to happen for you to feel like you're balancing both, or is there one aspect that feels more pressing to address right now?"
+              }
+            ],
+            "reasoning": "The assistant\u2019s open\u2011ended, supportive style encourages continued dialogue, suggesting the user would likely want to keep talking.",
+            "score": 5
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

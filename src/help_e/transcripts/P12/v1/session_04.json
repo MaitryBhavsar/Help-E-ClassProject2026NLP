@@ -1,0 +1,1889 @@
+{
+  "session_id": 4,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-critical, perfectionistic, anxious, metrics-driven, rigid",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep mapping my review metrics to a 1\u201310 scale, but the numbers only amplify the feeling that I\u2019m falling short on every criterion."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I think the main issue is that I keep treating the review as a binary test; if I score 8/10, I'm 'fail', if 10/10, I'm 'succeed', and that leaves no margin for error."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I\u2019m not sure how to reframe; the 100% metric still dominates my mind, and the comparison to my friend\u2019s promotion fuels my anxiety."
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "update",
+      "new_value": "I am not enough, I must be perfect to be worthy, my worth is tied to numbers, I will fail if I'm not perfect",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep mapping my review metrics to a 1\u201310 scale, but the numbers only amplify the feeling that I\u2019m falling short on every criterion."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I think the main issue is that I keep treating the review as a binary test; if I score 8/10, I'm 'fail', if 10/10, I'm 'succeed', and that leaves no margin for error."
+        },
+        {
+          "turn_id": 10,
+          "excerpt": "The review feels like a binary test that locks my self\u2011worth into a single score, and every deviation feels like a health risk\u2014my posture, my breathing, even my skin."
+        }
+      ]
+    },
+    {
+      "field": "support_system",
+      "action": "keep",
+      "new_value": "has a college friend, potentially a source of support or comparison",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The comparison to my friend\u2019s recent promotion is a constant reminder of my own perceived inadequacy"
+        },
+        {
+          "turn_id": 9,
+          "excerpt": "The comparison to my friend's promotion amplifies my general anxiety, body image concerns, health anxiety, and the sense of being stuck in this life transition, and it feels like a conflict with my friend."
+        }
+      ]
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": "reflective, emotional, self-critical, metrics-driven",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep mapping my review metrics to a 1\u201310 scale, but the numbers only amplify the feeling that I\u2019m falling short on every criterion."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I\u2019m not sure how to reframe; the 100% metric still dominates my mind, and the comparison to my friend\u2019s promotion fuels my anxiety."
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": "recent visit from college friend, upcoming review, financial struggles with rent",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "The comparison to my friend\u2019s recent promotion is a constant reminder of my own perceived inadequacy"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I keep thinking my hunched posture is a visual cue of failure, and every time I glance at myself I feel more uneasy about how I present at work\u2014it's a weird mix of body image and anxiety."
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, self-doubting, metrics-obsessed, anxious, rigid, perfectionistic",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep mapping my review metrics to a 1\u201310 scale, but the numbers only amplify the feeling that I\u2019m falling short on every criterion."
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "My sense of being unprepared comes from treating every metric I set as a perfect 10\u2014anything less feels like a failure."
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I think the main issue is that I keep treating the review as a binary test; if I score 8/10, I'm 'fail', if 10/10, I'm 'succeed', and that leaves no margin for error."
+        },
+        {
+          "turn_id": 7,
+          "excerpt": "I\u2019m not sure how to reframe; the 100% metric still dominates my mind, and the comparison to my friend\u2019s promotion fuels my anxiety."
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I keep mapping my review metrics to a 1\u201310 scale, but the numbers only amplify the feeling that I\u2019m falling short on every criterion. The comparison to my friend\u2019s recent promotion is a constant reminder of my own perceived inadequacy, and the looming review feels like a high\u2011stakes exam I\u2019m unprepared for. I\u2019ve even noticed that the stress is affecting my posture and the way I carry myself, which is unsettling."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It's really tough to see yourself through the lens of metrics and comparisons, especially when it feels like everyone around you is moving forward. The fact that you're noticing the stress affect your posture and how you carry yourself shows just how deeply this is impacting you. It sounds like the looming review is feeling like a huge source of pressure. Can you tell me more about what's driving that feeling of being unprepared?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "My sense of being unprepared comes from treating every metric I set as a perfect 10\u2014anything less feels like a failure. The last presentation slip made me hyperaware of my posture; I notice my shoulders hunched, and that erodes my confidence. That same hyperawareness sparks body\u2011image anxiety, as I see these physical cues and worry they undermine my professional presence."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The way you're tying your worth to these metrics is really taking a toll on you, and it's understandable that you'd feel like you're falling short when anything less than perfect feels like a failure. It's like you're carrying the weight of these expectations on your shoulders, literally, with the hunched posture and anxiety about your professional presence. That's a lot to navigate, and it sounds like it's eroding your confidence. Yeah, it makes sense that you'd worry about how others see you when you're already being so hard on yourself."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I keep thinking my hunched posture is a visual cue of failure, and every time I glance at myself I feel more uneasy about how I present at work\u2014it's a weird mix of body image and anxiety. The comparison with my friend's promotion adds to the pressure, making me feel stuck in this transition to a higher role but unprepared. I worry the review will expose my inadequacy and that my body will betray me, which feels like a deeper health anxiety."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "You've been noticing how your hunched posture makes you feel like you're failing, and that's really tough to deal with, especially when you're already feeling anxious about your professional presence. It's like your body is betraying you, and that's a really scary feeling. I can see how the comparison with your friend's promotion would add to that pressure, making you feel stuck and unprepared for your review. Yeah, it makes sense that you'd worry about how others see you when you're already being so hard on yourself. Your recent presentation slip and the way it's made you hyperaware of your posture is a good example of how these feelings are affecting you."
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I keep thinking my hunched posture is a sign I'm failing, and seeing my friend's promotion only makes me feel stuck in this transition. I don't see a way to fix it; maybe I should just accept that I'm not ready. The anxiety about my body and the review is overwhelming."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "It's really overwhelming to feel like your body is betraying you, and that the review is going to expose your inadequacy. It sounds like you're feeling stuck in this transition, and like you're not ready for the next step. Yeah, it makes sense that you'd feel that way, especially when you're comparing yourself to your friend's promotion. Can you tell me more about what's making you feel like you're not ready for the review?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I think the main issue is that I keep treating the review as a binary test; if I score 8/10, I'm 'fail', if 10/10, I'm 'succeed', and that leaves no margin for error. This mindset spills over into how I view my posture and my overall appearance, so the review feels like a health risk, not just a performance metric. It also feels like I'm stuck in a transition that my friend just completed, so I keep comparing myself and feeling inadequate."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "The way you're framing the review as a pass/fail test is really putting a lot of pressure on yourself, and it's understandable that you'd feel like you're not meeting your own expectations. It's like you're holding yourself to an impossible standard, and that's taking a toll on your self-perception and body image. Yeah, it makes sense that you'd feel stuck and unprepared when you're comparing yourself to your friend's success. Can you tell me more about what you think would happen if you didn't meet your own expectations for the review?"
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "If I don\u2019t meet my own expectations, I\u2019ll see the review as a 4/10\u2014essentially a failure\u2014so I\u2019ll feel like I\u2019ve wasted a high\u2011stakes opportunity. That numeric downgrade will feed my general anxiety and make me question the trajectory I\u2019ve mapped out, while the visual cue of my posture will amplify my body\u2011image concerns. I worry the friend\u2019s promotion will look even more distant, and the health anxiety about my posture \u201cbetraying\u201d me will only grow during this life transition."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "You're putting a lot of pressure on yourself with these metrics, and it's clear that not meeting your expectations would feel like a significant failure. The fact that you're already worried about your posture and body image, and how that might be perceived by others, adds another layer of complexity to this situation. It sounds like the comparison to your friend's promotion is also playing a role in your feelings of inadequacy. Can you think of any ways you might be able to reframe your expectations for the review, or find ways to practice some self-compassion in the face of these challenges?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I\u2019m not sure how to reframe; the 100% metric still dominates my mind, and the comparison to my friend\u2019s promotion fuels my anxiety. My posture feels like a health risk, and I\u2019m stuck in this transition. I keep thinking that any deviation is a failure, so I\u2019m stuck in a loop of self\u2011criticism."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "Your mind keeps going back to that 100% metric, and it's clear how much pressure that's putting on you. The fact that any deviation feels like a failure is really tough to deal with, especially when you're already comparing yourself to your friend's success. It sounds like your posture and body image concerns are also tied up in this, making it feel like a health risk. Can you think of any times when you've been able to accept something less than perfect, even if it was just for a moment?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I can\u2019t think of any; every attempt feels like a slip and my posture seems to betray me, keeping me stuck in a loop. The comparison with my friend\u2019s promotion only amplifies that doubt, making me question if I\u2019ll survive the review."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The pressure to meet that 100% metric is really getting to you, and it's understandable that you'd feel like any deviation is a failure. Your posture and body image concerns are also tied up in this, making it feel like a health risk. It sounds like the comparison to your friend's promotion is amplifying your doubt and making you question if you'll survive the review. Yeah, it makes sense that you'd feel stuck in a loop of self-criticism. Can you tell me more about what you think would help you feel more prepared for the review, or what you think you need to move forward?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "Maybe I can break the review into weighted submetrics to avoid the all-or-nothing trap, but the numbers still feel like a performance cage. The comparison to my friend's promotion amplifies my general anxiety, body image concerns, health anxiety, and the sense of being stuck in this life transition, and it feels like a conflict with my friend."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The weight of that 100% metric is really crushing you, and it's understandable that you'd feel like any deviation is a failure. It's like you're trapped in a performance cage, and the numbers are dictating your self-worth. Yeah, it makes sense that you'd feel conflicted about your friend's promotion, like it's highlighting your own perceived shortcomings. Breaking the review into weighted submetrics might be a step towards feeling more in control, but I can also see how the numbers still feel suffocating. What do you think is the most overwhelming part of this situation for you right now?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "Honestly, the biggest thing is that the review feels like a binary test that locks my self\u2011worth into a single score, and every deviation feels like a health risk\u2014my posture, my breathing, even my skin. The comparison to my friend\u2019s promotion just amplifies that anxiety, making me feel stuck in this transition phase. I\u2019m terrified that if I slip, my body will betray me and the review will expose my inadequacy."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "The way you're tying your self-worth to this review score is really suffocating, and it's understandable that you'd feel like any deviation is a failure. Your body image concerns and posture are getting tangled up in this too, making it feel like a health risk. It's like you're putting all your eggs in one basket, and that's a lot of pressure. Yeah, it makes sense that you'd feel stuck and anxious, especially with your friend's promotion looming in the background. Can you think of any ways you might be able to separate your self-worth from this one score, even if it's just a little bit?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 4,
+      "turn_id": 1,
+      "user_message": "I keep mapping my review metrics to a 1\u201310 scale, but the numbers only amplify the feeling that I\u2019m falling short on every criterion. The comparison to my friend\u2019s recent promotion is a constant reminder of my own perceived inadequacy, and the looming review feels like a high\u2011stakes exam I\u2019m unprepared for. I\u2019ve even noticed that the stress is affecting my posture and the way I carry myself, which is unsettling.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the emotional weight you're carrying, so I'll start by reflecting on that. Given your intent to express emotion and the absence of a clear main problem, I'll use the support strategy to create a safe space for you to explore your feelings. The evidence that stands out to me is how you've been mapping your review metrics to a scale and comparing yourself to your friend, which seems to be exacerbating your feelings of inadequacy. My entry point will be to acknowledge the distress that these comparisons and the upcoming review are causing you, and how it's affecting your physical presence.",
+        "evidence_used": [
+          {
+            "source": "current_user_message",
+            "content": "mapping review metrics to a 1\u201310 scale"
+          },
+          {
+            "source": "current_user_message",
+            "content": "comparison to friend's recent promotion"
+          },
+          {
+            "source": "current_user_message",
+            "content": "stress affecting posture and self-carriage"
+          }
+        ],
+        "final_response": "It's really tough to see yourself through the lens of metrics and comparisons, especially when it feels like everyone around you is moving forward. The fact that you're noticing the stress affect your posture and how you carry yourself shows just how deeply this is impacting you. It sounds like the looming review is feeling like a huge source of pressure. Can you tell me more about what's driving that feeling of being unprepared?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 2,
+      "user_message": "My sense of being unprepared comes from treating every metric I set as a perfect 10\u2014anything less feels like a failure. The last presentation slip made me hyperaware of my posture; I notice my shoulders hunched, and that erodes my confidence. That same hyperawareness sparks body\u2011image anxiety, as I see these physical cues and worry they undermine my professional presence.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now. Given their express_emotion intent, I'll use complex_reflection and support strategies to help them feel understood. The evidence shows they're struggling with self-criticism and perfectionism, as seen in their tendency to map review metrics to a 1-10 scale and their reaction to the last presentation slip. My entry will be to acknowledge the weight of their self-imposed expectations and how it's affecting their confidence and body image.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "mapping review metrics to a 1\u201310 scale"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "noticing stress affect posture and how you carry yourself"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not enough, I must be perfect to be worthy"
+          }
+        ],
+        "final_response": "The way you're tying your worth to these metrics is really taking a toll on you, and it's understandable that you'd feel like you're falling short when anything less than perfect feels like a failure. It's like you're carrying the weight of these expectations on your shoulders, literally, with the hunched posture and anxiety about your professional presence. That's a lot to navigate, and it sounds like it's eroding your confidence. Yeah, it makes sense that you'd worry about how others see you when you're already being so hard on yourself."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 3,
+      "user_message": "I keep thinking my hunched posture is a visual cue of failure, and every time I glance at myself I feel more uneasy about how I present at work\u2014it's a weird mix of body image and anxiety. The comparison with my friend's promotion adds to the pressure, making me feel stuck in this transition to a higher role but unprepared. I worry the review will expose my inadequacy and that my body will betray me, which feels like a deeper health anxiety.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help you navigate these feelings of inadequacy and anxiety, and it seems like you're really struggling with the pressure to present yourself perfectly at work. The strategies that might be helpful in this moment are support and complex reflection, as they can help you explore and understand your emotions without feeling judged. The evidence that stands out to me is how you've been tying your worth to metrics and comparisons, and how that's affecting your posture and confidence. My entry point for this conversation will be to acknowledge the weight of these expectations and how they're impacting your daily life, particularly in terms of your body image and anxiety about your professional presence.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "treating every metric I set as a perfect 10\u2014anything less feels like a failure"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not enough, I must be perfect to be worthy, my worth is tied to numbers"
+          }
+        ],
+        "final_response": "You've been noticing how your hunched posture makes you feel like you're failing, and that's really tough to deal with, especially when you're already feeling anxious about your professional presence. It's like your body is betraying you, and that's a really scary feeling. I can see how the comparison with your friend's promotion would add to that pressure, making you feel stuck and unprepared for your review. Yeah, it makes sense that you'd worry about how others see you when you're already being so hard on yourself. Your recent presentation slip and the way it's made you hyperaware of your posture is a good example of how these feelings are affecting you."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 4,
+      "user_message": "I keep thinking my hunched posture is a sign I'm failing, and seeing my friend's promotion only makes me feel stuck in this transition. I don't see a way to fix it; maybe I should just accept that I'm not ready. The anxiety about my body and the review is overwhelming.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help this person work through their feelings of inadequacy and anxiety, and they need me to acknowledge the pain of feeling stuck in their career transition and overwhelmed by anxiety about their body and the upcoming review. Given their stage and intent, I'll use the support strategy to create a safe space for them to express their emotions. The evidence that they're tying their worth to metrics and comparisons, and that this is affecting their posture and confidence, suggests that they need help reframing their self-worth. My entry will be to acknowledge the feeling of being overwhelmed and the fear of not being ready for the review, and then I'll use the support strategy to help them explore their feelings and concerns.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t3.user",
+            "content": "hunched posture as a sign of failure"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "competence, self-worth, achievement"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "tying worth to metrics and comparisons"
+          }
+        ],
+        "final_response": "It's really overwhelming to feel like your body is betraying you, and that the review is going to expose your inadequacy. It sounds like you're feeling stuck in this transition, and like you're not ready for the next step. Yeah, it makes sense that you'd feel that way, especially when you're comparing yourself to your friend's promotion. Can you tell me more about what's making you feel like you're not ready for the review?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 5,
+      "user_message": "I think the main issue is that I keep treating the review as a binary test; if I score 8/10, I'm 'fail', if 10/10, I'm 'succeed', and that leaves no margin for error. This mindset spills over into how I view my posture and my overall appearance, so the review feels like a health risk, not just a performance metric. It also feels like I'm stuck in a transition that my friend just completed, so I keep comparing myself and feeling inadequate.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions and concerns about their upcoming review and how it's affecting their self-perception and body image. Given their intent to express emotion, I'll use the support strategy to acknowledge their feelings and create a safe space for them to explore their thoughts. The evidence from their recent messages shows that they're struggling with self-criticism, perfectionism, and anxiety, which are all tied to their core values of competence and self-worth. Their recent comparison to their friend's promotion has exacerbated these feelings, making them feel stuck and unprepared for their review. My entry point will be to acknowledge the pressure they're putting on themselves and how it's impacting their well-being.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "treating the review as a binary test"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "competence and self-worth"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "comparison to friend's promotion"
+          }
+        ],
+        "final_response": "The way you're framing the review as a pass/fail test is really putting a lot of pressure on yourself, and it's understandable that you'd feel like you're not meeting your own expectations. It's like you're holding yourself to an impossible standard, and that's taking a toll on your self-perception and body image. Yeah, it makes sense that you'd feel stuck and unprepared when you're comparing yourself to your friend's success. Can you tell me more about what you think would happen if you didn't meet your own expectations for the review?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 6,
+      "user_message": "If I don\u2019t meet my own expectations, I\u2019ll see the review as a 4/10\u2014essentially a failure\u2014so I\u2019ll feel like I\u2019ve wasted a high\u2011stakes opportunity. That numeric downgrade will feed my general anxiety and make me question the trajectory I\u2019ve mapped out, while the visual cue of my posture will amplify my body\u2011image concerns. I worry the friend\u2019s promotion will look even more distant, and the health anxiety about my posture \u201cbetraying\u201d me will only grow during this life transition.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help you navigate these feelings of inadequacy and anxiety, and it seems like you're really struggling with the pressure you're putting on yourself. The strategies I'm considering include support and complex reflection to help you explore these emotions. The evidence I'm drawing on is your tendency to tie your worth to metrics and your recent concerns about your posture and body image. My entry point will be to acknowledge the weight of these expectations and how they're impacting your daily life, particularly in the context of your upcoming review and comparison to your friend's promotion.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.none",
+            "content": "tying worth to metrics"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "competence, self-worth, achievement"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "review as a binary test"
+          }
+        ],
+        "final_response": "You're putting a lot of pressure on yourself with these metrics, and it's clear that not meeting your expectations would feel like a significant failure. The fact that you're already worried about your posture and body image, and how that might be perceived by others, adds another layer of complexity to this situation. It sounds like the comparison to your friend's promotion is also playing a role in your feelings of inadequacy. Can you think of any ways you might be able to reframe your expectations for the review, or find ways to practice some self-compassion in the face of these challenges?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 7,
+      "user_message": "I\u2019m not sure how to reframe; the 100% metric still dominates my mind, and the comparison to my friend\u2019s promotion fuels my anxiety. My posture feels like a health risk, and I\u2019m stuck in this transition. I keep thinking that any deviation is a failure, so I\u2019m stuck in a loop of self\u2011criticism.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm a supportive companion to this person, and they need help navigating their anxiety and self-criticism right now. Given their express_emotion intent, I'll use the support and complex_reflection strategies to acknowledge their feelings and help them explore their thoughts. The evidence shows that their perfectionistic tendencies and comparison to their friend's promotion are driving their anxiety, so I'll use that to inform my response. My entry will be a brief acknowledgment of their struggle with the 100% metric and its impact on their self-perception.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t6.user",
+            "content": "100% metric dominates my mind"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not enough, I must be perfect to be worthy"
+          }
+        ],
+        "final_response": "Your mind keeps going back to that 100% metric, and it's clear how much pressure that's putting on you. The fact that any deviation feels like a failure is really tough to deal with, especially when you're already comparing yourself to your friend's success. It sounds like your posture and body image concerns are also tied up in this, making it feel like a health risk. Can you think of any times when you've been able to accept something less than perfect, even if it was just for a moment?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 8,
+      "user_message": "I can\u2019t think of any; every attempt feels like a slip and my posture seems to betray me, keeping me stuck in a loop. The comparison with my friend\u2019s promotion only amplifies that doubt, making me question if I\u2019ll survive the review.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you're expressing a lot of emotion about feeling stuck and uncertain about your review and your posture. Given your intent to express emotion, I'll use the support strategy to acknowledge your feelings. The evidence shows that you've been struggling with self-criticism and perfectionism, and that your recent conversations have been dominated by anxiety about your review and comparison to your friend's promotion. My entry point will be to acknowledge the pressure you're putting on yourself and how that's affecting your body image and self-perception.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "100% metric dominates my mind"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "competence, self-worth, achievement"
+          },
+          {
+            "source": "problem_summary.(none)",
+            "content": "anxiety about review and posture"
+          }
+        ],
+        "final_response": "The pressure to meet that 100% metric is really getting to you, and it's understandable that you'd feel like any deviation is a failure. Your posture and body image concerns are also tied up in this, making it feel like a health risk. It sounds like the comparison to your friend's promotion is amplifying your doubt and making you question if you'll survive the review. Yeah, it makes sense that you'd feel stuck in a loop of self-criticism. Can you tell me more about what you think would help you feel more prepared for the review, or what you think you need to move forward?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 9,
+      "user_message": "Maybe I can break the review into weighted submetrics to avoid the all-or-nothing trap, but the numbers still feel like a performance cage. The comparison to my friend's promotion amplifies my general anxiety, body image concerns, health anxiety, and the sense of being stuck in this life transition, and it feels like a conflict with my friend.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend to help this person navigate their emotions and concerns, and right now they need me to acknowledge the overwhelming anxiety and self-doubt they're feeling. The strategies that seem most fitting are support and complex_reflection, given their current emotional state and the need to explore their thoughts and feelings without judgment. Evidence from their recent messages suggests that they're struggling with the pressure to meet a 100% metric, and that any deviation feels like a failure, which is exacerbating their anxiety and body image concerns. My entry point will be to acknowledge the pain of feeling trapped in this performance cage and the conflict they feel with their friend's success.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "every attempt feels like a slip and my posture seems to betray me, keeping me stuck in a loop"
+          },
+          {
+            "source": "problem_connection.comparison_to_friend\u2194body_image_concerns (s6t7)",
+            "content": "the comparison to my friend's promotion amplifies my general anxiety, body image concerns, health anxiety, and the sense of being stuck in this life transition"
+          }
+        ],
+        "final_response": "The weight of that 100% metric is really crushing you, and it's understandable that you'd feel like any deviation is a failure. It's like you're trapped in a performance cage, and the numbers are dictating your self-worth. Yeah, it makes sense that you'd feel conflicted about your friend's promotion, like it's highlighting your own perceived shortcomings. Breaking the review into weighted submetrics might be a step towards feeling more in control, but I can also see how the numbers still feel suffocating. What do you think is the most overwhelming part of this situation for you right now?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 4,
+      "turn_id": 10,
+      "user_message": "Honestly, the biggest thing is that the review feels like a binary test that locks my self\u2011worth into a single score, and every deviation feels like a health risk\u2014my posture, my breathing, even my skin. The comparison to my friend\u2019s promotion just amplifies that anxiety, making me feel stuck in this transition phase. I\u2019m terrified that if I slip, my body will betray me and the review will expose my inadequacy.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now, so I'll start by reflecting their feelings of being trapped in a binary test that ties their self-worth to a single score. The strategies that fit this moment are support and complex reflection, as they've been expressing a lot of anxiety and self-doubt. The evidence that stands out is how the user feels like any deviation from their expectations is a failure, and how their posture and body image concerns are tied up in this, making it feel like a health risk. My entry will be to acknowledge the overwhelming pressure they're putting on themselves and how it's affecting their self-perception.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t9.user",
+            "content": "the review feels like a binary test that locks my self\u2011worth into a single score"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "my worth is tied to numbers"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "every attempt feels like a slip and my posture seems to betray me"
+          }
+        ],
+        "final_response": "The way you're tying your self-worth to this review score is really suffocating, and it's understandable that you'd feel like any deviation is a failure. Your body image concerns and posture are getting tangled up in this too, making it feel like a health risk. It's like you're putting all your eggs in one basket, and that's a lot of pressure. Yeah, it makes sense that you'd feel stuck and anxious, especially with your friend's promotion looming in the background. Can you think of any ways you might be able to separate your self-worth from this one score, even if it's just a little bit?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1865 @@
+{
+  "session_id": 3,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [
+    {
+      "field": "personality_traits",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "relevant_history",
+      "action": "update",
+      "new_value": "recent visit from college friend, upcoming review, financial struggles with rent",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "Having my college buddy in town has really rattled me"
+        },
+        {
+          "turn_id": 2,
+          "excerpt": "I'm scared my review will catch me off guard"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I see a 12% shortfall compared to the benchmark my friend cited"
+        }
+      ]
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, self-doubting, metrics-obsessed, anxious",
+      "evidence_citations": [
+        {
+          "turn_id": 2,
+          "excerpt": "I keep thinking he\u2019s moved on while I\u2019m still stuck"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "I keep looping on that comparison, which keeps me up and makes me question my competence"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "I\u2019ve been looping through the numbers all night, and the lack of sleep only magnifies the dread"
+        }
+      ]
+    },
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "has a college friend, potentially a source of support or comparison",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "Having my college buddy in town has really rattled me"
+        },
+        {
+          "turn_id": 6,
+          "excerpt": "Maybe I should talk to him about how this feels"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "Having my college buddy in town has really rattled me; I feel like I'm stuck and that my career hasn't moved forward, and I can't even sleep right now. My rent and living costs feel like an uphill climb, and I'm worried the review will catch me off guard."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "Whatever you want to say next, I'm listening."
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "The visit from my old college friend feels like a mirror of my own stagnation; I keep thinking he\u2019s moved on while I\u2019m still stuck, and that thought keeps me up all night.\nI\u2019m also watching my rent climb while my salary stays flat, and I\u2019m scared my review will expose this lack of progress.\nI keep checking my reflection in the dark, wondering if I even look competent enough to survive this."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "The visit from your college friend has really shaken you, and it's like you're seeing your own fears and doubts staring back at you. You're not just worried about your career, but also feeling the weight of your rent and living costs, and the pressure of an upcoming review. It sounds like you're questioning your own competence and worth, and that's a really painful place to be. Can you tell me more about what you mean by 'not looking competent enough'?"
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "When I look at the numbers\u2014project growth, client retention, and revenue impact\u2014I see a 12% shortfall compared to the benchmark my friend cited, and that gap feels like a personal failure, especially with the rent creeping up and the review looming. I keep looping on that comparison, which keeps me up and makes me question my competence. The mental load is so high I can\u2019t even focus on sleeping right now."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "The pressure to meet those benchmarks is really getting to you, and it's like you're measuring your entire self-worth by those numbers. When you say you're looping on that comparison, I can sense the weight of it keeping you up at night. It's not just about the shortfall; it's about what that means to you and your sense of competence. Yeah, it's a lot to carry, especially with the rent and review looming. Can you tell me more about what you think would happen if you didn't meet those expectations?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "If I don\u2019t meet the benchmarks, I think they\u2019ll see me as a liability, and my review could end up being a demotion or even a layoff. That would mean I can\u2019t keep paying rent and I\u2019d have to move out of the city, which feels like a personal failure. Plus, my friend might start treating me like a cautionary tale, and I don\u2019t even know if I can sleep through the night with that looming."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "The thought of not meeting those benchmarks and being seen as a liability is really haunting you, and it's like you're already imagining the worst-case scenario. You're not just worried about your job or your rent; you're worried about what this means for your sense of self-worth and competence. It's like you're measuring your entire value as a person by those numbers, and that's a really heavy burden to carry. Can you tell me more about what's driving that fear of being a 'liability'?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I think it\u2019s because I feel like I\u2019m the only one keeping the project afloat, and any slip could make the whole team look bad. The idea that my failure could force me to leave NYC and lose my rent payment just adds to the pressure, and I can\u2019t even sleep because I\u2019m replaying every possible outcome."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "You're feeling like the weight of the entire project is on your shoulders, and that any mistake could not only reflect poorly on you but also on your team. It's like you're carrying the burden of responsibility for everyone's success, and that's a heavy load to bear. The pressure to perform is already high, but adding the fear of losing your rent payment and having to leave NYC is making it even harder for you to sleep and focus. Yeah, it's a lot to handle, and it sounds like you're feeling really overwhelmed by all these what-ifs."
+    },
+    {
+      "role": "user",
+      "turn_id": 6,
+      "text": "I\u2019ve been looping through the numbers all night, and the lack of sleep only magnifies the dread. I keep checking my reflection in the dark, feeling I don\u2019t look competent enough, and I worry my friend will see me as a cautionary tale. Maybe I should talk to him about how this feels, even though I fear it will make me look weaker."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 6,
+      "text": "The weight of those numbers and the fear of what your friend might think is really crushing you, and it's like you're seeing your own doubts and fears staring back at you in the dark. Talking to your friend about how you're feeling might be a way to confront those fears and doubts head-on, but it's also understandable that you're worried it could make you look weaker. What do you think would be the most difficult part of having that conversation with your friend?"
+    },
+    {
+      "role": "user",
+      "turn_id": 7,
+      "text": "I think the hardest part is admitting I'm anxious and that I feel like a failure; I don't want to look weak in front of him. The mirror in the dark makes me doubt my competence, and I worry he'll see me as incompetent. I'm also scared that if I bring up my financial worries, he'll think I'm unstable."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 7,
+      "text": "It takes a lot of courage to admit when we're feeling anxious or like we're not measuring up, and it's understandable that you wouldn't want to show that vulnerability to your friend. The fear of being seen as incompetent or unstable is really powerful, and it's like you're worried that if you let your guard down, you'll be seen as weak. Can you imagine what it would be like to be honest with your friend about how you're feeling, without worrying about what they might think?"
+    },
+    {
+      "role": "user",
+      "turn_id": 8,
+      "text": "I guess I could bring it up, but I'm not sure how he'll react. The fear that I\u2019ll just confirm I'm not competent enough is nagging me, and the rent pressure is a constant reminder that I'm barely managing. My sleep is non\u2011restorative, so I\u2019m racing through the day without any real recharge."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 8,
+      "text": "The fear that you'll confirm your own doubts about being competent enough is really nagging at you, and it's like the rent pressure and lack of sleep are just adding to the sense of overwhelm. It takes a lot of courage to even consider being honest with your friend about how you're feeling, especially when you're worried about being seen as weak or incompetent. Can you tell me more about what you think would happen if you did open up to your friend about your anxiety and financial worries?"
+    },
+    {
+      "role": "user",
+      "turn_id": 9,
+      "text": "I think if I opened up, he might actually understand, but I'm terrified he'll see me as a liability and that will just confirm my self\u2011doubt. The idea of admitting financial strain feels like admitting failure, and I keep picturing the mirror in the dark\u2014my face looks tired and incompetent. I also worry that telling him will ruin our friendship and push me even further into sleepless nights."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 9,
+      "text": "The thought of opening up to your friend and being seen as a liability is terrifying you, and it's like you're already imagining the worst-case scenario. You're not just worried about being judged or rejected; you're worried about confirming your own self-doubt and feeling like a failure. The fear of admitting financial strain feels like admitting inadequacy, and it's like you're seeing your own doubts and fears staring back at you in the mirror. Yeah, it's a lot to handle, and it sounds like you're feeling really overwhelmed by all these what-ifs. Can you imagine what it would be like to be honest with your friend about your anxiety and financial worries, without worrying about what they might think?"
+    },
+    {
+      "role": "user",
+      "turn_id": 10,
+      "text": "I keep thinking that if I do open up, he\u2019ll see me as a liability and that will just confirm my self\u2011doubt. The idea of admitting financial strain feels like admitting failure, and I\u2019m terrified that he\u2019ll think I\u2019m unstable. My sleep is non\u2011restorative, so I\u2019m racing through the day without any real recharge."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 10,
+      "text": "You're really scared that if you open up to your friend, he'll see you as a liability and that will just confirm your self-doubt. It's like you're already imagining the worst-case scenario, and that's a really tough thing to deal with. The pressure to be competent and achieve is already high, but adding the fear of admitting financial strain is making it even harder for you to sleep and focus. Yeah, it's a lot to handle, and it sounds like you're feeling really overwhelmed by all these what-ifs. Can you tell me more about what you think would happen if you did open up to your friend about your anxiety and financial worries?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 3,
+      "turn_id": 1,
+      "user_message": "Having my college buddy in town has really rattled me; I feel like I'm stuck and that my career hasn't moved forward, and I can't even sleep right now. My rent and living costs feel like an uphill climb, and I'm worried the review will catch me off guard.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "Where: user state unclear. Which: T1-equivalent reflection only. Evidence: none surfaced this turn. Entry: stay present without advancing any agenda.",
+        "evidence_used": [],
+        "final_response": "Whatever you want to say next, I'm listening.",
+        "_fallback_default": true
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 2,
+      "user_message": "The visit from my old college friend feels like a mirror of my own stagnation; I keep thinking he\u2019s moved on while I\u2019m still stuck, and that thought keeps me up all night.\nI\u2019m also watching my rent climb while my salary stays flat, and I\u2019m scared my review will expose this lack of progress.\nI keep checking my reflection in the dark, wondering if I even look competent enough to survive this.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": []
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and you need someone to reflect your emotions back to you right now. Given your express_emotion intent, I'll use complex_reflection and support strategies to acknowledge your feelings. The evidence that stands out is your recent visit from your college buddy, which has triggered feelings of stagnation and self-doubt. Your words convey a deep sense of insecurity about your career progress and financial stability, and I want to acknowledge the pain that's keeping you up at night.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t1.user",
+            "content": "college buddy visit triggering feelings of stagnation"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not enough, I must be perfect to be worthy"
+          },
+          {
+            "source": "recent_turn.t1.user",
+            "content": "worried about review exposing lack of progress"
+          }
+        ],
+        "final_response": "The visit from your college friend has really shaken you, and it's like you're seeing your own fears and doubts staring back at you. You're not just worried about your career, but also feeling the weight of your rent and living costs, and the pressure of an upcoming review. It sounds like you're questioning your own competence and worth, and that's a really painful place to be. Can you tell me more about what you mean by 'not looking competent enough'?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "complex_reflection",
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 3,
+      "user_message": "When I look at the numbers\u2014project growth, client retention, and revenue impact\u2014I see a 12% shortfall compared to the benchmark my friend cited, and that gap feels like a personal failure, especially with the rent creeping up and the review looming. I keep looping on that comparison, which keeps me up and makes me question my competence. The mental load is so high I can\u2019t even focus on sleeping right now.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": []
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and right now, you need someone to acknowledge the pain and self-doubt you're feeling. Given your intent to express emotion, I'll use complex reflection and support strategies to help you process your feelings. The evidence shows that you're struggling with feelings of inadequacy and self-doubt, particularly when comparing yourself to your friend's benchmark. Your recent turns have highlighted the weight of your rent, living costs, and upcoming review, which are all contributing to your emotional distress. My entry point will be to acknowledge the emotional toll of these comparisons and the pressure you're putting on yourself.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t2.user",
+            "content": "feeling like I'm stuck and that my career hasn't moved forward"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "competence, self-worth, achievement"
+          },
+          {
+            "source": "recent_turn.t2.user",
+            "content": "questioning my own competence and worth"
+          }
+        ],
+        "final_response": "The pressure to meet those benchmarks is really getting to you, and it's like you're measuring your entire self-worth by those numbers. When you say you're looping on that comparison, I can sense the weight of it keeping you up at night. It's not just about the shortfall; it's about what that means to you and your sense of competence. Yeah, it's a lot to carry, especially with the rent and review looming. Can you tell me more about what you think would happen if you didn't meet those expectations?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 4,
+      "user_message": "If I don\u2019t meet the benchmarks, I think they\u2019ll see me as a liability, and my review could end up being a demotion or even a layoff. That would mean I can\u2019t keep paying rent and I\u2019d have to move out of the city, which feels like a personal failure. Plus, my friend might start treating me like a cautionary tale, and I don\u2019t even know if I can sleep through the night with that looming.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "complex_reflection",
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here as a supportive friend, and the user needs me to acknowledge their emotional pain right now, so I'll start by reflecting their fears and worries. The strategies that fit this moment are support and complex_reflection, as they allow me to empathize with the user's concerns without pushing them to plan or take action. The evidence that guides my response is the user's recent messages, where they've shared their fears about not meeting benchmarks, being seen as a liability, and potentially facing a demotion or layoff. The user's persona, with traits like self-criticism and a metrics-driven mindset, also informs my understanding of their emotional state. My entry point will be to acknowledge the weight of their fears and the personal significance of meeting those benchmarks, and then I'll use complex_reflection to help them explore the emotions underlying their words.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.(none)",
+            "content": "fears about not meeting benchmarks"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "competence, self-worth, achievement"
+          },
+          {
+            "source": "recent_turn.t3.user",
+            "content": "12% shortfall compared to the benchmark"
+          }
+        ],
+        "final_response": "The thought of not meeting those benchmarks and being seen as a liability is really haunting you, and it's like you're already imagining the worst-case scenario. You're not just worried about your job or your rent; you're worried about what this means for your sense of self-worth and competence. It's like you're measuring your entire value as a person by those numbers, and that's a really heavy burden to carry. Can you tell me more about what's driving that fear of being a 'liability'?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 5,
+      "user_message": "I think it\u2019s because I feel like I\u2019m the only one keeping the project afloat, and any slip could make the whole team look bad. The idea that my failure could force me to leave NYC and lose my rent payment just adds to the pressure, and I can\u2019t even sleep because I\u2019m replaying every possible outcome.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions and concerns about their career and personal life. Given their intent to express emotion, I'll start by acknowledging the weight of their responsibilities and the pressure they're feeling. The candidate strategies I'll consider are support, facilitate, and complex_reflection, as they are most relevant to this user's current emotional state. The evidence I'll use is their recent messages, where they've shared their fears about not meeting benchmarks, being seen as a liability, and the potential consequences on their personal life. My entry point will be to reflect on the burden of being the sole person keeping the project afloat and how that's affecting their sleep and overall well-being.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t4.user",
+            "content": "I think it\u2019s because I feel like I\u2019m the only one keeping the project afloat, and any slip could make the whole team look bad."
+          },
+          {
+            "source": "persona.core_values",
+            "content": "competence, self-worth, achievement"
+          }
+        ],
+        "final_response": "You're feeling like the weight of the entire project is on your shoulders, and that any mistake could not only reflect poorly on you but also on your team. It's like you're carrying the burden of responsibility for everyone's success, and that's a heavy load to bear. The pressure to perform is already high, but adding the fear of losing your rent payment and having to leave NYC is making it even harder for you to sleep and focus. Yeah, it's a lot to handle, and it sounds like you're feeling really overwhelmed by all these what-ifs."
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 6,
+      "user_message": "I\u2019ve been looping through the numbers all night, and the lack of sleep only magnifies the dread. I keep checking my reflection in the dark, feeling I don\u2019t look competent enough, and I worry my friend will see me as a cautionary tale. Maybe I should talk to him about how this feels, even though I fear it will make me look weaker.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate these difficult emotions, and it seems like the visit from your college friend has really triggered some deep-seated fears and doubts about your competence and worth. The strategies that might be helpful in this moment are support, complex_reflection, and facilitate, as they allow us to explore your emotions and thoughts without judgment. Evidence from our previous conversations suggests that you're struggling with feelings of inadequacy and a fear of being seen as a liability, which is exacerbated by the pressure to meet certain benchmarks and the fear of losing your rent payment. My entry point for this conversation will be to acknowledge the pain and vulnerability you're experiencing, and to explore the possibility of talking to your friend about how you're feeling.",
+        "evidence_used": [
+          {
+            "source": "problem_summary.(none)",
+            "content": "feeling stuck and like career hasn't moved forward"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "competence, self-worth, achievement"
+          },
+          {
+            "source": "recent_turn.t5.user",
+            "content": "fear of being seen as a liability and losing rent payment"
+          }
+        ],
+        "final_response": "The weight of those numbers and the fear of what your friend might think is really crushing you, and it's like you're seeing your own doubts and fears staring back at you in the dark. Talking to your friend about how you're feeling might be a way to confront those fears and doubts head-on, but it's also understandable that you're worried it could make you look weaker. What do you think would be the most difficult part of having that conversation with your friend?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 7,
+      "user_message": "I think the hardest part is admitting I'm anxious and that I feel like a failure; I don't want to look weak in front of him. The mirror in the dark makes me doubt my competence, and I worry he'll see me as incompetent. I'm also scared that if I bring up my financial worries, he'll think I'm unstable.",
+      "inference": {
+        "user_intent": {
+          "intent": "resistance",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "resistance",
+        "intent_entry_style": "Roll with it \u2014 reflect resistance without arguing; emphasize autonomy.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "facilitate",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their anxiety and self-doubt, and it seems like they're struggling to admit their vulnerabilities to their friend. The candidate strategies that feel most relevant are support and complex_reflection, as they'll allow me to acknowledge this person's fears without judgment. The evidence that stands out to me is their tendency to overthink and emotionally react to situations, as well as their deep-seated fear of being seen as incompetent. My entry point will be to acknowledge the difficulty of admitting anxiety and feelings of failure, and to explore what it would mean for them to be vulnerable with their friend.",
+        "evidence_used": [
+          {
+            "source": "persona.core_values",
+            "content": "competence"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "admitting I'm anxious and that I feel like a failure"
+          },
+          {
+            "source": "persona.personality_traits",
+            "content": "self-critical"
+          }
+        ],
+        "final_response": "It takes a lot of courage to admit when we're feeling anxious or like we're not measuring up, and it's understandable that you wouldn't want to show that vulnerability to your friend. The fear of being seen as incompetent or unstable is really powerful, and it's like you're worried that if you let your guard down, you'll be seen as weak. Can you imagine what it would be like to be honest with your friend about how you're feeling, without worrying about what they might think?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "resistance",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 8,
+      "user_message": "I guess I could bring it up, but I'm not sure how he'll react. The fear that I\u2019ll just confirm I'm not competent enough is nagging me, and the rent pressure is a constant reminder that I'm barely managing. My sleep is non\u2011restorative, so I\u2019m racing through the day without any real recharge.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they navigate their anxiety and self-doubt, and right now they need help processing their fears about being seen as incompetent. The candidate strategies of support, complex_reflection, and facilitate seem like a good fit, given their current emotional state and the fact that we're still exploring their concerns without a clear main problem. Evidence from their recent messages suggests that they're struggling with feelings of inadequacy and a deep-seated fear of being seen as a failure, which is exacerbated by their financial worries and lack of sleep. My entry point will be to acknowledge the weight of these fears and the pressure they're under, and then use complex_reflection to help them explore what's driving their anxiety.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t7.user",
+            "content": "admitting I'm anxious and that I feel like a failure"
+          },
+          {
+            "source": "recent_turn.t6.user",
+            "content": "fear of what your friend might think"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "competence, self-worth, achievement"
+          }
+        ],
+        "final_response": "The fear that you'll confirm your own doubts about being competent enough is really nagging at you, and it's like the rent pressure and lack of sleep are just adding to the sense of overwhelm. It takes a lot of courage to even consider being honest with your friend about how you're feeling, especially when you're worried about being seen as weak or incompetent. Can you tell me more about what you think would happen if you did open up to your friend about your anxiety and financial worries?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "complex_reflection",
+          "facilitate"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 9,
+      "user_message": "I think if I opened up, he might actually understand, but I'm terrified he'll see me as a liability and that will just confirm my self\u2011doubt. The idea of admitting financial strain feels like admitting failure, and I keep picturing the mirror in the dark\u2014my face looks tired and incompetent. I also worry that telling him will ruin our friendship and push me even further into sleepless nights.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection",
+            "facilitate"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support this person as they express their emotions and concerns, and right now, they need someone to acknowledge the weight of their fears and doubts. The strategies that seem most fitting are support and complex reflection, given the user's intent to express emotion and the lack of a clear main problem. The evidence from their recent turns suggests that they're struggling with feelings of inadequacy, anxiety, and self-doubt, and that these emotions are tied to their sense of competence and self-worth. The fact that they're worried about opening up to their friend and being seen as a liability or incompetent suggests that they're carrying a heavy burden of responsibility and fear of judgment. My entry point will be to acknowledge the terror they feel about being seen as a liability and the fear of admitting financial strain, and to reflect back the emotions that seem to be underlying their words.",
+        "evidence_used": [
+          {
+            "source": "recent_turn.t8.user",
+            "content": "fear of being seen as a liability"
+          },
+          {
+            "source": "recent_turn.t8.user",
+            "content": "fear of admitting financial strain"
+          },
+          {
+            "source": "persona.core_beliefs",
+            "content": "I am not enough"
+          },
+          {
+            "source": "persona.core_values",
+            "content": "competence, self-worth, achievement"
+          }
+        ],
+        "final_response": "The thought of opening up to your friend and being seen as a liability is terrifying you, and it's like you're already imagining the worst-case scenario. You're not just worried about being judged or rejected; you're worried about confirming your own self-doubt and feeling like a failure. The fear of admitting financial strain feels like admitting inadequacy, and it's like you're seeing your own doubts and fears staring back at you in the mirror. Yeah, it's a lot to handle, and it sounds like you're feeling really overwhelmed by all these what-ifs. Can you imagine what it would be like to be honest with your friend about your anxiety and financial worries, without worrying about what they might think?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 3,
+      "turn_id": 10,
+      "user_message": "I keep thinking that if I do open up, he\u2019ll see me as a liability and that will just confirm my self\u2011doubt. The idea of admitting financial strain feels like admitting failure, and I\u2019m terrified that he\u2019ll think I\u2019m unstable. My sleep is non\u2011restorative, so I\u2019m racing through the day without any real recharge.",
+      "inference": {
+        "user_intent": {
+          "intent": "express_emotion",
+          "confidence": "low",
+          "explanation": "v1 heuristic",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [],
+        "main_problem": null,
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_v1_no_extraction": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_v1_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": null,
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "express_emotion",
+        "intent_entry_style": "Reflect first; defer planning/info.",
+        "common_candidates": [
+          {
+            "code": "support",
+            "label": "Support",
+            "what": "Sympathetic / understanding statement",
+            "transition_fn": "Sustains engagement at any stage; especially during distress / resistance"
+          },
+          {
+            "code": "facilitate",
+            "label": "Facilitate",
+            "what": "Brief encouragement to continue ('mm-hmm', 'go on')",
+            "transition_fn": "Sustains conversation flow at any stage"
+          },
+          {
+            "code": "complex_reflection",
+            "label": "Complex Reflection",
+            "what": "Reflect with added inferred meaning, depth, or shift in emphasis",
+            "transition_fn": "Develops discrepancy \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "reframe",
+            "label": "Reframe",
+            "what": "Offer alternative interpretation that widens or shifts meaning",
+            "transition_fn": "Widens stuck frame \u2192 drives precontemplation \u2192 contemplation"
+          },
+          {
+            "code": "inform_with_permission",
+            "label": "Inform (with permission)",
+            "what": "Provide information after asking permission",
+            "transition_fn": "Builds awareness (pre \u2192 contempl) or supports informed decision (contempl \u2192 prep)"
+          },
+          {
+            "code": "raise_concern_with_permission",
+            "label": "Raise Concern (with permission)",
+            "what": "Voice concern about a plan or pattern after asking permission",
+            "transition_fn": "Develops discrepancy gently (pre \u2192 contempl) or surfaces risks to refine plan (prep \u2192 action)"
+          },
+          {
+            "code": "evoke",
+            "label": "Evoke",
+            "what": "Invite client's own reasons for change in their words (counselor-side mirror of MISC client 'Change Talk')",
+            "transition_fn": "Core MI move for resolving ambivalence \u2192 drives contemplation \u2192 preparation"
+          },
+          {
+            "code": "closed_question",
+            "label": "Closed Question",
+            "what": "Question that limits answer to yes/no/short \u2014 used sparingly",
+            "transition_fn": "Confirms commitment or specific plan elements (prep \u2192 action)"
+          },
+          {
+            "code": "advise_with_permission",
+            "label": "Advise (with permission)",
+            "what": "Suggest a course of action after asking permission",
+            "transition_fn": "Drives preparation \u2192 action; supports change planning"
+          },
+          {
+            "code": "structure",
+            "label": "Structure",
+            "what": "Explain what will happen next in the session or turn",
+            "transition_fn": "Drives preparation \u2192 action by structuring the change plan"
+          }
+        ],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ]
+      },
+      "past_two_turns": [
+        {
+          "turn_offset": -2,
+          "main_problem": null,
+          "strategies": [
+            "support",
+            "complex_reflection",
+            "facilitate"
+          ]
+        },
+        {
+          "turn_offset": -1,
+          "main_problem": null,
+          "strategies": [
+            "support"
+          ]
+        }
+      ],
+      "response": {
+        "reasoning": "I'm here to support you as you navigate these overwhelming feelings, and it seems like you're really struggling with the fear of being seen as a liability by your friend. The candidate strategies I'm considering are support, facilitate, and complex_reflection, as they seem to align with your current emotional state and intent to express your emotions. From the evidence, I can see that you're tying your self-worth to your competence and achievement, and the fear of admitting financial strain is triggering a lot of self-doubt. My entry point will be to acknowledge the weight of these emotions and the pressure you're putting on yourself.",
+        "evidence_used": [
+          {
+            "source": "persona.core_values",
+            "content": "competence, self-worth, achievement"
+          },
+          {
+            "source": "recent_turn.t9.user",
+            "content": "I think if I opened up, he might actually understand, but I'm terrified he'll see me as a liability and that will just confirm my self\u2011doubt."
+          }
+        ],
+        "final_response": "You're really scared that if you open up to your friend, he'll see you as a liability and that will just confirm your self-doubt. It's like you're already imagining the worst-case scenario, and that's a really tough thing to deal with. The pressure to be competent and achieve is already high, but adding the fear of admitting financial strain is making it even harder for you to sleep and focus. Yeah, it's a lot to handle, and it sounds like you're feeling really overwhelmed by all these what-ifs. Can you tell me more about what you think would happen if you did open up to your friend about your anxiety and financial worries?"
+      },
+      "trace": {
+        "main_problem": null,
+        "current_problems": [],
+        "user_intent": "express_emotion",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection",
+          "reframe",
+          "inform_with_permission",
+          "raise_concern_with_permission",
+          "evoke",
+          "closed_question",
+          "advise_with_permission",
+          "structure"
+        ],
+        "chosen_misc_codes": [
+          "support",
+          "facilitate",
+          "complex_reflection"
+        ],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

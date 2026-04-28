@@ -1,0 +1,262 @@
+{
+  "profile_id": "P24",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user described overwhelming work stress from running a shop alone after a breakup, feeling exhausted and uncertain about continuing. They expressed feelings of loneliness and hopelessness, acknowledging the burden of responsibility. Over the conversation, the user moved from recognizing the problem to feeling stuck and unable to see any meaningful part of the business, but still clinging to a sense of duty. No concrete plans or actions were discussed, and the user remained in a precontemplation stage for all problems."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "work_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "precontemplation",
+            "notes": "User acknowledged the shop\u2019s demands but remained in precontemplation, expressing hopelessness and no plans to change."
+          }
+        ]
+      },
+      {
+        "problem_name": "breakup_aftermath",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "precontemplation",
+            "notes": "User recognized the breakup\u2019s impact but stayed in precontemplation, feeling stuck and unable to see a way forward."
+          }
+        ]
+      },
+      {
+        "problem_name": "loneliness",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "precontemplation",
+            "notes": "User reported feeling alone but remained in precontemplation, with no indication of readiness to act."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "work_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "work_stress",
+          "breakup_aftermath",
+          "loneliness"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "loneliness",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "work_stress",
+          "breakup_aftermath",
+          "loneliness"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "precontemplation"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "precontemplation"
+          },
+          {
+            "problem_name": "loneliness",
+            "ttm_stage": "precontemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "work_stress",
+          "breakup_aftermath",
+          "loneliness"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "precontemplation"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "precontemplation"
+          },
+          {
+            "problem_name": "loneliness",
+            "ttm_stage": "precontemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "work_stress",
+          "breakup_aftermath",
+          "loneliness"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "work_stress",
+            "ttm_stage": "precontemplation"
+          },
+          {
+            "problem_name": "breakup_aftermath",
+            "ttm_stage": "precontemplation"
+          },
+          {
+            "problem_name": "loneliness",
+            "ttm_stage": "precontemplation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling completely overwhelmed and exhausted from running the shop alone..."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "It sounds like the shop feels like an impossible burden right now..."
+              }
+            ],
+            "reasoning": "The assistant explicitly named the user\u2019s feelings of overwhelm and exhaustion, and stayed with those emotions across multiple turns, providing a precise and empathetic response.",
+            "score": 5
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like you're feeling completely overwhelmed by the demands of running the shop, and the financial struggles are making it even harder."
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "It sounds like you're feeling a strong sense of responsibility to the people who count on the shop..."
+              }
+            ],
+            "reasoning": "The assistant referenced specific details\u2014financial strain, responsibility to customers, and the breakup\u2014demonstrating a clear grasp of the user\u2019s situation across turns.",
+            "score": 5
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 2,
+                "excerpt": "What are some reasons why you think you might want to make a change, even if it feels really tough right now?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore some options for how you could address this sense of responsibility, or would you rather talk more about what's making it feel so impossible to keep going?"
+              }
+            ],
+            "reasoning": "The assistant offered concrete next\u2011step questions that could shift the user\u2019s perspective, though it stopped short of prescribing a specific plan.",
+            "score": 4
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore some options for how you could address this sense of responsibility, or would you rather talk more about what's making it feel so impossible to keep going?"
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "Can you tell me more about what's making you feel like you can't keep going?"
+              }
+            ],
+            "reasoning": "The assistant consistently asked permission and offered choices, respecting the user\u2019s pace and autonomy without imposing solutions.",
+            "score": 4
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like you're feeling completely overwhelmed and exhausted from running the shop alone..."
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "It sounds like the shop feels like an unbearable weight, and the breakup has left you feeling even more alone and desperate."
+              }
+            ],
+            "reasoning": "The assistant used neutral, validating language and avoided any judgmental or prescriptive tone, creating a safe space for disclosure.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be helpful to explore some options for how you could address this sense of responsibility, or would you rather talk more about what's making it feel so impossible to keep going?"
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "What are some reasons why you think you might want to make a change, even if it feels really tough right now?"
+              }
+            ],
+            "reasoning": "The assistant\u2019s open\u2011ended invitations and respect for the user\u2019s agency suggest the user would likely feel comfortable continuing the dialogue.",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

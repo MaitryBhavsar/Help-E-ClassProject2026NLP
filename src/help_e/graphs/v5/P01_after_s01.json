@@ -1,0 +1,199 @@
+{
+  "persona": {
+    "demographics": null,
+    "personality_traits": "creative, passionate about art, self-critical",
+    "core_values": [],
+    "core_beliefs": [],
+    "support_system": "friends, but feels judged by them",
+    "hobbies_interests": "running, exercise",
+    "communication_style": "",
+    "relevant_history": "Graphic Designer"
+  },
+  "problems": [
+    {
+      "problem_name": "body_image_concerns",
+      "current_ttm_stage": "contemplation",
+      "first_mentioned": [
+        0,
+        0
+      ],
+      "last_mentioned": [
+        1,
+        3
+      ]
+    },
+    {
+      "problem_name": "low_self_esteem",
+      "current_ttm_stage": "contemplation",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        3
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "attr_type": "perceived_severity",
+      "value": ""
+    },
+    {
+      "attr_type": "triggers",
+      "value": ""
+    },
+    {
+      "attr_type": "perceived_barriers",
+      "value": ""
+    },
+    {
+      "attr_type": "past_attempts",
+      "value": ""
+    },
+    {
+      "attr_type": "self_efficacy",
+      "value": ""
+    }
+  ],
+  "edges": [
+    {
+      "attr_id": "attr::perceived_severity::",
+      "problem_id": "prob::body_image_concerns",
+      "current_level": "high",
+      "weight": 3,
+      "information_stack": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "user_message": "I feel like I\u2019ve lost a part of myself. The weight\u2019s piled on so fast that I can\u2019t even recognize the mirror. Every time I see myself in the gym, I feel like I\u2019m a stranger, and the comments from friends just make it worse. I\u2019m not sure if I should keep going to the gym or just stay home.",
+          "information": "user feels unrecognizable due to rapid weight gain"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "user_message": "I keep looking at myself in the mirror and I feel like I\u2019m staring at a stranger. The comments from friends feel like a harsh critique, and I can\u2019t bring myself to go to the gym. I used to love running and feeling the wind, but now it feels like I\u2019m betraying myself for not being able to keep up.",
+          "information": "user feels unrecognizable and disconnected from their body"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "user_message": "I\u2019ve gained about 15 kilos in the last six months, and every time I look in the mirror I feel like I\u2019m staring at a stranger. I\u2019m scared that if I go to the gym people will notice and judge me, so I just stay home. It\u2019s hard to find the motivation to exercise when I feel like I\u2019m betraying the person I used to be.",
+          "information": "user feels unrecognizable and disconnected from their body"
+        }
+      ]
+    },
+    {
+      "attr_id": "attr::triggers::",
+      "problem_id": "prob::body_image_concerns",
+      "current_level": "high",
+      "weight": 3,
+      "information_stack": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "user_message": "I feel like I\u2019ve lost a part of myself. The weight\u2019s piled on so fast that I can\u2019t even recognize the mirror. Every time I see myself in the gym, I feel like I\u2019m a stranger, and the comments from friends just make it worse. I\u2019m not sure if I should keep going to the gym or just stay home.",
+          "information": "gym mirror and comments from friends exacerbate negative self-image"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "user_message": "I keep looking at myself in the mirror and I feel like I\u2019m staring at a stranger. The comments from friends feel like a harsh critique, and I can\u2019t bring myself to go to the gym. I used to love running and feeling the wind, but now it feels like I\u2019m betraying myself for not being able to keep up.",
+          "information": "comments from friends exacerbate negative self-image"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "user_message": "I\u2019ve gained about 15 kilos in the last six months, and every time I look in the mirror I feel like I\u2019m staring at a stranger. I\u2019m scared that if I go to the gym people will notice and judge me, so I just stay home. It\u2019s hard to find the motivation to exercise when I feel like I\u2019m betraying the person I used to be.",
+          "information": "looking in the mirror amplifies negative self-image"
+        }
+      ]
+    },
+    {
+      "attr_id": "attr::perceived_barriers::",
+      "problem_id": "prob::body_image_concerns",
+      "current_level": "high",
+      "weight": 3,
+      "information_stack": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "user_message": "I feel like I\u2019ve lost a part of myself. The weight\u2019s piled on so fast that I can\u2019t even recognize the mirror. Every time I see myself in the gym, I feel like I\u2019m a stranger, and the comments from friends just make it worse. I\u2019m not sure if I should keep going to the gym or just stay home.",
+          "information": "user unsure about continuing gym routine due to self-consciousness"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "user_message": "I keep looking at myself in the mirror and I feel like I\u2019m staring at a stranger. The comments from friends feel like a harsh critique, and I can\u2019t bring myself to go to the gym. I used to love running and feeling the wind, but now it feels like I\u2019m betraying myself for not being able to keep up.",
+          "information": "user feels self-conscious at the gym, hindering exercise"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "user_message": "I\u2019ve gained about 15 kilos in the last six months, and every time I look in the mirror I feel like I\u2019m staring at a stranger. I\u2019m scared that if I go to the gym people will notice and judge me, so I just stay home. It\u2019s hard to find the motivation to exercise when I feel like I\u2019m betraying the person I used to be.",
+          "information": "fear of judgment from others at the gym is a significant obstacle"
+        }
+      ]
+    },
+    {
+      "attr_id": "attr::perceived_severity::",
+      "problem_id": "prob::low_self_esteem",
+      "current_level": "high",
+      "weight": 3,
+      "information_stack": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "user_message": "I feel like I\u2019ve lost a part of myself. The weight\u2019s piled on so fast that I can\u2019t even recognize the mirror. Every time I see myself in the gym, I feel like I\u2019m a stranger, and the comments from friends just make it worse. I\u2019m not sure if I should keep going to the gym or just stay home.",
+          "information": "user feels like they've lost a part of themselves"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "user_message": "I keep looking at myself in the mirror and I feel like I\u2019m staring at a stranger. The comments from friends feel like a harsh critique, and I can\u2019t bring myself to go to the gym. I used to love running and feeling the wind, but now it feels like I\u2019m betraying myself for not being able to keep up.",
+          "information": "user feels like they're betraying themselves due to weight gain"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "user_message": "I\u2019ve gained about 15 kilos in the last six months, and every time I look in the mirror I feel like I\u2019m staring at a stranger. I\u2019m scared that if I go to the gym people will notice and judge me, so I just stay home. It\u2019s hard to find the motivation to exercise when I feel like I\u2019m betraying the person I used to be.",
+          "information": "user feels like they've lost a part of themselves and are betraying their past self"
+        }
+      ]
+    },
+    {
+      "attr_id": "attr::past_attempts::",
+      "problem_id": "prob::body_image_concerns",
+      "current_level": "moderate",
+      "weight": 1,
+      "information_stack": [
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "user_message": "I keep looking at myself in the mirror and I feel like I\u2019m staring at a stranger. The comments from friends feel like a harsh critique, and I can\u2019t bring myself to go to the gym. I used to love running and feeling the wind, but now it feels like I\u2019m betraying myself for not being able to keep up.",
+          "information": "user used to enjoy running, but now feels unable to keep up"
+        }
+      ]
+    },
+    {
+      "attr_id": "attr::self_efficacy::",
+      "problem_id": "prob::body_image_concerns",
+      "current_level": "low",
+      "weight": 1,
+      "information_stack": [
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "user_message": "I\u2019ve gained about 15 kilos in the last six months, and every time I look in the mirror I feel like I\u2019m staring at a stranger. I\u2019m scared that if I go to the gym people will notice and judge me, so I just stay home. It\u2019s hard to find the motivation to exercise when I feel like I\u2019m betraying the person I used to be.",
+          "information": "user struggles to find motivation to exercise due to feelings of self-betrayal"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "num_problems": 2,
+    "num_attributes": 5,
+    "num_edges": 6
+  }
+}

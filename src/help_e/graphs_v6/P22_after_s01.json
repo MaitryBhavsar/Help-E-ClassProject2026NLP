@@ -1,0 +1,303 @@
+{
+  "profile_id": "P22",
+  "persona": {
+    "demographics": null,
+    "personality_traits": [
+      "self-critical",
+      "emotionally reactive"
+    ],
+    "core_values": [
+      "loyalty",
+      "responsibility"
+    ],
+    "core_beliefs": [],
+    "support_system": "none",
+    "hobbies_interests": [],
+    "communication_style": "emotional",
+    "relevant_history": "recent loss of a partner or colleague",
+    "general_behavioral_traits": [
+      "overthinker",
+      "emotionally reactive"
+    ]
+  },
+  "problems": {
+    "work_stress": {
+      "problem_name": "work_stress",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user sees the investor pitch as highly threatening",
+              "concise_explanation": "ticking bomb metaphor",
+              "supporting_utterance_span": "The investor pitch feels like a ticking bomb",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user sees the situation as unsustainable",
+              "concise_explanation": "feels like quitting",
+              "supporting_utterance_span": "I keep thinking maybe I should just quit",
+              "confidence": "high"
+            }
+          ]
+        },
+        "perceived_barriers": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "user feels overwhelmed by the responsibility of leading the company",
+              "concise_explanation": "leading the company alone feels insane",
+              "supporting_utterance_span": "The idea of leading the company alone feels insane",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user sees leading the company alone as a significant obstacle",
+              "concise_explanation": "leading the company alone feels insane",
+              "supporting_utterance_span": "The idea of leading the company alone feels insane",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user sees their grief and sense of responsibility as barriers to making a decision",
+              "concise_explanation": "user feels stuck and unsure",
+              "supporting_utterance_span": "I just don't know what's driving me to think about quitting",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user feels overwhelmed by the responsibility of leading the company alone",
+              "concise_explanation": "feeling of carrying everything alone",
+              "supporting_utterance_span": "carrying everything alone",
+              "confidence": "high"
+            }
+          ]
+        },
+        "motivation": {
+          "current_level": "low",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "user is unsure about continuing with the company",
+              "concise_explanation": "thought of quitting feels like a release",
+              "supporting_utterance_span": "The thought of quitting feels like a release",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user's motivation to continue leading the company is low due to their grief and sense of overwhelm",
+              "concise_explanation": "user is considering quitting",
+              "supporting_utterance_span": "I just don't know what's driving me to think about quitting",
+              "confidence": "high"
+            }
+          ]
+        },
+        "cues_to_action": {
+          "current_level": "low",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user is looking for a clear plan or support to continue",
+              "concise_explanation": "mention of needing a clear plan or someone to lean on",
+              "supporting_utterance_span": "Maybe if I had a clear plan or someone to lean on",
+              "confidence": "medium"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "investor pitch is a trigger for work stress",
+              "concise_explanation": "pitch cited as source of anxiety",
+              "supporting_utterance_span": "The investor pitch feels like a ticking bomb",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    },
+    "grief_of_loved_one": {
+      "problem_name": "grief_of_loved_one",
+      "first_mentioned": [
+        1,
+        1
+      ],
+      "last_mentioned": [
+        1,
+        5
+      ],
+      "current_ttm_stage": "contemplation",
+      "goal": null,
+      "level_attributes": {
+        "perceived_severity": {
+          "current_level": "high",
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 1,
+              "inferred_information": "user experiences grief as a heavy burden",
+              "concise_explanation": "constant weight language",
+              "supporting_utterance_span": "my grief is a constant weight",
+              "confidence": "high"
+            }
+          ]
+        }
+      },
+      "non_level_attributes": {
+        "triggers": {
+          "evidence_stack": [
+            {
+              "session_id": 1,
+              "turn_id": 2,
+              "inferred_information": "pushing forward with work triggers feelings of betrayal",
+              "concise_explanation": "feeling of betraying the deceased",
+              "supporting_utterance_span": "I feel like I'm betraying him by pushing forward",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 3,
+              "inferred_information": "pushing forward with the company triggers feelings of betrayal",
+              "concise_explanation": "feeling of letting him down",
+              "supporting_utterance_span": "I also feel like I'm letting him down",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 4,
+              "inferred_information": "user's grief is triggered by their thoughts of quitting and feeling like they're failing the deceased loved one",
+              "concise_explanation": "user feels like they're failing him",
+              "supporting_utterance_span": "I keep feeling like I'm failing him",
+              "confidence": "high"
+            },
+            {
+              "session_id": 1,
+              "turn_id": 5,
+              "inferred_information": "user's grief is triggered by the thought of leading the company alone and feeling like they're letting him down",
+              "concise_explanation": "feeling of letting him down",
+              "supporting_utterance_span": "feeling like I'm letting him down",
+              "confidence": "high"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "problem_1": "grief_of_loved_one",
+      "problem_2": "work_stress",
+      "cooccurrence_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "The investor pitch feels like a ticking bomb and my grief is a constant weight"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I keep thinking maybe I should just quit. The idea of leading the company alone feels insane, and I feel like I'm betraying him by pushing forward"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "concise_explanation": "both problems discussed in the same turn",
+          "supporting_utterance_span": "I just don't know if I can keep doing this. The thought of quitting feels like a release, but I also feel like I'm letting him down"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "concise_explanation": "both problems are discussed in the same turn",
+          "supporting_utterance_span": "I just don't know what's driving me to think about quitting, and I keep feeling like I'm failing him"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "concise_explanation": "both problems are discussed in the same turn, with the user feeling overwhelmed by work and grieving",
+          "supporting_utterance_span": "carrying everything alone and feeling like I'm letting him down"
+        }
+      ],
+      "attribute_connection_entries": [
+        {
+          "session_id": 1,
+          "turn_id": 1,
+          "attribute_1": "perceived_severity",
+          "attribute_2": "perceived_severity",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the high severity of work stress and grief reinforce each other, creating a cycle of overwhelm.",
+          "supporting_utterance_span": "I feel like I'm drowning in this endless cycle of work and sorrow",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 2,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "the grief triggers feelings of guilt and betrayal, which in turn increase the perceived barriers to coping with work stress",
+          "supporting_utterance_span": "I feel like I'm betraying him by pushing forward",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 3,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the barrier of leading the company alone is reinforced by the trigger of feeling like letting him down",
+          "supporting_utterance_span": "The thought of quitting feels like a release, but I also feel like I'm letting him down",
+          "confidence": "medium"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 4,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "triggers",
+          "relation_type": "causal",
+          "connection_explanation": "user's grief triggers their feelings of being stuck and unsure about leading the company",
+          "supporting_utterance_span": "I keep feeling like I'm failing him",
+          "confidence": "high"
+        },
+        {
+          "session_id": 1,
+          "turn_id": 5,
+          "attribute_1": "perceived_barriers",
+          "attribute_2": "triggers",
+          "relation_type": "reinforcing",
+          "connection_explanation": "the user's grief triggers their feeling of being overwhelmed by work, which in turn reinforces their grief",
+          "supporting_utterance_span": "feeling like I'm letting him down and carrying everything alone",
+          "confidence": "medium"
+        }
+      ],
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,2023 @@
+{
+  "session_id": 1,
+  "session_summary": "The user primarily discussed body image concerns, specifically their anxiety and self-consciousness about their ears. They transitioned from being absent in the preparation stage to actively considering their body image concerns, acknowledging the negative impact of a friend's comment and their own self-critical thoughts. The user expressed a desire to break free from the cycle of negative thoughts but did not commit to a specific plan, instead opting to continue exploring their feelings; an open thread is the user's ongoing struggle with body image concerns and their intent to further discuss and address these issues in the next session.",
+  "stage_transitions": [
+    {
+      "problem": "body_image_concerns",
+      "from": "(absent)",
+      "to": "preparation"
+    }
+  ],
+  "persona_updates": [
+    {
+      "field": "demographics",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "personality_traits",
+      "action": "update",
+      "new_value": "self-critical, anxious",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I just keep thinking everyone will notice my ears and that it's a flaw. I feel embarrassed talking about it, so I avoid it, but that only makes me more anxious"
+        }
+      ]
+    },
+    {
+      "field": "core_values",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "core_beliefs",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "support_system",
+      "action": "update",
+      "new_value": "friend",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "After my friend said they stick out, I feel like everyone\u2019s looking at them"
+        }
+      ]
+    },
+    {
+      "field": "hobbies_interests",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "communication_style",
+      "action": "update",
+      "new_value": "emotional, guarded",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I feel embarrassed talking about it, so I avoid it, but that only makes me more anxious"
+        }
+      ]
+    },
+    {
+      "field": "relevant_history",
+      "action": "keep",
+      "new_value": null,
+      "evidence_citations": []
+    },
+    {
+      "field": "general_behavioral_traits",
+      "action": "update",
+      "new_value": "overthinker, emotionally reactive, avoidant",
+      "evidence_citations": [
+        {
+          "turn_id": 1,
+          "excerpt": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them"
+        },
+        {
+          "turn_id": 3,
+          "excerpt": "It feels like a loop I can't escape. I wish I could just ignore it, but the anxiety just pulls me back"
+        },
+        {
+          "turn_id": 5,
+          "excerpt": "I feel embarrassed talking about it, so I avoid it, but that only makes me more anxious"
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "It sounds like your friend's comment really stuck with you, and now you're feeling self-conscious about your ears, especially with the presentation tomorrow. You're noticing yourself staring at them in the mirror and worrying that others might be looking too. What do you think would need to happen for you to feel more confident about your appearance?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "I don\u2019t know if I can just ignore it. I keep thinking people will notice and judge, especially at the presentation tomorrow. Maybe if I could just pretend I don\u2019t care, but I can\u2019t. I feel like I\u2019m stuck in this loop of staring at my ears."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "You're feeling really stuck and self-conscious about your ears, and it's hard to shake off the feeling that others will notice and judge you. It sounds like you're trying to find a way to break free from this loop of negative thoughts, but it's not easy. I'm here to listen and support you, and I want to acknowledge how tough this must be for you."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I keep checking my ears in the mirror like I'm on some self\u2011check. It feels like a loop I can't escape. I wish I could just ignore it, but the anxiety just pulls me back. Is there any way to break this cycle?"
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "It sounds like you're feeling really trapped in this cycle of checking your ears and worrying about what others think. Would it be helpful to explore one small thing you could do this week to start breaking free from this loop, or would you rather talk more about what's been going on before we think about next steps?"
+    },
+    {
+      "role": "user",
+      "turn_id": 4,
+      "text": "I\u2019m not sure I\u2019m ready for a plan right now\u2014maybe we could just talk more about how this is feeling before I try to do anything."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 4,
+      "text": "It sounds like you're feeling overwhelmed and unsure about how to move forward. You're not sure you're ready for a plan, and that's okay. Can you tell me more about what's holding you back from feeling more confident about your appearance?"
+    },
+    {
+      "role": "user",
+      "turn_id": 5,
+      "text": "I just keep thinking everyone will notice my ears and that it's a flaw. I feel embarrassed talking about it, so I avoid it, but that only makes me more anxious. I don't know how to stop thinking about it."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 5,
+      "text": "It sounds like you're feeling really self-conscious about your ears, and it's hard for you to stop thinking about them. You're feeling embarrassed and anxious, and it's making it difficult for you to talk about it. Can you tell me more about what's going through your mind when you think about your ears?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing distress about their appearance without asking for advice.",
+          "supporting_utterance_span": "I keep staring at my ears in the mirror"
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": true,
+            "matched_existing_problem_name": null,
+            "explanation": "preoccupation with ear appearance",
+            "supporting_utterance_span": "I keep staring at my ears in the mirror"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "dominant concern in the user's message",
+          "supporting_utterance_span": "I keep staring at my ears in the mirror"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "friend's comment triggered the concern",
+            "concise_explanation": "friend's comment about ears sticking out",
+            "supporting_utterance_span": "After my friend said they stick out",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user is significantly distressed by their ear appearance",
+            "concise_explanation": "user can't stop staring and feels like everyone's looking",
+            "supporting_utterance_span": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": []
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User is significantly distressed by their ear appearance, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged their distress and a trigger (friend's comment) is present, indicating they are considering their situation and potentially open to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "friend's comment triggered the concern"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow.",
+        "recent_turns": [],
+        "last_system_message": null,
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            1
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user is significantly distressed by their ear appearance",
+                  "concise_explanation": "user can't stop staring and feels like everyone's looking",
+                  "supporting_utterance_span": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "friend's comment triggered the concern",
+                  "concise_explanation": "friend's comment about ears sticking out",
+                  "supporting_utterance_span": "After my friend said they stick out",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": []
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "body_image_concerns"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be body_image_concerns. Their current TTM stage appears to be contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging their distress and is ambivalent about change. It should be applied by reflecting the user's feelings and concerns, using evidence such as their perceived_severity of ear appearance and the trigger of their friend's comment. The user also shows high perceived_severity, which suggests that they are significantly distressed by their ear appearance. Because of this, the response should use T1 Reflection to acknowledge their feelings and concerns. The user intent in this turn is to vent, which suggests that they need to express their emotions and concerns before considering any changes. Because of this, the response should use T1 Reflection to acknowledge their feelings and concerns, and then use T8 Change Talk to invite them to consider their own reasons for change. Since there are no related problems, the response should focus solely on the main problem. Overall, the response should try to improve the user's awareness and emotional regulation, while avoiding giving unsolicited advice or solutions.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's distress and concern about their ear appearance, and then use T8 Change Talk to invite them to consider their own reasons for change. I'll focus on acknowledging their feelings and concerns, and avoid giving any solutions or advice. I'll also make sure to reference the user's perceived_severity and the trigger of their friend's comment to ground the reflection.",
+        "final_response": "It sounds like your friend's comment really stuck with you, and now you're feeling self-conscious about your ears, especially with the presentation tomorrow. You're noticing yourself staring at them in the mirror and worrying that others might be looking too. What do you think would need to happen for you to feel more confident about your appearance?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User is significantly distressed by their ear appearance, indicating a high level of perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "precontemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User acknowledged their distress and a trigger (friend's comment) is present, indicating they are considering their situation and potentially open to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "friend's comment triggered the concern"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "I don\u2019t know if I can just ignore it. I keep thinking people will notice and judge, especially at the presentation tomorrow. Maybe if I could just pretend I don\u2019t care, but I can\u2019t. I feel like I\u2019m stuck in this loop of staring at my ears.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing their distress and self-consciousness about their ears without asking for advice.",
+          "supporting_utterance_span": "I don\u2019t know if I can just ignore it. I keep thinking people will notice and judge"
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "user is preoccupied with the appearance of their ears",
+            "supporting_utterance_span": "I keep staring at my ears in the mirror"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "user's concern about their ears is the central issue",
+          "supporting_utterance_span": "I keep staring at my ears in the mirror"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their ear appearance as a significant issue",
+            "concise_explanation": "user is 'stuck in this loop' of worrying about their ears",
+            "supporting_utterance_span": "I feel like I\u2019m stuck in this loop of staring at my ears",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "friend's comment and upcoming presentation trigger user's concerns",
+            "concise_explanation": "friend's comment and presentation tomorrow mentioned as triggers",
+            "supporting_utterance_span": "After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": []
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their ear appearance as a significant issue, consistent with previous expressions of distress.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User remains aware of the issue and its triggers, such as the friend's comment and the upcoming presentation, but there is no new evidence of progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "friend's comment triggered the concern"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "friend's comment and upcoming presentation trigger user's concerns"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I don\u2019t know if I can just ignore it. I keep thinking people will notice and judge, especially at the presentation tomorrow. Maybe if I could just pretend I don\u2019t care, but I can\u2019t. I feel like I\u2019m stuck in this loop of staring at my ears.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like your friend's comment really stuck with you, and now you're feeling self-conscious about your ears, especially with the presentation tomorrow. You're noticing yourself staring at them in the mirror and worrying that others might be looking too. What do you think would need to happen for you to feel more confident about your appearance?"
+          }
+        ],
+        "last_system_message": "It sounds like your friend's comment really stuck with you, and now you're feeling self-conscious about your ears, especially with the presentation tomorrow. You're noticing yourself staring at them in the mirror and worrying that others might be looking too. What do you think would need to happen for you to feel more confident about your appearance?",
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "current_ttm_stage": "contemplation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            2
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user is significantly distressed by their ear appearance",
+                  "concise_explanation": "user can't stop staring and feels like everyone's looking",
+                  "supporting_utterance_span": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees their ear appearance as a significant issue",
+                  "concise_explanation": "user is 'stuck in this loop' of worrying about their ears",
+                  "supporting_utterance_span": "I feel like I\u2019m stuck in this loop of staring at my ears",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "friend's comment triggered the concern",
+                  "concise_explanation": "friend's comment about ears sticking out",
+                  "supporting_utterance_span": "After my friend said they stick out",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "friend's comment and upcoming presentation trigger user's concerns",
+                  "concise_explanation": "friend's comment and presentation tomorrow mentioned as triggers",
+                  "supporting_utterance_span": "After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": []
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_attribute_levels": [],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "main_problem": "body_image_concerns"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be body_image_concerns. Their current TTM stage appears to be contemplation. Because of this, the response should use T1 Reflection and T8 Change Talk. This technique is appropriate because the user is acknowledging their problem and is ambivalent about change. It should be applied by reflecting the user's concerns and feelings, using evidence such as their perceived_severity of ear appearance and the trigger of their friend's comment. The user also shows high perceived_severity and is struggling with self-consciousness. Because of this, the response should use T2 Affirmation to acknowledge the user's distress and efforts to cope. The user intent in this turn is to vent, and the response should acknowledge this intent by reflecting their feelings and concerns. Since there are no related problems, the response will focus solely on the main problem. Overall, the response should try to improve the user's awareness and emotional regulation, while avoiding giving unsolicited advice or pivoting to a different topic.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's concerns and feelings about their ear appearance, then use T2 Affirmation to acknowledge their distress. I'll skip T8 Change Talk for now and focus on reflecting the user's emotional state, as they seem to be stuck in a loop of negative thoughts. I'll avoid giving advice or solutions, and instead, provide a supportive and non-judgmental space for the user to express themselves.",
+        "final_response": "You're feeling really stuck and self-conscious about your ears, and it's hard to shake off the feeling that others will notice and judge you. It sounds like you're trying to find a way to break free from this loop of negative thoughts, but it's not easy. I'm here to listen and support you, and I want to acknowledge how tough this must be for you."
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their ear appearance as a significant issue, consistent with previous expressions of distress.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "contemplation",
+            "reasoning": "User remains aware of the issue and its triggers, such as the friend's comment and the upcoming presentation, but there is no new evidence of progression to a different stage.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "friend's comment triggered the concern"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "friend's comment and upcoming presentation trigger user's concerns"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I keep checking my ears in the mirror like I'm on some self\u2011check. It feels like a loop I can't escape. I wish I could just ignore it, but the anxiety just pulls me back. Is there any way to break this cycle?",
+      "inference": {
+        "user_intent": {
+          "intent": "seek_advice",
+          "confidence": "high",
+          "explanation": "User is explicitly asking for help to break the cycle of negative thoughts about their ears.",
+          "supporting_utterance_span": "Is there any way to break this cycle?"
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "user is fixated on their ears and anxious about others' perception",
+            "supporting_utterance_span": "I keep checking my ears in the mirror"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "user's anxiety and self-consciousness about their ears is the central issue",
+          "supporting_utterance_span": "I keep checking my ears in the mirror"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their ear concerns as a significant issue affecting their daily life",
+            "concise_explanation": "user feels 'stuck' and anxious about their ears",
+            "supporting_utterance_span": "I feel like I'm stuck in this loop",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "friend's comment and upcoming presentation trigger user's anxiety about their ears",
+            "concise_explanation": "friend's comment and presentation mentioned as sources of anxiety",
+            "supporting_utterance_span": "After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow",
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "motivation",
+            "attribute_type": "level",
+            "inferred_information": "user is motivated to break the cycle of negative thoughts and feel more confident",
+            "concise_explanation": "user is seeking advice and wants to 'break this cycle'",
+            "supporting_utterance_span": "Is there any way to break this cycle?",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": []
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their ear concerns as a significant issue affecting their daily life, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their ear concerns as a significant issue affecting their daily life"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "motivation",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User expresses motivation to break the cycle of negative thoughts and feel more confident, indicating a strong desire for change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is motivated to break the cycle of negative thoughts and feel more confident"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User is motivated to break the cycle of negative thoughts and feel more confident, and acknowledges the significant issue of their ear concerns, indicating a readiness to take action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their ear concerns as a significant issue affecting their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is motivated to break the cycle of negative thoughts and feel more confident"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I keep checking my ears in the mirror like I'm on some self\u2011check. It feels like a loop I can't escape. I wish I could just ignore it, but the anxiety just pulls me back. Is there any way to break this cycle?",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like your friend's comment really stuck with you, and now you're feeling self-conscious about your ears, especially with the presentation tomorrow. You're noticing yourself staring at them in the mirror and worrying that others might be looking too. What do you think would need to happen for you to feel more confident about your appearance?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I don\u2019t know if I can just ignore it. I keep thinking people will notice and judge, especially at the presentation tomorrow. Maybe if I could just pretend I don\u2019t care, but I can\u2019t. I feel like I\u2019m stuck in this loop of staring at my ears."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "You're feeling really stuck and self-conscious about your ears, and it's hard to shake off the feeling that others will notice and judge you. It sounds like you're trying to find a way to break free from this loop of negative thoughts, but it's not easy. I'm here to listen and support you, and I want to acknowledge how tough this must be for you."
+          }
+        ],
+        "last_system_message": "You're feeling really stuck and self-conscious about your ears, and it's hard to shake off the feeling that others will notice and judge you. It sounds like you're trying to find a way to break free from this loop of negative thoughts, but it's not easy. I'm here to listen and support you, and I want to acknowledge how tough this must be for you.",
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "current_ttm_stage": "preparation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            3
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "user is significantly distressed by their ear appearance",
+                  "concise_explanation": "user can't stop staring and feels like everyone's looking",
+                  "supporting_utterance_span": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees their ear appearance as a significant issue",
+                  "concise_explanation": "user is 'stuck in this loop' of worrying about their ears",
+                  "supporting_utterance_span": "I feel like I\u2019m stuck in this loop of staring at my ears",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees their ear concerns as a significant issue affecting their daily life",
+                  "concise_explanation": "user feels 'stuck' and anxious about their ears",
+                  "supporting_utterance_span": "I feel like I'm stuck in this loop",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "motivation": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user is motivated to break the cycle of negative thoughts and feel more confident",
+                  "concise_explanation": "user is seeking advice and wants to 'break this cycle'",
+                  "supporting_utterance_span": "Is there any way to break this cycle?",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 1,
+                  "inferred_information": "friend's comment triggered the concern",
+                  "concise_explanation": "friend's comment about ears sticking out",
+                  "supporting_utterance_span": "After my friend said they stick out",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "friend's comment and upcoming presentation trigger user's concerns",
+                  "concise_explanation": "friend's comment and presentation tomorrow mentioned as triggers",
+                  "supporting_utterance_span": "After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "friend's comment and upcoming presentation trigger user's anxiety about their ears",
+                  "concise_explanation": "friend's comment and presentation mentioned as sources of anxiety",
+                  "supporting_utterance_span": "After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow",
+                  "confidence": "medium"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": []
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T7",
+            "technique_label": "EPE"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T7",
+            "technique_label": "EPE"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          }
+        ],
+        "main_problem": "body_image_concerns"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be body_image_concerns, specifically their ear appearance. Their current TTM stage appears to be preparation, indicating they are intending to make a change. Because of this, the response should use T5 Ask Permission and T10 Action Planning. This technique is appropriate because the user is seeking advice and is motivated to break the cycle of negative thoughts. It should be applied by first acknowledging the user's feelings and concerns, using evidence such as their perceived_severity and motivation levels. The user also shows high motivation and perceived_severity, which suggests they are ready to take action. Because of this, the response should use T10 Action Planning to help the user identify a small, achievable step towards breaking the cycle of negative thoughts. The user intent in this turn is to seek advice, which suggests they are looking for guidance on how to break the cycle. Because of this, the response should use T5 Ask Permission to ensure the user is open to suggestions. Overall, the response should try to improve the user's self-efficacy and motivation, while avoiding giving unsolicited advice or overwhelming the user with too many options.",
+        "response_reasoning": "I'll use T5 Ask Permission to ensure the user is open to suggestions, and then apply T10 Action Planning to help the user identify a small, achievable step towards breaking the cycle of negative thoughts. I'll surface the user's motivation and perceived_severity levels to acknowledge their feelings and concerns. I'll drop any mention of related problems since there are none, and honor the user's intent by seeking permission before offering advice.",
+        "final_response": "It sounds like you're feeling really trapped in this cycle of checking your ears and worrying about what others think. Would it be helpful to explore one small thing you could do this week to start breaking free from this loop, or would you rather talk more about what's been going on before we think about next steps?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns"
+        ],
+        "user_intent": "seek_advice",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "motivation"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their ear concerns as a significant issue affecting their daily life, consistent with previous entries.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their ear concerns as a significant issue affecting their daily life"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "motivation",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User expresses motivation to break the cycle of negative thoughts and feel more confident, indicating a strong desire for change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is motivated to break the cycle of negative thoughts and feel more confident"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "contemplation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User is motivated to break the cycle of negative thoughts and feel more confident, and acknowledges the significant issue of their ear concerns, indicating a readiness to take action.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their ear concerns as a significant issue affecting their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is motivated to break the cycle of negative thoughts and feel more confident"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 4,
+      "user_message": "I\u2019m not sure I\u2019m ready for a plan right now\u2014maybe we could just talk more about how this is feeling before I try to do anything.",
+      "inference": {
+        "user_intent": {
+          "intent": "explore_option",
+          "confidence": "medium",
+          "explanation": "User is hesitant about making a plan and wants to discuss their feelings further before taking action.",
+          "supporting_utterance_span": "I'm not sure I'm ready for a plan right now\u2014maybe we could just talk more about how this is feeling"
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "user's anxiety about their ears and appearance",
+            "supporting_utterance_span": "I keep staring at my ears in the mirror"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "user's dominant concern is their body image issues, specifically their ears",
+          "supporting_utterance_span": "I keep staring at my ears in the mirror"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their body image concerns as significant and impactful on their daily life",
+            "concise_explanation": "user's anxiety and self-consciousness about their ears",
+            "supporting_utterance_span": "I keep staring at my ears in the mirror",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "a comment from a friend triggered the user's body image concerns",
+            "concise_explanation": "friend's comment about their ears",
+            "supporting_utterance_span": "After my friend said they stick out",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": []
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their body image concerns as significant and impactful on their daily life, with no indication of a decrease in perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their ear concerns as a significant issue affecting their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their body image concerns as significant and impactful on their daily life"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User remains in the preparation stage as they continue to acknowledge their body image concerns and their motivation to address them, but there is no new evidence of action or significant progress towards change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their ear concerns as a significant issue affecting their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is motivated to break the cycle of negative thoughts and feel more confident"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their body image concerns as significant and impactful on their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "a comment from a friend triggered the user's body image concerns"
+              }
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I\u2019m not sure I\u2019m ready for a plan right now\u2014maybe we could just talk more about how this is feeling before I try to do anything.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like your friend's comment really stuck with you, and now you're feeling self-conscious about your ears, especially with the presentation tomorrow. You're noticing yourself staring at them in the mirror and worrying that others might be looking too. What do you think would need to happen for you to feel more confident about your appearance?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I don\u2019t know if I can just ignore it. I keep thinking people will notice and judge, especially at the presentation tomorrow. Maybe if I could just pretend I don\u2019t care, but I can\u2019t. I feel like I\u2019m stuck in this loop of staring at my ears."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "You're feeling really stuck and self-conscious about your ears, and it's hard to shake off the feeling that others will notice and judge you. It sounds like you're trying to find a way to break free from this loop of negative thoughts, but it's not easy. I'm here to listen and support you, and I want to acknowledge how tough this must be for you."
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I keep checking my ears in the mirror like I'm on some self\u2011check. It feels like a loop I can't escape. I wish I could just ignore it, but the anxiety just pulls me back. Is there any way to break this cycle?"
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like you're feeling really trapped in this cycle of checking your ears and worrying about what others think. Would it be helpful to explore one small thing you could do this week to start breaking free from this loop, or would you rather talk more about what's been going on before we think about next steps?"
+          }
+        ],
+        "last_system_message": "It sounds like you're feeling really trapped in this cycle of checking your ears and worrying about what others think. Would it be helpful to explore one small thing you could do this week to start breaking free from this loop, or would you rather talk more about what's been going on before we think about next steps?",
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "current_ttm_stage": "preparation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            4
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "user sees their ear appearance as a significant issue",
+                  "concise_explanation": "user is 'stuck in this loop' of worrying about their ears",
+                  "supporting_utterance_span": "I feel like I\u2019m stuck in this loop of staring at my ears",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees their ear concerns as a significant issue affecting their daily life",
+                  "concise_explanation": "user feels 'stuck' and anxious about their ears",
+                  "supporting_utterance_span": "I feel like I'm stuck in this loop",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user sees their body image concerns as significant and impactful on their daily life",
+                  "concise_explanation": "user's anxiety and self-consciousness about their ears",
+                  "supporting_utterance_span": "I keep staring at my ears in the mirror",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "motivation": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user is motivated to break the cycle of negative thoughts and feel more confident",
+                  "concise_explanation": "user is seeking advice and wants to 'break this cycle'",
+                  "supporting_utterance_span": "Is there any way to break this cycle?",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 2,
+                  "inferred_information": "friend's comment and upcoming presentation trigger user's concerns",
+                  "concise_explanation": "friend's comment and presentation tomorrow mentioned as triggers",
+                  "supporting_utterance_span": "After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "friend's comment and upcoming presentation trigger user's anxiety about their ears",
+                  "concise_explanation": "friend's comment and presentation mentioned as sources of anxiety",
+                  "supporting_utterance_span": "After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow",
+                  "confidence": "medium"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "a comment from a friend triggered the user's body image concerns",
+                  "concise_explanation": "friend's comment about their ears",
+                  "supporting_utterance_span": "After my friend said they stick out",
+                  "confidence": "high"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": []
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T8",
+            "technique_label": "Change Talk"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "main_problem": "body_image_concerns"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be body_image_concerns. Their current TTM stage appears to be preparation. Because of this, the response should use T5 Ask Permission and T8 Change Talk. This technique is appropriate because the user is exploring options and seeking to break the cycle of negative thoughts. It should be applied by reflecting the user's feelings and concerns, using evidence such as their perceived_severity and motivation levels. The user also shows high motivation and perceived_severity levels. Because of this, the response should use T10 Action Planning. This technique should be applied by exploring small, manageable steps the user can take to build confidence. The user intent in this turn is to explore options. Because of this, the response should use T4 Open Question. Apply it by FIRST acknowledging the user's desire to talk more about their feelings, THEN guiding the conversation to explore their motivations and concerns. Overall, the response should try to improve the user's self-efficacy and awareness, while avoiding giving unsolicited advice or pivoting to unrelated topics.",
+        "response_reasoning": "I'll open with T1 Reflection of the user's feelings, then use T4 Open Question to explore their concerns. I'll drop T10 Action Planning for now, as the user isn't ready for a plan, and instead focus on understanding their motivations and concerns.",
+        "final_response": "It sounds like you're feeling overwhelmed and unsure about how to move forward. You're not sure you're ready for a plan, and that's okay. Can you tell me more about what's holding you back from feeling more confident about your appearance?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns"
+        ],
+        "user_intent": "explore_option",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their body image concerns as significant and impactful on their daily life, with no indication of a decrease in perceived severity.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their ear concerns as a significant issue affecting their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their body image concerns as significant and impactful on their daily life"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User remains in the preparation stage as they continue to acknowledge their body image concerns and their motivation to address them, but there is no new evidence of action or significant progress towards change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their ear concerns as a significant issue affecting their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user is motivated to break the cycle of negative thoughts and feel more confident"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their body image concerns as significant and impactful on their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "a comment from a friend triggered the user's body image concerns"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 5,
+      "user_message": "I just keep thinking everyone will notice my ears and that it's a flaw. I feel embarrassed talking about it, so I avoid it, but that only makes me more anxious. I don't know how to stop thinking about it.",
+      "inference": {
+        "user_intent": {
+          "intent": "vent",
+          "confidence": "high",
+          "explanation": "User is expressing feelings of embarrassment and anxiety about their body image concerns without asking for advice.",
+          "supporting_utterance_span": "I feel embarrassed talking about it, so I avoid it, but that only makes me more anxious"
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "user's concern about their ears being a flaw",
+            "supporting_utterance_span": "I just keep thinking everyone will notice my ears and that it's a flaw"
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "user's dominant concern is their body image issues, specifically their ears",
+          "supporting_utterance_span": "I just keep thinking everyone will notice my ears and that it's a flaw"
+        },
+        "problem_attribute_entries": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "attribute_type": "level",
+            "inferred_information": "user sees their ear shape as a significant flaw",
+            "concise_explanation": "user describes it as a 'flaw'",
+            "supporting_utterance_span": "I just keep thinking everyone will notice my ears and that it's a flaw",
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "triggers",
+            "attribute_type": "non_level",
+            "inferred_information": "social interactions, especially the presentation, trigger the user's body image concerns",
+            "concise_explanation": "presentation mentioned as a trigger in previous turns",
+            "supporting_utterance_span": null,
+            "confidence": "medium"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_barriers",
+            "attribute_type": "level",
+            "inferred_information": "user feels unable to stop thinking about their ears, indicating a high perceived barrier to change",
+            "concise_explanation": "user states 'I don't know how to stop thinking about it'",
+            "supporting_utterance_span": "I don't know how to stop thinking about it",
+            "confidence": "high"
+          }
+        ],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": []
+      },
+      "recompute": {
+        "attribute_level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their ear shape as a significant flaw, consistent with previous expressions of distress and impact on daily life.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their ear shape as a significant flaw"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their body image concerns as significant and impactful on their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their ear concerns as a significant issue affecting their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User feels unable to stop thinking about their ears, indicating a high perceived barrier to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels unable to stop thinking about their ears"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_stage_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User continues to acknowledge the problem and its impact, but there's no clear indication of progression to action or regression. The presence of high perceived barriers might be slowing progress, but the user's high motivation and acknowledgment of triggers suggest they are still preparing for change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels unable to stop thinking about their ears, indicating a high perceived barrier to change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "social interactions, especially the presentation, trigger the user's body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their body image concerns as significant and impactful on their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "a comment from a friend triggered the user's body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their ear shape as a significant flaw"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ]
+      },
+      "bundle": {
+        "persona": {
+          "demographics": null,
+          "personality_traits": [],
+          "core_values": [],
+          "core_beliefs": [],
+          "support_system": null,
+          "hobbies_interests": [],
+          "communication_style": null,
+          "relevant_history": null,
+          "general_behavioral_traits": []
+        },
+        "prior_session_summary": null,
+        "current_user_message": "I just keep thinking everyone will notice my ears and that it's a flaw. I feel embarrassed talking about it, so I avoid it, but that only makes me more anxious. I don't know how to stop thinking about it.",
+        "recent_turns": [
+          {
+            "role": "user",
+            "turn_id": 1,
+            "text": "I keep staring at my ears in the mirror. After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 1,
+            "text": "It sounds like your friend's comment really stuck with you, and now you're feeling self-conscious about your ears, especially with the presentation tomorrow. You're noticing yourself staring at them in the mirror and worrying that others might be looking too. What do you think would need to happen for you to feel more confident about your appearance?"
+          },
+          {
+            "role": "user",
+            "turn_id": 2,
+            "text": "I don\u2019t know if I can just ignore it. I keep thinking people will notice and judge, especially at the presentation tomorrow. Maybe if I could just pretend I don\u2019t care, but I can\u2019t. I feel like I\u2019m stuck in this loop of staring at my ears."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 2,
+            "text": "You're feeling really stuck and self-conscious about your ears, and it's hard to shake off the feeling that others will notice and judge you. It sounds like you're trying to find a way to break free from this loop of negative thoughts, but it's not easy. I'm here to listen and support you, and I want to acknowledge how tough this must be for you."
+          },
+          {
+            "role": "user",
+            "turn_id": 3,
+            "text": "I keep checking my ears in the mirror like I'm on some self\u2011check. It feels like a loop I can't escape. I wish I could just ignore it, but the anxiety just pulls me back. Is there any way to break this cycle?"
+          },
+          {
+            "role": "assistant",
+            "turn_id": 3,
+            "text": "It sounds like you're feeling really trapped in this cycle of checking your ears and worrying about what others think. Would it be helpful to explore one small thing you could do this week to start breaking free from this loop, or would you rather talk more about what's been going on before we think about next steps?"
+          },
+          {
+            "role": "user",
+            "turn_id": 4,
+            "text": "I\u2019m not sure I\u2019m ready for a plan right now\u2014maybe we could just talk more about how this is feeling before I try to do anything."
+          },
+          {
+            "role": "assistant",
+            "turn_id": 4,
+            "text": "It sounds like you're feeling overwhelmed and unsure about how to move forward. You're not sure you're ready for a plan, and that's okay. Can you tell me more about what's holding you back from feeling more confident about your appearance?"
+          }
+        ],
+        "last_system_message": "It sounds like you're feeling overwhelmed and unsure about how to move forward. You're not sure you're ready for a plan, and that's okay. Can you tell me more about what's holding you back from feeling more confident about your appearance?",
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "current_ttm_stage": "preparation",
+          "goal": null,
+          "first_mentioned": [
+            1,
+            1
+          ],
+          "last_mentioned": [
+            1,
+            5
+          ],
+          "level_attributes": {
+            "perceived_severity": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user sees their ear concerns as a significant issue affecting their daily life",
+                  "concise_explanation": "user feels 'stuck' and anxious about their ears",
+                  "supporting_utterance_span": "I feel like I'm stuck in this loop",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "user sees their body image concerns as significant and impactful on their daily life",
+                  "concise_explanation": "user's anxiety and self-consciousness about their ears",
+                  "supporting_utterance_span": "I keep staring at my ears in the mirror",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user sees their ear shape as a significant flaw",
+                  "concise_explanation": "user describes it as a 'flaw'",
+                  "supporting_utterance_span": "I just keep thinking everyone will notice my ears and that it's a flaw",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "motivation": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "user is motivated to break the cycle of negative thoughts and feel more confident",
+                  "concise_explanation": "user is seeking advice and wants to 'break this cycle'",
+                  "supporting_utterance_span": "Is there any way to break this cycle?",
+                  "confidence": "high"
+                }
+              ]
+            },
+            "perceived_barriers": {
+              "current_level": "high",
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "user feels unable to stop thinking about their ears, indicating a high perceived barrier to change",
+                  "concise_explanation": "user states 'I don't know how to stop thinking about it'",
+                  "supporting_utterance_span": "I don't know how to stop thinking about it",
+                  "confidence": "high"
+                }
+              ]
+            }
+          },
+          "non_level_attributes": {
+            "triggers": {
+              "recent_evidence": [
+                {
+                  "session_id": 1,
+                  "turn_id": 3,
+                  "inferred_information": "friend's comment and upcoming presentation trigger user's anxiety about their ears",
+                  "concise_explanation": "friend's comment and presentation mentioned as sources of anxiety",
+                  "supporting_utterance_span": "After my friend said they stick out, I feel like everyone\u2019s looking at them\u2014especially with the presentation tomorrow",
+                  "confidence": "medium"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 4,
+                  "inferred_information": "a comment from a friend triggered the user's body image concerns",
+                  "concise_explanation": "friend's comment about their ears",
+                  "supporting_utterance_span": "After my friend said they stick out",
+                  "confidence": "high"
+                },
+                {
+                  "session_id": 1,
+                  "turn_id": 5,
+                  "inferred_information": "social interactions, especially the presentation, trigger the user's body image concerns",
+                  "concise_explanation": "presentation mentioned as a trigger in previous turns",
+                  "supporting_utterance_span": null,
+                  "confidence": "medium"
+                }
+              ]
+            }
+          }
+        },
+        "relevant_problems": []
+      },
+      "three_sources": {
+        "from_user_intent": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          }
+        ],
+        "from_ttm_stage": [
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          }
+        ],
+        "from_attribute_levels": [
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "union": [
+          {
+            "technique_id": "T1",
+            "technique_label": "Reflection"
+          },
+          {
+            "technique_id": "T2",
+            "technique_label": "Affirmation"
+          },
+          {
+            "technique_id": "T4",
+            "technique_label": "Open Question"
+          },
+          {
+            "technique_id": "T5",
+            "technique_label": "Ask Permission"
+          },
+          {
+            "technique_id": "T6",
+            "technique_label": "Options Menu"
+          },
+          {
+            "technique_id": "T10",
+            "technique_label": "Action Planning"
+          },
+          {
+            "technique_id": "T11",
+            "technique_label": "Coping/Relapse Plan"
+          }
+        ],
+        "main_problem": "body_image_concerns"
+      },
+      "response": {
+        "system_intent": "The user's main problem appears to be body_image_concerns, specifically their concerns about their ears. Their current TTM stage appears to be preparation, but they are struggling to move forward due to high perceived barriers and anxiety. Because of this, the response should use T1 Reflection to acknowledge the user's feelings and concerns, and T4 Open Question to invite the user to elaborate on their thoughts and feelings. This technique is appropriate because the user is venting and needs to feel heard and understood before they can start thinking about making changes. It should be applied by reflecting the user's content and feeling, using evidence such as their statements about feeling embarrassed and anxious, and their difficulty in stopping thinking about their ears. The user also shows high motivation, but this is currently being overshadowed by their perceived barriers and anxiety. Because of this, the response should use T2 Affirmation to acknowledge the user's motivation and strengths, and to help them feel more confident and empowered. The user intent in this turn is to vent, and the response should prioritize acknowledging and reflecting their feelings before guiding the turn. Overall, the response should try to improve the user's emotional regulation and awareness, while avoiding giving unsolicited advice or trying to fix the problem too quickly.",
+        "response_reasoning": "I'll use T1 Reflection to acknowledge the user's feelings and concerns, and then use T4 Open Question to invite the user to elaborate on their thoughts and feelings. I'll focus on reflecting the user's content and feeling, and avoid giving advice or trying to fix the problem too quickly. I'll also try to acknowledge the user's motivation and strengths, using T2 Affirmation, to help them feel more confident and empowered.",
+        "final_response": "It sounds like you're feeling really self-conscious about your ears, and it's hard for you to stop thinking about them. You're feeling embarrassed and anxious, and it's making it difficult for you to talk about it. Can you tell me more about what's going through your mind when you think about your ears?"
+      },
+      "trace": {
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns"
+        ],
+        "user_intent": "vent",
+        "turn_scope_level_attrs": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_barriers"
+          }
+        ],
+        "level_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_severity",
+            "old_level": "high",
+            "new_level": "high",
+            "reasoning": "User continues to describe their ear shape as a significant flaw, consistent with previous expressions of distress and impact on daily life.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their ear shape as a significant flaw"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their body image concerns as significant and impactful on their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 3,
+                "summary": "user sees their ear concerns as a significant issue affecting their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 2,
+                "summary": "user sees their ear appearance as a significant issue"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 1,
+                "summary": "user is significantly distressed by their ear appearance"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "problem_name": "body_image_concerns",
+            "attribute_name": "perceived_barriers",
+            "old_level": "unknown",
+            "new_level": "high",
+            "reasoning": "User feels unable to stop thinking about their ears, indicating a high perceived barrier to change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels unable to stop thinking about their ears"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "ttm_updates": [
+          {
+            "problem_name": "body_image_concerns",
+            "old_ttm_stage": "preparation",
+            "new_ttm_stage": "preparation",
+            "reasoning": "User continues to acknowledge the problem and its impact, but there's no clear indication of progression to action or regression. The presence of high perceived barriers might be slowing progress, but the user's high motivation and acknowledgment of triggers suggest they are still preparing for change.",
+            "evidence_used": [
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user feels unable to stop thinking about their ears, indicating a high perceived barrier to change"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "social interactions, especially the presentation, trigger the user's body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "user sees their body image concerns as significant and impactful on their daily life"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 4,
+                "summary": "a comment from a friend triggered the user's body image concerns"
+              },
+              {
+                "session_id": 1,
+                "turn_id": 5,
+                "summary": "user sees their ear shape as a significant flaw"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "cooc_added": 0,
+        "attr_conn_added": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "profile_id": "P30",
+  "system": "v6",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": {
+    "arc_summary": [
+      {
+        "session_id": 1,
+        "summary": "The user described mounting financial stress from debt, an unexpected repair cost, and caregiving responsibilities. They expressed feeling overwhelmed and drowning in debt, acknowledging the problem but remaining ambivalent about taking action. The conversation shifted from pure venting to openness about exploring small, manageable steps to regain control."
+      }
+    ],
+    "per_problem_trajectories": [
+      {
+        "problem_name": "financial_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "preparation",
+            "notes": "User acknowledges debt and expresses willingness to consider small steps."
+          }
+        ]
+      },
+      {
+        "problem_name": "caregiver_stress",
+        "trajectory": [
+          {
+            "session_id": 1,
+            "session_start_stage": "contemplation",
+            "session_end_stage": "preparation",
+            "notes": "User acknowledges caregiving demands and shows openness to exploring solutions."
+          }
+        ]
+      }
+    ],
+    "turn_labels": [
+      {
+        "session_id": 1,
+        "turn_id": 1,
+        "active_problems": [
+          "financial_stress",
+          "caregiver_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 2,
+        "active_problems": [
+          "financial_stress",
+          "caregiver_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 3,
+        "active_problems": [
+          "financial_stress",
+          "caregiver_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "contemplation"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "contemplation"
+          }
+        ],
+        "next_turn_intent": "vent"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 4,
+        "active_problems": [
+          "financial_stress",
+          "caregiver_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "preparation"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "preparation"
+          }
+        ],
+        "next_turn_intent": "explore_option"
+      },
+      {
+        "session_id": 1,
+        "turn_id": 5,
+        "active_problems": [
+          "financial_stress",
+          "caregiver_stress"
+        ],
+        "per_problem_ttm_stages": [
+          {
+            "problem_name": "financial_stress",
+            "ttm_stage": "preparation"
+          },
+          {
+            "problem_name": "caregiver_stress",
+            "ttm_stage": "preparation"
+          }
+        ],
+        "next_turn_intent": "other"
+      }
+    ]
+  },
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like the unexpected repair cost has added to your already significant financial worries, making you feel like you're drowning in debt."
+              },
+              {
+                "turn_id": 3,
+                "excerpt": "It sounds like the debt is feeling suffocating and you're desperate for a way out."
+              }
+            ],
+            "reasoning": "The assistant consistently named the user\u2019s feelings (drowning, suffocating) and validated them in multiple turns.",
+            "score": 5
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like the unexpected repair cost has added to your already significant financial worries, making you feel like you're drowning in debt."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like the weight of debt, combined with the added stress of caregiving and work, is feeling crushing right now."
+              }
+            ],
+            "reasoning": "The assistant tracked specific details\u2014repair cost, debt, caregiving, work\u2014and referenced them in its responses, showing a clear grasp of the situation.",
+            "score": 5
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "Would it be helpful to explore some small, manageable steps you could take to start feeling more in control of your finances?"
+              },
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be okay if we explored one small, manageable step you could take this week to start feeling more in control of your finances?"
+              }
+            ],
+            "reasoning": "The assistant offered concrete next\u2011step options, encouraging the user to consider specific actions rather than just venting.",
+            "score": 4
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be okay if we explored one small, manageable step you could take this week to start feeling more in control of your finances?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be okay if we explored one small, manageable step you could take this week to start feeling more in control of your finances?"
+              }
+            ],
+            "reasoning": "The assistant repeatedly asked for permission before suggesting actions, respecting the user\u2019s agency.",
+            "score": 5
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "It sounds like the unexpected repair cost has added to your already significant financial worries, making you feel like you're drowning in debt."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "It sounds like the weight of debt, combined with the added stress of caregiving and work, is feeling crushing right now."
+              }
+            ],
+            "reasoning": "The assistant consistently used neutral, validating language without any judgment or blame.",
+            "score": 5
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 4,
+                "excerpt": "Would it be okay if we explored one small, manageable step you could take this week to start feeling more in control of your finances?"
+              },
+              {
+                "turn_id": 5,
+                "excerpt": "Would it be okay if we explored one small, manageable step you could take this week to start feeling more in control of your finances?"
+              }
+            ],
+            "reasoning": "The user\u2019s openness to small steps and the assistant\u2019s respectful approach suggest a high likelihood of continued engagement.",
+            "score": 5
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}
