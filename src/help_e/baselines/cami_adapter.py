@@ -14,7 +14,7 @@ from typing import Any, Optional
 
 from .. import config
 from ..graph_v6 import ProblemGraphV6
-from ..session_driver import load_profile
+from ..profile_spec import load_profile
 
 
 DEFAULT_CAMI_MODEL = "meta-llama/Llama-3.3-70B-Instruct"

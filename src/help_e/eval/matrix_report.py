@@ -228,7 +228,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     p.add_argument("--profiles", nargs="*",
                    help="restrict to these profile ids (default: all profiles with data on disk)")
     p.add_argument("--system", default="v6",
-                   help="which ablation system to report on (v1, v3, or v6). default: v6")
+                   help="which system to report on (v1, v3, v6, or cami). default: v6")
     p.add_argument("--json", action="store_true", help="emit JSON (no pretty-print)")
     args = p.parse_args(argv)
 

@@ -70,8 +70,29 @@ class ProfileSpec:
 class RunConfig:
     sessions_per_profile: int = 4
     turns_per_session: int = 10
+    turns_by_session: Optional[list[int]] = None
     last_n_turns: int = config.LAST_N_TURNS
     run_judge_inline: bool = False  # legacy hook; v6 judges fire per-session
+
+    def __post_init__(self) -> None:
+        if self.turns_by_session is None:
+            return
+        if len(self.turns_by_session) != self.sessions_per_profile:
+            raise ValueError(
+                "turns_by_session length must equal sessions_per_profile "
+                f"({len(self.turns_by_session)} != {self.sessions_per_profile})"
+            )
+        for idx, turns in enumerate(self.turns_by_session, start=1):
+            if not isinstance(turns, int) or turns <= 0:
+                raise ValueError(
+                    "turns_by_session values must be positive integers; "
+                    f"session {idx} got {turns!r}"
+                )
+
+    def turns_for_session(self, session_id: int) -> int:
+        if self.turns_by_session is None:
+            return self.turns_per_session
+        return self.turns_by_session[session_id - 1]
 
 
 def load_profile(profile_id: str) -> ProfileSpec:

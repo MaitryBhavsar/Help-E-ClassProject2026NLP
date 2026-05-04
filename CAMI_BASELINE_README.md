@@ -1,6 +1,7 @@
-# Running CAMI as a Counselor Baseline
+# Running CAMI as a Baseline Counselor
 
-This guide explains how to run CAMI as the counselor policy for comparison
+This guide explains how to generate baseline comparison results with CAMI as
+the counselor policy. CAMI is treated as an external baseline and compared
 against HELP-E systems such as `v1`, `v3`, and `v6`.
 
 CAMI is integrated through:
@@ -15,34 +16,56 @@ CAMI is integrated through:
 
 In this setup, CAMI only replaces the counselor response policy. HELP-E still
 owns the simulated client, session loop, transcript persistence, graph snapshot
-layout, and evaluation sidecars.
+layout, MITI judge, ESC judge, and result aggregation.
 
-## Important: Current Repo State
+## Quick Start
 
-Before running CAMI, clean the committed merge-conflict markers in:
-
-- `src/help_e/run.py`
-- `src/help_e/session_driver.py`
-
-Check for unresolved markers:
+From the repository root:
 
 ```powershell
-rg -n "<<<<<<<|=======|>>>>>>>" src/help_e/run.py src/help_e/session_driver.py
+.\.venv\Scripts\Activate.ps1
+$env:PYTHONPATH = "$PWD\src;$env:PYTHONPATH"
+
+python -m help_e.run --system cami --profile P01 --sessions 1 --turns 3 --max-parallel-profiles 1
+python -m help_e.eval.matrix_report --system cami
 ```
 
-The current checkout fails Python parsing until those markers are resolved.
-After cleanup, verify:
+For a full paired comparison:
 
 ```powershell
-python -m py_compile src/help_e/run.py src/help_e/session_driver.py
+foreach ($sys in @("v1", "v3", "v6", "cami")) {
+    python -m help_e.run --system $sys --all-profiles --sessions 4 --turns 10 --max-parallel-profiles 4
+}
+
+python -m help_e.eval.ablation_report --systems v1 v3 v6 cami --baseline v6
 ```
 
-For CAMI runs, the intended active systems list should include `cami`, for
-example:
+## Preflight Checks
 
-```python
-SYSTEMS: tuple[str, ...] = ("v1", "v3", "v6", "cami")
+Verify that the CLI exposes CAMI:
+
+```powershell
+python -m help_e.run --help
 ```
+
+You should see:
+
+```text
+--system {v1,v3,v6,cami}
+```
+
+Then compile the files used by the CAMI batch path:
+
+```powershell
+python -m py_compile `
+  src/help_e/run.py `
+  src/help_e/profile_spec.py `
+  src/help_e/session_driver_v6.py `
+  src/help_e/baselines/cami_adapter.py
+```
+
+Note: `src/help_e/session_driver.py` is a legacy/UI shim and is not required by
+the CAMI batch run path.
 
 ## 1. Install Dependencies
 
@@ -74,9 +97,8 @@ export PYTHONPATH="$PWD/src:$PYTHONPATH"
 
 HELP-E and CAMI use different environment variable names.
 
-HELP-E uses `HELPE_*` variables for the simulator, judges, and internal
-pipeline. CAMI uses the OpenAI SDK variables `OPENAI_API_KEY` and
-`OPENAI_BASE_URL`.
+HELP-E uses `HELPE_*` variables for the simulator and judges. CAMI uses the
+OpenAI SDK variables `OPENAI_API_KEY` and `OPENAI_BASE_URL`.
 
 For a local OpenAI-compatible vLLM server:
 
@@ -119,6 +141,12 @@ CAMI's adapter chooses its counselor model from:
 
 So for a fair comparison, set `HELPE_MAIN_MODEL` to the same model you want
 CAMI to use.
+
+Check the HELP-E endpoints:
+
+```powershell
+python scripts/check_endpoints.py
+```
 
 ## 3. Confirm CAMI Can Be Imported
 
@@ -163,7 +191,13 @@ python -m help_e.run --system cami --profile P01 --sessions 4 --turns 10 --max-p
 CAMI keeps an in-memory counselor object per `(profile_id, session_id)`, so a
 single session preserves CAMI's internal conversation state across turns.
 
-## 5. Run Baseline Comparisons
+Generate CAMI-only summary metrics for that profile:
+
+```powershell
+python -m help_e.eval.matrix_report --system cami --profiles P01
+```
+
+## 5. Generate Baseline Comparison Results
 
 Run the same profile across HELP-E baselines plus CAMI:
 
@@ -173,12 +207,33 @@ foreach ($sys in @("v1", "v3", "v6", "cami")) {
 }
 ```
 
+Then aggregate the paired comparison:
+
+```powershell
+python -m help_e.eval.ablation_report --systems v1 v3 v6 cami --baseline v6
+```
+
 Run all profiles:
 
 ```powershell
 foreach ($sys in @("v1", "v3", "v6", "cami")) {
     python -m help_e.run --system $sys --all-profiles --sessions 4 --turns 10 --max-parallel-profiles 4
 }
+```
+
+Then generate the final table:
+
+```powershell
+python -m help_e.eval.ablation_report --systems v1 v3 v6 cami --baseline v6
+```
+
+Optional per-system reports:
+
+```powershell
+python -m help_e.eval.matrix_report --system v1
+python -m help_e.eval.matrix_report --system v3
+python -m help_e.eval.matrix_report --system v6
+python -m help_e.eval.matrix_report --system cami
 ```
 
 For an initial debugging pass, keep `--max-parallel-profiles 1`. CAMI makes
@@ -234,21 +289,33 @@ explicitly:
 
 ## 7. Aggregate Results
 
-After generating transcripts for multiple systems:
+CAMI-only results:
 
 ```powershell
-python -m help_e.eval.matrix_report
-python -m help_e.eval.ablation_report
+python -m help_e.eval.matrix_report --system cami
 ```
 
-Those reports should pick up `cami` outputs if they are present under
-`src/help_e/transcripts/<PROFILE_ID>/cami/`.
+Paired baseline comparison across systems:
+
+```powershell
+python -m help_e.eval.ablation_report --systems v1 v3 v6 cami --baseline v6
+```
+
+JSON output for saving or downstream analysis:
+
+```powershell
+python -m help_e.eval.matrix_report --system cami --json > cami_matrix.json
+python -m help_e.eval.ablation_report --systems v1 v3 v6 cami --baseline v6 --json > cami_ablation.json
+```
+
+The ablation report only includes profiles that have artifacts for all systems
+listed in `--systems`, so missing one system for `P07`, for example, drops
+`P07` from the paired table.
 
 ## 8. Troubleshooting
 
 If `python -m help_e.run --system cami ...` says `invalid choice: cami`, check
-that `SYSTEMS` in `src/help_e/run.py` includes `"cami"` and that conflict
-markers were removed.
+that `SYSTEMS` in `src/help_e/run.py` includes `"cami"`.
 
 If imports fail with `No module named agents`, verify:
 
