@@ -27,6 +27,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from .. import config
+from ..baselines.cami_adapter import cami_turn_fn
 from ..baselines.v1_history import v1_turn_fn
 from ..baselines.v3_ttm_from_summary import v3_turn_fn
 from ..baselines.v6_full import v6_turn_fn
@@ -70,6 +71,12 @@ SYSTEMS: dict[str, Any] = {
         "label": "v6 — redesigned MI/HBM/TTM with full graph",
         "turn_fn": v6_turn_fn,
         "description": "MISC-aligned MI moves, HBM attributes inside problem nodes, typed problem-problem edges, session-context simulator framing. Cold-start: no pre-seeding.",
+        "variant": "v6",
+    },
+    "cami": {
+        "label": "CAMI — STAR-framework MI counselor baseline",
+        "turn_fn": cami_turn_fn,
+        "description": "Single-problem CAMI counselor integrated into HELP-E evaluator.",
         "variant": "v6",
     },
 }
@@ -383,11 +390,12 @@ async def _run_turn_v6(state: ConversationState, user_message: str,
     })
 
     client = get_client()
+    turn_fn = SYSTEMS[state.system]["turn_fn"]
     recent_turns = state.transcript[-(config.LAST_N_TURNS * 2):-1]
 
     t0 = time.monotonic()
     def _call() -> dict:
-        return v6_turn_fn(
+        return turn_fn(
             client=client,
             profile_id=state.profile_id,
             system=state.system,

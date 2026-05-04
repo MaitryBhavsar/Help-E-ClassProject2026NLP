@@ -31,12 +31,20 @@ from .session_driver_v6 import RunArtifactsV6, run_profile_v6
 log = logging.getLogger(__name__)
 
 
+<<<<<<< HEAD
 # Active ablation set: v1 (history-only floor), v3 (per-problem text
 # summary + TTM-from-summary), v4 (v3 + free-form cross-problem
 # connections), v6 (full HBM attribute graph + HBM-typed connections).
 # v2/v5 retired — v3 subsumes v2's per-problem summaries (with TTM on
 # top), and v6's response prompt subsumes v5's merged-CoT design.
 SYSTEMS: tuple[str, ...] = ("v1", "v3", "v4", "v6")
+=======
+# Active ablation set after the v6 redesign. v2/v4/v5 were retired —
+# v3 cleanly subsumes v2's per-problem summaries (it adds TTM on top),
+# and v6 supersedes v4/v5's graph-based pipeline. v1 stays as the
+# floor baseline (history-only, ~1 LLM call/turn).
+SYSTEMS: tuple[str, ...] = ("v1", "v3", "v6", "cami")
+>>>>>>> 657e5d5 (Add CAMI integration + v6 session updates + LLM routing support)
 
 
 def _pick_turn_fn_v6_aligned(system: str):
@@ -59,11 +67,32 @@ def _pick_turn_fn_v6_aligned(system: str):
     if system == "v6":
         from .baselines.v6_full import v6_turn_fn
         return v6_turn_fn
+    if system == "cami":
+        from .baselines.cami_adapter import cami_turn_fn
+        return cami_turn_fn
     raise ValueError(f"unknown system {system!r}; expected one of {SYSTEMS}")
 
 
+<<<<<<< HEAD
 # Legacy v1–v5 dispatcher removed in the cleanup pass. All active
 # systems route through `_pick_turn_fn_v6_aligned`.
+=======
+# Legacy v1–v5 dispatcher — kept for any external callers that still
+# import it. The active matrix uses `_pick_turn_fn_v6_aligned`.
+def _pick_turn_fn(system: str) -> TurnFn | None:  # noqa: D401
+    if system == "v1":
+        from .baselines.v1_history import v1_turn_fn
+        return v1_turn_fn
+    if system == "v3":
+        from .baselines.v3_ttm_from_summary import v3_turn_fn
+        return v3_turn_fn
+    if system == "v6":
+        return None
+    if system == "cami":
+        from .baselines.cami_adapter import cami_turn_fn
+        return cami_turn_fn
+    raise ValueError(f"unknown system {system!r}; expected one of {SYSTEMS}")
+>>>>>>> 657e5d5 (Add CAMI integration + v6 session updates + LLM routing support)
 
 
 def _resolve_profiles(args: argparse.Namespace) -> list[ProfileSpec]:
@@ -89,6 +118,7 @@ def _parse_args(argv: list[str]) -> argparse.Namespace:
     p.add_argument("--all-profiles", action="store_true")
     p.add_argument("--sessions", type=int, default=4)
     p.add_argument("--turns", type=int, default=10)
+    p.add_argument("--turns-by-session", type=str, default=None)
     p.add_argument("--run-judge", action="store_true",
                    help="run E1 judge inline after the run (default: off).")
     p.add_argument("--log-level", default="INFO",
@@ -105,6 +135,42 @@ def _parse_args(argv: list[str]) -> argparse.Namespace:
         ),
     )
     return p.parse_args(argv)
+
+
+def _parse_turns_by_session(raw: str | None, sessions: int) -> list[int] | None:
+    if raw is None:
+        return None
+    if not raw.strip():
+        raise ValueError("--turns-by-session must not be empty")
+
+    values: list[int] = []
+    for idx, part in enumerate(raw.split(","), start=1):
+        text = part.strip()
+        if not text:
+            raise ValueError(
+                "--turns-by-session must be a comma-separated list of "
+                f"positive integers; item {idx} is empty"
+            )
+        try:
+            turns = int(text)
+        except ValueError as exc:
+            raise ValueError(
+                "--turns-by-session must be a comma-separated list of "
+                f"positive integers; item {idx} got {text!r}"
+            ) from exc
+        if turns <= 0:
+            raise ValueError(
+                "--turns-by-session values must be positive integers; "
+                f"session {idx} got {turns}"
+            )
+        values.append(turns)
+
+    if len(values) != sessions:
+        raise ValueError(
+            "--turns-by-session length must equal --sessions "
+            f"({len(values)} != {sessions})"
+        )
+    return values
 
 
 def _run_one(
@@ -124,12 +190,27 @@ def _run_one(
             "--run-judge is a no-op under v6 redesign — the session-level "
             "MITI judge runs automatically at session end."
         )
+<<<<<<< HEAD
     if system not in SYSTEMS:
         raise ValueError(f"unknown system {system!r}; expected one of {SYSTEMS}")
     v6_turn_fn = _pick_turn_fn_v6_aligned(system)
     return run_profile_v6(
         profile=profile, run_cfg=run_cfg, client=client,
         system=system, turn_fn=v6_turn_fn,
+=======
+    if system in ("v1", "v3", "v6", "cami"):
+        v6_turn_fn = _pick_turn_fn_v6_aligned(system)
+        return run_profile_v6(
+            profile=profile, run_cfg=run_cfg, client=client,
+            system=system, turn_fn=v6_turn_fn,
+        )
+    # Legacy v1-v5 path (no longer used by the active matrix; retained
+    # for any external caller that still constructs a `system` string
+    # outside the ('v1','v3','v6') trio).
+    return run_profile(
+        profile=profile, system=system, run_cfg=run_cfg,
+        client=client, turn_fn=turn_fn,
+>>>>>>> 657e5d5 (Add CAMI integration + v6 session updates + LLM routing support)
     )
 
 
@@ -140,16 +221,25 @@ def main(argv: list[str] | None = None) -> int:
         format="%(asctime)s %(name)s %(levelname)s %(message)s",
     )
     profiles = _resolve_profiles(args)
+<<<<<<< HEAD
+=======
+    turn_fn = _pick_turn_fn(args.system)
+    turns_by_session = _parse_turns_by_session(
+        args.turns_by_session, args.sessions,
+    )
+>>>>>>> 657e5d5 (Add CAMI integration + v6 session updates + LLM routing support)
     run_cfg = RunConfig(
         sessions_per_profile=args.sessions,
         turns_per_session=args.turns,
+        turns_by_session=turns_by_session,
         run_judge_inline=args.run_judge,
     )
 
     parallelism = max(1, min(args.max_parallel_profiles, len(profiles)))
     log.info(
-        "starting run: system=%s profiles=%d sessions=%d turns=%d parallel=%d",
-        args.system, len(profiles), args.sessions, args.turns, parallelism,
+        "starting run: system=%s profiles=%d sessions=%d turns=%s parallel=%d",
+        args.system, len(profiles), args.sessions,
+        turns_by_session or args.turns, parallelism,
     )
 
     errors: list[tuple[str, Exception]] = []

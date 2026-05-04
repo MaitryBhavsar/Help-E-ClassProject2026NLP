@@ -281,7 +281,8 @@ def _run_session_v6(
 
     # 2. Per-turn loop.
     last_system_message: Optional[str] = None
-    for turn_id in range(1, run_cfg.turns_per_session + 1):
+    turns_this_session = run_cfg.turns_for_session(session_id)
+    for turn_id in range(1, turns_this_session + 1):
         # Window the transcript for the per-turn prompts. Keep it
         # modest — mind1_v6 enforces J=20 internally, recent_turns is
         # intended to be a smaller window for the response prompt.

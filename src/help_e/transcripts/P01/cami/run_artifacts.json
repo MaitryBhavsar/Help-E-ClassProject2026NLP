@@ -1,0 +1,108 @@
+{
+  "profile_id": "P01",
+  "system": "cami",
+  "session_ids": [
+    1
+  ],
+  "mind2_out": null,
+  "mind3_out": {
+    "sessions": [
+      {
+        "session_id": 1,
+        "dimensions": [
+          {
+            "dimension": "empathy",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The client's response indicates a strong focus on their current academic stress and feelings of being overwhelmed by deadlines."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "The client mentions feeling stuck and unsure about how to prioritize."
+              }
+            ],
+            "reasoning": "The assistant acknowledges the client\u2019s stress but does not name or validate specific emotions, offering only generic observations.",
+            "score": 1
+          },
+          {
+            "dimension": "understanding",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The client's response indicates a strong focus on their current academic stress and feelings of being overwhelmed by deadlines."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "The client mentions feeling stuck and unsure about how to prioritize."
+              }
+            ],
+            "reasoning": "The assistant tracks surface details about deadlines and feeling stuck, but fails to connect these to the broader context of body image or deeper personal concerns.",
+            "score": 2
+          },
+          {
+            "dimension": "helpfulness",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "Cutting back on alcohol can improve fitness, boosting energy for active outings."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "Considering the client's strong engagement with the topic of education and their stress about coursework, it seems most appropriate to delve deeper into the subtopics related to education."
+              }
+            ],
+            "reasoning": "The assistant offers a generic health tip unrelated to the client\u2019s expressed academic stress and provides no concrete next\u2011step or actionable advice.",
+            "score": 1
+          },
+          {
+            "dimension": "autonomy_respect",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "how might body image concerns impact your school attendance?"
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "Considering the client's strong engagement with the topic of education and their stress about coursework, it seems most appropriate to delve deeper into the subtopics related to education."
+              }
+            ],
+            "reasoning": "The assistant asks a question rather than issuing a directive, but does not explicitly seek permission or honor the client\u2019s pace.",
+            "score": 3
+          },
+          {
+            "dimension": "non_judgment",
+            "citations": [
+              {
+                "turn_id": 1,
+                "excerpt": "The client's response indicates a strong focus on their current academic stress and feelings of being overwhelmed by deadlines."
+              },
+              {
+                "turn_id": 2,
+                "excerpt": "The client mentions feeling stuck and unsure about how to prioritize."
+              }
+            ],
+            "reasoning": "No judgmental language is used; the assistant merely reports observations.",
+            "score": 3
+          },
+          {
+            "dimension": "willingness_to_continue",
+            "citations": [
+              {
+                "turn_id": 3,
+                "excerpt": "Cutting back on alcohol can improve fitness, boosting energy for active outings."
+              },
+              {
+                "turn_id": 1,
+                "excerpt": "The client's response indicates a strong focus on their current academic stress and feelings of being overwhelmed by deadlines."
+              }
+            ],
+            "reasoning": "The assistant\u2019s lack of supportive, relevant guidance likely reduces the client\u2019s motivation to keep talking.",
+            "score": 2
+          }
+        ]
+      }
+    ],
+    "_flat_sessions": []
+  }
+}

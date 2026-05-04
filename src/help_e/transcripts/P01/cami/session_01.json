@@ -1,0 +1,274 @@
+{
+  "session_id": 1,
+  "session_summary": "",
+  "stage_transitions": [],
+  "persona_updates": [],
+  "transcript": [
+    {
+      "role": "user",
+      "turn_id": 1,
+      "text": "The coursework this semester feels like a wall I\u2019m trying to climb\u2014each deadline looms bigger, and I\u2019m not sure I can keep up without burning out."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 1,
+      "text": "|| Final Strategy: Open Question || Topic: Education || Exploration Action: Switch || Exploration: Based on the client's response, the topic that is most likely to engage the client and help them recognize the benefits of achieving the counseling goal or the potential risks of continuing their behavior is **Education**.\n\nThe client mentions \"coursework this semester\" and feeling overwhelmed by deadlines, indicating that their body image concerns may be intertwined with academic pressures. This suggests that exploring how body image concerns affect their educational progress and overall success could be a motivating factor for change.\n\nAdditionally, **Interpersonal Relationships** might also be a relevant topic, as the client's body image concerns could potentially impact their relationships with peers or instructors in an academic setting. However, this is not explicitly mentioned in the client's response.\n\nThe other topics, such as **Health**, **] Counselor: How do you think managing coursework stress could impact your overall well-being?"
+    },
+    {
+      "role": "user",
+      "turn_id": 2,
+      "text": "The deadlines keep stacking up, and I keep wondering if I can keep going without burning out. I feel stuck, like I\u2019m juggling too much and not sure how to prioritize."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 2,
+      "text": "|| Final Strategy: Raise Concern || Topic: Education || Exploration Action: Stay || Exploration: The client's response indicates a strong focus on their current academic stress and feelings of being overwhelmed by deadlines. While the counseling goal is centered around body image concerns, the client's immediate engagement is with the pressures of their educational environment. The client mentions feeling stuck and unsure about how to prioritize, which suggests a significant level of distress related to their academic situation. However, there's no direct mention or indication of how this stress affects their body image or overall well-being in a way that connects to the counseling goal. Given this, it seems the client is more presently concerned with their academic challenges than exploring topics directly related to body image.   Considering the client's strong engagement with the topic of education and their stress about coursework, but acknowledging the need to eventually] Counselor: Cutting back on alcohol can improve fitness, boosting energy for active outings."
+    },
+    {
+      "role": "user",
+      "turn_id": 3,
+      "text": "I hear you, but honestly I\u2019m just stuck in this cycle of deadlines. I\u2019m not sure how to get a break or a clear path forward, and it feels more like a wall than a challenge I can climb."
+    },
+    {
+      "role": "assistant",
+      "turn_id": 3,
+      "text": "|| Final Strategy: Raise Concern || Topic: Student Affairs || Exploration Action: Step Into || Exploration: The client's response indicates a strong focus on their current academic challenges and feelings of being overwhelmed by deadlines. They express a sense of being stuck and unsure about how to move forward, which suggests that their immediate concerns are centered around their educational pressures rather than their body image concerns or other potential topics like health or interpersonal relationships. The client's engagement with the topic of education, specifically their struggles with coursework and deadlines, shows a clear interest in discussing academic-related stress. Given this, it seems most appropriate to delve deeper into the subtopics related to education to better understand the client's situation and how it might be impacting their body image concerns or overall well-being. Based on this analysis, I would recommend to **Step Into** the topic of **Student Affairs] Counselor: Cutting back on alcohol can boost energy, but how might body image concerns impact your school attendance?"
+    }
+  ],
+  "turn_traces": [
+    {
+      "session_id": 1,
+      "turn_id": 1,
+      "user_message": "The coursework this semester feels like a wall I\u2019m trying to climb\u2014each deadline looms bigger, and I\u2019m not sure I can keep up without burning out.",
+      "inference": {
+        "user_intent": {
+          "intent": "small_talk",
+          "confidence": "low",
+          "explanation": "CAMI baseline does not run HELP-E inference.",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "Pinned to HELP-E profile primary_problem.",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "Pinned to HELP-E profile primary_problem.",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_cami_no_helpe_inference": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_cami_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "small_talk",
+        "intent_entry_style": "",
+        "common_candidates": [],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": []
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "CAMI inferred state: Precontemplation; strategies: ['Open Question'",
+        "evidence_used": [],
+        "final_response": "|| Final Strategy: Open Question || Topic: Education || Exploration Action: Switch || Exploration: Based on the client's response, the topic that is most likely to engage the client and help them recognize the benefits of achieving the counseling goal or the potential risks of continuing their behavior is **Education**.\n\nThe client mentions \"coursework this semester\" and feeling overwhelmed by deadlines, indicating that their body image concerns may be intertwined with academic pressures. This suggests that exploring how body image concerns affect their educational progress and overall success could be a motivating factor for change.\n\nAdditionally, **Interpersonal Relationships** might also be a relevant topic, as the client's body image concerns could potentially impact their relationships with peers or instructors in an academic setting. However, this is not explicitly mentioned in the client's response.\n\nThe other topics, such as **Health**, **] Counselor: How do you think managing coursework stress could impact your overall well-being?"
+      },
+      "trace": {
+        "system": "cami",
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns"
+        ],
+        "user_intent": "small_talk",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [],
+        "chosen_misc_codes": [],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0,
+        "behavior_given_to_cami": "body image concerns",
+        "goal_given_to_cami": "make progress on body image concerns",
+        "cami_trace": {
+          "raw": "Inferred State: Precontemplation || Strategy Selection: Given the current context and the client's state of precontemplation, the client is not yet recognizing their behavior (or situation, in this case, related to coursework and potential burnout) as problematic and is not considering change. The goal at this stage is to raise awareness about the potential issues and encourage the client to think about their situation in a way that might lead them to consider the possibility of change.  1. **Open Question**: This strategy is appropriate because it encourages the client to share more about their feelings, thoughts, and experiences without limiting their response. By asking open-ended questions, the counselor can help the client explore their situation more deeply, potentially leading to a greater awareness of the problems associated with their current approach to coursework and stress || Strategies: ['Open Question'",
+          "inferred_state": "Precontemplation",
+          "strategy_selection": "Given the current context and the client's state of precontemplation, the client is not yet recognizing their behavior (or situation, in this case, related to coursework and potential burnout) as problematic and is not considering change. The goal at this stage is to raise awareness about the potential issues and encourage the client to think about their situation in a way that might lead them to consider the possibility of change.  1. **Open Question**: This strategy is appropriate because it encourages the client to share more about their feelings, thoughts, and experiences without limiting their response. By asking open-ended questions, the counselor can help the client explore their situation more deeply, potentially leading to a greater awareness of the problems associated with their current approach to coursework and stress",
+          "strategies": "['Open Question'"
+        }
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 2,
+      "user_message": "The deadlines keep stacking up, and I keep wondering if I can keep going without burning out. I feel stuck, like I\u2019m juggling too much and not sure how to prioritize.",
+      "inference": {
+        "user_intent": {
+          "intent": "small_talk",
+          "confidence": "low",
+          "explanation": "CAMI baseline does not run HELP-E inference.",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "Pinned to HELP-E profile primary_problem.",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "Pinned to HELP-E profile primary_problem.",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_cami_no_helpe_inference": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_cami_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "small_talk",
+        "intent_entry_style": "",
+        "common_candidates": [],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": []
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "CAMI inferred state: Precontemplation; strategies: ['Raise Concern'",
+        "evidence_used": [],
+        "final_response": "|| Final Strategy: Raise Concern || Topic: Education || Exploration Action: Stay || Exploration: The client's response indicates a strong focus on their current academic stress and feelings of being overwhelmed by deadlines. While the counseling goal is centered around body image concerns, the client's immediate engagement is with the pressures of their educational environment. The client mentions feeling stuck and unsure about how to prioritize, which suggests a significant level of distress related to their academic situation. However, there's no direct mention or indication of how this stress affects their body image or overall well-being in a way that connects to the counseling goal. Given this, it seems the client is more presently concerned with their academic challenges than exploring topics directly related to body image.   Considering the client's strong engagement with the topic of education and their stress about coursework, but acknowledging the need to eventually] Counselor: Cutting back on alcohol can improve fitness, boosting energy for active outings."
+      },
+      "trace": {
+        "system": "cami",
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns"
+        ],
+        "user_intent": "small_talk",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [],
+        "chosen_misc_codes": [],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0,
+        "behavior_given_to_cami": "body image concerns",
+        "goal_given_to_cami": "make progress on body image concerns",
+        "cami_trace": {
+          "raw": "Inferred State: Precontemplation || Strategy Selection: Given the current context and the client's state of precontemplation, the client is not yet recognizing their behavior (or situation, in this case, regarding coursework stress) as problematic and is not considering change. The goal at this stage is to raise awareness about the potential issues and encourage the client to start thinking about the possibility of change without being confrontational or directive.  1. **Raise Concern**: This strategy is appropriate because it allows the counselor to point out potential problems or consequences of the client's current situation (feeling overwhelmed by coursework deadlines and the risk of burnout) without directly telling the client what to do. It encourages the client to think critically about their situation and its implications. For example, \"How do you think continuing to || Strategies: ['Raise Concern'",
+          "inferred_state": "Precontemplation",
+          "strategy_selection": "Given the current context and the client's state of precontemplation, the client is not yet recognizing their behavior (or situation, in this case, regarding coursework stress) as problematic and is not considering change. The goal at this stage is to raise awareness about the potential issues and encourage the client to start thinking about the possibility of change without being confrontational or directive.  1. **Raise Concern**: This strategy is appropriate because it allows the counselor to point out potential problems or consequences of the client's current situation (feeling overwhelmed by coursework deadlines and the risk of burnout) without directly telling the client what to do. It encourages the client to think critically about their situation and its implications. For example, \"How do you think continuing to",
+          "strategies": "['Raise Concern'"
+        }
+      }
+    },
+    {
+      "session_id": 1,
+      "turn_id": 3,
+      "user_message": "I hear you, but honestly I\u2019m just stuck in this cycle of deadlines. I\u2019m not sure how to get a break or a clear path forward, and it feels more like a wall than a challenge I can climb.",
+      "inference": {
+        "user_intent": {
+          "intent": "small_talk",
+          "confidence": "low",
+          "explanation": "CAMI baseline does not run HELP-E inference.",
+          "supporting_utterance_span": null
+        },
+        "current_problems": [
+          {
+            "problem_name": "body_image_concerns",
+            "is_new_problem": false,
+            "matched_existing_problem_name": "body_image_concerns",
+            "explanation": "Pinned to HELP-E profile primary_problem.",
+            "supporting_utterance_span": null
+          }
+        ],
+        "main_problem": {
+          "problem_name": "body_image_concerns",
+          "explanation": "Pinned to HELP-E profile primary_problem.",
+          "supporting_utterance_span": null
+        },
+        "problem_attribute_entries": [],
+        "problem_cooccurrence_connections": [],
+        "problem_attribute_connections": [],
+        "_cami_no_helpe_inference": true
+      },
+      "recompute": {
+        "attribute_level_updates": [],
+        "ttm_stage_updates": [],
+        "_cami_no_recompute": true
+      },
+      "bundle": null,
+      "candidate_bundle": {
+        "main_problem": "body_image_concerns",
+        "ttm_stage": null,
+        "transition_target": null,
+        "user_intent": "small_talk",
+        "intent_entry_style": "",
+        "common_candidates": [],
+        "stage_specific_candidates": [],
+        "all_candidate_codes": []
+      },
+      "past_two_turns": [],
+      "response": {
+        "reasoning": "CAMI inferred state: Precontemplation; strategies: ['Raise Concern'",
+        "evidence_used": [],
+        "final_response": "|| Final Strategy: Raise Concern || Topic: Student Affairs || Exploration Action: Step Into || Exploration: The client's response indicates a strong focus on their current academic challenges and feelings of being overwhelmed by deadlines. They express a sense of being stuck and unsure about how to move forward, which suggests that their immediate concerns are centered around their educational pressures rather than their body image concerns or other potential topics like health or interpersonal relationships. The client's engagement with the topic of education, specifically their struggles with coursework and deadlines, shows a clear interest in discussing academic-related stress. Given this, it seems most appropriate to delve deeper into the subtopics related to education to better understand the client's situation and how it might be impacting their body image concerns or overall well-being. Based on this analysis, I would recommend to **Step Into** the topic of **Student Affairs] Counselor: Cutting back on alcohol can boost energy, but how might body image concerns impact your school attendance?"
+      },
+      "trace": {
+        "system": "cami",
+        "main_problem": "body_image_concerns",
+        "current_problems": [
+          "body_image_concerns"
+        ],
+        "user_intent": "small_talk",
+        "ttm_stage": null,
+        "transition_target": null,
+        "all_candidate_codes": [],
+        "chosen_misc_codes": [],
+        "turn_scope_level_attrs": [],
+        "level_updates": [],
+        "ttm_updates": [],
+        "cooc_added": 0,
+        "attr_conn_added": 0,
+        "behavior_given_to_cami": "body image concerns",
+        "goal_given_to_cami": "make progress on body image concerns",
+        "cami_trace": {
+          "raw": "Inferred State: Precontemplation || Strategy Selection: Based on the current context and the client's state, which is precontemplation, the client does not recognize their behavior as problematic and is not considering change. The client is expressing feelings of being overwhelmed by coursework deadlines and the potential for burnout but does not directly link these issues to their alcohol consumption or recognize the need for change in this area.  Given this scenario, the most appropriate strategies to employ would be:  1. **Raise Concern**: This strategy involves pointing out a possible problem with the client's current situation or behavior without being confrontational. For example, \"I understand that you're feeling overwhelmed by your coursework deadlines, but have you considered how your current coping mechanisms, such as alcohol consumption, might be affecting your energy levels and ability || Strategies: ['Raise Concern'",
+          "inferred_state": "Precontemplation",
+          "strategy_selection": "Based on the current context and the client's state, which is precontemplation, the client does not recognize their behavior as problematic and is not considering change. The client is expressing feelings of being overwhelmed by coursework deadlines and the potential for burnout but does not directly link these issues to their alcohol consumption or recognize the need for change in this area.  Given this scenario, the most appropriate strategies to employ would be:  1. **Raise Concern**: This strategy involves pointing out a possible problem with the client's current situation or behavior without being confrontational. For example, \"I understand that you're feeling overwhelmed by your coursework deadlines, but have you considered how your current coping mechanisms, such as alcohol consumption, might be affecting your energy levels and ability",
+          "strategies": "['Raise Concern'"
+        }
+      }
+    }
+  ]
+}
