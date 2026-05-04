@@ -5,6 +5,8 @@
 HELP-E is a research system that combines **Motivational Interviewing**, the **Health Belief Model**, and the **Transtheoretical Model** with a persistent typed problem-graph to produce psychologically principled, context-aware support across multiple sessions. It ships with 30 synthetic user profiles, an interactive UI, batch runners, and example output for all four active systems.
 
 > **Active matrix:** `v1 (floor)` · `v3 (mid-tier)` · `v4 (graph-only)` · `v6 (full system)` — all run through a unified v6 driver so their MITI / TTM-transition / ESC metrics are directly comparable.
+>
+> **External baseline:** CAMI can be run as a counselor comparison via `--system cami`; see [`CAMI_BASELINE_README.md`](./CAMI_BASELINE_README.md).
 
 ---
 
