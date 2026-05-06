@@ -713,11 +713,17 @@ def problem_name_mapping_block() -> str:
     edge cases (sibling, in-law, business co-owner) the same way.
     """
     return textwrap.dedent("""\
-        - Pick problem names EXACTLY from the 20-vocabulary above. Never
+        - Pick problem names EXACTLY from the vocabulary above. Never
           invent off-list strings. For relationship conflicts that don't
           fit, map to the closest of: conflicts_with_partner (any
           close-adult conflict — sibling, in-law, business co-owner),
-          conflicts_with_parents, conflicts_with_friends.
+          conflicts_with_parents, conflicts_with_friends, or
+          friendship_changes (when the issue is shifting peer-group
+          dynamics rather than a single recurring conflict).
+        - Use `role_loss` only when the user explicitly frames the issue
+          as the loss of a defining role (organizer, caregiver,
+          professional identity, etc.) — not for routine job worry,
+          which should stay under work_stress or career_uncertainty.
     """).rstrip()
 
 

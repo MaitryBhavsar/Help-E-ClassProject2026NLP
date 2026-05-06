@@ -192,8 +192,24 @@ def run_profile_v6(
 
     # Cold-start graph: no pre-seeding, empty persona. v1 leaves it
     # empty; v3 attaches text-summary state to it; v6 fills it via the
-    # inference + recompute calls.
-    graph = ProblemGraphV6(profile_id=profile.profile_id)
+    # inference + recompute calls. v7 uses a richer ProblemGraphV7 with
+    # running summaries + system_intent per problem.
+    if system in ("v7", "v8"):
+        # V8 reuses V7's graph type — same audit stacks, same connection
+        # entries, same persona shape. The systems differ only in how
+        # they read from the graph (V7 walks edges, V8 retrieves with RAG).
+        from .graph_v7 import ProblemGraphV7
+        graph = ProblemGraphV7(profile_id=profile.profile_id)
+    elif system in ("v1", "v3"):
+        # V3 = V7's structure minus HBM attributes (problems + edges +
+        # rolling_summary + persona).
+        # V1 = V3 with problems/edges left empty — V1 reuses the same
+        # graph type for plumbing compatibility (it only needs persona +
+        # rolling_summary fields, which ProblemGraphV3 provides).
+        from .graph_v3 import ProblemGraphV3
+        graph = ProblemGraphV3(profile_id=profile.profile_id)
+    else:
+        graph = ProblemGraphV6(profile_id=profile.profile_id)
     sim_profile = _to_simulator_profile(profile)
 
     effective_turn_fn = turn_fn or v6_turn_fn
@@ -211,7 +227,7 @@ def run_profile_v6(
     from concurrent.futures import ThreadPoolExecutor, wait as _wait
     pending_futures: list = []
     with ThreadPoolExecutor(max_workers=8, thread_name_prefix="judge") as judge_pool:
-        for session_id in range(1, run_cfg.sessions_per_profile + 1):
+        for session_id in range(1, run_cfg.num_sessions() + 1):
             session_art = _run_session_v6(
                 profile=profile, sim_profile=sim_profile,
                 session_id=session_id, run_cfg=run_cfg,
@@ -279,10 +295,12 @@ def _run_session_v6(
     )
     art.session_context = session_context
 
-    # 2. Per-turn loop.
+    # 2. Per-turn loop. v7 uses a per-session turn list (e.g. [20, 10, 10]);
+    #    v1/v3/v4/v6 use the int `turns_per_session`. `turns_for_session()`
+    #    handles both cases.
+    target_turns = run_cfg.turns_for_session(session_id)
     last_system_message: Optional[str] = None
-    turns_this_session = run_cfg.turns_for_session(session_id)
-    for turn_id in range(1, turns_this_session + 1):
+    for turn_id in range(1, target_turns + 1):
         # Window the transcript for the per-turn prompts. Keep it
         # modest — mind1_v6 enforces J=20 internally, recent_turns is
         # intended to be a smaller window for the response prompt.
@@ -346,9 +364,17 @@ def _run_session_v6(
     # On Lightning each takes ~6-15s; sequential = up to 30s/session,
     # parallel = max of the two ≈ 15s. Saves ~10s/session × 4 sessions
     # × 30 profiles = ~20 min over a full matrix.
+    # v1, v3, v7, and v8 use Agent P (small model, simplified per-field
+    # useful flag) for pipeline symmetry; v4/v6 use the original
+    # persona_update_v6.
+    persona_update_role = (
+        "agent_p_persona_update"
+        if system in ("v1", "v3", "v7", "v8")
+        else "persona_update_v6"
+    )
     pu_ctx = CallContext(
         profile_id=profile.profile_id, session_id=session_id, system=system,
-        turn_id=-1, call_role="persona_update_v6",
+        turn_id=-1, call_role=persona_update_role,
     )
     miti_ctx = CallContext(
         profile_id=profile.profile_id, session_id=session_id, system=system,
@@ -362,15 +388,27 @@ def _run_session_v6(
 
     def _do_persona() -> list[dict]:
         try:
-            out = run_persona_update_v6(
-                client=client, ctx=pu_ctx,
-                transcript=art.transcript,
-                current_persona=persona_before,
-            )
+            if system in ("v1", "v3", "v7", "v8"):
+                from .prompts.agent_p_persona_update import (
+                    run_agent_p, AgentPInputs,
+                )
+                out = run_agent_p(
+                    client=client, ctx=pu_ctx,
+                    inputs=AgentPInputs(
+                        transcript=art.transcript,
+                        current_persona=persona_before,
+                    ),
+                )
+            else:
+                out = run_persona_update_v6(
+                    client=client, ctx=pu_ctx,
+                    transcript=art.transcript,
+                    current_persona=persona_before,
+                )
             return out.get("updates", [])
         except Exception as e:
-            log.exception("persona_update_v6 failed for %s s%d: %s",
-                          profile.profile_id, session_id, e)
+            log.exception("persona_update failed for %s s%d (system=%s): %s",
+                          profile.profile_id, session_id, system, e)
             return []
 
     def _do_miti_and_save() -> dict:
@@ -431,8 +469,16 @@ def _run_session_v6(
     art.persona_updates = updates
 
     # Apply persona updates to the in-memory graph (must happen on the
-    # main thread — graph object isn't synchronized).
-    persona_after = apply_updates_to_persona(persona_before, updates)
+    # main thread — graph object isn't synchronized). v1, v3, v7, and
+    # v8 use Agent P's per-field useful-flag schema; v4/v6 use the
+    # original v6 persona update schema.
+    if system in ("v1", "v3", "v7", "v8"):
+        from .prompts.agent_p_persona_update import (
+            apply_updates_to_persona as _apply_v7,
+        )
+        persona_after = _apply_v7(persona_before, updates)
+    else:
+        persona_after = apply_updates_to_persona(persona_before, updates)
     graph.persona = _persona_from_dict(persona_after)
 
     # 4. Stage transitions across the session.

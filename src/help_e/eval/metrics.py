@@ -142,6 +142,37 @@ def _replay_per_problem_ttm(turn_traces: list[dict]) -> dict[str, list[tuple[int
             new_stage = u.get("new_ttm_stage")
             if pname and new_stage in _STAGE_INDEX:
                 per_problem_stage[pname] = new_stage
+        # v3/v7/v8 traces often omit ``ttm_updates``; Agent 3b stores the
+        # current stage on each active problem instead.
+        a3 = trace.get("agent3_problem_outputs") or {}
+        for p in trace.get("current_problems") or []:
+            if not isinstance(p, str):
+                continue
+            pdata = a3.get(p)
+            if isinstance(pdata, dict):
+                st = pdata.get("current_ttm_stage")
+                if isinstance(st, str) and st in _STAGE_INDEX:
+                    per_problem_stage[p] = st
+        # v7/v8 name Agent 3b outputs ``agent3b_outputs_per_problem`` (not merged into a3 dict).
+        a3b = trace.get("agent3b_outputs_per_problem") or {}
+        for p in trace.get("current_problems") or []:
+            if not isinstance(p, str):
+                continue
+            pdata = a3b.get(p)
+            if isinstance(pdata, dict):
+                st = pdata.get("current_ttm_stage")
+                if isinstance(st, str) and st in _STAGE_INDEX:
+                    per_problem_stage[p] = st
+        # When inference failed or agents were skipped, ``current_problems`` may still be filled
+        # later with only a trace-level ``ttm_stage`` (common on v7/v8 Fireworks runs).
+        ttm_fallback = trace.get("ttm_stage")
+        if isinstance(ttm_fallback, str) and ttm_fallback in _STAGE_INDEX:
+            for p in trace.get("current_problems") or []:
+                if not isinstance(p, str):
+                    continue
+                prev = per_problem_stage.get(p)
+                if prev is None or prev not in _STAGE_INDEX:
+                    per_problem_stage[p] = ttm_fallback
         for p in trace.get("current_problems") or []:
             # Default new problems whose stage hasn't been set yet.
             stage = per_problem_stage.get(p)

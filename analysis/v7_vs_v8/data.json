@@ -1,0 +1,411 @@
+{
+  "matrix_70b": {
+    "profiles": [
+      "P01",
+      "P03",
+      "P05",
+      "P07",
+      "P09",
+      "P11",
+      "P13",
+      "P15",
+      "P17",
+      "P19",
+      "P21",
+      "P23",
+      "P25",
+      "P27",
+      "P29"
+    ],
+    "aggregated": {
+      "v7": {
+        "n_profiles": 15,
+        "n_problems_detected": 8.6,
+        "assigned_overlap_rate": 0.6,
+        "n_attr_audits": 181.933,
+        "n_conn_entries": 86.6,
+        "n_evidences_used": 136.8,
+        "n_audits_used": 90.933,
+        "forward_transitions": 6.333,
+        "progression_rate": 0.24,
+        "regressions": 0,
+        "miti": {
+          "cultivating_change_talk": 4.089,
+          "softening_sustain_talk": 5.0,
+          "partnership": 4.356,
+          "empathy": 5.0,
+          "overall_mean": 4.611
+        },
+        "esc": {
+          "empathy": 5.0,
+          "understanding": 4.89,
+          "helpfulness": 4.199,
+          "autonomy_respect": 5.0,
+          "non_judgment": 5.0,
+          "willingness_to_continue": 4.933,
+          "mean": 4.839
+        }
+      },
+      "v8": {
+        "n_profiles": 15,
+        "n_problems_detected": 8.667,
+        "assigned_overlap_rate": 0.733,
+        "n_attr_audits": 180,
+        "n_conn_entries": 84.667,
+        "n_evidences_used": 135.4,
+        "n_audits_used": 98,
+        "forward_transitions": 4.867,
+        "progression_rate": 0.191,
+        "regressions": 0,
+        "miti": {
+          "cultivating_change_talk": 3.978,
+          "softening_sustain_talk": 4.933,
+          "partnership": 4.422,
+          "empathy": 5.0,
+          "overall_mean": 4.583
+        },
+        "esc": {
+          "empathy": 5.0,
+          "understanding": 4.978,
+          "helpfulness": 4.222,
+          "autonomy_respect": 5.0,
+          "non_judgment": 5.0,
+          "willingness_to_continue": 5.0,
+          "mean": 4.865
+        }
+      }
+    },
+    "per_profile": {
+      "v7": [
+        {
+          "profile": "P01",
+          "miti_overall": 4.5,
+          "esc_mean": 4.67,
+          "progression_rate": 0.267,
+          "n_audits_used": 80,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P03",
+          "miti_overall": 4.5,
+          "esc_mean": 4.89,
+          "progression_rate": 0.048,
+          "n_audits_used": 88,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P05",
+          "miti_overall": 4.583333333333333,
+          "esc_mean": 4.89,
+          "progression_rate": 0.208,
+          "n_audits_used": 98,
+          "assigned_detected": false
+        },
+        {
+          "profile": "P07",
+          "miti_overall": 4.75,
+          "esc_mean": 4.95,
+          "progression_rate": 0.333,
+          "n_audits_used": 101,
+          "assigned_detected": false
+        },
+        {
+          "profile": "P09",
+          "miti_overall": 4.583333333333333,
+          "esc_mean": 4.78,
+          "progression_rate": 0.278,
+          "n_audits_used": 86,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P11",
+          "miti_overall": 4.666666666666667,
+          "esc_mean": 4.83,
+          "progression_rate": 0.25,
+          "n_audits_used": 92,
+          "assigned_detected": false
+        },
+        {
+          "profile": "P13",
+          "miti_overall": 4.666666666666667,
+          "esc_mean": 4.78,
+          "progression_rate": 0.208,
+          "n_audits_used": 92,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P15",
+          "miti_overall": 4.833333333333334,
+          "esc_mean": 4.95,
+          "progression_rate": 0.048,
+          "n_audits_used": 89,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P17",
+          "miti_overall": 4.5,
+          "esc_mean": 4.89,
+          "progression_rate": 0.333,
+          "n_audits_used": 101,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P19",
+          "miti_overall": 4.666666666666666,
+          "esc_mean": 4.89,
+          "progression_rate": 0.333,
+          "n_audits_used": 93,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P21",
+          "miti_overall": 4.666666666666667,
+          "esc_mean": 4.83,
+          "progression_rate": 0.133,
+          "n_audits_used": 93,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P23",
+          "miti_overall": 4.5,
+          "esc_mean": 4.78,
+          "progression_rate": 0.333,
+          "n_audits_used": 90,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P25",
+          "miti_overall": 4.583333333333333,
+          "esc_mean": 4.89,
+          "progression_rate": 0.267,
+          "n_audits_used": 90,
+          "assigned_detected": false
+        },
+        {
+          "profile": "P27",
+          "miti_overall": 4.666666666666667,
+          "esc_mean": 4.89,
+          "progression_rate": 0.231,
+          "n_audits_used": 90,
+          "assigned_detected": false
+        },
+        {
+          "profile": "P29",
+          "miti_overall": 4.5,
+          "esc_mean": 4.67,
+          "progression_rate": 0.333,
+          "n_audits_used": 81,
+          "assigned_detected": false
+        }
+      ],
+      "v8": [
+        {
+          "profile": "P01",
+          "miti_overall": 4.666666666666667,
+          "esc_mean": 4.83,
+          "progression_rate": 0.143,
+          "n_audits_used": 104,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P03",
+          "miti_overall": 4.916666666666667,
+          "esc_mean": 5.0,
+          "progression_rate": 0.048,
+          "n_audits_used": 90,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P05",
+          "miti_overall": 4.75,
+          "esc_mean": 4.83,
+          "progression_rate": 0.238,
+          "n_audits_used": 92,
+          "assigned_detected": false
+        },
+        {
+          "profile": "P07",
+          "miti_overall": 4.333333333333333,
+          "esc_mean": 4.83,
+          "progression_rate": 0.333,
+          "n_audits_used": 115,
+          "assigned_detected": false
+        },
+        {
+          "profile": "P09",
+          "miti_overall": 4.583333333333333,
+          "esc_mean": 4.83,
+          "progression_rate": 0.267,
+          "n_audits_used": 104,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P11",
+          "miti_overall": 4.333333333333333,
+          "esc_mean": 4.83,
+          "progression_rate": 0.2,
+          "n_audits_used": 99,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P13",
+          "miti_overall": 4.666666666666667,
+          "esc_mean": 4.83,
+          "progression_rate": 0.143,
+          "n_audits_used": 97,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P15",
+          "miti_overall": 4.916666666666667,
+          "esc_mean": 5.0,
+          "progression_rate": 0.208,
+          "n_audits_used": 84,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P17",
+          "miti_overall": 4.583333333333333,
+          "esc_mean": 4.95,
+          "progression_rate": 0.259,
+          "n_audits_used": 98,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P19",
+          "miti_overall": 4.666666666666667,
+          "esc_mean": 4.89,
+          "progression_rate": 0.121,
+          "n_audits_used": 105,
+          "assigned_detected": false
+        },
+        {
+          "profile": "P21",
+          "miti_overall": 4.5,
+          "esc_mean": 4.83,
+          "progression_rate": 0.111,
+          "n_audits_used": 99,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P23",
+          "miti_overall": 4.583333333333333,
+          "esc_mean": 4.83,
+          "progression_rate": 0.0,
+          "n_audits_used": 86,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P25",
+          "miti_overall": 4.5,
+          "esc_mean": 4.83,
+          "progression_rate": 0.233,
+          "n_audits_used": 105,
+          "assigned_detected": true
+        },
+        {
+          "profile": "P27",
+          "miti_overall": 4.583333333333333,
+          "esc_mean": 4.83,
+          "progression_rate": 0.256,
+          "n_audits_used": 103,
+          "assigned_detected": false
+        },
+        {
+          "profile": "P29",
+          "miti_overall": 4.166666666666667,
+          "esc_mean": 4.83,
+          "progression_rate": 0.3,
+          "n_audits_used": 89,
+          "assigned_detected": true
+        }
+      ]
+    }
+  },
+  "p18_120b": {
+    "v3": {
+      "miti": {
+        "per_global_mean": {
+          "cultivating_change_talk": 2.3333333333333335,
+          "softening_sustain_talk": 4.0,
+          "partnership": 3.0,
+          "empathy": 3.6666666666666665
+        },
+        "overall_mean": 3.25,
+        "n_sessions": 3
+      },
+      "esc": {
+        "empathy": 3.67,
+        "understanding": 4.0,
+        "helpfulness": 2.0,
+        "autonomy_respect": 2.67,
+        "non_judgment": 4.0,
+        "willingness_to_continue": 3.0,
+        "mean": 3.22
+      },
+      "n_problems_detected": 6,
+      "assigned_overlap": true,
+      "n_attr_audits": 0,
+      "n_conn_entries": 77,
+      "n_audits_used": null,
+      "forward_transitions": 5,
+      "progression_rate": 0.278
+    },
+    "v7": {
+      "miti": {
+        "per_global_mean": {
+          "cultivating_change_talk": 2.3333333333333335,
+          "softening_sustain_talk": 4.0,
+          "partnership": 2.6666666666666665,
+          "empathy": 3.6666666666666665
+        },
+        "overall_mean": 3.1666666666666665,
+        "n_sessions": 3
+      },
+      "esc": {
+        "empathy": 3.67,
+        "understanding": 3.67,
+        "helpfulness": 3.0,
+        "autonomy_respect": 3.33,
+        "non_judgment": 3.67,
+        "willingness_to_continue": 3.33,
+        "mean": 3.44
+      },
+      "n_problems_detected": 11,
+      "assigned_overlap": true,
+      "n_attr_audits": 242,
+      "n_conn_entries": 71,
+      "n_audits_used": 13,
+      "forward_transitions": 11,
+      "progression_rate": 0.333
+    },
+    "v8": {
+      "miti": {
+        "per_global_mean": {
+          "cultivating_change_talk": 2.6666666666666665,
+          "softening_sustain_talk": 3.6666666666666665,
+          "partnership": 3.0,
+          "empathy": 3.6666666666666665
+        },
+        "overall_mean": 3.25,
+        "n_sessions": 3
+      },
+      "esc": {
+        "empathy": 2.67,
+        "understanding": 3.0,
+        "helpfulness": 2.0,
+        "autonomy_respect": 2.33,
+        "non_judgment": 4.0,
+        "willingness_to_continue": 2.0,
+        "mean": 2.67
+      },
+      "n_problems_detected": 11,
+      "assigned_overlap": true,
+      "n_attr_audits": 227,
+      "n_conn_entries": 78,
+      "n_audits_used": 36,
+      "forward_transitions": 10,
+      "progression_rate": 0.303
+    }
+  }
+}

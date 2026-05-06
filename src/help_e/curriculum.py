@@ -73,23 +73,45 @@ SCENARIO_PARAMS: dict[str, dict[str, Any]] = {
 }
 
 
+_BEHAVIOR_CHANGE_PRIMARY_PROBLEMS: frozenset[str] = frozenset({
+    "alcohol_reduction", "smoking_cessation", "drug_use_reduction",
+})
+
+
 def assign_scenario_types(profile_ids: list[str]) -> dict[str, str]:
     """Stratified assignment: split profiles roughly evenly across the
     3 archetypes by profile-id rank.
 
     Deterministic — running this again with the same `profile_ids` in
     the same order yields the same assignment.
+
+    Behavior-change profiles (primary_problem in
+    `_BEHAVIOR_CHANGE_PRIMARY_PROBLEMS`) are FORCED to "chronic" so the
+    primary substance/behavior topic carries forward across all four
+    sessions — this matches CAMI's evaluation setup (5 independent
+    sessions per client all on the same behavior) and gives the
+    simulator a stable home-turf domain.
     """
+    from .profile_spec import load_profile
+
     n = len(profile_ids)
     third = n // 3
     out: dict[str, str] = {}
     for i, pid in enumerate(sorted(profile_ids)):
+        # Default stratified assignment.
         if i < third:
             out[pid] = "chronic"
         elif i < 2 * third:
             out[pid] = "middle"
         else:
             out[pid] = "varied"
+        # Override for behavior-change profiles.
+        try:
+            primary = load_profile(pid).primary_problem
+            if primary in _BEHAVIOR_CHANGE_PRIMARY_PROBLEMS:
+                out[pid] = "chronic"
+        except Exception:
+            pass
     return out
 
 
@@ -197,12 +219,20 @@ def pick_seed_problems(
     scenario: str,
     prev_seed: Optional[list[str]],
     rng: random.Random,
+    primary_problem: Optional[str] = None,
 ) -> list[str]:
     """Pick this session's seed problems given:
       - `eligible`: the per-profile filter from B1
       - `scenario`: chronic / middle / varied
       - `prev_seed`: previous session's seed problems (None for s1)
       - `rng`: deterministic RNG seeded per (profile, sweep)
+      - `primary_problem`: if set and present in `eligible`, ALWAYS
+        included in the result (replaces a random non-primary entry if
+        the random draw missed it). Behavior-change profiles (P31–P33)
+        require their primary substance/behavior topic in every session
+        so the simulator stays on the home-turf domain — without this
+        the "varied" scenario can omit the primary topic from a session
+        entirely.
 
     Carry-forward ratio for the scenario decides how many of prev_seed
     re-appear; the rest are fresh draws from `eligible \\ prev_seed`.
@@ -214,19 +244,28 @@ def pick_seed_problems(
 
     if prev_seed is None:
         # First session — purely random subset of eligible.
-        return sorted(rng.sample(eligible, n))
+        result = sorted(rng.sample(eligible, n))
+    else:
+        carry_ratio = params["carry_forward_ratio"]
+        n_carry = max(1, round(carry_ratio * len(prev_seed))) if prev_seed else 0
+        n_carry = min(n_carry, len(prev_seed), n)
 
-    carry_ratio = params["carry_forward_ratio"]
-    n_carry = max(1, round(carry_ratio * len(prev_seed))) if prev_seed else 0
-    n_carry = min(n_carry, len(prev_seed), n)
+        carried = rng.sample(prev_seed, n_carry) if n_carry > 0 else []
+        pool_for_new = [p for p in eligible if p not in carried]
+        n_new = n - len(carried)
+        n_new = min(n_new, len(pool_for_new))
+        new = rng.sample(pool_for_new, n_new) if n_new > 0 else []
+        result = sorted(carried + new)
 
-    carried = rng.sample(prev_seed, n_carry) if n_carry > 0 else []
-    pool_for_new = [p for p in eligible if p not in carried]
-    n_new = n - len(carried)
-    n_new = min(n_new, len(pool_for_new))
-    new = rng.sample(pool_for_new, n_new) if n_new > 0 else []
-
-    return sorted(carried + new)
+    # Force primary_problem into the result if requested and eligible.
+    if primary_problem and primary_problem in eligible and primary_problem not in result:
+        replaceable = [p for p in result if p != primary_problem]
+        if replaceable:
+            drop = rng.choice(replaceable)
+            result = sorted([p for p in result if p != drop] + [primary_problem])
+        else:
+            result = sorted(result + [primary_problem])
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -347,10 +386,12 @@ def generate_curriculum_for_profile(
     prev_ctx: Optional[dict] = None
     prev_seed: Optional[list[str]] = None
     summary: list[dict] = []
+    primary_problem = getattr(profile_spec, "primary_problem", None)
     for session_id in range(1, n_sessions + 1):
         seed = pick_seed_problems(
             eligible=eligible_list, scenario=scenario,
             prev_seed=prev_seed, rng=rng,
+            primary_problem=primary_problem,
         )
 
         # B3 — session_context generation (cached on disk).

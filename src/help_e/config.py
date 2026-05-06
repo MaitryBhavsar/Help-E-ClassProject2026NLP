@@ -12,6 +12,14 @@ import os
 from pathlib import Path
 from typing import Final
 
+
+def _bool_env(name: str, default: bool) -> bool:
+    v = os.environ.get(name)
+    if v is None or not str(v).strip():
+        return default
+    return str(v).strip().lower() in ("1", "true", "yes", "on")
+
+
 # ---------------------------------------------------------------------------
 # LLM endpoint / model
 # ---------------------------------------------------------------------------
@@ -91,6 +99,9 @@ SIMULATOR_ROLES: Final[frozenset[str]] = frozenset({
 # with judge-model effect.
 JUDGE_ROLES: Final[frozenset[str]] = frozenset({
     "miti_judge", "esc_judge",
+    # PVS-6 (Perceived Value of Session) — user-satisfaction judge. Same
+    # endpoint as miti_judge / esc_judge.
+    "pvs_judge",
     # Curriculum-generation roles (one-time pre-experiment): route to
     # the JUDGE endpoint for high-quality + zero rate-limit competition
     # with chatbot calls. These NEVER fire during a matrix run — they
@@ -132,12 +143,35 @@ SMALL_MODEL_NAME: Final[str] = os.environ.get(
 # and saturates with 5 roles routed to the same backend. Re-populate
 # this set (and restart Ollama with `OLLAMA_NUM_PARALLEL=4` or higher)
 # to re-enable small-model routing without the saturation penalty.
-SMALL_MODEL_ROLES: Final[frozenset[str]] = frozenset()
+SMALL_MODEL_ROLES: Final[frozenset[str]] = frozenset({
+    # v7 multi-agent pipeline — small (gpt-oss-20b) for the cheap agents.
+    # Big models (llama-3.3-70b on Lightning) for Agent 2 (inference)
+    # and Agent 5 (response) — those go through the MAIN endpoint.
+    "agent1_user_intent",
+    "agentX_rolling_summary",
+    "agent3a_attr_update",
+    "agent3b_ttm_intent",
+    # v3 design (per the user's "everything except Agent 2 and Agent 5
+    # on small model" directive): the per-problem ProblemAgent, the
+    # per-edge EdgeSummaryAgent, and the session-end persona update all
+    # go to gpt-oss-20b. v7 also benefits from agent3c + agent_p moving
+    # off the big tenant — frees the 70b for Agent 2 and Agent 5.
+    "agent3_problem_v3",
+    "agent3c_edge_summary",
+    "agent_p_persona_update",
+})
 
 # Back-compat aliases so older callsites that read ``OLLAMA_URL`` /
 # ``MODEL_NAME`` still see the main endpoint.
 OLLAMA_URL: Final[str] = MAIN_OLLAMA_URL
 MODEL_NAME: Final[str] = MAIN_MODEL_NAME
+
+# Serialize gpt-oss-120b calls to the MAIN endpoint: at most one in-flight
+# request at a time (separate from the global semaphore). Simulator / small /
+# judge routes are unchanged. Disable with HELPE_SERIALIZE_MAIN_GPT_OSS_120B=0.
+SERIALIZE_MAIN_GPT_OSS_120B: Final[bool] = _bool_env(
+    "HELPE_SERIALIZE_MAIN_GPT_OSS_120B", True,
+)
 
 # Request timeout; long CoT prompts (merged response, Mind-2) can take a while.
 REQUEST_TIMEOUT_S: Final[int] = int(os.environ.get("HELPE_TIMEOUT_S", "600"))
@@ -208,12 +242,6 @@ TEMPERATURE_BY_ROLE: Final[dict[str, float]] = {
     "mind1": 0.4,
     "mind2": 0.2,
     "e1_judge": 0.0,
-    # Baseline-specific roles
-    "v1_response": 0.4,
-    "v2_summary_update": 0.2,
-    "v2_response": 0.4,
-    "v3_ttm_from_summary": 0.2,
-    "v3_response": 0.4,
     # v6 roles (problem-centric graph pipeline)
     "inference": 0.2,
     "recompute": 0.2,
@@ -227,6 +255,7 @@ TEMPERATURE_BY_ROLE: Final[dict[str, float]] = {
     # mind3 dropped — esc_judge replaces it).
     "miti_judge": 0.0,
     "esc_judge": 0.0,
+    "pvs_judge": 0.0,
     # v6-aligned baselines (v1, v3, v4) share the v6 simulator; v3 has
     # one combined extract+summary+TTM call per turn, v4 adds connections.
     "v3_extract": 0.2,
@@ -236,6 +265,31 @@ TEMPERATURE_BY_ROLE: Final[dict[str, float]] = {
     # sessions for the same profile.
     "curriculum_eligibility": 0.0,
     "curriculum_session_context": 0.5,
+    # Retrieval baselines (additive — not in any v1/v3/v4/v6 path):
+    #   response_rag        — RAG response (1 call/turn over BM25 hits)
+    #   graphrag_inference  — free-text entity/relationship extraction
+    #   response_graphrag   — GraphRAG response with retrieved neighborhood
+    "response_rag": 0.4,
+    "graphrag_inference": 0.2,
+    "response_graphrag": 0.4,
+    # v7 multi-agent pipeline (see plan at
+    # /Users/maitry/.claude/plans/i-want-u-to-lovely-boot.md).
+    # Three big-model calls (Agent 2 inference, Agent 5 response, Agent P
+    # persona update); the rest are small-model.
+    "agent1_user_intent": 0.2,
+    "agent2_inference_v7": 0.2,
+    "agentX_rolling_summary": 0.3,
+    "agent3a_attr_update": 0.2,
+    "agent3b_ttm_intent": 0.2,
+    "agent3c_edge_summary": 0.2,
+    "agent5_response_v7": 0.4,
+    "agent5_response_v8": 0.4,
+    "agentq_retrieval_query": 0.2,
+    "agent_p_persona_update": 0.2,
+    # v3 multi-agent pipeline (Agent 2 + Agent 5 on big; rest small).
+    "agent2_inference_v3": 0.2,
+    "agent3_problem_v3": 0.2,
+    "agent5_response_v3": 0.4,
 }
 
 # Ordered enum of every call_role used by §11.7 seed derivation.
@@ -263,6 +317,18 @@ CURRICULUM_DIR: Final[Path] = Path(
 GRAPH_DIR: Final[Path] = Path(os.environ.get("HELPE_GRAPH_DIR", str(PACKAGE_ROOT / "graphs")))
 TRANSCRIPT_DIR: Final[Path] = Path(
     os.environ.get("HELPE_TRANSCRIPT_DIR", str(PACKAGE_ROOT / "transcripts"))
+)
+
+# UI demo conversation persistence — one JSON file per conversation.
+# Scoped to the UI process; matrix-run code never reads this directory.
+# Default sits under TRANSCRIPT_DIR so a single env override
+# (HELPE_TRANSCRIPT_DIR) still isolates everything to one tree, but it
+# can be relocated independently with HELPE_UI_CONVERSATIONS_DIR.
+UI_CONVERSATIONS_DIR: Final[Path] = Path(
+    os.environ.get(
+        "HELPE_UI_CONVERSATIONS_DIR",
+        str(TRANSCRIPT_DIR / "_ui_conversations"),
+    )
 )
 
 # ---------------------------------------------------------------------------
@@ -318,8 +384,13 @@ MI_TECHNIQUES: Final[dict[str, str]] = {
     "T12": "Normalize/Reframe",
 }
 
-# 20-problem vocabulary (§8.2) — loaded lazily from problems.md at runtime if
-# the file is edited, but hardcoded here as the enum of record for schemas.
+# 25-problem vocabulary (§8.2). v6 used 20; v7 added 2 (`friendship_changes`,
+# `role_loss`) to fix the P05 substitution failure. 2026-05-05 adds 3
+# behavior-change targets so the v7/v8/CAMI cohort B (P31–P33) can run on
+# CAMI's home-turf domain (alcohol/smoking/drug use) without forcing the
+# closest-bucket hack. mi_picker_v7 is vocab-agnostic (USER_INTENT and
+# TTM_STAGE drive MISC selection, not problem name), so the new entries
+# flow through v7/v8 without rule changes.
 PROBLEM_VOCAB: Final[tuple[str, ...]] = (
     "academic_pressure", "work_stress", "sleep_problems", "procrastination",
     "general_anxiety", "low_self_esteem", "perfectionism", "social_anxiety",
@@ -327,6 +398,10 @@ PROBLEM_VOCAB: Final[tuple[str, ...]] = (
     "conflicts_with_parents", "conflicts_with_friends", "financial_stress",
     "career_uncertainty", "caregiver_stress", "grief_of_loved_one",
     "health_anxiety", "body_image_concerns", "life_transition",
+    # v7 additions (P05 substitution failure fix):
+    "friendship_changes", "role_loss",
+    # 2026-05-05 additions for cohort B (CAMI behavior-change baseline):
+    "alcohol_reduction", "smoking_cessation", "drug_use_reduction",
 )
 
 # ---------------------------------------------------------------------------
@@ -594,10 +669,31 @@ MAX_RETRIES_BY_ROLE: Final[dict[str, int]] = {
     # ESC judge runs 1 call per session × 4 sessions × N systems jobs.
     # Bumped to 5 retries to cover ~120s of backoff under load.
     "esc_judge": 5,
+    # PVS judge: same retry budget as ESC.
+    "pvs_judge": 5,
     "session_context": 3,
     "mind1_v6": 3,
     "curriculum_eligibility": 3,
     "curriculum_session_context": 3,
+    # Retrieval baselines (additive):
+    "response_rag": 2,
+    "graphrag_inference": 2,
+    "response_graphrag": 2,
+    # v7 multi-agent pipeline.
+    "agent1_user_intent": 2,
+    "agent2_inference_v7": 2,
+    "agentX_rolling_summary": 2,
+    "agent3a_attr_update": 2,
+    "agent3b_ttm_intent": 2,
+    "agent3c_edge_summary": 2,
+    "agent5_response_v7": 2,
+    "agent5_response_v8": 2,
+    "agentq_retrieval_query": 2,
+    "agent_p_persona_update": 3,
+    # v3 multi-agent pipeline.
+    "agent2_inference_v3": 2,
+    "agent3_problem_v3": 2,
+    "agent5_response_v3": 2,
 }
 
 # Per-role max generation tokens. Caps stop generation early on the
@@ -635,6 +731,9 @@ MAX_TOKENS_BY_ROLE: Final[dict[str, int]] = {
     # is enough headroom. Replaces the old `mind3` cap (2500) which was
     # for an all-sessions-at-once design that consistently truncated.
     "esc_judge": _max_tokens("esc_judge", 700),
+    # PVS judge: 6 dims × ~80 tokens of justification + a takeaway line
+    # ≈ 600 tokens; 1000 has plenty of headroom.
+    "pvs_judge": _max_tokens("pvs_judge", 1000),
     # SIM roles: gpt-oss models (both 20b and 120b) emit
     # `reasoning_content` (chain-of-thought) that COUNTS AGAINST
     # max_tokens, so the cap must cover reasoning + actual content.
@@ -657,6 +756,34 @@ MAX_TOKENS_BY_ROLE: Final[dict[str, int]] = {
     # Curriculum gen — one-time pre-experiment work.
     "curriculum_eligibility": _max_tokens("curriculum_eligibility", 800),
     "curriculum_session_context": _max_tokens("curriculum_session_context", 800),
+    # Retrieval baselines (additive). RAG/GraphRAG responses share the
+    # 3-field schema with response_simple, so the same 800-token cap
+    # is appropriate. The graphrag extraction pulls 1–10 entities + a
+    # handful of relationships per turn — 1200 tokens covers typical
+    # output with ~25% headroom.
+    "response_rag": _max_tokens("response_rag", 800),
+    "graphrag_inference": _max_tokens("graphrag_inference", 1200),
+    "response_graphrag": _max_tokens("response_graphrag", 800),
+    # v7 multi-agent pipeline. Agent 2 inference is BIG model
+    # (gpt-oss-120b) but its output is structured + slim — same 2000 cap
+    # as v6 inference is plenty. Agent 5 response is BIG model with R1
+    # → R2 → R3 → R4 in one call; gpt-oss-120b emits reasoning_content
+    # which counts against budget, so 1600. Agent P also BIG.
+    "agent1_user_intent": _max_tokens("agent1_user_intent", 400),
+    "agent2_inference_v7": _max_tokens("agent2_inference_v7", 2000),
+    "agentX_rolling_summary": _max_tokens("agentX_rolling_summary", 600),
+    "agent3a_attr_update": _max_tokens("agent3a_attr_update", 1200),
+    "agent3b_ttm_intent": _max_tokens("agent3b_ttm_intent", 600),
+    "agent5_response_v7": _max_tokens("agent5_response_v7", 1600),
+    "agent5_response_v8": _max_tokens("agent5_response_v8", 1600),
+    "agent_p_persona_update": _max_tokens("agent_p_persona_update", 1500),
+    # v3 multi-agent pipeline. agent3_problem_v3 runs on gpt-oss-20b
+    # (per SMALL_MODEL_ROLES) — reasoning_content overhead means we
+    # need 2500 like agent3a_attr_update. agent2_inference_v3 and
+    # agent5_response_v3 use the same caps as their v7 counterparts.
+    "agent2_inference_v3": _max_tokens("agent2_inference_v3", 2000),
+    "agent3_problem_v3": _max_tokens("agent3_problem_v3", 2500),
+    "agent5_response_v3": _max_tokens("agent5_response_v3", 1600),
     # Legacy v1–v5 roles fall through to the default (no cap).
 }
 
@@ -664,3 +791,46 @@ MAX_TOKENS_BY_ROLE: Final[dict[str, int]] = {
 # generously high so legacy paths aren't accidentally truncated; vLLM
 # stops naturally at JSON close-brace anyway.
 DEFAULT_MAX_TOKENS: Final[int] = 4096
+
+
+# ---------------------------------------------------------------------------
+# v7 multi-agent pipeline knobs
+# ---------------------------------------------------------------------------
+
+# Agent 4 evidence selection: weighted-degree centrality with relative
+# threshold. A non-seed candidate's score is the sum of edge weights to
+# seeds; the candidate is kept iff score ≥ EDGE_THRESHOLD_TAU_V7 ×
+# max_score. Variable cardinality.
+EDGE_THRESHOLD_TAU_V7: Final[float] = float(
+    os.environ.get("HELPE_EDGE_TAU_V7", "0.5")
+)
+
+# V8 RAG selection — MMR only. Chunks are scored by MiniLM cosine,
+# diversified by MMR, and the top-K (default 8) returned. There is no
+# absolute cosine floor — the legacy floor was archived under
+# _archive/retrieval_legacy/v8_min_cosine_floor.py.
+V8_MMR_LAMBDA: Final[float] = float(
+    os.environ.get("HELPE_V8_MMR_LAMBDA", "0.5")
+)
+V8_MMR_FETCH_K: Final[int] = int(
+    os.environ.get("HELPE_V8_MMR_FETCH_K", "20")
+)
+
+# Length of the rolling summary window maintained by Agent X.
+ROLLING_SUMMARY_N_TURNS: Final[int] = int(
+    os.environ.get("HELPE_ROLLING_SUMMARY_N", "5")
+)
+
+# Number of past turns Agent 2 sees as raw dialogue context (for
+# coreference). Separate from Agent 1's input which uses the rolling
+# summary instead of raw turns.
+AGENT2_RECENT_TURNS_N: Final[int] = int(
+    os.environ.get("HELPE_AGENT2_RECENT_N", "2")
+)
+
+# How many past turns of (main_problem, MISC) pairs to surface to
+# Agent 5 as a diversity hint (anti-repetition for MISC choices).
+AGENT5_PAST_TURNS_HINT_N: Final[int] = int(
+    os.environ.get("HELPE_AGENT5_PAST_HINT_N", "2")
+)
+

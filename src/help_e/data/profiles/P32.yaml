@@ -1,0 +1,51 @@
+profile_id: P32
+source_emocare_id: null
+source_emocare_type: smoking cessation ambivalence
+seed_situation_paragraph: I've been smoking for about 15 years, started in college and
+  it just stuck. I'm 42 now with two kids — my oldest is seven and last week she asked
+  me why I smell like cigarettes. My GP flagged early signs of COPD at my last checkup
+  and said the next decade matters. I've quit twice before — once for three months when
+  my wife was pregnant, once for a couple of weeks last New Year's — and both times
+  I was back to a pack a day within a month. I want to quit, but I also feel like I've
+  proved to myself that I can't, and I'm scared to try again and fail in front of the
+  kids.
+primary_problem: smoking_cessation
+session_arc:
+- 'session 1: establish wanting to quit; surface perceived severity (COPD, kids) and barriers'
+- 'session 2: explore past quit attempts; first TTM move if natural'
+- 'session 3: introduce parenting / role-model concern; progress on plan'
+- 'session 4: deeper work on coping for cravings; relapse prevention'
+persona_draft:
+  personality_traits:
+  - protective parent
+  - self-critical after past relapses
+  - practical
+  - financially aware
+  communication_style:
+  - direct
+  - matter-of-fact about the medical risks
+  - softens when talking about kids
+  - tends to minimize his own struggle
+  relevant_history: 15 pack-years; quit for 3 months during wife's pregnancy, 2 weeks
+    last NYE; recent GP visit flagged early COPD signs.
+  _raw_seeker_profile: '42   Gender: Male   Career: HVAC Technician   Location: Cleveland,
+    OH   Traits/Hobbies: Protective parent of two young kids, 15-year smoker, recently
+    flagged for early COPD by his GP, household budget tight.'
+  demographics:
+    age_range: '42'
+    gender: male
+    occupation: HVAC Technician
+    education: trade school
+    life_stage: adult
+    location: Cleveland, Ohio
+  core_beliefs:
+  - I should be able to quit if I really wanted to
+  - my kids deserve a healthy dad
+  - if I fail again it'll be worse than not trying
+  hobbies_interests:
+  - coaching his daughter's youth soccer team
+  - working on his truck on weekends
+  - watching football with neighbors (often with smoke breaks)
+initial_graph: null
+blurb: 42-year-old father of two, 15-year smoker, GP flagged early COPD; two prior
+  quit attempts both relapsed; afraid to try again.

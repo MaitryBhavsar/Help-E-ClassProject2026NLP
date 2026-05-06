@@ -1,83 +1,96 @@
 """FastAPI backend for the interactive demo UI.
 
-Each conversation is a per-profile, per-system run with an in-memory graph
-and transcript. A single user-message POST drives one full per-turn
-pipeline (extraction → graph update → retrieval → MI candidates → merged
-response for v4/v5; the baseline turn_fns for v1/v2/v3). The turn's raw
-artifacts (trace, bundle, candidates, merged) are returned to the UI.
+Each conversation is a per-profile, per-system run with an in-memory
+graph and transcript. The UI currently supports v1/v3/v7/v8 using the
+same v6-aligned turn_fn signature/response shape.
 
 Run:
-    python -m help_e.ui.server
-then open http://localhost:8000.
+    ./scripts/run_ui.sh
+then open http://127.0.0.1:8765 (override with HELPE_UI_PORT).
 """
 
 from __future__ import annotations
 
 import asyncio
+import json
 import logging
+import os
+import tempfile
 import time
 import uuid
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
-from typing import Any, Optional, Union
+from typing import Any, Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
+
+# Per-browser identity used to scope conversations on the public demo.
+# The frontend generates a UUID, stores it in localStorage, and sends
+# it on every API call as this header. Two visitors with different IDs
+# cannot see, list, open, or delete each other's conversations.
+CLIENT_ID_HEADER = "x-client-id"
+
+
+def _require_client_id(request: Request) -> str:
+    cid = (request.headers.get(CLIENT_ID_HEADER) or "").strip()
+    if not cid:
+        raise HTTPException(400, f"missing {CLIENT_ID_HEADER} header")
+    return cid
+
+
+def _get_owned(cid: str, client_id: str) -> "ConversationState":
+    state = _conversations.get(cid)
+    # Return 404 (not 403) so cross-client probes can't enumerate IDs.
+    if state is None or state.owner_client_id != client_id:
+        raise HTTPException(404, "conversation not found")
+    return state
+
 from .. import config
-from ..baselines.cami_adapter import cami_turn_fn
-from ..baselines.v1_history import v1_turn_fn
-from ..baselines.v3_ttm_from_summary import v3_turn_fn
-from ..baselines.v6_full import v6_turn_fn
-from ..graph import ProblemGraph
+from ..baselines.v1_full import v1_turn_fn
+from ..baselines.v3_full import v3_turn_fn
+from ..baselines.v7_full import v7_turn_fn
+from ..baselines.v8_full import v8_turn_fn
+from ..graph_v3 import ProblemGraphV3
 from ..graph_v6 import ProblemGraphV6
-from ..llm_client import CallContext, LLMClient, get_client
-from ..session_driver import (
-    ProfileSpec,
-    _load_or_seed_graph,
-    _pick_arc_cue,
-    list_profiles,
-    load_profile,
-)
+from ..graph_v7 import ProblemGraphV7
+from ..llm_client import CallContext, get_client
+from ..session_driver import ProfileSpec, list_profiles, load_profile
 from ..session_driver_v6 import _to_simulator_profile
-from ..simulator.mind1 import run_mind1
 from ..simulator.mind1_v6 import run_mind1_v6
-from ..simulator.session_context import (
-    SimulatorProfile,
-    format_session_context,
-    run_session_context,
-)
+from ..simulator.session_context import SimulatorProfile, run_session_context
 
 
 log = logging.getLogger(__name__)
 
+# Cached chat probes — GET /v1/models can be green while chat returns 401.
+_CHAT_PROBE_CACHE: Optional[tuple[float, dict[str, Any]]] = None
+_CHAT_PROBE_TTL_S: float = 120.0
+
 
 SYSTEMS: dict[str, Any] = {
-    "v1": {
-        "label": "v1 — history-only (baseline)",
-        "turn_fn": v1_turn_fn,
-        "description": "No graph, no TTM. Simple MI rule on the last user message.",
-        "variant": "v5",
-    },
     "v3": {
         "label": "v3 — summary + TTM inference",
         "turn_fn": v3_turn_fn,
         "description": "Per-problem running summaries plus per-problem TTM stage inferred from the summary. No attribute graph.",
-        "variant": "v5",
     },
-    "v6": {
-        "label": "v6 — redesigned MI/HBM/TTM with full graph",
-        "turn_fn": v6_turn_fn,
-        "description": "MISC-aligned MI moves, HBM attributes inside problem nodes, typed problem-problem edges, session-context simulator framing. Cold-start: no pre-seeding.",
-        "variant": "v6",
+    "v1": {
+        "label": "v1 — history-only (baseline)",
+        "turn_fn": v1_turn_fn,
+        "description": "No graph, no TTM. Simple MI rule on the last user message.",
     },
-    "cami": {
-        "label": "CAMI — STAR-framework MI counselor baseline",
-        "turn_fn": cami_turn_fn,
-        "description": "Single-problem CAMI counselor integrated into HELP-E evaluator.",
-        "variant": "v6",
+    "v7": {
+        "label": "v7 — multi-agent graph pipeline",
+        "turn_fn": v7_turn_fn,
+        "description": "Multi-agent graph pipeline with per-problem attributes, TTM, and edge summaries.",
+    },
+    "v8": {
+        "label": "v8 — multi-agent + dense retrieval (latest)",
+        "turn_fn": v8_turn_fn,
+        "description": "V7-style graph pipeline with dense retrieval over graph evidence.",
     },
 }
 
@@ -98,33 +111,276 @@ class TurnRecord:
     merged: dict
     graph_snapshot: dict
     elapsed_s: float
-    variant: str = "v5"
+    variant: str = "v6"
     extras: dict = field(default_factory=dict)
 
 
 @dataclass
 class ConversationState:
+    """Multi-session conversation state.
+
+    `turns_by_session[N]` holds the ordered turns of session N. Sessions
+    are 1-indexed; new sessions are added by `start_new_session()`. The
+    `turns` property exposes a flat list for any caller that wants the
+    full history regardless of session boundary (kept for compatibility
+    with the existing renderer).
+    """
+
     id: str
     system: str
     profile_id: str
-    graph: Union[ProblemGraph, ProblemGraphV6]
+    graph: Any
     profile: ProfileSpec
+    owner_client_id: str = ""  # X-Client-ID of the browser that created this convo
     mode: str = "human"  # "human": user types; "agent": Mind-1 generates user turns
     transcript: list[dict] = field(default_factory=list)
     traces: list = field(default_factory=list)
     previous_main_problem: Optional[str] = None
-    turns: list[TurnRecord] = field(default_factory=list)
+    turns_by_session: dict[int, list[TurnRecord]] = field(default_factory=dict)
+    session_started_ts: dict[int, float] = field(default_factory=dict)
+    session_ended_ts: dict[int, Optional[float]] = field(default_factory=dict)
     session_id: int = 1
     prior_session_summary: Optional[str] = None
     lock: asyncio.Lock = field(default_factory=asyncio.Lock)
     created_ts: float = field(default_factory=time.time)
-    # v6-only state (None for v1–v5)
+    updated_ts: float = field(default_factory=time.time)
     simulator_profile: Optional[SimulatorProfile] = None
     session_context: Optional[dict] = None
     last_system_message: Optional[str] = None
 
+    @property
+    def turns(self) -> list[TurnRecord]:
+        """Flat list across sessions in session-then-turn order."""
+        out: list[TurnRecord] = []
+        for sid in sorted(self.turns_by_session.keys()):
+            out.extend(self.turns_by_session[sid])
+        return out
+
+    def current_turns(self) -> list[TurnRecord]:
+        return self.turns_by_session.setdefault(self.session_id, [])
+
 
 _conversations: dict[str, ConversationState] = {}
+_persistence_lock = asyncio.Lock()
+
+
+def _new_graph_for_system(system: str, profile_id: str) -> Any:
+    if system in ("v7", "v8"):
+        return ProblemGraphV7(profile_id=profile_id)
+    # v1 reuses ProblemGraphV3 for plumbing (problems/edges stay empty;
+    # only persona + rolling_summary_5turns are populated).
+    if system in ("v1", "v3"):
+        return ProblemGraphV3(profile_id=profile_id)
+    return ProblemGraphV6(profile_id=profile_id)
+
+
+def _graph_from_json_for_system(system: str, payload: dict, profile_id: str) -> Any:
+    if system in ("v7", "v8"):
+        return ProblemGraphV7.from_json_dict(payload or {"profile_id": profile_id})
+    if system in ("v1", "v3"):
+        return ProblemGraphV3.from_json_dict(payload or {"profile_id": profile_id})
+    return ProblemGraphV6.from_json_dict(payload or {"profile_id": profile_id})
+
+
+# ---------------------------------------------------------------------------
+# Persistence — one JSON file per conversation under UI_CONVERSATIONS_DIR.
+# ---------------------------------------------------------------------------
+
+
+def _state_dir() -> Path:
+    config.UI_CONVERSATIONS_DIR.mkdir(parents=True, exist_ok=True)
+    return config.UI_CONVERSATIONS_DIR
+
+
+def _state_path(cid: str) -> Path:
+    return _state_dir() / f"{cid}.json"
+
+
+def _record_to_dict(record: TurnRecord) -> dict:
+    return {
+        "turn_id": record.turn_id,
+        "user_message": record.user_message,
+        "assistant_response": record.assistant_response,
+        "trace": record.trace,
+        "bundle": record.bundle,
+        "candidates": list(record.candidates),
+        "merged": record.merged,
+        "graph_snapshot": record.graph_snapshot,
+        "elapsed_s": record.elapsed_s,
+        "variant": record.variant,
+        "extras": record.extras,
+    }
+
+
+def _record_from_dict(d: dict) -> TurnRecord:
+    return TurnRecord(
+        turn_id=int(d["turn_id"]),
+        user_message=d.get("user_message", ""),
+        assistant_response=d.get("assistant_response", ""),
+        trace=d.get("trace") or {},
+        bundle=d.get("bundle"),
+        candidates=list(d.get("candidates") or []),
+        merged=d.get("merged") or {},
+        graph_snapshot=d.get("graph_snapshot") or {},
+        elapsed_s=float(d.get("elapsed_s") or 0.0),
+        variant=d.get("variant") or "v6",
+        extras=d.get("extras") or {},
+    )
+
+
+def _serialize_state(state: ConversationState) -> dict:
+    sessions: list[dict] = []
+    for sid in sorted(state.turns_by_session.keys()):
+        sessions.append({
+            "session_id": sid,
+            "started_ts": state.session_started_ts.get(sid),
+            "ended_ts": state.session_ended_ts.get(sid),
+            "turns": [_record_to_dict(t) for t in state.turns_by_session[sid]],
+        })
+    sim_profile = (
+        asdict(state.simulator_profile) if state.simulator_profile is not None
+        else None
+    )
+    return {
+        "schema_version": 2,
+        "conversation_id": state.id,
+        "system": state.system,
+        "profile_id": state.profile_id,
+        "owner_client_id": state.owner_client_id,
+        "mode": state.mode,
+        "created_ts": state.created_ts,
+        "updated_ts": state.updated_ts,
+        "current_session_id": state.session_id,
+        "previous_main_problem": state.previous_main_problem,
+        "last_system_message": state.last_system_message,
+        "session_context": state.session_context,
+        "simulator_profile": sim_profile,
+        "graph": state.graph.to_json_dict(),
+        "transcript": list(state.transcript),
+        "sessions": sessions,
+    }
+
+
+async def _save_state(state: ConversationState) -> None:
+    """Atomic write: temp file in same dir, then os.replace."""
+    state.updated_ts = time.time()
+    payload = _serialize_state(state)
+    path = _state_path(state.id)
+    async with _persistence_lock:
+        await asyncio.to_thread(_atomic_write_json, path, payload)
+
+
+def _atomic_write_json(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=str(path.parent))
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        os.replace(tmp, path)
+    except Exception:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
+def _delete_state_file(cid: str) -> None:
+    path = _state_path(cid)
+    try:
+        path.unlink()
+    except FileNotFoundError:
+        pass
+    except OSError as e:
+        log.warning("failed to delete UI state file %s: %s", path, e)
+
+
+def _hydrate_state(d: dict) -> Optional[ConversationState]:
+    """Best-effort rebuild of a ConversationState from a persisted dict.
+
+    Returns None if the file is too damaged to be useful (e.g. missing
+    profile, broken graph). The caller logs the skip and continues.
+    """
+    cid = d.get("conversation_id")
+    system = d.get("system")
+    profile_id = d.get("profile_id")
+    if not cid or system not in SYSTEMS or not profile_id:
+        return None
+    try:
+        profile = load_profile(profile_id)
+    except Exception as e:
+        log.warning("hydration: profile %r missing for cid=%s: %s", profile_id, cid, e)
+        return None
+    try:
+        graph = _graph_from_json_for_system(system, d.get("graph") or {}, profile_id)
+    except Exception as e:
+        log.warning("hydration: graph rebuild failed for cid=%s: %s", cid, e)
+        graph = _new_graph_for_system(system, profile_id)
+
+    sim_profile_d = d.get("simulator_profile")
+    sim_profile: Optional[SimulatorProfile] = None
+    if isinstance(sim_profile_d, dict):
+        try:
+            sim_profile = SimulatorProfile(**sim_profile_d)
+        except TypeError as e:
+            log.warning("hydration: simulator_profile malformed for cid=%s: %s", cid, e)
+
+    state = ConversationState(
+        id=cid,
+        system=system,
+        profile_id=profile_id,
+        graph=graph,
+        profile=profile,
+        owner_client_id=d.get("owner_client_id") or "",
+        mode=d.get("mode") or "human",
+        previous_main_problem=d.get("previous_main_problem"),
+        simulator_profile=sim_profile,
+        session_context=d.get("session_context"),
+        last_system_message=d.get("last_system_message"),
+        session_id=int(d.get("current_session_id") or 1),
+        created_ts=float(d.get("created_ts") or time.time()),
+        updated_ts=float(d.get("updated_ts") or time.time()),
+    )
+    state.transcript = list(d.get("transcript") or [])
+    sessions = d.get("sessions") or []
+    for sess in sessions:
+        sid = int(sess.get("session_id") or 1)
+        state.turns_by_session[sid] = [
+            _record_from_dict(t) for t in (sess.get("turns") or [])
+        ]
+        started = sess.get("started_ts")
+        if started is not None:
+            state.session_started_ts[sid] = float(started)
+        ended = sess.get("ended_ts")
+        state.session_ended_ts[sid] = float(ended) if ended is not None else None
+    # Make sure the current session always has a turns list, even if empty.
+    state.turns_by_session.setdefault(state.session_id, [])
+    state.session_started_ts.setdefault(state.session_id, state.created_ts)
+    return state
+
+
+def _load_all_states() -> int:
+    """Load every {cid}.json on startup. Returns count loaded.
+
+    Skips unreadable / corrupt files with a warning rather than crashing
+    — the UI should still come up if one conversation file is bad.
+    """
+    d = _state_dir()
+    loaded = 0
+    for path in sorted(d.glob("*.json")):
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                payload = json.load(f)
+        except Exception as e:
+            log.warning("ui-persistence: skipping unreadable %s: %s", path, e)
+            continue
+        state = _hydrate_state(payload)
+        if state is None:
+            log.warning("ui-persistence: skipping unhydratable %s", path)
+            continue
+        _conversations[state.id] = state
+        loaded += 1
+    return loaded
 
 
 # ---------------------------------------------------------------------------
@@ -138,9 +394,25 @@ _STATIC_DIR = Path(__file__).parent / "static"
 app.mount("/static", StaticFiles(directory=str(_STATIC_DIR)), name="static")
 
 
+@app.on_event("startup")
+def _hydrate_on_startup() -> None:
+    try:
+        n = _load_all_states()
+    except Exception as e:
+        log.exception("ui-persistence: hydration failed: %s", e)
+        return
+    log.info(
+        "ui-persistence: loaded %d conversation(s) from %s", n,
+        config.UI_CONVERSATIONS_DIR,
+    )
+
+
 @app.get("/")
 def index() -> FileResponse:
-    return FileResponse(str(_STATIC_DIR / "index.html"))
+    return FileResponse(
+        str(_STATIC_DIR / "index.html"),
+        headers={"Cache-Control": "no-store"},
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -149,9 +421,9 @@ def index() -> FileResponse:
 
 
 @app.get("/api/health")
-def health() -> dict:
+def health(verify_chat: bool = Query(False)) -> dict:
     client = get_client()
-    return {
+    out: dict[str, Any] = {
         "ok": True,
         "main_url": client.main_url,
         "main_model": client.main_model,
@@ -159,6 +431,27 @@ def health() -> dict:
         "sim_model": client.sim_model,
         "ollama_reachable": client.ping(),
     }
+    if verify_chat:
+        global _CHAT_PROBE_CACHE
+        now = time.time()
+        if (
+            _CHAT_PROBE_CACHE is not None
+            and (now - _CHAT_PROBE_CACHE[0]) < _CHAT_PROBE_TTL_S
+        ):
+            out["chat_completion"] = _CHAT_PROBE_CACHE[1]
+        else:
+            probes = client.probe_all_chat_endpoints()
+            _CHAT_PROBE_CACHE = (now, probes)
+            out["chat_completion"] = probes
+            main_ok = probes.get("main", {}).get("ok")
+            sim_ok = probes.get("sim", {}).get("ok")
+            if not main_ok or not sim_ok:
+                log.warning(
+                    "ui health: chat probe failed main=%s sim=%s",
+                    probes.get("main"),
+                    probes.get("sim"),
+                )
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -205,7 +498,8 @@ class NewConversationRequest(BaseModel):
 
 
 @app.post("/api/conversations")
-async def api_new_conversation(req: NewConversationRequest) -> dict:
+async def api_new_conversation(req: NewConversationRequest, request: Request) -> dict:
+    client_id = _require_client_id(request)
     if req.system not in SYSTEMS:
         raise HTTPException(400, f"unknown system {req.system!r}")
     if req.mode not in ("human", "agent"):
@@ -215,73 +509,52 @@ async def api_new_conversation(req: NewConversationRequest) -> dict:
     except FileNotFoundError:
         raise HTTPException(404, f"profile {req.profile_id!r} not found")
 
-    variant = SYSTEMS[req.system]["variant"]
+    log.info(
+        "ui: new conversation system=%s profile=%s mode=%s client=%s",
+        req.system, req.profile_id, req.mode, client_id[:8],
+    )
+
     cid = uuid.uuid4().hex[:12]
-
-    if variant == "v6":
-        graph_v6 = ProblemGraphV6(profile_id=profile.profile_id)
-        sim_profile = _to_simulator_profile(profile)
-        sc_ctx = CallContext(
-            profile_id=profile.profile_id, session_id=1, system=req.system,
-            turn_id=0, call_role="session_context",
+    graph_state = _new_graph_for_system(req.system, profile.profile_id)
+    sim_profile = _to_simulator_profile(profile)
+    sc_ctx = CallContext(
+        profile_id=profile.profile_id, session_id=1, system=req.system,
+        turn_id=0, call_role="session_context",
+    )
+    client = get_client()
+    try:
+        session_context = await asyncio.to_thread(
+            run_session_context,
+            client=client, ctx=sc_ctx,
+            profile=sim_profile,
         )
-        client = get_client()
-        try:
-            session_context = await asyncio.to_thread(
-                run_session_context,
-                client=client, ctx=sc_ctx,
-                profile=sim_profile,
-            )
-        except Exception as e:
-            log.exception("session_context failed: %s", e)
-            raise HTTPException(500, f"session_context failed: {e}")
+    except Exception as e:
+        log.exception("session_context failed: %s", e)
+        raise HTTPException(500, f"session_context failed: {e}")
 
-        state = ConversationState(
-            id=cid,
-            system=req.system,
-            profile_id=req.profile_id,
-            graph=graph_v6,
-            profile=profile,
-            mode=req.mode,
-            previous_main_problem=None,  # v6 cold-start: no pre-seeded main
-            simulator_profile=sim_profile,
-            session_context=session_context,
-            last_system_message=None,
-        )
-        _conversations[cid] = state
-        arc_cue = (
-            session_context.get("why_bringing_these_up_now")
-            or session_context.get("current_life_events", "")
-        )
-        return {
-            "conversation_id": cid,
-            "system": req.system,
-            "system_label": SYSTEMS[req.system]["label"],
-            "profile_id": profile.profile_id,
-            "profile_blurb": profile.blurb or profile.seed_situation_paragraph,
-            "primary_problem": profile.primary_problem,
-            "mode": state.mode,
-            "session_arc_cue": arc_cue,
-            "initial_graph": graph_v6.to_json_dict(),
-            "variant": "v6",
-            "session_context": session_context,
-        }
-
-    # v1–v5 path
-    graph = _load_or_seed_graph(profile)
     state = ConversationState(
         id=cid,
         system=req.system,
         profile_id=req.profile_id,
-        graph=graph,
+        graph=graph_state,
         profile=profile,
+        owner_client_id=client_id,
         mode=req.mode,
-        previous_main_problem=profile.primary_problem,
+        previous_main_problem=None,  # v6 cold-start: no pre-seeded main
+        simulator_profile=sim_profile,
+        session_context=session_context,
+        last_system_message=None,
     )
-    # Snapshot traces list onto graph for the retrieval helper used by v4/v5
-    # (bundle builder reads `graph._session_traces` if present).
-    state.graph._session_traces = state.traces  # type: ignore[attr-defined]
+    # Initialize session 1 bookkeeping.
+    state.turns_by_session[1] = []
+    state.session_started_ts[1] = state.created_ts
+    state.session_ended_ts[1] = None
     _conversations[cid] = state
+    await _save_state(state)
+    arc_cue = (
+        session_context.get("why_bringing_these_up_now")
+        or session_context.get("current_life_events", "")
+    )
     return {
         "conversation_id": cid,
         "system": req.system,
@@ -290,9 +563,10 @@ async def api_new_conversation(req: NewConversationRequest) -> dict:
         "profile_blurb": profile.blurb or profile.seed_situation_paragraph,
         "primary_problem": profile.primary_problem,
         "mode": state.mode,
-        "session_arc_cue": _pick_arc_cue(profile, state.session_id),
-        "initial_graph": graph.to_dict(),
-        "variant": "v5",
+        "session_arc_cue": arc_cue,
+        "initial_graph": graph_state.to_json_dict(),
+        "variant": req.system,
+        "session_context": session_context,
     }
 
 
@@ -302,96 +576,21 @@ class MessageRequest(BaseModel):
 
 async def _run_turn(state: ConversationState, user_message: str,
                     *, agent_generated: bool) -> dict:
-    """Append a user turn and run the per-turn pipeline. Caller must hold state.lock."""
-    variant = SYSTEMS[state.system]["variant"]
-    if variant == "v6":
-        return await _run_turn_v6(
-            state, user_message, agent_generated=agent_generated,
-        )
-    return await _run_turn_v5(
-        state, user_message, agent_generated=agent_generated,
-    )
+    """Append a user turn and run the per-turn pipeline. Caller must hold state.lock.
 
-
-async def _run_turn_v5(state: ConversationState, user_message: str,
-                       *, agent_generated: bool) -> dict:
-    turn_id = len(state.turns) + 1
+    All four systems (v1, v3, v7, v8) share the v6-aligned turn_fn signature
+    and the v6 response shape, so this dispatch is uniform.
+    """
+    current = state.current_turns()
+    turn_id = len(current) + 1
     state.transcript.append({
         "role": "user", "turn_id": turn_id, "text": user_message,
-    })
-
-    turn_fn = SYSTEMS[state.system]["turn_fn"]
-    client = get_client()
-    recent_turns = state.transcript[-(config.LAST_N_TURNS * 2):-1]  # exclude just-added user turn
-
-    t0 = time.monotonic()
-    def _call() -> dict:
-        return turn_fn(
-            client=client,
-            ctx_profile=state.profile_id,
-            system=state.system,
-            session_id=state.session_id,
-            turn_id=turn_id,
-            user_message=user_message,
-            recent_turns=recent_turns,
-            prior_session_summary=state.prior_session_summary,
-            previous_main_problem=state.previous_main_problem,
-            graph=state.graph,
-            last_n_turns=config.LAST_N_TURNS,
-        )
-
-    try:
-        result = await asyncio.to_thread(_call)
-    except Exception as e:
-        log.exception("turn_fn failed: %s", e)
-        state.transcript.pop()
-        raise HTTPException(500, f"turn_fn failed: {e}")
-    elapsed = time.monotonic() - t0
-
-    trace = result["trace"]
-    state.traces.append(trace)
-    if trace.main_problem:
-        state.previous_main_problem = trace.main_problem
-
-    merged = result.get("merged") or {}
-    assistant_text = merged.get("response", "")
-    state.transcript.append({
-        "role": "assistant", "turn_id": turn_id, "text": assistant_text,
-    })
-
-    record = TurnRecord(
-        turn_id=turn_id,
-        user_message=user_message,
-        assistant_response=assistant_text,
-        trace=_trace_to_dict(trace),
-        bundle=result.get("bundle"),
-        candidates=result.get("candidates") or [],
-        merged=merged,
-        graph_snapshot=state.graph.to_dict(),
-        elapsed_s=round(elapsed, 2),
-        variant="v5",
-    )
-    state.turns.append(record)
-    payload = _turn_payload(record)
-    payload["agent_generated"] = agent_generated
-    return payload
-
-
-# v6 redesign: response trace already carries `chosen_misc_codes`
-# (extracted by `baselines.v6_full._extract_misc_codes_from_reasoning`),
-# so the UI no longer needs its own MISC-code regex.
-
-
-async def _run_turn_v6(state: ConversationState, user_message: str,
-                       *, agent_generated: bool) -> dict:
-    turn_id = len(state.turns) + 1
-    state.transcript.append({
-        "role": "user", "turn_id": turn_id, "text": user_message,
+        "session_id": state.session_id,
     })
 
     client = get_client()
-    turn_fn = SYSTEMS[state.system]["turn_fn"]
     recent_turns = state.transcript[-(config.LAST_N_TURNS * 2):-1]
+    turn_fn = SYSTEMS[state.system]["turn_fn"]
 
     t0 = time.monotonic()
     def _call() -> dict:
@@ -412,9 +611,9 @@ async def _run_turn_v6(state: ConversationState, user_message: str,
     try:
         result = await asyncio.to_thread(_call)
     except Exception as e:
-        log.exception("v6 turn_fn failed: %s", e)
+        log.exception("%s turn_fn failed: %s", state.system, e)
         state.transcript.pop()
-        raise HTTPException(500, f"v6 turn_fn failed: {e}")
+        raise HTTPException(500, f"{state.system} turn_fn failed: {e}")
     elapsed = time.monotonic() - t0
 
     raw_trace = result.get("trace") or {}
@@ -495,6 +694,7 @@ async def _run_turn_v6(state: ConversationState, user_message: str,
 
     state.transcript.append({
         "role": "assistant", "turn_id": turn_id, "text": final_response,
+        "session_id": state.session_id,
     })
     state.last_system_message = final_response or None
 
@@ -508,7 +708,7 @@ async def _run_turn_v6(state: ConversationState, user_message: str,
         merged=merged,
         graph_snapshot=state.graph.to_json_dict(),
         elapsed_s=round(elapsed, 2),
-        variant="v6",
+        variant=state.system,
         extras={
             "inference": result.get("inference"),
             "recompute": result.get("recompute"),
@@ -522,17 +722,17 @@ async def _run_turn_v6(state: ConversationState, user_message: str,
             "attr_conn_added": raw_trace.get("attr_conn_added", 0),
         },
     )
-    state.turns.append(record)
+    current.append(record)
     payload = _turn_payload(record)
     payload["agent_generated"] = agent_generated
+    payload["session_id"] = state.session_id
+    await _save_state(state)
     return payload
 
 
 @app.post("/api/conversations/{cid}/messages")
-async def api_post_message(cid: str, req: MessageRequest) -> dict:
-    state = _conversations.get(cid)
-    if state is None:
-        raise HTTPException(404, "conversation not found")
+async def api_post_message(cid: str, req: MessageRequest, request: Request) -> dict:
+    state = _get_owned(cid, _require_client_id(request))
     user_message = req.message.strip()
     if not user_message:
         raise HTTPException(400, "empty message")
@@ -542,92 +742,137 @@ async def api_post_message(cid: str, req: MessageRequest) -> dict:
 
 
 @app.post("/api/conversations/{cid}/agent_reply")
-async def api_agent_reply(cid: str) -> dict:
+async def api_agent_reply(cid: str, request: Request) -> dict:
     """Generate the next user utterance via Mind-1, then run the turn pipeline."""
-    state = _conversations.get(cid)
-    if state is None:
-        raise HTTPException(404, "conversation not found")
+    state = _get_owned(cid, _require_client_id(request))
 
     async with state.lock:
-        turn_id = len(state.turns) + 1
+        turn_id = len(state.current_turns()) + 1
         client = get_client()
-        variant = SYSTEMS[state.system]["variant"]
-
-        if variant == "v6":
-            if state.simulator_profile is None or state.session_context is None:
-                raise HTTPException(500, "v6 conversation missing simulator state")
-            m1_ctx = CallContext(
-                profile_id=state.profile_id,
-                session_id=state.session_id,
-                system=state.system,
-                turn_id=turn_id,
-                call_role="mind1_v6",
-            )
-            past_turns_for_mind1 = list(state.transcript)
-
-            def _mind1_v6() -> dict:
-                return run_mind1_v6(
-                    client=client,
-                    ctx=m1_ctx,
-                    profile=state.simulator_profile,
-                    session_context=state.session_context,
-                    past_turns=past_turns_for_mind1,
-                    last_system_message=state.last_system_message,
-                )
-
-            try:
-                mind1_out = await asyncio.to_thread(_mind1_v6)
-            except Exception as e:
-                log.exception("mind1_v6 failed: %s", e)
-                raise HTTPException(500, f"mind1_v6 failed: {e}")
-
-            user_message = (mind1_out.get("simulated_user_message") or "").strip()
-            if not user_message:
-                raise HTTPException(500, "mind1_v6 returned empty utterance")
-            return await _run_turn(state, user_message, agent_generated=True)
-
-        # v1–v5 path
-        mind1_ctx = CallContext(
+        if state.simulator_profile is None or state.session_context is None:
+            raise HTTPException(500, "conversation missing simulator state")
+        m1_ctx = CallContext(
             profile_id=state.profile_id,
             session_id=state.session_id,
             system=state.system,
             turn_id=turn_id,
-            call_role="mind1",
+            call_role="mind1_v6",
         )
-        recent_turns = state.transcript[-(config.LAST_N_TURNS * 2):]
+        past_turns_for_mind1 = list(state.transcript)
 
-        def _mind1() -> dict:
-            return run_mind1(
+        def _mind1_v6() -> dict:
+            return run_mind1_v6(
                 client=client,
-                ctx=mind1_ctx,
-                persona=state.profile.to_mind1_persona(),
-                session_arc_cue=_pick_arc_cue(state.profile, state.session_id),
-                prior_session_summary=state.prior_session_summary,
-                recent_turns=recent_turns,
+                ctx=m1_ctx,
+                profile=state.simulator_profile,
+                session_context=state.session_context,
+                past_turns=past_turns_for_mind1,
+                last_system_message=state.last_system_message,
             )
 
         try:
-            mind1_out = await asyncio.to_thread(_mind1)
+            mind1_out = await asyncio.to_thread(_mind1_v6)
         except Exception as e:
-            log.exception("mind1 failed: %s", e)
-            raise HTTPException(500, f"mind1 failed: {e}")
+            log.exception("mind1_v6 failed: %s", e)
+            raise HTTPException(500, f"mind1_v6 failed: {e}")
 
-        user_message = (mind1_out.get("utterance") or "").strip()
+        user_message = (mind1_out.get("simulated_user_message") or "").strip()
         if not user_message:
-            raise HTTPException(500, "mind1 returned empty utterance")
-
+            raise HTTPException(500, "mind1_v6 returned empty utterance")
         return await _run_turn(state, user_message, agent_generated=True)
 
 
+@app.post("/api/conversations/{cid}/sessions")
+async def api_start_new_session(cid: str, request: Request) -> dict:
+    """Start a new session inside an existing conversation.
+
+    Mirrors the v6 matrix pipeline: bumps `session_id`, re-runs
+    `run_session_context` for the new arc cue, but keeps the same
+    `ProblemGraphV6` in memory and does NOT compute a session summary
+    (matrix sets `prior_session_summary=None` between sessions —
+    `session_driver_v6.py:327`). The graph is the cross-session memory.
+    """
+    state = _get_owned(cid, _require_client_id(request))
+
+    async with state.lock:
+        prior_sid = state.session_id
+        # Don't allow opening a fresh empty session on top of an empty one.
+        if not state.turns_by_session.get(prior_sid):
+            raise HTTPException(
+                400,
+                f"session {prior_sid} has no turns yet — send at least one "
+                "message before starting a new session.",
+            )
+        state.session_ended_ts[prior_sid] = time.time()
+
+        new_sid = prior_sid + 1
+        state.session_id = new_sid
+        state.turns_by_session[new_sid] = []
+        state.session_started_ts[new_sid] = time.time()
+        state.session_ended_ts[new_sid] = None
+        # Cross-session: graph carries forward (matrix contract). No summary.
+        state.prior_session_summary = None
+        # Reset per-session continuity hint; the new session starts fresh.
+        state.last_system_message = None
+
+        if state.simulator_profile is None:
+            log.warning("cid=%s missing simulator_profile; skipping session_context refresh", cid)
+            new_session_context = state.session_context
+        else:
+            sc_ctx = CallContext(
+                profile_id=state.profile_id, session_id=new_sid,
+                system=state.system, turn_id=0, call_role="session_context",
+            )
+            client = get_client()
+            try:
+                new_session_context = await asyncio.to_thread(
+                    run_session_context,
+                    client=client, ctx=sc_ctx,
+                    profile=state.simulator_profile,
+                )
+            except Exception as e:
+                log.exception("session_context failed for new session: %s", e)
+                raise HTTPException(500, f"session_context failed: {e}")
+            state.session_context = new_session_context
+
+        await _save_state(state)
+        arc_cue = ""
+        if isinstance(new_session_context, dict):
+            arc_cue = (
+                new_session_context.get("why_bringing_these_up_now")
+                or new_session_context.get("current_life_events", "")
+            )
+        return {
+            "conversation_id": cid,
+            "session_id": new_sid,
+            "session_arc_cue": arc_cue,
+            "session_context": new_session_context,
+        }
+
+
+def _sessions_payload(state: ConversationState) -> list[dict]:
+    out: list[dict] = []
+    for sid in sorted(state.turns_by_session.keys()):
+        out.append({
+            "session_id": sid,
+            "started_ts": state.session_started_ts.get(sid),
+            "ended_ts": state.session_ended_ts.get(sid),
+            "turns": [_turn_payload(t) for t in state.turns_by_session[sid]],
+        })
+    return out
+
+
+def _last_user_message(state: ConversationState) -> str:
+    for entry in reversed(state.transcript):
+        if entry.get("role") == "user":
+            text = entry.get("text") or ""
+            return text.strip().splitlines()[0][:140] if text else ""
+    return ""
+
+
 @app.get("/api/conversations/{cid}")
-def api_get_conversation(cid: str) -> dict:
-    state = _conversations.get(cid)
-    if state is None:
-        raise HTTPException(404, "conversation not found")
-    variant = SYSTEMS[state.system]["variant"]
-    graph_snapshot = (
-        state.graph.to_json_dict() if variant == "v6" else state.graph.to_dict()
-    )
+def api_get_conversation(cid: str, request: Request) -> dict:
+    state = _get_owned(cid, _require_client_id(request))
     return {
         "conversation_id": cid,
         "system": state.system,
@@ -637,34 +882,54 @@ def api_get_conversation(cid: str) -> dict:
         "primary_problem": state.profile.primary_problem,
         "mode": state.mode,
         "session_id": state.session_id,
-        "variant": variant,
+        "variant": state.system,
+        "created_ts": state.created_ts,
+        "updated_ts": state.updated_ts,
+        "session_context": state.session_context,
         "turns": [_turn_payload(t) for t in state.turns],
-        "graph_snapshot": graph_snapshot,
+        "sessions": _sessions_payload(state),
+        "graph_snapshot": state.graph.to_json_dict(),
     }
 
 
 @app.delete("/api/conversations/{cid}")
-def api_delete_conversation(cid: str) -> dict:
-    if cid in _conversations:
-        del _conversations[cid]
-        return {"deleted": True}
-    raise HTTPException(404, "conversation not found")
+async def api_delete_conversation(cid: str, request: Request) -> dict:
+    client_id = _require_client_id(request)
+    state = _conversations.get(cid)
+    if state is None or state.owner_client_id != client_id:
+        # 404 (not 403) so cross-client probes can't enumerate IDs.
+        raise HTTPException(404, "conversation not found")
+    del _conversations[cid]
+    async with _persistence_lock:
+        await asyncio.to_thread(_delete_state_file, cid)
+    return {"deleted": True}
 
 
 @app.get("/api/conversations")
-def api_list_conversations() -> dict:
-    return {
-        "conversations": [
-            {
-                "conversation_id": c.id,
-                "system": c.system,
-                "profile_id": c.profile_id,
-                "turn_count": len(c.turns),
-                "created_ts": c.created_ts,
-            }
-            for c in _conversations.values()
-        ]
-    }
+def api_list_conversations(request: Request) -> dict:
+    client_id = _require_client_id(request)
+    items: list[dict] = []
+    for c in _conversations.values():
+        if c.owner_client_id != client_id:
+            continue
+        total_turns = sum(len(ts) for ts in c.turns_by_session.values())
+        items.append({
+            "conversation_id": c.id,
+            "system": c.system,
+            "system_label": SYSTEMS[c.system]["label"],
+            "profile_id": c.profile_id,
+            "primary_problem": c.profile.primary_problem,
+            "mode": c.mode,
+            "current_session_id": c.session_id,
+            "session_count": len(c.turns_by_session),
+            "total_turns": total_turns,
+            "turn_count": total_turns,  # legacy field name
+            "last_user_message_excerpt": _last_user_message(c),
+            "created_ts": c.created_ts,
+            "updated_ts": c.updated_ts,
+        })
+    items.sort(key=lambda x: x.get("updated_ts") or 0.0, reverse=True)
+    return {"conversations": items}
 
 
 # ---------------------------------------------------------------------------
@@ -672,33 +937,21 @@ def api_list_conversations() -> dict:
 # ---------------------------------------------------------------------------
 
 
-def _trace_to_dict(trace) -> dict:
-    # TurnTrace is a dataclass in graph_update; asdict works.
-    if hasattr(trace, "__dataclass_fields__"):
-        return asdict(trace)
-    return dict(trace)
-
-
 def _turn_payload(record: TurnRecord) -> dict:
     trace = record.trace
     extraction = trace.get("extraction", {}) or {}
     snap = record.graph_snapshot or {}
-    # v6 stores problems as a dict; v1–v5 store them as a list.
     problems_field = snap.get("problems")
+    ttm_map: dict[str, Optional[str]] = {}
     if isinstance(problems_field, dict):
         ttm_map = {
             name: p.get("current_ttm_stage")
             for name, p in problems_field.items()
         }
-    else:
-        ttm_map = {
-            p["problem_name"]: p.get("current_ttm_stage")
-            for p in (problems_field or [])
-        }
     # v3 exposes inferred TTM on trace.extraction (ttm_stages_inferred).
     if "ttm_stages_inferred" in extraction:
         ttm_map.update(extraction["ttm_stages_inferred"])
-    payload = {
+    return {
         "turn_id": record.turn_id,
         "user_message": record.user_message,
         "assistant_response": record.assistant_response,
@@ -721,10 +974,8 @@ def _turn_payload(record: TurnRecord) -> dict:
         "graph_snapshot": record.graph_snapshot,
         "fallback_default": record.merged.get("_fallback_default", False),
         "variant": record.variant,
+        "v6": record.extras,
     }
-    if record.variant == "v6":
-        payload["v6"] = record.extras
-    return payload
 
 
 # ---------------------------------------------------------------------------
@@ -749,6 +1000,11 @@ def main() -> None:
 
     import uvicorn
 
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(levelname)s %(name)s: %(message)s",
+    )
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8000)
@@ -757,6 +1013,7 @@ def main() -> None:
     uvicorn.run(
         "help_e.ui.server:app",
         host=args.host, port=args.port, reload=args.reload,
+        log_level="info",
     )
 
 

@@ -9,7 +9,14 @@ pydantic>=2.8
 fastapi>=0.115
 uvicorn>=0.30
 
+# v8 RAG retriever (sentence-transformers MiniLM + MMR).
+# Required if you run --system v8.
+sentence-transformers>=2.2
+numpy>=1.26
+
+# Plot regeneration for analysis/v7_vs_v8/
+matplotlib>=3.7
+
 # Optional extras (uncomment if you want them)
 # wandb>=0.25                # experiment tracking
-# sentence-transformers>=5.0 # used by data/seed_profiles.py for offline profile generation
 # nltk>=3.9                  # auxiliary text utilities

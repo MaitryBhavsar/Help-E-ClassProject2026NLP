@@ -166,8 +166,10 @@ def _v4_extract_system() -> str:
              that captures what the user has said about it so far, and
              a TTM stage (one of {list(TTM_STAGES_V6)}) inferred from
              that summary's behavioral cues.
-          4. A single main_problem (one of those problem names, or null
-             if no clear focus).
+          4. A single main_problem — the problem in THIS turn that
+             most drives the current user_intent; if uncertain whether
+             a different problem outweighs the prior turn's
+             main_problem, keep the prior. Null if no problem content.
           5. problem_connections — a (possibly empty) list of free-form
              links between any TWO problems in the active list. Each
              connection has:

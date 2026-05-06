@@ -24,6 +24,7 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
+import os
 import re
 import threading
 import time
@@ -49,6 +50,12 @@ except ImportError:  # pragma: no cover
 from jsonschema import Draft202012Validator, ValidationError
 
 from . import config
+
+# Optional OpenAI/vLLM `reasoning_effort` knob (low|medium|high), env-gated so
+# only opted-in runs send it. gpt-oss models honor it; non-reasoning models
+# (e.g. Llama-3.3-70B) ignore unknown fields, but we still gate to keep
+# unrelated experiments' wire payloads byte-for-byte unchanged.
+_REASONING_EFFORT: Optional[str] = os.environ.get("HELPE_REASONING_EFFORT") or None
 
 log = logging.getLogger(__name__)
 
@@ -205,7 +212,7 @@ class CallContext:
 
     profile_id: str
     session_id: int
-    system: str  # "v1", "v2", "v3", "v4", "v5"
+    system: str  # "v1", "v3", "v4", "v6"
     turn_id: int
     call_role: str  # one of config.CALL_ROLES
 
@@ -260,6 +267,12 @@ class LLMClient:
     _global_semaphore: threading.Semaphore = field(
         default_factory=lambda: threading.Semaphore(2)
     )
+    # At most one in-flight chat completion to MAIN when the model is
+    # gpt-oss-120b (see _is_main_gpt_oss_120b_request). Does not apply to
+    # 20b/70b/judge/sim. Gated by config.SERIALIZE_MAIN_GPT_OSS_120B.
+    _main_gpt_oss_120b_semaphore: threading.Semaphore = field(
+        default_factory=lambda: threading.Semaphore(1)
+    )
     # Slow-call alarm: log a WARNING when any successful call exceeds
     # this many seconds. The log line is grep-able by monitors so the
     # user gets early notice of Lightning AI silent-slow windows.
@@ -294,6 +307,22 @@ class LLMClient:
     def url(self) -> str:
         return self.main_url
 
+    def _is_main_gpt_oss_120b_request(self, url: str, payload: dict) -> bool:
+        """True if this POST is to the MAIN base URL and the model is gpt-oss-120b.
+
+        Provider-specific model id strings (Lightning, Fireworks, vLLM) contain
+        ``gpt-oss`` and ``120``. Do not use ``\"20b\" in model`` — that matches
+        the suffix of ``gpt-oss-120b``. Exclude explicit 20b ids instead.
+        """
+        if url.rstrip("/") != self.main_url.rstrip("/"):
+            return False
+        model = (payload.get("model") or "").lower()
+        if "gpt-oss" not in model:
+            return False
+        if "gpt-oss-20b" in model or "gpt-oss:20b" in model:
+            return False
+        return "120" in model
+
     # -- health ------------------------------------------------------------
 
     def ping(self) -> dict[str, bool]:
@@ -318,6 +347,63 @@ class LLMClient:
             except requests.RequestException:
                 out[name] = False
         return out
+
+    def probe_chat_completion(
+        self,
+        *,
+        url: str,
+        model: str,
+        api_key: str,
+    ) -> dict[str, Any]:
+        """Minimal ``/v1/chat/completions`` request to verify Bearer auth.
+
+        ``ping()`` only hits ``GET /v1/models``. Some hosts return 200 there
+        while ``chat/completions`` returns 401 (bad/expired key) — this probe
+        catches that mismatch without pulling a large completion.
+        """
+        base = url.rstrip("/")
+        try:
+            r = self._session.post(
+                f"{base}/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": model,
+                    "messages": [{"role": "user", "content": "."}],
+                    "max_tokens": 1,
+                },
+                timeout=30,
+            )
+            detail: Any = None
+            if not r.ok:
+                try:
+                    detail = r.json()
+                except Exception:
+                    detail = r.text[:400]
+            return {
+                "ok": r.ok,
+                "status_code": r.status_code,
+                "detail": detail,
+            }
+        except requests.RequestException as e:
+            return {"ok": False, "status_code": None, "detail": str(e)}
+
+    def probe_all_chat_endpoints(self) -> dict[str, Any]:
+        """Probe main + sim chat completions (mirrors typical UI/v7 traffic)."""
+        return {
+            "main": self.probe_chat_completion(
+                url=self.main_url,
+                model=self.main_model,
+                api_key=config.MAIN_API_KEY,
+            ),
+            "sim": self.probe_chat_completion(
+                url=self.sim_url,
+                model=self.sim_model,
+                api_key=config.SIM_API_KEY,
+            ),
+        }
 
     # -- structured call ---------------------------------------------------
 
@@ -379,6 +465,8 @@ class LLMClient:
                 "max_tokens": role_max_tokens,
                 "stream": False,
             }
+            if _REASONING_EFFORT:
+                request_payload["reasoning_effort"] = _REASONING_EFFORT
 
             t0 = time.monotonic()
             try:
@@ -469,6 +557,8 @@ class LLMClient:
             "max_tokens": role_max_tokens,
             "stream": False,
         }
+        if _REASONING_EFFORT:
+            request_payload["reasoning_effort"] = _REASONING_EFFORT
         t0 = time.monotonic()
         raw = self._post_chat(request_payload, url, api_key)
         latency = time.monotonic() - t0
@@ -506,6 +596,12 @@ class LLMClient:
         tenant = self._tenant_key(url, api_key)
         expected_max = int(payload.get("max_tokens") or 0)
 
+        lock_120b = (
+            config.SERIALIZE_MAIN_GPT_OSS_120B
+            and self._is_main_gpt_oss_120b_request(url, payload)
+        )
+        if lock_120b:
+            self._main_gpt_oss_120b_semaphore.acquire()
         # GLOBAL concurrency cap (max 2 in-flight TOTAL across all
         # tenants). Acquired BEFORE tenant-level acquire so the global
         # cap is honored even when tenants have headroom.
@@ -552,6 +648,8 @@ class LLMClient:
             if tenant is not None:
                 self._output_limiter.release_slot(tenant)
             self._global_semaphore.release()
+            if lock_120b:
+                self._main_gpt_oss_120b_semaphore.release()
 
     # Match a fenced ```json ... ``` (or generic ``` ... ```) block,
     # tolerating leading prose and optional language tag.

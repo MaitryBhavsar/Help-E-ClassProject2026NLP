@@ -46,7 +46,7 @@ MI_STYLE_RULES = textwrap.dedent("""\
 
 
 def problem_vocab_block() -> str:
-    """Paste-in block for the 20-problem vocabulary with one-line glosses."""
+    """Paste-in block for the problem vocabulary with one-line glosses."""
     glosses = {
         "academic_pressure": "school/university workload and performance expectations",
         "work_stress": "job demands, burnout, work-life balance strain",
@@ -68,10 +68,14 @@ def problem_vocab_block() -> str:
         "health_anxiety": "persistent worry about physical health",
         "body_image_concerns": "distress about appearance, weight, body",
         "life_transition": "moving, graduation, new role, big life change",
+        # v7 additions
+        "friendship_changes": "shifting friend-group dynamics, drift, evolving roles in a peer group",
+        "role_loss": "loss of a defining role (organizer, caregiver, professional identity, etc.)",
     }
-    lines = ["20-problem vocabulary (use these exact strings, no others):"]
+    lines = [f"{len(PROBLEM_VOCAB)}-problem vocabulary (use these exact strings, no others):"]
     for name in PROBLEM_VOCAB:
-        lines.append(f"  - {name} — {glosses[name]}")
+        gloss = glosses.get(name, "(no gloss)")
+        lines.append(f"  - {name} — {gloss}")
     return "\n".join(lines)
 
 

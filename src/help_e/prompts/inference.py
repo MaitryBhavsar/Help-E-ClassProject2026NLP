@@ -220,9 +220,10 @@ def build_system_prompt() -> str:
         - Current problem: a problem from the 20-vocabulary that is active
           in THIS turn. You may carry a previously-active problem forward
           ONLY if the user is clearly still on it.
-        - Main problem: the single most dominant problem in THIS turn, or
-          null if no problem clearly dominates or the turn has no problem
-          content at all.
+        - Main problem: the problem in THIS turn that most drives the
+          current `user_intent`; if uncertain whether a different problem
+          outweighs the prior turn's main_problem, keep the prior. Null
+          if the turn has no problem content.
         - Level attribute: an attribute that carries a low/medium/high
           level. There are 7: perceived_severity, perceived_susceptibility,
           perceived_benefits, perceived_barriers, self_efficacy,
@@ -373,6 +374,15 @@ def build_system_prompt() -> str:
           "problem_cooccurrence_connections": [],
           "problem_attribute_connections": []
         }}
+
+        # STRICT FIELD COMPLIANCE
+
+        Emit ONLY the fields listed in the schema. Do NOT add fields that
+        are not in the schema, even if they seem useful. In particular:
+        items in `problem_attribute_entries` must NOT include a
+        `confidence` field — that field exists only on
+        `problem_attribute_connections` items. Adding a `confidence` to
+        an attribute entry will fail schema validation.
 
         Return ONLY JSON matching the schema. No prose before or after.
     """)

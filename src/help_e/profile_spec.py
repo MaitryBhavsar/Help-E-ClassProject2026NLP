@@ -70,29 +70,29 @@ class ProfileSpec:
 class RunConfig:
     sessions_per_profile: int = 4
     turns_per_session: int = 10
-    turns_by_session: Optional[list[int]] = None
     last_n_turns: int = config.LAST_N_TURNS
     run_judge_inline: bool = False  # legacy hook; v6 judges fire per-session
+    # v7 supports a per-session turn list (e.g., [20, 10, 10]). When set,
+    # overrides sessions_per_profile + turns_per_session. Backward-
+    # compatible: if None, the int pair above is used.
+    turns_per_session_list: Optional[list[int]] = None
 
-    def __post_init__(self) -> None:
-        if self.turns_by_session is None:
-            return
-        if len(self.turns_by_session) != self.sessions_per_profile:
-            raise ValueError(
-                "turns_by_session length must equal sessions_per_profile "
-                f"({len(self.turns_by_session)} != {self.sessions_per_profile})"
-            )
-        for idx, turns in enumerate(self.turns_by_session, start=1):
-            if not isinstance(turns, int) or turns <= 0:
+    def turns_for_session(self, session_index: int) -> int:
+        """1-indexed session_index. Returns the target turn count."""
+        if self.turns_per_session_list is not None:
+            if session_index <= 0 or session_index > len(self.turns_per_session_list):
                 raise ValueError(
-                    "turns_by_session values must be positive integers; "
-                    f"session {idx} got {turns!r}"
+                    f"session_index {session_index} out of range for "
+                    f"turns_per_session_list of length "
+                    f"{len(self.turns_per_session_list)}"
                 )
+            return self.turns_per_session_list[session_index - 1]
+        return self.turns_per_session
 
-    def turns_for_session(self, session_id: int) -> int:
-        if self.turns_by_session is None:
-            return self.turns_per_session
-        return self.turns_by_session[session_id - 1]
+    def num_sessions(self) -> int:
+        if self.turns_per_session_list is not None:
+            return len(self.turns_per_session_list)
+        return self.sessions_per_profile
 
 
 def load_profile(profile_id: str) -> ProfileSpec:
@@ -123,6 +123,21 @@ def _self_test() -> None:
     rc = RunConfig()
     assert rc.sessions_per_profile == 4
     assert rc.turns_per_session == 10
+    assert rc.num_sessions() == 4
+    assert rc.turns_for_session(1) == 10
+    assert rc.turns_for_session(4) == 10
+
+    # RunConfig with per-session turn list.
+    rc2 = RunConfig(turns_per_session_list=[20, 10, 10])
+    assert rc2.num_sessions() == 3
+    assert rc2.turns_for_session(1) == 20
+    assert rc2.turns_for_session(2) == 10
+    assert rc2.turns_for_session(3) == 10
+    try:
+        rc2.turns_for_session(4)
+        raise AssertionError("expected ValueError")
+    except ValueError:
+        pass
 
     # YAML round-trip via tempfile.
     import tempfile

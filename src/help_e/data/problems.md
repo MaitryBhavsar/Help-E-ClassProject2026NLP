@@ -1,8 +1,8 @@
-# HELP-E 20-problem vocabulary (§8.2)
+# HELP-E 25-problem vocabulary (§8.2)
 
-Canonical non-crisis, everyday well-being problems. Identity is the exact
-snake_case string below. Prompts paste the `(name — gloss)` pairs inline and
-Outlines enforces enum membership.
+Canonical non-crisis problems. Identity is the exact snake_case string
+below. Prompts paste the `(name — gloss)` pairs inline and Outlines
+enforces enum membership.
 
 | id | one-line gloss |
 |---|---|
@@ -26,6 +26,11 @@ Outlines enforces enum membership.
 | health_anxiety | persistent worry about physical health |
 | body_image_concerns | distress about appearance, weight, body |
 | life_transition | moving, graduation, new role, big life change |
+| friendship_changes | loss of role/place in a friend group; shifting peer dynamics |
+| role_loss | loss of an identity-defining role (job, caregiver, athlete) |
+| alcohol_reduction | wanting/needing to cut back drinking; ambivalence about drinking |
+| smoking_cessation | wanting/trying to quit tobacco/nicotine |
+| drug_use_reduction | wanting/needing to reduce illicit or recreational drug use |
 
 Crisis topics (suicidality, abuse, acute self-harm) are **out of scope** for
 v1. Any user message raising a crisis topic triggers a hand-off to a scripted
